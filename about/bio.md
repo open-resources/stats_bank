@@ -24,7 +24,7 @@ He has many research interests and they fall under three main umbrellas: medical
 Most recently, he is looking at how the field of learning analytics can provide insight to surface and reduce inequities in STEM programs.
 Firas has a deep appreciation for data visualization, active learning, and open source projects.<br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/jake.jpg"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.jpg"> </img>
 
 #### **Dr. Jake Bobowski**
 
@@ -33,13 +33,13 @@ In addition to teaching and Physics Education Research, he is interested in appl
 
 ### Undergraduate students
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Ava Cornell**
 
 I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/abby.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Abby Kiehlbauch**
 
@@ -47,7 +47,7 @@ I am a first year Bachelor of Arts student at UBCO planning to major in Computer
 
 ### Graduate students
 
-<img align="left" width="150" style="padding-right: 20px" src="../images/stephen.png"> </img>
+<img align="left" width="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Michael Kudla**
 
