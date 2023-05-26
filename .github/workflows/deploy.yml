@@ -44,10 +44,10 @@ jobs:
       run: |
         jupyter-book build .
         
-    - name: Commit updated TOC
-      uses: EndBug/add-and-commit@latest
-      with:
-        message: 'Update TOC via GH Action'
+#     - name: Commit updated TOC
+#       uses: EndBug/add-and-commit@latest
+#       with:
+#         message: 'Update TOC via GH Action'
 
     # Push to server
     - name: rsync and ssh
