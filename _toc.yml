@@ -1,0 +1,9 @@
+format: jb-book
+root: about/home
+parts:
+- caption: Open Problem Bank in Statistics
+  chapters:
+  - file: about/about
+    title: About
+  - file: about/bio
+    title: Project Team

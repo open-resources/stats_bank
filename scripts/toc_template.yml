@@ -1,0 +1,20 @@
+format: jb-book
+root: files/home
+parts:
+- caption: About this Problem Bank
+  chapters:
+  - file: files/about
+    title: About
+  - file: files/bio
+    title: Project Team
+  # - file: content/index
+  #   title: Question Index
+- caption: Documentation
+  chapters:
+  - file: docs/authoring_questions
+  - file: docs/anatomy
+  - file: docs/reviews
+  - file: docs/tips
+  - file: docs/latex
+  - file: docs/rounding
+  - file: docs/alt-text/alt-text
