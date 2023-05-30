@@ -45,7 +45,7 @@ I am a PhD student in MedPhys. I am developing a patient specific technology sui
 
 <img align="left" width="150" style="padding-right: 20px" src="../images/Samuel Street.jpg"> </img>
 **Samuel Street**
-Hello, my name is Samuel Street,
+Hello, my name is Samuel Street, 
 I am an applied mathematics major who is minoring in data science. I just finished my third year and look forward to doing some work this summer. I like school quite a bit and really like math along with just about anything to do with technology. Recently I have taken a bit of an interest in Python and how games can be made with it along with learning more about data science. I find data science fascinating. It is amazing to me that a data scientist can make predictions in fields in which they possess little specific expertise; for example, a data scientist, given enough data is able to make a well-educated guess as to whether or not someone has diabetes or other diseases even if that person knows very little of the disease itself. I also find coding in general to be quite interesting, it is really cool to me how much can be done with code. I find it almost beyond belief how fast a computer is, able to calculate and compare numbers, doing what a human computer would take years to compute in only a few seconds. 
 
 
