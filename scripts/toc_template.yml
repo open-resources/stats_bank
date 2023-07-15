@@ -1,11 +1,11 @@
 format: jb-book
-root: files/home
+root: about/home
 parts:
 - caption: About this Problem Bank
   chapters:
-  - file: files/about
+  - file: about/about
     title: About
-  - file: files/bio
+  - file: about/bio
     title: Project Team
   # - file: content/index
   #   title: Question Index
