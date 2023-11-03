@@ -40,24 +40,24 @@ part3:
 myst:
   substitutions:
     params_vars_title: Relaxing after work
-    params_part2_num1: 1218
-    params_part2_moe_comparison: smaller
+    params_part2_num1: 1070
+    params_part2_moe_comparison: larger
     params_part2_ans1_value: The confidence level of the new interval is the same
       as the previous interval.
     params_part2_ans1_feedback: Try again please! Recall that the width of the confidence
       interval increases as the confidence level increases.
     params_part2_ans2_value: The confidence level of the new interval must be lower
       than that of the previous interval.
-    params_part2_ans2_feedback: Correct!
+    params_part2_ans2_feedback: Try again please! Recall that the width of the confidence
+      interval increases as the confidence level increases.
     params_part2_ans3_value: The confidence level of the new interval must be higher
       than that of the previous interval.
-    params_part2_ans3_feedback: Try again please! Recall that the width of the confidence
-      interval increases as the confidence level increases.
+    params_part2_ans3_feedback: Correct!
     params_part2_ans4_value: The confidence level cannot be determined from the information
       given.
     params_part2_ans4_feedback: Try again please! Recall that the width of the confidence
       interval increases as the confidence level increases.
-    params_part3_num1: 2547
+    params_part3_num1: 2428
     params_part3_num2: 95
     params_part3_ans1_value: The new margin of error will be larger, as a larger sample
       size always leads to a larger margin of error.
@@ -74,10 +74,10 @@ myst:
       knowing the actual values of the confidence intervals.
     params_part3_ans4_feedback: Try again please! Recall that as the sample size increases,
       the standard error decreases, which will decrease the margin of error.
-    params_description_num1: 1218
+    params_description_num1: 1070
     params_description_num2: 95
-    params_description_num3: 1.39
-    params_description_num4: 1.97
+    params_description_num3: 1.44
+    params_description_num4: 1.74
     params_part1_ans1_value: The mean number of hours spent relaxing is exactly 1.65
       hours.
     params_part1_ans1_feedback: Try again please!
@@ -85,7 +85,7 @@ myst:
       estimated with this data.
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: We are 95% confident that the average time spent relaxing
-      by Americans falls between 1.39 and 1.97 hours.
+      by Americans falls between 1.44 and 1.74 hours.
     params_part1_ans3_feedback: Correct!
     params_part1_ans4_value: This interval represents the minimum and maximum number
       of hours Americans spend relaxing.
