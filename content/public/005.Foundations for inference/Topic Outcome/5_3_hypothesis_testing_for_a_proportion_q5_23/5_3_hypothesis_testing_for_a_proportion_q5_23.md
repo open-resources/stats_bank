@@ -42,7 +42,7 @@ myst:
     params_vars_title: Working backwards, Part I
     params_description_num1: 0.4
     params_description_num2: 0.4
-    params_description_num3: 93
+    params_description_num3: 83
     params_description_num4: 0.05
 ---
 # {{ params_vars_title }}
