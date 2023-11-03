@@ -50,7 +50,7 @@ myst:
     params_vars_sample_size1: 30
     params_vars_times: 16
     params_vars_sample_size3: 62
-    params_vars_sample_size4: 186
+    params_vars_sample_size4: 43
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part3_ans1_value: 'True'
