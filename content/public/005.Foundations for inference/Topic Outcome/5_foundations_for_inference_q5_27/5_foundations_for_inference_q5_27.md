@@ -40,7 +40,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Relaxing after work
-    params_part2_num1: 1097
+    params_part2_num1: 1099
     params_part2_moe_comparison: smaller
     params_part2_ans1_value: The confidence level of the new interval is the same
       as the previous interval.
@@ -57,7 +57,7 @@ myst:
       given.
     params_part2_ans4_feedback: Try again please! Recall that the width of the confidence
       interval increases as the confidence level increases.
-    params_part3_num1: 785
+    params_part3_num1: 806
     params_part3_num2: 95
     params_part3_ans1_value: The new margin of error will be larger, as a smaller
       sample size always leads to a larger margin of error.
@@ -74,10 +74,10 @@ myst:
       knowing the actual values of the confidence intervals.
     params_part3_ans4_feedback: Try again please! Recall that as the sample size increases,
       the standard error decreases, which will decrease the margin of error.
-    params_description_num1: 1097
+    params_description_num1: 1099
     params_description_num2: 95
-    params_description_num3: 1.27
-    params_description_num4: 1.84
+    params_description_num3: 1.5
+    params_description_num4: 2.02
     params_part1_ans1_value: The mean number of hours spent relaxing is exactly 1.65
       hours.
     params_part1_ans1_feedback: Try again please!
@@ -85,7 +85,7 @@ myst:
       estimated with this data.
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: We are 95% confident that the average time spent relaxing
-      by Americans falls between 1.27 and 1.84 hours.
+      by Americans falls between 1.5 and 2.02 hours.
     params_part1_ans3_feedback: Correct!
     params_part1_ans4_value: This interval represents the minimum and maximum number
       of hours Americans spend relaxing.
