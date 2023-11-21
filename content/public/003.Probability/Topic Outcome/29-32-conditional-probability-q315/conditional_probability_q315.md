@@ -86,17 +86,17 @@ myst:
     params_num8: 0.12
     params_num9: 0.25
     params_num10: 0.07
-    params_num11: 0.02
-    params_num12: 0.34
-    params_num13: 0.19
-    params_num14: 0.01
-    params_num15: 0.0
-    params_num16: 0.2
-    params_num17: 0.6
-    params_num18: 0.35
-    params_num19: 0.05
+    params_num11: 0.03
+    params_num12: 0.35
+    params_num13: 0.18
+    params_num14: 0.0
+    params_num15: 0.01
+    params_num16: 0.19
+    params_num17: 0.59
+    params_num18: 0.34
+    params_num19: 0.07
     params_num20: 1.0
-    params_n20: 1275
+    params_n20: 1282
     params_part1_ans1_value: 'Yes'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'No'
