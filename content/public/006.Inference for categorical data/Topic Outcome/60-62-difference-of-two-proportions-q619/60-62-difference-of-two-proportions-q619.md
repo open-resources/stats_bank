@@ -66,17 +66,17 @@ myst:
     params_part4_ans2_feedback: Incorrect!
     params_part5_ans1_value: 'False'
     params_part5_ans1_feedback: 'It is simply the negated and reordered values: (0.14,
-      0.18).'
+      0.26).'
     params_part5_ans2_value: 'True'
     params_part5_ans2_feedback: Incorrect!
-    params_lower_bound_percent_abs: 18.0
+    params_lower_bound_percent_abs: 26.0
     params_upper_bound_percent_abs: 14.0
     params_lower_bound_percent_abs_p2: 14.0
-    params_upper_bound_percent_abs_p2: 18.0
-    params_lower_bound: -0.18
+    params_upper_bound_percent_abs_p2: 26.0
+    params_lower_bound: -0.26
     params_upper_bound: -0.14
-    params_male_sample_size: 1787
-    params_female_sample_size: 3957
+    params_male_sample_size: 1659
+    params_female_sample_size: 3708
 ---
 # {{ params_vars_title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).

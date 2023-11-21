@@ -48,9 +48,9 @@ myst:
   substitutions:
     params_vars_title: Orange tabbies
     params_vars_sample_size1: 30
-    params_vars_times: 64
-    params_vars_sample_size3: 75
-    params_vars_sample_size4: 187
+    params_vars_times: 4
+    params_vars_sample_size3: 33
+    params_vars_sample_size4: 259
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part3_ans1_value: 'True'
