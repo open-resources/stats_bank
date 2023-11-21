@@ -30,10 +30,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Identify the parameter, Part I
-    params_vars_question: 'In a survey, one hundred college students are asked: "What
-      percentage of the time you spend on the Internet is part of your course work?"'
+    params_vars_question: In a survey, one hundred college students are asked what
+      percentage of their total weekly spending is on alcoholic beverages.
     params_vars_answer_panel_feedback: Mean. Each student reports a number, which
-      is a percentage, and we can average over these percentages.
+      is a percentage.
     params_part1_ans1_value: Mean
     params_part1_ans1_feedback: Great! You got it.
     params_part1_ans2_value: Proportion
