@@ -65,30 +65,30 @@ part5:
 myst:
   substitutions:
     params_vars_title: Burger Preferences
-    params_num1: 4
-    params_num2: 7
-    params_num3: 11
-    params_num4: 171
-    params_num5: 171
-    params_num6: 342
-    params_num7: 12
-    params_num8: 7
-    params_num9: 19
-    params_num10: 25
-    params_num11: 25
-    params_num12: 50
-    params_num13: 8
-    params_num14: 1
-    params_num15: 9
-    params_num16: 27
-    params_num17: 22
-    params_num18: 49
-    params_num19: 10
-    params_num20: 4
-    params_num21: 14
-    params_num22: 257
-    params_num23: 237
-    params_num24: 494
+    params_num1: 6
+    params_num2: 6
+    params_num3: 12
+    params_num4: 164
+    params_num5: 186
+    params_num6: 350
+    params_num7: 11
+    params_num8: 9
+    params_num9: 20
+    params_num10: 27
+    params_num11: 27
+    params_num12: 54
+    params_num13: 7
+    params_num14: 3
+    params_num15: 10
+    params_num16: 26
+    params_num17: 19
+    params_num18: 45
+    params_num19: 19
+    params_num20: 8
+    params_num21: 27
+    params_num22: 260
+    params_num23: 258
+    params_num24: 518
     params_part1_ans1_value: 'Yes'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'No'
