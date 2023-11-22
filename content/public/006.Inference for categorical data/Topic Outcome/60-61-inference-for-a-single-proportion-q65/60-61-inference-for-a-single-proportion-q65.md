@@ -50,19 +50,20 @@ part5:
 myst:
   substitutions:
     params_vars_title: Gender equality
-    params_vars_sample_size: 1971
-    params_vars_proportion: 82.0
-    params_vars_margin_of_error: 1.7
-    params_vars_lower_bound: 80.3
-    params_vars_upper_bound: 83.7
-    params_vars_margin_of_error_part4: 0.848
+    params_vars_sample_size: 1183
+    params_vars_proportion: 87.0
+    params_vars_margin_of_error: 1.92
+    params_vars_lower_bound: 85.08
+    params_vars_upper_bound: 88.92
+    params_vars_margin_of_error_part4: 0.958
     params_vars_selected_option1: If the sample size were increased from 1559 Americans
       to 5000 Americans while keeping the confidence level and margin of error unchanged,
       the width of the confidence intervals would decrease. This would lead to a higher
       percentage of intervals that include the true population proportion in comparison
       to the initial scenario with 1559 Americans.
-    params_vars_selected_option2: In order to decrease the margin of error to 0.016960863446641893%,
-      we would need to quadruple (multiply by 4) the sample size.
+    params_vars_selected_option2: The margin of error is independent of the variability
+      in the responses from the sample population; it only depends on the sample size
+      and confidence level.
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part2_ans1_value: 'False'
