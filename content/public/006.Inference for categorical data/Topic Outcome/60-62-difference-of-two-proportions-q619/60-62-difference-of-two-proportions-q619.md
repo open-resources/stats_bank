@@ -47,9 +47,9 @@ myst:
   substitutions:
     params_vars_title: Gender and color preference
     params_part1_ans1_value: 'False'
-    params_part1_ans1_feedback: Correct!
+    params_part1_ans1_feedback: Not all of the confidence interval is above 0.
     params_part1_ans2_value: 'True'
-    params_part1_ans2_feedback: The entire confidence interval is above 0.
+    params_part1_ans2_feedback: Correct!
     params_part2_ans1_value: 'True'
     params_part2_ans1_feedback: The lower bound is negative, which contradicts the
       claim that the male proportion is higher.
@@ -65,18 +65,18 @@ myst:
     params_part4_ans2_value: 'False'
     params_part4_ans2_feedback: Incorrect!
     params_part5_ans1_value: 'False'
-    params_part5_ans1_feedback: 'It is simply the negated and reordered values: (0.2,
-      0.28).'
+    params_part5_ans1_feedback: 'It is simply the negated and reordered values: (-0.07,
+      0.03).'
     params_part5_ans2_value: 'True'
     params_part5_ans2_feedback: Incorrect!
-    params_lower_bound_percent_abs: 28.0
-    params_upper_bound_percent_abs: 20.0
-    params_lower_bound_percent_abs_p2: 20.0
-    params_upper_bound_percent_abs_p2: 28.0
-    params_lower_bound: -0.28
-    params_upper_bound: -0.2
-    params_male_sample_size: 1806
-    params_female_sample_size: 3314
+    params_lower_bound_percent_abs: 3.0
+    params_upper_bound_percent_abs: 7.0
+    params_lower_bound_percent_abs_p2: 3.0
+    params_upper_bound_percent_abs_p2: 7.0
+    params_lower_bound: -0.03
+    params_upper_bound: 0.07
+    params_male_sample_size: 1984
+    params_female_sample_size: 3757
 ---
 # {{ params_vars_title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).
