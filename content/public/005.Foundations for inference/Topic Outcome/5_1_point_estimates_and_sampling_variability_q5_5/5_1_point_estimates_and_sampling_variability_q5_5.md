@@ -50,13 +50,13 @@ part5:
 myst:
   substitutions:
     params_vars_title: Repeated water samples
-    params_text_part5_budget: reduced
-    params_text_part5_only: 'only '
-    params_text_part5_can: 'can '
+    params_text_part5_budget: increased
+    params_text_part5_only: ''
+    params_text_part5_can: ''
     params_part3_num1: 9
-    params_part5_num1: 268
-    params_part5_num2: 903
-    params_part5_num3: 762
+    params_part5_num1: 1101
+    params_part5_num2: 1002
+    params_part5_num3: 764
     params_part5_ans1_value: It is impossible to predict the variability of the new
       distribution.
     params_part5_ans1_feedback: The distribution will tend to be more variable when
@@ -75,8 +75,8 @@ myst:
       we have fewer observations per sample.
     params_description_num1: 5
     params_description_num2: 30
-    params_description_num3: 762
-    params_description_num4: 903
+    params_description_num3: 764
+    params_description_num4: 1002
     params_part1_ans1_value: Normal Distribution
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: Poisson Distribution

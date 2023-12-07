@@ -35,25 +35,25 @@ part2:
 myst:
   substitutions:
     params_vars_title: Chronic illness, Part I
-    params_description_num1: 2007
-    params_description_num2: 1.1
-    params_description_num3: 37
-    params_part1_ans1_value: '[32.8 %, 42.2 %]'
+    params_description_num1: 2019
+    params_description_num2: 1.2
+    params_description_num3: 33
+    params_part1_ans1_value: '[28.6 %, 38.4 %]'
     params_part1_ans1_feedback: 'Try again! Recall that the general formula is $point~estimate
       \pm z^{\star}$ × SE. First, identify the three different values. The point estimate
-      is 37%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.1%.Then, plug
-      the values into the formula: 37% $\pm 1.96$ × 1.1%'
-    params_part1_ans2_value: '[34.8 %, 42.2 %]'
+      is 33%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.2%.Then, plug
+      the values into the formula: 33% $\pm 1.96$ × 1.2%'
+    params_part1_ans2_value: '[30.6 %, 38.4 %]'
     params_part1_ans2_feedback: 'Try again! Recall that the general formula is $point~estimate
       \pm z^{\star}$ × SE. First, identify the three different values. The point estimate
-      is 37%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.1%.Then, plug
-      the values into the formula: 37% $\pm 1.96$ × 1.1%'
-    params_part1_ans3_value: '[32.8 %, 39.2 %]'
+      is 33%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.2%.Then, plug
+      the values into the formula: 33% $\pm 1.96$ × 1.2%'
+    params_part1_ans3_value: '[28.6 %, 35.4 %]'
     params_part1_ans3_feedback: 'Try again! Recall that the general formula is $point~estimate
       \pm z^{\star}$ × SE. First, identify the three different values. The point estimate
-      is 37%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.1%.Then, plug
-      the values into the formula: 37% $\pm 1.96$ × 1.1%'
-    params_part1_ans4_value: '[34.8 %, 39.2 %]'
+      is 33%,$z^{\star} = 1.96$ for a 95% confidence level, and SE = 1.2%.Then, plug
+      the values into the formula: 33% $\pm 1.96$ × 1.2%'
+    params_part1_ans4_value: '[30.6 %, 35.4 %]'
     params_part1_ans4_feedback: Correct!
     params_part2_ans1_value: There is a 95% probability that between a and b of U.S.
       adults live with one or more chronic conditions.
