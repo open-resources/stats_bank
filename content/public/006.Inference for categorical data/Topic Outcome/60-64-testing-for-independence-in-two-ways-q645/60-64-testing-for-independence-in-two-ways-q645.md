@@ -88,12 +88,12 @@ part10:
 myst:
   substitutions:
     params_vars_title: Life after college
-    params_vars_ci_low_part4: 0.9131282128223357
-    params_vars_ci_high_part4: 0.9649205676654691
-    params_vars_ci_low_part4_percent: 91
-    params_vars_ci_high_part4_percent: 96
-    params_vars_ci_low_part8: 0.904989414204129
-    params_vars_ci_high_part8: 0.9730593662836757
+    params_vars_ci_low_part4: 0.6173584990267185
+    params_vars_ci_high_part4: 0.7141483502883501
+    params_vars_ci_low_part4_percent: 62
+    params_vars_ci_high_part4_percent: 71
+    params_vars_ci_low_part8: 0.6021486652570335
+    params_vars_ci_high_part8: 0.7293581840580351
     params_part1_ans1_value: Proportion of graduates from this university who found
       a job within one month of graduating.
     params_part1_ans1_feedback: Incorrect.
@@ -105,17 +105,17 @@ myst:
     params_part1_ans4_value: Proportion of graduates from this university who found
       a job within one year of graduating.
     params_part1_ans4_feedback: Correct!
-    params_description_num1: 308
-    params_description_num2: 328
-    params_description_num3: 4270
+    params_description_num1: 243
+    params_description_num2: 365
+    params_description_num3: 4302
     params_part3_ans1_value: This is not a random sample, so the observations are
       not independent.
     params_part3_ans1_feedback: Incorrect.
-    params_part3_ans2_value: 'The success-failure condition is not satisfied: 308
-      successes, 20 failures, both below 10.'
+    params_part3_ans2_value: 'The success-failure condition is not satisfied: 243
+      successes, 122 failures, both below 10.'
     params_part3_ans2_feedback: Incorrect.
-    params_part3_ans3_value: 'The success-failure condition is satisfied: 308 successes,
-      20 failures, both well above 10.'
+    params_part3_ans3_value: 'The success-failure condition is satisfied: 243 successes,
+      122 failures, both well above 10.'
     params_part3_ans3_feedback: Correct!
     params_part3_ans4_value: This is a random sample, so the observations are independent.
     params_part3_ans4_feedback: Correct!

@@ -40,7 +40,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Relaxing after work
-    params_part2_num1: 1202
+    params_part2_num1: 1186
     params_part2_moe_comparison: smaller
     params_part2_ans1_value: The confidence level of the new interval is the same
       as the previous interval.
@@ -57,27 +57,27 @@ myst:
       given.
     params_part2_ans4_feedback: Try again please! Recall that the width of the confidence
       interval increases as the confidence level increases.
-    params_part3_num1: 2632
+    params_part3_num1: 869
     params_part3_num2: 95
-    params_part3_ans1_value: The new margin of error will be larger, as a larger sample
-      size always leads to a larger margin of error.
-    params_part3_ans1_feedback: Try again please! Recall that as the sample size increases,
-      the standard error decreases, which will decrease the margin of error.
+    params_part3_ans1_value: The new margin of error will be larger, as a smaller
+      sample size always leads to a larger margin of error.
+    params_part3_ans1_feedback: Correct!
     params_part3_ans2_value: The new margin of error will be the same, regardless
       of changes in the sample size.
     params_part3_ans2_feedback: Try again please! Recall that as the sample size increases,
       the standard error decreases, which will decrease the margin of error.
-    params_part3_ans3_value: The new margin of error will be smaller, as a larger
+    params_part3_ans3_value: The new margin of error will be smaller, as a smaller
       sample size leads to a smaller margin of error.
-    params_part3_ans3_feedback: Correct!
+    params_part3_ans3_feedback: Try again please! Recall that as the sample size increases,
+      the standard error decreases, which will decrease the margin of error.
     params_part3_ans4_value: The new margin of error cannot be determined without
       knowing the actual values of the confidence intervals.
     params_part3_ans4_feedback: Try again please! Recall that as the sample size increases,
       the standard error decreases, which will decrease the margin of error.
-    params_description_num1: 1202
+    params_description_num1: 1186
     params_description_num2: 95
     params_description_num3: 1.37
-    params_description_num4: 1.99
+    params_description_num4: 1.9
     params_part1_ans1_value: The mean number of hours spent relaxing is exactly 1.65
       hours.
     params_part1_ans1_feedback: Try again please!
@@ -85,7 +85,7 @@ myst:
       estimated with this data.
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: We are 95% confident that the average time spent relaxing
-      by Americans falls between 1.37 and 1.99 hours.
+      by Americans falls between 1.37 and 1.9 hours.
     params_part1_ans3_feedback: Correct!
     params_part1_ans4_value: This interval represents the minimum and maximum number
       of hours Americans spend relaxing.
