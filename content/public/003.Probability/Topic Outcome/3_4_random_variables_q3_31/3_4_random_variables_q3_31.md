@@ -73,10 +73,10 @@ myst:
     params_part5_ans2_value: 'No'
     params_part5_ans2_feedback: Correct! The expected net profit is negative, so on
       average you expect to lose money.
-    params_description_num1: 3
-    params_description_num2: 3
-    params_description_num3: 49
-    params_description_num4: 3
+    params_description_num1: 4
+    params_description_num2: 4
+    params_description_num3: 52
+    params_description_num4: 4
     params_description_num5: 26
 ---
 # {{ params_vars_title }}

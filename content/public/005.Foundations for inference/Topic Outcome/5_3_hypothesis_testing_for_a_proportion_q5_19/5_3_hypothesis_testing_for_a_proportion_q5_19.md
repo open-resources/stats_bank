@@ -44,7 +44,7 @@ myst:
       the lower limit of the confidence interval.
     params_part2_ans1_feedback: Try again please!
     params_part2_ans2_value: Yes, the claim is supported because the upper limit of
-      the confidence interval is 65%, which is close to 68%.
+      the confidence interval is 57%, which is close to 68%.
     params_part2_ans2_feedback: Try again please!
     params_part2_ans3_value: No, the claim is not supported since 68% falls outside
       the confidence interval.
@@ -69,14 +69,14 @@ myst:
     params_part3_ans4_value: It cannot be determined without calculating the 90% confidence
       interval.
     params_part3_ans4_feedback: Try again please!
-    params_description_num1: 59
-    params_description_num2: 65
+    params_description_num1: 51
+    params_description_num2: 57
     params_description_num3: 95
     params_part1_ans1_value: No, the claim is not supported because the upper limit
       of the interval is above 60%, which is not a majority.
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: Yes, the claim is supported, but only because the interval
-      is above 59%, not necessarily indicating a majority.
+      is above 51%, not necessarily indicating a majority.
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: Yes, the claim is supported since the entire interval
       lies above 50%, indicating a majority.
