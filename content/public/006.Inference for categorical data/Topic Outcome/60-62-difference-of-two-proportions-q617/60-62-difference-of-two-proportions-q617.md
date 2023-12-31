@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Social experiment, Part I
-    params_inter_provoc: 15
-    params_non_inter_provoc: 15
-    params_total_provoc: 30
+    params_inter_provoc: 12
+    params_non_inter_provoc: 17
+    params_total_provoc: 29
     params_inter_cons: 17
     params_non_inter_cons: 13
     params_total_cons: 30
