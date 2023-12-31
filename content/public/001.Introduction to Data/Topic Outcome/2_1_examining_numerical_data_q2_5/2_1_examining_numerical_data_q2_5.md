@@ -36,14 +36,14 @@ myst:
     params_part1_option2_value: 2008
     params_part1_option3_value: 1400
     params_part1_statement1_value: Claimed population mean
-    params_part1_statement1_matches: '45'
+    params_part1_statement1_matches: '49'
     params_part1_statement2_value: Sample mean
-    params_part1_statement2_matches: '60'
-    params_question1: American households spent an average of about $45 in 2007 on
+    params_part1_statement2_matches: '65'
+    params_question1: American households spent an average of about $49 in 2007 on
       Halloween merchandise such as costumes, decorations and candy. To see if this
       number had changed, researchers conducted a new survey in 2008 before industry
       numbers were reported. The survey included 1400 households and found that average
-      Halloween spending was $60 per household.
+      Halloween spending was $65 per household.
 ---
 # {{ params_vars_title }}
 Identify which value represents the sample mean and which value represents the claimed population mean.
