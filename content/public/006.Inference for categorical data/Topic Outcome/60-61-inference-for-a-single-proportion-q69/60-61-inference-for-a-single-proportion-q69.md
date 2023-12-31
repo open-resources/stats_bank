@@ -67,12 +67,12 @@ part6:
 myst:
   substitutions:
     params_vars_title: Study abroad
-    params_vars_n: 1869
-    params_vars_p: 50.0
-    params_vars_confidence_level: 98.0
-    params_vars_lower_bound: 0.4731
-    params_vars_lower_bound_percent: 47
-    params_vars_upper_bound: 0.5269
+    params_vars_n: 1911
+    params_vars_p: 51.0
+    params_vars_confidence_level: 95.0
+    params_vars_lower_bound: 0.4876
+    params_vars_lower_bound_percent: 49
+    params_vars_upper_bound: 0.5324
     params_vars_upper_bound_percent: 53
     params_part1_ans1_value: Yes. The sample is a perfect representation of all high
       school seniors.
@@ -86,16 +86,16 @@ myst:
     params_part1_ans4_value: No. The sample only represents students who took the
       SAT, and this was also an online survey.
     params_part1_ans4_feedback: Correct!
-    params_part5_ans1_value: 98% confidence means that if we repeated this survey
-      100 times, 98 of the results would fall within this interval.
+    params_part5_ans1_value: 95% confidence means that if we repeated this survey
+      100 times, 95 of the results would fall within this interval.
     params_part5_ans1_feedback: Incorrect.
-    params_part5_ans2_value: 98% confidence means that we are 98% certain that the
+    params_part5_ans2_value: 95% confidence means that we are 95% certain that the
       true proportion is within this interval.
     params_part5_ans2_feedback: Incorrect.
-    params_part5_ans3_value: 98% confidence means that 98% of the time the true proportion
+    params_part5_ans3_value: 95% confidence means that 95% of the time the true proportion
       will fall within this interval.
     params_part5_ans3_feedback: Incorrect.
-    params_part5_ans4_value: 98% of such random samples would produce a 98% confidence
+    params_part5_ans4_value: 95% of such random samples would produce a 95% confidence
       interval that includes the true proportion.
     params_part5_ans4_feedback: Correct!
     params_part6_ans1_value: No. The interval lies entirely above 50%.
