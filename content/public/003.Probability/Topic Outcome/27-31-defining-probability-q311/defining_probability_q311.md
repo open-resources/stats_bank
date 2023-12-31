@@ -59,20 +59,20 @@ part4:
 myst:
   substitutions:
     params_vars_title: Educational Attainment of Couples
-    params_male_9_less: '0.11'
-    params_male_9_to_12: '0.22'
-    params_male_HS: '0.30'
-    params_male_some_college: '0.14'
+    params_male_9_less: '0.15'
+    params_male_9_to_12: '0.09'
+    params_male_HS: '0.22'
+    params_male_some_college: '0.19'
     params_male_associates: '0.07'
-    params_male_bachelors: '0.02'
-    params_male_graduate_or_professional: '0.15'
-    params_female_9_less: '0.04'
+    params_male_bachelors: '0.10'
+    params_male_graduate_or_professional: '0.19'
+    params_female_9_less: '0.22'
     params_female_9_to_12: '0.09'
-    params_female_HS: '0.25'
-    params_female_some_college: '0.21'
-    params_female_associates: '0.25'
-    params_female_bachelors: '0.16'
-    params_female_graduate_or_professional: '0.00'
+    params_female_HS: '0.11'
+    params_female_some_college: '0.17'
+    params_female_associates: '0.14'
+    params_female_bachelors: '0.13'
+    params_female_graduate_or_professional: '0.13'
     params_part4_ans1_value: 'Yes'
     params_part4_ans1_feedback: Not quite. Assumptions required in part 3 include
       assuming that the education level of the husband and wife are independent and

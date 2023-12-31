@@ -40,8 +40,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Working backwards, Part I
-    params_description_num1: 0.3
-    params_description_num2: 0.3
+    params_description_num1: 0.4
+    params_description_num2: 0.4
     params_description_num3: 91
     params_description_num4: 0.05
 ---
