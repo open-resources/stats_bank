@@ -31,7 +31,7 @@ myst:
   substitutions:
     params_vars_title: Identify the parameter, Part I
     params_vars_question: In a sample of one hundred recent college graduates, it
-      is found that $ 88 $ percent expect to get a job within one year of their graduation
+      is found that $ 70 $ percent expect to get a job within one year of their graduation
       date.
     params_vars_answer_panel_feedback: Proportion. Each student reports whether or
       not s/he expects to get a job, so this is a categorical variable and we use
