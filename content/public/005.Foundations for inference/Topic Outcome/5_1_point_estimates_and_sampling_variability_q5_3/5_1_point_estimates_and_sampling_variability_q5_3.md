@@ -63,7 +63,7 @@ myst:
   substitutions:
     params_vars_title: Quality control
     params_description_num1: 195
-    params_description_num2: 15
+    params_description_num2: 24
     params_part1_ans1_value: The population of all computer chips ever produced by
       the factory.
     params_part1_ans1_feedback: Try again please!
