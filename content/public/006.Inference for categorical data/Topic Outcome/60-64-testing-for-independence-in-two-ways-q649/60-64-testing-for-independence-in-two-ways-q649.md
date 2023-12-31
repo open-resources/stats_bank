@@ -72,15 +72,15 @@ myst:
   substitutions:
     params_vars_title: Browsing on the mobile device.
     params_vars_chinese_proportion: 0.38
-    params_vars_sample_size: 4791
-    params_vars_sample_proportion: 39.0
-    params_vars_Z: 1.4260194280472076
-    params_vars_p_value: 0.15386273416652707
-    params_vars_lower_bound: 0.3761885203791386
-    params_vars_upper_bound: 0.40381147962086145
-    params_part1_ans1_value: '$H_0: p = 0.39$, $H_A: p ≠ 0.38$'
+    params_vars_sample_size: 3261
+    params_vars_sample_proportion: 46.0
+    params_vars_Z: 9.411909516513049
+    params_vars_p_value: 0.0
+    params_vars_lower_bound: 0.4428936848924341
+    params_vars_upper_bound: 0.47710631510756596
+    params_part1_ans1_value: '$H_0: p = 0.46$, $H_A: p ≠ 0.38$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.39$, $H_A: p = 0.38$'
+    params_part1_ans2_value: '$H_0: p = 0.46$, $H_A: p = 0.38$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
     params_part1_ans3_feedback: Correct!
@@ -90,12 +90,12 @@ myst:
       the data provide strong evidence that the proportion of Americans who only use
       their cell phones to access the internet is different than the Chinese proportion
       of 38%, and the data indicate that the proportion is lower in the US.
-    params_part4_ans1_feedback: Try again please!
-    params_part4_ans2_value: As the p-value is greater than or equal to 0.05, we fail
-      to reject $H_0$, then the data does not provide strong evidence to show that
-      the proportion of Americans who only use their cell phones to access the internet
-      is different than the Chinese proportion of 38%.
-    params_part4_ans2_feedback: Correct!
+    params_part4_ans1_feedback: Correct!
+    params_part4_ans2_value: As the p-value is greater than 0.05, we fail to reject
+      $H_0$, then the data does not provide strong evidence to show that the proportion
+      of Americans who only use their cell phones to access the internet is different
+      than the Chinese proportion of 38%.
+    params_part4_ans2_feedback: Try again please!
     params_part7_ans1_value: We are 95% confident that approximately [Lower bound]
       to [Upper bound] of all Americans primarily use their cell phones to browse
       the internet.
