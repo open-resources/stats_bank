@@ -54,12 +54,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Chips in a bag
-    params_description_num1: 10
-    params_description_num2: 4
+    params_description_num1: 9
+    params_description_num2: 2
     params_description_num3: 1
-    params_description_n1: 14
-    params_description_n: 15
-    params_description_blue1: 3
+    params_description_n1: 11
+    params_description_n: 12
+    params_description_blue1: 1
     params_part4_ans1_value: 'Yes'
     params_part4_ans1_feedback: Incorrect. Removing one chip meaningfully changes
       the probability of what might be drawn next.
