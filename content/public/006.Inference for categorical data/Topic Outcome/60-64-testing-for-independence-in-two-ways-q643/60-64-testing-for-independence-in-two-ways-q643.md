@@ -59,12 +59,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: College smokers
-    params_vars_n: 227
-    params_vars_x: 41
-    params_vars_CI_low: 13.057
-    params_vars_CI_high: 23.066
-    params_vars_n_new: 1422.0
-    params_vars_ME_description: 2
+    params_vars_n: 296
+    params_vars_x: 68
+    params_vars_CI_low: 18.181
+    params_vars_CI_high: 27.765
+    params_vars_n_new: 756.0
+    params_vars_ME_description: 3
 ---
 # {{ params_vars_title }}
 We are interested in estimating the proportion of students at a university who smoke. Out of a random sample of {{ params_vars_n }} students from this university, {{ params_vars_x }} students smoke.

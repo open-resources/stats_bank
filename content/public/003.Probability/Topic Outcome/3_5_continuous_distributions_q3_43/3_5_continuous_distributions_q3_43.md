@@ -54,10 +54,10 @@ part4:
 myst:
   substitutions:
     params_vars_title: Cost of breakfast
-    params_description_num1: '1.48'
+    params_description_num1: '1.46'
     params_description_std: '0.34'
-    params_description_num2: '2.29'
-    params_description_num3: '0.11'
+    params_description_num2: '2.74'
+    params_description_num3: '0.17'
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">
