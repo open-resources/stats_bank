@@ -75,9 +75,9 @@ myst:
       average you expect to lose money.
     params_description_num1: 4
     params_description_num2: 4
-    params_description_num3: 52
+    params_description_num3: 50
     params_description_num4: 4
-    params_description_num5: 26
+    params_description_num5: 24
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">
