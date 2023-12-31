@@ -50,12 +50,12 @@ part5:
 myst:
   substitutions:
     params_vars_title: Gender equality
-    params_vars_sample_size: 1068
-    params_vars_proportion: 39.0
-    params_vars_margin_of_error: 2.93
-    params_vars_lower_bound: 36.07
-    params_vars_upper_bound: 41.93
-    params_vars_margin_of_error_part4: 1.463
+    params_vars_sample_size: 1345
+    params_vars_proportion: 33.0
+    params_vars_margin_of_error: 2.51
+    params_vars_lower_bound: 30.49
+    params_vars_upper_bound: 35.51
+    params_vars_margin_of_error_part4: 1.256
     params_vars_selected_option1: If the sample size were increased from 1559 Americans
       to 5000 Americans while keeping the confidence level and margin of error unchanged,
       the width of the confidence intervals would decrease. This would lead to a higher
