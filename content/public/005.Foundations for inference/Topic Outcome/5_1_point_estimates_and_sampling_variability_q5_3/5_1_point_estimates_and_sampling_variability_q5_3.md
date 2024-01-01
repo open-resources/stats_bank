@@ -62,24 +62,24 @@ part7:
 myst:
   substitutions:
     params_vars_title: Quality control
-    params_description_num1: 160
-    params_description_num2: 23
+    params_description_num1: 194
+    params_description_num2: 17
     params_part1_ans1_value: The population of all computer chips ever produced by
       the factory.
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: The population of 160  computer chips sampled during
+    params_part1_ans2_value: The population of 194  computer chips sampled during
       a week of production.
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: All computer chips manufactured at the factory during
       the week of production.
     params_part1_ans3_feedback: Correct!
-    params_part1_ans4_value: The population of 160 defective computer chips found
+    params_part1_ans4_value: The population of 194 defective computer chips found
       in the sample.
     params_part1_ans4_feedback: Try again please!
     params_part2_ans1_value: The fraction of computer chips manufactured at the factory
       over the entire year that had defects.
     params_part2_ans1_feedback: Try again please!
-    params_part2_ans2_value: The fraction of the 160 sampled chips that had defects.
+    params_part2_ans2_value: The fraction of the 194 sampled chips that had defects.
     params_part2_ans2_feedback: Try again please!
     params_part2_ans3_value: The fraction of computer chips manufactured at the factory
       during the week of production that had defects.
@@ -103,7 +103,7 @@ myst:
     params_part7_ans1_feedback: Try again please!
     params_part7_ans2_value: No, the value does not change significantly.
     params_part7_ans2_feedback: Correct!
-    params_answer_num1: 0.02372
+    params_answer_num1: 0.02154
 ---
 # {{ params_vars_title }}
 As part of a quality control process for computer chips, an engineer at a factory randomly samples ${{ params_description_num1 }}$ chips during a week of production to test the current rate of chips with severe defects.

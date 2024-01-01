@@ -110,32 +110,32 @@ myst:
     params_part6_ans1_feedback: Correct!
     params_part6_ans2_value: 'No'
     params_part6_ans2_feedback: Incorrect!
-    params_part9_ans1_value: Since the p-value is very large, we reject $H_0$. The
-      data provide weak evidence that the proportion of college graduates who do not
-      have an opinion on this issue is different than that of non-college graduates.
+    params_part9_ans1_value: Since the p-value is very small, we reject $H_0$. The
+      data provide strong evidence that the proportion of college graduates who do
+      not have an opinion on this issue is different than that of non-college graduates.
     params_part9_ans1_feedback: Try again please!
     params_part9_ans2_value: Since the p-value is very small, we accept $H_0$. The
       data provide strong evidence that the proportion of college graduates who do
-      not have an opinion on this issue is the same as that of non-college graduates.
+      not have an opinion on this issue is the same as that of non-college graduates
     params_part9_ans2_feedback: Try again please!
-    params_part9_ans3_value: Since the p-value is very small, we reject $H_0$. The
-      data provide strong evidence that the proportion of college graduates who do
-      not have an opinion on this issue is different than that of non-college graduates.
-    params_part9_ans3_feedback: Correct!
-    params_part9_ans4_value: Since the p-value > 0.05, we fail to reject $H_0$. The
+    params_part9_ans3_value: Since the p-value > 0.05, we fail to reject $H_0$. The
       data do not provide strong evidence that the proportion of college graduates
       who do not have an opinion on this issue is different from that of non-college
       graduates.
+    params_part9_ans3_feedback: Correct!
+    params_part9_ans4_value: Since the p-value is very large, we reject $H_0$. The
+      data provide weak evidence that the proportion of college graduates who do not
+      have an opinion on this issue is different than that of non-college graduates.
     params_part9_ans4_feedback: Try again please!
-    params_yes_support: 143
-    params_yes_oppose: 187
-    params_yes_do_not_know: 100
-    params_yes_total: 430
-    params_no_support: 130
-    params_no_oppose: 133
-    params_no_do_not_know: 139
-    params_no_total: 402
-    params_total: 832
+    params_yes_support: 142
+    params_yes_oppose: 185
+    params_yes_do_not_know: 105
+    params_yes_total: 432
+    params_no_support: 144
+    params_no_oppose: 131
+    params_no_do_not_know: 115
+    params_no_total: 390
+    params_total: 822
 ---
 # {{ params_vars_title }}
 A survey asked {{ params_total }} randomly sampled registered voters in California "Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?" Below is the distribution of responses, separated based on whether or not the respondent graduated from college.
