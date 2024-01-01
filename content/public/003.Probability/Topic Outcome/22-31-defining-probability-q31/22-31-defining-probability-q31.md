@@ -1,7 +1,7 @@
 ---
-title: Is it Bernoulli?
-topic: Distributions of random variables
-author: Larry Gu
+title: True or false
+topic: Probability
+author: Sophie Varabioff
 source: original
 template_version: 1.4
 attribution: openintro-stats
@@ -9,8 +9,7 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 6.1.1.0
-- 6.1.1.1
+- 3.1.1.2
 difficulty:
 - undefined
 randomization:
@@ -22,34 +21,37 @@ span:
 length:
 - undefined
 tags:
-- LG
+- SV
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Is it Bernoulli?
-    params_vars_question: Outcome of each roll of a die.
+    params_vars_title: True or false
+    params_vars_question1: Drawing a face card (jack, queen, or king) and drawing
+      a red card from a full deck of playing cards are mutually exclusive events.
+    params_vars_question1_ans: False. There are red face cards.
     params_part1_ans1_value: 'True'
-    params_part1_ans1_feedback: There are six events under consideration. The Bernoulli
-      distribution allows for only two events or categories. Note that rolling a die
-      could be a Bernoulli trial if we simplify to two events, e.g. rolling a 6 and
-      not rolling a 6, though specifying such details would be necessary.
+    params_part1_ans1_feedback: False. There are red face cards.
     params_part1_ans2_value: 'False'
-    params_part1_ans2_feedback: Great! You got it.
+    params_part1_ans2_feedback: Correct!
 ---
 # {{ params_vars_title }}
-Determine if the following trial can be considered an independent Bernoulli trial.
 
 ## Part 1
 
-{{params_vars_question}}
+{{params_vars_question1}}
 
 ### Answer Section
 
 - {{ params_part1_ans1_value }}
 - {{ params_part1_ans2_value }}
+
+### pl-answer-panel
+
+{{params_vars_question1_ans}}
 
 ## Attribution
 

@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Portfolio return
-    params_description_num1: 19
+    params_description_num1: 18
     params_description_num2: 5
-    params_description_num3: 20
+    params_description_num3: 9
 ---
 # {{ params_vars_title }}
 A portfolio's value increases by ${{ params_description_num1 }}$% during a financial boom and by ${{ params_description_num2 }}$% during normal times. It decreases by ${{ params_description_num3 }}$% during a recession.
