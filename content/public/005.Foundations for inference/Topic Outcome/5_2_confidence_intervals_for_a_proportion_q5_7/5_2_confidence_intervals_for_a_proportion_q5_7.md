@@ -35,7 +35,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Chronic illness, Part I
-    params_description_num1: 2012
+    params_description_num1: 2017
     params_description_num2: 1.2
     params_description_num3: 46
     params_part1_ans1_value: '[41.6 %, 51.4 %]'
