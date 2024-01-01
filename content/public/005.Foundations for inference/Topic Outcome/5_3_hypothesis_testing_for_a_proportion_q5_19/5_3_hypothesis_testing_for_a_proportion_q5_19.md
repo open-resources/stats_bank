@@ -39,16 +39,16 @@ part3:
 myst:
   substitutions:
     params_vars_title: Cyberbullying rates
-    params_part2_num1: 69
-    params_part2_ans1_value: Yes, the claim is supported since 69% is greater than
+    params_part2_num1: 72
+    params_part2_ans1_value: Yes, the claim is supported since 72% is greater than
       the lower limit of the confidence interval.
     params_part2_ans1_feedback: Try again please!
     params_part2_ans2_value: Yes, the claim is supported because the upper limit of
-      the confidence interval is 64%, which is close to 69%.
+      the confidence interval is 69%, which is close to 72%.
     params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: No, the claim is not supported since 69% falls outside
+    params_part2_ans3_value: No, the claim is not supported since 72% falls outside
       the confidence interval.
-    params_part2_ans3_feedback: Correct! The value of 69% lies outside of the interval,
+    params_part2_ans3_feedback: Correct! The value of 72% lies outside of the interval,
       so we have convincing evidence that the researcher's conjecture is wrong.
     params_part2_ans4_value: No, the claim is not supported because the confidence
       interval is too narrow.
@@ -64,13 +64,13 @@ myst:
       interval would be narrower than a 95% confidence interval.
     params_part3_ans3_feedback: Correct! A 90% confidence interval will be narrower
       than a 95% confidence interval. Even without calculating the interval, we can
-      tell that 69% would not fall in the interval, and we would reject the researcher's
+      tell that 72% would not fall in the interval, and we would reject the researcher's
       conjecture based on a 90% confidence level as well.
     params_part3_ans4_value: It cannot be determined without calculating the 90% confidence
       interval.
     params_part3_ans4_feedback: Try again please!
     params_description_num1: 56
-    params_description_num2: 64
+    params_description_num2: 69
     params_description_num3: 95
     params_part1_ans1_value: No, the claim is not supported because the upper limit
       of the interval is above 60%, which is not a majority.
