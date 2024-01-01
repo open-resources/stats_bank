@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Grade distributions
-    params_description_ra_cf: 0.5
+    params_description_ra_cf: 0.2
     params_description_num1: 0.2
     params_description_num2: 0.2
     params_description_num3: 0.2
-    params_description_num4: 0.1
+    params_description_num4: 0.4
     params_description_num5: 0
     params_description_num6: 0
     params_description_num7: 1
@@ -47,15 +47,15 @@ myst:
     params_description_num13: 0
     params_description_num14: 0
     params_description_num15: 0.2
-    params_description_num16: 0.1
-    params_description_num17: 0.1
-    params_description_num18: 0.2
+    params_description_num16: 0.0
+    params_description_num17: 0.4
+    params_description_num18: 0.1
     params_description_num19: -0.1
-    params_description_num20: 0.1
+    params_description_num20: 0.2
     params_description_num21: 0.2
     params_description_num22: 0.3
     params_description_num23: 0.2
-    params_description_num24: 0.2
+    params_description_num24: 0.1
     params_description_num25: 0
     params_description_num26: -0.1
     params_description_num27: 1.2
