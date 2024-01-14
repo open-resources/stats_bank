@@ -49,8 +49,8 @@ myst:
     params_vars_title: Orange tabbies
     params_vars_sample_size1: 30
     params_vars_times: 16
-    params_vars_sample_size3: 65
-    params_vars_sample_size4: 160
+    params_vars_sample_size3: 145
+    params_vars_sample_size4: 273
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part3_ans1_value: 'True'

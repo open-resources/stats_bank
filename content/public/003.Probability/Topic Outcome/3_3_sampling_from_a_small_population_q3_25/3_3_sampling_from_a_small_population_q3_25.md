@@ -54,11 +54,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: Chips in a bag
-    params_description_num1: 10
+    params_description_num1: 9
     params_description_num2: 3
-    params_description_num3: 4
-    params_description_n1: 16
-    params_description_n: 17
+    params_description_num3: 1
+    params_description_n1: 12
+    params_description_n: 13
     params_description_blue1: 2
     params_part4_ans1_value: 'Yes'
     params_part4_ans1_feedback: Incorrect. Removing one chip meaningfully changes

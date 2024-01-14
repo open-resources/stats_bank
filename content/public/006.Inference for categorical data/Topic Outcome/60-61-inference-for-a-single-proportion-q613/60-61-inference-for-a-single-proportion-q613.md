@@ -64,11 +64,11 @@ part6:
 myst:
   substitutions:
     params_vars_title: Taste Test
-    params_vars_sample: 86
-    params_vars_p_value: 0.5176341185833462
-    params_part1_ans1_value: '$H_0: p = 0.53$, $H_A: p ≠ 0.5$'
+    params_vars_sample: 88
+    params_vars_p_value: 0.010515245935859063
+    params_part1_ans1_value: '$H_0: p = 0.64$, $H_A: p ≠ 0.5$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.53$, $H_A: p = 0.5$'
+    params_part1_ans2_value: '$H_0: p = 0.64$, $H_A: p = 0.5$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
     params_part1_ans3_feedback: Correct!
@@ -76,27 +76,27 @@ myst:
     params_part1_ans4_feedback: Try again please!
     params_part2_ans1_value: Since this is a random sample, independence is satisfied.
       The success-failure condition is also satisfied as we (using $p_0 = 0.5$, we
-      expect 43 successes and 43 failures).
+      expect 44 successes and 44 failures).
     params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is not satisfied, as our expectation of 43 successes
-      and 43 failures, using $p_0 = 0.5$, is not met.
+      The success-failure condition is not satisfied, as our expectation of 44 successes
+      and 44 failures, using $p_0 = 0.5$, is not met.
     params_part2_ans2_feedback: Try again please!
     params_part2_ans3_value: Given this is not a random sample, independence is not
       satisfied. The success-failure condition is also satisfied as we (using $p_0
-      = 0.5$, we expect 43 successes and 43 failures).
+      = 0.5$, we expect 44 successes and 44 failures).
     params_part2_ans3_feedback: Try again please!
     params_part5_ans1_value: Since the p-value $< 0.05$, we reject the null hypothesis.
       Since we rejected $H_0$ and the point estimate suggests people are better than
       random guessing, we can conclude the rate of correctly identifying a soda for
       these people is significantly better than just by random guessing.
-    params_part5_ans1_feedback: Try again please!
+    params_part5_ans1_feedback: Correct!
     params_part5_ans2_value: Since the p-value $≥ 0.05$, we fail to reject the null
       hypothesis. Since we did not reject $H_0$ and the point estimate suggests people
       are not better than random guessing, we cannot conclude that the rate of correctly
       identifying a soda for these people is significantly better than just by random
       guessing.
-    params_part5_ans2_feedback: Correct!
+    params_part5_ans2_feedback: Try again please!
 ---
 # {{ params_vars_title }}
 Some people claim that they can tell the difference between a diet soda and a regular soda in the first sip. A researcher wanting to test this claim randomly sampled {{ params_vars_sample }} such people. He then filled {{ params_vars_sample }} plain white cups with soda, half diet and half regular through random assignment, and asked each person to take one sip from their cup and identify the soda as diet or regular. {{ params.vars.num_correct_identifications }} participants correctly identified the soda. Do these data provide strong evidence that these people are any better or worse than random guessing at telling the difference between diet and regular soda? Yes or No?
