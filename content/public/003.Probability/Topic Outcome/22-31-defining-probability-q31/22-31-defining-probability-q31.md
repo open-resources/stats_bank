@@ -30,9 +30,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: True or false
-    params_vars_question1: If a die is tossed many times and the last three tosses
-      are all five, then the chance that the next toss will be five is somewhat less
-      than 50%.
+    params_vars_question1: If a fair coin is tossed many times and the last eight
+      tosses are all heads, then the chance that the next toss will be heads is somewhat
+      less than 50%.
     params_vars_question1_ans: False. These are independent trials.
     params_part1_ans1_value: 'True'
     params_part1_ans1_feedback: False. These are independent trials.
