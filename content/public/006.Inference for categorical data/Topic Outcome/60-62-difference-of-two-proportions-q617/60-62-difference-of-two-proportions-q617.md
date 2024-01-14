@@ -34,12 +34,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Social experiment, Part I
-    params_inter_provoc: 15
-    params_non_inter_provoc: 16
+    params_inter_provoc: 12
+    params_non_inter_provoc: 19
     params_total_provoc: 31
-    params_inter_cons: 17
-    params_non_inter_cons: 11
-    params_total_cons: 28
+    params_inter_cons: 20
+    params_non_inter_cons: 13
+    params_total_cons: 33
     params_part1_ans1_value: This is not a randomized experiment, and it is unclear
       whether people would be affected by the behavior of their peers.
     params_part1_ans1_feedback: Correct!
