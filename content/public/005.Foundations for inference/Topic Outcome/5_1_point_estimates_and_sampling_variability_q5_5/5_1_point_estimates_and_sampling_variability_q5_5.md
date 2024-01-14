@@ -53,10 +53,10 @@ myst:
     params_text_part5_budget: increased
     params_text_part5_only: ''
     params_text_part5_can: ''
-    params_part3_num1: 5
-    params_part5_num1: 1193
-    params_part5_num2: 900
-    params_part5_num3: 818
+    params_part3_num1: 9
+    params_part5_num1: 1114
+    params_part5_num2: 1022
+    params_part5_num3: 787
     params_part5_ans1_value: It is impossible to predict the variability of the new
       distribution.
     params_part5_ans1_feedback: The distribution will tend to be more variable when
@@ -75,8 +75,8 @@ myst:
       we have fewer observations per sample.
     params_description_num1: 5
     params_description_num2: 30
-    params_description_num3: 818
-    params_description_num4: 900
+    params_description_num3: 787
+    params_description_num4: 1022
     params_part1_ans1_value: Normal Distribution
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: Poisson Distribution

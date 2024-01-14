@@ -53,10 +53,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: Waiting at an ER, Part I
-    params_ci_lower: 136
+    params_ci_lower: 139
     params_ci_higher: 154
     params_part1_num1: 95
-    params_part1_num2: 64
+    params_part1_num2: 67
     params_part1_ans1_value: 'True'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'False'
@@ -71,14 +71,14 @@ myst:
     params_part3_ans1_feedback: Try again please!
     params_part3_ans2_value: 'False'
     params_part3_ans2_feedback: Correct!
-    params_part4_num1: 92
+    params_part4_num1: 98
     params_part4_num2: 95
     params_part4_ans1_value: 'True'
-    params_part4_ans1_feedback: Correct!
+    params_part4_ans1_feedback: Try again please!
     params_part4_ans2_value: 'False'
-    params_part4_ans2_feedback: Try again please!
-    params_part5_num1: 9.0
-    params_part5_num2: 146.0
+    params_part4_ans2_feedback: Correct!
+    params_part5_num1: 8.5
+    params_part5_num2: 147.5
     params_part5_ans1_value: 'True'
     params_part5_ans1_feedback: Try again please!
     params_part5_ans2_value: 'False'
@@ -88,9 +88,9 @@ myst:
     params_part6_ans1_feedback: Try again please!
     params_part6_ans2_value: 'False'
     params_part6_ans2_feedback: Correct!
-    params_description_num1: 64
+    params_description_num1: 67
     params_description_num2: 95
-    params_description_num3: 136
+    params_description_num3: 139
     params_description_num4: 154
 ---
 # {{ params_vars_title }}
