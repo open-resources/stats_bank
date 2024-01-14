@@ -77,7 +77,7 @@ myst:
     params_vars_title: Joint and Conditional Probabilities
     params_num1: 0.3
     params_num2: 0.7
-    params_num3: 0.1
+    params_num3: 0.2
     params_part1_ans1_value: 'Yes'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'No'

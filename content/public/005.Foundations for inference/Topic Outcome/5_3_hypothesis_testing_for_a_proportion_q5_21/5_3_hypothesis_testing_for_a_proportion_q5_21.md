@@ -52,7 +52,7 @@ part5:
 myst:
   substitutions:
     params_vars_title: Minimum wage, Part I
-    params_description_num1: 1064
+    params_description_num1: 1075
     params_description_num2: 46
     params_part1_ans1_value: '$H_0: p < 0.5$, $H_a: p > 0.5$'
     params_part1_ans1_feedback: Try again please!

@@ -42,7 +42,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Identify hypotheses, Part I
-    params_part1_num1: 180
+    params_part1_num1: 186
     params_part1_ans1_value: '$ H_0: p < 0.5 $ A minority of students'' grades improved.'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: '$H_0: p > 0.5$ A majority of students'' grades improved.'

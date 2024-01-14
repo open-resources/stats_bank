@@ -70,7 +70,7 @@ part7:
 myst:
   substitutions:
     params_vars_title: National Health Plan, Part I
-    params_vars_sample_size: 681
+    params_vars_sample_size: 516
     params_vars_sample_proportion: 52
     params_part1_ans1_value: '$H_0: p = 0.52$, $H_A: p ≠ 0.5$'
     params_part1_ans1_feedback: Try again please!
