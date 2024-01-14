@@ -67,13 +67,13 @@ part6:
 myst:
   substitutions:
     params_vars_title: Study abroad
-    params_vars_n: 1032
-    params_vars_p: 54.0
+    params_vars_n: 1265
+    params_vars_p: 58.0
     params_vars_confidence_level: 95.0
-    params_vars_lower_bound: 0.5096
-    params_vars_lower_bound_percent: 51
-    params_vars_upper_bound: 0.5704
-    params_vars_upper_bound_percent: 57
+    params_vars_lower_bound: 0.5528
+    params_vars_lower_bound_percent: 55
+    params_vars_upper_bound: 0.6072
+    params_vars_upper_bound_percent: 61
     params_part1_ans1_value: Yes. The sample is a perfect representation of all high
       school seniors.
     params_part1_ans1_feedback: Incorrect.

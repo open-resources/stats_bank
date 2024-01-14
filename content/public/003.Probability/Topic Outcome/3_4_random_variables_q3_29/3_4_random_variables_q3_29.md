@@ -38,16 +38,16 @@ part2:
 myst:
   substitutions:
     params_vars_title: College smokers
-    params_part1_num1: 91
-    params_part2_start_hour: 11
-    params_part2_before_start_hour: 10
-    params_part2_waiting_students: 27
+    params_part1_num1: 101
+    params_part2_start_hour: 5
+    params_part2_before_start_hour: 4
+    params_part2_waiting_students: 28
     params_part2_ans1_value: 'No'
     params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: 'Yes'
     params_part2_ans2_feedback: Incorrect. These students are not a random sample
       from the university's student population.
-    params_description_perc_smokers: 23
+    params_description_perc_smokers: 16
 ---
 # {{ params_vars_title }}
 At a university, ${{ params.description.perc_smokers }}$% of students smoke.
