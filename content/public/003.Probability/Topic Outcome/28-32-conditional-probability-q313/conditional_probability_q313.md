@@ -76,7 +76,7 @@ myst:
   substitutions:
     params_vars_title: Joint and Conditional Probabilities
     params_num1: 0.4
-    params_num2: 0.6
+    params_num2: 0.8
     params_num3: 0.2
     params_part1_ans1_value: 'Yes'
     params_part1_ans1_feedback: Try again please!

@@ -35,11 +35,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Fireworks on July 4th
-    params_vars_margin_of_error: 0.03751
-    params_vars_margin_of_error_percent: 3.751
-    params_vars_proportion: 64.0
-    params_vars_p: 0.64
-    params_vars_n: 629
+    params_vars_margin_of_error: 0.03938
+    params_vars_margin_of_error_percent: 3.938
+    params_vars_proportion: 55.0
+    params_vars_p: 0.55
+    params_vars_n: 613
     params_vars_z: 1.96
 ---
 # {{ params_vars_title }}
