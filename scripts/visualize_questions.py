@@ -21,7 +21,12 @@ if __name__ == '__main__':
     for root, dirs, files in os.walk(source_root):
         for file in files:
             if(file.endswith(".md")):
-                questions.append(os.path.join(root,file))
+                qpath = os.path.join(root,file)
+                
+                if 'unsorted' in qpath:
+                    continue
+                else:
+                    questions.append(qpath)
 
     o_topics = [[q.split(source_root)[1].split('/')[0].split('.')[1],
                  q.split(source_root)[1].split('/')[0].replace('.','-')] for q in questions]
