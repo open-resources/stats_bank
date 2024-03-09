@@ -41,7 +41,7 @@ def main():
         # get all questions for a particular topic
         topic_questions = sorted([str(f).split('.md')[0] for f in files if f.parts[2]==topic])
         
-        if topics == 'unsorted':
+        if topic == 'unsorted':
             continue
         else:
             temp_dict = {'caption': topic.split('.')[1],
