@@ -31,34 +31,34 @@ part1:
 myst:
   substitutions:
     params_vars_title: Grade distributions
-    params_description_ra_cf: 0.4
-    params_description_num1: 0.2
-    params_description_num2: 0.2
-    params_description_num3: 0.2
-    params_description_num4: 0.2
+    params_description_ra_cf: 0.6
+    params_description_num1: 0.1
+    params_description_num2: 0.1
+    params_description_num3: 0.1
+    params_description_num4: 0.3
     params_description_num5: 0
     params_description_num6: 0
     params_description_num7: 1
     params_description_num8: 0
     params_description_num9: 0
-    params_description_num10: 0.2
-    params_description_num11: 0.2
-    params_description_num12: 0.2
+    params_description_num10: 0.1
+    params_description_num11: 0.1
+    params_description_num12: 0.1
     params_description_num13: 0
     params_description_num14: 0
-    params_description_num15: 0.2
+    params_description_num15: 0.1
     params_description_num16: 0.1
-    params_description_num17: 0.2
+    params_description_num17: 0.3
     params_description_num18: 0.1
     params_description_num19: -0.3
-    params_description_num20: 0.1
-    params_description_num21: 0.3
-    params_description_num22: 0.2
-    params_description_num23: 0.2
-    params_description_num24: 0.2
+    params_description_num20: 0.2
+    params_description_num21: 0.2
+    params_description_num22: 0.1
+    params_description_num23: 0.1
+    params_description_num24: 0.4
     params_description_num25: 0
     params_description_num26: -0.3
-    params_description_num27: 1.0
+    params_description_num27: 1.1
     params_description_num28: 0
     params_description_num29: 0
     params_part1_ans1_value: a
