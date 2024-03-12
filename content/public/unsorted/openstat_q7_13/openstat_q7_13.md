@@ -37,7 +37,7 @@ myst:
     params_vars_title: Car insurance savings
     params_description_std: 103
     params_description_moe_max: 15
-    params_description_confidence_level: 0.95
+    params_description_confidence_level: 0.86
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">

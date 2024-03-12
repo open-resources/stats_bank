@@ -30,13 +30,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Identify the parameter, Part I
-    params_vars_question: In a survey, one hundred college students are asked whether
-      or not they cited information from Wikipedia in their papers.
-    params_vars_answer_panel_feedback: Proportion. Each student reports Yes or No,
-      so this is a categorical variable and we use a proportion.
-    params_part1_ans1_value: Proportion
+    params_vars_question: In a survey, one hundred college students are asked what
+      percentage of their total weekly spending is on alcoholic beverages.
+    params_vars_answer_panel_feedback: Mean. Each student reports a number, which
+      is a percentage.
+    params_part1_ans1_value: Mean
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: Mean
+    params_part1_ans2_value: Proportion
     params_part1_ans2_feedback: Try again please!
 ---
 # {{ params_vars_title }}

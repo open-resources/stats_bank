@@ -58,15 +58,15 @@ part4:
 myst:
   substitutions:
     params_vars_title: Migraine and acupuncture, Part I
-    params_table0_r2_c2: 13
-    params_table0_r2_c3: 37
-    params_table0_r2_c4: 50
+    params_table0_r2_c2: 12
+    params_table0_r2_c3: 36
+    params_table0_r2_c4: 48
     params_table0_r3_c2: 6
     params_table0_r3_c3: 41
     params_table0_r3_c4: 47
-    params_table0_r4_c2: 19
-    params_table0_r4_c3: 78
-    params_table0_r4_c4: 97
+    params_table0_r4_c2: 18
+    params_table0_r4_c3: 77
+    params_table0_r4_c4: 95
     params_part1_num1: 24.0
     params_part3_num1: 24.0
     params_part3_ans1_value: Treatment
@@ -77,11 +77,11 @@ myst:
     params_part3_ans3_feedback: This is incorrect. Try again please!
     params_part3_phrase1: is
     params_part4_num1: 24.0
-    params_description_num1: 97
-    params_description_num2: 50
+    params_description_num1: 95
+    params_description_num2: 48
     params_description_num3: 47
     params_description_num4: 24.0
-    params_part1_ans_before_convert: 0.26
+    params_part1_ans_before_convert: 0.25
     params_part2_ans_before_convert: 0.128
 ---
 # {{ params_vars_title }}

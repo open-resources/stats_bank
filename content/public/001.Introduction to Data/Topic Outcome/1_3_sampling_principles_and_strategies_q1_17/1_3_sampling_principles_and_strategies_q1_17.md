@@ -32,9 +32,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Relaxing after work
-    params_part3_num1: 1.99
-    params_description_num1: 1378
-    params_description_num2: 1.99
+    params_part3_num1: 2.09
+    params_description_num1: 1456
+    params_description_num2: 2.09
     params_part1_option1_value: Observation
     params_part1_option1_name: option1
     params_part1_option2_value: Variable
@@ -48,7 +48,7 @@ myst:
     params_part1_statement2_value: Number of hours spent relaxing after an average
       work day.
     params_part1_statement2_matches: option2
-    params_part1_statement3_value: 1.99
+    params_part1_statement3_value: 2.09
     params_part1_statement3_matches: option3
     params_part1_statement4_value: Average number of hours all Americans spend relaxing
       after an average work day.
