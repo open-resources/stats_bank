@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Roulette
-    params_description_num_slots: 40
-    params_description_num_red: 18
-    params_description_num_black: 19
-    params_description_num_green: 3
+    params_description_num_slots: 35
+    params_description_num_red: 15
+    params_description_num_black: 16
+    params_description_num_green: 4
     params_description_bet_amount: 9
     params_description_bet_color: black
 ---
