@@ -59,11 +59,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: College smokers
-    params_vars_n: 263
-    params_vars_x: 30
-    params_vars_CI_low: 7.565
-    params_vars_CI_high: 15.249
-    params_vars_n_new: 971.0
+    params_vars_n: 250
+    params_vars_x: 45
+    params_vars_CI_low: 13.238
+    params_vars_CI_high: 22.762
+    params_vars_n_new: 1418.0
     params_vars_ME_description: 2
 ---
 # {{ params_vars_title }}

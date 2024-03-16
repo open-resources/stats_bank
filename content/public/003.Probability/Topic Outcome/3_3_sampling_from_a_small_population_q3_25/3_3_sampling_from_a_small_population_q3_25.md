@@ -54,9 +54,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Chips in a bag
-    params_description_num1: 8
+    params_description_num1: 9
     params_description_num2: 6
-    params_description_num3: 4
+    params_description_num3: 3
     params_description_n1: 17
     params_description_n: 18
     params_description_blue1: 5

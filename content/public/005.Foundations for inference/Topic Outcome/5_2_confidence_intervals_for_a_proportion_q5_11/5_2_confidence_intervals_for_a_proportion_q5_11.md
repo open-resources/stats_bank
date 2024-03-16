@@ -53,10 +53,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: Waiting at an ER, Part I
-    params_ci_lower: 117
-    params_ci_higher: 141
+    params_ci_lower: 137
+    params_ci_higher: 151
     params_part1_num1: 95
-    params_part1_num2: 61
+    params_part1_num2: 59
     params_part1_ans1_value: 'True'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'False'
@@ -71,14 +71,14 @@ myst:
     params_part3_ans1_feedback: Try again please!
     params_part3_ans2_value: 'False'
     params_part3_ans2_feedback: Correct!
-    params_part4_num1: 102
+    params_part4_num1: 104
     params_part4_num2: 95
     params_part4_ans1_value: 'True'
     params_part4_ans1_feedback: Try again please!
     params_part4_ans2_value: 'False'
     params_part4_ans2_feedback: Correct!
-    params_part5_num1: 12.0
-    params_part5_num2: 129.0
+    params_part5_num1: 7.0
+    params_part5_num2: 144.0
     params_part5_ans1_value: 'True'
     params_part5_ans1_feedback: Correct!
     params_part5_ans2_value: 'False'
@@ -88,10 +88,10 @@ myst:
     params_part6_ans1_feedback: Try again please!
     params_part6_ans2_value: 'False'
     params_part6_ans2_feedback: Correct!
-    params_description_num1: 61
+    params_description_num1: 59
     params_description_num2: 95
-    params_description_num3: 117
-    params_description_num4: 141
+    params_description_num3: 137
+    params_description_num4: 151
 ---
 # {{ params_vars_title }}
 A hospital administrator hoping to improve wait times decides to estimate the average emergency room waiting time at her hospital. She collects a simple random sample of ${{ params_description_num1 }}$ patients and determines the time (in minutes) between when they checked in to the ER until they were first seen by a doctor. A ${{ params_description_num2 }}$% confidence interval based on this sample is (${{ params.ci_lower }}$ minutes, ${{ params.ci_higher }}$ minutes), which is based on the normal model for the mean. Determine whether the following statements are true or false, and explain your reasoning.
