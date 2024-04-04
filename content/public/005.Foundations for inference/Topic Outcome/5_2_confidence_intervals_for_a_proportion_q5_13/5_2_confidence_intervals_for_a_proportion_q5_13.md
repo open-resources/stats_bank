@@ -45,27 +45,27 @@ part3:
 myst:
   substitutions:
     params_vars_title: Website registration
-    params_description_num1: 699
-    params_description_num2: 64
+    params_description_num1: 824
+    params_description_num2: 62
     params_part1_ans1_value: Independence
     params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: Success-failure condition
     params_part1_ans2_feedback: Correct!
-    params_part3_ans1_value: The 90% confidence interval is approximately (0.0736,
-      0.1045). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 7.36% and 10.45%.
+    params_part3_ans1_value: The 90% confidence interval is approximately (0.0601,
+      0.0854). We are 90% confident that the true proportion of all first-time visitors
+      who would register under the new design is between 6.01% and 8.54%.
     params_part3_ans1_feedback: Try again please!
-    params_part3_ans2_value: The 90% confidence interval is approximately (0.0696,
-      0.1095). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.96% and 10.95%.
+    params_part3_ans2_value: The 90% confidence interval is approximately (0.0561,
+      0.0904). We are 90% confident that the true proportion of all first-time visitors
+      who would register under the new design is between 5.61% and 9.04%.
     params_part3_ans2_feedback: Try again please!
-    params_part3_ans3_value: The 90% confidence interval is approximately (0.0696,
-      0.1045). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.96% and 10.45%.
+    params_part3_ans3_value: The 90% confidence interval is approximately (0.0561,
+      0.0854). We are 90% confident that the true proportion of all first-time visitors
+      who would register under the new design is between 5.61% and 8.54%.
     params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: The 90% confidence interval is approximately (0.0736,
-      0.1095). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 7.36% and 10.95%.
+    params_part3_ans4_value: The 90% confidence interval is approximately (0.0601,
+      0.0904). We are 90% confident that the true proportion of all first-time visitors
+      who would register under the new design is between 6.01% and 9.04%.
     params_part3_ans4_feedback: Correct!
 ---
 # {{ params_vars_title }}
