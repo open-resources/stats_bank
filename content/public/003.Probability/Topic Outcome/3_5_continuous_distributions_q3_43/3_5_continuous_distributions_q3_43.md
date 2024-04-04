@@ -54,9 +54,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Cost of breakfast
-    params_description_num1: '1.50'
-    params_description_std: '0.39'
-    params_description_num2: '2.46'
+    params_description_num1: '1.34'
+    params_description_std: '0.37'
+    params_description_num2: '2.59'
     params_description_num3: '0.19'
 ---
 # {{ params_vars_title }}
