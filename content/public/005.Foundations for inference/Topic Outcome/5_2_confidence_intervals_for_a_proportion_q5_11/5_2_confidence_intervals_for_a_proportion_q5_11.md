@@ -53,10 +53,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: Waiting at an ER, Part I
-    params_ci_lower: 133
-    params_ci_higher: 160
+    params_ci_lower: 121
+    params_ci_higher: 129
     params_part1_num1: 95
-    params_part1_num2: 65
+    params_part1_num2: 62
     params_part1_ans1_value: 'True'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'False'
@@ -77,21 +77,21 @@ myst:
     params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: 'False'
     params_part4_ans2_feedback: Try again please!
-    params_part5_num1: 13.5
-    params_part5_num2: 146.5
+    params_part5_num1: 4.0
+    params_part5_num2: 124.0
     params_part5_ans1_value: 'True'
-    params_part5_ans1_feedback: Correct!
+    params_part5_ans1_feedback: Try again please!
     params_part5_ans2_value: 'False'
-    params_part5_ans2_feedback: Try again please!
+    params_part5_ans2_feedback: Correct!
     params_part6_num1: 95
     params_part6_ans1_value: 'True'
     params_part6_ans1_feedback: Try again please!
     params_part6_ans2_value: 'False'
     params_part6_ans2_feedback: Correct!
-    params_description_num1: 65
+    params_description_num1: 62
     params_description_num2: 95
-    params_description_num3: 133
-    params_description_num4: 160
+    params_description_num3: 121
+    params_description_num4: 129
 ---
 # {{ params_vars_title }}
 A hospital administrator hoping to improve wait times decides to estimate the average emergency room waiting time at her hospital. She collects a simple random sample of ${{ params_description_num1 }}$ patients and determines the time (in minutes) between when they checked in to the ER until they were first seen by a doctor. A ${{ params_description_num2 }}$% confidence interval based on this sample is (${{ params.ci_lower }}$ minutes, ${{ params.ci_higher }}$ minutes), which is based on the normal model for the mean. Determine whether the following statements are true or false, and explain your reasoning.

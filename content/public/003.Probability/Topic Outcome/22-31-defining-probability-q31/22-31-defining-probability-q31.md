@@ -30,13 +30,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: True or false
-    params_vars_question1: Drawing a face card (jack, queen, or king) and drawing
-      a red card from a full deck of playing cards are mutually exclusive events.
-    params_vars_question1_ans: False. There are red face cards.
+    params_vars_question1: Drawing a face card and drawing an ace from a full deck
+      of playing cards are mutually exclusive events.
+    params_vars_question1_ans: True. A card cannot be both a face card and an ace.
     params_part1_ans1_value: 'True'
-    params_part1_ans1_feedback: False. There are red face cards.
+    params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: 'False'
-    params_part1_ans2_feedback: Correct!
+    params_part1_ans2_feedback: True. A card cannot be both a face card and an ace.
 ---
 # {{ params_vars_title }}
 
