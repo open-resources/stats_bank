@@ -50,7 +50,7 @@ part5:
 myst:
   substitutions:
     params_vars_title: Gender pay gap in medicine
-    params_part2_num1: 19
+    params_part2_num1: 18
     params_part2_num2: 21
     params_part2_num3: 21
     params_part2_ans1_value: Independence
@@ -76,15 +76,15 @@ myst:
     params_part3_ans2_feedback: Try again please!
     params_part3_ans3_value: '0'
     params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: '0.905'
+    params_part3_ans4_value: '0.857'
     params_part3_ans4_feedback: Correct!
-    params_part4_ans1_value: '0.905'
+    params_part4_ans1_value: '0.857'
     params_part4_ans1_feedback: Try again please!
     params_part4_ans2_value: '0.109'
     params_part4_ans2_feedback: Try again please!
     params_part4_ans3_value: '0.0001'
     params_part4_ans3_feedback: Try again please!
-    params_part4_ans4_value: '3.72'
+    params_part4_ans4_value: '3.28'
     params_part4_ans4_feedback: Correct!
     params_part5_ans1_value: Fail to reject $H_0$, as the p-value is greater than
       α.

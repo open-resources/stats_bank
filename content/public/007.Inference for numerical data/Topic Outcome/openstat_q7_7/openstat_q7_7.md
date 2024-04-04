@@ -70,14 +70,14 @@ part7:
 myst:
   substitutions:
     params_vars_title: Sleep habits of New Yorkers
-    params_confidence_level: 96.0
+    params_confidence_level: 98.0
     params_sleep_hours: 7
-    params_description_n: 29
-    params_description_sample_mean: 6.34
-    params_description_s: 1.54
-    params_description_min_val: 3.29
-    params_description_max_val: 10.04
-    params_description_alpha: 0.02
+    params_description_n: 23
+    params_description_sample_mean: 6.83
+    params_description_s: 1.37
+    params_description_min_val: 5.15
+    params_description_max_val: 10.11
+    params_description_alpha: 0.01
     params_table1: |-
       <table style="width:400px">
       <tr>
@@ -87,11 +87,11 @@ myst:
       <th>$min$</th>
       <th>$max$</th>
       </tr><tr>
-      <th>$29$</th>
-      <td>$6.34$</td>
-      <td>$1.54$</td>
-      <td>$3.29$</td>
-      <td>$10.04$</td>
+      <th>$23$</th>
+      <td>$6.83$</td>
+      <td>$1.37$</td>
+      <td>$5.15$</td>
+      <td>$10.11$</td>
       </tr>
       </table>
     params_part1_ans1_value: '$H_0: \mu = 7$, $H_a: \mu < 7$'
@@ -122,14 +122,14 @@ myst:
       the entire population of New Yorkers.
     params_part6_ans2_feedback: Try again please!
     params_part6_ans3_value: The probability of observing the obtained sample mean
-      6.34 hours if New Yorkers, on average, sleep 7 per night.
+      6.83 hours if New Yorkers, on average, sleep 7 per night.
     params_part6_ans3_feedback: Correct!
     params_part6_ans4_value: The probability of observing the obtained sample mean
-      of 6.34 hours or more extreme, if New Yorkers, on average, sleep 6.34 hours
+      of 6.83 hours or more extreme, if New Yorkers, on average, sleep 6.83 hours
       per night.
     params_part6_ans4_feedback: Try again please!
     params_part6_ans5_value: The probability of observing the obtained sample mean
-      6.34 of hours or more extreme, if New Yorkers, on average, sleep 7 per night.
+      6.83 of hours or more extreme, if New Yorkers, on average, sleep 7 per night.
     params_part6_ans5_feedback: Try again please!
     params_part7_ans1_value: Reject $H_0$
     params_part7_ans1_feedback: Try again please!
