@@ -69,7 +69,7 @@ myst:
     params_part3_ans1_feedback: Not quite!
     params_part3_ans2_value: '100'
     params_part3_ans2_feedback: You got it!
-    params_part4_num1: 0.3
+    params_part4_num1: 0.2
     params_part4_ans1_value: '10'
     params_part4_ans1_feedback: You got it!
     params_part4_ans2_value: '100'

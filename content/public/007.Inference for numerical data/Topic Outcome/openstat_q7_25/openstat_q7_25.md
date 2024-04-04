@@ -117,13 +117,13 @@ myst:
       providing any reliable information about risks, so the study's conclusion is
       not true.
     params_part7_ans4_feedback: Incorrect!
-    params_x_bar_6th: 5.82
-    params_x_bar_13th: 6.05
-    params_x_bar_D: -0.23
-    params_s_6th: 3.76
-    params_s_13th: 2.23
-    params_s_D: 1.04
-    params_n: 7
+    params_x_bar_6th: 12.24
+    params_x_bar_13th: 13.12
+    params_x_bar_D: -0.88
+    params_s_6th: 3.68
+    params_s_13th: 3.61
+    params_s_D: 2.87
+    params_n: 5
     params_table: |-
       <table style="width:550px">
       <tr>
@@ -133,19 +133,19 @@ myst:
       <th>diff</th>
       </tr><tr>
       <th>Mean</th>
-      <td>$5.82$</td>
-      <td>$6.05$</td>
-      <td>$-0.23$</td>
+      <td>$12.24$</td>
+      <td>$13.12$</td>
+      <td>$-0.88$</td>
       </tr><tr>
       <th>SD</th>
-      <td>$3.76$</td>
-      <td>$2.23$</td>
-      <td>$1.04$</td>
+      <td>$3.68$</td>
+      <td>$3.61$</td>
+      <td>$2.87$</td>
       </tr><tr>
       <th>n</th>
-      <td>$7$</td>
-      <td>$7$</td>
-      <td>$7$</td>
+      <td>$5$</td>
+      <td>$5$</td>
+      <td>$5$</td>
       </tr>
       </table>
 ---
