@@ -35,17 +35,17 @@ part1:
 myst:
   substitutions:
     params_vars_title: Student outfits
-    params_description_num1: 20
-    params_description_num2: 4
-    params_description_jeans1: 3
-    params_description_num3: 7
-    params_description_num4: 7
-    params_description_num6: 2
+    params_description_num1: 26
+    params_description_num2: 8
+    params_description_jeans1: 7
+    params_description_num3: 5
+    params_description_num4: 9
+    params_description_num6: 4
     params_description_num5: 3
-    params_description_total: 20
-    params_description_total1: 19
-    params_description_total2: 18
-    params_description_prob: 0.0035
+    params_description_total: 26
+    params_description_total1: 25
+    params_description_total2: 24
+    params_description_prob: 0.0144
 ---
 # {{ params_vars_title }}
 In a classroom with ${{ params_description_num1 }}$ students, ${{ params_description_num2 }}$ students are wearing jeans, ${{ params_description_num3 }}$ are wearing shorts, ${{ params_description_num4 }}$ are wearing skirts, and the rest are wearing leggings.

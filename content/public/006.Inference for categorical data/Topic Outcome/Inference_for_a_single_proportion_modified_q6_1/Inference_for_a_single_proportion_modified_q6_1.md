@@ -48,11 +48,11 @@ myst:
   substitutions:
     params_vars_title: Vegetarian college students
     params_sample_size: 76
-    params_sample_size2: 52
-    params_p: 11
+    params_sample_size2: 94
+    params_p: 10
     params_p_hat: 12
-    params_college_students: 127
-    params_college_students2: 254
+    params_college_students: 144
+    params_college_students2: 288
     params_part1_ans1_value: True. This statement satisfies the success-failure condition.
     params_part1_ans1_feedback: Incorrect!
     params_part1_ans2_value: False. The distribution is not normal since it does not
