@@ -70,14 +70,14 @@ part7:
 myst:
   substitutions:
     params_vars_title: Sleep habits of New Yorkers
-    params_confidence_level: 98.0
-    params_sleep_hours: 7
-    params_description_n: 34
-    params_description_sample_mean: 6.83
-    params_description_s: 1.66
-    params_description_min_val: 3.57
-    params_description_max_val: 10.36
-    params_description_alpha: 0.01
+    params_confidence_level: 90.0
+    params_sleep_hours: 8
+    params_description_n: 28
+    params_description_sample_mean: 7.46
+    params_description_s: 1.45
+    params_description_min_val: 4.04
+    params_description_max_val: 10.07
+    params_description_alpha: 0.05
     params_table1: |-
       <table style="width:400px">
       <tr>
@@ -87,20 +87,20 @@ myst:
       <th>$min$</th>
       <th>$max$</th>
       </tr><tr>
-      <th>$34$</th>
-      <td>$6.83$</td>
-      <td>$1.66$</td>
-      <td>$3.57$</td>
-      <td>$10.36$</td>
+      <th>$28$</th>
+      <td>$7.46$</td>
+      <td>$1.45$</td>
+      <td>$4.04$</td>
+      <td>$10.07$</td>
       </tr>
       </table>
-    params_part1_ans1_value: '$H_0: \mu = 7$, $H_a: \mu < 7$'
+    params_part1_ans1_value: '$H_0: \mu = 8$, $H_a: \mu < 8$'
     params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: '$H_0: \mu < 7$, $H_a: \mu > 7$'
+    params_part1_ans2_value: '$H_0: \mu < 8$, $H_a: \mu > 8$'
     params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: \mu > 7$, $H_a: \mu < 7$'
+    params_part1_ans3_value: '$H_0: \mu > 8$, $H_a: \mu < 8$'
     params_part1_ans3_feedback: Try again please!
-    params_part1_ans4_value: '$H_0: \mu = 7$, $H_a: \mu = 7$'
+    params_part1_ans4_value: '$H_0: \mu = 8$, $H_a: \mu = 8$'
     params_part1_ans4_feedback: Try again please!
     params_part2_ans1_value: The data should be approximately normally distributed
     params_part2_ans1_feedback: Correct!
@@ -115,21 +115,21 @@ myst:
     params_part2_ans5_feedback: Try again please!
     params_part2_ans6_value: We need more than 30 observations
     params_part2_ans6_feedback: Try again please!
-    params_part6_ans1_value: The probability that New Yorkers sleep exactly 7 hours
+    params_part6_ans1_value: The probability that New Yorkers sleep exactly 8 hours
       per night.
     params_part6_ans1_feedback: Try again please!
     params_part6_ans2_value: The probability that the sample accurately represents
       the entire population of New Yorkers.
     params_part6_ans2_feedback: Try again please!
     params_part6_ans3_value: The probability of observing the obtained sample mean
-      6.83 hours if New Yorkers, on average, sleep 7 per night.
+      7.46 hours if New Yorkers, on average, sleep 8 per night.
     params_part6_ans3_feedback: Correct!
     params_part6_ans4_value: The probability of observing the obtained sample mean
-      of 6.83 hours or more extreme, if New Yorkers, on average, sleep 6.83 hours
+      of 7.46 hours or more extreme, if New Yorkers, on average, sleep 7.46 hours
       per night.
     params_part6_ans4_feedback: Try again please!
     params_part6_ans5_value: The probability of observing the obtained sample mean
-      6.83 of hours or more extreme, if New Yorkers, on average, sleep 7 per night.
+      7.46 of hours or more extreme, if New Yorkers, on average, sleep 8 per night.
     params_part6_ans5_feedback: Try again please!
     params_part7_ans1_value: Reject $H_0$
     params_part7_ans1_feedback: Try again please!
