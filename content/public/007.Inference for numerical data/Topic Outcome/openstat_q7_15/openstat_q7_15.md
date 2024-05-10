@@ -45,9 +45,9 @@ myst:
       at two different time points, and the air quality in a city at one point is
       not independent of the air quality in the same city at another time point.
     params_part1_ans4_feedback: Incorrect!
-    params_country_capitals: 27
-    params_year_1: 2009
-    params_year_2: 2017
+    params_country_capitals: 23
+    params_year_1: 2013
+    params_year_2: 2016
     params_selected_scenario: in the same cities
 ---
 # {{ params_vars_title }}
