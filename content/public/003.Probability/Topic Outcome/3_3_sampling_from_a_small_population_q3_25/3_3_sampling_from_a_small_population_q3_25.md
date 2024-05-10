@@ -56,9 +56,9 @@ myst:
     params_vars_title: Chips in a bag
     params_description_num1: 9
     params_description_num2: 6
-    params_description_num3: 1
-    params_description_n1: 15
-    params_description_n: 16
+    params_description_num3: 4
+    params_description_n1: 18
+    params_description_n: 19
     params_description_blue1: 5
     params_part4_ans1_value: 'Yes'
     params_part4_ans1_feedback: Incorrect. Removing one chip meaningfully changes
