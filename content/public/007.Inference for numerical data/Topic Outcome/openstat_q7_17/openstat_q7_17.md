@@ -42,26 +42,26 @@ part4:
 myst:
   substitutions:
     params_vars_title: Paired or not? Part I
-    params_selected_scenario_part1: Evaluate sleep quality improvements by comparing
-      scores before and after using a new type of mattress for the same subjects.
+    params_selected_scenario_part1: Evaluate the improvement in programming skills
+      by comparing test scores before and after a coding bootcamp.
     params_part1_ans1_value: Paired.
     params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: Not paired.
     params_part1_ans2_feedback: Incorrect!
-    params_selected_scenario_part2: Evaluate the improvement in programming skills
-      by comparing test scores before and after a coding bootcamp.
+    params_selected_scenario_part2: Compare pre-test (beginning of semester) and post-test
+      (end of semester) scores of students.
     params_part2_ans1_value: Paired.
     params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: Not paired.
     params_part2_ans2_feedback: Incorrect!
-    params_selected_scenario_part3: Determine the impact of a hydration campaign on
-      water intake by comparing the intakes before and after the campaign.
+    params_selected_scenario_part3: Evaluate the effects of a meditation program on
+      stress levels by comparing measurements before and after the program duration.
     params_part3_ans1_value: Paired.
     params_part3_ans1_feedback: Correct!
     params_part3_ans2_value: Not paired.
     params_part3_ans2_feedback: Incorrect!
-    params_selected_scenario_part4: Compare literacy levels at the start and end of
-      a year-long reading program for the same group of participants.
+    params_selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
+      the before and after weights of subjects.
     params_part4_ans1_value: Paired.
     params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: Not paired.

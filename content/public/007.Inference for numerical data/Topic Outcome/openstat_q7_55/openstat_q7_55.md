@@ -48,11 +48,11 @@ part3:
 myst:
   substitutions:
     params_vars_title: Exclusive relationships
-    params_sample_mean: 3.55
-    params_sample_size: 194
-    params_sample_std: 1.77
+    params_sample_mean: 3.67
+    params_sample_size: 199
+    params_sample_std: 1.95
     params_confidence_level: 87
-    params_n: 194
+    params_n: 199
     params_part3_ans1_value: 'Independence: it is a random sample, so we can assume
       that the students in this sample are independent of each other with respect
       to number of exclusive relationships they have been in.'
