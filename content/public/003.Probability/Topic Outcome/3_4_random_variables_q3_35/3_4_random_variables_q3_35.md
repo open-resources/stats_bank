@@ -44,12 +44,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Roulette
-    params_description_num_slots: 36
-    params_description_num_red: 17
-    params_description_num_black: 17
-    params_description_num_green: 2
-    params_description_bet_amount: 9
-    params_description_bet_color: black
+    params_description_num_slots: 39
+    params_description_num_red: 19
+    params_description_num_black: 19
+    params_description_num_green: 1
+    params_description_bet_amount: 4
+    params_description_bet_color: red
 ---
 # {{ params_vars_title }}
 The game of Roulette involves spinning a wheel with a number of colored slots. A ball is then spun onto the wheel and will eventually land in a slot, where each slot has an equal chance of capturing the ball. A photograph of an example (de-coloured) roulette wheel is shown below:
