@@ -43,14 +43,14 @@ part2:
 myst:
   substitutions:
     params_vars_title: Working backwards, Part I
-    params_description_confidence_level: 92
-    params_description_lower: 17.581
-    params_description_upper: 19.389
-    params_description_sample_size: 33
-    params_description_mean: 18.485
-    params_description_moe: 0.9039999999999999
-    params_description_t_crit: 1.8080885647384974
-    params_description_s: 2.872140631684958
+    params_description_confidence_level: 94
+    params_description_lower: 17.408
+    params_description_upper: 22.462
+    params_description_sample_size: 36
+    params_description_mean: 19.935000000000002
+    params_description_moe: 2.5269999999999992
+    params_description_t_crit: 1.943751979892146
+    params_description_s: 7.800377906671661
 ---
 # {{ params_vars_title }}
 A ${{ params.description.confidence_level }}$% confidence interval for a population mean, $\mu$, is given as (${{ params_description_lower }}$, ${{ params_description_upper }}$). This confidence interval is based on a simple random sample of ${{ params_description_sample_size }}$ observations. Assume that all conditions necessary for inference are satisfied. Use the $t$-distribution in any calculations.

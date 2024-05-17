@@ -67,33 +67,33 @@ part6:
 myst:
   substitutions:
     params_vars_title: Swing voters
-    params_description_num1: 2243
-    params_description_num2: 0.41
-    params_description_num3: 0.26
-    params_description_num4: 0.16
-    params_description_num5: 0.25
-    params_description_num6: 0.1066
-    params_description_num22: 41.0
-    params_description_num33: 26.0
-    params_description_num44: 16.0
-    params_description_num55: 25.0
-    params_description_num66: 10.66
+    params_description_num1: 2569
+    params_description_num2: 0.36
+    params_description_num3: 0.2
+    params_description_num4: 0.17
+    params_description_num5: 0.19
+    params_description_num6: 0.072
+    params_description_num22: 36.0
+    params_description_num33: 20.0
+    params_description_num44: 17.0
+    params_description_num55: 19.0
+    params_description_num66: 7.2
     params_part1_ans1_value: 'Yes'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: 'No'
     params_part1_ans2_feedback: Correct! There are voters who are both independent
       and swing voters.
-    params_part2_ans1_value: $A$ = 25.0%, $B$ = 16.0%, $C$ = 10.0%
+    params_part2_ans1_value: $A$ = 19.0%, $B$ = 17.0%, $C$ = 3.0%
     params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: $A$ = 25.0%, $B$ = 10.0%, $C$ = 16.0%
+    params_part2_ans2_value: $A$ = 19.0%, $B$ = 3.0%, $C$ = 17.0%
     params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: $A$ = 16.0%, $B$ = 25.0%, $C$ = 10.0%
+    params_part2_ans3_value: $A$ = 17.0%, $B$ = 19.0%, $C$ = 3.0%
     params_part2_ans3_feedback: Try again please!
-    params_part2_ans4_value: $A$ = 16.0%, $B$ = 10.0%, $C$ = 25.0%
+    params_part2_ans4_value: $A$ = 17.0%, $B$ = 3.0%, $C$ = 19.0%
     params_part2_ans4_feedback: Try again please!
-    params_part2_ans5_value: $A$ = 10.0%, $B$ = 25.0%, $C$ = 16.0%
+    params_part2_ans5_value: $A$ = 3.0%, $B$ = 19.0%, $C$ = 17.0%
     params_part2_ans5_feedback: Try again please!
-    params_part2_ans6_value: $A$ = 10.0%, $B$ = 16.0%, $C$ = 25.0%
+    params_part2_ans6_value: $A$ = 3.0%, $B$ = 17.0%, $C$ = 19.0%
     params_part2_ans6_feedback: Try again please!
     params_part6_ans1_value: 'Yes'
     params_part6_ans1_feedback: Try again please!

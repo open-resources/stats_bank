@@ -75,8 +75,8 @@ myst:
     params_upper_bound_percent_abs_p2: 19.0
     params_lower_bound: -0.19
     params_upper_bound: -0.11
-    params_male_sample_size: 1940
-    params_female_sample_size: 3992
+    params_male_sample_size: 1728
+    params_female_sample_size: 3776
 ---
 # {{ params_vars_title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).

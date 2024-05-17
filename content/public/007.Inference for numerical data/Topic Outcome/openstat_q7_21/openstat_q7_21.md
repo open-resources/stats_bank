@@ -77,9 +77,9 @@ myst:
     params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: No, since the interval is not entirely lying above 0.
     params_part4_ans2_feedback: Try again please!
-    params_sample_size: 203
-    params_mean_difference: 3.2
-    params_std_deviation: 16.0
+    params_sample_size: 194
+    params_mean_difference: 2.8
+    params_std_deviation: 15.6
     params_part1_confidence_level: 91
 ---
 # {{ params_vars_title }}

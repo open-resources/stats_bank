@@ -38,10 +38,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: College smokers
-    params_part1_num1: 93
-    params_part2_start_hour: 9
-    params_part2_before_start_hour: 8
-    params_part2_waiting_students: 28
+    params_part1_num1: 102
+    params_part2_start_hour: 10
+    params_part2_before_start_hour: 9
+    params_part2_waiting_students: 27
     params_part2_ans1_value: 'No'
     params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: 'Yes'
