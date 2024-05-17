@@ -35,8 +35,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Portfolio return
-    params_description_num1: 19
-    params_description_num2: 15
+    params_description_num1: 18
+    params_description_num2: 2
     params_description_num3: 16
 ---
 # {{ params_vars_title }}

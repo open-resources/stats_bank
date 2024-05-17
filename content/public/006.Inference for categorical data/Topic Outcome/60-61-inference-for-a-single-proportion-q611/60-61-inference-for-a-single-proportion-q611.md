@@ -70,11 +70,11 @@ part7:
 myst:
   substitutions:
     params_vars_title: National Health Plan, Part I
-    params_vars_sample_size: 574
-    params_vars_sample_proportion: 50
-    params_part1_ans1_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
+    params_vars_sample_size: 544
+    params_vars_sample_proportion: 48
+    params_part1_ans1_value: '$H_0: p = 0.48$, $H_A: p ≠ 0.5$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.5$, $H_A: p = 0.5$'
+    params_part1_ans2_value: '$H_0: p = 0.48$, $H_A: p = 0.5$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p ≤ 0.5$, $H_A: p > 0.5$'
     params_part1_ans3_feedback: Correct!
@@ -96,7 +96,7 @@ myst:
       from 0.5, and since the data provide a point estimate above 0.5, we do not have
       strong evidence to support this claim by the TV pundit.
     params_part6_ans2_feedback: Correct!
-    params_part7_ans1_value: No. Since 50% of Independents support the plan, the confidence
+    params_part7_ans1_value: No. Since 48% of Independents support the plan, the confidence
       interval is unlikely to include 0.5, indicating an unbalanced opinion among
       Independents.
     params_part7_ans1_feedback: Try again please!

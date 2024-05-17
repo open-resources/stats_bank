@@ -1,5 +1,5 @@
 ---
-title: Find the p-value, Part I
+title: Identify the critical t
 topic: Inference for numerical data
 author: Christina Yang
 source: original
@@ -9,7 +9,7 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 7.1.1.4
+- 7.1.1.0
 - 7.1.1.5
 difficulty:
 - undefined
@@ -27,43 +27,44 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
-    label: $p = $
+    label: $df = $
     allow-blank: true
     weight: 1
     comparison: decdig
-    digits: 3
+    digits: 2
 part2:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
+    label: $t^\star = $
+    allow-blank: true
     weight: 1
+    comparison: decdig
+    digits: 2
 myst:
   substitutions:
-    params_vars_title: Find the p-value, Part I
-    params_n: 13
-    params_T: 1.55
-    params_alpha: 0.05
-    params_part2_ans1_value: do not reject $H_0$
-    params_part2_ans1_feedback: Nice work!
-    params_part2_ans2_value: reject $H_0$
-    params_part2_ans2_feedback: Incorrect, try again!
+    params_vars_title: Identify the critical t
+    params_n: 35
+    params_cl: 99
 ---
 # {{ params_vars_title }}
-An independent random sample is selected from an approximately normal population with an unknown standard deviation.
-
-$n = {{ params_n }}$, T = ${{ params_T }}$
+An independent random sample is selected from an approximately normal population with unknown standard deviation. Find the degrees of freedom and the critical $t$-value (t$^\star$) for the given sample size and confidence level.
+$n = {{ params_n }}$, CL = ${{ params_cl }}$%
 
 ## Part 1
 
-Find the p-value for the given sample size and test statistic.
-
-## Part 2
-
-Determine if the null hypothesis would be rejected at $\alpha = {{ params_alpha }}$.
+Find the degrees of freedom for the given sample size and confidence level.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+### pl-answer-panel
+
+$df={{ params_n }}-1$
+
+## Part 2
+
+Find  the critical $t$-value (t$^\star$) for the given sample size and confidence level.
+
+### Answer Section
 
 ## Attribution
 
