@@ -93,26 +93,26 @@ myst:
       <th>Pr(>|t|)</th>
       </tr><tr>
       <th>(intercept)</th>
-      <td>$43.5736$</td>
-      <td>$5.1832$</td>
-      <td>$8.2$</td>
+      <td>$42.7396$</td>
+      <td>$4.6326$</td>
+      <td>$10.1$</td>
       <td>$0.0$</td>
       </tr><tr>
       <th>height_husband</th>
-      <td>$0.2919$</td>
-      <td>$0.0367$</td>
-      <td>$3.17$</td>
-      <td>$0.0018$</td>
+      <td>$0.301$</td>
+      <td>$0.0846$</td>
+      <td>$5.81$</td>
+      <td>$0.0$</td>
       </tr>
       </table>
-    params_sample: 168
-    params_slope: 0.2919
-    params_intercept: 43.5736
-    params_intercept_std_error: 5.1832
-    params_slope_std_error: 0.0367
-    params_husband_height1: 66
-    params_correlation: 0.09
-    params_husband_height2: 60
+    params_sample: 151
+    params_slope: 0.301
+    params_intercept: 42.7396
+    params_intercept_std_error: 4.6326
+    params_slope_std_error: 0.0846
+    params_husband_height1: 65
+    params_correlation: 0.089
+    params_husband_height2: 55
     params_part1_ans1_value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'
     params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: '$H_0: \beta_1 = 0;  H_A: \beta_1 > 0$'
@@ -152,12 +152,10 @@ myst:
     params_part8_ans2_value: Since $R^2$ is low, the prediction based on this regression
       model is not very reliable.
     params_part8_ans2_feedback: Correct!
-    params_part9_ans1_value: 'No'
-    params_part9_ans1_feedback: Incorrect! The husbands' height height within our
-      data range.
-    params_part9_ans2_value: 'Yes'
-    params_part9_ans2_feedback: Correct! The husbands' height height within our data
-      range.
+    params_part9_ans1_value: 'Yes'
+    params_part9_ans1_feedback: Incorrect! We should avoid extrapolating.
+    params_part9_ans2_value: 'No'
+    params_part9_ans2_feedback: Correct! We should avoid extrapolating.
 ---
 # {{ params_vars_title }}
 The scatter plot below summarizes husbands' and wives' heights in a random sample of ${{ params_sample}}$ married couples in Britain, where both partners' ages are below $65$ years. The summary output of the least squares fit for predicting a wife's height from the husband's height is also provided in the table.

@@ -58,15 +58,15 @@ part4:
 myst:
   substitutions:
     params_vars_title: Migraine and acupuncture, Part I
-    params_table0_r2_c2: 12
-    params_table0_r2_c3: 34
-    params_table0_r2_c4: 46
-    params_table0_r3_c2: 2
-    params_table0_r3_c3: 45
-    params_table0_r3_c4: 47
-    params_table0_r4_c2: 14
-    params_table0_r4_c3: 79
-    params_table0_r4_c4: 93
+    params_table0_r2_c2: 10
+    params_table0_r2_c3: 39
+    params_table0_r2_c4: 49
+    params_table0_r3_c2: 7
+    params_table0_r3_c3: 43
+    params_table0_r3_c4: 50
+    params_table0_r4_c2: 17
+    params_table0_r4_c3: 82
+    params_table0_r4_c4: 99
     params_part1_num1: 24.0
     params_part3_num1: 24.0
     params_part3_ans1_value: Treatment
@@ -77,12 +77,12 @@ myst:
     params_part3_ans3_feedback: This is incorrect. Try again please!
     params_part3_phrase1: is
     params_part4_num1: 24.0
-    params_description_num1: 93
-    params_description_num2: 46
-    params_description_num3: 47
+    params_description_num1: 99
+    params_description_num2: 49
+    params_description_num3: 50
     params_description_num4: 24.0
-    params_part1_ans_before_convert: 0.261
-    params_part2_ans_before_convert: 0.043
+    params_part1_ans_before_convert: 0.204
+    params_part2_ans_before_convert: 0.14
 ---
 # {{ params_vars_title }}
 A migraine is a particularly painful type of headache, which patients sometimes wish to treat with acupuncture. To determine whether acupuncture relieves migraine pain, researchers conducted a randomized controlled study where ${{ params_description_num1 }}$ females diagnosed with migraine headaches were randomly assigned to one of two groups: treatment or control. ${{ params_description_num2 }}$ patients in the treatment group received acupuncture that is specifically designed to treat migraines. ${{ params_description_num3 }}$ patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). ${{ params_description_num4 }}$ hours after patients received acupuncture, they were asked if they were pain free. Results are summarized in the contingency table below.

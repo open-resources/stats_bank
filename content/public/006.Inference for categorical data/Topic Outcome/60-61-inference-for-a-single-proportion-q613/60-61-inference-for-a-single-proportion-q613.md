@@ -64,11 +64,11 @@ part6:
 myst:
   substitutions:
     params_vars_title: Taste Test
-    params_vars_sample: 88
-    params_vars_p_value: 0.2008251226951452
-    params_part1_ans1_value: '$H_0: p = 0.57$, $H_A: p ≠ 0.5$'
+    params_vars_sample: 90
+    params_vars_p_value: 0.39907519654823775
+    params_part1_ans1_value: '$H_0: p = 0.54$, $H_A: p ≠ 0.5$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.57$, $H_A: p = 0.5$'
+    params_part1_ans2_value: '$H_0: p = 0.54$, $H_A: p = 0.5$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
     params_part1_ans3_feedback: Correct!
@@ -76,15 +76,15 @@ myst:
     params_part1_ans4_feedback: Try again please!
     params_part2_ans1_value: Since this is a random sample, independence is satisfied.
       The success-failure condition is also satisfied as we (using $p_0 = 0.5$, we
-      expect 44 successes and 44 failures).
+      expect 45 successes and 45 failures).
     params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is not satisfied, as our expectation of 44 successes
-      and 44 failures, using $p_0 = 0.5$, is not met.
+      The success-failure condition is not satisfied, as our expectation of 45 successes
+      and 45 failures, using $p_0 = 0.5$, is not met.
     params_part2_ans2_feedback: Try again please!
     params_part2_ans3_value: Given this is not a random sample, independence is not
       satisfied. The success-failure condition is also satisfied as we (using $p_0
-      = 0.5$, we expect 44 successes and 44 failures).
+      = 0.5$, we expect 45 successes and 45 failures).
     params_part2_ans3_feedback: Try again please!
     params_part5_ans1_value: Since the p-value $< 0.05$, we reject the null hypothesis.
       Since we rejected $H_0$ and the point estimate suggests people are better than
