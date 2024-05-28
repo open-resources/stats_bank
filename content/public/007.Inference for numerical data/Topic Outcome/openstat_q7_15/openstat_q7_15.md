@@ -45,9 +45,9 @@ myst:
       non-corresponding cities each year so, the air quality in a city at one point
       is independent of the air quality in another city at another time point.
     params_part1_ans4_feedback: Correct!
-    params_country_capitals: 27
-    params_year_1: 2011
-    params_year_2: 2017
+    params_country_capitals: 23
+    params_year_1: 2013
+    params_year_2: 2016
     params_selected_scenario: but in a different set of cities
 ---
 # {{ params_vars_title }}

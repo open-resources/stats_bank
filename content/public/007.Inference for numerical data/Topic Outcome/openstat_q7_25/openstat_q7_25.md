@@ -89,11 +89,11 @@ myst:
     params_part4_ans1_value: The data suggest that there is no significant difference
       in the average number of traffic accident-related emergency room admissions
       between Friday the $6^{th}$ and Friday the $13^{th}$.
-    params_part4_ans1_feedback: Incorrect!
+    params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: The data provide strong evidence that the average number
       of traffic accident related emergency room admissions are different between
       Friday the $6^{th}$ and Friday the $13^{th}$.
-    params_part4_ans2_feedback: Correct!
+    params_part4_ans2_feedback: Incorrect!
     params_part4_ans3_value: The results confirm with $100$% certainty that there
       are more accidents on Friday the $6^{th}$ compared to Friday the $13^{th}$.
     params_part4_ans3_feedback: Incorrect!
@@ -117,13 +117,13 @@ myst:
       providing any reliable information about risks, so the study's conclusion is
       not true.
     params_part7_ans4_feedback: Incorrect!
-    params_x_bar_6th: 11.03
-    params_x_bar_13th: 13.15
-    params_x_bar_D: -2.12
-    params_s_6th: 3.53
-    params_s_13th: 4.73
-    params_s_D: 1.68
-    params_n: 7
+    params_x_bar_6th: 12.27
+    params_x_bar_13th: 15.25
+    params_x_bar_D: -2.98
+    params_s_6th: 3.72
+    params_s_13th: 2.09
+    params_s_D: 3.66
+    params_n: 6
     params_table: |-
       <table style="width:550px">
       <tr>
@@ -133,19 +133,19 @@ myst:
       <th>diff</th>
       </tr><tr>
       <th>Mean</th>
-      <td>$11.03$</td>
-      <td>$13.15$</td>
-      <td>$-2.12$</td>
+      <td>$12.27$</td>
+      <td>$15.25$</td>
+      <td>$-2.98$</td>
       </tr><tr>
       <th>SD</th>
-      <td>$3.53$</td>
-      <td>$4.73$</td>
-      <td>$1.68$</td>
+      <td>$3.72$</td>
+      <td>$2.09$</td>
+      <td>$3.66$</td>
       </tr><tr>
       <th>n</th>
-      <td>$7$</td>
-      <td>$7$</td>
-      <td>$7$</td>
+      <td>$6$</td>
+      <td>$6$</td>
+      <td>$6$</td>
       </tr>
       </table>
 ---

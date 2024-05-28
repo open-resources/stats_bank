@@ -70,14 +70,14 @@ part7:
 myst:
   substitutions:
     params_vars_title: Sleep habits of New Yorkers
-    params_confidence_level: 96.0
+    params_confidence_level: 90.0
     params_sleep_hours: 8
-    params_description_n: 27
-    params_description_sample_mean: 7.98
-    params_description_s: 1.4
-    params_description_min_val: 5.07
-    params_description_max_val: 10.81
-    params_description_alpha: 0.02
+    params_description_n: 32
+    params_description_sample_mean: 7.08
+    params_description_s: 1.21
+    params_description_min_val: 4.82
+    params_description_max_val: 9.79
+    params_description_alpha: 0.05
     params_table1: |-
       <table style="width:400px">
       <tr>
@@ -87,11 +87,11 @@ myst:
       <th>$min$</th>
       <th>$max$</th>
       </tr><tr>
-      <th>$27$</th>
-      <td>$7.98$</td>
-      <td>$1.4$</td>
-      <td>$5.07$</td>
-      <td>$10.81$</td>
+      <th>$32$</th>
+      <td>$7.08$</td>
+      <td>$1.21$</td>
+      <td>$4.82$</td>
+      <td>$9.79$</td>
       </tr>
       </table>
     params_part1_ans1_value: '$H_0: \mu = 8$, $H_a: \mu < 8$'
@@ -122,19 +122,19 @@ myst:
       the entire population of New Yorkers.
     params_part6_ans2_feedback: Try again please!
     params_part6_ans3_value: The probability of observing the obtained sample mean
-      7.98 hours if New Yorkers, on average, sleep 8 per night.
+      7.08 hours if New Yorkers, on average, sleep 8 per night.
     params_part6_ans3_feedback: Correct!
     params_part6_ans4_value: The probability of observing the obtained sample mean
-      of 7.98 hours or more extreme, if New Yorkers, on average, sleep 7.98 hours
+      of 7.08 hours or more extreme, if New Yorkers, on average, sleep 7.08 hours
       per night.
     params_part6_ans4_feedback: Try again please!
     params_part6_ans5_value: The probability of observing the obtained sample mean
-      7.98 of hours or more extreme, if New Yorkers, on average, sleep 8 per night.
+      7.08 of hours or more extreme, if New Yorkers, on average, sleep 8 per night.
     params_part6_ans5_feedback: Try again please!
     params_part7_ans1_value: Reject $H_0$
-    params_part7_ans1_feedback: Try again please!
+    params_part7_ans1_feedback: Correct!
     params_part7_ans2_value: Fail to reject $H_0$
-    params_part7_ans2_feedback: Correct!
+    params_part7_ans2_feedback: Try again please!
 ---
 # {{ params_vars_title }}
 New York is known as "the city that never sleeps". A random sample of ${{ params_description_n }}$ New Yorkers were asked how much sleep they get per night. Statistical summaries of these data are shown below. The point estimate suggests New Yorkers sleep less than the recommended ${{ params.sleep_hours }}$ hours a night on average. Is the result statistically significant? Use $\alpha={{ params_description_alpha }}$.

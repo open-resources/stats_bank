@@ -34,12 +34,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Social experiment, Part I
-    params_inter_provoc: 7
-    params_non_inter_provoc: 15
-    params_total_provoc: 22
-    params_inter_cons: 20
-    params_non_inter_cons: 13
-    params_total_cons: 33
+    params_inter_provoc: 10
+    params_non_inter_provoc: 17
+    params_total_provoc: 27
+    params_inter_cons: 17
+    params_non_inter_cons: 12
+    params_total_cons: 29
     params_part1_ans1_value: This is not a randomized experiment, and it is unclear
       whether people would be affected by the behavior of their peers.
     params_part1_ans1_feedback: Correct!
@@ -47,9 +47,9 @@ myst:
     params_part1_ans2_feedback: Correct!
     params_part1_ans3_value: There are not enough interventions under the provocative
       scenario, so the success-failure condition does not hold.
-    params_part1_ans3_feedback: Correct!
+    params_part1_ans3_feedback: Incorrect!
     params_part1_ans4_value: The success-failure condition is not being satisfied.
-    params_part1_ans4_feedback: Correct!
+    params_part1_ans4_feedback: Incorrect!
     params_part1_ans5_value: This is a randomized experiment, and it is clear that
       people would be affected by the behavior of their peers.
     params_part1_ans5_feedback: Incorrect!
@@ -57,9 +57,11 @@ myst:
     params_part1_ans6_feedback: Incorrect!
     params_part1_ans7_value: There are sufficient interventions under all of the scenarios,
       so the success-failure condition holds.
-    params_part1_ans7_feedback: Incorrect!
+    params_part1_ans7_feedback: Incorrect! While this is true, it does not justify
+      why the Central Limit Theorem does not hold.
     params_part1_ans8_value: The success-failure condition is being satisfied.
-    params_part1_ans8_feedback: Incorrect!
+    params_part1_ans8_feedback: Incorrect! While this is true, it does not justify
+      why the Central Limit Theorem does not hold.
 ---
 # {{ params_vars_title }}
 A "social experiment" conducted by a TV program questioned what people do when they see a very obviously bruised woman getting picked on by her boyfriend. On two different occasions at the same restaurant, the same couple was depicted. In one scenario the woman was dressed "provocatively" and in the other scenario the woman was dressed "conservatively". The table below shows how many restaurant diners were present under each scenario, and whether or not they intervened.

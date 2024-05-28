@@ -48,7 +48,7 @@ myst:
     params_description_num_red: 15
     params_description_num_black: 15
     params_description_num_green: 3
-    params_description_bet_amount: 1
+    params_description_bet_amount: 6
     params_description_bet_color: black
 ---
 # {{ params_vars_title }}
