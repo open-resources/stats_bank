@@ -52,13 +52,13 @@ part5:
 myst:
   substitutions:
     params_vars_title: Minimum wage, Part I
-    params_description_num1: 935
-    params_description_num2: 41
+    params_description_num1: 928
+    params_description_num2: 45
     params_part1_ans1_value: '$H_0: p < 0.5$, $H_a: p > 0.5$'
     params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: '$H_0: p = 0.5$, $H_a: p \neq 0.5$'
     params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: '$H_0: p = 0.41$, $H_a: p \neq 0.41$'
+    params_part1_ans3_value: '$H_0: p = 0.45$, $H_a: p \neq 0.45$'
     params_part1_ans3_feedback: Try again please!
     params_part1_ans4_value: '$H_0: p > 0.5$, $H_a: p < 0.5$'
     params_part1_ans4_feedback: Try again please!
@@ -72,7 +72,7 @@ myst:
     params_part3_ans2_feedback: Try again please!
     params_part3_ans3_value: p = 0
     params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: p = 0.41
+    params_part3_ans4_value: p = 0.45
     params_part3_ans4_feedback: Try again please!
     params_part4_ans1_value: Reject the null hypothesis
     params_part4_ans1_feedback: Correct!

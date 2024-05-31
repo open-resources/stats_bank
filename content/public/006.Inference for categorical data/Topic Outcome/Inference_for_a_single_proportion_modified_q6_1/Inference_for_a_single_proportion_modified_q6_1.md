@@ -47,12 +47,12 @@ part5:
 myst:
   substitutions:
     params_vars_title: Vegetarian college students
-    params_sample_size: 60
-    params_sample_size2: 51
-    params_p: 9
+    params_sample_size: 80
+    params_sample_size2: 87
+    params_p: 11
     params_p_hat: 13
-    params_college_students: 132
-    params_college_students2: 264
+    params_college_students: 125
+    params_college_students2: 250
     params_part1_ans1_value: True. This statement satisfies the success-failure condition.
     params_part1_ans1_feedback: Incorrect!
     params_part1_ans2_value: False. The distribution is not normal since it does not
@@ -75,10 +75,10 @@ myst:
     params_part3_ans2_feedback: Correct!
     params_part4_ans1_value: True. The sample is unusual as the proportion is significantly
       different from the population proportion.
-    params_part4_ans1_feedback: Correct!
+    params_part4_ans1_feedback: Incorrect!
     params_part4_ans2_value: False. The sample is not unusual as the proportion is
       not significantly different from the population proportion.
-    params_part4_ans2_feedback: Incorrect.
+    params_part4_ans2_feedback: Correct.
     params_part5_ans1_value: 'True'
     params_part5_ans1_feedback: Incorrect.
     params_part5_ans2_value: False. Doubling the sample size decreases the standard

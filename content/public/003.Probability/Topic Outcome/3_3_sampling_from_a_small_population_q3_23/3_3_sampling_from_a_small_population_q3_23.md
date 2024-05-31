@@ -62,9 +62,9 @@ part5:
 myst:
   substitutions:
     params_vars_title: Marbles in an urn
-    params_description_num1: 9
+    params_description_num1: 6
     params_description_num2: 2
-    params_description_num3: 3
+    params_description_num3: 1
     params_part5_ans1_value: 'Yes'
     params_part5_ans1_feedback: Correct!
     params_part5_ans2_value: 'No'
