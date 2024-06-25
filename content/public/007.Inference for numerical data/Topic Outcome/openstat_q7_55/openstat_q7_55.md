@@ -48,11 +48,11 @@ part3:
 myst:
   substitutions:
     params_vars_title: Exclusive relationships
-    params_sample_mean: 3.62
-    params_sample_size: 188
-    params_sample_std: 1.75
-    params_confidence_level: 90
-    params_n: 188
+    params_sample_mean: 3.54
+    params_sample_size: 192
+    params_sample_std: 1.74
+    params_confidence_level: 86
+    params_n: 192
     params_part3_ans1_value: 'Independence: it is a random sample, so we can assume
       that the students in this sample are independent of each other with respect
       to number of exclusive relationships they have been in.'
@@ -63,7 +63,7 @@ myst:
     params_part3_ans3_value: The sample size is at least 30, and there are no particularly
       extreme outliers, so the normality condition is reasonable.
     params_part3_ans3_feedback: Great! You got it.
-    params_part3_ans4_value: We are $90$% confident that undergraduate students have
+    params_part3_ans4_value: We are $86$% confident that undergraduate students have
       been in (lower_interval) to (upper_interval) exclusive relationships, on average.
     params_part3_ans4_feedback: Great! You got it.
     params_part3_ans5_value: The sample size is at least 30, but there are extreme

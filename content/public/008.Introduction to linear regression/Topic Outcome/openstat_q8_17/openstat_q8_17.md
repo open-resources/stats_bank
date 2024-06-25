@@ -33,18 +33,18 @@ part1:
 myst:
   substitutions:
     params_vars_title: Units of regression
-    params_vars_unit1: g
-    params_vars_unit2: ft
-    params_vars_problem_statement: weight (g) from height (ft)
+    params_vars_unit1: ft
+    params_vars_unit2: oz
+    params_vars_problem_statement: height (ft) from weight (oz)
     params_part1_option1_value: No units
     params_part1_option1_name: Correlation
-    params_part1_option2_value: $g$
+    params_part1_option2_value: $ft$
     params_part1_option2_name: Intercept
-    params_part1_option3_value: $\frac{g}{ft}$
+    params_part1_option3_value: $\frac{ft}{oz}$
     params_part1_option3_name: Slope
-    params_part1_option4_value: $ft$
+    params_part1_option4_value: $oz$
     params_part1_option4_name: Distractor 1
-    params_part1_option5_value: $\frac{ft}{g}$
+    params_part1_option5_value: $\frac{oz}{ft}$
     params_part1_option5_name: Distractor 2
     params_part1_statement1_value: Correlation
     params_part1_statement1_matches: Correlation

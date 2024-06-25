@@ -47,7 +47,7 @@ myst:
     params_part2_ans2_value: 'Yes'
     params_part2_ans2_feedback: Incorrect. These students are not a random sample
       from the university's student population.
-    params_description_perc_smokers: 13
+    params_description_perc_smokers: 10
 ---
 # {{ params_vars_title }}
 At a university, ${{ params.description.perc_smokers }}$% of students smoke.

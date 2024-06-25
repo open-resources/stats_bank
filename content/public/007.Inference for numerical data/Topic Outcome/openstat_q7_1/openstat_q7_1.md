@@ -43,7 +43,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Identify the critical t
-    params_n: 21
+    params_n: 32
     params_cl: 99
 ---
 # {{ params_vars_title }}
