@@ -45,11 +45,11 @@ myst:
   substitutions:
     params_vars_title: Four games, one winner
     params_description1: If the proportion of heads is larger than 0.6, you win $1.
-    params_description2: If the proportion of heads is larger than 0.3, you win $1.
+    params_description2: If the proportion of heads is larger than 0.4, you win $1.
     params_planswer1: 100 tosses. More flips means the observed proportion of heads
       would often be closer to the average, 0.50, and therefore also above 0.6.
     params_planswer2: 10 tosses. Fewer tosses mean more variability in the sample
-      fraction of heads, meaning there's a better chance of getting at least 0.3 heads.
+      fraction of heads, meaning there's a better chance of getting at least 0.4 heads.
     params_num1: 10
     params_num2: 100
     params_num3: 1
@@ -58,18 +58,18 @@ myst:
     params_part1_ans1_feedback: Not quite!
     params_part1_ans2_value: '100'
     params_part1_ans2_feedback: You got it!
-    params_part2_num1: 0.3
+    params_part2_num1: 0.4
     params_part2_ans1_value: '10'
     params_part2_ans1_feedback: You got it!
     params_part2_ans2_value: '100'
     params_part2_ans2_feedback: Not quite!
-    params_part3_num1: 0.3
-    params_part3_num2: 0.7
+    params_part3_num1: 0.4
+    params_part3_num2: 0.6
     params_part3_ans1_value: '10'
     params_part3_ans1_feedback: Not quite!
     params_part3_ans2_value: '100'
     params_part3_ans2_feedback: You got it!
-    params_part4_num1: 0.2
+    params_part4_num1: 0.3
     params_part4_ans1_value: '10'
     params_part4_ans1_feedback: You got it!
     params_part4_ans2_value: '100'

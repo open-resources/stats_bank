@@ -75,9 +75,9 @@ myst:
       average you expect to earn money.
     params_description_num1: 2
     params_description_num2: 2
-    params_description_num3: 54
+    params_description_num3: 49
     params_description_num4: 2
-    params_description_num5: 25
+    params_description_num5: 24
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">

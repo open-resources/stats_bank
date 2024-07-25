@@ -40,12 +40,12 @@ myst:
   substitutions:
     params_vars_title: Find the p-value, Part I
     params_n: 14
-    params_T: 1.98
-    params_alpha: 0.1
+    params_T: 1.59
+    params_alpha: 0.05
     params_part2_ans1_value: do not reject $H_0$
-    params_part2_ans1_feedback: Incorrect, try again!
+    params_part2_ans1_feedback: Nice work!
     params_part2_ans2_value: reject $H_0$
-    params_part2_ans2_feedback: Nice work!
+    params_part2_ans2_feedback: Incorrect, try again!
 ---
 # {{ params_vars_title }}
 An independent random sample is selected from an approximately normal population with an unknown standard deviation.

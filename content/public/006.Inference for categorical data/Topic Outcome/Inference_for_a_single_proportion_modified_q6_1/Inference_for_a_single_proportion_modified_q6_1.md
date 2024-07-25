@@ -47,26 +47,23 @@ part5:
 myst:
   substitutions:
     params_vars_title: Vegetarian college students
-    params_sample_size: 93
-    params_sample_size2: 64
-    params_p: 11
+    params_sample_size: 70
+    params_sample_size2: 109
+    params_p: 10
     params_p_hat: 13
-    params_college_students: 140
-    params_college_students2: 280
+    params_college_students: 124
+    params_college_students2: 248
     params_part1_ans1_value: True. This statement satisfies the success-failure condition.
-    params_part1_ans1_feedback: Correct!
+    params_part1_ans1_feedback: Incorrect!
     params_part1_ans2_value: False. The distribution is not normal since it does not
       satisfy the success-failure condition.
-    params_part1_ans2_feedback: Incorrect!
-    params_part2_ans1_value: False. The distribution is not skewed as the success-failure
-      condition is met.
-    params_part2_ans1_feedback: Incorrect.
+    params_part1_ans2_feedback: Correct!
+    params_part2_ans1_value: False. The distribution is not right skewed because the
+      success-failure condition is met.
+    params_part2_ans1_feedback: Correct.
     params_part2_ans2_value: True. The distribution is right skewed because the success-failure
       condition is not met.
-    params_part2_ans2_feedback: Correct! In most samples we would expect $\hat{p}$
-      to be close to 0.08, the true population proportion. While $\hat{p}$ can be
-      much above 0.08, it is bound below by 0, suggesting it would take on a right
-      skewed shape.
+    params_part2_ans2_feedback: Incorrect!
     params_part3_ans1_value: True. The difference between the sample proportion and
       the population proportion is not significantly large.
     params_part3_ans1_feedback: Incorrect.

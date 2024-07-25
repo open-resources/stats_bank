@@ -30,11 +30,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: True or false
-    params_vars_question1: Drawing a face card (jack, queen, or king) and drawing
-      a red card from a full deck of playing cards are mutually exclusive events.
-    params_vars_question1_ans: False. There are red face cards.
+    params_vars_question1: If a die is tossed many times and the last three tosses
+      are all five, then the chance that the next toss will be five is somewhat less
+      than 50%.
+    params_vars_question1_ans: False. These are independent trials.
     params_part1_ans1_value: 'True'
-    params_part1_ans1_feedback: False. There are red face cards.
+    params_part1_ans1_feedback: False. These are independent trials.
     params_part1_ans2_value: 'False'
     params_part1_ans2_feedback: Correct!
 ---
