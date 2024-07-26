@@ -47,17 +47,17 @@ part5:
 myst:
   substitutions:
     params_vars_title: Vegetarian college students
-    params_sample_size: 99
-    params_sample_size2: 75
-    params_p: 11
-    params_p_hat: 12
-    params_college_students: 120
-    params_college_students2: 240
+    params_sample_size: 86
+    params_sample_size2: 106
+    params_p: 8
+    params_p_hat: 14
+    params_college_students: 141
+    params_college_students2: 282
     params_part1_ans1_value: True. This statement satisfies the success-failure condition.
-    params_part1_ans1_feedback: Correct!
+    params_part1_ans1_feedback: Incorrect!
     params_part1_ans2_value: False. The distribution is not normal since it does not
       satisfy the success-failure condition.
-    params_part1_ans2_feedback: Incorrect!
+    params_part1_ans2_feedback: Correct!
     params_part2_ans1_value: False. The distribution is not skewed as the success-failure
       condition is met.
     params_part2_ans1_feedback: Incorrect.
@@ -68,17 +68,17 @@ myst:
       much above 0.08, it is bound below by 0, suggesting it would take on a right
       skewed shape.
     params_part3_ans1_value: True. The difference between the sample proportion and
-      the population proportion is not significantly large.
-    params_part3_ans1_feedback: Incorrect.
-    params_part3_ans2_value: False. The difference between the sample proportion and
       the population proportion is significantly large.
-    params_part3_ans2_feedback: Correct!
+    params_part3_ans1_feedback: Correct.
+    params_part3_ans2_value: False. The difference between the sample proportion and
+      the population proportion is not significantly large.
+    params_part3_ans2_feedback: Incorrect!
     params_part4_ans1_value: True. The sample is unusual as the proportion is significantly
       different from the population proportion.
-    params_part4_ans1_feedback: Incorrect!
+    params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: False. The sample is not unusual as the proportion is
       not significantly different from the population proportion.
-    params_part4_ans2_feedback: Correct.
+    params_part4_ans2_feedback: Incorrect.
     params_part5_ans1_value: 'True'
     params_part5_ans1_feedback: Incorrect.
     params_part5_ans2_value: False. Doubling the sample size decreases the standard

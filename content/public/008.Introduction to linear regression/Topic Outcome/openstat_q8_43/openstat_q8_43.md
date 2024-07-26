@@ -38,18 +38,18 @@ myst:
   substitutions:
     params_vars_title: Match the correlation, Part III
     params_correlations:
-    - -0.78
-    - 0.01
-    - 0.49
-    - 0.96
+    - 0.1
+    - 0.97
+    - 0.73
+    - -0.71
     params_part1_statement1_value: Plot 1
-    params_part1_statement1_matches: $r=-0.78$
+    params_part1_statement1_matches: $r=0.1$
     params_part1_statement2_value: Plot 2
-    params_part1_statement2_matches: $r=0.01$
+    params_part1_statement2_matches: $r=0.97$
     params_part1_statement3_value: Plot 3
-    params_part1_statement3_matches: $r=0.49$
+    params_part1_statement3_matches: $r=0.73$
     params_part1_statement4_value: Plot 4
-    params_part1_statement4_matches: $r=0.96$
+    params_part1_statement4_matches: $r=-0.71$
 ---
 # {{ params_vars_title }}
 Match each correlation to the corresponding scatterplot.

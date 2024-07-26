@@ -53,34 +53,34 @@ part5:
 myst:
   substitutions:
     params_vars_title: Histograms
-    params_sells_three: 8
-    params_sells_four: 6
-    params_sells_five: 16
-    params_sells_six: 16
-    params_sells_seven: 17
+    params_sells_three: 15
+    params_sells_four: 9
+    params_sells_five: 12
+    params_sells_six: 14
+    params_sells_seven: 16
     params_headers:
     - Data Value (# cars)
     - Frequency
     - Relative Frequency
     - Cumulative Relative Frequency
     params_frequencies: &id001
-    - 8
-    - 6
+    - 15
+    - 9
+    - 12
+    - 14
     - 16
-    - 16
-    - 17
-    params_sample_size: 63
+    params_sample_size: 66
     params_rel_freq: &id003
-    - 0.12698412698412698
-    - 0.09523809523809523
-    - 0.25396825396825395
-    - 0.25396825396825395
-    - 0.2698412698412698
+    - 0.22727272727272727
+    - 0.13636363636363635
+    - 0.18181818181818182
+    - 0.21212121212121213
+    - 0.24242424242424243
     params_cum_rel_freq: &id002
-    - 0.12698412698412698
-    - 0.2222222222222222
-    - 0.47619047619047616
-    - 0.7301587301587301
+    - 0.22727272727272727
+    - 0.36363636363636365
+    - 0.5454545454545454
+    - 0.7575757575757576
     - 1.0
     params_part1_table: |-
       <table style="width:100%">
@@ -91,28 +91,28 @@ myst:
       <th>Cumulative Relative Frequency</th>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row1_data_value" correct-answer="3" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row1_freq" correct-answer="8" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row1_rel_freq" correct-answer="0.1270" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row1_cum_rel_freq" correct-answer="0.1270" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row1_freq" correct-answer="15" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row1_rel_freq" correct-answer="0.2273" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row1_cum_rel_freq" correct-answer="0.2273" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row2_data_value" correct-answer="4" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row2_freq" correct-answer="6" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row2_rel_freq" correct-answer="0.0952" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row2_cum_rel_freq" correct-answer="0.2222" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row2_freq" correct-answer="9" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row2_rel_freq" correct-answer="0.1364" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row2_cum_rel_freq" correct-answer="0.3636" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row3_data_value" correct-answer="5" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row3_freq" correct-answer="16" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row3_rel_freq" correct-answer="0.2540" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row3_cum_rel_freq" correct-answer="0.4762" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row3_freq" correct-answer="12" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row3_rel_freq" correct-answer="0.1818" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row3_cum_rel_freq" correct-answer="0.5455" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row4_data_value" correct-answer="6" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row4_freq" correct-answer="16" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row4_rel_freq" correct-answer="0.2540" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row4_cum_rel_freq" correct-answer="0.7302" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row4_freq" correct-answer="14" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row4_rel_freq" correct-answer="0.2121" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row4_cum_rel_freq" correct-answer="0.7576" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row5_data_value" correct-answer="7" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row5_freq" correct-answer="17" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row5_rel_freq" correct-answer="0.2698" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row5_freq" correct-answer="16" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row5_rel_freq" correct-answer="0.2424" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       <td><pl-number-input answers-name="part1_row5_cum_rel_freq" correct-answer="1.0000" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr>
       </table>
@@ -133,11 +133,11 @@ myst:
       of data points that have each value or value less than the value.
     params_part4_ans4_feedback: Not Quite - Check the definitions again.
     params_hist_values:
-    - - 8
-      - 14
-      - 30
-      - 46
-      - 63
+    - - 15
+      - 24
+      - 36
+      - 50
+      - 66
     - *id001
     - *id002
     - *id003

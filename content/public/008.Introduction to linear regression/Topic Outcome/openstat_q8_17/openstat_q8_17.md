@@ -34,17 +34,17 @@ myst:
   substitutions:
     params_vars_title: Units of regression
     params_vars_unit1: oz
-    params_vars_unit2: in
-    params_vars_problem_statement: weight (oz) from height (in)
+    params_vars_unit2: cm
+    params_vars_problem_statement: weight (oz) from height (cm)
     params_part1_option1_value: No units
     params_part1_option1_name: Correlation
     params_part1_option2_value: $oz$
     params_part1_option2_name: Intercept
-    params_part1_option3_value: $\frac{oz}{in}$
+    params_part1_option3_value: $\frac{oz}{cm}$
     params_part1_option3_name: Slope
-    params_part1_option4_value: $in$
+    params_part1_option4_value: $cm$
     params_part1_option4_name: Distractor 1
-    params_part1_option5_value: $\frac{in}{oz}$
+    params_part1_option5_value: $\frac{cm}{oz}$
     params_part1_option5_name: Distractor 2
     params_part1_statement1_value: Correlation
     params_part1_statement1_matches: Correlation

@@ -46,8 +46,8 @@ myst:
       not independent of the air quality in the same city at another time point.
     params_part1_ans4_feedback: Incorrect!
     params_country_capitals: 27
-    params_year_1: 2010
-    params_year_2: 2016
+    params_year_1: 2013
+    params_year_2: 2014
     params_selected_scenario: in the same cities
 ---
 # {{ params_vars_title }}

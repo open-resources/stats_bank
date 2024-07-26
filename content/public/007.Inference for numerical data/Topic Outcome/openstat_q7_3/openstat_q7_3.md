@@ -39,8 +39,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Find the p-value, Part I
-    params_n: 14
-    params_T: 2.48
+    params_n: 9
+    params_T: 2.19
     params_alpha: 0.1
     params_part2_ans1_value: do not reject $H_0$
     params_part2_ans1_feedback: Incorrect, try again!

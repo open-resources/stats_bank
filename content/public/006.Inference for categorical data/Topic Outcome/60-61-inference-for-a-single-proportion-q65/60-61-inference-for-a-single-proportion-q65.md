@@ -50,13 +50,13 @@ part5:
 myst:
   substitutions:
     params_vars_title: Gender equality
-    params_vars_sample_size: 1940
-    params_vars_proportion: 37.0
-    params_vars_margin_of_error: 2.15
-    params_vars_lower_bound: 34.85
-    params_vars_upper_bound: 39.15
-    params_vars_margin_of_error_part4: 1.074
-    params_vars_selected_option1: If we considered many random samples of 1940 Americans,
+    params_vars_sample_size: 1742
+    params_vars_proportion: 56.00000000000001
+    params_vars_margin_of_error: 2.33
+    params_vars_lower_bound: 53.67
+    params_vars_upper_bound: 58.33
+    params_vars_margin_of_error_part4: 1.166
+    params_vars_selected_option1: If we considered many random samples of 1742 Americans,
       and we calculated 95% confidence intervals for each, 95% of these intervals
       would include the true population proportion of Americans who think it's the
       government's responsibility to promote equality between men and women.
