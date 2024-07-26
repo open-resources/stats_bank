@@ -47,17 +47,17 @@ part5:
 myst:
   substitutions:
     params_vars_title: Vegetarian college students
-    params_sample_size: 70
+    params_sample_size: 95
     params_sample_size2: 109
-    params_p: 10
-    params_p_hat: 13
-    params_college_students: 124
-    params_college_students2: 248
+    params_p: 11
+    params_p_hat: 12
+    params_college_students: 144
+    params_college_students2: 288
     params_part1_ans1_value: True. This statement satisfies the success-failure condition.
-    params_part1_ans1_feedback: Incorrect!
+    params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: False. The distribution is not normal since it does not
       satisfy the success-failure condition.
-    params_part1_ans2_feedback: Correct!
+    params_part1_ans2_feedback: Incorrect!
     params_part2_ans1_value: False. The distribution is not right skewed because the
       success-failure condition is met.
     params_part2_ans1_feedback: Correct.

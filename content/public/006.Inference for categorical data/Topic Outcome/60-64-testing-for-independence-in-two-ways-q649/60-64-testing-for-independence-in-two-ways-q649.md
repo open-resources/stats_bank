@@ -72,15 +72,15 @@ myst:
   substitutions:
     params_vars_title: Browsing on the mobile device.
     params_vars_chinese_proportion: 0.38
-    params_vars_sample_size: 1424
-    params_vars_sample_proportion: 9.0
-    params_vars_Z: -22.545784392829308
-    params_vars_p_value: 1.4770344151456615e-112
-    params_vars_lower_bound: 0.07513574909199323
-    params_vars_upper_bound: 0.10486425090800676
-    params_part1_ans1_value: '$H_0: p = 0.09$, $H_A: p ≠ 0.38$'
+    params_vars_sample_size: 2120
+    params_vars_sample_proportion: 28.000000000000004
+    params_vars_Z: -9.485938122890495
+    params_vars_p_value: 2.4021253456995774e-21
+    params_vars_lower_bound: 0.2608867999776506
+    params_vars_upper_bound: 0.2991132000223495
+    params_part1_ans1_value: '$H_0: p = 0.28$, $H_A: p ≠ 0.38$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.09$, $H_A: p = 0.38$'
+    params_part1_ans2_value: '$H_0: p = 0.28$, $H_A: p = 0.38$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
     params_part1_ans3_feedback: Correct!

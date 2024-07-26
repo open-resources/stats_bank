@@ -33,8 +33,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: National Health Plan, Part II
-    params_vars_p_hat: 0.4
-    params_vars_p_hat_percent: 40.0
+    params_vars_p_hat: 0.6
+    params_vars_p_hat_percent: 60.0
     params_vars_margin_of_error_percent: 1.0
     params_vars_z_score: 2.3263
     params_vars_confidence: 98

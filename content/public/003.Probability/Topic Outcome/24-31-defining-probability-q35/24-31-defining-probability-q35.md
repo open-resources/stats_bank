@@ -47,7 +47,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Coin flips
-    params_num1: 6
+    params_num1: 7
 ---
 # {{ params_vars_title }}
 If you flip a fair coin ${{ params_num1 }}$ times, what is the probability of

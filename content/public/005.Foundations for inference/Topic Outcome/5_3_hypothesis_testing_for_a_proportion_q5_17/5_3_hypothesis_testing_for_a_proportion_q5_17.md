@@ -31,24 +31,24 @@ part1:
 myst:
   substitutions:
     params_vars_title: Online communication
-    params_description_sample_size: 171
-    params_description_num2: 0.6
-    params_description_num3: 0.77
-    params_description_num4: 60
-    params_description_num5: 77
-    params_part1_ans1_value: $H_0$ should be $p = 0.6$ (Null hypothesis should state
-      that the population proportion is equal to 0.6.)
+    params_description_sample_size: 154
+    params_description_num2: 0.61
+    params_description_num3: 0.68
+    params_description_num4: 61
+    params_description_num5: 68
+    params_part1_ans1_value: $H_0$ should be $p = 0.61$ (Null hypothesis should state
+      that the population proportion is equal to 0.61.)
     params_part1_ans1_feedback: Correct! (1) The hypotheses should be about the population
       proportion ($p$), not the sample proportion. (2) The null hypothesis should
       have an equal sign. (3) The alternative hypothesis should have a not-equals
-      sign, and, (4) It should reference the null value, $p_0$ = 0.6, not the observed
+      sign, and, (4) It should reference the null value, $p_0$ = 0.61, not the observed
       sample proportion.
-    params_part1_ans2_value: ' $H_0: p < 0.77$, $H_A: p > 0.6$ (Your friend''s proposed
+    params_part1_ans2_value: ' $H_0: p < 0.68$, $H_A: p > 0.61$ (Your friend''s proposed
       hypotheses are incorrect as indicated in the solution.)'
     params_part1_ans2_feedback: ' Try Again! (1) The hypotheses should be about the
       population proportion ($p$), not the sample proportion. (2) The null hypothesis
       should have an equal sign. (3) The alternative hypothesis should have a not-equals
-      sign, and, (4) It should reference the null value, $p_0$ = 0.6, not the observed
+      sign, and, (4) It should reference the null value, $p_0$ = 0.61, not the observed
       sample proportion.'
 ---
 # {{ params_vars_title }}

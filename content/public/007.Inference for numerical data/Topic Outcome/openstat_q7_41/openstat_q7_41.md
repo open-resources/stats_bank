@@ -51,8 +51,8 @@ myst:
     params_df_factor: 2
     params_df_residual: 191
     params_meansq_factor: 0.02
-    params_meansq_residual: 0.0938
-    params_f_value: 0.2132
+    params_meansq_residual: 0.0926
+    params_f_value: 0.216
     params_table: |-
       <table style="width:550px">
       <tr>
@@ -67,13 +67,13 @@ myst:
       <td>$2$</td>
       <td>$0.04$</td>
       <td>$0.02$</td>
-      <td>$0.2132$</td>
+      <td>$0.216$</td>
       <td>$-$</td>
       </tr><tr>
       <th>Residuals</th>
       <td>$191$</td>
-      <td>$17.91$</td>
-      <td>$0.0938$</td>
+      <td>$17.69$</td>
+      <td>$0.0926$</td>
       <td>$\quad$</td>
       <td>$\quad$</td>
       </tr>
