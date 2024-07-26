@@ -49,10 +49,10 @@ myst:
   substitutions:
     params_vars_title: GPA and major
     params_df_factor: 2
-    params_df_residual: 191
-    params_meansq_factor: 0.02
-    params_meansq_residual: 0.0926
-    params_f_value: 0.216
+    params_df_residual: 187
+    params_meansq_factor: 0.03
+    params_meansq_residual: 0.0955
+    params_f_value: 0.3141
     params_table: |-
       <table style="width:550px">
       <tr>
@@ -65,15 +65,15 @@ myst:
       </tr><tr>
       <th>major</th>
       <td>$2$</td>
-      <td>$0.04$</td>
-      <td>$0.02$</td>
-      <td>$0.216$</td>
+      <td>$0.06$</td>
+      <td>$0.03$</td>
+      <td>$0.3141$</td>
       <td>$-$</td>
       </tr><tr>
       <th>Residuals</th>
-      <td>$191$</td>
-      <td>$17.69$</td>
-      <td>$0.0926$</td>
+      <td>$187$</td>
+      <td>$17.85$</td>
+      <td>$0.0955$</td>
       <td>$\quad$</td>
       <td>$\quad$</td>
       </tr>

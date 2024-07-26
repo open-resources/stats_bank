@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Car insurance savings
-    params_description_std: 107
-    params_description_moe_max: 4
-    params_description_confidence_level: 0.92
+    params_description_std: 94
+    params_description_moe_max: 5
+    params_description_confidence_level: 0.94
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">

@@ -50,19 +50,18 @@ part5:
 myst:
   substitutions:
     params_vars_title: Gender equality
-    params_vars_sample_size: 1080
-    params_vars_proportion: 49.0
-    params_vars_margin_of_error: 2.98
-    params_vars_lower_bound: 46.02
-    params_vars_upper_bound: 51.98
-    params_vars_margin_of_error_part4: 1.491
-    params_vars_selected_option1: If we considered many random samples of 1080 Americans,
+    params_vars_sample_size: 1940
+    params_vars_proportion: 37.0
+    params_vars_margin_of_error: 2.15
+    params_vars_lower_bound: 34.85
+    params_vars_upper_bound: 39.15
+    params_vars_margin_of_error_part4: 1.074
+    params_vars_selected_option1: If we considered many random samples of 1940 Americans,
       and we calculated 95% confidence intervals for each, 95% of these intervals
       would include the true population proportion of Americans who think it's the
       government's responsibility to promote equality between men and women.
-    params_vars_selected_option2: The margin of error is independent of the variability
-      in the responses from the sample population; it only depends on the sample size
-      and confidence level.
+    params_vars_selected_option2: Doubling the sample size will halve the margin of
+      error, regardless of the initial sample size and confidence level.
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part2_ans1_value: 'False'

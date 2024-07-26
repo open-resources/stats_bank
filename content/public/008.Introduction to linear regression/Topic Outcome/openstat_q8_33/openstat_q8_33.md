@@ -93,26 +93,26 @@ myst:
       <th>Pr(>|t|)</th>
       </tr><tr>
       <th>(intercept)</th>
-      <td>$40.7071$</td>
-      <td>$4.47$</td>
-      <td>$10.2$</td>
+      <td>$44.273$</td>
+      <td>$4.7134$</td>
+      <td>$8.9$</td>
       <td>$0.0$</td>
       </tr><tr>
       <th>height_husband</th>
-      <td>$0.3238$</td>
-      <td>$0.0828$</td>
-      <td>$3.3$</td>
-      <td>$0.0012$</td>
+      <td>$0.2888$</td>
+      <td>$0.0436$</td>
+      <td>$3.11$</td>
+      <td>$0.0022$</td>
       </tr>
       </table>
-    params_sample: 143
-    params_slope: 0.3238
-    params_intercept: 40.7071
-    params_intercept_std_error: 4.47
-    params_slope_std_error: 0.0828
-    params_husband_height1: 70
-    params_correlation: 0.13
-    params_husband_height2: 51
+    params_sample: 167
+    params_slope: 0.2888
+    params_intercept: 44.273
+    params_intercept_std_error: 4.7134
+    params_slope_std_error: 0.0436
+    params_husband_height1: 67
+    params_correlation: 0.09
+    params_husband_height2: 54
     params_part1_ans1_value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'
     params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: '$H_0: \beta_1 = 0;  H_A: \beta_1 > 0$'

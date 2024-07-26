@@ -64,9 +64,9 @@ part5:
 myst:
   substitutions:
     params_vars_title: Hearts win
-    params_part3_num1: 7
-    params_part4_num1: 7
-    params_part5_num1: 7
+    params_part3_num1: 6
+    params_part4_num1: 6
+    params_part5_num1: 6
     params_part5_ans1_value: 'Yes'
     params_part5_ans1_feedback: Incorrect! The expected net profit is negative, so
       on average you expect to lose money.
@@ -75,9 +75,9 @@ myst:
       average you expect to lose money.
     params_description_num1: 4
     params_description_num2: 4
-    params_description_num3: 51
+    params_description_num3: 47
     params_description_num4: 4
-    params_description_num5: 24
+    params_description_num5: 27
 ---
 # {{ params_vars_title }}
 <div class="mathjax_ignore">
