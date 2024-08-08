@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: San Jose Park Use
-    params_vars_every: 8
+    params_vars_every: 7
     params_part1_measurement: Number of times per week
     params_part1_ans1_value: qualitative
     params_part1_ans1_feedback: Try again please!

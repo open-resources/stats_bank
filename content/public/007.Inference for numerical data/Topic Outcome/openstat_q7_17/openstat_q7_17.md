@@ -42,31 +42,30 @@ part4:
 myst:
   substitutions:
     params_vars_title: Paired or not? Part I
-    params_selected_scenario_part1: Investigate the impact of education on earnings
-      by comparing the salaries of individuals with high school diplomas and college
-      degrees.
+    params_selected_scenario_part1: Compare pre-test (beginning of semester) and post-test
+      (end of semester) scores of students.
     params_part1_ans1_value: Paired.
-    params_part1_ans1_feedback: Incorrect!
+    params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: Not paired.
-    params_part1_ans2_feedback: Correct!
-    params_selected_scenario_part2: Examine age-related wage disparities by comparing
-      the earnings of younger and older employees in a company.
+    params_part1_ans2_feedback: Incorrect!
+    params_selected_scenario_part2: Evaluate the improvement in programming skills
+      by comparing test scores before and after a coding bootcamp.
     params_part2_ans1_value: Paired.
-    params_part2_ans1_feedback: Incorrect!
+    params_part2_ans1_feedback: Correct!
     params_part2_ans2_value: Not paired.
-    params_part2_ans2_feedback: Correct!
-    params_selected_scenario_part3: Evaluate sleep quality improvements by comparing
-      scores before and after using a new type of mattress for the same subjects.
+    params_part2_ans2_feedback: Incorrect!
+    params_selected_scenario_part3: Measure changes in blood pressure before and after
+      a 6-month exercise program for the same individuals.
     params_part3_ans1_value: Paired.
     params_part3_ans1_feedback: Correct!
     params_part3_ans2_value: Not paired.
     params_part3_ans2_feedback: Incorrect!
-    params_selected_scenario_part4: Evaluate the improvement in programming skills
-      by comparing test scores before and after a coding bootcamp.
+    params_selected_scenario_part4: Assess gender-related salary gap by comparing
+      salaries of randomly sampled men and women.
     params_part4_ans1_value: Paired.
-    params_part4_ans1_feedback: Correct!
+    params_part4_ans1_feedback: Incorrect!
     params_part4_ans2_value: Not paired.
-    params_part4_ans2_feedback: Incorrect!
+    params_part4_ans2_feedback: Correct!
 ---
 # {{ params_vars_title }}
 In each of the following scenarios, determine if the data are paired.

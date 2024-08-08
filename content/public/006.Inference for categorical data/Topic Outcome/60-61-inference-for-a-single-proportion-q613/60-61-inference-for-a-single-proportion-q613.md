@@ -65,10 +65,10 @@ myst:
   substitutions:
     params_vars_title: Taste Test
     params_vars_sample: 88
-    params_vars_p_value: 0.055008833629265785
-    params_part1_ans1_value: '$H_0: p = 0.6$, $H_A: p ≠ 0.5$'
+    params_vars_p_value: 0.28642202277785933
+    params_part1_ans1_value: '$H_0: p = 0.56$, $H_A: p ≠ 0.5$'
     params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.6$, $H_A: p = 0.5$'
+    params_part1_ans2_value: '$H_0: p = 0.56$, $H_A: p = 0.5$'
     params_part1_ans2_feedback: Try again please!
     params_part1_ans3_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
     params_part1_ans3_feedback: Correct!
