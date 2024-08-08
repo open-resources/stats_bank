@@ -70,14 +70,14 @@ part7:
 myst:
   substitutions:
     params_vars_title: Sleep habits of New Yorkers
-    params_confidence_level: 98.0
+    params_confidence_level: 90.0
     params_sleep_hours: 7
-    params_description_n: 24
+    params_description_n: 36
     params_description_sample_mean: 6.73
-    params_description_s: 1.3
-    params_description_min_val: 4.36
-    params_description_max_val: 8.86
-    params_description_alpha: 0.01
+    params_description_s: 1.33
+    params_description_min_val: 3.22
+    params_description_max_val: 10.67
+    params_description_alpha: 0.05
     params_table1: |-
       <table style="width:400px">
       <tr>
@@ -87,11 +87,11 @@ myst:
       <th>$min$</th>
       <th>$max$</th>
       </tr><tr>
-      <th>$24$</th>
+      <th>$36$</th>
       <td>$6.73$</td>
-      <td>$1.3$</td>
-      <td>$4.36$</td>
-      <td>$8.86$</td>
+      <td>$1.33$</td>
+      <td>$3.22$</td>
+      <td>$10.67$</td>
       </tr>
       </table>
     params_part1_ans1_value: '$H_0: \mu = 7$, $H_a: \mu < 7$'

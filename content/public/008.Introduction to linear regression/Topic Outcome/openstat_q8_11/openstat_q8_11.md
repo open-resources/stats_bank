@@ -56,7 +56,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: The Coast Starlight, Part I
-    params_part3_num1: 0.66
+    params_part3_num1: 0.638
 ---
 # {{ params_vars_title }}
 The Coast Starlight Amtrak train runs from Seattle to Los Angeles. The scatterplot below displays the distance between each stop (in miles) and the amount of time it takes to travel from one stop to another (in minutes).

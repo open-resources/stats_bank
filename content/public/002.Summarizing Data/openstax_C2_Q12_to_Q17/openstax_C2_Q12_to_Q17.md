@@ -54,33 +54,33 @@ myst:
   substitutions:
     params_vars_title: Histograms
     params_sells_three: 14
-    params_sells_four: 16
-    params_sells_five: 8
-    params_sells_six: 14
-    params_sells_seven: 14
+    params_sells_four: 14
+    params_sells_five: 15
+    params_sells_six: 17
+    params_sells_seven: 13
     params_headers:
     - Data Value (# cars)
     - Frequency
     - Relative Frequency
     - Cumulative Relative Frequency
-    params_frequencies: &id003
-    - 14
-    - 16
-    - 8
+    params_frequencies: &id002
     - 14
     - 14
-    params_sample_size: 66
+    - 15
+    - 17
+    - 13
+    params_sample_size: 73
     params_rel_freq: &id001
-    - 0.21212121212121213
-    - 0.24242424242424243
-    - 0.12121212121212122
-    - 0.21212121212121213
-    - 0.21212121212121213
-    params_cum_rel_freq: &id002
-    - 0.21212121212121213
-    - 0.4545454545454546
-    - 0.5757575757575758
-    - 0.787878787878788
+    - 0.1917808219178082
+    - 0.1917808219178082
+    - 0.2054794520547945
+    - 0.2328767123287671
+    - 0.1780821917808219
+    params_cum_rel_freq: &id003
+    - 0.1917808219178082
+    - 0.3835616438356164
+    - 0.5890410958904109
+    - 0.821917808219178
     - 1.0
     params_part1_table: |-
       <table style="width:100%">
@@ -92,27 +92,27 @@ myst:
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row1_data_value" correct-answer="3" show-help-text="false" size="10" display="block"></pl-integer-input></td>
       <td><pl-integer-input answers-name="part1_row1_freq" correct-answer="14" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row1_rel_freq" correct-answer="0.2121" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row1_cum_rel_freq" correct-answer="0.2121" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row1_rel_freq" correct-answer="0.1918" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row1_cum_rel_freq" correct-answer="0.1918" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row2_data_value" correct-answer="4" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row2_freq" correct-answer="16" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row2_rel_freq" correct-answer="0.2424" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row2_cum_rel_freq" correct-answer="0.4545" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row2_freq" correct-answer="14" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row2_rel_freq" correct-answer="0.1918" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row2_cum_rel_freq" correct-answer="0.3836" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row3_data_value" correct-answer="5" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row3_freq" correct-answer="8" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row3_rel_freq" correct-answer="0.1212" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row3_cum_rel_freq" correct-answer="0.5758" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row3_freq" correct-answer="15" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row3_rel_freq" correct-answer="0.2055" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row3_cum_rel_freq" correct-answer="0.5890" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row4_data_value" correct-answer="6" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row4_freq" correct-answer="14" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row4_rel_freq" correct-answer="0.2121" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
-      <td><pl-number-input answers-name="part1_row4_cum_rel_freq" correct-answer="0.7879" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row4_freq" correct-answer="17" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row4_rel_freq" correct-answer="0.2329" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-number-input answers-name="part1_row4_cum_rel_freq" correct-answer="0.8219" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr><tr>
       <td><pl-integer-input answers-name="part1_row5_data_value" correct-answer="7" show-help-text="false" size="10" display="block"></pl-integer-input></td>
-      <td><pl-integer-input answers-name="part1_row5_freq" correct-answer="14" show-help-text="false" size="5" display="block"></pl-integer-input></td>
-      <td><pl-number-input answers-name="part1_row5_rel_freq" correct-answer="0.2121" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
+      <td><pl-integer-input answers-name="part1_row5_freq" correct-answer="13" show-help-text="false" size="5" display="block"></pl-integer-input></td>
+      <td><pl-number-input answers-name="part1_row5_rel_freq" correct-answer="0.1781" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       <td><pl-number-input answers-name="part1_row5_cum_rel_freq" correct-answer="1.0000" show-help-text="false" comparison="decdig" size="25" display="block" digits="4"></pl-number-input></td>
       </tr>
       </table>
@@ -133,22 +133,22 @@ myst:
       of data points that have each value or value less than the value.
     params_part4_ans4_feedback: Not Quite - Check the definitions again.
     params_hist_values:
-    - - 14
-      - 30
-      - 38
-      - 52
-      - 66
     - *id001
+    - - 14
+      - 28
+      - 43
+      - 60
+      - 73
     - *id002
     - *id003
     params_part5_ans1_value: Histogram 1
-    params_part5_ans1_feedback: Try again!
+    params_part5_ans1_feedback: Good Job!
     params_part5_ans2_value: Histogram 2
-    params_part5_ans2_feedback: Good Job!
+    params_part5_ans2_feedback: Try again!
     params_part5_ans3_value: Histogram 3
-    params_part5_ans3_feedback: Try again!
+    params_part5_ans3_feedback: Good Job!
     params_part5_ans4_value: Histogram 4
-    params_part5_ans4_feedback: Good Job!
+    params_part5_ans4_feedback: Try again!
 ---
 # {{ params_vars_title }}
 {{ params.sample_size }} randomly selected car salespersons were asked the number of cars they generally sell in one week. {{ params_sells_three }} people answered that they generally sell three cars; {{ params_sells_four }} generally sell four cars; {{ params_sells_five }} generally sell five cars; {{ params_sells_six }} generally sell six cars; {{ params_sells_seven }} generally sell seven cars.

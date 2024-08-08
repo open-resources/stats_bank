@@ -89,25 +89,25 @@ part9:
 myst:
   substitutions:
     params_vars_title: Weight of Heads of Lettuce
-    params_x_bar: 1.8
-    params_sigma: 0.3
-    params_sample_stdev: 0.07
-    params_sample_size: 26
-    params_other_sample_size: 13.0
+    params_x_bar: 1.9
+    params_sigma: 0.12
+    params_sample_stdev: 0.19
+    params_sample_size: 18
+    params_other_sample_size: 36
     params_alpha1: 0.01
     params_confidence1: 99
     params_z_score1: 2.58
     params_alpha2: 0.05
     params_confidence2: 95
     params_z_score2: 1.96
-    params_part6_confidence: 95
-    params_part6_z_score: 1.96
+    params_part6_confidence: 99
+    params_part6_z_score: 2.58
     params_part4_option1_value: The mean weight of a head of lettuce.
     params_part4_option2_value: The mean weight of all heads of lettuce.
     params_part4_statement1_value: $X$
     params_part4_statement1_matches: The weight of a head of lettuce.
     params_part4_statement2_value: $\bar{X}$
-    params_part4_statement2_matches: The mean weight of a sample of 26 heads of lettuce.
+    params_part4_statement2_matches: The mean weight of a sample of 18 heads of lettuce.
     params_part7_option1_value: $\text{CL} = 98\%$
     params_part7_option2_value: $\text{CL} = 90\%$
     params_part7_statement1_value: CI 1
@@ -148,12 +148,12 @@ myst:
     params_part9_option4_value: The error bound would decrease.
     params_part9_option5_value: The sample size would increase.
     params_part9_option6_value: The sample size would decrease.
-    params_part9_statement1_value: What would happen if 13.0 heads of lettuce were
-      sampled instead of 26, and the error bound remained the same?
-    params_part9_statement1_matches: CL-Decrease
-    params_part9_statement2_value: What would happen if 13.0 heads of lettuce were
-      sampled instead of 26, and the confidence level remained the same?
-    params_part9_statement2_matches: EBM-Increase
+    params_part9_statement1_value: What would happen if 36 heads of lettuce were sampled
+      instead of 18, and the error bound remained the same?
+    params_part9_statement1_matches: CL-Increase
+    params_part9_statement2_value: What would happen if 36 heads of lettuce were sampled
+      instead of 18, and the confidence level remained the same?
+    params_part9_statement2_matches: EBM-Decrease
 ---
 # {{ params_vars_title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params_sigma }} pounds.

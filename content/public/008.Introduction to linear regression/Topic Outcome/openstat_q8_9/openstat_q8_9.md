@@ -57,7 +57,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Speed and height
-    params_description_num1: 1305
+    params_description_num1: 1290
 ---
 # {{ params_vars_title }}
 ${{ params_description_num1 }}$ UCLA students were asked to fill out a survey where they were asked about their height, fastest speed they have ever driven, and gender. The first scatterplot displays the relationship between height and fastest speed, and the second scatterplot displays the breakdown by gender in this relationship.

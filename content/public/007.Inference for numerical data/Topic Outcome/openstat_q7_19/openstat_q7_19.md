@@ -122,31 +122,31 @@ myst:
     params_part6_ans1_value: Since the p-value is less than 0.05, we reject $H_0$.
       The data provide strong evidence that NOAA stations observed more 90°F days
       in 2018 than in 1948.
-    params_part6_ans1_feedback: Incorrect!
+    params_part6_ans1_feedback: Correct!
     params_part6_ans2_value: Since the p-value is greater than 0.05, we fail to reject
       $H_0$. The data do not provide strong evidence that NOAA stations observed more
       90°F days in 2018 than in 1948.
-    params_part6_ans2_feedback: Correct!
+    params_part6_ans2_feedback: Incorrect!
     params_part7_ans1_value: Type 1 Error, since we may have incorrectly rejected
       $H_0$. This error would mean that NOAA stations did not actually observe a decrease,
       but the sample we took just so happened to make it appear that this was the
       case
-    params_part7_ans1_feedback: Incorrect!
+    params_part7_ans1_feedback: Correct!
     params_part7_ans2_value: Type II Error, since we may have failed to reject $H_0$
       incorrectly. This error would mean that NOAA stations did actually observe a
       decrease in the number of 90°F days in 2018 compared to 1948, but the sample
       we took was not able to provide enough evidence to demonstrate this decrease.
-    params_part7_ans2_feedback: Correct!
+    params_part7_ans2_feedback: Incorrect!
     params_part8_ans1_value: No, since we rejected $H_0$, which had a null value of
       0.
-    params_part8_ans1_feedback: Incorrect!
+    params_part8_ans1_feedback: Correct!
     params_part8_ans2_value: Yes, since we failed to reject $H_0$, which suggests
       the average difference between the number of days exceeding 90°F from 1948 and
       2018 might include 0.
-    params_part8_ans2_feedback: Correct!
-    params_sample_size: 191
-    params_mean_difference: 2.3
-    params_std_deviation: 17.7
+    params_part8_ans2_feedback: Incorrect!
+    params_sample_size: 185
+    params_mean_difference: 3.1
+    params_std_deviation: 18.7
 ---
 # {{ params_vars_title }}
 Let's consider a limited set of climate data, examining temperature differences in 1948 vs 2018. We sampled {{ params.sample_size }} locations from the National Oceanic and Atmospheric Administration’s (NOAA) historical data, where the data was available for both years of interest. We want to know: were there more days with temperatures exceeding 90°F in 2018 or in 1948? The difference in number of days exceeding 90°F (number of days in 2018 - number of days in 1948) was calculated for each of the {{ params.sample_size }} locations. The average of these differences was {{ params.mean_difference }} days with a standard deviation of {{ params.std_deviation }} days. We are interested in determining whether these data provide strong evidence that there were more days in 2018 that exceeded 90°F from NOAA’s weather stations.

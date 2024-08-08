@@ -58,15 +58,15 @@ part4:
 myst:
   substitutions:
     params_vars_title: Migraine and acupuncture, Part I
-    params_table0_r2_c2: 11
-    params_table0_r2_c3: 36
-    params_table0_r2_c4: 47
+    params_table0_r2_c2: 10
+    params_table0_r2_c3: 38
+    params_table0_r2_c4: 48
     params_table0_r3_c2: 4
-    params_table0_r3_c3: 45
-    params_table0_r3_c4: 49
-    params_table0_r4_c2: 15
-    params_table0_r4_c3: 81
-    params_table0_r4_c4: 96
+    params_table0_r3_c3: 42
+    params_table0_r3_c4: 46
+    params_table0_r4_c2: 14
+    params_table0_r4_c3: 80
+    params_table0_r4_c4: 94
     params_part1_num1: 24.0
     params_part3_num1: 24.0
     params_part3_ans1_value: Treatment
@@ -77,12 +77,12 @@ myst:
     params_part3_ans3_feedback: This is incorrect. Try again please!
     params_part3_phrase1: is
     params_part4_num1: 24.0
-    params_description_num1: 96
-    params_description_num2: 47
-    params_description_num3: 49
+    params_description_num1: 94
+    params_description_num2: 48
+    params_description_num3: 46
     params_description_num4: 24.0
-    params_part1_ans_before_convert: 0.234
-    params_part2_ans_before_convert: 0.082
+    params_part1_ans_before_convert: 0.208
+    params_part2_ans_before_convert: 0.087
 ---
 # {{ params_vars_title }}
 A migraine is a particularly painful type of headache, which patients sometimes wish to treat with acupuncture. To determine whether acupuncture relieves migraine pain, researchers conducted a randomized controlled study where ${{ params_description_num1 }}$ females diagnosed with migraine headaches were randomly assigned to one of two groups: treatment or control. ${{ params_description_num2 }}$ patients in the treatment group received acupuncture that is specifically designed to treat migraines. ${{ params_description_num3 }}$ patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). ${{ params_description_num4 }}$ hours after patients received acupuncture, they were asked if they were pain free. Results are summarized in the contingency table below.

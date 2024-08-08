@@ -48,24 +48,25 @@ myst:
     params_part1_ans1_feedback: Correct!
     params_part1_ans2_value: Not paired.
     params_part1_ans2_feedback: Incorrect!
-    params_selected_scenario_part2: Evaluate the improvement in programming skills
-      by comparing test scores before and after a coding bootcamp.
+    params_selected_scenario_part2: Investigate the impact of education on earnings
+      by comparing the salaries of individuals with high school diplomas and college
+      degrees.
     params_part2_ans1_value: Paired.
-    params_part2_ans1_feedback: Correct!
+    params_part2_ans1_feedback: Incorrect!
     params_part2_ans2_value: Not paired.
-    params_part2_ans2_feedback: Incorrect!
-    params_selected_scenario_part3: Measure changes in blood pressure before and after
-      a 6-month exercise program for the same individuals.
+    params_part2_ans2_feedback: Correct!
+    params_selected_scenario_part3: Compare literacy levels at the start and end of
+      a year-long reading program for the same group of participants.
     params_part3_ans1_value: Paired.
     params_part3_ans1_feedback: Correct!
     params_part3_ans2_value: Not paired.
     params_part3_ans2_feedback: Incorrect!
-    params_selected_scenario_part4: Assess gender-related salary gap by comparing
-      salaries of randomly sampled men and women.
+    params_selected_scenario_part4: Evaluate the effects of a meditation program on
+      stress levels by comparing measurements before and after the program duration.
     params_part4_ans1_value: Paired.
-    params_part4_ans1_feedback: Incorrect!
+    params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: Not paired.
-    params_part4_ans2_feedback: Correct!
+    params_part4_ans2_feedback: Incorrect!
 ---
 # {{ params_vars_title }}
 In each of the following scenarios, determine if the data are paired.
