@@ -42,26 +42,27 @@ part4:
 myst:
   substitutions:
     params_vars_title: Paired or not? Part I
-    params_selected_scenario_part1: Compare artery thicknesses at the beginning of
-      a study and after 2 years of taking Vitamin E for the same group of patients.
+    params_selected_scenario_part1: Investigate the impact of education on earnings
+      by comparing the salaries of individuals with high school diplomas and college
+      degrees.
     params_part1_ans1_value: Paired.
-    params_part1_ans1_feedback: Correct!
+    params_part1_ans1_feedback: Incorrect!
     params_part1_ans2_value: Not paired.
-    params_part1_ans2_feedback: Incorrect!
-    params_selected_scenario_part2: Evaluate the improvement in programming skills
-      by comparing test scores before and after a coding bootcamp.
+    params_part1_ans2_feedback: Correct!
+    params_selected_scenario_part2: Examine age-related wage disparities by comparing
+      the earnings of younger and older employees in a company.
     params_part2_ans1_value: Paired.
-    params_part2_ans1_feedback: Correct!
+    params_part2_ans1_feedback: Incorrect!
     params_part2_ans2_value: Not paired.
-    params_part2_ans2_feedback: Incorrect!
-    params_selected_scenario_part3: Measure changes in blood pressure before and after
-      a 6-month exercise program for the same individuals.
+    params_part2_ans2_feedback: Correct!
+    params_selected_scenario_part3: Evaluate sleep quality improvements by comparing
+      scores before and after using a new type of mattress for the same subjects.
     params_part3_ans1_value: Paired.
     params_part3_ans1_feedback: Correct!
     params_part3_ans2_value: Not paired.
     params_part3_ans2_feedback: Incorrect!
-    params_selected_scenario_part4: Determine the impact of a hydration campaign on
-      water intake by comparing the intakes before and after the campaign.
+    params_selected_scenario_part4: Evaluate the improvement in programming skills
+      by comparing test scores before and after a coding bootcamp.
     params_part4_ans1_value: Paired.
     params_part4_ans1_feedback: Correct!
     params_part4_ans2_value: Not paired.

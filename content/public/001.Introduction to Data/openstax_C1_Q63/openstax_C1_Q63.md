@@ -30,14 +30,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: San Jose Park Use
-    params_vars_every: 10
-    params_part1_measurement: Occupation
+    params_vars_every: 8
+    params_part1_measurement: Number of times per week
     params_part1_ans1_value: qualitative
-    params_part1_ans1_feedback: Great! You got it.
+    params_part1_ans1_feedback: Try again please!
     params_part1_ans2_value: quantitative discrete
-    params_part1_ans2_feedback: Try again please!
+    params_part1_ans2_feedback: Great! You got it.
     params_part1_ans3_value: quantitative continuous
-    params_part1_ans3_feedback: Try again please!
+    params_part1_ans3_feedback: Not quite, it is quantitative, but the a count of
+      something is not a continuous measurement. Try again!
 ---
 # {{ params_vars_title }}
 A study was done to determine the occupation, age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every {{ params_vars_every }}$^{th}$ house in the neighborhood around the park was interviewed.

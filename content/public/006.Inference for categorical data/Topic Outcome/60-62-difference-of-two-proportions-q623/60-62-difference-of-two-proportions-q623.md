@@ -127,14 +127,14 @@ myst:
       who do not have an opinion on this issue is different from that of non-college
       graduates.
     params_part9_ans4_feedback: Try again please!
-    params_yes_support: 147
-    params_yes_oppose: 170
-    params_yes_do_not_know: 97
-    params_yes_total: 414
-    params_no_support: 141
-    params_no_oppose: 127
-    params_no_do_not_know: 141
-    params_no_total: 409
+    params_yes_support: 143
+    params_yes_oppose: 178
+    params_yes_do_not_know: 104
+    params_yes_total: 425
+    params_no_support: 139
+    params_no_oppose: 135
+    params_no_do_not_know: 124
+    params_no_total: 398
     params_total: 823
 ---
 # {{ params_vars_title }}

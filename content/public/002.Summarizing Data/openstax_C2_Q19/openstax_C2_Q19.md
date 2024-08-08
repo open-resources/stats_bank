@@ -60,52 +60,52 @@ myst:
       <th>Frequency</th>
       </tr><tr>
       <td>230–259</td>
-      <td>22</td>
+      <td>26</td>
       </tr><tr>
       <td>260–289</td>
-      <td>12</td>
+      <td>6</td>
       </tr><tr>
       <td>290–319</td>
-      <td>5</td>
+      <td>4</td>
       </tr><tr>
       <td>320–349</td>
-      <td>8</td>
-      </tr><tr>
-      <td>350–379</td>
-      <td>0</td>
-      </tr><tr>
-      <td>380–409</td>
       <td>2</td>
       </tr><tr>
-      <td>410–439</td>
+      <td>350–379</td>
       <td>1</td>
+      </tr><tr>
+      <td>380–409</td>
+      <td>1</td>
+      </tr><tr>
+      <td>410–439</td>
+      <td>0</td>
       </tr>
       </table>
     params__workspace_files:
     - name: data.csv
       contents: |
         Depth of Hunger,Frequency
-        230–259,22
-        260–289,12
-        290–319,5
-        320–349,8
-        350–379,0
-        380–409,2
-        410–439,1
-    params_autograding_std_plot: std_j32r8vtd_plot.png
-    params_autograding_ref_plot: ref_rch_m4dj_plot.png
+        230–259,26
+        260–289,6
+        290–319,4
+        320–349,2
+        350–379,1
+        380–409,1
+        410–439,0
+    params_autograding_std_plot: std_hy1iycxa_plot.png
+    params_autograding_ref_plot: ref_z26cxojn_plot.png
     params__images:
     - label: Your Frequency Polygon
-      filename: std_j32r8vtd_plot.png
+      filename: std_hy1iycxa_plot.png
       part: Check graph is similar to expected graph
     - label: Expected Frequency Polygon
-      filename: ref_rch_m4dj_plot.png
+      filename: ref_z26cxojn_plot.png
       part: Check graph is similar to expected graph
     params__autograder_files:
     - path: /grade/tests/data.csv
-      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwxCg==
+      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDYKMjkw4oCTMzE5LDQKMzIw4oCTMzQ5LDIKMzUw4oCTMzc5LDEKMzgw4oCTNDA5LDEKNDEw4oCTNDM5LDAK
     - path: /grade/student/data.csv
-      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwxCg==
+      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDYKMjkw4oCTMzE5LDQKMzIw4oCTMzQ5LDIKMzUw4oCTMzc5LDEKMzgw4oCTNDA5LDEKNDEw4oCTNDM5LDAK
 ---
 # {{ params_vars_title }}
 
