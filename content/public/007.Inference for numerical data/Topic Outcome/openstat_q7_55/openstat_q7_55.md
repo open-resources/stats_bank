@@ -67,13 +67,13 @@ myst:
         - 0
       - !!binary |
         mpmZmZmZC0A=
-      sample_size: 200
+      sample_size: 184
       sample_std: !!python/object/apply:numpy.core.multiarray.scalar
       - *id001
       - !!binary |
-        KVyPwvUo/D8=
+        XI/C9Shc+z8=
       confidence_level: 90
-      n: 200
+      n: 184
       part3:
         ans1:
           value: 'Independence: it is a random sample, so we can assume that the students

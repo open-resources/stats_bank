@@ -43,7 +43,7 @@ myst:
       vars:
         title: Relaxing after work
       part2:
-        num1: 1148
+        num1: 1258
         moe_comparison: smaller
         ans1:
           value: The confidence level of the new interval is the same as the previous
@@ -64,32 +64,32 @@ myst:
           feedback: Try again please! Recall that the width of the confidence interval
             increases as the confidence level increases.
       part3:
-        num1: 2712
+        num1: 785
         num2: 95
         ans1:
-          value: The new margin of error will be larger, as a larger sample size always
-            leads to a larger margin of error.
-          feedback: Try again please! Recall that as the sample size increases, the
-            standard error decreases, which will decrease the margin of error.
+          value: The new margin of error will be larger, as a smaller sample size
+            always leads to a larger margin of error.
+          feedback: Correct!
         ans2:
           value: The new margin of error will be the same, regardless of changes in
             the sample size.
           feedback: Try again please! Recall that as the sample size increases, the
             standard error decreases, which will decrease the margin of error.
         ans3:
-          value: The new margin of error will be smaller, as a larger sample size
+          value: The new margin of error will be smaller, as a smaller sample size
             leads to a smaller margin of error.
-          feedback: Correct!
+          feedback: Try again please! Recall that as the sample size increases, the
+            standard error decreases, which will decrease the margin of error.
         ans4:
           value: The new margin of error cannot be determined without knowing the
             actual values of the confidence intervals.
           feedback: Try again please! Recall that as the sample size increases, the
             standard error decreases, which will decrease the margin of error.
       description:
-        num1: 1148
+        num1: 1258
         num2: 95
-        num3: 1.35
-        num4: 1.97
+        num3: 1.5
+        num4: 1.88
       part1:
         ans1:
           value: The mean number of hours spent relaxing is exactly 1.65 hours.
@@ -100,7 +100,7 @@ myst:
           feedback: Try again please!
         ans3:
           value: We are 95% confident that the average time spent relaxing by Americans
-            falls between 1.35 and 1.97 hours.
+            falls between 1.5 and 1.88 hours.
           feedback: Correct!
         ans4:
           value: This interval represents the minimum and maximum number of hours

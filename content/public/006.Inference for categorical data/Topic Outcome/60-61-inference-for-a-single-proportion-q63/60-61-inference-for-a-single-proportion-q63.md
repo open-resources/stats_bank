@@ -51,8 +51,8 @@ myst:
         title: Orange tabbies
         sample_size1: 30
         times: 64
-        sample_size3: 89
-        sample_size4: 105
+        sample_size3: 25
+        sample_size4: 159
       part1:
         ans1:
           value: 'True'
