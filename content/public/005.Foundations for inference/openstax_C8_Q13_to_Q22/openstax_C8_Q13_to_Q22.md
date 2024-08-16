@@ -91,19 +91,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 1.7
-      sigma: 0.13
-      sample_stdev: 0.19
+      x_bar: 1.9
+      sigma: 0.18
+      sample_stdev: 0.24
       sample_size: 22
       other_sample_size: 11.0
-      alpha1: 0.05
-      confidence1: 95
-      z_score1: 1.96
-      alpha2: 0.01
-      confidence2: 99
-      z_score2: 2.58
-      part6_confidence: 95
-      part6_z_score: 1.96
+      alpha1: 0.01
+      confidence1: 99
+      z_score1: 2.58
+      alpha2: 0.1
+      confidence2: 90
+      z_score2: 1.645
+      part6_confidence: 99
+      part6_z_score: 2.58
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -117,15 +117,15 @@ myst:
           matches: The mean weight of a sample of 22 heads of lettuce.
       part7:
         option1:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 95\%$
         option2:
-          value: $\text{CL} = 90\%$
+          value: $\text{CL} = 98\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 95\%$
+          matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 99\%$
+          matches: $\text{CL} = 90\%$
       part8:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -142,14 +142,14 @@ myst:
             in smaller areas and smaller intervals.
           feedback: Please try again!
         ans3:
-          value: The interval is greater because the level of confidence increased.
+          value: The interval is smaller because the level of confidence decreased.
             If the only change made in the analysis is a change in confidence level,
             then all we are doing is changing how much area is being calculated for
             the normal distribution. Therefore, a larger confidence level results
             in larger areas and larger intervals.
           feedback: Please try again!
         ans4:
-          value: The interval is smaller because the level of confidence decreased.
+          value: The interval is greater because the level of confidence increased.
             If the only change made in the analysis is a change in confidence level,
             then all we are doing is changing how much area is being calculated for
             the normal distribution. Therefore, a larger confidence level results

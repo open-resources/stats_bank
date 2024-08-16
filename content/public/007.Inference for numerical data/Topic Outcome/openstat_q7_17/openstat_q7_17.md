@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part1: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part2: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part3: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part3:
         ans1:
           value: Paired.

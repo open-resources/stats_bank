@@ -52,8 +52,8 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1604
-        proportion: 51.0
+        sample_size: 1142
+        proportion: 82.0
         margin_of_error: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
           args:
@@ -70,27 +70,26 @@ myst:
           - -1
           - 0
         - !!binary |
-          mpmZmZmZA0A=
+          16NwPQrXAUA=
         lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          ZmZmZmZGSEA=
+          4XoUrkfxU0A=
         upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          mpmZmZm5SkA=
+          H4XrUbgOVUA=
         margin_of_error_part4: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          xSCwcmiR8z8=
+          bef7qfHS8T8=
         selected_option1: If the sample size were increased from 1559 Americans to
           5000 Americans while keeping the confidence level and margin of error unchanged,
           the width of the confidence intervals would decrease. This would lead to
           a higher percentage of intervals that include the true population proportion
           in comparison to the initial scenario with 1559 Americans.
-        selected_option2: The margin of error is influenced by both the sample size
-          and the variability of the data. Larger sample sizes and lower variability
-          lead to smaller margins of error.
+        selected_option2: Doubling the sample size will halve the margin of error,
+          regardless of the initial sample size and confidence level.
       part1:
         ans1:
           value: 'True'

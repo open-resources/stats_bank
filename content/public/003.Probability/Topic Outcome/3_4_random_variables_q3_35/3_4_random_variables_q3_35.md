@@ -48,11 +48,11 @@ myst:
         title: Roulette
       description:
         num_slots: 32
-        num_red: 15
+        num_red: 16
         num_black: 15
-        num_green: 2
-        bet_amount: 9
-        bet_color: black
+        num_green: 1
+        bet_amount: 7
+        bet_color: red
       part1: {}
       part2: {}
 ---
