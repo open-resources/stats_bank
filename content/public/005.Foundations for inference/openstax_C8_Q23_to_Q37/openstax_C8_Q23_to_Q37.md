@@ -123,109 +123,150 @@ part15:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Foothill College Student Age
-    params_x_bar: 29.4
-    params_sigma: 16.2
-    params_sample_size: 22
-    params_alpha: 0.05
-    params_alpha_one_tail: 0.025
-    params_confidence: 95
-    params_z_score: 1.96
-    params_ebm: 6.769549145723342
-    params_fake_sample_size: 66
-    params_fake_confidence: 90
-    params_part4_ans1_value: The mean age of a sample of 22 Foothill College Students
-    params_part4_ans1_feedback: Nice work!
-    params_part4_ans2_value: The most frequent age of a sample of 22 Foothill College
-      Students
-    params_part4_ans2_feedback: Please try again
-    params_part4_ans3_value: The mean age of all Foothill College Students
-    params_part4_ans3_feedback: Please try again!
-    params_part4_ans4_value: The mean age of a Foothill College Students
-    params_part4_ans4_feedback: Please try again!
-    params_part6_ans1_value: 'Yes'
-    params_part6_ans1_feedback: Nice work!
-    params_part6_ans2_value: 'No'
-    params_part6_ans2_feedback: Please try again
-    params_part11_CI: null
-    params_part12_option1_name: alpha-correct
-    params_part12_option1_value: $\frac{\alpha}{2} = 0.025$
-    params_part12_option2_value: $\alpha = 0.05$
-    params_part12_option3_value: $\alpha = 0.025$
-    params_part12_option4_value: $\frac{\alpha}2 = 0.05$
-    params_part12_option5_value: '0.97'
-    params_part12_option6_value: 95%
-    params_part12_option7_value: '6.77'
-    params_part12_statement1_value: a?
-    params_part12_statement1_matches: '0.95'
-    params_part12_statement2_value: b?
-    params_part12_statement2_matches: alpha-correct
-    params_part12_statement3_value: c?
-    params_part12_statement3_matches: alpha-correct
-    params_part12_statement4_value: d?
-    params_part12_statement4_matches: '22.63'
-    params_part12_statement5_value: e?
-    params_part12_statement5_matches: '29.40'
-    params_part12_statement6_value: f?
-    params_part12_statement6_matches: '36.17'
-    params_part13_ans1_value: We are 95% confident that the true mean age for Winter
-      Foothill College students is between (lower_bound) and (upper_bound).
-    params_part13_ans1_feedback: Nice work!
-    params_part13_ans2_value: We are 95% confident that the true mean age for Winter
-      Foothill College students is no less than (lower_bound).
-    params_part13_ans2_feedback: Please try again!
-    params_part13_ans3_value: We are 95% confident that the true mean age for Winter
-      Foothill College students is no more than (upper_bound).
-    params_part13_ans3_feedback: Please try again!
-    params_part13_ans4_value: We are 95% confident that the true mean age for Winter
-      Foothill College students is 29.4.
-    params_part13_ans4_feedback: Please try again!
-    params_part13_ans5_value: The true mean age for Winter Foothill College students
-      is between (lower_bound) and (upper_bound).
-    params_part13_ans5_feedback: Please try again!
-    params_part13_ans6_value: The true mean age for Winter Foothill College students
-      is no less than (lower_bound).
-    params_part13_ans6_feedback: Please try again!
-    params_part13_ans7_value: The true mean age for Winter Foothill College students
-      is no more than (upper_bound).
-    params_part13_ans7_feedback: Please try again!
-    params_part14_ans1_value: The error bound for the mean would decrease because
-      as the sample size increases, you need less area under the normal curve (which
-      translates into a smaller interval) to capture the true population mean.
-    params_part14_ans1_feedback: Nice work!
-    params_part14_ans2_value: The error bound for the mean would increase because
-      as the sample size decreases, you need more area under the normal curve (which
-      translates into a larger interval) to capture the true population mean.
-    params_part14_ans2_feedback: Please try again!
-    params_part14_ans3_value: The error bound for the mean would decrease because
-      as the sample size increases, you need more area under the normal curve (which
-      translates into a larger interval) to capture the true population mean.
-    params_part14_ans3_feedback: Please try again!
-    params_part14_ans4_value: The error bound for the mean would increase because
-      as the sample size decreases, you need less area under the normal curve (which
-      translates into a smaller interval) to capture the true population mean.
-    params_part14_ans4_feedback: Please try again!
-    params_part15_ans1_value: The error bound for the mean would decrease because
-      as the CL decreases, you need less area under the normal curve (which translates
-      into a smaller interval) to capture the true population mean.
-    params_part15_ans1_feedback: Nice work!
-    params_part15_ans2_value: The error bound for the mean would increase because
-      as the CL increases, you need more area under the normal curve (which translates
-      into a larger interval) to capture the true population mean.
-    params_part15_ans2_feedback: Please try again!
-    params_part15_ans3_value: The error bound for the mean would decrease because
-      as the CL decreases, you need more area under the normal curve (which translates
-      into a larger interval) to capture the true population mean.
-    params_part15_ans3_feedback: Please try again!
-    params_part15_ans4_value: The error bound for the mean would increase because
-      as the CL increases, you need less area under the normal curve (which translates
-      into a smaller interval) to capture the true population mean.
-    params_part15_ans4_feedback: Please try again!
+    params:
+      vars:
+        title: Foothill College Student Age
+      x_bar: 29.3
+      sigma: 14.7
+      sample_size: 23
+      alpha: 0.01
+      alpha_one_tail: 0.005
+      confidence: 99
+      z_score: 2.58
+      ebm: 7.908117667528619
+      fake_sample_size: 12
+      fake_confidence: 95
+      part4:
+        ans1:
+          value: The mean age of a sample of 23 Foothill College Students
+          feedback: Nice work!
+        ans2:
+          value: The most frequent age of a sample of 23 Foothill College Students
+          feedback: Please try again
+        ans3:
+          value: The mean age of all Foothill College Students
+          feedback: Please try again!
+        ans4:
+          value: The mean age of a Foothill College Students
+          feedback: Please try again!
+      part6:
+        ans1:
+          value: 'Yes'
+          feedback: Nice work!
+        ans2:
+          value: 'No'
+          feedback: Please try again
+      part11_CI: null
+      part12:
+        option1:
+          name: alpha-correct
+          value: $\frac{\alpha}{2} = 0.005$
+        option2:
+          value: $\alpha = 0.01$
+        option3:
+          value: $\alpha = 0.005$
+        option4:
+          value: $\frac{\alpha}2 = 0.01$
+        option5:
+          value: '0.99'
+        option6:
+          value: 99%
+        option7:
+          value: '7.91'
+        statement1:
+          value: a?
+          matches: '0.99'
+        statement2:
+          value: b?
+          matches: alpha-correct
+        statement3:
+          value: c?
+          matches: alpha-correct
+        statement4:
+          value: d?
+          matches: '21.39'
+        statement5:
+          value: e?
+          matches: '29.30'
+        statement6:
+          value: f?
+          matches: '37.21'
+      part13:
+        ans1:
+          value: We are 99% confident that the true mean age for Winter Foothill College
+            students is between (lower_bound) and (upper_bound).
+          feedback: Nice work!
+        ans2:
+          value: We are 99% confident that the true mean age for Winter Foothill College
+            students is no less than (lower_bound).
+          feedback: Please try again!
+        ans3:
+          value: We are 99% confident that the true mean age for Winter Foothill College
+            students is no more than (upper_bound).
+          feedback: Please try again!
+        ans4:
+          value: We are 99% confident that the true mean age for Winter Foothill College
+            students is 29.3.
+          feedback: Please try again!
+        ans5:
+          value: The true mean age for Winter Foothill College students is between
+            (lower_bound) and (upper_bound).
+          feedback: Please try again!
+        ans6:
+          value: The true mean age for Winter Foothill College students is no less
+            than (lower_bound).
+          feedback: Please try again!
+        ans7:
+          value: The true mean age for Winter Foothill College students is no more
+            than (upper_bound).
+          feedback: Please try again!
+      part14:
+        ans1:
+          value: The error bound for the mean would decrease because as the sample
+            size increases, you need less area under the normal curve (which translates
+            into a smaller interval) to capture the true population mean.
+          feedback: Please try again!
+        ans2:
+          value: The error bound for the mean would increase because as the sample
+            size decreases, you need more area under the normal curve (which translates
+            into a larger interval) to capture the true population mean.
+          feedback: Nice work!
+        ans3:
+          value: The error bound for the mean would decrease because as the sample
+            size increases, you need more area under the normal curve (which translates
+            into a larger interval) to capture the true population mean.
+          feedback: Please try again!
+        ans4:
+          value: The error bound for the mean would increase because as the sample
+            size decreases, you need less area under the normal curve (which translates
+            into a smaller interval) to capture the true population mean.
+          feedback: Please try again!
+      part15:
+        ans1:
+          value: The error bound for the mean would decrease because as the CL decreases,
+            you need less area under the normal curve (which translates into a smaller
+            interval) to capture the true population mean.
+          feedback: Nice work!
+        ans2:
+          value: The error bound for the mean would increase because as the CL increases,
+            you need more area under the normal curve (which translates into a larger
+            interval) to capture the true population mean.
+          feedback: Please try again!
+        ans3:
+          value: The error bound for the mean would decrease because as the CL decreases,
+            you need more area under the normal curve (which translates into a larger
+            interval) to capture the true population mean.
+          feedback: Please try again!
+        ans4:
+          value: The error bound for the mean would increase because as the CL increases,
+            you need less area under the normal curve (which translates into a smaller
+            interval) to capture the true population mean.
+          feedback: Please try again!
 ---
-# {{ params_vars_title }}
-The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at {{ params_sigma }}. Suppose that {{ params.sample_size }} Winter students were randomly selected. The mean age for the sample was {{ params.x_bar }}. We are interested in the true mean age for Winter Foothill College students. Let $X$ = the age of a Winter Foothill College student.
+# {{ params.vars.title }}
+The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at {{ params.sigma }}. Suppose that {{ params.sample_size }} Winter students were randomly selected. The mean age for the sample was {{ params.x_bar }}. We are interested in the true mean age for Winter Foothill College students. Let $X$ = the age of a Winter Foothill College student.
 
-*For parts 8 through 15, you'll be asked to construct a {{ params_confidence }}% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.*
+*For parts 8 through 15, you'll be asked to construct a {{ params.confidence }}% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.*
 
 ## Part 1
 
@@ -235,10 +276,6 @@ Identify the sample mean
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\bar{x} = {{ params.x_bar }}$
-
 ## Part 2
 
 Identify the sample size.
@@ -246,10 +283,6 @@ Identify the sample size.
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-$\sigma = {{ params_sigma }}$
 
 ## Part 3
 
@@ -259,24 +292,16 @@ What measure is this?
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$n = {{ params.sample_size }}$
-
 ## Part 4
 
 Identify the correct definition of the random variable $\bar{X}$.
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
-- {{ params_part4_ans4_value }}
-
-### pl-answer-panel
-
-As the sample size increases, there will be less variability in the mean, so the interval size decreases.
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
+- {{ params.part4.ans4.value }}
 
 ## Part 5
 
@@ -284,22 +309,14 @@ What is $\bar{x}$ estimating?
 
 ### Answer Section
 
-### pl-answer-panel
-
-$\bar{x}\sim\mu$
-
 ## Part 6
 
 Is $\sigma_x$ known?
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-
-### pl-answer-panel
-
-$\sigma_x$ is known.
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
 
 ## Part 7
 
@@ -315,10 +332,6 @@ How much area is in both tails (combined)?
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\alpha = {{ params_alpha }}$
-
 ## Part 9
 
 How much area is in each tail?
@@ -326,10 +339,6 @@ How much area is in each tail?
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-$\frac{\alpha}{2} = {{ params_alpha_one_tail }}$
 
 ## Part 10
 
@@ -339,19 +348,11 @@ Identify the error bound of the confidence interval.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\text{EBM} = {{ params_ebm }}$
-
 ## Part 11
 
 Identify the confidence interval.
 
 ### Answer Section
-
-### pl-answer-panel
-
-$\text{CI} = <pl-matrix-latex params-name="part11_CI"></pl-matrix-latex>$
 
 ## Part 12
 
@@ -367,13 +368,13 @@ Which of the following correctly explains what the interval means?
 
 ### Answer Section
 
-- {{ params_part13_ans1_value }}
-- {{ params_part13_ans2_value }}
-- {{ params_part13_ans3_value }}
-- {{ params_part13_ans4_value }}
-- {{ params_part13_ans5_value }}
-- {{ params_part13_ans6_value }}
-- {{ params_part13_ans7_value }}
+- {{ params.part13.ans1.value }}
+- {{ params.part13.ans2.value }}
+- {{ params.part13.ans3.value }}
+- {{ params.part13.ans4.value }}
+- {{ params.part13.ans5.value }}
+- {{ params.part13.ans6.value }}
+- {{ params.part13.ans7.value }}
 
 ## Part 14
 
@@ -381,21 +382,21 @@ Using the same mean, standard deviation, and level of confidence, how would the 
 
 ### Answer Section
 
-- {{ params_part14_ans1_value }}
-- {{ params_part14_ans2_value }}
-- {{ params_part14_ans3_value }}
-- {{ params_part14_ans4_value }}
+- {{ params.part14.ans1.value }}
+- {{ params.part14.ans2.value }}
+- {{ params.part14.ans3.value }}
+- {{ params.part14.ans4.value }}
 
 ## Part 15
 
-Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were {{ params.fake_confidence }}% instead of {{ params_confidence }}%? Why?
+Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were {{ params.fake_confidence }}% instead of {{ params.confidence }}%? Why?
 
 ### Answer Section
 
-- {{ params_part15_ans1_value }}
-- {{ params_part15_ans2_value }}
-- {{ params_part15_ans3_value }}
-- {{ params_part15_ans4_value }}
+- {{ params.part15.ans1.value }}
+- {{ params.part15.ans2.value }}
+- {{ params.part15.ans3.value }}
+- {{ params.part15.ans4.value }}
 
 ## Attribution
 

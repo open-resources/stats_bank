@@ -34,14 +34,17 @@ part1:
     label: $n= $
 myst:
   substitutions:
-    params_vars_title: Car insurance savings
-    params_description_std: 90
-    params_description_moe_max: 13
-    params_description_confidence_level: 0.95
+    params:
+      vars:
+        title: Car insurance savings
+      description:
+        std: 109
+        moe_max: 19
+        confidence_level: 0.88
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <div class="mathjax_ignore">
-A market researcher wants to evaluate car insurance savings at a competing company. Based on past studies he is assuming that the standard deviation of savings is ${{ params_description_std }}. He wants to collect data such that he can get a margin of error of no more than ${{ params.description.moe_max }} at a {{ params.description.confidence_level }} confidence level.
+A market researcher wants to evaluate car insurance savings at a competing company. Based on past studies he is assuming that the standard deviation of savings is ${{ params.description.std }}. He wants to collect data such that he can get a margin of error of no more than ${{ params.description.moe_max }} at a {{ params.description.confidence_level }} confidence level.
 </div>
 
 ## Part 1
@@ -51,13 +54,6 @@ How large of a sample should he collect?
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-If the sample is large, then the margin of error will be about
-$1.96 \times ${{ params_description_std }}$ / \sqrt{n}$. We want this value to be less than ${{ params.description.moe_max }}$, which
-leads to $n \geq 384.16$, meaning we need a sample size of at least 385 (round
-up for sample size calculations!)
 
 ## Attribution
 

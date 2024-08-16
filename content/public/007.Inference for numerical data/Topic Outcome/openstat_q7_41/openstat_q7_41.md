@@ -47,56 +47,62 @@ part3:
     label: $size= $
 myst:
   substitutions:
-    params_vars_title: GPA and major
-    params_df_factor: 2
-    params_df_residual: 193
-    params_meansq_factor: 0.03
-    params_meansq_residual: 0.0764
-    params_f_value: 0.3927
-    params_table: |-
-      <table style="width:550px">
-      <tr>
-      <th></th>
-      <th>Df</th>
-      <th>Sum Sq</th>
-      <th>Mean Sq</th>
-      <th>F value</th>
-      <th>Pr(>F)</th>
-      </tr><tr>
-      <th>major</th>
-      <td>$2$</td>
-      <td>$0.06$</td>
-      <td>$0.03$</td>
-      <td>$0.3927$</td>
-      <td>$-$</td>
-      </tr><tr>
-      <th>Residuals</th>
-      <td>$193$</td>
-      <td>$14.74$</td>
-      <td>$0.0764$</td>
-      <td>$\quad$</td>
-      <td>$\quad$</td>
-      </tr>
-      </table>
-    params_part2_ans1_value: Since p-value $<$ 0.05, we reject $H_0$. The data provides
-      convincing evidence of a difference between the average GPAs across three groups
-      of majors.
-    params_part2_ans1_feedback: Try again! Check your calculations for p-value.
-    params_part2_ans2_value: Since p-value $>$ 0.05, fail to reject $H_0$. The data
-      do not provide convincing evidence of a difference between the average GPAs
-      across three groups of majors.
-    params_part2_ans2_feedback: Correct! You can observe this from the p-value you
-      calculated in part 1.
-    params_part2_ans3_value: The data is insufficient to get the hypothesis test significance.
-    params_part2_ans3_feedback: Try calculating the p value since you have sufficient
-      data to do this again!
+    params:
+      vars:
+        title: GPA and major
+      df_factor: 2
+      df_residual: 186
+      meansq_factor: 0.035
+      meansq_residual: 0.1017
+      f_value: 0.3441
+      table: |-
+        <table style="width:550px">
+        <tr>
+        <th></th>
+        <th>Df</th>
+        <th>Sum Sq</th>
+        <th>Mean Sq</th>
+        <th>F value</th>
+        <th>Pr(>F)</th>
+        </tr><tr>
+        <th>major</th>
+        <td>$2$</td>
+        <td>$0.07$</td>
+        <td>$0.035$</td>
+        <td>$0.3441$</td>
+        <td>$-$</td>
+        </tr><tr>
+        <th>Residuals</th>
+        <td>$186$</td>
+        <td>$18.92$</td>
+        <td>$0.1017$</td>
+        <td>$\quad$</td>
+        <td>$\quad$</td>
+        </tr>
+        </table>
+      part2:
+        ans1:
+          value: Since p-value $<$ 0.05, we reject $H_0$. The data provides convincing
+            evidence of a difference between the average GPAs across three groups
+            of majors.
+          feedback: Try again! Check your calculations for p-value.
+        ans2:
+          value: Since p-value $>$ 0.05, fail to reject $H_0$. The data do not provide
+            convincing evidence of a difference between the average GPAs across three
+            groups of majors.
+          feedback: Correct! You can observe this from the p-value you calculated
+            in part 1.
+        ans3:
+          value: The data is insufficient to get the hypothesis test significance.
+          feedback: Try calculating the p value since you have sufficient data to
+            do this again!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Undergraduate students taking an introductory statistics course at Duke University surveyed their GPA and major. The side-by-side box plots show the distribution of GPA among three groups of majors. Also provided is the ANOVA output.
 
 <pl-figure file-name="figure 1.png" type="dynamic" width="450px"></pl-figure>
 
-{{{ params_table }}}
+{{{ params.table }}}
 
 ## Part 1
 
@@ -104,21 +110,15 @@ What is the p value of the hypothesis test?
 
 ### Answer Section
 
-### pl-answer-panel
-
 ## Part 2
 
 Using $H_0$: Average GPA is the same for all majors. $H_A$: At least one pair of means are different, what is the conclusion of the hypothesis test?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-
-### pl-answer-panel
-
-Since p-value $>$ 0.05, fail to reject $H_0$. The data do not provide convincing evidence of a difference between the average GPAs across three groups of majors
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Part 3
 
@@ -127,8 +127,6 @@ How many students answered these questions on the survey, i.e. what is the sampl
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
 
 ## Attribution
 

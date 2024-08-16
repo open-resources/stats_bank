@@ -49,72 +49,94 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Repeated water samples
-    params_text_part5_budget: reduced
-    params_text_part5_only: 'only '
-    params_text_part5_can: 'can '
-    params_part3_num1: 9
-    params_part5_num1: 274
-    params_part5_num2: 1054
-    params_part5_num3: 780
-    params_part5_ans1_value: It is impossible to predict the variability of the new
-      distribution.
-    params_part5_ans1_feedback: The distribution will tend to be more variable when
-      we have fewer observations per sample.
-    params_part5_ans2_value: The variability of the new distribution will be the same
-      as the original.
-    params_part5_ans2_feedback: The distribution will tend to be more variable when
-      we have fewer observations per sample.
-    params_part5_ans3_value: The variability of the new distribution will be less
-      than the original.
-    params_part5_ans3_feedback: The distribution will tend to be more variable when
-      we have fewer observations per sample.
-    params_part5_ans4_value: The variability of the new distribution will be greater
-      than the original.
-    params_part5_ans4_feedback: The distribution will tend to be more variable when
-      we have fewer observations per sample.
-    params_description_num1: 5
-    params_description_num2: 30
-    params_description_num3: 780
-    params_description_num4: 1054
-    params_part1_ans1_value: Normal Distribution
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: Poisson Distribution
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: Binomial Distribution
-    params_part1_ans3_feedback: Try again please!
-    params_part1_ans4_value: Sampling Distribution
-    params_part1_ans4_feedback: Correct!
-    params_part2_ans1_value: Symmetric, because the sample size is large and the expected
-      population proportion is within the range of 5-30%, satisfying the success-failure
-      condition.
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: Right-skewed, because the expected proportion of success
-      is lower than the proportion of failure.
-    params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: Left-skewed, because the expected proportion of success
-      is higher than the proportion of failure.
-    params_part2_ans3_feedback: Try again please!
-    params_part2_ans4_value: It is not possible to determine the shape of the distribution
-      from the information given.
-    params_part2_ans4_feedback: Try again please!
-    params_part4_ans1_value: Margin of error
-    params_part4_ans1_feedback: Try again please!
-    params_part4_ans2_value: Standard deviation
-    params_part4_ans2_feedback: Try again please!
-    params_part4_ans3_value: Standard error
-    params_part4_ans3_feedback: Correct!
-    params_part4_ans4_value: Sample mean
-    params_part4_ans4_feedback: Try again please!
+    params:
+      vars:
+        title: Repeated water samples
+      text_part5:
+        budget: reduced
+        only: 'only '
+        can: 'can '
+      part3:
+        num1: 11
+      part5:
+        num1: 270
+        num2: 925
+        num3: 829
+        ans1:
+          value: It is impossible to predict the variability of the new distribution.
+          feedback: The distribution will tend to be more variable when we have fewer
+            observations per sample.
+        ans2:
+          value: The variability of the new distribution will be the same as the original.
+          feedback: The distribution will tend to be more variable when we have fewer
+            observations per sample.
+        ans3:
+          value: The variability of the new distribution will be less than the original.
+          feedback: The distribution will tend to be more variable when we have fewer
+            observations per sample.
+        ans4:
+          value: The variability of the new distribution will be greater than the
+            original.
+          feedback: The distribution will tend to be more variable when we have fewer
+            observations per sample.
+      description:
+        num1: 5
+        num2: 30
+        num3: 829
+        num4: 925
+      part1:
+        ans1:
+          value: Normal Distribution
+          feedback: Try again please!
+        ans2:
+          value: Poisson Distribution
+          feedback: Try again please!
+        ans3:
+          value: Binomial Distribution
+          feedback: Try again please!
+        ans4:
+          value: Sampling Distribution
+          feedback: Correct!
+      part2:
+        ans1:
+          value: Symmetric, because the sample size is large and the expected population
+            proportion is within the range of 5-30%, satisfying the success-failure
+            condition.
+          feedback: Correct!
+        ans2:
+          value: Right-skewed, because the expected proportion of success is lower
+            than the proportion of failure.
+          feedback: Try again please!
+        ans3:
+          value: Left-skewed, because the expected proportion of success is higher
+            than the proportion of failure.
+          feedback: Try again please!
+        ans4:
+          value: It is not possible to determine the shape of the distribution from
+            the information given.
+          feedback: Try again please!
+      part4:
+        ans1:
+          value: Margin of error
+          feedback: Try again please!
+        ans2:
+          value: Standard deviation
+          feedback: Try again please!
+        ans3:
+          value: Standard error
+          feedback: Correct!
+        ans4:
+          value: Sample mean
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A nonprofit wants to understand the fraction of households that have elevated levels of lead in their drinking water.
 
-They expect at least ${{ params_description_num1 }}$% of homes will have elevated levels of lead, but not more than about ${{ params_description_num2 }}$%.
+They expect at least ${{ params.description.num1 }}$% of homes will have elevated levels of lead, but not more than about ${{ params.description.num2 }}$%.
 
-They randomly sample ${{ params_description_num3 }}$ homes and work with the owners to retrieve water samples, and they compute the fraction of these homes with elevated lead levels.
+They randomly sample ${{ params.description.num3 }}$ homes and work with the owners to retrieve water samples, and they compute the fraction of these homes with elevated lead levels.
 
-They repeat this ${{ params_description_num4}}$ times and build a distribution of sample proportions.
+They repeat this ${{ params.description.num4}}$ times and build a distribution of sample proportions.
 
 ## Part 1
 
@@ -122,14 +144,10 @@ What is this distribution called?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-answer-panel
-
-Sampling distribution
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
@@ -137,26 +155,18 @@ Would you expect the shape of this distribution to be symmetric, right skewed, o
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-
-### pl-answer-panel
-
-If the population proportion is in the 5-30% range, the success-failure condition would be satisfied and the sampling distribution would be symmetric.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Part 3
 
-If the proportions are distributed around ${{ params_part3_num1 }}$%, what is the variability of the distribution? Please provide your answer to four decimal places.
+If the proportions are distributed around ${{ params.part3.num1 }}$%, what is the variability of the distribution? Please provide your answer to four decimal places.
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-We use the formula for the standard error:$SE= \sqrt{\frac{p (1 - p)}{n}}= {{correct_answers.part3_ans}}$
 
 ## Part 4
 
@@ -164,33 +174,25 @@ What is the formal name of the value you computed in part 3?
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
-- {{ params_part4_ans4_value }}
-
-### pl-answer-panel
-
-Standard error
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
+- {{ params.part4.ans4.value }}
 
 ## Part 5
 
-Suppose the researchers' budget is {{ params.text_part5.budget }}, and they are {{ params.text_part5.only }}able to collect ${{ params_part5_num1 }}$ observations per sample, but they {{ params.text_part5.can }}still collect ${{ params_part5_num2 }}$ samples.
+Suppose the researchers' budget is {{ params.text_part5.budget }}, and they are {{ params.text_part5.only }}able to collect ${{ params.part5.num1 }}$ observations per sample, but they {{ params.text_part5.can }}still collect ${{ params.part5.num2 }}$ samples.
 
 They build a new distribution of sample proportions.
 
-How will the variability of this new distribution compare to the variability of the distribution when each sample contained ${{ params_part5_num3 }}$ observations?
+How will the variability of this new distribution compare to the variability of the distribution when each sample contained ${{ params.part5.num3 }}$ observations?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
-
-### pl-answer-panel
-
-The distribution will tend to be more variable when we have fewer observations per sample.
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
 ## Attribution
 

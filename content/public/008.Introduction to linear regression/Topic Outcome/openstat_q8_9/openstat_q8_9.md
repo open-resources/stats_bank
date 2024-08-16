@@ -56,11 +56,14 @@ part3:
     source-file-name: sample.html
 myst:
   substitutions:
-    params_vars_title: Speed and height
-    params_description_num1: 1290
+    params:
+      vars:
+        title: Speed and height
+      description:
+        num1: 1293
 ---
-# {{ params_vars_title }}
-${{ params_description_num1 }}$ UCLA students were asked to fill out a survey where they were asked about their height, fastest speed they have ever driven, and gender. The first scatterplot displays the relationship between height and fastest speed, and the second scatterplot displays the breakdown by gender in this relationship.
+# {{ params.vars.title }}
+${{ params.description.num1 }}$ UCLA students were asked to fill out a survey where they were asked about their height, fastest speed they have ever driven, and gender. The first scatterplot displays the relationship between height and fastest speed, and the second scatterplot displays the breakdown by gender in this relationship.
 
 <img src="speed_vs_height.png" alt="A scatterplot is shown. The horizontal axis represents 'Height (in inches)' with values ranging from about 50 to 80. The vertical axis represents 'Fastest Speed (in mph)' and has values ranging from 0 to 150. First, it is worth noting that there several points along the bottom of the plot with a fastest speed of 0 mph. The remainder of the description will concentrate on the other points. A small portion of the points are shown with heights below 60 inches, and these have fastest speeds mostly ranging from about 70 to 110 mph. For points shown with heights between 60 and 70, fastest speeds mostly ranged from about 30 to 120 mph. For points shown with heights of 70 or more, fastest speeds mostly ranged from about 50 to 140 mph. There were no points corresponding to heights greater than 75 that had fastest speeds slower than about 75 mph, which left a sort of gap in the lower right portion of the scatterplot." width=400>
 
@@ -74,15 +77,6 @@ Describe the relationship between height and fastest speed.
 
 Answer in 3-5 sentences, try and use full sentences.
 
-### pl-answer-panel
-
-The relationship is positive, weak, and possibly linear. However,
-there do appear to be some anomalous observations along the left where
-several students have the same height that is notably far from the
-cloud of the other points. Additionally, there are many students who
-appear not to have driven a car, and they are represented by a set of
-points along the bottom of the scatterplot.
-
 ## Part 2
 
 Why do you think these variables are positively associated?
@@ -91,15 +85,6 @@ Why do you think these variables are positively associated?
 
 Answer in 3-5 sentences, try and use full sentences.
 
-### pl-answer-panel
-
-There is no obvious explanation why simply being tall should lead
-a person to drive faster. However, one confounding factor is gender.
-Males tend to be taller than females on average, and personal
-experiences (anecdotal) may suggest they drive faster. If we were to
-follow-up on this suspicion, we would find that sociological studies
-confirm this suspicion.
-
 ## Part 3
 
 What role does gender play in the relationship between height and fastest driving speed?
@@ -107,11 +92,6 @@ What role does gender play in the relationship between height and fastest drivin
 ### Answer Section
 
 Answer in 1-2 sentences, try and use full sentences.
-
-### pl-answer-panel
-
-Males are taller on average and they drive faster. The gender
-variable is indeed an important confounding variable.
 
 ## Attribution
 

@@ -39,20 +39,23 @@ part2:
     label: $\hat{p}= $
 myst:
   substitutions:
-    params_vars_title: Working backwards, Part I
-    params_description_num1: 0.2
-    params_description_num2: 0.2
-    params_description_num3: 96
-    params_description_num4: 0.05
+    params:
+      vars:
+        title: Working backwards, Part I
+      description:
+        num1: 0.2
+        num2: 0.2
+        num3: 83
+        num4: 0.05
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 You are given the following hypotheses:
 
-$H_0$: p = ${{ params_description_num1 }}$
+$H_0$: p = ${{ params.description.num1 }}$
 
-$H_A$: p $\neq {{ params_description_num2 }}$
+$H_A$: p $\neq {{ params.description.num2 }}$
 
-We know the sample size is ${{ params_description_num3 }}$. For what sample proportion would the p-value be equal to ${{ params_description_num4 }}$? Assume that all conditions  necessary for inference are satisfied.
+We know the sample size is ${{ params.description.num3 }}$. For what sample proportion would the p-value be equal to ${{ params.description.num4 }}$? Assume that all conditions  necessary for inference are satisfied.
 
 ## Part 1
 
@@ -62,18 +65,6 @@ Use positive test statistic. Please provide your answer to three decimal places.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-If the p-value is ${{ params_description_num4 }}$, this means the test statistic would be either $Z = -1.96 or 1.96$.
-
-We'll show the calculations for $Z = 1.96$.
-
-Standard error: $SE = \sqrt{({{ params_description_num1 }}\* (1 - {{ params_description_num1 }}) )/ {{ params_description_num3 }}}$
-
-Finally, set up the test statistic formula and solve
-for $\hat{p}$:
-$1.96 = \frac{\hat{p} - 0.3}{0.048} \to \hat{p} = {{ correct_answers.part1_ans }}$
-
 ## Part 2
 
 Use negative test statistic. Please provide your answer to three decimal places.
@@ -81,10 +72,6 @@ Use negative test statistic. Please provide your answer to three decimal places.
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-Alternatively, if $Z = -1.96$ was used: $\hat{p} = {{ correct_answers.part2_ans }}$
 
 ## Attribution
 

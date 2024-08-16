@@ -34,30 +34,26 @@ part1:
     suffix: $\%$
 myst:
   substitutions:
-    params_vars_title: Fireworks on July 4th
-    params_vars_margin_of_error: 0.04159
-    params_vars_margin_of_error_percent: 4.159
-    params_vars_proportion: 40.0
-    params_vars_p: 0.4
-    params_vars_n: 533
-    params_vars_z: 1.96
+    params:
+      vars:
+        title: Fireworks on July 4th
+        margin_of_error: 0.04023
+        margin_of_error_percent: 4.023
+        proportion: 65.0
+        p: 0.65
+        n: 540
+        z: 1.96
 ---
-# {{ params_vars_title }}
-A local news outlet reported that {{ params_vars_proportion }}% of {{ params_vars_n }} randomly sampled Kansas residents planned to set off fireworks on July 4th.
+# {{ params.vars.title }}
+A local news outlet reported that {{ params.vars.proportion }}% of {{ params.vars.n }} randomly sampled Kansas residents planned to set off fireworks on July 4th.
 
 ## Part 1
 
-Determine the margin of error for the {{ params_vars_proportion }}% point estimate using a 95% confidence level.
+Determine the margin of error for the {{ params.vars.proportion }}% point estimate using a 95% confidence level.
 
 ### Answer Section
 
 Please enter in a numeric value in %.
-
-### pl-answer-panel
-
-With a random sample, independence is satisfied. The success-failure condition is also satisfied.
-
-$ME = z^{\star} \sqrt{ \frac{\hat{p} (1-\hat{p})} {n} } = 1.96 \sqrt{ \frac{ {{ params_vars_p }} \times  (1-\ {{ params_vars_p }} ) }{ {{ params_vars_n }} } } = {{ params.vars.margin_of_error }} \approx {{ params.vars.margin_of_error_percent }} $%
 
 ## Attribution
 

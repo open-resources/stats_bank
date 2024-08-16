@@ -33,37 +33,48 @@ part1:
     partial-credit: true
 myst:
   substitutions:
-    params_vars_title: Social experiment, Part I
-    params_inter_provoc: 12
-    params_non_inter_provoc: 18
-    params_total_provoc: 30
-    params_inter_cons: 20
-    params_non_inter_cons: 12
-    params_total_cons: 32
-    params_part1_ans1_value: This is not a randomized experiment, and it is unclear
-      whether people would be affected by the behavior of their peers.
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: Independence may not hold.
-    params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: There are not enough interventions under the provocative
-      scenario, so the success-failure condition does not hold.
-    params_part1_ans3_feedback: Incorrect!
-    params_part1_ans4_value: The success-failure condition is not being satisfied.
-    params_part1_ans4_feedback: Incorrect!
-    params_part1_ans5_value: This is a randomized experiment, and it is clear that
-      people would be affected by the behavior of their peers.
-    params_part1_ans5_feedback: Incorrect!
-    params_part1_ans6_value: Independence holds.
-    params_part1_ans6_feedback: Incorrect!
-    params_part1_ans7_value: There are sufficient interventions under all of the scenarios,
-      so the success-failure condition holds.
-    params_part1_ans7_feedback: Incorrect! While this is true, it does not justify
-      why the Central Limit Theorem does not hold.
-    params_part1_ans8_value: The success-failure condition is being satisfied.
-    params_part1_ans8_feedback: Incorrect! While this is true, it does not justify
-      why the Central Limit Theorem does not hold.
+    params:
+      vars:
+        title: Social experiment, Part I
+      inter_provoc: 11
+      non_inter_provoc: 20
+      total_provoc: 31
+      inter_cons: 20
+      non_inter_cons: 11
+      total_cons: 31
+      part1:
+        ans1:
+          value: This is not a randomized experiment, and it is unclear whether people
+            would be affected by the behavior of their peers.
+          feedback: Correct!
+        ans2:
+          value: Independence may not hold.
+          feedback: Correct!
+        ans3:
+          value: There are not enough interventions under the provocative scenario,
+            so the success-failure condition does not hold.
+          feedback: Incorrect!
+        ans4:
+          value: The success-failure condition is not being satisfied.
+          feedback: Incorrect!
+        ans5:
+          value: This is a randomized experiment, and it is clear that people would
+            be affected by the behavior of their peers.
+          feedback: Incorrect!
+        ans6:
+          value: Independence holds.
+          feedback: Incorrect!
+        ans7:
+          value: There are sufficient interventions under all of the scenarios, so
+            the success-failure condition holds.
+          feedback: Incorrect! While this is true, it does not justify why the Central
+            Limit Theorem does not hold.
+        ans8:
+          value: The success-failure condition is being satisfied.
+          feedback: Incorrect! While this is true, it does not justify why the Central
+            Limit Theorem does not hold.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A "social experiment" conducted by a TV program questioned what people do when they see a very obviously bruised woman getting picked on by her boyfriend. On two different occasions at the same restaurant, the same couple was depicted. In one scenario the woman was dressed "provocatively" and in the other scenario the woman was dressed "conservatively". The table below shows how many restaurant diners were present under each scenario, and whether or not they intervened.
 
 |               |               | **Scenario**                    |                             |
@@ -81,7 +92,7 @@ Which of the following statements explain why the sampling distribution of the d
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
+- {{ params.part1.ans1.value }}
 
 ## Attribution
 

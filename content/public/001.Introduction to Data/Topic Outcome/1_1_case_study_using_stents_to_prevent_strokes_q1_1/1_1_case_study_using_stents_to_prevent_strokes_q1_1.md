@@ -57,55 +57,64 @@ part4:
     source-file-name: sample.html
 myst:
   substitutions:
-    params_vars_title: Migraine and acupuncture, Part I
-    params_table0_r2_c2: 10
-    params_table0_r2_c3: 38
-    params_table0_r2_c4: 48
-    params_table0_r3_c2: 4
-    params_table0_r3_c3: 42
-    params_table0_r3_c4: 46
-    params_table0_r4_c2: 14
-    params_table0_r4_c3: 80
-    params_table0_r4_c4: 94
-    params_part1_num1: 24.0
-    params_part3_num1: 24.0
-    params_part3_ans1_value: Treatment
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: Control
-    params_part3_ans2_feedback: This is incorrect. Try again please!
-    params_part3_ans3_value: Neither
-    params_part3_ans3_feedback: This is incorrect. Try again please!
-    params_part3_phrase1: is
-    params_part4_num1: 24.0
-    params_description_num1: 94
-    params_description_num2: 48
-    params_description_num3: 46
-    params_description_num4: 24.0
-    params_part1_ans_before_convert: 0.208
-    params_part2_ans_before_convert: 0.087
+    params:
+      vars:
+        title: Migraine and acupuncture, Part I
+      table0:
+        r2:
+          c2: 15
+          c3: 35
+          c4: 50
+        r3:
+          c2: 5
+          c3: 43
+          c4: 48
+        r4:
+          c2: 20
+          c3: 78
+          c4: 98
+      part1:
+        num1: 24.0
+      part3:
+        num1: 24.0
+        ans1:
+          value: Treatment
+          feedback: Correct!
+        ans2:
+          value: Control
+          feedback: This is incorrect. Try again please!
+        ans3:
+          value: Neither
+          feedback: This is incorrect. Try again please!
+        phrase1: is
+      part4:
+        num1: 24.0
+      description:
+        num1: 98
+        num2: 50
+        num3: 48
+        num4: 24.0
+      part1_ans_before_convert: 0.3
+      part2_ans_before_convert: 0.104
 ---
-# {{ params_vars_title }}
-A migraine is a particularly painful type of headache, which patients sometimes wish to treat with acupuncture. To determine whether acupuncture relieves migraine pain, researchers conducted a randomized controlled study where ${{ params_description_num1 }}$ females diagnosed with migraine headaches were randomly assigned to one of two groups: treatment or control. ${{ params_description_num2 }}$ patients in the treatment group received acupuncture that is specifically designed to treat migraines. ${{ params_description_num3 }}$ patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). ${{ params_description_num4 }}$ hours after patients received acupuncture, they were asked if they were pain free. Results are summarized in the contingency table below.
+# {{ params.vars.title }}
+A migraine is a particularly painful type of headache, which patients sometimes wish to treat with acupuncture. To determine whether acupuncture relieves migraine pain, researchers conducted a randomized controlled study where ${{ params.description.num1 }}$ females diagnosed with migraine headaches were randomly assigned to one of two groups: treatment or control. ${{ params.description.num2 }}$ patients in the treatment group received acupuncture that is specifically designed to treat migraines. ${{ params.description.num3 }}$ patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). ${{ params.description.num4 }}$ hours after patients received acupuncture, they were asked if they were pain free. Results are summarized in the contingency table below.
 
 | Group | Pain free | Not pain free | Total |
 | :------------ | :------------: | :------------: | ------------: |
-| Treatment | {{ params_table0_r2_c2 }} | {{ params_table0_r2_c3 }} | {{ params_table0_r2_c4 }} |
-| Control | {{ params_table0_r3_c2 }} | {{ params_table0_r3_c3 }} | {{ params_table0_r3_c4 }} |
-| Total | {{ params_table0_r4_c2 }} | {{ params_table0_r4_c3 }} | {{ params_table0_r4_c4 }} |
+| Treatment | {{ params.table0.r2.c2 }} | {{ params.table0.r2.c3 }} | {{ params.table0.r2.c4 }} |
+| Control | {{ params.table0.r3.c2 }} | {{ params.table0.r3.c3 }} | {{ params.table0.r3.c4 }} |
+| Total | {{ params.table0.r4.c2 }} | {{ params.table0.r4.c3 }} | {{ params.table0.r4.c4 }} |
 
 <img height="200" src="earacupuncture.jpg" alt='An ear is show, with an "M" shown near the front lower lobe of the ear and an "S" shown near the middle upper portion of the ear.'>
 
 ## Part 1
 
-What percent of patients in the treatment group were pain free ${{ params_part1_num1 }}$ hours after receiving acupuncture? Round to 1 decimal place.
+What percent of patients in the treatment group were pain free ${{ params.part1.num1 }}$ hours after receiving acupuncture? Round to 1 decimal place.
 
 ### Answer Section
 
 Please enter in a numeric value in.
-
-### pl-answer-panel
-
-Part 1: Treatment: ${{ params_table0_r2_c2 }}/{{ params_table0_r2_c4 }} = {{ params.part1_ans_before_convert}} \rightarrow {{ correct_answers.part1_ans }}%$
 
 ## Part 2
 
@@ -115,34 +124,20 @@ What percent were pain free in the control group? Round to 1 decimal place.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-Part 2: Control: ${{ params_table0_r3_c2 }}/{{ params_table0_r3_c4 }} = {{ params.part2_ans_before_convert}} \rightarrow {{ correct_answers.part2_ans }}%$
-
 ## Part 3
 
-In which group did a higher percent of patients become pain free ${{ params_part3_num1 }}$ hours after receiving acupuncture?
+In which group did a higher percent of patients become pain free ${{ params.part3.num1 }}$ hours after receiving acupuncture?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-
-### pl-answer-panel
-
-Part 3: A higher percentage of patients in the treatment group were pain
-free {{ params_part1_num1 }} hours after receiving acupuncture
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
-Your findings so far might suggest that acupuncture {{ params_part3_phrase1 }} an effective treatment for migraines for all people who suffer from migraines. However, this is not the only possible conclusion that can be drawn based on your findings so far. What is one other possible explanation for the observed difference between the percentages of patients that are pain free ${{ params_part4_num1 }}$ hours after receiving acupuncture in the two groups?
+Your findings so far might suggest that acupuncture {{ params.part3.phrase1 }} an effective treatment for migraines for all people who suffer from migraines. However, this is not the only possible conclusion that can be drawn based on your findings so far. What is one other possible explanation for the observed difference between the percentages of patients that are pain free ${{ params.part4.num1 }}$ hours after receiving acupuncture in the two groups?
 
 ### Answer Section
-
-### pl-answer-panel
-
-Part 4: It is possible that the observed difference between the two group
-percentages is due to chance
 
 ## Attribution
 

@@ -77,40 +77,50 @@ part8:
     label: $n_{CL={{params.higher_confidence}}\%} = $
 myst:
   substitutions:
-    params_vars_title: Census Form Length
-    params_x_bar: 7.9
-    params_sigma: 2.2
-    params_sample_size: 180
-    params_other_sample_size: 30
-    params_alpha: 0.05
-    params_confidence: 95
-    params_z_score: 1.96
-    params_graph_z_score: 1.96
-    params_higher_confidence: 99
-    params_higher_z_score: 2.58
-    params_part5_ans1_value: 'Yes'
-    params_part5_ans1_feedback: Correct!
-    params_part5_ans2_value: 'No'
-    params_part5_ans2_feedback: Try again please!
-    params_part7_ans1_value: The level of confidence would decrease because decreasing
-      $n$ makes the confidence interval wider, so at the same error bound, the confidence
-      level decreases.
-    params_part7_ans1_feedback: Correct!
-    params_part7_ans2_value: The level of confidence would increase because increasing
-      $n$ makes the confidence interval smaller, so at the same error bound, the confidence
-      level increases.
-    params_part7_ans2_feedback: Try again please!
-    params_part7_ans3_value: The level of confidence would increase because decreasing
-      $n$ makes the confidence interval smaller, so at the same error bound, the confidence
-      level increases.
-    params_part7_ans3_feedback: Try again please!
-    params_part7_ans4_value: The level of confidence would decrease because increasing
-      $n$ makes the confidence interval wider, so at the same error bound, the confidence
-      level decreases.
-    params_part7_ans4_feedback: Try again please!
+    params:
+      vars:
+        title: Census Form Length
+      x_bar: 8.0
+      sigma: 2.2
+      sample_size: 200
+      other_sample_size: 50
+      alpha: 0.05
+      confidence: 95
+      z_score: 1.96
+      graph_z_score: 1.96
+      higher_confidence: 99
+      higher_z_score: 2.58
+      part5:
+        ans1:
+          value: 'Yes'
+          feedback: Correct!
+        ans2:
+          value: 'No'
+          feedback: Try again please!
+      part7:
+        ans1:
+          value: The level of confidence would decrease because decreasing $n$ makes
+            the confidence interval wider, so at the same error bound, the confidence
+            level decreases.
+          feedback: Correct!
+        ans2:
+          value: The level of confidence would increase because increasing $n$ makes
+            the confidence interval smaller, so at the same error bound, the confidence
+            level increases.
+          feedback: Try again please!
+        ans3:
+          value: The level of confidence would increase because decreasing $n$ makes
+            the confidence interval smaller, so at the same error bound, the confidence
+            level increases.
+          feedback: Try again please!
+        ans4:
+          value: The level of confidence would decrease because increasing $n$ makes
+            the confidence interval wider, so at the same error bound, the confidence
+            level decreases.
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
-The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys {{ params.sample_size }} people. The sample mean is {{ params.x_bar }} minutes. There is a known standard deviation of {{ params_sigma }} minutes. The population distribution is assumed to be normal.
+# {{ params.vars.title }}
+The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys {{ params.sample_size }} people. The sample mean is {{ params.x_bar }} minutes. There is a known standard deviation of {{ params.sigma }} minutes. The population distribution is assumed to be normal.
 
 ## Part 1
 
@@ -120,10 +130,6 @@ Identify the sample mean
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\bar{x} = {{ params.x_bar }}$
-
 ## Part 2
 
 Identify the standard deviation
@@ -131,10 +137,6 @@ Identify the standard deviation
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-$\sigma = {{ params_sigma }}$
 
 ## Part 3
 
@@ -144,42 +146,30 @@ Identify the sample size
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$n = {{ params.sample_size }}$
-
 ## Part 4
 
 Please define the distribution that should be used. (Ex. $exp(1)$, $N(0,1)$, $B(5, 0.5)$)
 
 ### Answer Section
 
-### pl-answer-panel
-
-$X \sim N({{ params.x_bar }}, \frac{ {{ params_sigma }} }{\sqrt{ {{ params.sample_size }} }})$
-
 ## Part 5
 
-Is the following graph a proper representation of the {{ params_confidence }}% confidence interval?
+Is the following graph a proper representation of the {{ params.confidence }}% confidence interval?
 
 <pl-figure file-name="figure 1.png" type="dynamic" width="500px"></pl-figure>
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Part 6
 
-What should the error bound be for the confidence interval with {{ params_confidence }}% confidence level?
+What should the error bound be for the confidence interval with {{ params.confidence }}% confidence level?
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-{{ correct_answers.part6_ans }}
 
 ## Part 7
 
@@ -187,14 +177,10 @@ If the Census did another survey, kept the error bound the same, and surveyed {{
 
 ### Answer Section
 
-- {{ params_part7_ans1_value }}
-- {{ params_part7_ans2_value }}
-- {{ params_part7_ans3_value }}
-- {{ params_part7_ans4_value }}
-
-### pl-answer-panel
-
-As the sample size increases, there will be less variability in the mean, so the interval size decreases.
+- {{ params.part7.ans1.value }}
+- {{ params.part7.ans2.value }}
+- {{ params.part7.ans3.value }}
+- {{ params.part7.ans4.value }}
 
 ## Part 8
 
@@ -203,10 +189,6 @@ Suppose the Census needed to be {{ params.higher_confidence }}% confident of the
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-{{ correct_answers.part8_ans }}
 
 ## Attribution
 

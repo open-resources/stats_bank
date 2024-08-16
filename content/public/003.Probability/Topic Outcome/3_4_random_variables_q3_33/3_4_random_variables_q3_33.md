@@ -34,13 +34,16 @@ part1:
     suffix: '%'
 myst:
   substitutions:
-    params_vars_title: Portfolio return
-    params_description_num1: 19
-    params_description_num2: 1
-    params_description_num3: 4
+    params:
+      vars:
+        title: Portfolio return
+      description:
+        num1: 18
+        num2: 10
+        num3: 3
 ---
-# {{ params_vars_title }}
-A portfolio's value increases by ${{ params_description_num1 }}$% during a financial boom and by ${{ params_description_num2 }}$% during normal times. It decreases by ${{ params_description_num3 }}$% during a recession.
+# {{ params.vars.title }}
+A portfolio's value increases by ${{ params.description.num1 }}$% during a financial boom and by ${{ params.description.num2 }}$% during normal times. It decreases by ${{ params.description.num3 }}$% during a recession.
 
 ## Part 1
 
@@ -49,10 +52,6 @@ What is the expected return on this portfolio if each scenario is equally likely
 ### Answer Section
 
 Please enter a numeric value in percentage.
-
-### pl-answer-panel
-
-{{ correct_answers.part1_ans }}% increase in value.
 
 ## Attribution
 

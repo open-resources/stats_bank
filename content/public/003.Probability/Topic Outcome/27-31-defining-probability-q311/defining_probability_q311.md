@@ -58,37 +58,42 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Educational Attainment of Couples
-    params_male_9_less: '0.01'
-    params_male_9_to_12: '0.07'
-    params_male_HS: '0.19'
-    params_male_some_college: '0.25'
-    params_male_associates: '0.26'
-    params_male_bachelors: '0.15'
-    params_male_graduate_or_professional: '0.06'
-    params_female_9_less: '0.14'
-    params_female_9_to_12: '0.16'
-    params_female_HS: '0.22'
-    params_female_some_college: '0.20'
-    params_female_associates: '0.08'
-    params_female_bachelors: '0.19'
-    params_female_graduate_or_professional: '0.01'
-    params_part4_ans1_value: 'Yes'
-    params_part4_ans1_feedback: Not quite. Assumptions required in part 3 include
-      assuming that the education level of the husband and wife are independent and
-      that the decision to get married is unrelated to education level. The husband/wife
-      independence assumption is probably not reasonable, because people often marry
-      another person with a comparable level of education. We will leave it to you
-      to think about whether the second assumption is reasonable.
-    params_part4_ans2_value: 'No'
-    params_part4_ans2_feedback: Great! You got it. Assumptions required in part 3
-      include assuming that the education level of the husband and wife are independent
-      and that the decision to get married is unrelated to education level. The husband/wife
-      independence assumption is probably not reasonable, because people often marry
-      another person with a comparable level of education. We will leave it to you
-      to think about whether the second assumption is reasonable.
+    params:
+      vars:
+        title: Educational Attainment of Couples
+      male_9_less: '0.17'
+      male_9_to_12: '0.18'
+      male_HS: '0.19'
+      male_some_college: '0.18'
+      male_associates: '0.18'
+      male_bachelors: '0.07'
+      male_graduate_or_professional: '0.03'
+      female_9_less: '0.24'
+      female_9_to_12: '0.02'
+      female_HS: '0.27'
+      female_some_college: '0.06'
+      female_associates: '0.15'
+      female_bachelors: '0.19'
+      female_graduate_or_professional: '0.07'
+      part4:
+        ans1:
+          value: 'Yes'
+          feedback: Not quite. Assumptions required in part 3 include assuming that
+            the education level of the husband and wife are independent and that the
+            decision to get married is unrelated to education level. The husband/wife
+            independence assumption is probably not reasonable, because people often
+            marry another person with a comparable level of education. We will leave
+            it to you to think about whether the second assumption is reasonable.
+        ans2:
+          value: 'No'
+          feedback: Great! You got it. Assumptions required in part 3 include assuming
+            that the education level of the husband and wife are independent and that
+            the decision to get married is unrelated to education level. The husband/wife
+            independence assumption is probably not reasonable, because people often
+            marry another person with a comparable level of education. We will leave
+            it to you to think about whether the second assumption is reasonable.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The table below shows the distribution of education level attained by US residents by gender based on data collected in the 2010 American Community Survey.
 
 <!-- |                                 | Male | Female |
@@ -132,10 +137,6 @@ What is the probability that a randomly chosen man has at least a Bachelor’s d
 
 Please enter a numeric value between 0 and 1.
 
-### pl-answer-panel
-
-P = ${{ params.male_bachelors }} + ${{ params.male_graduate_or_professional }}$ = {{ correct_answers.part1_ans }}$
-
 ## Part 2
 
 What is the probability that a randomly chosen woman has at least a Bachelor’s degree?
@@ -143,10 +144,6 @@ What is the probability that a randomly chosen woman has at least a Bachelor’s
 ### Answer Section
 
 Please enter a numeric value between 0 and 1.
-
-### pl-answer-panel
-
-P = ${{ params.female_bachelors }} + ${{ params.female_graduate_or_professional }}$ = {{ correct_answers.part2_ans }}$
 
 ## Part 3
 
@@ -157,10 +154,6 @@ Note any assumptions you must make to answer this question.
 
 Please enter a numeric value between 0 and 1.
 
-### pl-answer-panel
-
-Assuming that the education level of the husband and wife are independent: $P = {{ correct_answers.part1_ans }} \times {{ correct_answers.part2_ans }} = {{ correct_answers.part3_ans }}$. You might also notice there is actually a second assumption: that the decision to get married is unrelated to education level.
-
 ## Part 4
 
 If you made an assumption in part 3, do you think it was reasonable?
@@ -169,10 +162,6 @@ If you made an assumption in part 3, do you think it was reasonable?
 
 - {{ params.part4.ans1}}
 - {{ params.part4.ans2}}
-
-### pl-answer-panel
-
-The husband/wife independence assumption is probably not reasonable, because people often marry another person with a comparable level of education. We will leave it to you to think about whether the second assumption noted in part 3 is reasonable.
 
 ## Attribution
 

@@ -75,39 +75,47 @@ part6:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Global Warming
-    params_num1: 0.11
-    params_num2: 0.21
-    params_num3: 0.02
-    params_num4: 0.34
-    params_num5: 0.07
-    params_num6: 0.05
-    params_num7: 0.01
-    params_num8: 0.13
-    params_num9: 0.25
-    params_num10: 0.07
-    params_num11: 0.02
-    params_num12: 0.34
-    params_num13: 0.18
-    params_num14: 0.01
-    params_num15: 0.01
-    params_num16: 0.2
-    params_num17: 0.61
-    params_num18: 0.34
-    params_num19: 0.06
-    params_num20: 1.0
-    params_n20: 1283
-    params_part1_ans1_value: 'Yes'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: 'No'
-    params_part1_ans2_feedback: Correct!
-    params_part5_ans1_value: 'Yes'
-    params_part5_ans1_feedback: Try again please!
-    params_part5_ans2_value: 'No'
-    params_part5_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Global Warming
+      num1: 0.12
+      num2: 0.22
+      num3: 0.01
+      num4: 0.35
+      num5: 0.05
+      num6: 0.06
+      num7: 0.01
+      num8: 0.12
+      num9: 0.26
+      num10: 0.06
+      num11: 0.01
+      num12: 0.33
+      num13: 0.18
+      num14: 0.01
+      num15: 0.01
+      num16: 0.2
+      num17: 0.61
+      num18: 0.35
+      num19: 0.04
+      num20: 1.0
+      n20: 1227
+      part1:
+        ans1:
+          value: 'Yes'
+          feedback: Try again please!
+        ans2:
+          value: 'No'
+          feedback: Correct!
+      part5:
+        ans1:
+          value: 'Yes'
+          feedback: Try again please!
+        ans2:
+          value: 'No'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
-A Pew Research poll asked {{ params_n20 }} Americans “From what you’ve read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?”.
+# {{ params.vars.title }}
+A Pew Research poll asked {{ params.n20 }} Americans “From what you’ve read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?”.
 The table below shows the distribution of responses by party and ideology, where the counts have been replaced with relative frequencies.
 
 <!-- |                         | Earth is warming | Not warming | Don't know refuse | Total |
@@ -120,11 +128,11 @@ The table below shows the distribution of responses by party and ideology, where
 
 |                         | Earth is warming | Not warming | Don't know refuse | Total |
 |-------------------------|:----------------:|:-----------:|:-----------------:|:------:|
-| Conservative Republican | {{ params_num1 }} | {{ params_num2 }} | {{ params_num3 }} | {{ params_num4 }} |
-| Mod/Lib Republican      | {{ params_num5 }} | {{ params_num6 }} | {{ params_num7 }} | {{ params_num8 }} |
-| Mod/Cons Democrat       | {{ params_num9 }} | {{ params_num10 }} | {{ params_num11 }} | {{ params_num12 }} |
-| Liberal Democrat        | {{ params_num13 }} | {{ params_num14 }} | {{ params_num15 }} | {{ params_num16 }} |
-| Total                   | {{ params_num17 }} | {{ params_num18 }} | {{ params_num19 }} | {{ params_num20 }} |
+| Conservative Republican | {{ params.num1 }} | {{ params.num2 }} | {{ params.num3 }} | {{ params.num4 }} |
+| Mod/Lib Republican      | {{ params.num5 }} | {{ params.num6 }} | {{ params.num7 }} | {{ params.num8 }} |
+| Mod/Cons Democrat       | {{ params.num9 }} | {{ params.num10 }} | {{ params.num11 }} | {{ params.num12 }} |
+| Liberal Democrat        | {{ params.num13 }} | {{ params.num14 }} | {{ params.num15 }} | {{ params.num16 }} |
+| Total                   | {{ params.num17 }} | {{ params.num18 }} | {{ params.num19 }} | {{ params.num20 }} |
 
 ## Part 1
 
@@ -132,36 +140,20 @@ Are believing that the earth is warming and being a liberal Democrat mutually ex
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-
-### pl-answer-panel
-
-No, ${{ params_num13 }}$ of respondents fall into this combination.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
 What is the probability that a randomly chosen respondent believes the earth is warming or is a liberal Democrat?
 
-### pl-answer-panel
-
-$p = {{ params_num17 }} + {{ params_num16 }} - {{ params_num13 }} = {{ correct_answers.part2_ans }}$
-
 ## Part 3
 
 What is the probability that a randomly chosen respondent believes the earth is warming given that he is a liberal Democrat?
 
-### pl-answer-panel
-
-$p = {{ params_num13 }} / {{ params_num16 }} = {{ correct_answers.part3_ans }}$
-
 ## Part 4
 
 What is the probability that a randomly chosen respondent believes the earth is warming given that he is a conservative Republican?
-
-### pl-answer-panel
-
-$p = {{ params_num1 }} / {{ params_num4 }} = {{ correct_answers.part4_ans }}$
 
 ## Part 5
 
@@ -169,20 +161,12 @@ Does it appear that whether or not a respondent believes the earth is warming is
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-
-### pl-answer-panel
-
-No, because otherwise the probabilities in parts 3 and 4 would be the same.
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Part 6
 
 What is the probability that a randomly chosen respondent is a moderate/liberal Republican given that he does not believe that the earth is warming?
-
-### pl-answer-panel
-
-$p = {{ params_num6 }} / {{ params_num18 }} = {{ correct_answers.part6_ans }}$
 
 ## Attribution
 

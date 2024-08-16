@@ -93,52 +93,70 @@ part9:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Offshore drilling, Part I
-    params_part3_ans1_value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} ≠ p_{NCG}$'
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} > p_{NCG}$'
-    params_part3_ans2_feedback: Incorrect!
-    params_part3_ans3_value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} < p_{NCG}$'
-    params_part3_ans3_feedback: Incorrect!
-    params_part3_ans4_value: '$H_0: p_{CG} > p_{NCG}$, $H_A: p_{CG} ≠ p_{NCG}$'
-    params_part3_ans4_feedback: Incorrect!
-    params_part4_ans1_value: 'Yes'
-    params_part4_ans1_feedback: Correct! It is a random sample.
-    params_part4_ans2_value: 'No'
-    params_part4_ans2_feedback: Incorrect!
-    params_part6_ans1_value: 'Yes'
-    params_part6_ans1_feedback: Correct!
-    params_part6_ans2_value: 'No'
-    params_part6_ans2_feedback: Incorrect!
-    params_part9_ans1_value: Since the p-value is very large, we reject $H_0$. The
-      data provide weak evidence that the proportion of college graduates who do not
-      have an opinion on this issue is different than that of non-college graduates.
-    params_part9_ans1_feedback: Try again please!
-    params_part9_ans2_value: Since the p-value is very small, we accept $H_0$. The
-      data provide strong evidence that the proportion of college graduates who do
-      not have an opinion on this issue is the same as that of non-college graduates.
-    params_part9_ans2_feedback: Try again please!
-    params_part9_ans3_value: Since the p-value is very small, we reject $H_0$. The
-      data provide strong evidence that the proportion of college graduates who do
-      not have an opinion on this issue is different than that of non-college graduates.
-    params_part9_ans3_feedback: Correct!
-    params_part9_ans4_value: Since the p-value > 0.05, we fail to reject $H_0$. The
-      data do not provide strong evidence that the proportion of college graduates
-      who do not have an opinion on this issue is different from that of non-college
-      graduates.
-    params_part9_ans4_feedback: Try again please!
-    params_yes_support: 146
-    params_yes_oppose: 179
-    params_yes_do_not_know: 92
-    params_yes_total: 417
-    params_no_support: 133
-    params_no_oppose: 131
-    params_no_do_not_know: 127
-    params_no_total: 391
-    params_total: 808
+    params:
+      vars:
+        title: Offshore drilling, Part I
+      part3:
+        ans1:
+          value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} ≠ p_{NCG}$'
+          feedback: Correct!
+        ans2:
+          value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} > p_{NCG}$'
+          feedback: Incorrect!
+        ans3:
+          value: '$H_0: p_{CG} = p_{NCG}$, $H_A: p_{CG} < p_{NCG}$'
+          feedback: Incorrect!
+        ans4:
+          value: '$H_0: p_{CG} > p_{NCG}$, $H_A: p_{CG} ≠ p_{NCG}$'
+          feedback: Incorrect!
+      part4:
+        ans1:
+          value: 'Yes'
+          feedback: Correct! It is a random sample.
+        ans2:
+          value: 'No'
+          feedback: Incorrect!
+      part6:
+        ans1:
+          value: 'Yes'
+          feedback: Correct!
+        ans2:
+          value: 'No'
+          feedback: Incorrect!
+      part9:
+        ans1:
+          value: Since the p-value is very large, we reject $H_0$. The data provide
+            weak evidence that the proportion of college graduates who do not have
+            an opinion on this issue is different than that of non-college graduates.
+          feedback: Try again please!
+        ans2:
+          value: Since the p-value is very small, we accept $H_0$. The data provide
+            strong evidence that the proportion of college graduates who do not have
+            an opinion on this issue is the same as that of non-college graduates.
+          feedback: Try again please!
+        ans3:
+          value: Since the p-value is very small, we reject $H_0$. The data provide
+            strong evidence that the proportion of college graduates who do not have
+            an opinion on this issue is different than that of non-college graduates.
+          feedback: Correct!
+        ans4:
+          value: Since the p-value > 0.05, we fail to reject $H_0$. The data do not
+            provide strong evidence that the proportion of college graduates who do
+            not have an opinion on this issue is different from that of non-college
+            graduates.
+          feedback: Try again please!
+      yes_support: 154
+      yes_oppose: 186
+      yes_do_not_know: 96
+      yes_total: 436
+      no_support: 133
+      no_oppose: 117
+      no_do_not_know: 134
+      no_total: 384
+      total: 820
 ---
-# {{ params_vars_title }}
-A survey asked {{ params_total }} randomly sampled registered voters in California "Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?" Below is the distribution of responses, separated based on whether or not the respondent graduated from college.
+# {{ params.vars.title }}
+A survey asked {{ params.total }} randomly sampled registered voters in California "Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?" Below is the distribution of responses, separated based on whether or not the respondent graduated from college.
 
 |                 |        **College Grad**      |                              |
 |-----------------|------------------------------|------------------------------|
@@ -172,10 +190,10 @@ Let $p\_{CG}$ and $p\_{NCG}$ represent the proportion of college graduates and n
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 4
 
@@ -183,8 +201,8 @@ Is the independence condition being satisfied?
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Part 5
 
@@ -200,8 +218,8 @@ Considering the pooled proportion, has the success-failure condition been satisf
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
 
 ## Part 7
 
@@ -225,10 +243,10 @@ Based on the p-value and a significance level of 0.05, state whether you will re
 
 ### Answer Section
 
-- {{ params_part9_ans1_value }}
-- {{ params_part9_ans2_value }}
-- {{ params_part9_ans3_value }}
-- {{ params_part9_ans4_value }}
+- {{ params.part9.ans1.value }}
+- {{ params.part9.ans2.value }}
+- {{ params.part9.ans3.value }}
+- {{ params.part9.ans4.value }}
 
 ## Attribution
 

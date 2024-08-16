@@ -46,19 +46,30 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Orange tabbies
-    params_vars_sample_size1: 30
-    params_vars_times: 64
-    params_vars_sample_size3: 147
-    params_vars_sample_size4: 166
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
-    params_part3_ans1_value: 'True'
-    params_part3_ans2_value: 'False'
-    params_part4_ans1_value: 'True'
-    params_part4_ans2_value: 'False'
+    params:
+      vars:
+        title: Orange tabbies
+        sample_size1: 30
+        times: 64
+        sample_size3: 89
+        sample_size4: 105
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part4:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Suppose that 90% of orange tabby cats are male. Determine if the following statements are true or false.
 
 ## Part 1
@@ -67,20 +78,16 @@ The distribution of sample proportions of random samples of size {{ params.vars.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
-Using a sample size that is {{ params_vars_times }} times as large will cause the standard error to be how many multiples of itself large?
+Using a sample size that is {{ params.vars.times }} times as large will cause the standard error to be how many multiples of itself large?
 
 ### Answer Section
 
 Please enter in a numeric value.
-
-### pl-answer-panel
-
-We take the square root of the sample size in the $SE$ formula.
 
 ## Part 3
 
@@ -88,12 +95,8 @@ The distribution of sample proportions of random samples of size {{ params.vars.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-
-### pl-answer-panel
-
-Check whether the independence and success-failure conditions are being met. Take also into account the Central Limit Theorem (CLT).
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
@@ -101,12 +104,8 @@ The distribution of sample proportions of random samples of size {{ params.vars.
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-
-### pl-answer-panel
-
-Check whether the independence and success-failure conditions are being met. Take also into account the Central Limit Theorem (CLT).
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Attribution
 

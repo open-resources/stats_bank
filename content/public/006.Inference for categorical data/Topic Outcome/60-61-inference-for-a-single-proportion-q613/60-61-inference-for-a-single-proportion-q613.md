@@ -63,43 +63,57 @@ part6:
     source-file-name: sample.html
 myst:
   substitutions:
-    params_vars_title: Taste Test
-    params_vars_sample: 80
-    params_vars_p_value: 1.0
-    params_part1_ans1_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.5$, $H_A: p = 0.5$'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
-    params_part1_ans3_feedback: Correct!
-    params_part1_ans4_value: '$H_0: p ≠ 0.5$, $H_A: p = 0.5$'
-    params_part1_ans4_feedback: Try again please!
-    params_part2_ans1_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is also satisfied as we (using $p_0 = 0.5$, we
-      expect 40 successes and 40 failures).
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is not satisfied, as our expectation of 40 successes
-      and 40 failures, using $p_0 = 0.5$, is not met.
-    params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: Given this is not a random sample, independence is not
-      satisfied. The success-failure condition is also satisfied as we (using $p_0
-      = 0.5$, we expect 40 successes and 40 failures).
-    params_part2_ans3_feedback: Try again please!
-    params_part5_ans1_value: Since the p-value $< 0.05$, we reject the null hypothesis.
-      Since we rejected $H_0$ and the point estimate suggests people are better than
-      random guessing, we can conclude the rate of correctly identifying a soda for
-      these people is significantly better than just by random guessing.
-    params_part5_ans1_feedback: Try again please!
-    params_part5_ans2_value: Since the p-value $≥ 0.05$, we fail to reject the null
-      hypothesis. Since we did not reject $H_0$ and the point estimate suggests people
-      are not better than random guessing, we cannot conclude that the rate of correctly
-      identifying a soda for these people is significantly better than just by random
-      guessing.
-    params_part5_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Taste Test
+        sample: 80
+        p_value: 2.1517864378095553e-05
+      part1:
+        ans1:
+          value: '$H_0: p = 0.74$, $H_A: p ≠ 0.5$'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: p = 0.74$, $H_A: p = 0.5$'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
+          feedback: Correct!
+        ans4:
+          value: '$H_0: p ≠ 0.5$, $H_A: p = 0.5$'
+          feedback: Try again please!
+      part2:
+        ans1:
+          value: Since this is a random sample, independence is satisfied. The success-failure
+            condition is also satisfied as we (using $p_0 = 0.5$, we expect 40 successes
+            and 40 failures).
+          feedback: Correct!
+        ans2:
+          value: Since this is a random sample, independence is satisfied. The success-failure
+            condition is not satisfied, as our expectation of 40 successes and 40
+            failures, using $p_0 = 0.5$, is not met.
+          feedback: Try again please!
+        ans3:
+          value: Given this is not a random sample, independence is not satisfied.
+            The success-failure condition is also satisfied as we (using $p_0 = 0.5$,
+            we expect 40 successes and 40 failures).
+          feedback: Try again please!
+      part5:
+        ans1:
+          value: Since the p-value $< 0.05$, we reject the null hypothesis. Since
+            we rejected $H_0$ and the point estimate suggests people are better than
+            random guessing, we can conclude the rate of correctly identifying a soda
+            for these people is significantly better than just by random guessing.
+          feedback: Correct!
+        ans2:
+          value: Since the p-value $≥ 0.05$, we fail to reject the null hypothesis.
+            Since we did not reject $H_0$ and the point estimate suggests people are
+            not better than random guessing, we cannot conclude that the rate of correctly
+            identifying a soda for these people is significantly better than just
+            by random guessing.
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
-Some people claim that they can tell the difference between a diet soda and a regular soda in the first sip. A researcher wanting to test this claim randomly sampled {{ params_vars_sample }} such people. He then filled {{ params_vars_sample }} plain white cups with soda, half diet and half regular through random assignment, and asked each person to take one sip from their cup and identify the soda as diet or regular. {{ params.vars.num_correct_identifications }} participants correctly identified the soda. Do these data provide strong evidence that these people are any better or worse than random guessing at telling the difference between diet and regular soda? Yes or No?
+# {{ params.vars.title }}
+Some people claim that they can tell the difference between a diet soda and a regular soda in the first sip. A researcher wanting to test this claim randomly sampled {{ params.vars.sample }} such people. He then filled {{ params.vars.sample }} plain white cups with soda, half diet and half regular through random assignment, and asked each person to take one sip from their cup and identify the soda as diet or regular. {{ params.vars.num_correct_identifications }} participants correctly identified the soda. Do these data provide strong evidence that these people are any better or worse than random guessing at telling the difference between diet and regular soda? Yes or No?
 
 ## Part 1
 
@@ -107,10 +121,10 @@ State the null and alternative hypotheses for the taste test.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
@@ -118,9 +132,9 @@ Do the criteria for independence and the success-failure condition hold true?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 - {{ params.part2.ans4.value }}
 
 ## Part 3
@@ -145,8 +159,8 @@ Based on the p-value and a significance level of 0.05, state whether you will re
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Part 6
 
@@ -155,10 +169,6 @@ Interpret the p-value in this context.
 ### Answer Section
 
 Please enter in a text response.
-
-### pl-answer-panel
-
-If in fact people cannot tell the difference between diet and regular soda and they were randomly guessing, the probability of getting a random sample of ${{ params_vars_sample }}$ people where ${{ params.vars.num_correct_identifications }}$ or more identify a soda correctly (or ${{ params.vars.num_correct_identifications }}$ or more identify a soda incorrectly) would be ${{ params.vars.p_value }}$.
 
 ## Attribution
 

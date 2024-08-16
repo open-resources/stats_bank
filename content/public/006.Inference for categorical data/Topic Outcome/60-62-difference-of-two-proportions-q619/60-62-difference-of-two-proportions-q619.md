@@ -45,40 +45,56 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Gender and color preference
-    params_part1_ans1_value: 'False'
-    params_part1_ans1_feedback: Not all of the confidence interval is above 0.
-    params_part1_ans2_value: 'True'
-    params_part1_ans2_feedback: Correct!
-    params_part2_ans1_value: 'True'
-    params_part2_ans1_feedback: The lower bound is negative, which contradicts the
-      claim that the male proportion is higher.
-    params_part2_ans2_value: 'False'
-    params_part2_ans2_feedback: The lower bound is negative, which contradicts the
-      claim that the male proportion is higher.
-    params_part3_ans1_value: 'True'
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: 'False'
-    params_part3_ans2_feedback: Incorrect!
-    params_part4_ans1_value: 'True'
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: 'False'
-    params_part4_ans2_feedback: Incorrect!
-    params_part5_ans1_value: 'False'
-    params_part5_ans1_feedback: 'It is simply the negated and reordered values: (-0.03,
-      0.03).'
-    params_part5_ans2_value: 'True'
-    params_part5_ans2_feedback: Incorrect!
-    params_lower_bound_percent_abs: 3.0
-    params_upper_bound_percent_abs: 3.0
-    params_lower_bound_percent_abs_p2: 3.0
-    params_upper_bound_percent_abs_p2: 3.0
-    params_lower_bound: -0.03
-    params_upper_bound: 0.03
-    params_male_sample_size: 1796
-    params_female_sample_size: 3140
+    params:
+      vars:
+        title: Gender and color preference
+      part1:
+        ans1:
+          value: 'False'
+          feedback: Correct!
+        ans2:
+          value: 'True'
+          feedback: The entire confidence interval is above 0.
+      part2:
+        ans1:
+          value: 'True'
+          feedback: The lower bound is negative, which contradicts the claim that
+            the male proportion is higher.
+        ans2:
+          value: 'False'
+          feedback: The lower bound is negative, which contradicts the claim that
+            the male proportion is higher.
+      part3:
+        ans1:
+          value: 'True'
+          feedback: Correct!
+        ans2:
+          value: 'False'
+          feedback: Incorrect!
+      part4:
+        ans1:
+          value: 'True'
+          feedback: Correct!
+        ans2:
+          value: 'False'
+          feedback: Incorrect!
+      part5:
+        ans1:
+          value: 'False'
+          feedback: 'It is simply the negated and reordered values: (0.03, 0.13).'
+        ans2:
+          value: 'True'
+          feedback: Incorrect!
+      lower_bound_percent_abs: 13.0
+      upper_bound_percent_abs: 3.0
+      lower_bound_percent_abs_p2: 3.0
+      upper_bound_percent_abs_p2: 13.0
+      lower_bound: -0.13
+      upper_bound: -0.03
+      male_sample_size: 1790
+      female_sample_size: 3003
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).
 Based on this information, determine if the following statements about undergraduate college students are true or false.
 
@@ -88,8 +104,8 @@ We are 95% confident that the true proportion of males whose favorite color is b
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -97,8 +113,8 @@ We are 95% confident that the true proportion of males whose favorite color is b
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
@@ -106,8 +122,8 @@ We are 95% confident that the true proportion of males whose favorite color is b
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
@@ -115,8 +131,8 @@ We can conclude that there is a significant difference between the proportions o
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Part 5
 
@@ -124,8 +140,8 @@ The 95% confidence interval for $(p\_{female} - p\_{male})$ cannot be calculated
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Attribution
 

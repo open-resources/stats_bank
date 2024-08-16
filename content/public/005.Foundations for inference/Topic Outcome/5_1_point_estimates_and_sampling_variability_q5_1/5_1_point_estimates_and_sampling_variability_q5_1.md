@@ -29,34 +29,33 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Identify the parameter, Part I
-    params_vars_question: In a sample of one hundred recent college graduates, it
-      is found that $ 68 $ percent expect to get a job within one year of their graduation
-      date.
-    params_vars_answer_panel_feedback: Proportion. Each student reports whether or
-      not s/he expects to get a job, so this is a categorical variable and we use
-      a proportion.
-    params_part1_ans1_value: Proportion
-    params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: Mean
-    params_part1_ans2_feedback: Try again please!
+    params:
+      vars:
+        title: Identify the parameter, Part I
+        question: 'In a survey, one hundred college students are asked: "What percentage
+          of the time you spend on the Internet is part of your course work?"'
+        answer_panel_feedback: Mean. Each student reports a number, which is a percentage,
+          and we can average over these percentages.
+      part1:
+        ans1:
+          value: Mean
+          feedback: Great! You got it.
+        ans2:
+          value: Proportion
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Identify whether the parameter of interest is a mean or a proportion.
 It may be helpful to examine whether individual responses are numerical or categorical.
 
 ## Part 1
 
-{{params_vars_question}}
+{{params.vars.question}}
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-
-### pl-answer-panel
-
-{{params.vars.answer_panel_feedback}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

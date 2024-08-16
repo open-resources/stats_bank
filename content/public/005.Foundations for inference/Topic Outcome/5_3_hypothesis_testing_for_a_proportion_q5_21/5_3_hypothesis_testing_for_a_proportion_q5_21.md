@@ -51,46 +51,70 @@ part5:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Minimum wage, Part I
-    params_description_num1: 975
-    params_description_num2: 45
-    params_part1_ans1_value: '$H_0: p < 0.5$, $H_a: p > 0.5$'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.5$, $H_a: p \neq 0.5$'
-    params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: '$H_0: p = 0.45$, $H_a: p \neq 0.45$'
-    params_part1_ans3_feedback: Try again please!
-    params_part1_ans4_value: '$H_0: p > 0.5$, $H_a: p < 0.5$'
-    params_part1_ans4_feedback: Try again please!
-    params_part2_ans1_value: Independence
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: Success-failure condition
-    params_part2_ans2_feedback: Correct!
-    params_part3_ans1_value: p < 0.00001
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: p > 0.05
-    params_part3_ans2_feedback: Try again please!
-    params_part3_ans3_value: p = 0
-    params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: p = 0.45
-    params_part3_ans4_feedback: Try again please!
-    params_part4_ans1_value: Reject the null hypothesis
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: Fail to reject the null hypothesis
-    params_part4_ans2_feedback: Try again please!
-    params_part4_ans3_value: Not enough information to make a decision
-    params_part4_ans3_feedback: Try again please!
-    params_part4_ans4_value: Conduct another survey
-    params_part4_ans4_feedback: Try again please!
-    params_part5_ans1_value: 'Yes'
-    params_part5_ans1_feedback: Try again please!
-    params_part5_ans2_value: 'No'
-    params_part5_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Minimum wage, Part I
+      description:
+        num1: 919
+        num2: 44
+      part1:
+        ans1:
+          value: '$H_0: p < 0.5$, $H_a: p > 0.5$'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: p = 0.5$, $H_a: p \neq 0.5$'
+          feedback: Correct!
+        ans3:
+          value: '$H_0: p = 0.44$, $H_a: p \neq 0.44$'
+          feedback: Try again please!
+        ans4:
+          value: '$H_0: p > 0.5$, $H_a: p < 0.5$'
+          feedback: Try again please!
+      part2:
+        ans1:
+          value: Independence
+          feedback: Correct!
+        ans2:
+          value: Success-failure condition
+          feedback: Correct!
+      part3:
+        ans1:
+          value: p < 0.00001
+          feedback: Correct!
+        ans2:
+          value: p > 0.05
+          feedback: Try again please!
+        ans3:
+          value: p = 0
+          feedback: Try again please!
+        ans4:
+          value: p = 0.44
+          feedback: Try again please!
+      part4:
+        ans1:
+          value: Reject the null hypothesis
+          feedback: Correct!
+        ans2:
+          value: Fail to reject the null hypothesis
+          feedback: Try again please!
+        ans3:
+          value: Not enough information to make a decision
+          feedback: Try again please!
+        ans4:
+          value: Conduct another survey
+          feedback: Try again please!
+      part5:
+        ans1:
+          value: 'Yes'
+          feedback: Try again please!
+        ans2:
+          value: 'No'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Do a majority of US adults believe raising the minimum wage will help the economy, or is there a majority who do not believe this?
 
-A Rasmussen Reports survey of a random sample of ${{ params_description_num1 }}$ US adults found that ${{ params_description_num2 }}$% believe it will help the economy. Conduct an appropriate hypothesis test to help answer the research question. We will use a significance level of $\alpha = 0.05$.
+A Rasmussen Reports survey of a random sample of ${{ params.description.num1 }}$ US adults found that ${{ params.description.num2 }}$% believe it will help the economy. Conduct an appropriate hypothesis test to help answer the research question. We will use a significance level of $\alpha = 0.05$.
 
 ## Part 1
 
@@ -98,14 +122,10 @@ Choose the appropriate hypotheses.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-answer-panel
-
-Set up hypotheses. $H_0$: $p = 0.5$, $H_A$: $p \neq 0.5$.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
@@ -113,12 +133,8 @@ Which of the following condition(s) are satisfied for conducting this hypothesis
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-answer-panel
-
-Check conditions: simple random sample gets us independence, and the success-failure conditions is satisfied since $0.5 \times {{ params_description_num1 }} $ for each group is at least 10.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
@@ -126,14 +142,10 @@ What is the p-value?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-answer-panel
-
-Next, we calculate: $SE = \sqrt{0.5 (1 - 0.5) / {{ params_description_num1 }} } $. $Z = \frac{ {{ params_description_num2 }}/100 - 0.5}{SE}$, which has a one-tail area, the p-value is twice this one-tail area.
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 4
 
@@ -141,14 +153,10 @@ Based on the calculated p-value, what decision should you make regarding the nul
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
-- {{ params_part4_ans4_value }}
-
-### pl-answer-panel
-
-Make a conclusion: Because the p-value is less than $\alpha = 0.05$, we reject the null hypothesis and conclude that the fraction of US adults who believe raising the minimum wage will help the economy is not 50%.
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
+- {{ params.part4.ans4.value }}
 
 ## Part 5
 
@@ -156,15 +164,8 @@ Based on the results of the hypothesis test, can we conclude that a majority of 
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-
-### pl-answer-panel
-
-Because the observed value is less than 50% and we have rejected the null hypothesis, we can conclude that this belief is held by fewer than 50% of US adults.
-
-(For reference, the survey also explores support for changing the minimum wage, which is a different
-question than if it will help the economy.)
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Attribution
 

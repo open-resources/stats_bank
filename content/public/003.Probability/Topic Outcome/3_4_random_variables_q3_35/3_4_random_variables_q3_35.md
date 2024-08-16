@@ -43,15 +43,20 @@ part2:
     label: $SD = \$$
 myst:
   substitutions:
-    params_vars_title: Roulette
-    params_description_num_slots: 44
-    params_description_num_red: 20
-    params_description_num_black: 21
-    params_description_num_green: 3
-    params_description_bet_amount: 2
-    params_description_bet_color: black
+    params:
+      vars:
+        title: Roulette
+      description:
+        num_slots: 34
+        num_red: 16
+        num_black: 17
+        num_green: 1
+        bet_amount: 6
+        bet_color: black
+      part1: {}
+      part2: {}
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The game of Roulette involves spinning a wheel with a number of colored slots. A ball is then spun onto the wheel and will eventually land in a slot, where each slot has an equal chance of capturing the ball. A photograph of an example (de-coloured) roulette wheel is shown below:
 
 <figure>
@@ -71,10 +76,6 @@ What's the expected value of your winnings? Round to 4 decimal places.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-Part 1: E = {{ params.part1.correct }}
-
 ## Part 2
 
 What's the standard deviation of your winnings? Round to 4 decimal places.
@@ -82,10 +83,6 @@ What's the standard deviation of your winnings? Round to 4 decimal places.
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-Part 2: SD = {{ params.part2.correct }}
 
 ## Attribution
 

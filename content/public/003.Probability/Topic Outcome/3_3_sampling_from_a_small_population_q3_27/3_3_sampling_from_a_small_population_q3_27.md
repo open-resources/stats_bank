@@ -34,35 +34,32 @@ part1:
     label: $P= $
 myst:
   substitutions:
-    params_vars_title: Student outfits
-    params_description_num1: 16
-    params_description_num2: 5
-    params_description_jeans1: 4
-    params_description_num3: 3
-    params_description_num4: 4
-    params_description_num6: 4
-    params_description_num5: 3
-    params_description_total: 16
-    params_description_total1: 15
-    params_description_total2: 14
-    params_description_prob: 0.0238
+    params:
+      vars:
+        title: Student outfits
+      description:
+        num1: 25
+        num2: 14
+        jeans1: 13
+        num3: 6
+        num4: 3
+        num6: 2
+        num5: 3
+        total: 25
+        total1: 24
+        total2: 23
+        prob: 0.0264
 ---
-# {{ params_vars_title }}
-In a classroom with ${{ params_description_num1 }}$ students, ${{ params_description_num2 }}$ students are wearing jeans, ${{ params_description_num3 }}$ are wearing shorts, ${{ params_description_num4 }}$ are wearing skirts, and the rest are wearing leggings.
+# {{ params.vars.title }}
+In a classroom with ${{ params.description.num1 }}$ students, ${{ params.description.num2 }}$ students are wearing jeans, ${{ params.description.num3 }}$ are wearing shorts, ${{ params.description.num4 }}$ are wearing skirts, and the rest are wearing leggings.
 
 ## Part 1
 
-If we randomly select ${{ params_description_num5 }}$ students without replacement, what is the probability that one of the selected students is wearing leggings and the other two are wearing jeans? Round to 4 decimal places. Note that these are mutually exclusive clothing options.
+If we randomly select ${{ params.description.num5 }}$ students without replacement, what is the probability that one of the selected students is wearing leggings and the other two are wearing jeans? Round to 4 decimal places. Note that these are mutually exclusive clothing options.
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-$P(^1$leggings, $^2$jeans, $^3$jeans$) = \frac{ {{ params_description_num6 }} }{ {{ params_description_num1 }} } \times \frac{ {{ params_description_num2 }} }{ {{ params_description_total1 }} } \times \frac{ {{ params_description_jeans1 }} }{ {{ params_description_total2 }} } = {{ params_description_prob }}$.
-However, the person with leggings could have come 2nd or 3rd, and these each
-have this same probability, so ${{ params_description_num5 }} \times {{ params_description_prob }} = {{ correct_answers.part1_ans }}$
 
 ## Attribution
 

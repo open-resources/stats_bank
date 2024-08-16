@@ -88,75 +88,101 @@ part9:
     options-placement: bottom
 myst:
   substitutions:
-    params_vars_title: Weight of Heads of Lettuce
-    params_x_bar: 1.9
-    params_sigma: 0.12
-    params_sample_stdev: 0.19
-    params_sample_size: 18
-    params_other_sample_size: 36
-    params_alpha1: 0.01
-    params_confidence1: 99
-    params_z_score1: 2.58
-    params_alpha2: 0.05
-    params_confidence2: 95
-    params_z_score2: 1.96
-    params_part6_confidence: 99
-    params_part6_z_score: 2.58
-    params_part4_option1_value: The mean weight of a head of lettuce.
-    params_part4_option2_value: The mean weight of all heads of lettuce.
-    params_part4_statement1_value: $X$
-    params_part4_statement1_matches: The weight of a head of lettuce.
-    params_part4_statement2_value: $\bar{X}$
-    params_part4_statement2_matches: The mean weight of a sample of 18 heads of lettuce.
-    params_part7_option1_value: $\text{CL} = 98\%$
-    params_part7_option2_value: $\text{CL} = 90\%$
-    params_part7_statement1_value: CI 1
-    params_part7_statement1_matches: $\text{CL} = 99\%$
-    params_part7_statement2_value: CI 2
-    params_part7_statement2_matches: $\text{CL} = 95\%$
-    params_part8_ans1_value: The interval is larger because the level of confidence
-      decreased. If the only change made in the analysis is a change in confidence
-      level, then all we are doing is changing how much area is being calculated for
-      the normal distribution. Therefore, a smaller confidence level results in larger
-      areas and larger intervals.
-    params_part8_ans1_feedback: Please try again!
-    params_part8_ans2_value: The interval is smaller because the level of confidence
-      increased. If the only change made in the analysis is a change in confidence
-      level, then all we are doing is changing how much area is being calculated for
-      the normal distribution. Therefore, a larger confidence level results in smaller
-      areas and smaller intervals.
-    params_part8_ans2_feedback: Please try again!
-    params_part8_ans3_value: The interval is smaller because the level of confidence
-      decreased. If the only change made in the analysis is a change in confidence
-      level, then all we are doing is changing how much area is being calculated for
-      the normal distribution. Therefore, a larger confidence level results in larger
-      areas and larger intervals.
-    params_part8_ans3_feedback: Please try again!
-    params_part8_ans4_value: The interval is greater because the level of confidence
-      increased. If the only change made in the analysis is a change in confidence
-      level, then all we are doing is changing how much area is being calculated for
-      the normal distribution. Therefore, a larger confidence level results in larger
-      areas and larger intervals.
-    params_part8_ans4_feedback: Nice work!
-    params_part9_option1_name: CL-Increase
-    params_part9_option1_value: The confidence level would increase.
-    params_part9_option2_name: CL-Decrease
-    params_part9_option2_value: The confidence level would decrease.
-    params_part9_option3_name: EBM-Increase
-    params_part9_option3_value: The error bound would increase.
-    params_part9_option4_name: EBM-Decrease
-    params_part9_option4_value: The error bound would decrease.
-    params_part9_option5_value: The sample size would increase.
-    params_part9_option6_value: The sample size would decrease.
-    params_part9_statement1_value: What would happen if 36 heads of lettuce were sampled
-      instead of 18, and the error bound remained the same?
-    params_part9_statement1_matches: CL-Increase
-    params_part9_statement2_value: What would happen if 36 heads of lettuce were sampled
-      instead of 18, and the confidence level remained the same?
-    params_part9_statement2_matches: EBM-Decrease
+    params:
+      vars:
+        title: Weight of Heads of Lettuce
+      x_bar: 1.7
+      sigma: 0.24
+      sample_stdev: 0.09
+      sample_size: 26
+      other_sample_size: 52
+      alpha1: 0.01
+      confidence1: 99
+      z_score1: 2.58
+      alpha2: 0.1
+      confidence2: 90
+      z_score2: 1.645
+      part6_confidence: 90
+      part6_z_score: 1.645
+      part4:
+        option1:
+          value: The mean weight of a head of lettuce.
+        option2:
+          value: The mean weight of all heads of lettuce.
+        statement1:
+          value: $X$
+          matches: The weight of a head of lettuce.
+        statement2:
+          value: $\bar{X}$
+          matches: The mean weight of a sample of 26 heads of lettuce.
+      part7:
+        option1:
+          value: $\text{CL} = 95\%$
+        option2:
+          value: $\text{CL} = 98\%$
+        statement1:
+          value: CI 1
+          matches: $\text{CL} = 99\%$
+        statement2:
+          value: CI 2
+          matches: $\text{CL} = 90\%$
+      part8:
+        ans1:
+          value: The interval is larger because the level of confidence decreased.
+            If the only change made in the analysis is a change in confidence level,
+            then all we are doing is changing how much area is being calculated for
+            the normal distribution. Therefore, a smaller confidence level results
+            in larger areas and larger intervals.
+          feedback: Please try again!
+        ans2:
+          value: The interval is smaller because the level of confidence increased.
+            If the only change made in the analysis is a change in confidence level,
+            then all we are doing is changing how much area is being calculated for
+            the normal distribution. Therefore, a larger confidence level results
+            in smaller areas and smaller intervals.
+          feedback: Please try again!
+        ans3:
+          value: The interval is smaller because the level of confidence decreased.
+            If the only change made in the analysis is a change in confidence level,
+            then all we are doing is changing how much area is being calculated for
+            the normal distribution. Therefore, a larger confidence level results
+            in larger areas and larger intervals.
+          feedback: Please try again!
+        ans4:
+          value: The interval is greater because the level of confidence increased.
+            If the only change made in the analysis is a change in confidence level,
+            then all we are doing is changing how much area is being calculated for
+            the normal distribution. Therefore, a larger confidence level results
+            in larger areas and larger intervals.
+          feedback: Nice work!
+      part9:
+        option1:
+          name: CL-Increase
+          value: The confidence level would increase.
+        option2:
+          name: CL-Decrease
+          value: The confidence level would decrease.
+        option3:
+          name: EBM-Increase
+          value: The error bound would increase.
+        option4:
+          name: EBM-Decrease
+          value: The error bound would decrease.
+        option5:
+          value: The sample size would increase.
+        option6:
+          value: The sample size would decrease.
+        statement1:
+          value: What would happen if 52 heads of lettuce were sampled instead of
+            26, and the error bound remained the same?
+          matches: CL-Increase
+        statement2:
+          value: What would happen if 52 heads of lettuce were sampled instead of
+            26, and the confidence level remained the same?
+          matches: EBM-Decrease
 ---
-# {{ params_vars_title }}
-A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params_sigma }} pounds.
+# {{ params.vars.title }}
+A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.
 
 ## Part 1
 
@@ -166,10 +192,6 @@ Identify the sample mean
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\bar{x} = {{ params.x_bar }}$
-
 ## Part 2
 
 Identify the standard deviation
@@ -177,10 +199,6 @@ Identify the standard deviation
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-$\sigma = {{ params_sigma }}$
 
 ## Part 3
 
@@ -190,29 +208,17 @@ Identify the sample size
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$n = {{ params.sample_size }}$
-
 ## Part 4
 
 Match the random variables $X$ and $\bar{X}$ to the right definition
 
 ### Answer Section
 
-### pl-answer-panel
-
-As the sample size increases, there will be less variability in the mean, so the interval size decreases.
-
 ## Part 5
 
 Please define the distribution that should be used. (Ex. $exp(1)$, $N(0,1)$, $B(5, 0.5)$)
 
 ### Answer Section
-
-### pl-answer-panel
-
-$X \sim N({{ params.x_bar }}, \frac{ {{ params_sigma }} }{\sqrt{ {{ params.sample_size }} }})$
 
 ## Part 6
 
@@ -221,10 +227,6 @@ What should the error bound be for the confidence interval with {{ params.part6_
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-{{ correct_answers.part6_ans }}
 
 ## Part 7
 
@@ -236,14 +238,14 @@ Please match the following confidence intervals to their Confidence Level.
 
 ## Part 8
 
-Please select the answer that identifies and explains the what the difference between a {{ params_confidence1 }}% confidence interval and a {{ params_confidence2 }}% confidence interval would be.
+Please select the answer that identifies and explains the what the difference between a {{ params.confidence1 }}% confidence interval and a {{ params.confidence2 }}% confidence interval would be.
 
 ### Answer Section
 
-- {{ params_part8_ans1_value }}
-- {{ params_part8_ans2_value }}
-- {{ params_part8_ans3_value }}
-- {{ params_part8_ans4_value }}
+- {{ params.part8.ans1.value }}
+- {{ params.part8.ans2.value }}
+- {{ params.part8.ans3.value }}
+- {{ params.part8.ans4.value }}
 
 ## Part 9
 

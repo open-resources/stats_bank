@@ -29,29 +29,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: True or false
-    params_vars_question1: Drawing a face card and drawing an ace from a full deck
-      of playing cards are mutually exclusive events.
-    params_vars_question1_ans: True. A card cannot be both a face card and an ace.
-    params_part1_ans1_value: 'True'
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: 'False'
-    params_part1_ans2_feedback: True. A card cannot be both a face card and an ace.
+    params:
+      vars:
+        title: True or false
+        question1: If a die is tossed many times and the last three tosses are all
+          five, then the chance that the next toss will be five is somewhat less than
+          50%.
+        question1_ans: False. These are independent trials.
+      part1:
+        ans1:
+          value: 'True'
+          feedback: False. These are independent trials.
+        ans2:
+          value: 'False'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-{{params_vars_question1}}
+{{params.vars.question1}}
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-
-### pl-answer-panel
-
-{{params_vars_question1_ans}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

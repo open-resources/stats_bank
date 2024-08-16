@@ -69,51 +69,68 @@ part7:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: National Health Plan, Part I
-    params_vars_sample_size: 585
-    params_vars_sample_proportion: 45
-    params_part1_ans1_value: '$H_0: p = 0.45$, $H_A: p ≠ 0.5$'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.45$, $H_A: p = 0.5$'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: p ≤ 0.5$, $H_A: p > 0.5$'
-    params_part1_ans3_feedback: Correct!
-    params_part1_ans4_value: '$H_0: p ≠ 0.5$, $H_A: p = 0.5$'
-    params_part1_ans4_feedback: Try again please!
-    params_part2_ans1_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is also satisfied.
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: Since this is a random sample, independence is satisfied.
-      The success-failure condition is not satisfied.
-    params_part2_ans2_feedback: Try again please!
-    params_part6_ans1_value: Since the p-value is less than 0.05, we reject $H_0$.
-      We have strong evidence that the support is different from 0.5, and since the
-      data provide a point estimate above 0.5, we have strong evidence to support
-      this claim by the TV pundit.
-    params_part6_ans1_feedback: Correct!
-    params_part6_ans2_value: Since the p-value is greater than or equal to 0.05, we
-      fail to reject $H_0$. We do not have strong evidence that the support is different
-      from 0.5, and since the data provide a point estimate above 0.5, we do not have
-      strong evidence to support this claim by the TV pundit.
-    params_part6_ans2_feedback: Try again please!
-    params_part7_ans1_value: Yes. Since 45% of Independents support the plan, the
-      confidence interval is likely to include 0.5 as well, showing a balanced opinion
-      among Independents.
-    params_part7_ans1_feedback: Try again please!
-    params_part7_ans2_value: Maybe. It's difficult to determine without knowing the
-      sample size and margin of error used in the poll.
-    params_part7_ans2_feedback: Try again please!
-    params_part7_ans3_value: No. Generally, we expect a hypothesis test and a confidence
-      interval to align, so we would expect the confidence interval to show a range
-      of plausible values entirely above 0.5. However, if the confidence level is
-      misaligned (e.g., a 99% confidence level and a α = 0.05 significance level),
-      then this is no longer generally true.
-    params_part7_ans3_feedback: Correct!
-    params_part7_ans4_value: No. The percentage of Independents supporting the plan
-      is too low to have any impact on the confidence interval.
-    params_part7_ans4_feedback: Try again please!
+    params:
+      vars:
+        title: National Health Plan, Part I
+        sample_size: 527
+        sample_proportion: 62
+      part1:
+        ans1:
+          value: '$H_0: p = 0.62$, $H_A: p ≠ 0.5$'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: p = 0.62$, $H_A: p = 0.5$'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: p ≤ 0.5$, $H_A: p > 0.5$'
+          feedback: Correct!
+        ans4:
+          value: '$H_0: p ≠ 0.5$, $H_A: p = 0.5$'
+          feedback: Try again please!
+      part2:
+        ans1:
+          value: Since this is a random sample, independence is satisfied. The success-failure
+            condition is also satisfied.
+          feedback: Correct!
+        ans2:
+          value: Since this is a random sample, independence is satisfied. The success-failure
+            condition is not satisfied.
+          feedback: Try again please!
+      part6:
+        ans1:
+          value: Since the p-value is less than 0.05, we reject $H_0$. We have strong
+            evidence that the support is different from 0.5, and since the data provide
+            a point estimate above 0.5, we have strong evidence to support this claim
+            by the TV pundit.
+          feedback: Correct!
+        ans2:
+          value: Since the p-value is greater than or equal to 0.05, we fail to reject
+            $H_0$. We do not have strong evidence that the support is different from
+            0.5, and since the data provide a point estimate above 0.5, we do not
+            have strong evidence to support this claim by the TV pundit.
+          feedback: Try again please!
+      part7:
+        ans1:
+          value: Yes. Since 62% of Independents support the plan, the confidence interval
+            is likely to include 0.5 as well, showing a balanced opinion among Independents.
+          feedback: Try again please!
+        ans2:
+          value: Maybe. It's difficult to determine without knowing the sample size
+            and margin of error used in the poll.
+          feedback: Try again please!
+        ans3:
+          value: No. Generally, we expect a hypothesis test and a confidence interval
+            to align, so we would expect the confidence interval to show a range of
+            plausible values entirely above 0.5. However, if the confidence level
+            is misaligned (e.g., a 99% confidence level and a α = 0.05 significance
+            level), then this is no longer generally true.
+          feedback: Correct!
+        ans4:
+          value: No. The percentage of Independents supporting the plan is too low
+            to have any impact on the confidence interval.
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A Kaiser Family Foundation poll for US adults in 2019 found that 79% of Democrats, {{ params.vars.sample_proportion }}% of Independents, and 24% of Republicans supported a generic "National Health Plan". There were 347 Democrats, 298 Republicans, and {{ params.vars.sample_size }} Independents surveyed. A political pundit on TV claims that a majority of Independents support a National Health Plan. Do these data provide strong evidence to support this type of statement?
 
 ## Part 1: (a)
@@ -122,10 +139,10 @@ Formulate the null and alternative hypothesis.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 1: (b)
 
@@ -133,8 +150,8 @@ Does the success-failure condition hold for the given sample size and proportion
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 1: (c)
 
@@ -166,8 +183,8 @@ Based on the p-value and a significance level of 0.05, state whether you will re
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
 
 ## Part 2
 
@@ -175,10 +192,10 @@ Would you expect a confidence interval for the proportion of Independents who op
 
 ### Answer Section
 
-- {{ params_part7_ans1_value }}
-- {{ params_part7_ans2_value }}
-- {{ params_part7_ans3_value }}
-- {{ params_part7_ans4_value }}
+- {{ params.part7.ans1.value }}
+- {{ params.part7.ans2.value }}
+- {{ params.part7.ans3.value }}
+- {{ params.part7.ans4.value }}
 
 ## Attribution
 

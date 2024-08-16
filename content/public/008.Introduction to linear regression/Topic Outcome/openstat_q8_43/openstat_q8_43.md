@@ -36,22 +36,29 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Match the correlation, Part III
-    params_correlations:
-    - -0.05
-    - -0.69
-    - 0.95
-    - 0.54
-    params_part1_statement1_value: Plot 1
-    params_part1_statement1_matches: $r=-0.05$
-    params_part1_statement2_value: Plot 2
-    params_part1_statement2_matches: $r=-0.69$
-    params_part1_statement3_value: Plot 3
-    params_part1_statement3_matches: $r=0.95$
-    params_part1_statement4_value: Plot 4
-    params_part1_statement4_matches: $r=0.54$
+    params:
+      vars:
+        title: Match the correlation, Part III
+      correlations:
+      - -0.57
+      - 0.98
+      - 0.14
+      - 0.65
+      part1:
+        statement1:
+          value: Plot 1
+          matches: $r=-0.57$
+        statement2:
+          value: Plot 2
+          matches: $r=0.98$
+        statement3:
+          value: Plot 3
+          matches: $r=0.14$
+        statement4:
+          value: Plot 4
+          matches: $r=0.65$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Match each correlation to the corresponding scatterplot.
 
 <!-- <img src="scatter_1.jpg" width=400>

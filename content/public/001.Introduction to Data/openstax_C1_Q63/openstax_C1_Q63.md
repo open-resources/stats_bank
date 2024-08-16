@@ -29,30 +29,36 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: San Jose Park Use
-    params_vars_every: 6
-    params_part1_measurement: Age
-    params_part1_ans1_value: qualitative
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: quantitative discrete
-    params_part1_ans2_feedback: Not quite, it is quantitative, but the this is a continuous
-      measurement, fractional values are valid inside the domain of possible values.
-      Try again!
-    params_part1_ans3_value: quantitative continuous
-    params_part1_ans3_feedback: Great! You got it.
+    params:
+      vars:
+        title: San Jose Park Use
+        every: 10
+      part1:
+        measurement: Duration (amount of time)
+        ans1:
+          value: qualitative
+          feedback: Try again please!
+        ans2:
+          value: quantitative discrete
+          feedback: Not quite, it is quantitative, but the this is a continuous measurement,
+            fractional values are valid inside the domain of possible values. Try
+            again!
+        ans3:
+          value: quantitative continuous
+          feedback: Great! You got it.
 ---
-# {{ params_vars_title }}
-A study was done to determine the occupation, age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every {{ params_vars_every }}$^{th}$ house in the neighborhood around the park was interviewed.
+# {{ params.vars.title }}
+A study was done to determine the occupation, age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every {{ params.vars.every }}$^{th}$ house in the neighborhood around the park was interviewed.
 
 ## Part 1
 
-"{{ params_part1_measurement }}" is what type of data?
+"{{ params.part1.measurement }}" is what type of data?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

@@ -42,23 +42,21 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Identify the critical t
-    params_n: 12
-    params_cl: 95
+    params:
+      vars:
+        title: Identify the critical t
+      n: 17
+      cl: 96
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An independent random sample is selected from an approximately normal population with unknown standard deviation. Find the degrees of freedom and the critical $t$-value (t$^\star$) for the given sample size and confidence level.
-$n = {{ params_n }}$, CL = ${{ params_cl }}$%
+$n = {{ params.n }}$, CL = ${{ params.cl }}$%
 
 ## Part 1
 
 Find the degrees of freedom for the given sample size and confidence level.
 
 ### Answer Section
-
-### pl-answer-panel
-
-$df={{ params_n }}-1$
 
 ## Part 2
 

@@ -52,37 +52,47 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Global warming, Part II
-    params_part3_ans1_value: We are 91% confident that there was an increase of [lower
-      bound] to [upper bound] in the average number of days that hit 90°F in 2018
-      relative to 1948 for NOAA stations.
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: There is a 91% probability that the true average difference
-      in the number of days exceeding 90°F between 1948 and 2018 lies between [lower
-      bound] and [upper bound].
-    params_part3_ans2_feedback: Incorrect! This statement misinterprets the confidence
-      interval as a probability statement about the data rather than about the interval.
-    params_part3_ans3_value: There is a 91% probability that the number of days exceeding
-      90°F will be between [lower bound] and [upper bound] days higher in 2018 compared
-      to 1948 for all locations.
-    params_part3_ans3_feedback: Incorrect! This statement suggests a predictive interpretation
-      of the confidence interval, which is not accurate.
-    params_part3_ans4_value: There is a 91% probability that the observed average
-      difference of days exceeding 90°F between 1948 and 2018 is exactly between [lower
-      bound] and [upper bound] days.
-    params_part3_ans4_feedback: Incorrect! This statement misunderstands the confidence
-      interval as a statement about the probability of the observed data, rather than
-      about the estimation of the population parameter.
-    params_part4_ans1_value: Yes, since the interval lies entirely above 0.
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: No, since the interval is not entirely lying above 0.
-    params_part4_ans2_feedback: Try again please!
-    params_sample_size: 195
-    params_mean_difference: 3.2
-    params_std_deviation: 17.0
-    params_part1_confidence_level: 91
+    params:
+      vars:
+        title: Global warming, Part II
+      part3:
+        ans1:
+          value: We are 93% confident that there was an increase of [lower bound]
+            to [upper bound] in the average number of days that hit 90°F in 2018 relative
+            to 1948 for NOAA stations.
+          feedback: Correct!
+        ans2:
+          value: There is a 93% probability that the true average difference in the
+            number of days exceeding 90°F between 1948 and 2018 lies between [lower
+            bound] and [upper bound].
+          feedback: Incorrect! This statement misinterprets the confidence interval
+            as a probability statement about the data rather than about the interval.
+        ans3:
+          value: There is a 93% probability that the number of days exceeding 90°F
+            will be between [lower bound] and [upper bound] days higher in 2018 compared
+            to 1948 for all locations.
+          feedback: Incorrect! This statement suggests a predictive interpretation
+            of the confidence interval, which is not accurate.
+        ans4:
+          value: There is a 93% probability that the observed average difference of
+            days exceeding 90°F between 1948 and 2018 is exactly between [lower bound]
+            and [upper bound] days.
+          feedback: Incorrect! This statement misunderstands the confidence interval
+            as a statement about the probability of the observed data, rather than
+            about the estimation of the population parameter.
+      part4:
+        ans1:
+          value: Yes, since the interval lies entirely above 0.
+          feedback: Correct!
+        ans2:
+          value: No, since the interval is not entirely lying above 0.
+          feedback: Try again please!
+      sample_size: 192
+      mean_difference: 2.7
+      std_deviation: 16.7
+      part1_confidence_level: 93
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Let's consider a limited set of climate data, examining temperature differences in 1948 vs 2018. We sampled {{ params.sample_size }} locations from the National Oceanic and Atmospheric Administration’s (NOAA) historical data, where the data was available for both years of interest. We considered the change in the number of days exceeding 90°F from 1948 and 2018 at {{ params.sample_size }} randomly sampled locations from the NOAA database. The mean and standard deviation of the reported differences are {{ params.mean_difference }} days and {{ params.std_deviation }} days.
 
 ## Part 1
@@ -107,17 +117,10 @@ Interpret the interval in context.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-answer-panel
-
-We are ${{ params.part1.num1 }}$% confident that there was an
-increase of 0.87 to 4.93 in the average number
-of days that hit 90\textdegree{}F in 2018
-relative to ${{ params.part1.num3 }}$ for NOAA stations
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 4
 
@@ -126,12 +129,8 @@ Does the confidence interval provide convincing evidence that there were more da
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-
-### pl-answer-panel
-
-Yes, since the interval lies entirely above~0
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Attribution
 

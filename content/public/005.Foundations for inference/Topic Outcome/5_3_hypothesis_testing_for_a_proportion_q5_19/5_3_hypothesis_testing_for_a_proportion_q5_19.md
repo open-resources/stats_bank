@@ -38,56 +38,73 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Cyberbullying rates
-    params_part2_num1: 77
-    params_part2_ans1_value: Yes, the claim is supported since 77% is greater than
-      the lower limit of the confidence interval.
-    params_part2_ans1_feedback: Try again please!
-    params_part2_ans2_value: Yes, the claim is supported because the upper limit of
-      the confidence interval is 68%, which is close to 77%.
-    params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: No, the claim is not supported since 77% falls outside
-      the confidence interval.
-    params_part2_ans3_feedback: Correct! The value of 77% lies outside of the interval,
-      so we have convincing evidence that the researcher's conjecture is wrong.
-    params_part2_ans4_value: No, the claim is not supported because the confidence
-      interval is too narrow.
-    params_part2_ans4_feedback: Try again please!
-    params_part3_num1: 90
-    params_part3_ans1_value: Yes, the claim would be supported, as a 90% confidence
-      interval would be wider than a 95% confidence interval.
-    params_part3_ans1_feedback: Try again please!
-    params_part3_ans2_value: Yes, the claim would be supported, as a 90% confidence
-      interval is less strict than a 95% confidence interval.
-    params_part3_ans2_feedback: Try again please!
-    params_part3_ans3_value: No, the claim would not be supported, as a 90% confidence
-      interval would be narrower than a 95% confidence interval.
-    params_part3_ans3_feedback: Correct! A 90% confidence interval will be narrower
-      than a 95% confidence interval. Even without calculating the interval, we can
-      tell that 77% would not fall in the interval, and we would reject the researcher's
-      conjecture based on a 90% confidence level as well.
-    params_part3_ans4_value: It cannot be determined without calculating the 90% confidence
-      interval.
-    params_part3_ans4_feedback: Try again please!
-    params_description_num1: 51
-    params_description_num2: 68
-    params_description_num3: 95
-    params_part1_ans1_value: No, the claim is not supported because the upper limit
-      of the interval is above 60%, which is not a majority.
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: Yes, the claim is supported, but only because the interval
-      is above 51%, not necessarily indicating a majority.
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: Yes, the claim is supported since the entire interval
-      lies above 50%, indicating a majority.
-    params_part1_ans3_feedback: Correct! This claim is reasonable since the entire
-      interval lies above 50%.
-    params_part1_ans4_value: No, the claim is not supported because the interval is
-      wide, implying a high level of uncertainty.
-    params_part1_ans4_feedback: Try again please!
+    params:
+      vars:
+        title: Cyberbullying rates
+      part2:
+        num1: 72
+        ans1:
+          value: Yes, the claim is supported since 72% is greater than the lower limit
+            of the confidence interval.
+          feedback: Try again please!
+        ans2:
+          value: Yes, the claim is supported because the upper limit of the confidence
+            interval is 65%, which is close to 72%.
+          feedback: Try again please!
+        ans3:
+          value: No, the claim is not supported since 72% falls outside the confidence
+            interval.
+          feedback: Correct! The value of 72% lies outside of the interval, so we
+            have convincing evidence that the researcher's conjecture is wrong.
+        ans4:
+          value: No, the claim is not supported because the confidence interval is
+            too narrow.
+          feedback: Try again please!
+      part3:
+        num1: 90
+        ans1:
+          value: Yes, the claim would be supported, as a 90% confidence interval would
+            be wider than a 95% confidence interval.
+          feedback: Try again please!
+        ans2:
+          value: Yes, the claim would be supported, as a 90% confidence interval is
+            less strict than a 95% confidence interval.
+          feedback: Try again please!
+        ans3:
+          value: No, the claim would not be supported, as a 90% confidence interval
+            would be narrower than a 95% confidence interval.
+          feedback: Correct! A 90% confidence interval will be narrower than a 95%
+            confidence interval. Even without calculating the interval, we can tell
+            that 72% would not fall in the interval, and we would reject the researcher's
+            conjecture based on a 90% confidence level as well.
+        ans4:
+          value: It cannot be determined without calculating the 90% confidence interval.
+          feedback: Try again please!
+      description:
+        num1: 59
+        num2: 65
+        num3: 95
+      part1:
+        ans1:
+          value: No, the claim is not supported because the upper limit of the interval
+            is above 60%, which is not a majority.
+          feedback: Try again please!
+        ans2:
+          value: Yes, the claim is supported, but only because the interval is above
+            59%, not necessarily indicating a majority.
+          feedback: Try again please!
+        ans3:
+          value: Yes, the claim is supported since the entire interval lies above
+            50%, indicating a majority.
+          feedback: Correct! This claim is reasonable since the entire interval lies
+            above 50%.
+        ans4:
+          value: No, the claim is not supported because the interval is wide, implying
+            a high level of uncertainty.
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
-Teens were surveyed about cyberbullying, and ${{ params_description_num1 }}$% to ${{ params_description_num2 }}$% reported experiencing cyberbullying (${{ params_description_num3 }}$% confidence interval).
+# {{ params.vars.title }}
+Teens were surveyed about cyberbullying, and ${{ params.description.num1 }}$% to ${{ params.description.num2 }}$% reported experiencing cyberbullying (${{ params.description.num3 }}$% confidence interval).
 
 Answer the following questions based on this interval.
 
@@ -99,40 +116,34 @@ Is this claim supported by the confidence interval? Choose an appropriate reason
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
-A researcher conjectured that ${{ params_part2_num1 }}$% of teens have experienced cyberbullying.
+A researcher conjectured that ${{ params.part2.num1 }}$% of teens have experienced cyberbullying.
 
 Is this claim supported by the confidence interval? Choose an appropriate reason.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-
-### pl-answer-panel
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Part 3
 
-Without actually calculating the interval, determine if the claim of the researcher from part 2 would be supported based on a ${{ params_part3_num1 }}$% confidence interval?
+Without actually calculating the interval, determine if the claim of the researcher from part 2 would be supported based on a ${{ params.part3.num1 }}$% confidence interval?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-answer-panel
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Attribution
 

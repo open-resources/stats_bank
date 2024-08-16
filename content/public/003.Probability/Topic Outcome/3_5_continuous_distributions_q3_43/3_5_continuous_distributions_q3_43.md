@@ -53,15 +53,18 @@ part4:
     label: $SD= \$$
 myst:
   substitutions:
-    params_vars_title: Cost of breakfast
-    params_description_num1: '1.49'
-    params_description_std: '0.23'
-    params_description_num2: '2.70'
-    params_description_num3: '0.17'
+    params:
+      vars:
+        title: Cost of breakfast
+      description:
+        num1: '1.51'
+        std: '0.31'
+        num2: '2.65'
+        num3: '0.18'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <div class="mathjax_ignore">
-Sally gets a cup of coffee and a muffin every day for breakfast from one of the many coffee shops in her neighborhood. She picks a coffee shop each morning at random and independently of previous days. The average price of a cup of coffee is ${{ params_description_num1 }} with a standard deviation of ${{ params_description_std }}, the average price of a muffin is ${{ params_description_num2 }} with a standard deviation of ${{ params_description_num3 }} and the two prices are independent of each other. (Round the following to 2 decimal places)
+Sally gets a cup of coffee and a muffin every day for breakfast from one of the many coffee shops in her neighborhood. She picks a coffee shop each morning at random and independently of previous days. The average price of a cup of coffee is ${{ params.description.num1 }} with a standard deviation of ${{ params.description.std }}, the average price of a muffin is ${{ params.description.num2 }} with a standard deviation of ${{ params.description.num3 }} and the two prices are independent of each other. (Round the following to 2 decimal places)
 </div>
 
 ## Part 1

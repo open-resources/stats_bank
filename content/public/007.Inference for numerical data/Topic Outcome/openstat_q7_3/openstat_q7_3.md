@@ -38,19 +38,24 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Find the p-value, Part I
-    params_n: 9
-    params_T: 1.73
-    params_alpha: 0.05
-    params_part2_ans1_value: do not reject $H_0$
-    params_part2_ans1_feedback: Nice work!
-    params_part2_ans2_value: reject $H_0$
-    params_part2_ans2_feedback: Incorrect, try again!
+    params:
+      vars:
+        title: Find the p-value, Part I
+      n: 11
+      T: 2.1
+      alpha: 0.01
+      part2:
+        ans1:
+          value: do not reject $H_0$
+          feedback: Nice work!
+        ans2:
+          value: reject $H_0$
+          feedback: Incorrect, try again!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An independent random sample is selected from an approximately normal population with an unknown standard deviation.
 
-$n = {{ params_n }}$, T = ${{ params_T }}$
+$n = {{ params.n }}$, T = ${{ params.T }}$
 
 ## Part 1
 
@@ -58,12 +63,12 @@ Find the p-value for the given sample size and test statistic.
 
 ## Part 2
 
-Determine if the null hypothesis would be rejected at $\alpha = {{ params_alpha }}$.
+Determine if the null hypothesis would be rejected at $\alpha = {{ params.alpha }}$.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

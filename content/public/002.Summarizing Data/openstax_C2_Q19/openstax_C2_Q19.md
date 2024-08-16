@@ -50,70 +50,73 @@ part1:
   gradingMethod: External
 myst:
   substitutions:
-    params_vars_title: Depth of Hunger
-    params_vars_color: darkgreen
-    params_vars_color_inst: The color of the frequency polygon should be darkgreen.
-    params_table: |-
-      <table style="width:100%">
-      <tr>
-      <th>Depth of Hunger</th>
-      <th>Frequency</th>
-      </tr><tr>
-      <td>230–259</td>
-      <td>26</td>
-      </tr><tr>
-      <td>260–289</td>
-      <td>10</td>
-      </tr><tr>
-      <td>290–319</td>
-      <td>1</td>
-      </tr><tr>
-      <td>320–349</td>
-      <td>2</td>
-      </tr><tr>
-      <td>350–379</td>
-      <td>0</td>
-      </tr><tr>
-      <td>380–409</td>
-      <td>1</td>
-      </tr><tr>
-      <td>410–439</td>
-      <td>0</td>
-      </tr>
-      </table>
-    params__workspace_files:
-    - name: data.csv
-      contents: |
-        Depth of Hunger,Frequency
-        230–259,26
-        260–289,10
-        290–319,1
-        320–349,2
-        350–379,0
-        380–409,1
-        410–439,0
-    params_autograding_std_plot: std_jov38cwu_plot.png
-    params_autograding_ref_plot: ref_ot8j40ny_plot.png
-    params__images:
-    - label: Your Frequency Polygon
-      filename: std_jov38cwu_plot.png
-      part: Check graph is similar to expected graph
-    - label: Expected Frequency Polygon
-      filename: ref_ot8j40ny_plot.png
-      part: Check graph is similar to expected graph
-    params__autograder_files:
-    - path: /grade/tests/data.csv
-      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSwxCjMyMOKAkzM0OSwyCjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
-    - path: /grade/student/data.csv
-      contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSwxCjMyMOKAkzM0OSwyCjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
+    params:
+      vars:
+        title: Depth of Hunger
+        color: purple
+        color_inst: The color of the frequency polygon should be purple.
+      table: |-
+        <table style="width:100%">
+        <tr>
+        <th>Depth of Hunger</th>
+        <th>Frequency</th>
+        </tr><tr>
+        <td>230–259</td>
+        <td>16</td>
+        </tr><tr>
+        <td>260–289</td>
+        <td>12</td>
+        </tr><tr>
+        <td>290–319</td>
+        <td>8</td>
+        </tr><tr>
+        <td>320–349</td>
+        <td>6</td>
+        </tr><tr>
+        <td>350–379</td>
+        <td>1</td>
+        </tr><tr>
+        <td>380–409</td>
+        <td>2</td>
+        </tr><tr>
+        <td>410–439</td>
+        <td>0</td>
+        </tr>
+        </table>
+      _workspace_files:
+      - name: data.csv
+        contents: |
+          Depth of Hunger,Frequency
+          230–259,16
+          260–289,12
+          290–319,8
+          320–349,6
+          350–379,1
+          380–409,2
+          410–439,0
+      autograding:
+        std_plot: std_lin27g8s_plot.png
+        ref_plot: ref_atvjbhxo_plot.png
+      _images:
+      - label: Your Frequency Polygon
+        filename: std_lin27g8s_plot.png
+        part: Check graph is similar to expected graph
+      - label: Expected Frequency Polygon
+        filename: ref_atvjbhxo_plot.png
+        part: Check graph is similar to expected graph
+      _autograder_files:
+      - path: /grade/tests/data.csv
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTYKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSw4CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwwCg==
+      - path: /grade/student/data.csv
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTYKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSw4CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwwCg==
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
 Construct a frequency polygon from the frequency distribution for the 50 highest ranked countries for depth of hunger.
 
-{{{ params_table }}}
+{{{ params.table }}}
 
 <pl-card title="Instructions">
 
@@ -124,7 +127,7 @@ Please write R code that generates a frequency polygon with the following proper
 - The title of the frequency polygon should be 'Depth of Hunger'.
 - The x-axis label should be 'Depth of Hunger'.
 - The y-axis label should be 'Frequency'.
-- {{ params_vars_color_inst }}
+- {{ params.vars.color_inst }}
 - Do *not* overplot your line graph.
 
 When you are ready to test your code, click the "Grade" button.
@@ -136,10 +139,6 @@ To submit your answer after saving it in RStudio, come back to this page and sel
 *Note: You should not need to use `ggplot2` for this question, and you are not advised to do so, as it may interfere with the autograder.*
 
 </pl-card>
-
-### pl-submission-panel
-
-If you correctly created the plot, but were marked incorrect by the autograder, please contact your TA for manual review of your submission.
 
 ## Attribution
 

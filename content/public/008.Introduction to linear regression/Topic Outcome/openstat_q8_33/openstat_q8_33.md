@@ -82,88 +82,110 @@ part9:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Husbands and wives, Part II
-    params_table: |-
-      <table style="width:550px">
-      <tr>
-      <th></th>
-      <th>Estimate</th>
-      <th>std Error</th>
-      <th>t value</th>
-      <th>Pr(>|t|)</th>
-      </tr><tr>
-      <th>(intercept)</th>
-      <td>$42.0434$</td>
-      <td>$5.5488$</td>
-      <td>$8.8$</td>
-      <td>$0.0$</td>
-      </tr><tr>
-      <th>height_husband</th>
-      <td>$0.2613$</td>
-      <td>$0.0353$</td>
-      <td>$3.41$</td>
-      <td>$0.0008$</td>
-      </tr>
-      </table>
-    params_sample: 166
-    params_slope: 0.2613
-    params_intercept: 42.0434
-    params_intercept_std_error: 5.5488
-    params_slope_std_error: 0.0353
-    params_husband_height1: 69
-    params_correlation: 0.136
-    params_husband_height2: 68
-    params_part1_ans1_value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: '$H_0: \beta_1 = 0;  H_A: \beta_1 > 0$'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: \beta_1 < 0;  H_A: \beta_1 > 0$'
-    params_part1_ans3_feedback: Try again please!
-    params_part2_ans1_value: The data provide convincing evidence that wives' and
-      husbands' heights are positively correlated. The p-value, as reported in the
-      table, is smaller than 0.05, so we reject $H_0$.
-    params_part2_ans2_value: The data does not provide convincing evidence that wives'
-      and husbands' heights are positively correlated. The p-value, as reported in
-      the table, is significant, so we fail to reject $H_0$.
-    params_part2_ans3_value: There is no sufficient information to make a conclusion.
-    params_part2_ans3_feedback: Try again please!
-    params_Part2_ans1_feedback: Correct!
-    params_Part2_ans2_feedback: Try again please!
-    params_part5_ans1_value: 'Slope: For each additional inch in husband''s height,
-      the average wife''s height is expected to be an additional (slope value) inches
-      on average.'
-    params_part5_ans1_feedback: Correct!
-    params_part5_ans2_value: 'Slope: For each additional inch in wife''s height, the
-      average husbands''s height is expected to be an additional (slope value) inches
-      on average.'
-    params_part5_ans2_feedback: Try again please!
-    params_part5_ans3_value: 'Intercept: Men who are 0 inches tall are expected to
-      have wives who are on average, (intercept value) inches tall.'
-    params_part5_ans3_feedback: Correct!
-    params_part5_ans4_value: 'Intercept: Men who are (intercept value) inches tall
-      are expected to have wives who are on average, 0 inches tall.'
-    params_part5_ans4_feedback: Try Again!
-    params_part5_ans5_value: The intercept here is meaningless, and it serves only
-      to adjust the height of the line.
-    params_part5_ans5_feedback: Correct!
-    params_part8_ans1_value: The prediction based on this regression model is very
-      reliable from the given R value.
-    params_part8_ans1_feedback: Incorrect!
-    params_part8_ans2_value: Since $R^2$ is low, the prediction based on this regression
-      model is not very reliable.
-    params_part8_ans2_feedback: Correct!
-    params_part9_ans1_value: 'No'
-    params_part9_ans1_feedback: Incorrect! The husbands' height height within our
-      data range.
-    params_part9_ans2_value: 'Yes'
-    params_part9_ans2_feedback: Correct! The husbands' height height within our data
-      range.
+    params:
+      vars:
+        title: Husbands and wives, Part II
+      table: |-
+        <table style="width:550px">
+        <tr>
+        <th></th>
+        <th>Estimate</th>
+        <th>std Error</th>
+        <th>t value</th>
+        <th>Pr(>|t|)</th>
+        </tr><tr>
+        <th>(intercept)</th>
+        <td>$46.311$</td>
+        <td>$5.5006$</td>
+        <td>$10.3$</td>
+        <td>$0.0$</td>
+        </tr><tr>
+        <th>height_husband</th>
+        <td>$0.2898$</td>
+        <td>$0.0823$</td>
+        <td>$2.79$</td>
+        <td>$0.0058$</td>
+        </tr>
+        </table>
+      sample: 183
+      slope: 0.2898
+      intercept: 46.311
+      intercept_std_error: 5.5006
+      slope_std_error: 0.0823
+      husband_height1: 70
+      correlation: 0.095
+      husband_height2: 49
+      part1:
+        ans1:
+          value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'
+          feedback: Correct!
+        ans2:
+          value: '$H_0: \beta_1 = 0;  H_A: \beta_1 > 0$'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: \beta_1 < 0;  H_A: \beta_1 > 0$'
+          feedback: Try again please!
+      part2:
+        ans1:
+          value: The data provide convincing evidence that wives' and husbands' heights
+            are positively correlated. The p-value, as reported in the table, is smaller
+            than 0.05, so we reject $H_0$.
+        ans2:
+          value: The data does not provide convincing evidence that wives' and husbands'
+            heights are positively correlated. The p-value, as reported in the table,
+            is significant, so we fail to reject $H_0$.
+        ans3:
+          value: There is no sufficient information to make a conclusion.
+          feedback: Try again please!
+      Part2:
+        ans1:
+          feedback: Correct!
+        ans2:
+          feedback: Try again please!
+      part5:
+        ans1:
+          value: 'Slope: For each additional inch in husband''s height, the average
+            wife''s height is expected to be an additional (slope value) inches on
+            average.'
+          feedback: Correct!
+        ans2:
+          value: 'Slope: For each additional inch in wife''s height, the average husbands''s
+            height is expected to be an additional (slope value) inches on average.'
+          feedback: Try again please!
+        ans3:
+          value: 'Intercept: Men who are 0 inches tall are expected to have wives
+            who are on average, (intercept value) inches tall.'
+          feedback: Correct!
+        ans4:
+          value: 'Intercept: Men who are (intercept value) inches tall are expected
+            to have wives who are on average, 0 inches tall.'
+          feedback: Try Again!
+        ans5:
+          value: The intercept here is meaningless, and it serves only to adjust the
+            height of the line.
+          feedback: Correct!
+      part8:
+        ans1:
+          value: The prediction based on this regression model is very reliable from
+            the given R value.
+          feedback: Incorrect!
+        ans2:
+          value: Since $R^2$ is low, the prediction based on this regression model
+            is not very reliable.
+          feedback: Correct!
+      part9:
+        ans1:
+          value: 'Yes'
+          feedback: Incorrect! We should avoid extrapolating.
+        ans2:
+          value: 'No'
+          feedback: Correct! We should avoid extrapolating.
 ---
-# {{ params_vars_title }}
-The scatter plot below summarizes husbands' and wives' heights in a random sample of ${{ params_sample}}$ married couples in Britain, where both partners' ages are below $65$ years. The summary output of the least squares fit for predicting a wife's height from the husband's height is also provided in the table.
+# {{ params.vars.title }}
+The scatter plot below summarizes husbands' and wives' heights in a random sample of ${{ params.sample}}$ married couples in Britain, where both partners' ages are below $65$ years. The summary output of the least squares fit for predicting a wife's height from the husband's height is also provided in the table.
 <pl-figure file-name="figure 1.png" type="dynamic" width="450px"></pl-figure>
 
-{{{ params_table }}}
+{{{ params.table }}}
 
 ## Part 1
 
@@ -171,13 +193,9 @@ Select the hypotheses.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-
-### pl-answer-panel
-
-$H_0$: $\beta_1 = 0$. $H_A$: $\beta_1 \neq 0$.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Part 2
 
@@ -185,16 +203,9 @@ Is there strong evidence that taller men marry taller women?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-
-### pl-answer-panel
-
-The p-value, as reported in the table, is incredibly small
-and is smaller than 0.05, so we reject $H_0$.
-The data provide convincing evidence that wives' and husbands'
-heights are positively correlated
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Part 3
 
@@ -204,8 +215,6 @@ hint: Write the equation of the regression line first.
 
 ### Answer Section
 
-### pl-answer-panel
-
 ## Part 4
 
 What intercept value is used when predicting a wife's height from a husband's height?
@@ -214,38 +223,25 @@ hint: Write the equation of the regression line first.
 
 ### Answer Section
 
-### pl-answer-panel
-
 ## Part 5
 
 Interpret the slope and intercept in the context of the application and select the correct options.
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
-- {{ params_part5_ans5_value }}
-
-### pl-answer-panel
-
-Slope: For each additional inch in husband's height, the average
-wife's height is expected to be an additional ${{ params_slope }}$ inches on
-average. Intercept: Men who are $0$ inches tall are expected to have wives who are, on average, ${{ params_intercept}}$ inches tall. The intercept here is meaningless, and it serves only to adjust the height of the line
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
+- {{ params.part5.ans5.value }}
 
 ## Part 6
 
-Given that $R^2 = {{params_correlation}}$, what is the correlation of heights in this data set?
+Given that $R^2 = {{params.correlation}}$, what is the correlation of heights in this data set?
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-The slope is positive, so $r$ must also be positive.
-$r = \sqrt{{params_correlation}}$
 
 ## Part 7
 
@@ -255,23 +251,14 @@ You meet a married man from Britain who is ${{ params.husband_height1 }}$ inches
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-predicted_wife_height = intercept + slope * husband_height
-
 ## Part 8
 
 How reliable is this prediction?
 
 ### Answer Section
 
-- {{ params_part8_ans1_value }}
-- {{ params_part8_ans2_value }}
-
-### pl-answer-panel
-
-Since $R^2$ is low, the prediction based on this
-regression model is not very reliable
+- {{ params.part8.ans1.value }}
+- {{ params.part8.ans2.value }}
 
 ## Part 9
 
@@ -279,14 +266,8 @@ You meet another married man from Britain who is ${{ params.husband_height2}}$ i
 
 ### Answer Section
 
-- {{ params_part9_ans1_value }}
-- {{ params_part9_ans2_value }}
-
-### pl-answer-panel
-
-if ${{params.husband_height2}}$ >70 or ${{params.husband_height2}}$ \< 50
-No, we should avoid extrapolating
-else: yes, data value is within range
+- {{ params.part9.ans1.value }}
+- {{ params.part9.ans2.value }}
 
 ## Attribution
 

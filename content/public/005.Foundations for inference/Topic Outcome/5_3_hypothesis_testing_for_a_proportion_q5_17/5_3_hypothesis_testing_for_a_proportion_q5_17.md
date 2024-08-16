@@ -30,38 +30,44 @@ part1:
     partial-credit: true
 myst:
   substitutions:
-    params_vars_title: Online communication
-    params_description_sample_size: 160
-    params_description_num2: 0.56
-    params_description_num3: 0.71
-    params_description_num4: 56
-    params_description_num5: 71
-    params_part1_ans1_value: $H_0$ should be $p = 0.56$ (Null hypothesis should state
-      that the population proportion is equal to 0.56.)
-    params_part1_ans1_feedback: Correct! (1) The hypotheses should be about the population
-      proportion ($p$), not the sample proportion. (2) The null hypothesis should
-      have an equal sign. (3) The alternative hypothesis should have a not-equals
-      sign, and, (4) It should reference the null value, $p_0$ = 0.56, not the observed
-      sample proportion.
-    params_part1_ans2_value: ' $H_0: p < 0.71$, $H_A: p > 0.56$ (Your friend''s proposed
-      hypotheses are incorrect as indicated in the solution.)'
-    params_part1_ans2_feedback: ' Try Again! (1) The hypotheses should be about the
-      population proportion ($p$), not the sample proportion. (2) The null hypothesis
-      should have an equal sign. (3) The alternative hypothesis should have a not-equals
-      sign, and, (4) It should reference the null value, $p_0$ = 0.56, not the observed
-      sample proportion.'
+    params:
+      vars:
+        title: Online communication
+      description:
+        sample_size: 150
+        num2: 0.63
+        num3: 0.67
+        num4: 63
+        num5: 67
+      part1:
+        ans1:
+          value: $H_0$ should be $p = 0.63$ (Null hypothesis should state that the
+            population proportion is equal to 0.63.)
+          feedback: Correct! (1) The hypotheses should be about the population proportion
+            ($p$), not the sample proportion. (2) The null hypothesis should have
+            an equal sign. (3) The alternative hypothesis should have a not-equals
+            sign, and, (4) It should reference the null value, $p_0$ = 0.63, not the
+            observed sample proportion.
+        ans2:
+          value: ' $H_0: p < 0.67$, $H_A: p > 0.63$ (Your friend''s proposed hypotheses
+            are incorrect as indicated in the solution.)'
+          feedback: ' Try Again! (1) The hypotheses should be about the population
+            proportion ($p$), not the sample proportion. (2) The null hypothesis should
+            have an equal sign. (3) The alternative hypothesis should have a not-equals
+            sign, and, (4) It should reference the null value, $p_0$ = 0.63, not the
+            observed sample proportion.'
 ---
-# {{ params_vars_title }}
-A study suggests that ${{ params_description_num4 }}$% of college student spend 10 or more hours per week communicating with others online.
+# {{ params.vars.title }}
+A study suggests that ${{ params.description.num4 }}$% of college student spend 10 or more hours per week communicating with others online.
 
 You believe that this is incorrect and decide to collect your own sample for a hypothesis test.
 
-You randomly sample ${{ params.description.sample_size }}$ students from your dorm and find that ${{ params_description_num5 }}$% spent 10 or more hours a week communicating with others online. A friend of yours, who offers to help you with the hypothesis test, comes up with the following set of hypotheses.
+You randomly sample ${{ params.description.sample_size }}$ students from your dorm and find that ${{ params.description.num5 }}$% spent 10 or more hours a week communicating with others online. A friend of yours, who offers to help you with the hypothesis test, comes up with the following set of hypotheses.
 
 $$
 \begin{align\*}
-H_0&: p \< {{ params_description_num2 }} \\
-H_A&: p > {{ params_description_num3 }}
+H_0&: p \< {{ params.description.num2 }} \\
+H_A&: p > {{ params.description.num3 }}
 \end{align\*}
 $$
 
@@ -71,12 +77,10 @@ Identify any errors you see and choose the appropriate answer in the following.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
-
-### pl-answer-panel
 
 ## Attribution
 

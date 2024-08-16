@@ -74,22 +74,30 @@ part6:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Joint and Conditional Probabilities
-    params_num1: 0.5
-    params_num2: 0.6
-    params_num3: 0.2
-    params_part1_ans1_value: 'Yes'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: 'No'
-    params_part1_ans2_feedback: Correct!
-    params_part5_ans1_value: 'Yes'
-    params_part5_ans1_feedback: Try again please!
-    params_part5_ans2_value: 'No'
-    params_part5_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Joint and Conditional Probabilities
+      num1: 0.5
+      num2: 0.6
+      num3: 0.2
+      part1:
+        ans1:
+          value: 'Yes'
+          feedback: Try again please!
+        ans2:
+          value: 'No'
+          feedback: Correct!
+      part5:
+        ans1:
+          value: 'Yes'
+          feedback: Try again please!
+        ans2:
+          value: 'No'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
-$P(A) = {{ params_num1 }}$
-$P(B) = {{ params_num2 }}$
+# {{ params.vars.title }}
+$P(A) = {{ params.num1 }}$
+$P(B) = {{ params.num2 }}$
 
 ## Part 1
 
@@ -97,12 +105,8 @@ Can you compute $P(A \cap B)$ if you only know $P(A)$ and $P(B)$?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-
-### pl-answer-panel
-
-No, but we could if A and B are independent.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -116,10 +120,6 @@ Please enter a numeric value between 0 and 1.
 
 Please enter a value between 0 and 1.
 
-### pl-answer-panel
-
-P2 $=$ {{ correct_answers.part2_ans }}
-
 ## Part 3
 
 Assuming that events $A$ and $B$ arise from independent random processes, what is $P(A \cup B)$?
@@ -127,10 +127,6 @@ Assuming that events $A$ and $B$ arise from independent random processes, what i
 ### Answer Section
 
 Please enter a value between 0 and 1.
-
-### pl-answer-panel
-
-P3 $=$ {{ correct_answers.part3_ans }}
 
 ## Part 4
 
@@ -140,34 +136,22 @@ Assuming that events $A$ and $B$ arise from independent random processes, what i
 
 Please enter a value between 0 and 1.
 
-### pl-answer-panel
-
-P4 $=$ {{ correct_answers.part4_ans }}
-
 ## Part 5
 
-If we are given that $P(A \cap B) = {{ params_num3 }}$, are the random variables giving rise to events $A$ and $B$ independent?
+If we are given that $P(A \cap B) = {{ params.num3 }}$, are the random variables giving rise to events $A$ and $B$ independent?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-
-### pl-answer-panel
-
-No, because ${{ params_num3 }}$ $\ne$ {{ correct_answers.part2_ans }}, where {{ correct_answers.part2_ans }} was the value computed under independence from part 2.
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Part 6
 
-If we are given that $P(A \cap B)$ = ${{ params_num3 }}$, what is $P(A|B)$?
+If we are given that $P(A \cap B)$ = ${{ params.num3 }}$, what is $P(A|B)$?
 
 ### Answer Section
 
 Please enter a value between 0 and 1.
-
-### pl-answer-panel
-
-P6 $=$ {{ correct_answers.part6_ans }}
 
 ## Attribution
 

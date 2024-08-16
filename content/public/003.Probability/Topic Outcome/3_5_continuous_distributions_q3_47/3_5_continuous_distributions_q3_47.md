@@ -33,14 +33,18 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Variance of a mean
-    params_description_text: Suppose we have independent observations $X_1$ and $X_2$
-      from a distribution with mean $\mu$ and standard deviation $\sigma$.
-    params_part1_question: 'What is the variance of the mean of the two values: $\frac{X_1
-      + X_2}{2}$?'
+    params:
+      vars:
+        title: Variance of a mean
+      description:
+        text: Suppose we have $n$ independent observations $X_1$, $X_2$, ..., $X_n$
+          from a distribution with mean $\mu$ and standard deviation $\sigma$.
+      part1:
+        question: 'What is the variance of the mean of these $n$ values: $\frac{X_1
+          + X_2 + \dots + X_n}{n}$?'
 ---
-# {{ params_vars_title }}
-{{ params_description_text }}
+# {{ params.vars.title }}
+{{ params.description.text }}
 
 | For  | Use   |
 |----------|-------|

@@ -41,34 +41,47 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Paired or not? Part I
-    params_selected_scenario_part1: Compare pre-test (beginning of semester) and post-test
-      (end of semester) scores of students.
-    params_part1_ans1_value: Paired.
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: Not paired.
-    params_part1_ans2_feedback: Incorrect!
-    params_selected_scenario_part2: Investigate the impact of education on earnings
-      by comparing the salaries of individuals with high school diplomas and college
-      degrees.
-    params_part2_ans1_value: Paired.
-    params_part2_ans1_feedback: Incorrect!
-    params_part2_ans2_value: Not paired.
-    params_part2_ans2_feedback: Correct!
-    params_selected_scenario_part3: Compare literacy levels at the start and end of
-      a year-long reading program for the same group of participants.
-    params_part3_ans1_value: Paired.
-    params_part3_ans1_feedback: Correct!
-    params_part3_ans2_value: Not paired.
-    params_part3_ans2_feedback: Incorrect!
-    params_selected_scenario_part4: Evaluate the effects of a meditation program on
-      stress levels by comparing measurements before and after the program duration.
-    params_part4_ans1_value: Paired.
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: Not paired.
-    params_part4_ans2_feedback: Incorrect!
+    params:
+      vars:
+        title: Paired or not? Part I
+      selected_scenario_part1: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
+      part1:
+        ans1:
+          value: Paired.
+          feedback: Correct!
+        ans2:
+          value: Not paired.
+          feedback: Incorrect!
+      selected_scenario_part2: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
+      part2:
+        ans1:
+          value: Paired.
+          feedback: Correct!
+        ans2:
+          value: Not paired.
+          feedback: Incorrect!
+      selected_scenario_part3: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
+      part3:
+        ans1:
+          value: Paired.
+          feedback: Correct!
+        ans2:
+          value: Not paired.
+          feedback: Incorrect!
+      selected_scenario_part4: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
+      part4:
+        ans1:
+          value: Paired.
+          feedback: Correct!
+        ans2:
+          value: Not paired.
+          feedback: Incorrect!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.
 
 ## Part 1
@@ -77,8 +90,8 @@ In each of the following scenarios, determine if the data are paired.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -86,8 +99,8 @@ In each of the following scenarios, determine if the data are paired.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
@@ -95,8 +108,8 @@ In each of the following scenarios, determine if the data are paired.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
@@ -104,8 +117,8 @@ In each of the following scenarios, determine if the data are paired.
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Attribution
 

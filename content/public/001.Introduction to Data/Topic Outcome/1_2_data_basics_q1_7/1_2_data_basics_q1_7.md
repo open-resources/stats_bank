@@ -37,17 +37,25 @@ part2:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Migraine and acupuncture, Part II
-    params_part1_ans1_value: Acupuncture or not
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: If the patient was pain free or not
-    params_part1_ans2_feedback: Incorrect!
-    params_part2_ans1_value: Acupuncture or not
-    params_part2_ans1_feedback: Incorrect!
-    params_part2_ans2_value: If the patient was pain free or not
-    params_part2_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Migraine and acupuncture, Part II
+      part1:
+        ans1:
+          value: Acupuncture or not
+          feedback: Correct!
+        ans2:
+          value: If the patient was pain free or not
+          feedback: Incorrect!
+      part2:
+        ans1:
+          value: Acupuncture or not
+          feedback: Incorrect!
+        ans2:
+          value: If the patient was pain free or not
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 In a study exploring whether acupuncture had any effect on migraines, researchers conducted a randomized controlled study where patients were randomly assigned to one of two groups: treatment or control. The patients in the treatment group received acupuncture that was specifically designed to treat migraines. The patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). 24 hours after patients received acupuncture, they were asked if they were pain free.
 
 ## Part 1
@@ -58,8 +66,8 @@ What are the explanatory variables in this study?
 
 Select all that apply
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -69,8 +77,8 @@ What are the response variables in this study?
 
 Select all that apply
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

@@ -63,25 +63,33 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Hearts win
-    params_part3_num1: 7
-    params_part4_num1: 7
-    params_part5_num1: 7
-    params_part5_ans1_value: 'Yes'
-    params_part5_ans1_feedback: Incorrect! The expected net profit is negative, so
-      on average you expect to lose money.
-    params_part5_ans2_value: 'No'
-    params_part5_ans2_feedback: Correct! The expected net profit is negative, so on
-      average you expect to lose money.
-    params_description_num1: 4
-    params_description_num2: 4
-    params_description_num3: 48
-    params_description_num4: 4
-    params_description_num5: 27
+    params:
+      vars:
+        title: Hearts win
+      part3:
+        num1: 10
+      part4:
+        num1: 10
+      part5:
+        num1: 10
+        ans1:
+          value: 'Yes'
+          feedback: Incorrect! The expected net profit is negative, so on average
+            you expect to lose money.
+        ans2:
+          value: 'No'
+          feedback: Correct! The expected net profit is negative, so on average you
+            expect to lose money.
+      description:
+        num1: 3
+        num2: 3
+        num3: 50
+        num4: 3
+        num5: 23
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <div class="mathjax_ignore">
-In a new card game, you start with a well-shuffled full deck and draw {{ params_description_num1 }} cards without replacement. If you draw {{ params_description_num2 }} hearts, you win ${{ params_description_num3 }}. If you draw {{ params_description_num4 }} black cards, you win ${{ params_description_num5 }}. For any other draws, you win nothing.
+In a new card game, you start with a well-shuffled full deck and draw {{ params.description.num1 }} cards without replacement. If you draw {{ params.description.num2 }} hearts, you win ${{ params.description.num3 }}. If you draw {{ params.description.num4 }} black cards, you win ${{ params.description.num5 }}. For any other draws, you win nothing.
 </div>
 
 ## Part 1
@@ -92,10 +100,6 @@ Create a probability model for the amount you win at this game, and find the exp
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-E(X) = {{ correct_answers.part1_ans }}
-
 ## Part 2
 
 Also compute the standard deviation of this distribution.
@@ -104,42 +108,30 @@ Also compute the standard deviation of this distribution.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-SD(X) = {{ correct_answers.part2_ans }}
-
 ## Part 3
 
-If the game costs ${{ params_part3_num1 }} to play, what would be the expected value of the net profit (or loss)?
+If the game costs ${{ params.part3.num1 }} to play, what would be the expected value of the net profit (or loss)?
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-E(X) = {{ correct_answers.part3_ans }}
 
 ## Part 4
 
-If the game costs ${{ params_part4_num1 }} to play, what would be the standard deviation of the net profit (or loss)? (hint: profit = winnings - cost)
+If the game costs ${{ params.part4.num1 }} to play, what would be the standard deviation of the net profit (or loss)? (hint: profit = winnings - cost)
 
 ### Answer Section
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-SD(X) = {{ correct_answers.part4_ans }}
-
 ## Part 5
 
-If the game costs ${{ params_part5_num1 }} to play, should you play this game?
+If the game costs ${{ params.part5.num1 }} to play, should you play this game?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Attribution
 

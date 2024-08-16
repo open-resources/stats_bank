@@ -42,18 +42,40 @@ part2:
     label: $s= $
 myst:
   substitutions:
-    params_vars_title: Working backwards, Part I
-    params_description_confidence_level: 99
-    params_description_lower: 20.503
-    params_description_upper: 22.063
-    params_description_sample_size: 39
-    params_description_mean: 21.283
-    params_description_moe: 0.7799999999999994
-    params_description_t_crit: 2.7115576019130625
-    params_description_s: 1.7964207860877015
+    params:
+      vars:
+        title: Working backwards, Part I
+      description:
+        confidence_level: 95
+        lower: 20.525
+        upper: 21.556
+        sample_size: 37
+        mean: 21.0405
+        moe: 0.5155000000000012
+        t_crit: !!python/object/apply:numpy.core.multiarray.scalar
+        - &id001 !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          C2b7WIk5AEA=
+        s: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          HHLezeG8+D8=
 ---
-# {{ params_vars_title }}
-A ${{ params.description.confidence_level }}$% confidence interval for a population mean, $\mu$, is given as (${{ params_description_lower }}$, ${{ params_description_upper }}$). This confidence interval is based on a simple random sample of ${{ params_description_sample_size }}$ observations. Assume that all conditions necessary for inference are satisfied. Use the $t$-distribution in any calculations.
+# {{ params.vars.title }}
+A ${{ params.description.confidence_level }}$% confidence interval for a population mean, $\mu$, is given as (${{ params.description.lower }}$, ${{ params.description.upper }}$). This confidence interval is based on a simple random sample of ${{ params.description.sample_size }}$ observations. Assume that all conditions necessary for inference are satisfied. Use the $t$-distribution in any calculations.
 
 ## Part 1
 
@@ -70,11 +92,6 @@ Calculate the sample standard deviation.
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-The mean is the midpoint: $\bar{x} = {{ params_description_mean}}$. Identify the margin of error:
-$ME =  {{ params_description_moe}}$, then use $t^{\star}\_{35} = {{params.description.t_crit}}$ and $s = {{ params_description_s}}$.
 
 ## Attribution
 

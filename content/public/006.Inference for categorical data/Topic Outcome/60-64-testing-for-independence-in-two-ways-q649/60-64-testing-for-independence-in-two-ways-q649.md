@@ -70,46 +70,75 @@ part7:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Browsing on the mobile device.
-    params_vars_chinese_proportion: 0.38
-    params_vars_sample_size: 2428
-    params_vars_sample_proportion: 16.0
-    params_vars_Z: -22.333633190259928
-    params_vars_p_value: 1.741757192886e-110
-    params_vars_lower_bound: 0.1454175208377554
-    params_vars_upper_bound: 0.17458247916224462
-    params_part1_ans1_value: '$H_0: p = 0.16$, $H_A: p ≠ 0.38$'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p = 0.16$, $H_A: p = 0.38$'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
-    params_part1_ans3_feedback: Correct!
-    params_part1_ans4_value: '$H_0: p ≠ 0.38$, $H_A: p = 0.38$'
-    params_part1_ans4_feedback: Try again please!
-    params_part4_ans1_value: As the p-value is less than 0.05, we reject $H_0$, then
-      the data provide strong evidence that the proportion of Americans who only use
-      their cell phones to access the internet is different than the Chinese proportion
-      of 38%, and the data indicate that the proportion is lower in the US.
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: As the p-value is greater than 0.05, we fail to reject
-      $H_0$, then the data does not provide strong evidence to show that the proportion
-      of Americans who only use their cell phones to access the internet is different
-      than the Chinese proportion of 38%.
-    params_part4_ans2_feedback: Try again please!
-    params_part7_ans1_value: We are 95% confident that approximately [Lower bound]
-      to [Upper bound] of all Americans primarily use their cell phones to browse
-      the internet.
-    params_part7_ans1_feedback: Correct!
-    params_part7_ans2_value: We are 90% confident that [Lower bound] to [Upper bound]
-      of all Americans primarily use their cell phones to browse the internet, but
-      this range could also be 10% to 30%.
-    params_part7_ans2_feedback: Try again please!
-    params_part7_ans3_value: We are 99% confident that [Lower bound] to [Upper bound]
-      of all Americans always use their cell phones to browse the internet, with no
-      variability.
-    params_part7_ans3_feedback: Try again please!
+    params:
+      vars:
+        title: Browsing on the mobile device.
+        chinese_proportion: 0.38
+        sample_size: 3558
+        sample_proportion: 10.0
+        Z: -34.40910370319235
+        p_value: !!python/object/apply:numpy.core.multiarray.scalar
+        - !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          K8eZxEWrNgo=
+        lower_bound: 0.090142328211692
+        upper_bound: 0.109857671788308
+      part1:
+        ans1:
+          value: '$H_0: p = 0.1$, $H_A: p ≠ 0.38$'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: p = 0.1$, $H_A: p = 0.38$'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
+          feedback: Correct!
+        ans4:
+          value: '$H_0: p ≠ 0.38$, $H_A: p = 0.38$'
+          feedback: Try again please!
+      part4:
+        ans1:
+          value: As the p-value is less than 0.05, we reject $H_0$, then the data
+            provide strong evidence that the proportion of Americans who only use
+            their cell phones to access the internet is different than the Chinese
+            proportion of 38%, and the data indicate that the proportion is lower
+            in the US.
+          feedback: Correct!
+        ans2:
+          value: As the p-value is greater than 0.05, we fail to reject $H_0$, then
+            the data does not provide strong evidence to show that the proportion
+            of Americans who only use their cell phones to access the internet is
+            different than the Chinese proportion of 38%.
+          feedback: Try again please!
+      part7:
+        ans1:
+          value: We are 95% confident that approximately [Lower bound] to [Upper bound]
+            of all Americans primarily use their cell phones to browse the internet.
+          feedback: Correct!
+        ans2:
+          value: We are 90% confident that [Lower bound] to [Upper bound] of all Americans
+            primarily use their cell phones to browse the internet, but this range
+            could also be 10% to 30%.
+          feedback: Try again please!
+        ans3:
+          value: We are 99% confident that [Lower bound] to [Upper bound] of all Americans
+            always use their cell phones to browse the internet, with no variability.
+          feedback: Try again please!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A survey of {{ params.vars.sample_size }} American adults indicates that {{ params.vars.sample_proportion }}% of cell phone owners browse the internet exclusively on their phone rather than a computer or other device. According to an online article, a report from a mobile research company indicates that 38% of Chinese mobile web users only access the internet through their cell phones. Conduct a hypothesis test to determine if these data provide strong evidence that the proportion of Americans who only use their cell phones to access the internet is different than the Chinese proportion of 38%.
 
 ## Part 1: (a)
@@ -118,10 +147,10 @@ Formulate the null and alternative hypothesis.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 1: (b)
 
@@ -145,8 +174,8 @@ Based on the p-value and a significance level of 0.05, state whether you will re
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Part 2: (a)
 
@@ -170,9 +199,9 @@ Interpret the interval in this context.
 
 ### Answer Section
 
-- {{ params_part7_ans1_value }}
-- {{ params_part7_ans2_value }}
-- {{ params_part7_ans3_value }}
+- {{ params.part7.ans1.value }}
+- {{ params.part7.ans2.value }}
+- {{ params.part7.ans3.value }}
 
 ## Attribution
 

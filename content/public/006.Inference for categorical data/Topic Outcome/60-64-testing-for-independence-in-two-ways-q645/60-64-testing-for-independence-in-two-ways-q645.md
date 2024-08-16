@@ -87,80 +87,106 @@ part10:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Life after college
-    params_vars_ci_low_part4: 0.8452256915875535
-    params_vars_ci_high_part4: 0.9070678863940979
-    params_vars_ci_low_part4_percent: 85
-    params_vars_ci_high_part4_percent: 91
-    params_vars_ci_low_part8: 0.8355076324036679
-    params_vars_ci_high_part8: 0.9167859455779834
-    params_part1_ans1_value: Proportion of graduates from this university who found
-      a job within one month of graduating.
-    params_part1_ans1_feedback: Incorrect.
-    params_part1_ans2_value: Average GPA of graduates from this university within
-      one year of graduating.
-    params_part1_ans2_feedback: Incorrect.
-    params_part1_ans3_value: Total number of faculty members at this university.
-    params_part1_ans3_feedback: Incorrect.
-    params_part1_ans4_value: Proportion of graduates from this university who found
-      a job within one year of graduating.
-    params_part1_ans4_feedback: Correct!
-    params_description_num1: 382
-    params_description_num2: 436
-    params_description_num3: 4670
-    params_part3_ans1_value: This is not a random sample, so the observations are
-      not independent.
-    params_part3_ans1_feedback: Incorrect.
-    params_part3_ans2_value: 'The success-failure condition is not satisfied: 382
-      successes, 54 failures, both below 10.'
-    params_part3_ans2_feedback: Incorrect.
-    params_part3_ans3_value: 'The success-failure condition is satisfied: 382 successes,
-      54 failures, both well above 10.'
-    params_part3_ans3_feedback: Correct!
-    params_part3_ans4_value: This is a random sample, so the observations are independent.
-    params_part3_ans4_feedback: Correct!
-    params_num_part4_num1: 95.0
-    params_part6_ans1_value: We are $95$% confident that only [lower bound]% to [upper
-      bound]% of graduates from this university were employed within six months of
-      finishing their undergraduate degree.
-    params_part6_ans1_feedback: Incorrect.
-    params_part6_ans2_value: We are $95$% confident that nearly [lower bound]% to
-      [upper bound]% of graduates from this university didn't manage to find a job
-      within one year of completing their undergraduate degree.
-    params_part6_ans2_feedback: Incorrect.
-    params_part6_ans3_value: We are $95$% confident that about [lower bound]% to [upper
-      bound]% of graduates from this university secured employment within five years
-      of completing their undergraduate degree.
-    params_part6_ans3_feedback: Incorrect.
-    params_part6_ans4_value: We are $95%$% confident that approximately [lower bound]%
-      to [upper bound]% of graduates from this university found a job within one year
-      of completing their undergraduate degree.
-    params_part6_ans4_feedback: Correct!
-    params_part7_ans1_value: 95% confidence means that if we repeated this survey
-      100 times, 95 of the results would fall within this interval.
-    params_part7_ans1_feedback: Incorrect.
-    params_part7_ans2_value: 95% confidence means that 95% of the graduates found
-      jobs within one year of completing their undergraduate degree.
-    params_part7_ans2_feedback: Incorrect.
-    params_part7_ans3_value: 95% confidence means that the survey was conducted with
-      95% accuracy.
-    params_part7_ans3_feedback: Incorrect.
-    params_part7_ans4_value: 95% of such random samples would produce a 95% confidence
-      interval that includes the true proportion of students at this university who
-      found a job within one year of graduating from college.
-    params_part7_ans4_feedback: Correct!
-    params_part8_num1: 99.0
-    params_part10_ans1_value: same width
-    params_part10_ans1_feedback: Incorrect.
-    params_part10_ans3_value: narrower
-    params_part10_ans3_feedback: Incorrect.
-    params_part10_ans4_value: wider
-    params_part10_ans4_feedback: Correct! 99% CI is wider, as we are more confident
-      that the true proportion is within the interval and so need to cover a wider
-      range
+    params:
+      vars:
+        title: Life after college
+        ci_low_part4: 0.87072311639566
+        ci_high_part4: 0.9340106114149908
+        ci_low_part4_percent: 87
+        ci_high_part4_percent: 93
+        ci_low_part8: 0.860777938606908
+        ci_high_part8: 0.9439557892037428
+      part1:
+        ans1:
+          value: Proportion of graduates from this university who found a job within
+            one month of graduating.
+          feedback: Incorrect.
+        ans2:
+          value: Average GPA of graduates from this university within one year of
+            graduating.
+          feedback: Incorrect.
+        ans3:
+          value: Total number of faculty members at this university.
+          feedback: Incorrect.
+        ans4:
+          value: Proportion of graduates from this university who found a job within
+            one year of graduating.
+          feedback: Correct!
+      description:
+        num1: 305
+        num2: 338
+        num3: 4618
+      part3:
+        ans1:
+          value: This is not a random sample, so the observations are not independent.
+          feedback: Incorrect.
+        ans2:
+          value: 'The success-failure condition is not satisfied: 305 successes, 33
+            failures, both below 10.'
+          feedback: Incorrect.
+        ans3:
+          value: 'The success-failure condition is satisfied: 305 successes, 33 failures,
+            both well above 10.'
+          feedback: Correct!
+        ans4:
+          value: This is a random sample, so the observations are independent.
+          feedback: Correct!
+      num_part4:
+        num1: 95.0
+      part6:
+        ans1:
+          value: We are $95$% confident that only [lower bound]% to [upper bound]%
+            of graduates from this university were employed within six months of finishing
+            their undergraduate degree.
+          feedback: Incorrect.
+        ans2:
+          value: We are $95$% confident that nearly [lower bound]% to [upper bound]%
+            of graduates from this university didn't manage to find a job within one
+            year of completing their undergraduate degree.
+          feedback: Incorrect.
+        ans3:
+          value: We are $95$% confident that about [lower bound]% to [upper bound]%
+            of graduates from this university secured employment within five years
+            of completing their undergraduate degree.
+          feedback: Incorrect.
+        ans4:
+          value: We are $95%$% confident that approximately [lower bound]% to [upper
+            bound]% of graduates from this university found a job within one year
+            of completing their undergraduate degree.
+          feedback: Correct!
+      part7:
+        ans1:
+          value: 95% confidence means that if we repeated this survey 100 times, 95
+            of the results would fall within this interval.
+          feedback: Incorrect.
+        ans2:
+          value: 95% confidence means that 95% of the graduates found jobs within
+            one year of completing their undergraduate degree.
+          feedback: Incorrect.
+        ans3:
+          value: 95% confidence means that the survey was conducted with 95% accuracy.
+          feedback: Incorrect.
+        ans4:
+          value: 95% of such random samples would produce a 95% confidence interval
+            that includes the true proportion of students at this university who found
+            a job within one year of graduating from college.
+          feedback: Correct!
+      part8:
+        num1: 99.0
+      part10:
+        ans1:
+          value: same width
+          feedback: Incorrect.
+        ans3:
+          value: narrower
+          feedback: Incorrect.
+        ans4:
+          value: wider
+          feedback: Correct! 99% CI is wider, as we are more confident that the true
+            proportion is within the interval and so need to cover a wider range
 ---
-# {{ params_vars_title }}
-We are interested in estimating the proportion of graduates at a mid-sized university who found a job within one year of completing their undergraduate degree. Suppose we conduct a survey and find out that ${{ params_description_num1 }}$ of the ${{ params_description_num2 }}$ randomly sampled graduates found jobs. The graduating class under consideration included over ${{ params_description_num3 }}$ students.
+# {{ params.vars.title }}
+We are interested in estimating the proportion of graduates at a mid-sized university who found a job within one year of completing their undergraduate degree. Suppose we conduct a survey and find out that ${{ params.description.num1 }}$ of the ${{ params.description.num2 }}$ randomly sampled graduates found jobs. The graduating class under consideration included over ${{ params.description.num3 }}$ students.
 
 ## Part 1: (a)
 
@@ -168,10 +194,10 @@ Select the population parameter of interest.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 1: (b)
 
@@ -181,20 +207,16 @@ What is the value of the point estimate of this parameter?
 
 Please enter in a numeric value
 
-### pl-answer-panel
-
-Proportion of graduates from this university who found a job within one year of graduating. $\hat{p} = \frac{ {{ params_description_num1 }} }{ {{ params_description_num2 }} } = {{ params.correct_answers.part2_ans }}$
-
 ## Part 2
 
 Check if the conditions for constructing a confidence interval based on these data are met.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 3: (a)
 
@@ -218,14 +240,10 @@ In one sentence interpret this interval in context.
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
-- {{ params_part6_ans4_value }}
-
-### pl-answer-panel
-
-Part 3: ({{ params.vars.ci_low_part4 }}, {{ params.vars.ci_high_part4 }}). We are ${{ params.num_part4.num1 }}$% confident that approximately {{ params.vars.ci_low_part4_percent }}% to {{ params.vars.ci_high_part4_percent }}% of graduates from this university found a job within one year of completing their undergraduate degree.
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
+- {{ params.part6.ans4.value }}
 
 ## Part 4
 
@@ -233,14 +251,14 @@ What does "95% confidence" mean?
 
 ### Answer Section
 
-- {{ params_part7_ans1_value }}
-- {{ params_part7_ans2_value }}
-- {{ params_part7_ans3_value }}
-- {{ params_part7_ans4_value }}
+- {{ params.part7.ans1.value }}
+- {{ params.part7.ans2.value }}
+- {{ params.part7.ans3.value }}
+- {{ params.part7.ans4.value }}
 
 ## Part 5: (a)
 
-Calculate the lower bound of the ${{ params_part8_num1 }}$% confidence interval for the same parameter.
+Calculate the lower bound of the ${{ params.part8.num1 }}$% confidence interval for the same parameter.
 
 ### Answer Section
 
@@ -248,7 +266,7 @@ Please enter in a numeric value in.
 
 ## Part 5: (b)
 
-Calculate the upper bound of the ${{ params_part8_num1 }}$% confidence interval for the same parameter.
+Calculate the upper bound of the ${{ params.part8.num1 }}$% confidence interval for the same parameter.
 
 ### Answer Section
 

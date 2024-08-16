@@ -41,100 +41,114 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Identify hypotheses, Part I
-    params_part1_num1: 191
-    params_part1_ans1_value: '$ H_0: p < 0.5 $ A minority of students'' grades improved.'
-    params_part1_ans1_feedback: Try again please!
-    params_part1_ans2_value: '$H_0: p > 0.5$ A majority of students'' grades improved.'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: p \neq 0.5$ Either a majority or minority of students''
-      grades improved.'
-    params_part1_ans3_feedback: Try again please!
-    params_part1_ans4_value: '$H_0: p = 0.5$ Neither a majority nor minority of students''
-      grades improved.'
-    params_part1_ans4_feedback: Correct!
-    params_part2_num1: 17
-    params_part2_ans1_value: '$H_A: p = 0.5$ Neither a majority nor minority of students''
-      grades improved.'
-    params_part2_ans1_feedback: Try again please!
-    params_part2_ans2_value: '$H_A: p > 0.5$ A majority of students'' grades improved.'
-    params_part2_ans2_feedback: Try again please!
-    params_part2_ans3_value: '$H_A: p < 0.5$ A minority of students'' grades improved.'
-    params_part2_ans3_feedback: Try again please!
-    params_part2_ans4_value: '$H_A: p \neq 0.5$ Either a majority or a minority of
-      students'' grades improved.'
-    params_part2_ans4_feedback: Correct!
-    params_part3_ans1_value: '$H_0: \mu \neq 17$ The average amount of company time
-      each employee spends not working is different during March Madness.'
-    params_part3_ans1_feedback: Try again please!
-    params_part3_ans2_value: '$H_0: \mu > 17$ The average amount of company time each
-      employee spends not working is more during March Madness.'
-    params_part3_ans2_feedback: Try again please!
-    params_part3_ans3_value: '$H_0: \mu < 17$ The average amount of company time each
-      employee spends not working is less during March Madness.'
-    params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: '$H_0: \mu = 17$ The average amount of company time each
-      employee spends not working is the same during March Madness.'
-    params_part3_ans4_feedback: Correct!
-    params_part4_ans1_value: '$H_A: \mu = 17$ The average amount of company time each
-      employee spends not working is the same during March Madness.'
-    params_part4_ans1_feedback: Try again please!
-    params_part4_ans2_value: '$H_A: \mu > 17$ The average amount of company time each
-      employee spends not working is more during March Madness.'
-    params_part4_ans2_feedback: Try again please!
-    params_part4_ans3_value: '$H_A: \mu < 17$ The average amount of company time each
-      employee spends not working is less during March Madness.'
-    params_part4_ans3_feedback: Try again please!
-    params_part4_ans4_value: '$H_A: \mu \neq 17$ The average amount of company time
-      each employee spends not working is different during March Madness.'
-    params_part4_ans4_feedback: Correct!
+    params:
+      vars:
+        title: Identify hypotheses, Part I
+      part1:
+        num1: 183
+        ans1:
+          value: '$ H_0: p < 0.5 $ A minority of students'' grades improved.'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: p > 0.5$ A majority of students'' grades improved.'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: p \neq 0.5$ Either a majority or minority of students'' grades
+            improved.'
+          feedback: Try again please!
+        ans4:
+          value: '$H_0: p = 0.5$ Neither a majority nor minority of students'' grades
+            improved.'
+          feedback: Correct!
+      part2:
+        num1: 11
+        ans1:
+          value: '$H_A: p = 0.5$ Neither a majority nor minority of students'' grades
+            improved.'
+          feedback: Try again please!
+        ans2:
+          value: '$H_A: p > 0.5$ A majority of students'' grades improved.'
+          feedback: Try again please!
+        ans3:
+          value: '$H_A: p < 0.5$ A minority of students'' grades improved.'
+          feedback: Try again please!
+        ans4:
+          value: '$H_A: p \neq 0.5$ Either a majority or a minority of students''
+            grades improved.'
+          feedback: Correct!
+      part3:
+        ans1:
+          value: '$H_0: \mu \neq 11$ The average amount of company time each employee
+            spends not working is different during March Madness.'
+          feedback: Try again please!
+        ans2:
+          value: '$H_0: \mu > 11$ The average amount of company time each employee
+            spends not working is more during March Madness.'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: \mu < 11$ The average amount of company time each employee
+            spends not working is less during March Madness.'
+          feedback: Try again please!
+        ans4:
+          value: '$H_0: \mu = 11$ The average amount of company time each employee
+            spends not working is the same during March Madness.'
+          feedback: Correct!
+      part4:
+        ans1:
+          value: '$H_A: \mu = 11$ The average amount of company time each employee
+            spends not working is the same during March Madness.'
+          feedback: Try again please!
+        ans2:
+          value: '$H_A: \mu > 11$ The average amount of company time each employee
+            spends not working is more during March Madness.'
+          feedback: Try again please!
+        ans3:
+          value: '$H_A: \mu < 11$ The average amount of company time each employee
+            spends not working is less during March Madness.'
+          feedback: Try again please!
+        ans4:
+          value: '$H_A: \mu \neq 11$ The average amount of company time each employee
+            spends not working is different during March Madness.'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Choose the appropriate null or alternative hypotheses for each of the following situations.
 
 ## Part 1
 
 A tutoring company would like to understand if most students tend to improve their grades (or not) after they use their services.
 
-They sample ${{ params_part1_num1 }}$ of the students who used their service in the past year and ask them if their grades have improved or declined from the previous year.
+They sample ${{ params.part1.num1 }}$ of the students who used their service in the past year and ask them if their grades have improved or declined from the previous year.
 
 What would be the appropriate null hypothesis for this situation?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-answer-panel
-
-$H_0: p = 0.5$ (Neither a majority nor minority of students' grades improved).
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
 A tutoring company would like to understand if most students tend to improve their grades (or not) after they use their services.
 
-They sample ${{ params_part1_num1 }}$ of the students who used their service in the past year and ask them if their grades have improved or declined from the previous year.
+They sample ${{ params.part1.num1 }}$ of the students who used their service in the past year and ask them if their grades have improved or declined from the previous year.
 
 What would be the appropriate alternative hypothesis for this situation?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-
-### pl-answer-panel
-
-$H_A: p \neq 0.5$ (Either a majority or a minority of students' grades improved).
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Part 3
 
 Employers at a firm are worried about the effect of March Madness, a basketball championship held each spring in the US, on employee productivity.
 
-They estimate that on a regular business day employees spend on average ${{ params_part2_num1 }}$ minutes of company time checking personal email, making personal phone calls, etc.
+They estimate that on a regular business day employees spend on average ${{ params.part2.num1 }}$ minutes of company time checking personal email, making personal phone calls, etc.
 
 They also collect data on how much company time employees spend on such non-business activities during March Madness.
 
@@ -144,20 +158,16 @@ What would be the appropriate null hypothesis for this situation?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-answer-panel
-
-$H_0: \mu = {{ params_part2_num1 }}$ (The average amount of company time each employee spends not working is ${{ params_part2_num1 }}$ minutes for March Madness.)
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 4
 
 Employers at a firm are worried about the effect of March Madness, a basketball championship held each spring in the US, on employee productivity.
 
-They estimate that on a regular business day employees spend on average ${{ params_part2_num1 }}$ minutes of company time checking personal email, making personal phone calls, etc.
+They estimate that on a regular business day employees spend on average ${{ params.part2.num1 }}$ minutes of company time checking personal email, making personal phone calls, etc.
 
 They also collect data on how much company time employees spend on such non-business activities during March Madness.
 
@@ -167,14 +177,10 @@ What would be the appropriate alternative hypothesis for this situation?
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
-- {{ params_part4_ans4_value }}
-
-### pl-answer-panel
-
-$H_A: \mu \neq {{ params_part2_num1 }}$ (The average amount of company time each employee spends not working is different than ${{ params_part2_num1 }}$ minutes for March Madness.)
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
+- {{ params.part4.ans4.value }}
 
 ## Attribution
 

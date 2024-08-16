@@ -30,62 +30,70 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Grade distributions
-    params_description_ra_cf: 0.4
-    params_description_num1: 0.2
-    params_description_num2: 0.2
-    params_description_num3: 0.2
-    params_description_num4: 0.2
-    params_description_num5: 0
-    params_description_num6: 0
-    params_description_num7: 1
-    params_description_num8: 0
-    params_description_num9: 0
-    params_description_num10: 0.2
-    params_description_num11: 0.2
-    params_description_num12: 0.2
-    params_description_num13: 0
-    params_description_num14: 0
-    params_description_num15: 0.2
-    params_description_num16: 0.3
-    params_description_num17: 0.2
-    params_description_num18: 0.2
-    params_description_num19: -0.2
-    params_description_num20: 0.2
-    params_description_num21: 0.2
-    params_description_num22: 0.1
-    params_description_num23: 0.2
-    params_description_num24: 0.3
-    params_description_num25: 0
-    params_description_num26: -0.2
-    params_description_num27: 1.1
-    params_description_num28: 0
-    params_description_num29: 0
-    params_part1_ans1_value: a
-    params_part1_ans1_feedback: Invalid. Sum is greater than 1!
-    params_part1_ans2_value: b
-    params_part1_ans2_feedback: Valid. Probabilities are between 0 and 1, and they
-      sum to 1
-    params_part1_ans3_value: c
-    params_part1_ans3_feedback: Invalid. Sum is less than 1
-    params_part1_ans4_value: d
-    params_part1_ans4_feedback: Invalid. There is a negative probability
-    params_part1_ans5_value: e
-    params_part1_ans5_feedback: Valid. Probabilities are between 0 and 1, and they
-      sum to 1
-    params_part1_ans6_value: f
-    params_part1_ans6_feedback: Invalid. There is a negative probability
+    params:
+      vars:
+        title: Grade distributions
+      description:
+        ra_cf: 0.2
+        num1: 0.2
+        num2: 0.2
+        num3: 0.2
+        num4: 0.4
+        num5: 0
+        num6: 0
+        num7: 1
+        num8: 0
+        num9: 0
+        num10: 0.2
+        num11: 0.2
+        num12: 0.2
+        num13: 0
+        num14: 0
+        num15: 0.2
+        num16: 0.1
+        num17: 0.4
+        num18: 0.1
+        num19: -0.3
+        num20: 0.2
+        num21: 0.2
+        num22: 0.2
+        num23: 0.1
+        num24: 0.3
+        num25: 0
+        num26: -0.3
+        num27: 1.2
+        num28: 0
+        num29: 0
+      part1:
+        ans1:
+          value: a
+          feedback: Invalid. Sum is greater than 1!
+        ans2:
+          value: b
+          feedback: Valid. Probabilities are between 0 and 1, and they sum to 1
+        ans3:
+          value: c
+          feedback: Invalid. Sum is less than 1
+        ans4:
+          value: d
+          feedback: Invalid. There is a negative probability
+        ans5:
+          value: e
+          feedback: Valid. Probabilities are between 0 and 1, and they sum to 1
+        ans6:
+          value: f
+          feedback: Invalid. There is a negative probability
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Each row in the table below is a proposed grade distribution for a class. Identify each as a valid or invalid probability distribution.
 |  |  A ------   |  B ------  |  C ------  |  D ------  |  F |
 | --- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| (a) | ${{ params_description_num1 }}$   | ${{ params_description_num2 }}$   | ${{ params_description_num3 }}$   | ${{ params_description_num4 }}$   | ${{ params.description.ra_cf }}$
-| (b) | ${{ params_description_num5 }}$     | ${{ params_description_num6 }}$     | ${{ params_description_num7 }}$     | ${{ params_description_num8 }}$     | ${{ params_description_num9 }}$
-| (c) | ${{ params_description_num10 }}$   | ${{ params_description_num11 }}$   | ${{ params_description_num12 }}$   | ${{ params_description_num13 }}$     | ${{ params_description_num14 }}$
-| (d) | ${{ params_description_num15 }}$   | ${{ params_description_num16 }}$   | ${{ params_description_num17 }}$   | ${{ params_description_num18 }}$   | ${{ params_description_num19 }}$
-| (e) | ${{ params_description_num20 }}$   | ${{ params_description_num21 }}$   | ${{ params_description_num22 }}$   | ${{ params_description_num23 }}$   | ${{ params_description_num24 }}$
-| (f) | ${{ params_description_num25 }}$     | ${{ params_description_num26 }}$  | ${{ params_description_num27 }}$   | ${{ params_description_num28 }}$     | ${{ params_description_num29 }}$
+| (a) | ${{ params.description.num1 }}$   | ${{ params.description.num2 }}$   | ${{ params.description.num3 }}$   | ${{ params.description.num4 }}$   | ${{ params.description.ra_cf }}$
+| (b) | ${{ params.description.num5 }}$     | ${{ params.description.num6 }}$     | ${{ params.description.num7 }}$     | ${{ params.description.num8 }}$     | ${{ params.description.num9 }}$
+| (c) | ${{ params.description.num10 }}$   | ${{ params.description.num11 }}$   | ${{ params.description.num12 }}$   | ${{ params.description.num13 }}$     | ${{ params.description.num14 }}$
+| (d) | ${{ params.description.num15 }}$   | ${{ params.description.num16 }}$   | ${{ params.description.num17 }}$   | ${{ params.description.num18 }}$   | ${{ params.description.num19 }}$
+| (e) | ${{ params.description.num20 }}$   | ${{ params.description.num21 }}$   | ${{ params.description.num22 }}$   | ${{ params.description.num23 }}$   | ${{ params.description.num24 }}$
+| (f) | ${{ params.description.num25 }}$     | ${{ params.description.num26 }}$  | ${{ params.description.num27 }}$   | ${{ params.description.num28 }}$     | ${{ params.description.num29 }}$
 
 ## Part 1
 
@@ -93,12 +101,12 @@ Select all valid probability distributions.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

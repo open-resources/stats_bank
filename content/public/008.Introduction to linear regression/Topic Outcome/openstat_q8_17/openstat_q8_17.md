@@ -32,28 +32,39 @@ part1:
     none-of-the-above: 'true'
 myst:
   substitutions:
-    params_vars_title: Units of regression
-    params_vars_unit1: lb
-    params_vars_unit2: m
-    params_vars_problem_statement: weight (lb) from height (m)
-    params_part1_option1_value: No units
-    params_part1_option1_name: Correlation
-    params_part1_option2_value: $lb$
-    params_part1_option2_name: Intercept
-    params_part1_option3_value: $\frac{lb}{m}$
-    params_part1_option3_name: Slope
-    params_part1_option4_value: $m$
-    params_part1_option4_name: Distractor 1
-    params_part1_option5_value: $\frac{m}{lb}$
-    params_part1_option5_name: Distractor 2
-    params_part1_statement1_value: Correlation
-    params_part1_statement1_matches: Correlation
-    params_part1_statement2_value: Intercept
-    params_part1_statement2_matches: Intercept
-    params_part1_statement3_value: Slope
-    params_part1_statement3_matches: Slope
+    params:
+      vars:
+        title: Units of regression
+        unit1: g
+        unit2: m
+        problem_statement: weight (g) from height (m)
+      part1:
+        option1:
+          value: No units
+          name: Correlation
+        option2:
+          value: $g$
+          name: Intercept
+        option3:
+          value: $\frac{g}{m}$
+          name: Slope
+        option4:
+          value: $m$
+          name: Distractor 1
+        option5:
+          value: $\frac{m}{g}$
+          name: Distractor 2
+        statement1:
+          value: Correlation
+          matches: Correlation
+        statement2:
+          value: Intercept
+          matches: Intercept
+        statement3:
+          value: Slope
+          matches: Slope
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider a regression predicting {{ params.vars.problem_statement }} for a sample of adult males.
 
 ## Part 1
@@ -61,10 +72,6 @@ Consider a regression predicting {{ params.vars.problem_statement }} for a sampl
 What are the units of the correlation coefficient, the intercept, and the slope?
 
 ### Answer Section
-
-### pl-answer-panel
-
-Correlation: no units. Intercept: {{ params_vars_unit1 }}. Slope: {{ params_vars_unit1 }}/{{ params_vars_unit2 }}
 
 ## Attribution
 

@@ -37,32 +37,35 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: College smokers
-    params_part1_num1: 91
-    params_part2_start_hour: 6
-    params_part2_before_start_hour: 5
-    params_part2_waiting_students: 27
-    params_part2_ans1_value: 'No'
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: 'Yes'
-    params_part2_ans2_feedback: Incorrect. These students are not a random sample
-      from the university's student population.
-    params_description_perc_smokers: 13
+    params:
+      vars:
+        title: College smokers
+      part1:
+        num1: 102
+      part2:
+        start_hour: 10
+        before_start_hour: 9
+        waiting_students: 25
+        ans1:
+          value: 'No'
+          feedback: Correct!
+        ans2:
+          value: 'Yes'
+          feedback: Incorrect. These students are not a random sample from the university's
+            student population.
+      description:
+        perc_smokers: 7
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 At a university, ${{ params.description.perc_smokers }}$% of students smoke.
 
 ## Part 1
 
-Calculate the expected number of smokers in a random sample of ${{ params_part1_num1 }}$ students from this university.
+Calculate the expected number of smokers in a random sample of ${{ params.part1.num1 }}$ students from this university.
 
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-{{ correct_answers.part1_ans }}
 
 ## Part 2
 
@@ -70,12 +73,8 @@ The university gym opens at {{ params.part2.start_hour }} am on Saturday morning
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-answer-panel
-
-No, these ${{ params.part2.waiting_students }}$ students are not a random sample from the university's student population. For example, it might be argued that the proportion of smokers among students who go to the gym at ${{ params.part2.start_hour }}$ am on a Saturday morning would be lower than the proportion of smokers in the university as a whole.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

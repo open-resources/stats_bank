@@ -69,77 +69,123 @@ part7:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Sleep habits of New Yorkers
-    params_confidence_level: 90.0
-    params_sleep_hours: 7
-    params_description_n: 36
-    params_description_sample_mean: 6.73
-    params_description_s: 1.33
-    params_description_min_val: 3.22
-    params_description_max_val: 10.67
-    params_description_alpha: 0.05
-    params_table1: |-
-      <table style="width:400px">
-      <tr>
-      <th>$n$</th>
-      <th>$\bar x$</th>
-      <th>$s$</th>
-      <th>$min$</th>
-      <th>$max$</th>
-      </tr><tr>
-      <th>$36$</th>
-      <td>$6.73$</td>
-      <td>$1.33$</td>
-      <td>$3.22$</td>
-      <td>$10.67$</td>
-      </tr>
-      </table>
-    params_part1_ans1_value: '$H_0: \mu = 7$, $H_a: \mu < 7$'
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: '$H_0: \mu < 7$, $H_a: \mu > 7$'
-    params_part1_ans2_feedback: Try again please!
-    params_part1_ans3_value: '$H_0: \mu > 7$, $H_a: \mu < 7$'
-    params_part1_ans3_feedback: Try again please!
-    params_part1_ans4_value: '$H_0: \mu = 7$, $H_a: \mu = 7$'
-    params_part1_ans4_feedback: Try again please!
-    params_part2_ans1_value: The data should be approximately normally distributed
-    params_part2_ans1_feedback: Correct!
-    params_part2_ans2_value: The data should be obtained through random sampling methods
-    params_part2_ans2_feedback: Correct!
-    params_part2_ans3_value: Observations within the sample should be independent
-      of each other
-    params_part2_ans3_feedback: Correct!
-    params_part2_ans4_value: The success-failure condition needs to be met
-    params_part2_ans4_feedback: Try again please!
-    params_part2_ans5_value: The population standard deviation must be known
-    params_part2_ans5_feedback: Try again please!
-    params_part2_ans6_value: We need more than 30 observations
-    params_part2_ans6_feedback: Try again please!
-    params_part6_ans1_value: The probability that New Yorkers sleep exactly 7 hours
-      per night.
-    params_part6_ans1_feedback: Try again please!
-    params_part6_ans2_value: The probability that the sample accurately represents
-      the entire population of New Yorkers.
-    params_part6_ans2_feedback: Try again please!
-    params_part6_ans3_value: The probability of observing the obtained sample mean
-      6.73 hours if New Yorkers, on average, sleep 7 per night.
-    params_part6_ans3_feedback: Correct!
-    params_part6_ans4_value: The probability of observing the obtained sample mean
-      of 6.73 hours or more extreme, if New Yorkers, on average, sleep 6.73 hours
-      per night.
-    params_part6_ans4_feedback: Try again please!
-    params_part6_ans5_value: The probability of observing the obtained sample mean
-      6.73 of hours or more extreme, if New Yorkers, on average, sleep 7 per night.
-    params_part6_ans5_feedback: Try again please!
-    params_part7_ans1_value: Reject $H_0$
-    params_part7_ans1_feedback: Try again please!
-    params_part7_ans2_value: Fail to reject $H_0$
-    params_part7_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Sleep habits of New Yorkers
+      confidence_level: 90.0
+      sleep_hours: 8
+      description:
+        n: 39
+        sample_mean: !!python/object/apply:numpy.core.multiarray.scalar
+        - &id001 !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          rkfhehSuHkA=
+        s: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          exSuR+F6/D8=
+        min_val: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          7FG4HoXrD0A=
+        max_val: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          H4XrUbgeKUA=
+        alpha: 0.05
+      table1: |-
+        <table style="width:400px">
+        <tr>
+        <th>$n$</th>
+        <th>$\bar x$</th>
+        <th>$s$</th>
+        <th>$min$</th>
+        <th>$max$</th>
+        </tr><tr>
+        <th>$39$</th>
+        <td>$7.67$</td>
+        <td>$1.78$</td>
+        <td>$3.99$</td>
+        <td>$12.56$</td>
+        </tr>
+        </table>
+      part1:
+        ans1:
+          value: '$H_0: \mu = 8$, $H_a: \mu < 8$'
+          feedback: Correct!
+        ans2:
+          value: '$H_0: \mu < 8$, $H_a: \mu > 8$'
+          feedback: Try again please!
+        ans3:
+          value: '$H_0: \mu > 8$, $H_a: \mu < 8$'
+          feedback: Try again please!
+        ans4:
+          value: '$H_0: \mu = 8$, $H_a: \mu = 8$'
+          feedback: Try again please!
+      part2:
+        ans1:
+          value: The data should be approximately normally distributed
+          feedback: Correct!
+        ans2:
+          value: The data should be obtained through random sampling methods
+          feedback: Correct!
+        ans3:
+          value: Observations within the sample should be independent of each other
+          feedback: Correct!
+        ans4:
+          value: The success-failure condition needs to be met
+          feedback: Try again please!
+        ans5:
+          value: The population standard deviation must be known
+          feedback: Try again please!
+        ans6:
+          value: We need more than 30 observations
+          feedback: Try again please!
+      part6:
+        ans1:
+          value: The probability that New Yorkers sleep exactly 8 hours per night.
+          feedback: Try again please!
+        ans2:
+          value: The probability that the sample accurately represents the entire
+            population of New Yorkers.
+          feedback: Try again please!
+        ans3:
+          value: The probability of observing the obtained sample mean 7.67 hours
+            if New Yorkers, on average, sleep 8 per night.
+          feedback: Correct!
+        ans4:
+          value: The probability of observing the obtained sample mean of 7.67 hours
+            or more extreme, if New Yorkers, on average, sleep 7.67 hours per night.
+          feedback: Try again please!
+        ans5:
+          value: The probability of observing the obtained sample mean 7.67 of hours
+            or more extreme, if New Yorkers, on average, sleep 8 per night.
+          feedback: Try again please!
+      part7:
+        ans1:
+          value: Reject $H_0$
+          feedback: Try again please!
+        ans2:
+          value: Fail to reject $H_0$
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
-New York is known as "the city that never sleeps". A random sample of ${{ params_description_n }}$ New Yorkers were asked how much sleep they get per night. Statistical summaries of these data are shown below. The point estimate suggests New Yorkers sleep less than the recommended ${{ params.sleep_hours }}$ hours a night on average. Is the result statistically significant? Use $\alpha={{ params_description_alpha }}$.
+# {{ params.vars.title }}
+New York is known as "the city that never sleeps". A random sample of ${{ params.description.n }}$ New Yorkers were asked how much sleep they get per night. Statistical summaries of these data are shown below. The point estimate suggests New Yorkers sleep less than the recommended ${{ params.sleep_hours }}$ hours a night on average. Is the result statistically significant? Use $\alpha={{ params.description.alpha }}$.
 
-{{{ params_table1 }}}
+{{{ params.table1 }}}
 
 ## Part 1
 
@@ -147,15 +193,10 @@ Write the hypotheses in symbols.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-answer-panel
-
-$H_0$: $\mu = {{ params.sleep_hours }}$ (New Yorkers sleep ${{ params.sleep_hours }}$ hrs per night on average.)
-$H_A$: $\mu \< {{ params.sleep_hours }}$ (New Yorkers sleep less or more than ${{ params.sleep_hours }}$ hrs per night on average.)
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
@@ -163,16 +204,11 @@ Which of the following assumptions are required to conduct the appropriate hypot
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
-
-### pl-answer-panel
-
-Independence: The sample is random.
-The min/max suggest there are no concerning outliers.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
 
 ## Part 3
 
@@ -186,19 +222,11 @@ Calculate the degrees of freedom, $df$.
 
 ### Answer Section
 
-### pl-answer-panel
-
-$df={{ params_description_n }}-1$
-
 ## Part 5
 
 Find the p-value.
 
 ### Answer Section
-
-### pl-answer-panel
-
-If in fact the true population mean of the amount New Yorkers sleep per night was ${{ params.sleep_hours }}$ hours, the probability of getting a random sample of ${{ params_description_n }}$ New Yorkers where the average amount of sleep is ${{ params_description_sample_mean }}$ hours per night or less is ${{ correct_answers.part4_ans }}$
 
 ## Part 6
 
@@ -217,10 +245,10 @@ What is the conclusion of the hypothesis test?
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
-- {{ params_part6_ans4_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
+- {{ params.part6.ans4.value }}
 
 <!-- ### pl-answer-panel -->
 

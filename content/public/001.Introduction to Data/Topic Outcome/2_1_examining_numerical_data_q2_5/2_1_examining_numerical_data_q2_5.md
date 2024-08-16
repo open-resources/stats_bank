@@ -31,25 +31,33 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Parameters and statistics
-    params_part1_option1_value: 2001
-    params_part1_option2_value: 205
-    params_part1_option3_value: 10
-    params_part1_statement1_value: Claimed population mean
-    params_part1_statement1_matches: '3.42'
-    params_part1_statement2_value: Sample mean
-    params_part1_statement2_matches: '2.92'
-    params_question1: The average GPA of students in 2001 at a private university
-      was 3.42. A survey on a sample of 205 students from this university yielded
-      an average GPA of 2.92 a decade later.
+    params:
+      vars:
+        title: Parameters and statistics
+      part1:
+        option1:
+          value: 2001
+        option2:
+          value: 282
+        option3:
+          value: 10
+        statement1:
+          value: Claimed population mean
+          matches: '3.16'
+        statement2:
+          value: Sample mean
+          matches: '3.01'
+      question1: The average GPA of students in 2001 at a private university was 3.16.
+        A survey on a sample of 282 students from this university yielded an average
+        GPA of 3.01 a decade later.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Identify which value represents the sample mean and which value represents the claimed population mean.
 
 ## Part 1
 
 <div class="mathjax_ignore">
-{{ params_question1 }}
+{{ params.question1 }}
 </div>
 
 ### Answer Section

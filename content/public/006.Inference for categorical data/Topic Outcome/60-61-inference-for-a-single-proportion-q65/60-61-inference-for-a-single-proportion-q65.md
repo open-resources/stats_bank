@@ -49,32 +49,75 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Gender equality
-    params_vars_sample_size: 1104
-    params_vars_proportion: 63.0
-    params_vars_margin_of_error: 2.85
-    params_vars_lower_bound: 60.15
-    params_vars_upper_bound: 65.85
-    params_vars_margin_of_error_part4: 1.424
-    params_vars_selected_option1: If we considered many random samples of 1104 Americans,
-      and we calculated 95% confidence intervals for each, 95% of these intervals
-      would include the true population proportion of Americans who think it's the
-      government's responsibility to promote equality between men and women.
-    params_vars_selected_option2: Doubling the sample size will halve the margin of
-      error, regardless of the initial sample size and confidence level.
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
-    params_part2_ans1_value: 'False'
-    params_part2_ans2_value: 'True'
-    params_part3_ans1_value: 'True'
-    params_part3_ans2_value: 'False'
-    params_part4_ans1_value: 'True'
-    params_part4_ans2_value: 'False'
-    params_part5_ans1_value: 'True'
-    params_part5_ans2_value: 'False'
+    params:
+      vars:
+        title: Gender equality
+        sample_size: 1558
+        proportion: 56.00000000000001
+        margin_of_error: !!python/object/apply:numpy.core.multiarray.scalar
+        - &id001 !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          rkfhehSuA0A=
+        lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          hetRuB7FSkA=
+        upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          exSuR+E6TUA=
+        margin_of_error_part4: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          g8DKoUW28z8=
+        selected_option1: If we considered many random samples of 1558 Americans,
+          and we calculated 95% confidence intervals for each, 95% of these intervals
+          would include the true population proportion of Americans who think it's
+          the government's responsibility to promote equality between men and women.
+        selected_option2: The margin of error is influenced by both the sample size
+          and the variability of the data. Larger sample sizes and lower variability
+          lead to smaller margins of error.
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'False'
+        ans2:
+          value: 'True'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part4:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part5:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
-The General Social Survey asked a random sample of {{ params.vars.sample_size }} Americans the following question: "On the whole, do you think it should or should not be the government's responsibility to promote equality between men and women?" {{ params_vars_proportion }}% of the respondents said it "should be". At a 95% confidence level, this sample has {{ params.vars.margin_of_error }}% margin of error. Based on this information, determine if the following statements are true or false.
+# {{ params.vars.title }}
+The General Social Survey asked a random sample of {{ params.vars.sample_size }} Americans the following question: "On the whole, do you think it should or should not be the government's responsibility to promote equality between men and women?" {{ params.vars.proportion }}% of the respondents said it "should be". At a 95% confidence level, this sample has {{ params.vars.margin_of_error }}% margin of error. Based on this information, determine if the following statements are true or false.
 
 ## Part 1
 
@@ -82,12 +125,8 @@ We are 95% confident that between {{ params.vars.lower_bound }}% and {{ params.v
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-
-### pl-answer-panel
-
-A confidence interval is constructed to estimate the population proportion, not the sample proportion.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -95,12 +134,8 @@ We are 95% confident that between {{ params.vars.lower_bound }}% and {{ params.v
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-answer-panel
-
-The $95$% $CI:$ ${{ params_vars_proportion }}$% $\pm$ ${{ params.vars.margin_of_error }}$%.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
@@ -108,8 +143,8 @@ The $95$% $CI:$ ${{ params_vars_proportion }}$% $\pm$ ${{ params.vars.margin_of_
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
@@ -117,8 +152,8 @@ The $95$% $CI:$ ${{ params_vars_proportion }}$% $\pm$ ${{ params.vars.margin_of_
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Part 5
 
@@ -126,8 +161,8 @@ Based on this confidence interval, there is sufficient evidence to conclude that
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Attribution
 

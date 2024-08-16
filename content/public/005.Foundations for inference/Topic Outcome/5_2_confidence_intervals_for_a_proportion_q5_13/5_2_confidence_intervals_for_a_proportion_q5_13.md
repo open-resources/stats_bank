@@ -44,34 +44,45 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Website registration
-    params_description_num1: 711
-    params_description_num2: 59
-    params_part1_ans1_value: Independence
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: Success-failure condition
-    params_part1_ans2_feedback: Correct!
-    params_part3_ans1_value: The 90% confidence interval is approximately (0.066,
-      0.095). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.6% and 9.5%.
-    params_part3_ans1_feedback: Try again please!
-    params_part3_ans2_value: The 90% confidence interval is approximately (0.062,
-      0.1). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.2% and 10.0%.
-    params_part3_ans2_feedback: Try again please!
-    params_part3_ans3_value: The 90% confidence interval is approximately (0.062,
-      0.095). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.2% and 9.5%.
-    params_part3_ans3_feedback: Try again please!
-    params_part3_ans4_value: The 90% confidence interval is approximately (0.066,
-      0.1). We are 90% confident that the true proportion of all first-time visitors
-      who would register under the new design is between 6.6% and 10.0%.
-    params_part3_ans4_feedback: Correct!
+    params:
+      vars:
+        title: Website registration
+      description:
+        num1: 684
+        num2: 62
+      part1:
+        ans1:
+          value: Independence
+          feedback: Correct!
+        ans2:
+          value: Success-failure condition
+          feedback: Correct!
+      part3:
+        ans1:
+          value: The 90% confidence interval is approximately (0.0726, 0.1037). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 7.26% and 10.37%.
+          feedback: Try again please!
+        ans2:
+          value: The 90% confidence interval is approximately (0.0686, 0.1087). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 6.86% and 10.87%.
+          feedback: Try again please!
+        ans3:
+          value: The 90% confidence interval is approximately (0.0686, 0.1037). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 6.86% and 10.37%.
+          feedback: Try again please!
+        ans4:
+          value: The 90% confidence interval is approximately (0.0726, 0.1087). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 7.26% and 10.87%.
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A website is trying to increase registration for first-time visitors, exposing 1% of these visitors to a new site design.
 
-Of ${{ params_description_num1 }}$ randomly sampled visitors over a month who saw the new design, ${{ params_description_num2 }}$ registered.
+Of ${{ params.description.num1 }}$ randomly sampled visitors over a month who saw the new design, ${{ params.description.num2 }}$ registered.
 
 ## Part 1
 
@@ -79,16 +90,8 @@ Check any conditions required for constructing a confidence interval.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-
-### pl-answer-panel
-
-The visitors are from a simple random sample, so independence is satisfied.
-
-The success-failure condition is also satisfied, with both ${{ params_description_num2 }}$ and ${{ params_description_num1 }}$ - ${{ params_description_num2 }}$ above 10.
-
-Therefore, we can use a normal distribution to model $\hat{p}$ and construct a confidence interval.
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 
 ## Part 2
 
@@ -98,28 +101,16 @@ Compute the standard error. Please provide your answer to three decimal places.
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-The sample proportion is $\hat{p} = \frac{ {{params_description_num2}} }{ {{params_description_num1}} }$.
-
-The standard error is $SE = \sqrt{\frac{p(1 - p)}{n}}\approx \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}$
-
 ## Part 3
 
 Which of the following best describes this confidence interval for the fraction of first-time visitors of the site who would register under the new design (assuming stable behaviors by new visitors over time)?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-answer-panel
-
-For a 90% confidence interval, use $z^{\star} = 1.6449$.
-
-The confidence interval is $\hat{p}  \pm 1.6449 \times {{ params.answer.num2 }}$.
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Attribution
 

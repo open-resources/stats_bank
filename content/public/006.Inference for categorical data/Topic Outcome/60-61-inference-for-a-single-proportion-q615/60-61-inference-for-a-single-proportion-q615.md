@@ -32,36 +32,28 @@ part1:
     label: $n =$
 myst:
   substitutions:
-    params_vars_title: National Health Plan, Part II
-    params_vars_p_hat: 0.6
-    params_vars_p_hat_percent: 60.0
-    params_vars_margin_of_error_percent: 1.0
-    params_vars_z_score: 1.96
-    params_vars_confidence: 95
-    params_vars_n: 9220
+    params:
+      vars:
+        title: National Health Plan, Part II
+        p_hat: 0.6
+        p_hat_percent: 60.0
+        margin_of_error_percent: 1.0
+        z_score: 2.3263
+        confidence: 98
+        n: 12989
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A Kaiser Family Foundation poll for US adults in 2019 reported varying levels of support for a generic "National Health Plan" among different political affiliations. For Independents, it was found that approximately {{ params.vars.p_hat_percent }}% supported the plan.
 
 There were various sample sizes for each group, but for this problem, we are focusing on the responses from the Independents.
 
 ## Part 1
 
-If we wanted to estimate this number to within {{ params.vars.margin_of_error_percent }}% with {{ params_vars_confidence }}% confidence, what would be an appropriate sample size?
+If we wanted to estimate this number to within {{ params.vars.margin_of_error_percent }}% with {{ params.vars.confidence }}% confidence, what would be an appropriate sample size?
 
 ### Answer Section
 
 Please enter in a numeric value.
-
-### pl-answer-panel
-
-is the smallest appropriate sample size. Because a sample proportion $(\hat{p} = {{ params.vars.p_hat }})$ is available, we use this value for the sample size calculations. The margin of error for a ${{ params_vars_confidence }}$% confidence interval is ${{ params.vars.z_score }} \times SE = {{ params.vars.z_score }} \times \sqrt{\frac{p(1-p)}{n}}$.
-
-Using $\hat{p}$ in place of $p$, this becomes ${{ params.vars.z_score }} \times \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$. We want this margin of error to be less than $0.01$. Thus,
-
-${{ params.vars.z_score }} \times \sqrt{\frac{ {{ params.vars.p_hat }} \times (1 - {{ params.vars.p_hat }} )}{n}} \leq 0.01 \Leftrightarrow {{ params.vars.z_score }}^2 \times \frac{ {{ params.vars.p_hat }} \times (1 - {{ params.vars.p_hat }} )}{0.01^2} \leq n$.
-
-From this, we get that $n$ must be at least ${{ params_vars_n }}$.
 
 ## Attribution
 

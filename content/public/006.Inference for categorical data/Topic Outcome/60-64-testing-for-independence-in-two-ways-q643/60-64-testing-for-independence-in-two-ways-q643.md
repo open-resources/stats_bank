@@ -58,16 +58,18 @@ part4:
     label: 'Required sample size n = '
 myst:
   substitutions:
-    params_vars_title: College smokers
-    params_vars_n: 176
-    params_vars_x: 39
-    params_vars_CI_low: 16.023
-    params_vars_CI_high: 28.295
-    params_vars_n_new: 6627.0
-    params_vars_ME_description: 1
+    params:
+      vars:
+        title: College smokers
+        n: 164
+        x: 19
+        CI_low: 6.687
+        CI_high: 16.484
+        n_new: 438.0
+        ME_description: 3
 ---
-# {{ params_vars_title }}
-We are interested in estimating the proportion of students at a university who smoke. Out of a random sample of {{ params_vars_n }} students from this university, {{ params_vars_x }} students smoke.
+# {{ params.vars.title }}
+We are interested in estimating the proportion of students at a university who smoke. Out of a random sample of {{ params.vars.n }} students from this university, {{ params.vars.x }} students smoke.
 
 ## Part 1: (a)
 
@@ -92,10 +94,6 @@ In one sentence interpret this interval in context.
 ### Answer Section
 
 Please enter in a text response.
-
-### pl-answer-panel
-
-We are 95% confident that {{ params.vars.CI_low }}% to {{ params.vars.CI_high }}% of all students at this university smoke.
 
 ## Part 2
 

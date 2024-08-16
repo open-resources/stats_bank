@@ -66,49 +66,83 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Study abroad
-    params_vars_n: 1811
-    params_vars_p: 51.0
-    params_vars_confidence_level: 90.0
-    params_vars_lower_bound: 0.4907
-    params_vars_lower_bound_percent: 49
-    params_vars_upper_bound: 0.5293
-    params_vars_upper_bound_percent: 53
-    params_part1_ans1_value: Yes. The sample is a perfect representation of all high
-      school seniors.
-    params_part1_ans1_feedback: Incorrect.
-    params_part1_ans2_value: Yes. The sample is a perfect representation of all students
-      who took the SAT.
-    params_part1_ans2_feedback: Incorrect.
-    params_part1_ans3_value: No. The sample only represents students who completed
-      the web survey.
-    params_part1_ans3_feedback: Incorrect.
-    params_part1_ans4_value: No. The sample only represents students who took the
-      SAT, and this was also an online survey.
-    params_part1_ans4_feedback: Correct!
-    params_part5_ans1_value: 90% confidence means that if we repeated this survey
-      100 times, 90 of the results would fall within this interval.
-    params_part5_ans1_feedback: Incorrect.
-    params_part5_ans2_value: 90% confidence means that we are 90% certain that the
-      true proportion is within this interval.
-    params_part5_ans2_feedback: Incorrect.
-    params_part5_ans3_value: 90% confidence means that 90% of the time the true proportion
-      will fall within this interval.
-    params_part5_ans3_feedback: Incorrect.
-    params_part5_ans4_value: 90% of such random samples would produce a 90% confidence
-      interval that includes the true proportion.
-    params_part5_ans4_feedback: Correct!
-    params_part6_ans1_value: No. The interval lies entirely above 50%.
-    params_part6_ans1_feedback: Incorrect.
-    params_part6_ans2_value: Yes. The interval lies entirely below 50%.
-    params_part6_ans2_feedback: Incorrect.
-    params_part6_ans3_value: No. The interval lies entirely below 50%.
-    params_part6_ans3_feedback: Incorrect.
-    params_part6_ans4_value: Yes. The interval lies entirely above 50%.
-    params_part6_ans4_feedback: Correct!
+    params:
+      vars:
+        title: Study abroad
+        n: 1393
+        p: 65.0
+        confidence_level: 98.0
+        lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
+        - &id001 !!python/object/apply:numpy.dtype
+          args:
+          - f8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          fa62Yn/Z4z8=
+        lower_bound_percent: 62
+        upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          HOviNhrA5T8=
+        upper_bound_percent: 68
+      part1:
+        ans1:
+          value: Yes. The sample is a perfect representation of all high school seniors.
+          feedback: Incorrect.
+        ans2:
+          value: Yes. The sample is a perfect representation of all students who took
+            the SAT.
+          feedback: Incorrect.
+        ans3:
+          value: No. The sample only represents students who completed the web survey.
+          feedback: Incorrect.
+        ans4:
+          value: No. The sample only represents students who took the SAT, and this
+            was also an online survey.
+          feedback: Correct!
+      part5:
+        ans1:
+          value: 98% confidence means that if we repeated this survey 100 times, 98
+            of the results would fall within this interval.
+          feedback: Incorrect.
+        ans2:
+          value: 98% confidence means that we are 98% certain that the true proportion
+            is within this interval.
+          feedback: Incorrect.
+        ans3:
+          value: 98% confidence means that 98% of the time the true proportion will
+            fall within this interval.
+          feedback: Incorrect.
+        ans4:
+          value: 98% of such random samples would produce a 98% confidence interval
+            that includes the true proportion.
+          feedback: Correct!
+      part6:
+        ans1:
+          value: No. The interval lies entirely above 50%.
+          feedback: Incorrect.
+        ans2:
+          value: Yes. The interval lies entirely below 50%.
+          feedback: Incorrect.
+        ans3:
+          value: No. The interval lies entirely below 50%.
+          feedback: Incorrect.
+        ans4:
+          value: Yes. The interval lies entirely above 50%.
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
-A survey on {{  params_vars_n }} high school seniors who took the SAT and who completed an optional web survey shows that {{ params_vars_p }}% of high school seniors are fairly certain that they will participate in a study abroad program in college.
+# {{ params.vars.title }}
+A survey on {{  params.vars.n }} high school seniors who took the SAT and who completed an optional web survey shows that {{ params.vars.p }}% of high school seniors are fairly certain that they will participate in a study abroad program in college.
 
 ## Part 1
 
@@ -116,10 +150,10 @@ Is this sample a representative sample from the population of all high school se
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2: (a)
 
@@ -145,20 +179,16 @@ In one sentence interpret this interval in context.
 
 Please enter in a text response.
 
-### pl-answer-panel
-
-$({{ params.vars.lower_bound }}, {{ params.vars.upper_bound }})$. We are ${{ params.vars.confidence_level }}$% confident that ${{ params.vars.lower_bound_percent }}$% to ${{ params.vars.upper_bound_percent }}$% of high school seniors who took the SAT are fairly certain that they will participate in a study abroad program in college.
-
 ## Part 3
 
 What does "{{ params.vars.confidence_level }}% confidence" mean?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
 ## Part 4
 
@@ -166,10 +196,10 @@ Based on this interval, would it be appropriate to claim that the majority of hi
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
-- {{ params_part6_ans4_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
+- {{ params.part6.ans4.value }}
 
 ## Attribution
 

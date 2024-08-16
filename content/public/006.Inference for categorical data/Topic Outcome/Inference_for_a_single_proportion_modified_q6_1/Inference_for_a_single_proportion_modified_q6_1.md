@@ -46,46 +46,63 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Vegetarian college students
-    params_sample_size: 87
-    params_sample_size2: 72
-    params_p: 10
-    params_p_hat: 14
-    params_college_students: 132
-    params_college_students2: 264
-    params_part1_ans1_value: True. This statement satisfies the success-failure condition.
-    params_part1_ans1_feedback: Incorrect!
-    params_part1_ans2_value: False. The distribution is not normal since it does not
-      satisfy the success-failure condition.
-    params_part1_ans2_feedback: Correct!
-    params_part2_ans1_value: False. The distribution is not skewed as the success-failure
-      condition is met.
-    params_part2_ans1_feedback: Incorrect.
-    params_part2_ans2_value: True. The distribution is right skewed because the success-failure
-      condition is not met.
-    params_part2_ans2_feedback: Correct! In most samples we would expect $\hat{p}$
-      to be close to 0.08, the true population proportion. While $\hat{p}$ can be
-      much above 0.08, it is bound below by 0, suggesting it would take on a right
-      skewed shape.
-    params_part3_ans1_value: True. The difference between the sample proportion and
-      the population proportion is not significantly large.
-    params_part3_ans1_feedback: Incorrect.
-    params_part3_ans2_value: False. The difference between the sample proportion and
-      the population proportion is significantly large.
-    params_part3_ans2_feedback: Correct!
-    params_part4_ans1_value: True. The sample is unusual as the proportion is significantly
-      different from the population proportion.
-    params_part4_ans1_feedback: Correct!
-    params_part4_ans2_value: False. The sample is not unusual as the proportion is
-      not significantly different from the population proportion.
-    params_part4_ans2_feedback: Incorrect.
-    params_part5_ans1_value: 'True'
-    params_part5_ans1_feedback: Incorrect.
-    params_part5_ans2_value: False. Doubling the sample size decreases the standard
-      error by a factor of $\frac{1}{\sqrt{2}}$, not by one-half.
+    params:
+      vars:
+        title: Vegetarian college students
+      sample_size: 79
+      sample_size2: 87
+      p: 10
+      p_hat: 12
+      college_students: 132
+      college_students2: 264
+      part1:
+        ans1:
+          value: True. This statement satisfies the success-failure condition.
+          feedback: Incorrect!
+        ans2:
+          value: False. The distribution is not normal since it does not satisfy the
+            success-failure condition.
+          feedback: Correct!
+      part2:
+        ans1:
+          value: False. The distribution is not skewed as the success-failure condition
+            is met.
+          feedback: Incorrect.
+        ans2:
+          value: True. The distribution is right skewed because the success-failure
+            condition is not met.
+          feedback: Correct! In most samples we would expect $\hat{p}$ to be close
+            to 0.08, the true population proportion. While $\hat{p}$ can be much above
+            0.08, it is bound below by 0, suggesting it would take on a right skewed
+            shape.
+      part3:
+        ans1:
+          value: True. The difference between the sample proportion and the population
+            proportion is not significantly large.
+          feedback: Incorrect.
+        ans2:
+          value: False. The difference between the sample proportion and the population
+            proportion is significantly large.
+          feedback: Correct!
+      part4:
+        ans1:
+          value: True. The sample is unusual as the proportion is significantly different
+            from the population proportion.
+          feedback: Incorrect!
+        ans2:
+          value: False. The sample is not unusual as the proportion is not significantly
+            different from the population proportion.
+          feedback: Correct.
+      part5:
+        ans1:
+          value: 'True'
+          feedback: Incorrect.
+        ans2:
+          value: False. Doubling the sample size decreases the standard error by a
+            factor of $\frac{1}{\sqrt{2}}$, not by one-half.
 ---
-# {{ params_vars_title }}
-Suppose that ${{params_p}}$% of college students are vegetarians. Determine if the following statements are true or false with the correct reasoning.
+# {{ params.vars.title }}
+Suppose that ${{params.p}}$% of college students are vegetarians. Determine if the following statements are true or false with the correct reasoning.
 
 ## Part 1
 
@@ -93,10 +110,8 @@ The distribution of the sample proportions of vegetarians in random samples of s
 
 ### Answer Section
 
-- {{ params_part1.ans1.value }}
-- {{ params_part1.ans2.value }}
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -104,38 +119,26 @@ The distribution of the sample proportions of vegetarian college students in ran
 
 ### Answer Section
 
-- {{ params_part2.ans1.value }}
-- {{ params_part2.ans2.value }}
-
-### pl-answer-panel
-
-The success-failure condition is not satisfied. In most samples we would expect $\hat{p}$ to be close to 0.08, the true population proportion. While $\hat{p}$ can be much above 0.08, it is bound below by 0, suggesting it would take on a right skewed shape. Plotting the sampling distribution would confirm this suspicion.
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
-A random sample of ${{params.college_students}}$ college students where ${{params_p_hat}}$% are vegetarians would be considered unusual.
+A random sample of ${{params.college_students}}$ college students where ${{params.p_hat}}$% are vegetarians would be considered unusual.
 
 ### Answer Section
 
-- {{ params_part3.ans1.value }}
-- {{ params_part3.ans2.value }}
-
-### pl-answer-panel
-
-$SE\_{\hat{p}}=0.0243$, and $\hat{p}=0.12$ is only $\frac{0.12-0.08}{0.0243} = 1.65$ $SEs$ away from the mean, which $0.0243$ would not be considered unusual.
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
-A random sample of ${{params.college_students2}}$ college students where ${{params_p_hat}}$% are vegetarians would be considered unusual.
+A random sample of ${{params.college_students2}}$ college students where ${{params.p_hat}}$% are vegetarians would be considered unusual.
 
 ### Answer Section
 
-- {{ params_part4.ans1.value }}
-- {{ params_part4.ans2.value }}
-
-### pl-answer-panel
-
-$\hat{p}=0.12$ is $2.32$ standard errors away from the mean, which is often considered unusual.
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Part 5
 
@@ -143,12 +146,8 @@ The standard error would be reduced by one-half if we increased the sample size 
 
 ### Answer Section
 
-- {{ params_part5.ans1.value }}
-- {{ params_part5.ans2.value }}
-
-### pl-answer-panel
-
-Decreases the $SE$ by a factor of $\frac{1}{\sqrt{2}}$.
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
 
 ## Attribution
 

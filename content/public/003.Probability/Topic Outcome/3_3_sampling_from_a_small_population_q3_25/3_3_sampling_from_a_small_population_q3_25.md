@@ -53,21 +53,27 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Chips in a bag
-    params_description_num1: 4
-    params_description_num2: 6
-    params_description_num3: 1
-    params_description_n1: 10
-    params_description_n: 11
-    params_description_blue1: 5
-    params_part4_ans1_value: 'Yes'
-    params_part4_ans1_feedback: Incorrect. Removing one chip meaningfully changes
-      the probability of what might be drawn next.
-    params_part4_ans2_value: 'No'
-    params_part4_ans2_feedback: Correct!
+    params:
+      vars:
+        title: Chips in a bag
+      description:
+        num1: 9
+        num2: 4
+        num3: 4
+        n1: 16
+        n: 17
+        blue1: 3
+      part4:
+        ans1:
+          value: 'Yes'
+          feedback: Incorrect. Removing one chip meaningfully changes the probability
+            of what might be drawn next.
+        ans2:
+          value: 'No'
+          feedback: Correct!
 ---
-# {{ params_vars_title }}
-Imagine you have a bag containing ${{ params_description_num1 }}$ red, ${{ params_description_num2 }}$ blue, and ${{ params_description_num3 }}$ orange chips.
+# {{ params.vars.title }}
+Imagine you have a bag containing ${{ params.description.num1 }}$ red, ${{ params.description.num2 }}$ blue, and ${{ params.description.num3 }}$ orange chips.
 
 ## Part 1
 
@@ -77,10 +83,6 @@ Suppose you draw a chip and it is blue. If drawing without replacement, what is 
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-${{ params_description_blue1 }} / {{ params_description_n1 }} \approx {{ correct_answers.part1_ans }}$
-
 ## Part 2
 
 Suppose you draw a chip and it is orange, and then you draw a second chip without replacement. What is the probability this second chip is blue?
@@ -88,10 +90,6 @@ Suppose you draw a chip and it is orange, and then you draw a second chip withou
 ### Answer Section
 
 Please enter a numeric value in.
-
-### pl-answer-panel
-
-${{ params_description_num2 }} / {{ params_description_n1 }} \approx {{ correct_answers.part2_ans }}$
 
 ## Part 3
 
@@ -101,18 +99,14 @@ If drawing without replacement, what is the probability of drawing two blue chip
 
 Please enter a numeric value in.
 
-### pl-answer-panel
-
-$\frac{{{ params_description_num2 }}}{{{ params_description_n }}} \times \frac{{{ params_description_blue1 }}}{{{ params_description_n1 }}} \approx {{ correct_answers.part3_ans }}$
-
 ## Part 4
 
 When drawing without replacement, are the draws independent? Explain.
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Attribution
 
