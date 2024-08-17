@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 30.9
-      sigma: 14.9
-      sample_size: 33
-      alpha: 0.05
-      alpha_one_tail: 0.025
-      confidence: 95
-      z_score: 1.96
-      ebm: 5.0837638645302
-      fake_sample_size: 99
+      x_bar: 30.5
+      sigma: 14.6
+      sample_size: 29
+      alpha: 0.1
+      alpha_one_tail: 0.05
+      confidence: 90
+      z_score: 1.645
+      ebm: 4.4598449369982545
+      fake_sample_size: 87
       fake_confidence: 99
       part4:
         ans1:
-          value: The mean age of a sample of 33 Foothill College Students
+          value: The mean age of a sample of 29 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 33 Foothill College Students
+          value: The most frequent age of a sample of 29 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -160,22 +160,22 @@ myst:
       part12:
         option1:
           name: alpha-correct
-          value: $\frac{\alpha}{2} = 0.025$
+          value: $\frac{\alpha}{2} = 0.05$
         option2:
-          value: $\alpha = 0.05$
+          value: $\alpha = 0.1$
         option3:
-          value: $\alpha = 0.025$
+          value: $\alpha = 0.05$
         option4:
-          value: $\frac{\alpha}2 = 0.05$
+          value: $\frac{\alpha}2 = 0.1$
         option5:
-          value: '0.97'
+          value: '0.95'
         option6:
-          value: 95%
+          value: 90%
         option7:
-          value: '5.08'
+          value: '4.46'
         statement1:
           value: a?
-          matches: '0.95'
+          matches: '0.90'
         statement2:
           value: b?
           matches: alpha-correct
@@ -184,29 +184,29 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '25.82'
+          matches: '26.04'
         statement5:
           value: e?
-          matches: '30.90'
+          matches: '30.50'
         statement6:
           value: f?
-          matches: '35.98'
+          matches: '34.96'
       part13:
         ans1:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 90% confident that the true mean age for Winter Foothill College
             students is between (lower_bound) and (upper_bound).
           feedback: Nice work!
         ans2:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 90% confident that the true mean age for Winter Foothill College
             students is no less than (lower_bound).
           feedback: Please try again!
         ans3:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 90% confident that the true mean age for Winter Foothill College
             students is no more than (upper_bound).
           feedback: Please try again!
         ans4:
-          value: We are 95% confident that the true mean age for Winter Foothill College
-            students is 30.9.
+          value: We are 90% confident that the true mean age for Winter Foothill College
+            students is 30.5.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between

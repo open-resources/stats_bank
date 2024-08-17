@@ -69,9 +69,9 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1331
-        p: 60.0
-        confidence_level: 90.0
+        n: 1936
+        p: 53.0
+        confidence_level: 98.0
         lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
           args:
@@ -88,13 +88,13 @@ myst:
           - -1
           - 0
         - !!binary |
-          A3gLJCh+4j8=
-        lower_bound_percent: 58
+          zH9Iv30d4D8=
+        lower_bound_percent: 50
         upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          Y+5aQj7o4z8=
-        upper_bound_percent: 62
+          INJvXwfO4T8=
+        upper_bound_percent: 56
       part1:
         ans1:
           value: Yes. The sample is a perfect representation of all high school seniors.
@@ -112,19 +112,19 @@ myst:
           feedback: Correct!
       part5:
         ans1:
-          value: 90% confidence means that if we repeated this survey 100 times, 90
+          value: 98% confidence means that if we repeated this survey 100 times, 98
             of the results would fall within this interval.
           feedback: Incorrect.
         ans2:
-          value: 90% confidence means that we are 90% certain that the true proportion
+          value: 98% confidence means that we are 98% certain that the true proportion
             is within this interval.
           feedback: Incorrect.
         ans3:
-          value: 90% confidence means that 90% of the time the true proportion will
+          value: 98% confidence means that 98% of the time the true proportion will
             fall within this interval.
           feedback: Incorrect.
         ans4:
-          value: 90% of such random samples would produce a 90% confidence interval
+          value: 98% of such random samples would produce a 98% confidence interval
             that includes the true proportion.
           feedback: Correct!
       part6:

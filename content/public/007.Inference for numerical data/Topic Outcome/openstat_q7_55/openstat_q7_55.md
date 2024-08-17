@@ -66,14 +66,14 @@ myst:
         - -1
         - 0
       - !!binary |
-        7FG4HoXrCUA=
-      sample_size: 192
+        mpmZmZmZC0A=
+      sample_size: 190
       sample_std: !!python/object/apply:numpy.core.multiarray.scalar
       - *id001
       - !!binary |
-        uB6F61G4+j8=
-      confidence_level: 94
-      n: 192
+        16NwPQrX/z8=
+      confidence_level: 88
+      n: 190
       part3:
         ans1:
           value: 'Independence: it is a random sample, so we can assume that the students
@@ -89,7 +89,7 @@ myst:
             outliers, so the normality condition is reasonable.
           feedback: Great! You got it.
         ans4:
-          value: We are $94$% confident that undergraduate students have been in (lower_interval)
+          value: We are $88$% confident that undergraduate students have been in (lower_interval)
             to (upper_interval) exclusive relationships, on average.
           feedback: Great! You got it.
         ans5:

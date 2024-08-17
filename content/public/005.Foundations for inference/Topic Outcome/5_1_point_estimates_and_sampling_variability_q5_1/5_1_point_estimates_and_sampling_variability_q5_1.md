@@ -33,7 +33,7 @@ myst:
       vars:
         title: Identify the parameter, Part I
         question: In a sample of one hundred recent college graduates, it is found
-          that $ 85 $ percent expect to get a job within one year of their graduation
+          that $ 75 $ percent expect to get a job within one year of their graduation
           date.
         answer_panel_feedback: Proportion. Each student reports whether or not s/he
           expects to get a job, so this is a categorical variable and we use a proportion.
