@@ -44,8 +44,9 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+      selected_scenario_part1: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part1:
         ans1:
           value: Paired.
@@ -71,8 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part4:
         ans1:
           value: Paired.

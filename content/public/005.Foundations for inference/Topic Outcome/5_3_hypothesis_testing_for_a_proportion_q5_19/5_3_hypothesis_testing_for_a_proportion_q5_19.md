@@ -42,19 +42,19 @@ myst:
       vars:
         title: Cyberbullying rates
       part2:
-        num1: 58
+        num1: 75
         ans1:
-          value: Yes, the claim is supported since 58% is greater than the lower limit
+          value: Yes, the claim is supported since 75% is greater than the lower limit
             of the confidence interval.
           feedback: Try again please!
         ans2:
           value: Yes, the claim is supported because the upper limit of the confidence
-            interval is 54%, which is close to 58%.
+            interval is 70%, which is close to 75%.
           feedback: Try again please!
         ans3:
-          value: No, the claim is not supported since 58% falls outside the confidence
+          value: No, the claim is not supported since 75% falls outside the confidence
             interval.
-          feedback: Correct! The value of 58% lies outside of the interval, so we
+          feedback: Correct! The value of 75% lies outside of the interval, so we
             have convincing evidence that the researcher's conjecture is wrong.
         ans4:
           value: No, the claim is not supported because the confidence interval is
@@ -75,14 +75,14 @@ myst:
             would be narrower than a 95% confidence interval.
           feedback: Correct! A 90% confidence interval will be narrower than a 95%
             confidence interval. Even without calculating the interval, we can tell
-            that 58% would not fall in the interval, and we would reject the researcher's
+            that 75% would not fall in the interval, and we would reject the researcher's
             conjecture based on a 90% confidence level as well.
         ans4:
           value: It cannot be determined without calculating the 90% confidence interval.
           feedback: Try again please!
       description:
-        num1: 51
-        num2: 54
+        num1: 56
+        num2: 70
         num3: 95
       part1:
         ans1:
@@ -91,7 +91,7 @@ myst:
           feedback: Try again please!
         ans2:
           value: Yes, the claim is supported, but only because the interval is above
-            51%, not necessarily indicating a majority.
+            56%, not necessarily indicating a majority.
           feedback: Try again please!
         ans3:
           value: Yes, the claim is supported since the entire interval lies above

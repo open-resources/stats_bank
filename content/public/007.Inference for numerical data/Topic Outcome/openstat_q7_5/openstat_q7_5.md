@@ -46,12 +46,12 @@ myst:
       vars:
         title: Working backwards, Part I
       description:
-        confidence_level: 99
-        lower: 20.199
-        upper: 23.89
-        sample_size: 34
-        mean: 22.0445
-        moe: 1.8454999999999995
+        confidence_level: 97
+        lower: 20.059
+        upper: 23.468
+        sample_size: 38
+        mean: 21.7635
+        moe: 1.7044999999999995
         t_crit: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
           args:
@@ -68,11 +68,11 @@ myst:
           - -1
           - 0
         - !!binary |
-          nYnuJMDdBUA=
+          dpDSlmAOAkA=
         s: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          hxFUQg9/D0A=
+          lyt09BafEkA=
 ---
 # {{ params.vars.title }}
 A ${{ params.description.confidence_level }}$% confidence interval for a population mean, $\mu$, is given as (${{ params.description.lower }}$, ${{ params.description.upper }}$). This confidence interval is based on a simple random sample of ${{ params.description.sample_size }}$ observations. Assume that all conditions necessary for inference are satisfied. Use the $t$-distribution in any calculations.
