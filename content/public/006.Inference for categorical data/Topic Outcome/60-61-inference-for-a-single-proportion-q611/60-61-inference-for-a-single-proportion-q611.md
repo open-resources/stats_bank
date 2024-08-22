@@ -72,14 +72,14 @@ myst:
     params:
       vars:
         title: National Health Plan, Part I
-        sample_size: 598
-        sample_proportion: 53
+        sample_size: 514
+        sample_proportion: 56
       part1:
         ans1:
-          value: '$H_0: p = 0.53$, $H_A: p ≠ 0.5$'
+          value: '$H_0: p = 0.56$, $H_A: p ≠ 0.5$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.53$, $H_A: p = 0.5$'
+          value: '$H_0: p = 0.56$, $H_A: p = 0.5$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p ≤ 0.5$, $H_A: p > 0.5$'
@@ -102,30 +102,32 @@ myst:
             evidence that the support is different from 0.5, and since the data provide
             a point estimate above 0.5, we have strong evidence to support this claim
             by the TV pundit.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: Since the p-value is greater than or equal to 0.05, we fail to reject
             $H_0$. We do not have strong evidence that the support is different from
             0.5, and since the data provide a point estimate above 0.5, we do not
             have strong evidence to support this claim by the TV pundit.
-          feedback: Correct!
+          feedback: Try again please!
       part7:
         ans1:
-          value: No. Since 53% of Independents support the plan, the confidence interval
-            is unlikely to include 0.5, indicating an unbalanced opinion among Independents.
+          value: Yes. Since 56% of Independents support the plan, the confidence interval
+            is likely to include 0.5 as well, showing a balanced opinion among Independents.
           feedback: Try again please!
         ans2:
           value: Maybe. It's difficult to determine without knowing the sample size
             and margin of error used in the poll.
           feedback: Try again please!
         ans3:
-          value: Yes, you would expect the value to lie within a 95% confidence interval
-            since the confidence interval and the hypothesis test should generally
-            align.
+          value: No. Generally, we expect a hypothesis test and a confidence interval
+            to align, so we would expect the confidence interval to show a range of
+            plausible values entirely above 0.5. However, if the confidence level
+            is misaligned (e.g., a 99% confidence level and a α = 0.05 significance
+            level), then this is no longer generally true.
           feedback: Correct!
         ans4:
-          value: Yes. The percentage of Independents supporting the plan is sufficiently
-            high to have a significant impact on the confidence interval.
+          value: No. The percentage of Independents supporting the plan is too low
+            to have any impact on the confidence interval.
           feedback: Try again please!
 ---
 # {{ params.vars.title }}

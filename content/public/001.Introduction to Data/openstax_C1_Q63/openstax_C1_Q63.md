@@ -34,7 +34,7 @@ myst:
         title: San Jose Park Use
         every: 9
       part1:
-        measurement: Duration (amount of time)
+        measurement: Age
         ans1:
           value: qualitative
           feedback: Try again please!

@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+      selected_scenario_part1: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part2: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part2:
         ans1:
           value: Paired.
@@ -62,24 +62,24 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part3: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part3:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part4: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+          feedback: Correct!
+      selected_scenario_part4: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.
