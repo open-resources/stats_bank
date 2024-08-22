@@ -81,7 +81,7 @@ myst:
           value: It cannot be determined without calculating the 90% confidence interval.
           feedback: Try again please!
       description:
-        num1: 56
+        num1: 59
         num2: 70
         num3: 95
       part1:
@@ -91,7 +91,7 @@ myst:
           feedback: Try again please!
         ans2:
           value: Yes, the claim is supported, but only because the interval is above
-            56%, not necessarily indicating a majority.
+            59%, not necessarily indicating a majority.
           feedback: Try again please!
         ans3:
           value: Yes, the claim is supported since the entire interval lies above

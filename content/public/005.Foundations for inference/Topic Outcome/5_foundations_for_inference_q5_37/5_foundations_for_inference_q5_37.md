@@ -53,7 +53,7 @@ myst:
       vars:
         title: Gender pay gap in medicine
       part2:
-        num1: 18
+        num1: 19
         num2: 23
         num3: 23
         ans1:
@@ -88,11 +88,11 @@ myst:
           value: '0'
           feedback: Try again please!
         ans4:
-          value: '0.783'
+          value: '0.826'
           feedback: Correct!
       part4:
         ans1:
-          value: '0.783'
+          value: '0.826'
           feedback: Try again please!
         ans2:
           value: '0.104'
@@ -101,7 +101,7 @@ myst:
           value: '0.0001'
           feedback: Try again please!
         ans4:
-          value: '2.72'
+          value: '3.13'
           feedback: Correct!
       part5:
         ans1:

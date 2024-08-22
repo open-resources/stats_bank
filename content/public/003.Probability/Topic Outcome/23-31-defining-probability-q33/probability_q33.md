@@ -81,7 +81,7 @@ myst:
           value: '100'
           feedback: You got it!
       part4:
-        num1: 0.3
+        num1: 0.2
         ans1:
           value: '10'
           feedback: You got it!
