@@ -70,17 +70,17 @@ myst:
       vars:
         title: Swing voters
       description:
-        num1: 2463
-        num2: 0.35
-        num3: 0.24
-        num4: 0.18
-        num5: 0.17
-        num6: 0.08399999999999999
-        num22: 35.0
-        num33: 24.0
-        num44: 18.0
-        num55: 17.0
-        num66: 8.4
+        num1: 2548
+        num2: 0.43
+        num3: 0.28
+        num4: 0.13
+        num5: 0.3
+        num6: 0.12040000000000001
+        num22: 43.0
+        num33: 28.0
+        num44: 13.0
+        num55: 30.0
+        num66: 12.04
       part1:
         ans1:
           value: 'Yes'
@@ -90,22 +90,22 @@ myst:
           feedback: Correct! There are voters who are both independent and swing voters.
       part2:
         ans1:
-          value: $A$ = 17.0%, $B$ = 18.0%, $C$ = 6.0%
+          value: $A$ = 30.0%, $B$ = 13.0%, $C$ = 15.0%
           feedback: Correct!
         ans2:
-          value: $A$ = 17.0%, $B$ = 6.0%, $C$ = 18.0%
+          value: $A$ = 30.0%, $B$ = 15.0%, $C$ = 13.0%
           feedback: Try again please!
         ans3:
-          value: $A$ = 18.0%, $B$ = 17.0%, $C$ = 6.0%
+          value: $A$ = 13.0%, $B$ = 30.0%, $C$ = 15.0%
           feedback: Try again please!
         ans4:
-          value: $A$ = 18.0%, $B$ = 6.0%, $C$ = 17.0%
+          value: $A$ = 13.0%, $B$ = 15.0%, $C$ = 30.0%
           feedback: Try again please!
         ans5:
-          value: $A$ = 6.0%, $B$ = 17.0%, $C$ = 18.0%
+          value: $A$ = 15.0%, $B$ = 30.0%, $C$ = 13.0%
           feedback: Try again please!
         ans6:
-          value: $A$ = 6.0%, $B$ = 18.0%, $C$ = 17.0%
+          value: $A$ = 15.0%, $B$ = 13.0%, $C$ = 30.0%
           feedback: Try again please!
       part6:
         ans1:

@@ -79,7 +79,7 @@ myst:
         title: Joint and Conditional Probabilities
       num1: 0.5
       num2: 0.8
-      num3: 0.2
+      num3: 0.1
       part1:
         ans1:
           value: 'Yes'

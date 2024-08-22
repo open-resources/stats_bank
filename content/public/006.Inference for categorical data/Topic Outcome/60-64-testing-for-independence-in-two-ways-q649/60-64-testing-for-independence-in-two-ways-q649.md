@@ -74,9 +74,9 @@ myst:
       vars:
         title: Browsing on the mobile device.
         chinese_proportion: 0.38
-        sample_size: 1347
-        sample_proportion: 36.0
-        Z: -1.5122589047205592
+        sample_size: 1924
+        sample_proportion: 9.0
+        Z: -26.206733281161718
         p_value: !!python/object/apply:numpy.core.multiarray.scalar
         - !!python/object/apply:numpy.dtype
           args:
@@ -93,15 +93,15 @@ myst:
           - -1
           - 0
         - !!binary |
-          Srd2AC2zwD8=
-        lower_bound: 0.3343661693470895
-        upper_bound: 0.38563383065291046
+          i4nlONdTpyA=
+        lower_bound: 0.0772122102156953
+        upper_bound: 0.1027877897843047
       part1:
         ans1:
-          value: '$H_0: p = 0.36$, $H_A: p ≠ 0.38$'
+          value: '$H_0: p = 0.09$, $H_A: p ≠ 0.38$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.36$, $H_A: p = 0.38$'
+          value: '$H_0: p = 0.09$, $H_A: p = 0.38$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
@@ -116,13 +116,13 @@ myst:
             their cell phones to access the internet is different than the Chinese
             proportion of 38%, and the data indicate that the proportion is lower
             in the US.
-          feedback: Try again please!
-        ans2:
-          value: As the p-value is greater than or equal to 0.05, we fail to reject
-            $H_0$, then the data does not provide strong evidence to show that the
-            proportion of Americans who only use their cell phones to access the internet
-            is different than the Chinese proportion of 38%.
           feedback: Correct!
+        ans2:
+          value: As the p-value is greater than 0.05, we fail to reject $H_0$, then
+            the data does not provide strong evidence to show that the proportion
+            of Americans who only use their cell phones to access the internet is
+            different than the Chinese proportion of 38%.
+          feedback: Try again please!
       part7:
         ans1:
           value: We are 95% confident that approximately [Lower bound] to [Upper bound]

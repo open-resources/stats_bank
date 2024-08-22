@@ -65,8 +65,8 @@ myst:
       vars:
         title: Marbles in an urn
       description:
-        num1: 9
-        num2: 6
+        num1: 3
+        num2: 2
         num3: 3
       part5:
         ans1:
