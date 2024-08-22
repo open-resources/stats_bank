@@ -74,9 +74,9 @@ myst:
       vars:
         title: Browsing on the mobile device.
         chinese_proportion: 0.38
-        sample_size: 1924
-        sample_proportion: 9.0
-        Z: -26.206733281161718
+        sample_size: 4558
+        sample_proportion: 1.0
+        Z: -51.46372781033087
         p_value: !!python/object/apply:numpy.core.multiarray.scalar
         - !!python/object/apply:numpy.dtype
           args:
@@ -93,15 +93,15 @@ myst:
           - -1
           - 0
         - !!binary |
-          i4nlONdTpyA=
-        lower_bound: 0.0772122102156953
-        upper_bound: 0.1027877897843047
+          AAAAAAAAAAA=
+        lower_bound: 0.0071114059773275135
+        upper_bound: 0.012888594022672487
       part1:
         ans1:
-          value: '$H_0: p = 0.09$, $H_A: p ≠ 0.38$'
+          value: '$H_0: p = 0.01$, $H_A: p ≠ 0.38$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.09$, $H_A: p = 0.38$'
+          value: '$H_0: p = 0.01$, $H_A: p = 0.38$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'

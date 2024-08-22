@@ -1,7 +1,7 @@
 ---
-title: Match the correlation, Part III
+title: Match the correlation, Part I
 topic: Introduction to linear regression
-author: Christina Yang
+author: Paula Wong-Chung
 source: original
 template_version: 1.4
 attribution: openintro-stats
@@ -9,10 +9,11 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
+- 8.1.1.1
 - 8.1.1.3
 - 8.1.1.4
 difficulty:
-- undefined
+- easy
 randomization:
 - undefined
 taxonomy:
@@ -22,12 +23,12 @@ span:
 length:
 - undefined
 tags:
-- CY
+- PW
 assets:
-- scatter_1.jpg
-- scatter_2.jpg
-- scatter_3.jpg
-- scatter_4.jpg
+- match_corr_1_u.jpg
+- match_corr_2_strong_pos.jpg
+- match_corr_3_weak_pos.jpg
+- match_corr_4_weak_neg.jpg
 part1:
   type: matching
   pl-customizations:
@@ -38,33 +39,28 @@ myst:
   substitutions:
     params:
       vars:
-        title: Match the correlation, Part III
+        title: Match the correlation, Part I
       correlations:
-      - -0.11
-      - -0.55
-      - 0.98
-      - 0.82
+      - 0.45
+      - 0.92
+      - 0.09
+      - -0.79
       part1:
         statement1:
           value: Plot 1
-          matches: $r=-0.11$
+          matches: $r=0.45$
         statement2:
           value: Plot 2
-          matches: $r=-0.55$
+          matches: $r=0.92$
         statement3:
           value: Plot 3
-          matches: $r=0.98$
+          matches: $r=0.09$
         statement4:
           value: Plot 4
-          matches: $r=0.82$
+          matches: $r=-0.79$
 ---
 # {{ params.vars.title }}
 Match each correlation to the corresponding scatterplot.
-
-<!-- <img src="scatter_1.jpg" width=400>
-<img src="scatter_2.jpg" width=400>
-<img src="scatter_3.jpg" width=400>
-<img src="scatter_4.jpg" width=400> -->
 
 <pl-figure file-name="figure 1.png" type="dynamic" width="500px"></pl-figure>
 

@@ -145,15 +145,15 @@ myst:
             not have an opinion on this issue is different from that of non-college
             graduates.
           feedback: Try again please!
-      yes_support: 153
-      yes_oppose: 177
-      yes_do_not_know: 96
-      yes_total: 426
-      no_support: 131
-      no_oppose: 122
-      no_do_not_know: 122
-      no_total: 375
-      total: 801
+      yes_support: 140
+      yes_oppose: 195
+      yes_do_not_know: 93
+      yes_total: 428
+      no_support: 135
+      no_oppose: 124
+      no_do_not_know: 135
+      no_total: 394
+      total: 822
 ---
 # {{ params.vars.title }}
 A survey asked {{ params.total }} randomly sampled registered voters in California "Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?" Below is the distribution of responses, separated based on whether or not the respondent graduated from college.

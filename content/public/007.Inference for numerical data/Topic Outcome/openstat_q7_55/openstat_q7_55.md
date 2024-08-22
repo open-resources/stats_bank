@@ -50,29 +50,10 @@ myst:
     params:
       vars:
         title: Exclusive relationships
-      sample_mean: !!python/object/apply:numpy.core.multiarray.scalar
-      - &id001 !!python/object/apply:numpy.dtype
-        args:
-        - f8
-        - false
-        - true
-        state: !!python/tuple
-        - 3
-        - <
-        - null
-        - null
-        - null
-        - -1
-        - -1
-        - 0
-      - !!binary |
-        PQrXo3A9DEA=
+      sample_mean: 3.42
       sample_size: 195
-      sample_std: !!python/object/apply:numpy.core.multiarray.scalar
-      - *id001
-      - !!binary |
-        16NwPQrX+z8=
-      confidence_level: 88
+      sample_std: 1.69
+      confidence_level: 91
       n: 195
       part3:
         ans1:
@@ -89,7 +70,7 @@ myst:
             outliers, so the normality condition is reasonable.
           feedback: Great! You got it.
         ans4:
-          value: We are $88$% confident that undergraduate students have been in (lower_interval)
+          value: We are $91$% confident that undergraduate students have been in (lower_interval)
             to (upper_interval) exclusive relationships, on average.
           feedback: Great! You got it.
         ans5:

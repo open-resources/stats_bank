@@ -67,7 +67,7 @@ myst:
       description:
         num1: 3
         num2: 2
-        num3: 3
+        num3: 2
       part5:
         ans1:
           value: 'Yes'

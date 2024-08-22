@@ -36,11 +36,11 @@ myst:
     params:
       vars:
         title: Social experiment, Part I
-      inter_provoc: 12
-      non_inter_provoc: 19
-      total_provoc: 31
-      inter_cons: 17
-      non_inter_cons: 14
+      inter_provoc: 14
+      non_inter_provoc: 20
+      total_provoc: 34
+      inter_cons: 19
+      non_inter_cons: 12
       total_cons: 31
       part1:
         ans1:
