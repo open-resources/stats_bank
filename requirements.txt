@@ -2,9 +2,9 @@ matplotlib
 altair
 vl-convert-python
 pandas>1.2
-numpy<2.0
+numpy
 docopt>0.6.1
-PyYAML>5.4
+PyYAML<6.0.2
 selenium<4.3
 linkify-it-py
 problem_bank_scripts
