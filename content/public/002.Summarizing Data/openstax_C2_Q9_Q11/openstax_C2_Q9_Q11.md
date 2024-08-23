@@ -60,28 +60,28 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>18.5</td>
-        <td>20.7</td>
+        <td>7.2</td>
+        <td>12.9</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>17.7</td>
-        <td>22.1</td>
+        <td>17.0</td>
+        <td>23.3</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>6.7</td>
-        <td>21.5</td>
+        <td>24.3</td>
+        <td>18.1</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>29.3</td>
-        <td>24.5</td>
+        <td>25.0</td>
+        <td>15.2</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>15.7</td>
-        <td>3.6</td>
+        <td>26.3</td>
+        <td>26.0</td>
         </tr><tr>
         <th>West End</th>
-        <td>12.2</td>
-        <td>7.6</td>
+        <td>0.1</td>
+        <td>4.5</td>
         </tr>
         </table>
       graph_instructions:
@@ -91,7 +91,7 @@ myst:
       - The y-axis should be labeled 'School'.
       - The bars should be appropriately labelled.
       - The bars should be colored red.
-      - The bars should have a blue border.
+      - The bars should have a darkgreen border.
       - The bars should have a density of 1.
       - The plot should be horizontal.
       description: David County has six high schools. Each school sent students to
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '18.5'
-        - '17.7'
-        - '6.7'
-        - '29.3'
-        - '15.7'
-        - '12.2'
+        - '7.2'
+        - '17.0'
+        - '24.3'
+        - '25.0'
+        - '26.3'
+        - '0.1'
         title: Students in Science Competition from Each School
         xlab: Proportion (%)
         ylab: School
         color: red
-        border: blue
+        border: darkgreen
         density: 1
         horiz: 'True'
-        std_plot: std_hqp0_c0j_plot.png
-        ref_plot: ref_f54y0zs0_plot.png
+        std_plot: std_c1od40tn_plot.png
+        ref_plot: ref_kux3q1pn_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_hqp0_c0j_plot.png
+        filename: std_c1od40tn_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_f54y0zs0_plot.png
+        filename: ref_kux3q1pn_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

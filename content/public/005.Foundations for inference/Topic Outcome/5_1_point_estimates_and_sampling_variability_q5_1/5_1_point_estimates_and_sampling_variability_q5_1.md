@@ -32,10 +32,11 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a survey, one hundred college students are asked whether or not
-          they cited information from Wikipedia in their papers.
-        answer_panel_feedback: Proportion. Each student reports Yes or No, so this
-          is a categorical variable and we use a proportion.
+        question: In a sample of one hundred recent college graduates, it is found
+          that $ 88 $ percent expect to get a job within one year of their graduation
+          date.
+        answer_panel_feedback: Proportion. Each student reports whether or not s/he
+          expects to get a job, so this is a categorical variable and we use a proportion.
       part1:
         ans1:
           value: Proportion

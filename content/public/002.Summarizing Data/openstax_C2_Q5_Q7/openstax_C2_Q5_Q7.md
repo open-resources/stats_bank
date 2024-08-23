@@ -52,46 +52,46 @@ myst:
     params:
       vars:
         title: Line Graphs
-        description: In a survey, 32 people were asked how many times they visited
+        description: In a survey, 33 people were asked how many times they visited
           a store before making a major purchase.
         graph_title: Number of times in store before making a major purchase
         x_axis: Number of times in store
         y_axis: Frequency
         overplotted: should not
         style: l
-        color: orange
+        color: purple
       _workspace_files:
       - name: data.csv
         contents: |
           Number of times in store,Frequency
-          1,4
-          2,3
-          3,14
+          1,2
+          2,6
+          3,17
           4,6
-          5,5
+          5,2
       df: null
       autograding:
-        std_plot: std_pymgixm8_plot.png
-        ref_plot: ref_09z7_za7_plot.png
+        std_plot: std_g0vaqpie_plot.png
+        ref_plot: ref_pa1u9t3a_plot.png
         csv: |
           Number of times in store,Frequency
-          1,4
-          2,3
-          3,14
+          1,2
+          2,6
+          3,17
           4,6
-          5,5
+          5,2
       _images:
       - label: Your Line Graph
-        filename: std_pymgixm8_plot.png
+        filename: std_g0vaqpie_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_09z7_za7_plot.png
+        filename: ref_pa1u9t3a_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDQKMiwzCjMsMTQKNCw2CjUsNQo=
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiw2CjMsMTcKNCw2CjUsMgo=
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDQKMiwzCjMsMTQKNCw2CjUsNQo=
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiw2CjMsMTcKNCw2CjUsMgo=
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }}  The results are shown in the table below

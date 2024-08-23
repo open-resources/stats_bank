@@ -36,9 +36,9 @@ myst:
       description:
         sample_size: 152
         num2: 0.54
-        num3: 0.69
+        num3: 0.74
         num4: 54
-        num5: 69
+        num5: 74
       part1:
         ans1:
           value: $H_0$ should be $p = 0.54$ (Null hypothesis should state that the
@@ -49,7 +49,7 @@ myst:
             sign, and, (4) It should reference the null value, $p_0$ = 0.54, not the
             observed sample proportion.
         ans2:
-          value: ' $H_0: p < 0.69$, $H_A: p > 0.54$ (Your friend''s proposed hypotheses
+          value: ' $H_0: p < 0.74$, $H_A: p > 0.54$ (Your friend''s proposed hypotheses
             are incorrect as indicated in the solution.)'
           feedback: ' Try Again! (1) The hypotheses should be about the population
             proportion ($p$), not the sample proportion. (2) The null hypothesis should

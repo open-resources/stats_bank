@@ -36,12 +36,12 @@ myst:
     params:
       vars:
         title: Social experiment, Part I
-      inter_provoc: 14
-      non_inter_provoc: 20
-      total_provoc: 34
-      inter_cons: 19
+      inter_provoc: 8
+      non_inter_provoc: 19
+      total_provoc: 27
+      inter_cons: 18
       non_inter_cons: 12
-      total_cons: 31
+      total_cons: 30
       part1:
         ans1:
           value: This is not a randomized experiment, and it is unclear whether people
@@ -53,10 +53,10 @@ myst:
         ans3:
           value: There are not enough interventions under the provocative scenario,
             so the success-failure condition does not hold.
-          feedback: Incorrect!
+          feedback: Correct!
         ans4:
           value: The success-failure condition is not being satisfied.
-          feedback: Incorrect!
+          feedback: Correct!
         ans5:
           value: This is a randomized experiment, and it is clear that people would
             be affected by the behavior of their peers.
@@ -67,12 +67,10 @@ myst:
         ans7:
           value: There are sufficient interventions under all of the scenarios, so
             the success-failure condition holds.
-          feedback: Incorrect! While this is true, it does not justify why the Central
-            Limit Theorem does not hold.
+          feedback: Incorrect!
         ans8:
           value: The success-failure condition is being satisfied.
-          feedback: Incorrect! While this is true, it does not justify why the Central
-            Limit Theorem does not hold.
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 A "social experiment" conducted by a TV program questioned what people do when they see a very obviously bruised woman getting picked on by her boyfriend. On two different occasions at the same restaurant, the same couple was depicted. In one scenario the woman was dressed "provocatively" and in the other scenario the woman was dressed "conservatively". The table below shows how many restaurant diners were present under each scenario, and whether or not they intervened.

@@ -69,8 +69,8 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1860
-        p: 52.0
+        n: 1333
+        p: 59.0
         confidence_level: 98.0
         lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
@@ -88,13 +88,13 @@ myst:
           - -1
           - 0
         - !!binary |
-          HhZqTfOO3z8=
-        lower_bound_percent: 49
+          cM6I0t7g4T8=
+        lower_bound_percent: 56
         upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          OdbFbTSA4T8=
-        upper_bound_percent: 55
+          UiegibDh4z8=
+        upper_bound_percent: 62
       part1:
         ans1:
           value: Yes. The sample is a perfect representation of all high school seniors.

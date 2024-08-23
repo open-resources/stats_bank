@@ -52,8 +52,8 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1961
-        proportion: 60.0
+        sample_size: 1524
+        proportion: 67.0
         margin_of_error: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
           args:
@@ -70,26 +70,26 @@ myst:
           - -1
           - 0
         - !!binary |
-          XI/C9ShcAUA=
+          4XoUrkfhAkA=
         lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          CtejcD3qTEA=
+          KVyPwvUoUEA=
         upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          9ihcj8IVT0A=
+          16NwPQpXUUA=
         margin_of_error_part4: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          8tJNYhBY8T8=
-        selected_option1: If we considered many random samples of 1961 Americans,
-          and we calculated 95% confidence intervals for each, 95% of these intervals
-          would include the true population proportion of Americans who think it's
-          the government's responsibility to promote equality between men and women.
-        selected_option2: The margin of error is independent of the variability in
-          the responses from the sample population; it only depends on the sample
-          size and confidence level.
+          4XoUrkfh8j8=
+        selected_option1: If the sample size were increased from 1559 Americans to
+          5000 Americans while keeping the confidence level and margin of error unchanged,
+          the width of the confidence intervals would decrease. This would lead to
+          a higher percentage of intervals that include the true population proportion
+          in comparison to the initial scenario with 1559 Americans.
+        selected_option2: In order to decrease the margin of error to 0.023607498937268722%,
+          we would need to quadruple (multiply by 4) the sample size.
       part1:
         ans1:
           value: 'True'
