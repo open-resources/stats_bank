@@ -4,7 +4,7 @@ vl-convert-python
 pandas>1.2
 numpy
 docopt>0.6.1
-PyYAML<6.0.2
+PyYAML
 selenium<4.3
 linkify-it-py
 problem_bank_scripts
