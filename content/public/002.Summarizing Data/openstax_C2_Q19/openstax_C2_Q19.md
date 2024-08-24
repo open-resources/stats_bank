@@ -62,53 +62,53 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>26</td>
+        <td>20</td>
         </tr><tr>
         <td>260–289</td>
-        <td>10</td>
+        <td>14</td>
         </tr><tr>
         <td>290–319</td>
-        <td>3</td>
+        <td>5</td>
         </tr><tr>
         <td>320–349</td>
-        <td>10</td>
+        <td>4</td>
         </tr><tr>
         <td>350–379</td>
         <td>2</td>
         </tr><tr>
         <td>380–409</td>
-        <td>1</td>
+        <td>3</td>
         </tr><tr>
         <td>410–439</td>
-        <td>3</td>
+        <td>2</td>
         </tr>
         </table>
       _workspace_files:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,26
-          260–289,10
-          290–319,3
-          320–349,10
+          230–259,20
+          260–289,14
+          290–319,5
+          320–349,4
           350–379,2
-          380–409,1
-          410–439,3
+          380–409,3
+          410–439,2
       autograding:
-        std_plot: std_dkynxvui_plot.png
-        ref_plot: ref_qwu8zzk2_plot.png
+        std_plot: std_8vo7q3mt_plot.png
+        ref_plot: ref_lrfxauwo_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_dkynxvui_plot.png
+        filename: std_8vo7q3mt_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref_qwu8zzk2_plot.png
+        filename: ref_lrfxauwo_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSwzCjMyMOKAkzM0OSwxMAozNTDigJMzNzksMgozODDigJM0MDksMQo0MTDigJM0MzksMwo=
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjAKMjYw4oCTMjg5LDE0CjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw0CjM1MOKAkzM3OSwyCjM4MOKAkzQwOSwzCjQxMOKAkzQzOSwyCg==
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSwzCjMyMOKAkzM0OSwxMAozNTDigJMzNzksMgozODDigJM0MDksMQo0MTDigJM0MzksMwo=
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjAKMjYw4oCTMjg5LDE0CjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw0CjM1MOKAkzM3OSwyCjM4MOKAkzQwOSwzCjQxMOKAkzQzOSwyCg==
 ---
 # {{ params.vars.title }}
 

@@ -52,37 +52,12 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1575
-        proportion: 80.0
-        margin_of_error: !!python/object/apply:numpy.core.multiarray.scalar
-        - &id001 !!python/object/apply:numpy.dtype
-          args:
-          - f8
-          - false
-          - true
-          state: !!python/tuple
-          - 3
-          - <
-          - null
-          - null
-          - null
-          - -1
-          - -1
-          - 0
-        - !!binary |
-          rkfhehSu/z8=
-        lower_bound: !!python/object/apply:numpy.core.multiarray.scalar
-        - *id001
-        - !!binary |
-          4XoUrkeBU0A=
-        upper_bound: !!python/object/apply:numpy.core.multiarray.scalar
-        - *id001
-        - !!binary |
-          H4XrUbh+VEA=
-        margin_of_error_part4: !!python/object/apply:numpy.core.multiarray.scalar
-        - *id001
-        - !!binary |
-          BFYOLbKd7z8=
+        sample_size: 1347
+        proportion: 38.0
+        margin_of_error: 2.59
+        lower_bound: 35.41
+        upper_bound: 40.59
+        margin_of_error_part4: 1.296
         selected_option1: If the sample size were increased from 1559 Americans to
           5000 Americans while keeping the confidence level and margin of error unchanged,
           the width of the confidence intervals would decrease. This would lead to

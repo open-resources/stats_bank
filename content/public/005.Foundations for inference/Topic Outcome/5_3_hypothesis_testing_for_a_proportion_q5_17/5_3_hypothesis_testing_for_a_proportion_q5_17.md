@@ -34,27 +34,27 @@ myst:
       vars:
         title: Online communication
       description:
-        sample_size: 168
-        num2: 0.61
-        num3: 0.67
-        num4: 61
-        num5: 67
+        sample_size: 148
+        num2: 0.58
+        num3: 0.72
+        num4: 58
+        num5: 72
       part1:
         ans1:
-          value: $H_0$ should be $p = 0.61$ (Null hypothesis should state that the
-            population proportion is equal to 0.61.)
+          value: $H_0$ should be $p = 0.58$ (Null hypothesis should state that the
+            population proportion is equal to 0.58.)
           feedback: Correct! (1) The hypotheses should be about the population proportion
             ($p$), not the sample proportion. (2) The null hypothesis should have
             an equal sign. (3) The alternative hypothesis should have a not-equals
-            sign, and, (4) It should reference the null value, $p_0$ = 0.61, not the
+            sign, and, (4) It should reference the null value, $p_0$ = 0.58, not the
             observed sample proportion.
         ans2:
-          value: ' $H_0: p < 0.67$, $H_A: p > 0.61$ (Your friend''s proposed hypotheses
+          value: ' $H_0: p < 0.72$, $H_A: p > 0.58$ (Your friend''s proposed hypotheses
             are incorrect as indicated in the solution.)'
           feedback: ' Try Again! (1) The hypotheses should be about the population
             proportion ($p$), not the sample proportion. (2) The null hypothesis should
             have an equal sign. (3) The alternative hypothesis should have a not-equals
-            sign, and, (4) It should reference the null value, $p_0$ = 0.61, not the
+            sign, and, (4) It should reference the null value, $p_0$ = 0.58, not the
             observed sample proportion.'
 ---
 # {{ params.vars.title }}
