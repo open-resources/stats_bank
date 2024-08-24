@@ -52,46 +52,46 @@ myst:
     params:
       vars:
         title: Line Graphs
-        description: In a survey, 33 people were asked how many times they visited
+        description: In a survey, 49 people were asked how many times they visited
           a store before making a major purchase.
         graph_title: Number of times in store before making a major purchase
         x_axis: Number of times in store
         y_axis: Frequency
-        overplotted: should not
-        style: l
-        color: purple
+        overplotted: should
+        style: o
+        color: orange
       _workspace_files:
       - name: data.csv
         contents: |
           Number of times in store,Frequency
-          1,2
-          2,6
-          3,17
-          4,6
-          5,2
+          1,8
+          2,10
+          3,19
+          4,8
+          5,4
       df: null
       autograding:
-        std_plot: std_g0vaqpie_plot.png
-        ref_plot: ref_pa1u9t3a_plot.png
+        std_plot: std_a129ou6k_plot.png
+        ref_plot: ref_a098mg4__plot.png
         csv: |
           Number of times in store,Frequency
-          1,2
-          2,6
-          3,17
-          4,6
-          5,2
+          1,8
+          2,10
+          3,19
+          4,8
+          5,4
       _images:
       - label: Your Line Graph
-        filename: std_g0vaqpie_plot.png
+        filename: std_a129ou6k_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_pa1u9t3a_plot.png
+        filename: ref_a098mg4__plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiw2CjMsMTcKNCw2CjUsMgo=
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDgKMiwxMAozLDE5CjQsOAo1LDQK
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiw2CjMsMTcKNCw2CjUsMgo=
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDgKMiwxMAozLDE5CjQsOAo1LDQK
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }}  The results are shown in the table below

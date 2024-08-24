@@ -67,13 +67,13 @@ myst:
       vars:
         title: Taste Test
         sample: 76
-        p_value: 9.616588268879234e-05
+        p_value: 1.3071845366807722e-05
       part1:
         ans1:
-          value: '$H_0: p = 0.72$, $H_A: p ≠ 0.5$'
+          value: '$H_0: p = 0.75$, $H_A: p ≠ 0.5$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.72$, $H_A: p = 0.5$'
+          value: '$H_0: p = 0.75$, $H_A: p = 0.5$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'

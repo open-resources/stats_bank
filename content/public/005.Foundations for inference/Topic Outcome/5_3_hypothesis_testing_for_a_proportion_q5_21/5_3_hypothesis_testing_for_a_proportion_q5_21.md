@@ -55,8 +55,8 @@ myst:
       vars:
         title: Minimum wage, Part I
       description:
-        num1: 1072
-        num2: 39
+        num1: 955
+        num2: 41
       part1:
         ans1:
           value: '$H_0: p < 0.5$, $H_a: p > 0.5$'
@@ -65,7 +65,7 @@ myst:
           value: '$H_0: p = 0.5$, $H_a: p \neq 0.5$'
           feedback: Correct!
         ans3:
-          value: '$H_0: p = 0.39$, $H_a: p \neq 0.39$'
+          value: '$H_0: p = 0.41$, $H_a: p \neq 0.41$'
           feedback: Try again please!
         ans4:
           value: '$H_0: p > 0.5$, $H_a: p < 0.5$'
@@ -88,7 +88,7 @@ myst:
           value: p = 0
           feedback: Try again please!
         ans4:
-          value: p = 0.39
+          value: p = 0.41
           feedback: Try again please!
       part4:
         ans1:

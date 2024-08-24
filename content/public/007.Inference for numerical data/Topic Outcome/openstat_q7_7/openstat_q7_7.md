@@ -72,10 +72,10 @@ myst:
     params:
       vars:
         title: Sleep habits of New Yorkers
-      confidence_level: 80.0
+      confidence_level: 90.0
       sleep_hours: 8
       description:
-        n: 38
+        n: 37
         sample_mean: !!python/object/apply:numpy.core.multiarray.scalar
         - &id001 !!python/object/apply:numpy.dtype
           args:
@@ -92,20 +92,20 @@ myst:
           - -1
           - 0
         - !!binary |
-          hetRuB6FG0A=
+          MzMzMzMzHUA=
         s: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          exSuR+F6+D8=
+          MzMzMzMz9z8=
         min_val: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          ZmZmZmZmDkA=
+          exSuR+F6EkA=
         max_val: !!python/object/apply:numpy.core.multiarray.scalar
         - *id001
         - !!binary |
-          4XoUrkfhIkA=
-        alpha: 0.1
+          KVyPwvWoJUA=
+        alpha: 0.05
       table1: |-
         <table style="width:400px">
         <tr>
@@ -115,11 +115,11 @@ myst:
         <th>$min$</th>
         <th>$max$</th>
         </tr><tr>
-        <th>$38$</th>
-        <td>$6.88$</td>
-        <td>$1.53$</td>
-        <td>$3.8$</td>
-        <td>$9.44$</td>
+        <th>$37$</th>
+        <td>$7.3$</td>
+        <td>$1.45$</td>
+        <td>$4.62$</td>
+        <td>$10.83$</td>
         </tr>
         </table>
       part1:
@@ -163,15 +163,15 @@ myst:
             population of New Yorkers.
           feedback: Try again please!
         ans3:
-          value: The probability of observing the obtained sample mean 6.88 hours
-            if New Yorkers, on average, sleep 8 per night.
+          value: The probability of observing the obtained sample mean 7.3 hours if
+            New Yorkers, on average, sleep 8 per night.
           feedback: Correct!
         ans4:
-          value: The probability of observing the obtained sample mean of 6.88 hours
-            or more extreme, if New Yorkers, on average, sleep 6.88 hours per night.
+          value: The probability of observing the obtained sample mean of 7.3 hours
+            or more extreme, if New Yorkers, on average, sleep 7.3 hours per night.
           feedback: Try again please!
         ans5:
-          value: The probability of observing the obtained sample mean 6.88 of hours
+          value: The probability of observing the obtained sample mean 7.3 of hours
             or more extreme, if New Yorkers, on average, sleep 8 per night.
           feedback: Try again please!
       part7:

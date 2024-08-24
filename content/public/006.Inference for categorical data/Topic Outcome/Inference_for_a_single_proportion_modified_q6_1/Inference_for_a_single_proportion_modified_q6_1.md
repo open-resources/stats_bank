@@ -49,20 +49,20 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 97
-      sample_size2: 75
-      p: 11
-      p_hat: 12
-      college_students: 133
-      college_students2: 266
+      sample_size: 62
+      sample_size2: 52
+      p: 9
+      p_hat: 14
+      college_students: 128
+      college_students2: 256
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: False. The distribution is not normal since it does not satisfy the
             success-failure condition.
-          feedback: Incorrect!
+          feedback: Correct!
       part2:
         ans1:
           value: False. The distribution is not skewed as the success-failure condition
@@ -88,11 +88,11 @@ myst:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different
             from the population proportion.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: False. The sample is not unusual as the proportion is not significantly
             different from the population proportion.
-          feedback: Correct.
+          feedback: Incorrect.
       part5:
         ans1:
           value: 'True'

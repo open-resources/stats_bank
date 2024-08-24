@@ -60,40 +60,40 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>7.2</td>
-        <td>12.9</td>
+        <td>46.2</td>
+        <td>12.1</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>17.0</td>
-        <td>23.3</td>
+        <td>26.0</td>
+        <td>1.3</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>24.3</td>
-        <td>18.1</td>
+        <td>6.2</td>
+        <td>30.4</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>25.0</td>
-        <td>15.2</td>
+        <td>13.3</td>
+        <td>21.1</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>26.3</td>
-        <td>26.0</td>
+        <td>7.8</td>
+        <td>17.7</td>
         </tr><tr>
         <th>West End</th>
-        <td>0.1</td>
-        <td>4.5</td>
+        <td>0.5</td>
+        <td>17.3</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Students in Science Competition from
         Each School'.
-      - The x-axis should be labeled 'Proportion (%)'.
-      - The y-axis should be labeled 'School'.
+      - The x-axis should be labeled 'School'.
+      - The y-axis should be labeled 'Proportion (%)'.
       - The bars should be appropriately labelled.
-      - The bars should be colored red.
-      - The bars should have a darkgreen border.
-      - The bars should have a density of 1.
-      - The plot should be horizontal.
+      - The bars should be colored purple.
+      - The bars should have a blue border.
+      - The bars should have a density of 7.
+      - The plot should be vertical.
       description: David County has six high schools. Each school sent students to
         participate in a county-wide science competition. The table below shows the
         percentage breakdown of competitors from each school, and the percentage of
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '7.2'
-        - '17.0'
-        - '24.3'
-        - '25.0'
-        - '26.3'
-        - '0.1'
+        - '46.2'
+        - '26.0'
+        - '6.2'
+        - '13.3'
+        - '7.8'
+        - '0.5'
         title: Students in Science Competition from Each School
-        xlab: Proportion (%)
-        ylab: School
-        color: red
-        border: darkgreen
-        density: 1
-        horiz: 'True'
-        std_plot: std_c1od40tn_plot.png
-        ref_plot: ref_kux3q1pn_plot.png
+        xlab: School
+        ylab: Proportion (%)
+        color: purple
+        border: blue
+        density: 7
+        horiz: 'False'
+        std_plot: std_hoe4y1fg_plot.png
+        ref_plot: ref_b0qa2cag_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_c1od40tn_plot.png
+        filename: std_hoe4y1fg_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_kux3q1pn_plot.png
+        filename: ref_b0qa2cag_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}
