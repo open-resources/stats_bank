@@ -69,13 +69,13 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1455
-        p: 58.0
-        confidence_level: 95.0
-        lower_bound: 0.5546
-        lower_bound_percent: 55
-        upper_bound: 0.6054
-        upper_bound_percent: 61
+        n: 1379
+        p: 65.0
+        confidence_level: 98.0
+        lower_bound: 0.6201
+        lower_bound_percent: 62
+        upper_bound: 0.6799
+        upper_bound_percent: 68
       part1:
         ans1:
           value: Yes. The sample is a perfect representation of all high school seniors.
@@ -93,19 +93,19 @@ myst:
           feedback: Correct!
       part5:
         ans1:
-          value: 95% confidence means that if we repeated this survey 100 times, 95
+          value: 98% confidence means that if we repeated this survey 100 times, 98
             of the results would fall within this interval.
           feedback: Incorrect.
         ans2:
-          value: 95% confidence means that we are 95% certain that the true proportion
+          value: 98% confidence means that we are 98% certain that the true proportion
             is within this interval.
           feedback: Incorrect.
         ans3:
-          value: 95% confidence means that 95% of the time the true proportion will
+          value: 98% confidence means that 98% of the time the true proportion will
             fall within this interval.
           feedback: Incorrect.
         ans4:
-          value: 95% of such random samples would produce a 95% confidence interval
+          value: 98% of such random samples would produce a 98% confidence interval
             that includes the true proportion.
           feedback: Correct!
       part6:

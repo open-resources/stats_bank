@@ -32,7 +32,7 @@ myst:
     params:
       vars:
         title: San Jose Park Use
-        every: 6
+        every: 10
       part1:
         measurement: Number of times per week
         ans1:

@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+      selected_scenario_part1: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part1:
         ans1:
           value: Paired.
@@ -53,17 +53,18 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part2: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+          feedback: Correct!
+      selected_scenario_part3: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part4:
         ans1:
           value: Paired.

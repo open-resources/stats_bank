@@ -49,12 +49,12 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 73
-      sample_size2: 77
+      sample_size: 67
+      sample_size2: 53
       p: 10
       p_hat: 15
-      college_students: 137
-      college_students2: 274
+      college_students: 127
+      college_students2: 254
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.

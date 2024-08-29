@@ -60,35 +60,35 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>6</td>
-        <td>24</td>
+        <td>5</td>
+        <td>12</td>
         </tr><tr>
         <th>Summer</th>
-        <td>5</td>
-        <td>20</td>
+        <td>10</td>
+        <td>24</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>9</td>
-        <td>36</td>
+        <td>14</td>
+        <td>34</td>
         </tr><tr>
         <th>Winter</th>
-        <td>5</td>
-        <td>20</td>
+        <td>12</td>
+        <td>29</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Birthdays in Each Season'.
-      - The x-axis should be labeled 'Proportion (%)'.
-      - The y-axis should be labeled 'Season'.
+      - The x-axis should be labeled 'Season'.
+      - The y-axis should be labeled 'Number of students'.
       - The bars should be appropriately labelled.
-      - The bars should be colored darkgreen.
-      - The bars should have a blue border.
-      - The bars should have a density of 1.
-      - The plot should be horizontal.
+      - The bars should be colored red.
+      - The bars should have a orange border.
+      - The bars should have a density of 2.
+      - The plot should be vertical.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
         students who have birthdays in each season, and the proportion (%) of students
-        in each group. Construct a bar graph showing the percentages.
+        in each group. Construct a bar graph showing the number of students.
       autograding:
         col1:
         - Spring
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 24
-        - 20
-        - 36
-        - 20
+        - 5
+        - 10
+        - 14
+        - 12
         title: Birthdays in Each Season
-        xlab: Proportion (%)
-        ylab: Season
-        color: darkgreen
-        border: blue
-        density: 1
-        horiz: 'True'
-        std_plot: std_twfegtki_plot.png
-        ref_plot: ref_555xfxow_plot.png
+        xlab: Season
+        ylab: Number of students
+        color: red
+        border: orange
+        density: 2
+        horiz: 'False'
+        std_plot: std_1hhwk2hk_plot.png
+        ref_plot: ref_oks7gdgb_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_twfegtki_plot.png
+        filename: std_1hhwk2hk_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_555xfxow_plot.png
+        filename: ref_oks7gdgb_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}
