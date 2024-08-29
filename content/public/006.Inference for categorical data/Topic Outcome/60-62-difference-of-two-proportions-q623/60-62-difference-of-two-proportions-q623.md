@@ -145,14 +145,14 @@ myst:
             not have an opinion on this issue is different from that of non-college
             graduates.
           feedback: Try again please!
-      yes_support: 149
-      yes_oppose: 190
-      yes_do_not_know: 92
-      yes_total: 431
-      no_support: 128
-      no_oppose: 139
-      no_do_not_know: 134
-      no_total: 401
+      yes_support: 154
+      yes_oppose: 178
+      yes_do_not_know: 101
+      yes_total: 433
+      no_support: 140
+      no_oppose: 119
+      no_do_not_know: 140
+      no_total: 399
       total: 832
 ---
 # {{ params.vars.title }}

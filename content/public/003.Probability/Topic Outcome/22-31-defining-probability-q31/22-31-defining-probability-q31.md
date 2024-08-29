@@ -32,13 +32,14 @@ myst:
     params:
       vars:
         title: True or false
-        question1: Drawing a face card (jack, queen, or king) and drawing a red card
-          from a full deck of playing cards are mutually exclusive events.
-        question1_ans: False. There are red face cards.
+        question1: If a fair coin is tossed many times and the last eight tosses are
+          all heads, then the chance that the next toss will be heads is somewhat
+          less than 50%.
+        question1_ans: False. These are independent trials.
       part1:
         ans1:
           value: 'True'
-          feedback: False. There are red face cards.
+          feedback: False. These are independent trials.
         ans2:
           value: 'False'
           feedback: Correct!

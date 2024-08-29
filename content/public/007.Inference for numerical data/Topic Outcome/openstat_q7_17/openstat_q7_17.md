@@ -44,26 +44,26 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part1: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part1:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part2: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+          feedback: Incorrect!
+      selected_scenario_part2: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part2:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part3: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+          feedback: Incorrect!
+      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+      selected_scenario_part4: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part4:
         ans1:
           value: Paired.
