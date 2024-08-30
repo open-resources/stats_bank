@@ -36,12 +36,12 @@ myst:
     params:
       vars:
         title: Social experiment, Part I
-      inter_provoc: 6
-      non_inter_provoc: 15
-      total_provoc: 21
-      inter_cons: 18
-      non_inter_cons: 15
-      total_cons: 33
+      inter_provoc: 12
+      non_inter_provoc: 20
+      total_provoc: 32
+      inter_cons: 15
+      non_inter_cons: 11
+      total_cons: 26
       part1:
         ans1:
           value: This is not a randomized experiment, and it is unclear whether people
@@ -53,10 +53,10 @@ myst:
         ans3:
           value: There are not enough interventions under the provocative scenario,
             so the success-failure condition does not hold.
-          feedback: Correct!
+          feedback: Incorrect!
         ans4:
           value: The success-failure condition is not being satisfied.
-          feedback: Correct!
+          feedback: Incorrect!
         ans5:
           value: This is a randomized experiment, and it is clear that people would
             be affected by the behavior of their peers.
@@ -67,10 +67,12 @@ myst:
         ans7:
           value: There are sufficient interventions under all of the scenarios, so
             the success-failure condition holds.
-          feedback: Incorrect!
+          feedback: Incorrect! While this is true, it does not justify why the Central
+            Limit Theorem does not hold.
         ans8:
           value: The success-failure condition is being satisfied.
-          feedback: Incorrect!
+          feedback: Incorrect! While this is true, it does not justify why the Central
+            Limit Theorem does not hold.
 ---
 # {{ params.vars.title }}
 A "social experiment" conducted by a TV program questioned what people do when they see a very obviously bruised woman getting picked on by her boyfriend. On two different occasions at the same restaurant, the same couple was depicted. In one scenario the woman was dressed "provocatively" and in the other scenario the woman was dressed "conservatively". The table below shows how many restaurant diners were present under each scenario, and whether or not they intervened.
