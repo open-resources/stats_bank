@@ -67,11 +67,11 @@ myst:
       vars:
         title: Hearts win
       part3:
-        num1: 9
+        num1: 6
       part4:
-        num1: 9
+        num1: 6
       part5:
-        num1: 9
+        num1: 6
         ans1:
           value: 'Yes'
           feedback: Incorrect! The expected net profit is negative, so on average
@@ -81,11 +81,11 @@ myst:
           feedback: Correct! The expected net profit is negative, so on average you
             expect to lose money.
       description:
-        num1: 3
-        num2: 3
-        num3: 50
-        num4: 3
-        num5: 27
+        num1: 4
+        num2: 4
+        num3: 53
+        num4: 4
+        num5: 24
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">

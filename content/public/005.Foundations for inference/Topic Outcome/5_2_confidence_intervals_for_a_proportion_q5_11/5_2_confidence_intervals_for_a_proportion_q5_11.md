@@ -56,10 +56,10 @@ myst:
       vars:
         title: Waiting at an ER, Part I
       ci_lower: 124
-      ci_higher: 131
+      ci_higher: 149
       part1:
         num1: 95
-        num2: 63
+        num2: 61
         ans1:
           value: 'True'
           feedback: Try again please!
@@ -83,7 +83,7 @@ myst:
           value: 'False'
           feedback: Correct!
       part4:
-        num1: 97
+        num1: 104
         num2: 95
         ans1:
           value: 'True'
@@ -92,8 +92,8 @@ myst:
           value: 'False'
           feedback: Correct!
       part5:
-        num1: 2.5
-        num2: 128.5
+        num1: 11.5
+        num2: 136.5
         ans1:
           value: 'True'
           feedback: Try again please!
@@ -109,10 +109,10 @@ myst:
           value: 'False'
           feedback: Correct!
       description:
-        num1: 63
+        num1: 61
         num2: 95
         num3: 124
-        num4: 131
+        num4: 149
 ---
 # {{ params.vars.title }}
 A hospital administrator hoping to improve wait times decides to estimate the average emergency room waiting time at her hospital. She collects a simple random sample of ${{ params.description.num1 }}$ patients and determines the time (in minutes) between when they checked in to the ER until they were first seen by a doctor. A ${{ params.description.num2 }}$% confidence interval based on this sample is (${{ params.ci_lower }}$ minutes, ${{ params.ci_higher }}$ minutes), which is based on the normal model for the mean. Determine whether the following statements are true or false, and explain your reasoning.

@@ -44,36 +44,36 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part1:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part2: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+          feedback: Correct!
+      selected_scenario_part2: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part2:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+          feedback: Incorrect!
+      selected_scenario_part3: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part3:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part4: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+          feedback: Correct!
+      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part4:
         ans1:
           value: Paired.

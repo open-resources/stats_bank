@@ -41,9 +41,9 @@ myst:
     params:
       vars:
         title: Find the p-value, Part I
-      n: 14
-      T: 1.86
-      alpha: 0.05
+      n: 10
+      T: 1.87
+      alpha: 0.01
       part2:
         ans1:
           value: do not reject $H_0$

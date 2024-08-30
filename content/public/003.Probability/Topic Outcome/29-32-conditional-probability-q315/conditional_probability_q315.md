@@ -78,27 +78,27 @@ myst:
     params:
       vars:
         title: Global Warming
-      num1: 0.12
+      num1: 0.11
       num2: 0.2
-      num3: 0.01
+      num3: 0.02
       num4: 0.33
-      num5: 0.06
-      num6: 0.05
-      num7: 0.01
-      num8: 0.12
-      num9: 0.27
-      num10: 0.06
+      num5: 0.07
+      num6: 0.06
+      num7: 0.0
+      num8: 0.13
+      num9: 0.26
+      num10: 0.07
       num11: 0.02
       num12: 0.35
-      num13: 0.19
+      num13: 0.18
       num14: 0.01
-      num15: 0.01
-      num16: 0.21
-      num17: 0.64
-      num18: 0.32
-      num19: 0.05
+      num15: 0.0
+      num16: 0.19
+      num17: 0.62
+      num18: 0.34
+      num19: 0.04
       num20: 1.0
-      n20: 1246
+      n20: 1262
       part1:
         ans1:
           value: 'Yes'
