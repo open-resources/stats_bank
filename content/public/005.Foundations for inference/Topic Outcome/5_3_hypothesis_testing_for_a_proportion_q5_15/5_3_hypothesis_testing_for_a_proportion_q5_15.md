@@ -61,7 +61,7 @@ myst:
             improved.'
           feedback: Correct!
       part2:
-        num1: 20
+        num1: 7
         ans1:
           value: '$H_A: p = 0.5$ Neither a majority nor minority of students'' grades
             improved.'
@@ -78,36 +78,36 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: '$H_0: \mu \neq 20$ The average amount of company time each employee
+          value: '$H_0: \mu \neq 7$ The average amount of company time each employee
             spends not working is different during March Madness.'
           feedback: Try again please!
         ans2:
-          value: '$H_0: \mu > 20$ The average amount of company time each employee
+          value: '$H_0: \mu > 7$ The average amount of company time each employee
             spends not working is more during March Madness.'
           feedback: Try again please!
         ans3:
-          value: '$H_0: \mu < 20$ The average amount of company time each employee
+          value: '$H_0: \mu < 7$ The average amount of company time each employee
             spends not working is less during March Madness.'
           feedback: Try again please!
         ans4:
-          value: '$H_0: \mu = 20$ The average amount of company time each employee
+          value: '$H_0: \mu = 7$ The average amount of company time each employee
             spends not working is the same during March Madness.'
           feedback: Correct!
       part4:
         ans1:
-          value: '$H_A: \mu = 20$ The average amount of company time each employee
+          value: '$H_A: \mu = 7$ The average amount of company time each employee
             spends not working is the same during March Madness.'
           feedback: Try again please!
         ans2:
-          value: '$H_A: \mu > 20$ The average amount of company time each employee
+          value: '$H_A: \mu > 7$ The average amount of company time each employee
             spends not working is more during March Madness.'
           feedback: Try again please!
         ans3:
-          value: '$H_A: \mu < 20$ The average amount of company time each employee
+          value: '$H_A: \mu < 7$ The average amount of company time each employee
             spends not working is less during March Madness.'
           feedback: Try again please!
         ans4:
-          value: '$H_A: \mu \neq 20$ The average amount of company time each employee
+          value: '$H_A: \mu \neq 7$ The average amount of company time each employee
             spends not working is different during March Madness.'
           feedback: Correct!
 ---

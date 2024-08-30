@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part1: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+      selected_scenario_part2: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part4: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part4:
         ans1:
           value: Paired.

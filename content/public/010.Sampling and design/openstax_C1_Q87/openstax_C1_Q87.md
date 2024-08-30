@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 25
-        hours_deprivation: 31
-        treatment_order: The control treatment was trialed last.
+        num_drivers: 23
+        hours_deprivation: 30
+        treatment_order: The control treatment was trialed first.
         mentioned_test: driving simulation
-        driver_type: new
+        driver_type: mixed
       part1:
         option1:
           value: Amount of Sleep Deprivation
@@ -90,29 +90,29 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 30 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 23 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 new drivers
+          value: 23 mixed drivers
           feedback: Try again please!
         ans5:
-          value: 31 new drivers
+          value: 30 mixed drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 25 new drivers
+          value: 23 mixed drivers
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 30 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 23 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 31 new drivers
+          value: 30 mixed drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -140,16 +140,16 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 30 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 23 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 new drivers
+          value: 23 mixed drivers
           feedback: Try again please!
         ans5:
-          value: 31 new drivers
+          value: 30 mixed drivers
           feedback: Try again please!
       part7:
         ans1:

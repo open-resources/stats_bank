@@ -32,16 +32,16 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a survey, one hundred college students are asked whether or not
-          they cited information from Wikipedia in their papers.
-        answer_panel_feedback: Proportion. Each student reports Yes or No, so this
-          is a categorical variable and we use a proportion.
+        question: 'In a survey, one hundred college students are asked: "What percentage
+          of the time you spend on the Internet is part of your course work?"'
+        answer_panel_feedback: Mean. Each student reports a number, which is a percentage,
+          and we can average over these percentages.
       part1:
         ans1:
-          value: Proportion
+          value: Mean
           feedback: Great! You got it.
         ans2:
-          value: Mean
+          value: Proportion
           feedback: Try again please!
 ---
 # {{ params.vars.title }}
