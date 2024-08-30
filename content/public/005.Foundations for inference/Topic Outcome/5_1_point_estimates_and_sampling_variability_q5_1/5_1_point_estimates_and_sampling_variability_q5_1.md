@@ -32,17 +32,15 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a sample of one hundred recent college graduates, it is found
-          that $ 79 $ percent expect to get a job within one year of their graduation
-          date.
-        answer_panel_feedback: Proportion. Each student reports whether or not s/he
-          expects to get a job, so this is a categorical variable and we use a proportion.
+        question: In a survey, one hundred college students are asked what percentage
+          of their total weekly spending is on alcoholic beverages.
+        answer_panel_feedback: Mean. Each student reports a number, which is a percentage.
       part1:
         ans1:
-          value: Proportion
+          value: Mean
           feedback: Great! You got it.
         ans2:
-          value: Mean
+          value: Proportion
           feedback: Try again please!
 ---
 # {{ params.vars.title }}

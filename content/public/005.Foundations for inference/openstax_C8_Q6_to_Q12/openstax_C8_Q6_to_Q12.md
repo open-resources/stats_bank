@@ -80,16 +80,16 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.3
-      sigma: 2.3
-      sample_size: 190
-      other_sample_size: 340
-      alpha: 0.05
-      confidence: 95
-      z_score: 1.96
-      graph_z_score: 1.96
-      higher_confidence: 99
-      higher_z_score: 2.58
+      x_bar: 8.6
+      sigma: 2.0
+      sample_size: 225
+      other_sample_size: 375
+      alpha: 0.1
+      confidence: 90
+      z_score: 1.645
+      graph_z_score: 1.645
+      higher_confidence: 98
+      higher_z_score: 2.33
       part5:
         ans1:
           value: 'Yes'

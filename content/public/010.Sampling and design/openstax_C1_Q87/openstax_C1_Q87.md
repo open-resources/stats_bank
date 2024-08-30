@@ -59,7 +59,7 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 19
+        num_drivers: 22
         hours_deprivation: 24
         treatment_order: The treatments were assigned in random order.
         mentioned_test: driving simulation
@@ -93,23 +93,23 @@ myst:
           value: 24 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 19 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 19 mixed drivers
+          value: 22 mixed drivers
           feedback: Try again please!
         ans5:
           value: 24 mixed drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 19 mixed drivers
+          value: 22 mixed drivers
           feedback: Correct!
         ans2:
           value: 24 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 19 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
           value: 24 mixed drivers
@@ -145,10 +145,10 @@ myst:
           value: 24 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 19 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 19 mixed drivers
+          value: 22 mixed drivers
           feedback: Try again please!
         ans5:
           value: 24 mixed drivers

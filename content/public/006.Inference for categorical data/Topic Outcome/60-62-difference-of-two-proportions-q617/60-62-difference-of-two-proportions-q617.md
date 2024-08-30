@@ -36,12 +36,12 @@ myst:
     params:
       vars:
         title: Social experiment, Part I
-      inter_provoc: 12
-      non_inter_provoc: 20
-      total_provoc: 32
-      inter_cons: 15
-      non_inter_cons: 11
-      total_cons: 26
+      inter_provoc: 13
+      non_inter_provoc: 15
+      total_provoc: 28
+      inter_cons: 17
+      non_inter_cons: 15
+      total_cons: 32
       part1:
         ans1:
           value: This is not a randomized experiment, and it is unclear whether people

@@ -1,6 +1,6 @@
 ---
-title: Statistical Power
-topic: Inference for numerical data
+title: Population Proportions from Sample Data
+topic: Foundations for inference
 author: Alejandro Builes
 source: original
 template_version: 1.4
@@ -9,7 +9,8 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 7.1.1.14
+- 5.1.1.1
+- 5.1.1.2
 difficulty:
 - easy
 randomization:
@@ -27,23 +28,25 @@ part1:
   type: number-input
   pl-customizations:
     comparison: decdig
-    digits: 3
+    digits: 4
     weight: 1
     allow-blank: false
-    label: $\text{Power} = $
+    label: $\hat{p}= $
 myst:
   substitutions:
     params:
       vars:
-        title: Statistical Power
-      alpha: 0.035
-      beta: 0.15
+        title: Population Proportions from Sample Data
+      total_homes_surveyed: 577
+      homes_not_meeting_recommendations: 256
+      homes_meeting_recommendations: 321
 ---
 # {{ params.vars.title }}
+${{ params.total_homes_surveyed }}$ homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. ${{ params.homes_meeting_recommendations }}$ of the homes surveyed met the minimum recommendations for earthquake preparedness, and ${{ params.homes_not_meeting_recommendations }}$ did not.
 
 ## Part 1
 
-A microbiologist is testing a water sample for E-coli. Suppose the null hypothesis, $H_0$, is: the sample does not contain E-coli. The probability that the sample does not contain E-coli, but the microbiologist thinks it does is ${{ params.alpha }}$. The probability that the sample does contain E-coli, but the microbiologist thinks it does not is ${{ params.beta }}$. What is the power of this test?
+What is the point estimate for the population proportion of homes that do not meet the minimum recommendations for earthquake preparedness?
 
 ### Answer Section
 
