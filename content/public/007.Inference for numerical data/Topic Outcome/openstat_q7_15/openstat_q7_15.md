@@ -54,7 +54,7 @@ myst:
           feedback: Incorrect!
       country_capitals: 26
       year_1: 2009
-      year_2: 2014
+      year_2: 2015
       selected_scenario: in the same cities
 ---
 # {{ params.vars.title }}

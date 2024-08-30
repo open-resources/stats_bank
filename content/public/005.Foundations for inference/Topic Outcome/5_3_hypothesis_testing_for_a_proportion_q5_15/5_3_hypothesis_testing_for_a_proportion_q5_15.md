@@ -45,7 +45,7 @@ myst:
       vars:
         title: Identify hypotheses, Part I
       part1:
-        num1: 203
+        num1: 191
         ans1:
           value: '$ H_0: p < 0.5 $ A minority of students'' grades improved.'
           feedback: Try again please!

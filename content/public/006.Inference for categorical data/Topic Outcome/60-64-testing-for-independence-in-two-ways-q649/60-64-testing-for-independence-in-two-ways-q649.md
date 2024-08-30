@@ -74,18 +74,18 @@ myst:
       vars:
         title: Browsing on the mobile device.
         chinese_proportion: 0.38
-        sample_size: 1719
-        sample_proportion: 49.0
-        Z: 9.395999401544257
-        p_value: 0.0
-        lower_bound: 0.4663679573873654
-        upper_bound: 0.5136320426126345
+        sample_size: 3152
+        sample_proportion: 38.0
+        Z: 0.0
+        p_value: 1.0
+        lower_bound: 0.3630546474035124
+        upper_bound: 0.3969453525964876
       part1:
         ans1:
-          value: '$H_0: p = 0.49$, $H_A: p ≠ 0.38$'
+          value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.49$, $H_A: p = 0.38$'
+          value: '$H_0: p = 0.38$, $H_A: p = 0.38$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'
@@ -100,13 +100,13 @@ myst:
             their cell phones to access the internet is different than the Chinese
             proportion of 38%, and the data indicate that the proportion is lower
             in the US.
-          feedback: Correct!
-        ans2:
-          value: As the p-value is greater than 0.05, we fail to reject $H_0$, then
-            the data does not provide strong evidence to show that the proportion
-            of Americans who only use their cell phones to access the internet is
-            different than the Chinese proportion of 38%.
           feedback: Try again please!
+        ans2:
+          value: As the p-value is greater than or equal to 0.05, we fail to reject
+            $H_0$, then the data does not provide strong evidence to show that the
+            proportion of Americans who only use their cell phones to access the internet
+            is different than the Chinese proportion of 38%.
+          feedback: Correct!
       part7:
         ans1:
           value: We are 95% confident that approximately [Lower bound] to [Upper bound]

@@ -32,9 +32,9 @@ myst:
     params:
       vars:
         title: San Jose Park Use
-        every: 9
+        every: 8
       part1:
-        measurement: Age
+        measurement: Duration (amount of time)
         ans1:
           value: qualitative
           feedback: Try again please!
