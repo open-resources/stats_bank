@@ -43,8 +43,8 @@ myst:
       vars:
         title: Relaxing after work
       part2:
-        num1: 1119
-        moe_comparison: smaller
+        num1: 1266
+        moe_comparison: larger
         ans1:
           value: The confidence level of the new interval is the same as the previous
             interval.
@@ -53,18 +53,18 @@ myst:
         ans2:
           value: The confidence level of the new interval must be lower than that
             of the previous interval.
-          feedback: Correct!
+          feedback: Try again please! Recall that the width of the confidence interval
+            increases as the confidence level increases.
         ans3:
           value: The confidence level of the new interval must be higher than that
             of the previous interval.
-          feedback: Try again please! Recall that the width of the confidence interval
-            increases as the confidence level increases.
+          feedback: Correct!
         ans4:
           value: The confidence level cannot be determined from the information given.
           feedback: Try again please! Recall that the width of the confidence interval
             increases as the confidence level increases.
       part3:
-        num1: 2545
+        num1: 2618
         num2: 95
         ans1:
           value: The new margin of error will be larger, as a larger sample size always
@@ -86,10 +86,10 @@ myst:
           feedback: Try again please! Recall that as the sample size increases, the
             standard error decreases, which will decrease the margin of error.
       description:
-        num1: 1119
+        num1: 1266
         num2: 95
-        num3: 1.38
-        num4: 1.96
+        num3: 1.36
+        num4: 2.09
       part1:
         ans1:
           value: The mean number of hours spent relaxing is exactly 1.65 hours.
@@ -100,7 +100,7 @@ myst:
           feedback: Try again please!
         ans3:
           value: We are 95% confident that the average time spent relaxing by Americans
-            falls between 1.38 and 1.96 hours.
+            falls between 1.36 and 2.09 hours.
           feedback: Correct!
         ans4:
           value: This interval represents the minimum and maximum number of hours
