@@ -66,8 +66,8 @@ myst:
     params:
       vars:
         title: Taste Test
-        sample: 76
-        p_value: 0.021781462791119477
+        sample: 92
+        p_value: 0.012343360353455068
       part1:
         ans1:
           value: '$H_0: p = 0.63$, $H_A: p ≠ 0.5$'
@@ -84,18 +84,18 @@ myst:
       part2:
         ans1:
           value: Since this is a random sample, independence is satisfied. The success-failure
-            condition is also satisfied as we (using $p_0 = 0.5$, we expect 38 successes
-            and 38 failures).
+            condition is also satisfied as we (using $p_0 = 0.5$, we expect 46 successes
+            and 46 failures).
           feedback: Correct!
         ans2:
           value: Since this is a random sample, independence is satisfied. The success-failure
-            condition is not satisfied, as our expectation of 38 successes and 38
+            condition is not satisfied, as our expectation of 46 successes and 46
             failures, using $p_0 = 0.5$, is not met.
           feedback: Try again please!
         ans3:
           value: Given this is not a random sample, independence is not satisfied.
             The success-failure condition is also satisfied as we (using $p_0 = 0.5$,
-            we expect 38 successes and 38 failures).
+            we expect 46 successes and 46 failures).
           feedback: Try again please!
       part5:
         ans1:

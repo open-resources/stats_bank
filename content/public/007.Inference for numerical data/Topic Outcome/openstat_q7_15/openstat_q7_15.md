@@ -52,9 +52,9 @@ myst:
             cities each year so, the air quality in a city at one point is independent
             of the air quality in another city at another time point.
           feedback: Correct!
-      country_capitals: 26
-      year_1: 2009
-      year_2: 2017
+      country_capitals: 23
+      year_1: 2010
+      year_2: 2014
       selected_scenario: but in a different set of cities
 ---
 # {{ params.vars.title }}

@@ -38,9 +38,9 @@ myst:
       vars:
         title: Portfolio return
       description:
-        num1: 16
-        num2: 5
-        num3: 11
+        num1: 19
+        num2: 10
+        num3: 12
 ---
 # {{ params.vars.title }}
 A portfolio's value increases by ${{ params.description.num1 }}$% during a financial boom and by ${{ params.description.num2 }}$% during normal times. It decreases by ${{ params.description.num3 }}$% during a recession.
