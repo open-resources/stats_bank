@@ -7,6 +7,7 @@
 | Name             | GitHub handle  |
 |------------------|----------------|
 | Firas Moosvi     | [firasm](http://github.com/firasm)  |
+| Irene Vrbik     | [firasm](http://github.com/vrbiki)  |
 
 
 ## Bios
@@ -14,18 +15,21 @@
 
 ### Principal Investigators
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.jpg"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/irene.jpg"> </img>
 
 #### **Dr. Irene Vrbik**
 
- <br><br><br><br><br>
+Irene is currently an Assistant Professor of Teaching in the subject area of Statistics and Data Science.
+As an Educational Leadership faculty, she is interested in applying Machine Learning techniques to help understand and improve curriculum.
+
+ <br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/firas.png"> </img>
 
 #### **Dr. Firas Moosvi**
 
-Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physics, and Statistics department.
-He teaches courses in Physics, Data Science, and Computer Science at the undergraduate and graduate levels.
+Firas Moosvi is a Lecturer at UBC Vancouver in the Computer Science department.
+He teaches courses in Data Science, and Computer Science at the undergraduate and graduate levels.
 He has many research interests and they fall under three main umbrellas: medical imaging for applications in cancer, scholarship of teaching and learning (SoTL), and learning analytics.
 Most recently, he is looking at how the field of learning analytics can provide insight to surface and reduce inequities in STEM programs.
 Firas has a deep appreciation for data visualization, active learning, and open source projects.<br><br><br>

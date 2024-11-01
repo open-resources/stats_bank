@@ -1,8 +1,17 @@
-# Introduction
+# Open Problem Bank in Statistics (OPBS)
 
-## Analytics
+This open problem bank is intended for use in an undergraduate introductory statistics or data science course.
+Questions from the bank have been contributed by instructors at UBCO, as well as adapted from two textbooks:
 
-### Questions by Topics
+1. [OpenIntro Statistics (4th Edition)](https://leanpub.com/os)
+
+2. [OpenStax Statistics (2nd Edition)](https://openstax.org/details/books/introductory-statistics-2e)
+
+<img src="images/books.png" width=400px>
+
+All questions are shared under an Creative Commons license.
+
+## Questions by Topics
 
 Here are the questions in the bank split by Topics.
 
