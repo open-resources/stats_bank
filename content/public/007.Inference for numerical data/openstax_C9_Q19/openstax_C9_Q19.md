@@ -36,8 +36,8 @@ myst:
     params:
       vars:
         title: Statistical Power
-      alpha: 0.044
-      beta: 0.2
+      alpha: 0.019
+      beta: 0.164
 ---
 # {{ params.vars.title }}
 

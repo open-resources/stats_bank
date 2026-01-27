@@ -77,7 +77,7 @@ myst:
     params:
       vars:
         title: Joint and Conditional Probabilities
-      num1: 0.4
+      num1: 0.3
       num2: 0.7
       num3: 0.2
       part1:

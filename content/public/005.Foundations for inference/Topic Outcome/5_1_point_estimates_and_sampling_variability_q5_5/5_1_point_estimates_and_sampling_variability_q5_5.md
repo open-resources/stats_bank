@@ -57,11 +57,11 @@ myst:
         only: 'only '
         can: 'can '
       part3:
-        num1: 7
+        num1: 5
       part5:
-        num1: 267
-        num2: 1059
-        num3: 848
+        num1: 244
+        num2: 989
+        num3: 773
         ans1:
           value: It is impossible to predict the variability of the new distribution.
           feedback: The distribution will tend to be more variable when we have fewer
@@ -82,8 +82,8 @@ myst:
       description:
         num1: 5
         num2: 30
-        num3: 848
-        num4: 1059
+        num3: 773
+        num4: 989
       part1:
         ans1:
           value: Normal Distribution
