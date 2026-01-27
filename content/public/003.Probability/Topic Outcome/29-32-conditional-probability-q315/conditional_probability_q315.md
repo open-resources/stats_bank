@@ -80,25 +80,25 @@ myst:
         title: Global Warming
       num1: 0.11
       num2: 0.2
-      num3: 0.02
-      num4: 0.33
-      num5: 0.06
+      num3: 0.03
+      num4: 0.34
+      num5: 0.07
       num6: 0.06
       num7: 0.01
-      num8: 0.13
-      num9: 0.25
-      num10: 0.05
+      num8: 0.14
+      num9: 0.26
+      num10: 0.06
       num11: 0.02
-      num12: 0.32
+      num12: 0.34
       num13: 0.19
       num14: 0.01
       num15: 0.01
       num16: 0.21
-      num17: 0.61
-      num18: 0.32
-      num19: 0.06
+      num17: 0.63
+      num18: 0.33
+      num19: 0.07
       num20: 1.0
-      n20: 1280
+      n20: 1291
       part1:
         ans1:
           value: 'Yes'
@@ -126,13 +126,13 @@ The table below shows the distribution of responses by party and ideology, where
 | Liberal Democrat        | 0.18             | 0.01        | 0.01              | 0.20  |
 | Total                   | 0.60             | 0.34        | 0.06              | 1.00  | -->
 
-|                         | Earth is warming | Not warming | Don't know refuse | Total |
+| | Earth is warming | Not warming | Don't know refuse | Total |
 |-------------------------|:----------------:|:-----------:|:-----------------:|:------:|
 | Conservative Republican | {{ params.num1 }} | {{ params.num2 }} | {{ params.num3 }} | {{ params.num4 }} |
-| Mod/Lib Republican      | {{ params.num5 }} | {{ params.num6 }} | {{ params.num7 }} | {{ params.num8 }} |
-| Mod/Cons Democrat       | {{ params.num9 }} | {{ params.num10 }} | {{ params.num11 }} | {{ params.num12 }} |
-| Liberal Democrat        | {{ params.num13 }} | {{ params.num14 }} | {{ params.num15 }} | {{ params.num16 }} |
-| Total                   | {{ params.num17 }} | {{ params.num18 }} | {{ params.num19 }} | {{ params.num20 }} |
+| Mod/Lib Republican | {{ params.num5 }} | {{ params.num6 }} | {{ params.num7 }} | {{ params.num8 }} |
+| Mod/Cons Democrat | {{ params.num9 }} | {{ params.num10 }} | {{ params.num11 }} | {{ params.num12 }} |
+| Liberal Democrat | {{ params.num13 }} | {{ params.num14 }} | {{ params.num15 }} | {{ params.num16 }} |
+| Total | {{ params.num17 }} | {{ params.num18 }} | {{ params.num19 }} | {{ params.num20 }} |
 
 ## Part 1
 

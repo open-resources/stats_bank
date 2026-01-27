@@ -57,11 +57,11 @@ myst:
       vars:
         title: Chips in a bag
       description:
-        num1: 6
+        num1: 3
         num2: 6
-        num3: 4
-        n1: 15
-        n: 16
+        num3: 3
+        n1: 11
+        n: 12
         blue1: 5
       part4:
         ans1:

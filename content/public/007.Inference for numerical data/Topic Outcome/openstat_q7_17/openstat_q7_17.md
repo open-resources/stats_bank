@@ -44,8 +44,9 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+      selected_scenario_part1: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part1:
         ans1:
           value: Paired.
@@ -53,17 +54,17 @@ myst:
         ans2:
           value: Not paired.
           feedback: Correct!
-      selected_scenario_part2: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part2:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part3: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+          feedback: Incorrect!
+      selected_scenario_part3: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part4: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part4:
         ans1:
           value: Paired.

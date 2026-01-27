@@ -61,20 +61,20 @@ myst:
     params:
       vars:
         title: Educational Attainment of Couples
-      male_9_less: '0.08'
-      male_9_to_12: '0.20'
-      male_HS: '0.12'
-      male_some_college: '0.30'
-      male_associates: '0.01'
-      male_bachelors: '0.06'
-      male_graduate_or_professional: '0.25'
-      female_9_less: '0.13'
-      female_9_to_12: '0.09'
-      female_HS: '0.21'
-      female_some_college: '0.20'
-      female_associates: '0.03'
+      male_9_less: '0.11'
+      male_9_to_12: '0.11'
+      male_HS: '0.20'
+      male_some_college: '0.15'
+      male_associates: '0.04'
+      male_bachelors: '0.25'
+      male_graduate_or_professional: '0.14'
+      female_9_less: '0.21'
+      female_9_to_12: '0.17'
+      female_HS: '0.17'
+      female_some_college: '0.01'
+      female_associates: '0.19'
       female_bachelors: '0.17'
-      female_graduate_or_professional: '0.17'
+      female_graduate_or_professional: '0.08'
       part4:
         ans1:
           value: 'Yes'
@@ -107,16 +107,16 @@ The table below shows the distribution of education level attained by US residen
 | Graduate or professional degree | 0.09 | 0.09   |
 | Total                           | 1.00 | 1.00   | -->
 
-|                                 | Male | Female |
+| | Male | Female |
 |---------------------------------|------|--------|
-| Less than 9th grade             | {{ params.male_9_less }} | {{ params.female_9_less }}   |
-| 9th to 12th grade, no diploma   | {{ params.male_9_to_12 }} | {{ params.female_9_to_12 }}   |
-| HS graduate (or equivalent)     | {{ params.male_HS }} | {{ params.female_HS }}   |
-| Some college, no degree         | {{ params.male_some_college }} | {{ params.female_some_college }}   |
-| Associate’s degree              | {{ params.male_associates }} | {{ params.female_associates }}   |
-| Bachelor’s degree               | {{ params.male_bachelors }} | {{ params.female_bachelors }}   |
-| Graduate or professional degree | {{ params.male_graduate_or_professional }} | {{ params.female_graduate_or_professional }}   |
-| Total                           | 1.00 | 1.00   |
+| Less than 9th grade | {{ params.male_9_less }} | {{ params.female_9_less }} |
+| 9th to 12th grade, no diploma | {{ params.male_9_to_12 }} | {{ params.female_9_to_12 }} |
+| HS graduate (or equivalent) | {{ params.male_HS }} | {{ params.female_HS }} |
+| Some college, no degree | {{ params.male_some_college }} | {{ params.female_some_college }} |
+| Associate’s degree | {{ params.male_associates }} | {{ params.female_associates }} |
+| Bachelor’s degree | {{ params.male_bachelors }} | {{ params.female_bachelors }} |
+| Graduate or professional degree | {{ params.male_graduate_or_professional }} | {{ params.female_graduate_or_professional }} |
+| Total | 1.00 | 1.00 |
 
 <!-- The table below shows the distribution of education level attained by US residents by gender based on data collected in the ${{ params.description.num1 }}$ American Community Survey. centertabularl p{7cm} c c } &                                       & $\multicolumn{2}{c}{\textit{Gender}}$
  3-4&                                                   & Male  & Female

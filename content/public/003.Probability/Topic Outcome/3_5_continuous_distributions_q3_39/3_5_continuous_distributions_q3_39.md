@@ -34,34 +34,34 @@ myst:
       vars:
         title: Grade distributions
       description:
-        ra_cf: -0.1
-        num1: 0.3
-        num2: 0.3
-        num3: 0.3
-        num4: 0.4
+        ra_cf: 0.3
+        num1: 0.2
+        num2: 0.2
+        num3: 0.2
+        num4: 0.3
         num5: 0
         num6: 0
         num7: 1
         num8: 0
         num9: 0
-        num10: 0.3
-        num11: 0.3
-        num12: 0.3
+        num10: 0.2
+        num11: 0.2
+        num12: 0.2
         num13: 0
         num14: 0
-        num15: 0.3
-        num16: 0.0
-        num17: 0.4
+        num15: 0.2
+        num16: 0.2
+        num17: 0.3
         num18: 0.2
-        num19: -0.2
+        num19: -0.5
         num20: 0.1
         num21: 0.1
-        num22: 0.2
-        num23: 0.1
+        num22: 0.1
+        num23: 0.2
         num24: 0.5
         num25: 0
-        num26: -0.2
-        num27: 1.2
+        num26: -0.5
+        num27: 1.1
         num28: 0
         num29: 0
       part1:
@@ -86,14 +86,14 @@ myst:
 ---
 # {{ params.vars.title }}
 Each row in the table below is a proposed grade distribution for a class. Identify each as a valid or invalid probability distribution.
-|  |  A ------   |  B ------  |  C ------  |  D ------  |  F |
+| | A ------ | B ------ | C ------ | D ------ | F |
 | --- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| (a) | ${{ params.description.num1 }}$   | ${{ params.description.num2 }}$   | ${{ params.description.num3 }}$   | ${{ params.description.num4 }}$   | ${{ params.description.ra_cf }}$
-| (b) | ${{ params.description.num5 }}$     | ${{ params.description.num6 }}$     | ${{ params.description.num7 }}$     | ${{ params.description.num8 }}$     | ${{ params.description.num9 }}$
-| (c) | ${{ params.description.num10 }}$   | ${{ params.description.num11 }}$   | ${{ params.description.num12 }}$   | ${{ params.description.num13 }}$     | ${{ params.description.num14 }}$
-| (d) | ${{ params.description.num15 }}$   | ${{ params.description.num16 }}$   | ${{ params.description.num17 }}$   | ${{ params.description.num18 }}$   | ${{ params.description.num19 }}$
-| (e) | ${{ params.description.num20 }}$   | ${{ params.description.num21 }}$   | ${{ params.description.num22 }}$   | ${{ params.description.num23 }}$   | ${{ params.description.num24 }}$
-| (f) | ${{ params.description.num25 }}$     | ${{ params.description.num26 }}$  | ${{ params.description.num27 }}$   | ${{ params.description.num28 }}$     | ${{ params.description.num29 }}$
+| (a) | ${{ params.description.num1 }}$ | ${{ params.description.num2 }}$ | ${{ params.description.num3 }}$ | ${{ params.description.num4 }}$ | ${{ params.description.ra_cf }}$
+| (b) | ${{ params.description.num5 }}$ | ${{ params.description.num6 }}$ | ${{ params.description.num7 }}$ | ${{ params.description.num8 }}$ | ${{ params.description.num9 }}$
+| (c) | ${{ params.description.num10 }}$ | ${{ params.description.num11 }}$ | ${{ params.description.num12 }}$ | ${{ params.description.num13 }}$ | ${{ params.description.num14 }}$
+| (d) | ${{ params.description.num15 }}$ | ${{ params.description.num16 }}$ | ${{ params.description.num17 }}$ | ${{ params.description.num18 }}$ | ${{ params.description.num19 }}$
+| (e) | ${{ params.description.num20 }}$ | ${{ params.description.num21 }}$ | ${{ params.description.num22 }}$ | ${{ params.description.num23 }}$ | ${{ params.description.num24 }}$
+| (f) | ${{ params.description.num25 }}$ | ${{ params.description.num26 }}$ | ${{ params.description.num27 }}$ | ${{ params.description.num28 }}$ | ${{ params.description.num29 }}$
 
 ## Part 1
 

@@ -40,7 +40,7 @@ myst:
       description:
         std: 109
         moe_max: 6
-        confidence_level: 0.89
+        confidence_level: 0.92
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">

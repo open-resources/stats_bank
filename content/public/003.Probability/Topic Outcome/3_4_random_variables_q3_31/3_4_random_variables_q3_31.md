@@ -73,19 +73,19 @@ myst:
       part5:
         num1: 9
         ans1:
-          value: 'No'
-          feedback: Incorrect! The expected net profit is positive, so on average
-            you expect to earn money.
-        ans2:
           value: 'Yes'
-          feedback: Correct! The expected net profit is positive, so on average you
-            expect to earn money.
+          feedback: Incorrect! The expected net profit is negative, so on average
+            you expect to lose money.
+        ans2:
+          value: 'No'
+          feedback: Correct! The expected net profit is negative, so on average you
+            expect to lose money.
       description:
         num1: 2
         num2: 2
-        num3: 53
+        num3: 55
         num4: 2
-        num5: 25
+        num5: 23
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">

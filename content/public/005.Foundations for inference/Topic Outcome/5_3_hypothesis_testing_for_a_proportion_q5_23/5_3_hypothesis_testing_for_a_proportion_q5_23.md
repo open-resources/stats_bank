@@ -43,9 +43,9 @@ myst:
       vars:
         title: Working backwards, Part I
       description:
-        num1: 0.5
-        num2: 0.5
-        num3: 90
+        num1: 0.3
+        num2: 0.3
+        num3: 94
         num4: 0.05
 ---
 # {{ params.vars.title }}
@@ -55,7 +55,7 @@ $H_0$: p = ${{ params.description.num1 }}$
 
 $H_A$: p $\neq {{ params.description.num2 }}$
 
-We know the sample size is ${{ params.description.num3 }}$. For what sample proportion would the p-value be equal to ${{ params.description.num4 }}$? Assume that all conditions  necessary for inference are satisfied.
+We know the sample size is ${{ params.description.num3 }}$. For what sample proportion would the p-value be equal to ${{ params.description.num4 }}$? Assume that all conditions necessary for inference are satisfied.
 
 ## Part 1
 

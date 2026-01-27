@@ -38,30 +38,30 @@ myst:
       vars:
         title: Chronic illness, Part I
       description:
-        num1: 2009
-        num2: 1.1
-        num3: 39
+        num1: 2007
+        num2: 1.2
+        num3: 49
       part1:
         ans1:
-          value: '[34.8 %, 44.2 %]'
+          value: '[44.6 %, 54.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 39%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.1%.Then, plug the values into the formula: 39% $\pm 1.96$ × 1.1%'
+            estimate is 49%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 49% $\pm 1.96$ × 1.2%'
         ans2:
-          value: '[36.8 %, 44.2 %]'
+          value: '[46.6 %, 54.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 39%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.1%.Then, plug the values into the formula: 39% $\pm 1.96$ × 1.1%'
+            estimate is 49%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 49% $\pm 1.96$ × 1.2%'
         ans3:
-          value: '[34.8 %, 41.2 %]'
+          value: '[44.6 %, 51.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 39%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.1%.Then, plug the values into the formula: 39% $\pm 1.96$ × 1.1%'
+            estimate is 49%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 49% $\pm 1.96$ × 1.2%'
         ans4:
-          value: '[36.8 %, 41.2 %]'
+          value: '[46.6 %, 51.4 %]'
           feedback: Correct!
       part2:
         ans1:
@@ -104,7 +104,7 @@ Choose the appropriate 95% confidence interval for the proportion of U.S. adults
 
 Interpret the confidence interval in the context of the study.
 
-Note: a and b is the correct 95% confidence interval \[a, b\] computed in part (1).
+Note: a and b is the correct 95% confidence interval [a, b] computed in part (1).
 
 ### Answer Section
 

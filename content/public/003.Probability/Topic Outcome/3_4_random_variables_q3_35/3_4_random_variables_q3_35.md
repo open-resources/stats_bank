@@ -47,12 +47,12 @@ myst:
       vars:
         title: Roulette
       description:
-        num_slots: 34
-        num_red: 15
-        num_black: 16
-        num_green: 3
+        num_slots: 45
+        num_red: 20
+        num_black: 21
+        num_green: 4
         bet_amount: 6
-        bet_color: black
+        bet_color: red
       part1: {}
       part2: {}
 ---

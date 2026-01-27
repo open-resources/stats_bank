@@ -67,30 +67,30 @@ myst:
     params:
       vars:
         title: Burger Preferences
-      num1: 8
+      num1: 6
       num2: 10
-      num3: 18
-      num4: 155
-      num5: 187
-      num6: 342
-      num7: 13
-      num8: 11
-      num9: 24
-      num10: 29
-      num11: 29
-      num12: 58
-      num13: 7
-      num14: 3
-      num15: 10
+      num3: 16
+      num4: 157
+      num5: 168
+      num6: 325
+      num7: 6
+      num8: 17
+      num9: 23
+      num10: 26
+      num11: 26
+      num12: 52
+      num13: 5
+      num14: 1
+      num15: 6
       num16: 26
-      num17: 22
-      num18: 48
+      num17: 20
+      num18: 46
       num19: 12
       num20: 4
       num21: 16
-      num22: 250
-      num23: 266
-      num24: 516
+      num22: 238
+      num23: 246
+      num24: 484
       part1:
         ans1:
           value: 'Yes'
@@ -104,16 +104,16 @@ A 2010 Survey asked {{ params.num24 }} Los Angeles residents, "What is the best 
 
 The distribution of responses by gender is shown below.
 
-|                    | Male | Female | Total |
+| | Male | Female | Total |
 |--------------------|:------:|:--------:|:-------:|
-| Five Guys          | {{ params.num1 }} | {{ params.num2 }} | {{ params.num3 }} |
-| In-N-Out Burger    | {{ params.num4 }} | {{ params.num5 }} | {{ params.num6 }} |
-| Fat Burger         | {{ params.num7 }} | {{ params.num8 }} | {{ params.num9 }} |
+| Five Guys | {{ params.num1 }} | {{ params.num2 }} | {{ params.num3 }} |
+| In-N-Out Burger | {{ params.num4 }} | {{ params.num5 }} | {{ params.num6 }} |
+| Fat Burger | {{ params.num7 }} | {{ params.num8 }} | {{ params.num9 }} |
 | Tommy's Hamburgers | {{ params.num10 }} | {{ params.num11 }} | {{ params.num12 }} |
-| Umami Burger       | {{ params.num13 }} | {{ params.num14 }} | {{ params.num15 }} |
-| Other              | {{ params.num16 }} | {{ params.num17 }} | {{ params.num18 }} |
-| Not Sure           | {{ params.num19 }} | {{ params.num20 }} | {{ params.num21 }} |
-| Total              | {{ params.num22 }} | {{ params.num23 }} | {{ params.num24 }} |
+| Umami Burger | {{ params.num13 }} | {{ params.num14 }} | {{ params.num15 }} |
+| Other | {{ params.num16 }} | {{ params.num17 }} | {{ params.num18 }} |
+| Not Sure | {{ params.num19 }} | {{ params.num20 }} | {{ params.num21 }} |
+| Total | {{ params.num22 }} | {{ params.num23 }} | {{ params.num24 }} |
 
 ## Part 1
 
