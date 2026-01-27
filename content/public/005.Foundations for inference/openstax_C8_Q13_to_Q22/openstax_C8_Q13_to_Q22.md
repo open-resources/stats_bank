@@ -91,17 +91,17 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.2
-      sigma: 0.19
-      sample_stdev: 0.16
-      sample_size: 24
-      other_sample_size: 12.0
+      x_bar: 1.8
+      sigma: 0.15
+      sample_stdev: 0.1
+      sample_size: 22
+      other_sample_size: 44
       alpha1: 0.01
       confidence1: 99
       z_score1: 2.58
-      alpha2: 0.05
-      confidence2: 95
-      z_score2: 1.96
+      alpha2: 0.02
+      confidence2: 98
+      z_score2: 2.33
       part6_confidence: 99
       part6_z_score: 2.58
       part4:
@@ -114,18 +114,18 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 24 heads of lettuce.
+          matches: The mean weight of a sample of 22 heads of lettuce.
       part7:
         option1:
           value: $\text{CL} = 90\%$
         option2:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 95\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 95\%$
+          matches: $\text{CL} = 98\%$
       part8:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -173,13 +173,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 12.0 heads of lettuce were sampled instead of
-            24, and the error bound remained the same?
-          matches: CL-Decrease
+          value: What would happen if 44 heads of lettuce were sampled instead of
+            22, and the error bound remained the same?
+          matches: CL-Increase
         statement2:
-          value: What would happen if 12.0 heads of lettuce were sampled instead of
-            24, and the confidence level remained the same?
-          matches: EBM-Increase
+          value: What would happen if 44 heads of lettuce were sampled instead of
+            22, and the confidence level remained the same?
+          matches: EBM-Decrease
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.

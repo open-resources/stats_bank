@@ -1,8 +1,8 @@
 ---
-title: Census Form Length
+title: Weight of Elephants
 topic: Foundations for inference
 author: Gavin Kendal-Freedman
-source: 8.1
+source: original
 template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
@@ -13,7 +13,7 @@ outcomes:
 - 5.1.1.6
 - 5.1.1.7
 difficulty:
-- medium
+- undefined
 randomization:
 - undefined
 taxonomy:
@@ -26,17 +26,13 @@ tags:
 - GKF
 assets: null
 part1:
-  type: number-input
+  type: integer-input
   pl-customizations:
-    comparison: decdig
-    digits: 1
     allow-blank: false
     label: $\bar{x} = $
 part2:
-  type: number-input
+  type: integer-input
   pl-customizations:
-    comparison: decdig
-    digits: 1
     allow-blank: false
     label: $\sigma = $
 part3:
@@ -70,57 +66,47 @@ part7:
   type: multiple-choice
   pl-customizations:
     weight: 1
-part8:
-  type: integer-input
-  pl-customizations:
-    allow-blank: false
-    label: $n_{CL={{params.higher_confidence}}\%} = $
 myst:
   substitutions:
     params:
       vars:
-        title: Census Form Length
-      x_bar: 8.2
-      sigma: 2.4
-      sample_size: 215
-      other_sample_size: 65
+        title: Weight of Elephants
+      x_bar: 257
+      stdev_p: 12
+      stdev_s: 10
+      sample_size: 50
+      other_sample_size: 468
       alpha: 0.05
       confidence: 95
       z_score: 1.96
-      graph_z_score: 1.96
-      higher_confidence: 98
-      higher_z_score: 2.33
+      graph_z_score: 2.576
       part5:
         ans1:
           value: 'Yes'
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: 'No'
-          feedback: Try again please!
+          feedback: Correct!
       part7:
         ans1:
-          value: The level of confidence would decrease because decreasing $n$ makes
-            the confidence interval wider, so at the same error bound, the confidence
-            level decreases.
+          value: As the sample size increases, there will be less variability in the
+            mean, so the interval size decreases.
           feedback: Correct!
         ans2:
-          value: The level of confidence would increase because increasing $n$ makes
-            the confidence interval smaller, so at the same error bound, the confidence
-            level increases.
+          value: As the sample size increases, there will be more variability in the
+            mean, so the interval size increases.
           feedback: Try again please!
         ans3:
-          value: The level of confidence would increase because decreasing $n$ makes
-            the confidence interval smaller, so at the same error bound, the confidence
-            level increases.
+          value: As the sample size increases, there will be less variability in the
+            mean, so the interval size increases.
           feedback: Try again please!
         ans4:
-          value: The level of confidence would decrease because increasing $n$ makes
-            the confidence interval wider, so at the same error bound, the confidence
-            level decreases.
+          value: As the sample size increases, there will be more variability in the
+            mean, so the interval size decreases.
           feedback: Try again please!
 ---
 # {{ params.vars.title }}
-The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys {{ params.sample_size }} people. The sample mean is {{ params.x_bar }} minutes. There is a known standard deviation of {{ params.sigma }} minutes. The population distribution is assumed to be normal.
+The standard deviation of the weights of elephants is known to be approximately {{ params.stdev_p }} pounds. We wish to construct a {{ params.confidence }}% confidence interval for the mean weight of newborn elephant calves. {{ params.sample_size }} newborn elephants are weighed. The sample mean is {{ params.x_bar }} pounds. The sample standard deviation is {{ params.stdev_s }} pounds.
 
 ## Part 1
 
@@ -156,7 +142,7 @@ Please define the distribution that should be used. (Ex. $exp(1)$, $N(0,1)$, $B(
 
 Is the following graph a proper representation of the {{ params.confidence }}% confidence interval?
 
-<pl-figure file-name="figure 1.png" type="dynamic" width="500px"></pl-figure>
+<pl-figure file-name="figure 1.png" type="dynamic" width="600px"></pl-figure>
 
 ### Answer Section
 
@@ -173,7 +159,7 @@ Please enter a numeric value in.
 
 ## Part 7
 
-If the Census did another survey, kept the error bound the same, and surveyed {{ params.other_sample_size }} people instead of 200, what would happen to the level of confidence? Why?
+What will happen to the confidence interval obtained, if {{ params.other_sample_size }} newborn elephants are weighed instead of {{ params.sample_size }}? Why?
 
 ### Answer Section
 
@@ -181,14 +167,6 @@ If the Census did another survey, kept the error bound the same, and surveyed {{
 - {{ params.part7.ans2.value }}
 - {{ params.part7.ans3.value }}
 - {{ params.part7.ans4.value }}
-
-## Part 8
-
-Suppose the Census needed to be {{ params.higher_confidence }}% confident of the population mean length of time. Without changing the error bound from part 6, how many people would need to be surveyed?
-
-### Answer Section
-
-Please enter a numeric value in.
 
 ## Attribution
 

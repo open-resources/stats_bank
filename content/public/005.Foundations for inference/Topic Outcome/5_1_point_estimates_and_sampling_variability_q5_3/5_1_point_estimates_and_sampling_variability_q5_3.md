@@ -65,21 +65,21 @@ myst:
       vars:
         title: Quality control
       description:
-        num1: 190
-        num2: 24
+        num1: 184
+        num2: 32
       part1:
         ans1:
           value: The population of all computer chips ever produced by the factory.
           feedback: Try again please!
         ans2:
-          value: The population of 190  computer chips sampled during a week of production.
+          value: The population of 184  computer chips sampled during a week of production.
           feedback: Try again please!
         ans3:
           value: All computer chips manufactured at the factory during the week of
             production.
           feedback: Correct!
         ans4:
-          value: The population of 190 defective computer chips found in the sample.
+          value: The population of 184 defective computer chips found in the sample.
           feedback: Try again please!
       part2:
         ans1:
@@ -87,7 +87,7 @@ myst:
             entire year that had defects.
           feedback: Try again please!
         ans2:
-          value: The fraction of the 190 sampled chips that had defects.
+          value: The fraction of the 184 sampled chips that had defects.
           feedback: Try again please!
         ans3:
           value: The fraction of computer chips manufactured at the factory during
@@ -113,10 +113,10 @@ myst:
       part6:
         ans1:
           value: Yes, the engineer should be surprised.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: No, the engineer should not be surprised.
-          feedback: Correct!
+          feedback: Try again please!
       part7:
         ans1:
           value: Yes, the value changes significantly.
@@ -125,7 +125,7 @@ myst:
           value: No, the value does not change significantly.
           feedback: Correct!
       answer:
-        num1: 0.02176
+        num1: 0.02212
 ---
 # {{ params.vars.title }}
 As part of a quality control process for computer chips, an engineer at a factory randomly samples ${{ params.description.num1 }}$ chips during a week of production to test the current rate of chips with severe defects.
