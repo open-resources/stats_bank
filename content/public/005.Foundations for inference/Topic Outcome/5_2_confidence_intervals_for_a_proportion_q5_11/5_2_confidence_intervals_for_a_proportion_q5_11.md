@@ -59,7 +59,7 @@ myst:
       ci_higher: 147
       part1:
         num1: 95
-        num2: 68
+        num2: 69
         ans1:
           value: 'True'
           feedback: Try again please!
@@ -83,17 +83,17 @@ myst:
           value: 'False'
           feedback: Correct!
       part4:
-        num1: 103
+        num1: 91
         num2: 95
         ans1:
           value: 'True'
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: 'False'
-          feedback: Correct!
+          feedback: Try again please!
       part5:
-        num1: 3.5
-        num2: 142.5
+        num1: 4.5
+        num2: 141.5
         ans1:
           value: 'True'
           feedback: Try again please!
@@ -109,7 +109,7 @@ myst:
           value: 'False'
           feedback: Correct!
       description:
-        num1: 68
+        num1: 69
         num2: 95
         num3: 138
         num4: 147

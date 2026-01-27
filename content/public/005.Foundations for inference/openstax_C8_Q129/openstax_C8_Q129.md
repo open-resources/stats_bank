@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Population Proportions from Sample Data
-      total_homes_surveyed: 831
-      homes_not_meeting_recommendations: 203
-      homes_meeting_recommendations: 628
+      total_homes_surveyed: 843
+      homes_not_meeting_recommendations: 296
+      homes_meeting_recommendations: 547
 ---
 # {{ params.vars.title }}
 ${{ params.total_homes_surveyed }}$ homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. ${{ params.homes_meeting_recommendations }}$ of the homes surveyed met the minimum recommendations for earthquake preparedness, and ${{ params.homes_not_meeting_recommendations }}$ did not.
