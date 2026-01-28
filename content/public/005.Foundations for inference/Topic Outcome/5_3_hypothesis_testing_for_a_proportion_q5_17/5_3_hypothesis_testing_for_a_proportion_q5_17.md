@@ -34,7 +34,7 @@ myst:
       vars:
         title: Online communication
       description:
-        sample_size: 165
+        sample_size: 153
         num2: 0.66
         num3: 0.72
         num4: 66

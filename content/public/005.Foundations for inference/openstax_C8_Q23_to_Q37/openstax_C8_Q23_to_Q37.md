@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 29.0
-      sigma: 14.4
-      sample_size: 25
+      x_bar: 30.7
+      sigma: 13.6
+      sample_size: 33
       alpha: 0.01
       alpha_one_tail: 0.005
       confidence: 99
       z_score: 2.58
-      ebm: 7.430400000000001
-      fake_sample_size: 13
-      fake_confidence: 95
+      ebm: 6.108036792173526
+      fake_sample_size: 99
+      fake_confidence: 90
       part4:
         ans1:
-          value: The mean age of a sample of 25 Foothill College Students
+          value: The mean age of a sample of 33 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 25 Foothill College Students
+          value: The most frequent age of a sample of 33 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 99%
         option7:
-          value: '7.43'
+          value: '6.11'
         statement1:
           value: a?
           matches: '0.99'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '21.57'
+          matches: '24.59'
         statement5:
           value: e?
-          matches: '29.00'
+          matches: '30.70'
         statement6:
           value: f?
-          matches: '36.43'
+          matches: '36.81'
       part13:
         ans1:
           value: We are 99% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 99% confident that the true mean age for Winter Foothill College
-            students is 29.0.
+            students is 30.7.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between
@@ -225,12 +225,12 @@ myst:
           value: The error bound for the mean would decrease because as the sample
             size increases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
-          feedback: Please try again!
+          feedback: Nice work!
         ans2:
           value: The error bound for the mean would increase because as the sample
             size decreases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
-          feedback: Nice work!
+          feedback: Please try again!
         ans3:
           value: The error bound for the mean would decrease because as the sample
             size increases, you need more area under the normal curve (which translates

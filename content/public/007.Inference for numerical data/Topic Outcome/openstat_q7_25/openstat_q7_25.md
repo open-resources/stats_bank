@@ -133,12 +133,12 @@ myst:
             true.
           feedback: Incorrect!
       x_bar_6th: 9.65
-      x_bar_13th: 11.21
-      x_bar_D: -1.56
-      s_6th: 1.4
-      s_13th: 1.69
-      s_D: 2.11
-      n: 5
+      x_bar_13th: 11.1
+      x_bar_D: -1.45
+      s_6th: 3.77
+      s_13th: 1.65
+      s_D: 1.8
+      n: 8
       table: |-
         <table style="width:550px">
         <tr>
@@ -149,18 +149,18 @@ myst:
         </tr><tr>
         <th>Mean</th>
         <td>$9.65$</td>
-        <td>$11.21$</td>
-        <td>$-1.56$</td>
+        <td>$11.1$</td>
+        <td>$-1.45$</td>
         </tr><tr>
         <th>SD</th>
-        <td>$1.4$</td>
-        <td>$1.69$</td>
-        <td>$2.11$</td>
+        <td>$3.77$</td>
+        <td>$1.65$</td>
+        <td>$1.8$</td>
         </tr><tr>
         <th>n</th>
-        <td>$5$</td>
-        <td>$5$</td>
-        <td>$5$</td>
+        <td>$8$</td>
+        <td>$8$</td>
+        <td>$8$</td>
         </tr>
         </table>
 ---

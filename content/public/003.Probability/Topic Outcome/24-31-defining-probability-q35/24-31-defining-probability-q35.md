@@ -49,7 +49,7 @@ myst:
     params:
       vars:
         title: Coin flips
-      num1: 7
+      num1: 5
 ---
 # {{ params.vars.title }}
 If you flip a fair coin ${{ params.num1 }}$ times, what is the probability of
