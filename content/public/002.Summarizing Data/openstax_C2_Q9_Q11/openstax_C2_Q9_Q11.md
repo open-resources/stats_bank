@@ -60,40 +60,40 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>29.1</td>
-        <td>4.9</td>
+        <td>0.6</td>
+        <td>11.2</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>3.1</td>
-        <td>10.0</td>
+        <td>23.7</td>
+        <td>19.8</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>2.1</td>
-        <td>27.2</td>
+        <td>24.6</td>
+        <td>14.1</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>29.9</td>
-        <td>26.3</td>
+        <td>24.3</td>
+        <td>24.0</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>28.6</td>
-        <td>10.4</td>
+        <td>23.0</td>
+        <td>18.6</td>
         </tr><tr>
         <th>West End</th>
-        <td>7.2</td>
-        <td>21.1</td>
+        <td>3.8</td>
+        <td>12.5</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Overall Student Population from Each
         School'.
-      - The x-axis should be labeled 'Proportion (%)'.
-      - The y-axis should be labeled 'School'.
+      - The x-axis should be labeled 'School'.
+      - The y-axis should be labeled 'Proportion (%)'.
       - The bars should be appropriately labelled.
-      - The bars should be colored purple.
-      - The bars should have a red border.
-      - The bars should have a density of 7.
-      - The plot should be horizontal.
+      - The bars should be colored red.
+      - The bars should have a blue border.
+      - The bars should have a density of 1.
+      - The plot should be vertical.
       description: David County has six high schools. Each school sent students to
         participate in a county-wide science competition. The table below shows the
         percentage breakdown of competitors from each school, and the percentage of
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '4.9'
-        - '10.0'
-        - '27.2'
-        - '26.3'
-        - '10.4'
-        - '21.1'
+        - '11.2'
+        - '19.8'
+        - '14.1'
+        - '24.0'
+        - '18.6'
+        - '12.5'
         title: Overall Student Population from Each School
-        xlab: Proportion (%)
-        ylab: School
-        color: purple
-        border: red
-        density: 7
-        horiz: 'True'
-        std_plot: std_l5sdjndg_plot.png
-        ref_plot: ref__v0b9pz6_plot.png
+        xlab: School
+        ylab: Proportion (%)
+        color: red
+        border: blue
+        density: 1
+        horiz: 'False'
+        std_plot: std_nesehjag_plot.png
+        ref_plot: ref_z6pk80lm_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_l5sdjndg_plot.png
+        filename: std_nesehjag_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref__v0b9pz6_plot.png
+        filename: ref_z6pk80lm_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

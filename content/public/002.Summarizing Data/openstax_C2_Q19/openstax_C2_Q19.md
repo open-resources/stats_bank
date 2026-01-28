@@ -53,8 +53,8 @@ myst:
     params:
       vars:
         title: Depth of Hunger
-        color: purple
-        color_inst: The color of the frequency polygon should be purple.
+        color: blue
+        color_inst: The color of the frequency polygon should be blue.
       table: |-
         <table style="width:100%">
         <tr>
@@ -62,53 +62,53 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>29</td>
+        <td>24</td>
         </tr><tr>
         <td>260–289</td>
-        <td>9</td>
-        </tr><tr>
-        <td>290–319</td>
-        <td>2</td>
-        </tr><tr>
-        <td>320–349</td>
         <td>10</td>
         </tr><tr>
-        <td>350–379</td>
-        <td>3</td>
+        <td>290–319</td>
+        <td>4</td>
         </tr><tr>
-        <td>380–409</td>
+        <td>320–349</td>
+        <td>9</td>
+        </tr><tr>
+        <td>350–379</td>
         <td>0</td>
         </tr><tr>
-        <td>410–439</td>
+        <td>380–409</td>
         <td>2</td>
+        </tr><tr>
+        <td>410–439</td>
+        <td>1</td>
         </tr>
         </table>
       _workspace_files:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,29
-          260–289,9
-          290–319,2
-          320–349,10
-          350–379,3
-          380–409,0
-          410–439,2
+          230–259,24
+          260–289,10
+          290–319,4
+          320–349,9
+          350–379,0
+          380–409,2
+          410–439,1
       autograding:
-        std_plot: std_5z6af8mi_plot.png
-        ref_plot: ref__d9kj9lh_plot.png
+        std_plot: std_jhgx_1pd_plot.png
+        ref_plot: ref_j9adm97r_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_5z6af8mi_plot.png
+        filename: std_jhgx_1pd_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref__d9kj9lh_plot.png
+        filename: ref_j9adm97r_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjkKMjYw4oCTMjg5LDkKMjkw4oCTMzE5LDIKMzIw4oCTMzQ5LDEwCjM1MOKAkzM3OSwzCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwyCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjQKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSw0CjMyMOKAkzM0OSw5CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwxCg==
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjkKMjYw4oCTMjg5LDkKMjkw4oCTMzE5LDIKMzIw4oCTMzQ5LDEwCjM1MOKAkzM3OSwzCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwyCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjQKMjYw4oCTMjg5LDEwCjI5MOKAkzMxOSw0CjMyMOKAkzM0OSw5CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwyCjQxMOKAkzQzOSwxCg==
 ---
 # {{ params.vars.title }}
 

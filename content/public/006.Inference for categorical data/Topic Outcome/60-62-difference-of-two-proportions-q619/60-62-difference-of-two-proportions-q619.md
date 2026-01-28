@@ -51,10 +51,10 @@ myst:
       part1:
         ans1:
           value: 'False'
-          feedback: Not all of the confidence interval is above 0.
+          feedback: Correct!
         ans2:
           value: 'True'
-          feedback: Correct!
+          feedback: The entire confidence interval is above 0.
       part2:
         ans1:
           value: 'True'
@@ -81,18 +81,18 @@ myst:
       part5:
         ans1:
           value: 'False'
-          feedback: 'It is simply the negated and reordered values: (-0.02, 0.1).'
+          feedback: 'It is simply the negated and reordered values: (0.23, 0.33).'
         ans2:
           value: 'True'
           feedback: Incorrect!
-      lower_bound_percent_abs: 10.0
-      upper_bound_percent_abs: 2.0
-      lower_bound_percent_abs_p2: 2.0
-      upper_bound_percent_abs_p2: 10.0
-      lower_bound: -0.1
-      upper_bound: 0.02
-      male_sample_size: 1577
-      female_sample_size: 3884
+      lower_bound_percent_abs: 33.0
+      upper_bound_percent_abs: 23.0
+      lower_bound_percent_abs_p2: 23.0
+      upper_bound_percent_abs_p2: 33.0
+      lower_bound: -0.33
+      upper_bound: -0.23
+      male_sample_size: 1505
+      female_sample_size: 3854
 ---
 # {{ params.vars.title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).
