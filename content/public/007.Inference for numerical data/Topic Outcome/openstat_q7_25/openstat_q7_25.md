@@ -132,12 +132,12 @@ myst:
             any reliable information about risks, so the study's conclusion is not
             true.
           feedback: Incorrect!
-      x_bar_6th: 9.47
-      x_bar_13th: 9.69
-      x_bar_D: -0.22
-      s_6th: 1.11
-      s_13th: 2.16
-      s_D: 4.25
+      x_bar_6th: 11.49
+      x_bar_13th: 11.62
+      x_bar_D: -0.13
+      s_6th: 1.56
+      s_13th: 4.64
+      s_D: 2.87
       n: 9
       table: |-
         <table style="width:550px">
@@ -148,14 +148,14 @@ myst:
         <th>diff</th>
         </tr><tr>
         <th>Mean</th>
-        <td>$9.47$</td>
-        <td>$9.69$</td>
-        <td>$-0.22$</td>
+        <td>$11.49$</td>
+        <td>$11.62$</td>
+        <td>$-0.13$</td>
         </tr><tr>
         <th>SD</th>
-        <td>$1.11$</td>
-        <td>$2.16$</td>
-        <td>$4.25$</td>
+        <td>$1.56$</td>
+        <td>$4.64$</td>
+        <td>$2.87$</td>
         </tr><tr>
         <th>n</th>
         <td>$9$</td>
