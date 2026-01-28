@@ -55,7 +55,7 @@ myst:
       vars:
         title: Minimum wage, Part I
       description:
-        num1: 968
+        num1: 1077
         num2: 46
       part1:
         ans1:

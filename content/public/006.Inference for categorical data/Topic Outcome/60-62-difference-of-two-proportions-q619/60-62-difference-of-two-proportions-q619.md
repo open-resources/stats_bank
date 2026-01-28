@@ -58,10 +58,12 @@ myst:
       part2:
         ans1:
           value: 'True'
-          feedback: Correct!
+          feedback: The lower bound is negative, which contradicts the claim that
+            the male proportion is higher.
         ans2:
           value: 'False'
-          feedback: The entire confidence interval is above 0.
+          feedback: The lower bound is negative, which contradicts the claim that
+            the male proportion is higher.
       part3:
         ans1:
           value: 'True'
@@ -79,18 +81,18 @@ myst:
       part5:
         ans1:
           value: 'False'
-          feedback: 'It is simply the negated and reordered values: (-0.11, -0.03).'
+          feedback: 'It is simply the negated and reordered values: (0.16, 0.28).'
         ans2:
           value: 'True'
           feedback: Incorrect!
-      lower_bound_percent_abs: 3.0
-      upper_bound_percent_abs: 11.0
-      lower_bound_percent_abs_p2: 3.0
-      upper_bound_percent_abs_p2: 11.0
-      lower_bound: 0.03
-      upper_bound: 0.11
-      male_sample_size: 1942
-      female_sample_size: 3731
+      lower_bound_percent_abs: 28.0
+      upper_bound_percent_abs: 16.0
+      lower_bound_percent_abs_p2: 16.0
+      upper_bound_percent_abs_p2: 28.0
+      lower_bound: -0.28
+      upper_bound: -0.16
+      male_sample_size: 1695
+      female_sample_size: 3368
 ---
 # {{ params.vars.title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).

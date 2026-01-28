@@ -52,19 +52,19 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1924
-        proportion: 32.0
-        margin_of_error: 2.08
-        lower_bound: 29.92
-        upper_bound: 34.08
-        margin_of_error_part4: 1.042
-        selected_option1: If we considered many random samples of 1924 Americans,
+        sample_size: 1634
+        proportion: 59.0
+        margin_of_error: 2.38
+        lower_bound: 56.62
+        upper_bound: 61.38
+        margin_of_error_part4: 1.192
+        selected_option1: If we considered many random samples of 1634 Americans,
           and we calculated 95% confidence intervals for each, 95% of these intervals
           would include the true population proportion of Americans who think it's
           the government's responsibility to promote equality between men and women.
-        selected_option2: The margin of error is independent of the variability in
-          the responses from the sample population; it only depends on the sample
-          size and confidence level.
+        selected_option2: The margin of error is influenced by both the sample size
+          and the variability of the data. Larger sample sizes and lower variability
+          lead to smaller margins of error.
       part1:
         ans1:
           value: 'True'

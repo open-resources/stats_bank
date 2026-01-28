@@ -72,14 +72,14 @@ myst:
     params:
       vars:
         title: National Health Plan, Part I
-        sample_size: 619
-        sample_proportion: 63
+        sample_size: 595
+        sample_proportion: 59
       part1:
         ans1:
-          value: '$H_0: p = 0.63$, $H_A: p ≠ 0.5$'
+          value: '$H_0: p = 0.59$, $H_A: p ≠ 0.5$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.63$, $H_A: p = 0.5$'
+          value: '$H_0: p = 0.59$, $H_A: p = 0.5$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p ≤ 0.5$, $H_A: p > 0.5$'
@@ -111,7 +111,7 @@ myst:
           feedback: Try again please!
       part7:
         ans1:
-          value: Yes. Since 63% of Independents support the plan, the confidence interval
+          value: Yes. Since 59% of Independents support the plan, the confidence interval
             is likely to include 0.5 as well, showing a balanced opinion among Independents.
           feedback: Try again please!
         ans2:

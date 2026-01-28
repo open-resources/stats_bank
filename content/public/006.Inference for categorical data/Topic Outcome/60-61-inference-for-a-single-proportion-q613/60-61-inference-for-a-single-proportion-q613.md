@@ -66,14 +66,14 @@ myst:
     params:
       vars:
         title: Taste Test
-        sample: 92
-        p_value: 0.8348273291852384
+        sample: 78
+        p_value: 0.04154006700988511
       part1:
         ans1:
-          value: '$H_0: p = 0.51$, $H_A: p ≠ 0.5$'
+          value: '$H_0: p = 0.62$, $H_A: p ≠ 0.5$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.51$, $H_A: p = 0.5$'
+          value: '$H_0: p = 0.62$, $H_A: p = 0.5$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.5$, $H_A: p ≠ 0.5$'
@@ -84,18 +84,18 @@ myst:
       part2:
         ans1:
           value: Since this is a random sample, independence is satisfied. The success-failure
-            condition is also satisfied as we (using $p_0 = 0.5$, we expect 46 successes
-            and 46 failures).
+            condition is also satisfied as we (using $p_0 = 0.5$, we expect 39 successes
+            and 39 failures).
           feedback: Correct!
         ans2:
           value: Since this is a random sample, independence is satisfied. The success-failure
-            condition is not satisfied, as our expectation of 46 successes and 46
+            condition is not satisfied, as our expectation of 39 successes and 39
             failures, using $p_0 = 0.5$, is not met.
           feedback: Try again please!
         ans3:
           value: Given this is not a random sample, independence is not satisfied.
             The success-failure condition is also satisfied as we (using $p_0 = 0.5$,
-            we expect 46 successes and 46 failures).
+            we expect 39 successes and 39 failures).
           feedback: Try again please!
       part5:
         ans1:
@@ -103,14 +103,14 @@ myst:
             we rejected $H_0$ and the point estimate suggests people are better than
             random guessing, we can conclude the rate of correctly identifying a soda
             for these people is significantly better than just by random guessing.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: Since the p-value $≥ 0.05$, we fail to reject the null hypothesis.
             Since we did not reject $H_0$ and the point estimate suggests people are
             not better than random guessing, we cannot conclude that the rate of correctly
             identifying a soda for these people is significantly better than just
             by random guessing.
-          feedback: Correct!
+          feedback: Try again please!
 ---
 # {{ params.vars.title }}
 Some people claim that they can tell the difference between a diet soda and a regular soda in the first sip. A researcher wanting to test this claim randomly sampled {{ params.vars.sample }} such people. He then filled {{ params.vars.sample }} plain white cups with soda, half diet and half regular through random assignment, and asked each person to take one sip from their cup and identify the soda as diet or regular. {{ params.vars.num_correct_identifications }} participants correctly identified the soda. Do these data provide strong evidence that these people are any better or worse than random guessing at telling the difference between diet and regular soda? Yes or No?

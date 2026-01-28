@@ -65,21 +65,21 @@ myst:
       vars:
         title: Quality control
       description:
-        num1: 245
-        num2: 23
+        num1: 187
+        num2: 18
       part1:
         ans1:
           value: The population of all computer chips ever produced by the factory.
           feedback: Try again please!
         ans2:
-          value: The population of 245  computer chips sampled during a week of production.
+          value: The population of 187  computer chips sampled during a week of production.
           feedback: Try again please!
         ans3:
           value: All computer chips manufactured at the factory during the week of
             production.
           feedback: Correct!
         ans4:
-          value: The population of 245 defective computer chips found in the sample.
+          value: The population of 187 defective computer chips found in the sample.
           feedback: Try again please!
       part2:
         ans1:
@@ -87,7 +87,7 @@ myst:
             entire year that had defects.
           feedback: Try again please!
         ans2:
-          value: The fraction of the 245 sampled chips that had defects.
+          value: The fraction of the 187 sampled chips that had defects.
           feedback: Try again please!
         ans3:
           value: The fraction of computer chips manufactured at the factory during
@@ -125,7 +125,7 @@ myst:
           value: No, the value does not change significantly.
           feedback: Correct!
       answer:
-        num1: 0.01917
+        num1: 0.02194
 ---
 # {{ params.vars.title }}
 As part of a quality control process for computer chips, an engineer at a factory randomly samples ${{ params.description.num1 }}$ chips during a week of production to test the current rate of chips with severe defects.
