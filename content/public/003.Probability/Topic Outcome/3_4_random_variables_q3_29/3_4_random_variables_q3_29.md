@@ -41,11 +41,11 @@ myst:
       vars:
         title: College smokers
       part1:
-        num1: 108
+        num1: 102
       part2:
-        start_hour: 7
-        before_start_hour: 6
-        waiting_students: 27
+        start_hour: 9
+        before_start_hour: 8
+        waiting_students: 25
         ans1:
           value: 'No'
           feedback: Correct!

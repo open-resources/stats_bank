@@ -88,8 +88,8 @@ myst:
         title: Emergency Room Wait Times
       confidence_level: 90
       sample_size: 67
-      mean: 1.5
-      stdev: 0.9
+      mean: 1.4
+      stdev: 1.2
       part5:
         option0:
           value: The true mean wait time for patients in an emergency room.
@@ -108,7 +108,7 @@ myst:
           value: Student's t-distribution
           feedback: Good job!
         ans2:
-          value: $\operatorname{N}\left(1.5, 0.9\right)$
+          value: $\operatorname{N}\left(1.4, 1.2\right)$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}\left(0, 1\right)$ (Standard Normal)

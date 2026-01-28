@@ -61,20 +61,20 @@ myst:
     params:
       vars:
         title: Educational Attainment of Couples
-      male_9_less: '0.35'
+      male_9_less: '0.19'
       male_9_to_12: '0.04'
-      male_HS: '0.02'
-      male_some_college: '0.20'
-      male_associates: '0.05'
-      male_bachelors: '0.23'
-      male_graduate_or_professional: '0.11'
-      female_9_less: '0.08'
-      female_9_to_12: '0.08'
-      female_HS: '0.17'
-      female_some_college: '0.17'
-      female_associates: '0.21'
-      female_bachelors: '0.03'
-      female_graduate_or_professional: '0.26'
+      male_HS: '0.09'
+      male_some_college: '0.34'
+      male_associates: '0.06'
+      male_bachelors: '0.11'
+      male_graduate_or_professional: '0.17'
+      female_9_less: '0.33'
+      female_9_to_12: '0.02'
+      female_HS: '0.18'
+      female_some_college: '0.00'
+      female_associates: '0.05'
+      female_bachelors: '0.28'
+      female_graduate_or_professional: '0.15'
       part4:
         ans1:
           value: 'Yes'

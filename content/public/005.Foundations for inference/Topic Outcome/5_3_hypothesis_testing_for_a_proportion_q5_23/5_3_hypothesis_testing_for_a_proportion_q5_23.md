@@ -43,9 +43,9 @@ myst:
       vars:
         title: Working backwards, Part I
       description:
-        num1: 0.4
-        num2: 0.4
-        num3: 95
+        num1: 0.3
+        num2: 0.3
+        num3: 85
         num4: 0.05
 ---
 # {{ params.vars.title }}

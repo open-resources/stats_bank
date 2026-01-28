@@ -57,24 +57,24 @@ myst:
         title: Global warming, Part II
       part3:
         ans1:
-          value: We are 86% confident that there was an increase of [lower bound]
+          value: We are 88% confident that there was an increase of [lower bound]
             to [upper bound] in the average number of days that hit 90°F in 2018 relative
             to 1948 for NOAA stations.
           feedback: Correct!
         ans2:
-          value: There is a 86% probability that the true average difference in the
+          value: There is a 88% probability that the true average difference in the
             number of days exceeding 90°F between 1948 and 2018 lies between [lower
             bound] and [upper bound].
           feedback: Incorrect! This statement misinterprets the confidence interval
             as a probability statement about the data rather than about the interval.
         ans3:
-          value: There is a 86% probability that the number of days exceeding 90°F
+          value: There is a 88% probability that the number of days exceeding 90°F
             will be between [lower bound] and [upper bound] days higher in 2018 compared
             to 1948 for all locations.
           feedback: Incorrect! This statement suggests a predictive interpretation
             of the confidence interval, which is not accurate.
         ans4:
-          value: There is a 86% probability that the observed average difference of
+          value: There is a 88% probability that the observed average difference of
             days exceeding 90°F between 1948 and 2018 is exactly between [lower bound]
             and [upper bound] days.
           feedback: Incorrect! This statement misunderstands the confidence interval
@@ -87,10 +87,10 @@ myst:
         ans2:
           value: No, since the interval is not entirely lying above 0.
           feedback: Try again please!
-      sample_size: 189
-      mean_difference: 2.8
-      std_deviation: 16.4
-      part1_confidence_level: 86
+      sample_size: 199
+      mean_difference: 3.0
+      std_deviation: 18.2
+      part1_confidence_level: 88
 ---
 # {{ params.vars.title }}
 Let's consider a limited set of climate data, examining temperature differences in 1948 vs 2018. We sampled {{ params.sample_size }} locations from the National Oceanic and Atmospheric Administration’s (NOAA) historical data, where the data was available for both years of interest. We considered the change in the number of days exceeding 90°F from 1948 and 2018 at {{ params.sample_size }} randomly sampled locations from the NOAA database. The mean and standard deviation of the reported differences are {{ params.mean_difference }} days and {{ params.std_deviation }} days.

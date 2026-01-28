@@ -91,11 +91,11 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.6
-      sigma: 0.16
-      sample_stdev: 0.24
-      sample_size: 24
-      other_sample_size: 12.0
+      x_bar: 2.5
+      sigma: 0.26
+      sample_stdev: 0.16
+      sample_size: 20
+      other_sample_size: 10.0
       alpha1: 0.01
       confidence1: 99
       z_score1: 2.58
@@ -114,12 +114,12 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 24 heads of lettuce.
+          matches: The mean weight of a sample of 20 heads of lettuce.
       part7:
         option1:
-          value: $\text{CL} = 90\%$
-        option2:
           value: $\text{CL} = 98\%$
+        option2:
+          value: $\text{CL} = 90\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 99\%$
@@ -173,12 +173,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 12.0 heads of lettuce were sampled instead of
-            24, and the error bound remained the same?
+          value: What would happen if 10.0 heads of lettuce were sampled instead of
+            20, and the error bound remained the same?
           matches: CL-Decrease
         statement2:
-          value: What would happen if 12.0 heads of lettuce were sampled instead of
-            24, and the confidence level remained the same?
+          value: What would happen if 10.0 heads of lettuce were sampled instead of
+            20, and the confidence level remained the same?
           matches: EBM-Increase
 ---
 # {{ params.vars.title }}
