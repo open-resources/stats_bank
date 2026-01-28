@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 17
+        num_drivers: 13
         hours_deprivation: 22
         treatment_order: The treatments were assigned in random order.
         mentioned_test: driving simulation
-        driver_type: professional
+        driver_type: new
       part1:
         option1:
           value: Amount of Sleep Deprivation
@@ -93,26 +93,26 @@ myst:
           value: 22 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 17 hours of sleep deprivation
+          value: 13 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 17 professional drivers
+          value: 13 new drivers
           feedback: Try again please!
         ans5:
-          value: 22 professional drivers
+          value: 22 new drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 17 professional drivers
+          value: 13 new drivers
           feedback: Correct!
         ans2:
           value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 17 hours of sleep deprivation
+          value: 13 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 22 professional drivers
+          value: 22 new drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -145,13 +145,13 @@ myst:
           value: 22 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 17 hours of sleep deprivation
+          value: 13 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 17 professional drivers
+          value: 13 new drivers
           feedback: Try again please!
         ans5:
-          value: 22 professional drivers
+          value: 22 new drivers
           feedback: Try again please!
       part7:
         ans1:

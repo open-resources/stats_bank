@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 29.4
-      sigma: 15.0
-      sample_size: 32
+      x_bar: 29.0
+      sigma: 14.4
+      sample_size: 25
       alpha: 0.01
       alpha_one_tail: 0.005
       confidence: 99
       z_score: 2.58
-      ebm: 6.841258107979847
-      fake_sample_size: 16
+      ebm: 7.430400000000001
+      fake_sample_size: 13
       fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 32 Foothill College Students
+          value: The mean age of a sample of 25 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 32 Foothill College Students
+          value: The most frequent age of a sample of 25 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 99%
         option7:
-          value: '6.84'
+          value: '7.43'
         statement1:
           value: a?
           matches: '0.99'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '22.56'
+          matches: '21.57'
         statement5:
           value: e?
-          matches: '29.40'
+          matches: '29.00'
         statement6:
           value: f?
-          matches: '36.24'
+          matches: '36.43'
       part13:
         ans1:
           value: We are 99% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 99% confident that the true mean age for Winter Foothill College
-            students is 29.4.
+            students is 29.0.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between

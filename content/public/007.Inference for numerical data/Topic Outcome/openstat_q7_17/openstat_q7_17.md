@@ -44,17 +44,17 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part1: Examine age-related wage disparities by comparing the
+        earnings of younger and older employees in a company.
       part1:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part2: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+          feedback: Correct!
+      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part2:
         ans1:
           value: Paired.
@@ -62,24 +62,24 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+      selected_scenario_part3: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part3:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+          feedback: Incorrect!
+      selected_scenario_part4: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.

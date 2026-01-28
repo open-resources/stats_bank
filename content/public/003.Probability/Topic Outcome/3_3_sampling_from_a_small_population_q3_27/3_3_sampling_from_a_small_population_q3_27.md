@@ -38,17 +38,17 @@ myst:
       vars:
         title: Student outfits
       description:
-        num1: 21
+        num1: 20
         num2: 6
         jeans1: 5
-        num3: 3
-        num4: 8
-        num6: 4
+        num3: 4
+        num4: 7
+        num6: 3
         num5: 3
-        total: 21
-        total1: 20
-        total2: 19
-        prob: 0.015
+        total: 20
+        total1: 19
+        total2: 18
+        prob: 0.0132
 ---
 # {{ params.vars.title }}
 In a classroom with ${{ params.description.num1 }}$ students, ${{ params.description.num2 }}$ students are wearing jeans, ${{ params.description.num3 }}$ are wearing shorts, ${{ params.description.num4 }}$ are wearing skirts, and the rest are wearing leggings.

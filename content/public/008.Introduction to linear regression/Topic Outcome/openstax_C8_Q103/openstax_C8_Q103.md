@@ -35,7 +35,7 @@ myst:
       vars:
         title: Height of Young Adults
       stdev: 2.4
-      confidence: 90
+      confidence: 88
 ---
 # {{ params.vars.title }}
 
