@@ -59,39 +59,39 @@ myst:
         y_axis: Frequency
         overplotted: should not
         style: l
-        color: purple
+        color: blue
       _workspace_files:
       - name: data.csv
         contents: |
           Number of times in store,Frequency
-          1,6
-          2,12
-          3,14
-          4,8
-          5,0
+          1,2
+          2,10
+          3,21
+          4,3
+          5,4
       df: null
       autograding:
-        std_plot: std_nxwkzd55_plot.png
-        ref_plot: ref_mvqbwh0w_plot.png
+        std_plot: std_rhb9nqhb_plot.png
+        ref_plot: ref_qjwf_vy6_plot.png
         csv: |
           Number of times in store,Frequency
-          1,6
-          2,12
-          3,14
-          4,8
-          5,0
+          1,2
+          2,10
+          3,21
+          4,3
+          5,4
       _images:
       - label: Your Line Graph
-        filename: std_nxwkzd55_plot.png
+        filename: std_rhb9nqhb_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_mvqbwh0w_plot.png
+        filename: ref_qjwf_vy6_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDYKMiwxMgozLDE0CjQsOAo1LDAK
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiwxMAozLDIxCjQsMwo1LDQK
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDYKMiwxMgozLDE0CjQsOAo1LDAK
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDIKMiwxMAozLDIxCjQsMwo1LDQK
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below

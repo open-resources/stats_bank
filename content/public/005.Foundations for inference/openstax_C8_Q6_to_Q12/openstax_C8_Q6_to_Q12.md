@@ -80,23 +80,23 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.7
-      sigma: 1.7
-      sample_size: 190
-      other_sample_size: 340
-      alpha: 0.05
-      confidence: 95
-      z_score: 1.96
+      x_bar: 7.8
+      sigma: 2.3
+      sample_size: 200
+      other_sample_size: 350
+      alpha: 0.1
+      confidence: 90
+      z_score: 1.645
       graph_z_score: 1.645
       higher_confidence: 99
       higher_z_score: 2.58
       part5:
         ans1:
           value: 'Yes'
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: 'No'
-          feedback: Correct!
+          feedback: Try again please!
       part7:
         ans1:
           value: The level of confidence would decrease because decreasing $n$ makes
