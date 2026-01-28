@@ -38,8 +38,8 @@ myst:
       vars:
         title: Portfolio return
       description:
-        num1: 21
-        num2: 13
+        num1: 17
+        num2: 1
         num3: 17
 ---
 # {{ params.vars.title }}

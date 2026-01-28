@@ -38,30 +38,30 @@ myst:
       vars:
         title: Chronic illness, Part I
       description:
-        num1: 2003
-        num2: 1.3
-        num3: 40
+        num1: 2019
+        num2: 1.2
+        num3: 35
       part1:
         ans1:
-          value: '[35.5 %, 45.5 %]'
+          value: '[30.6 %, 40.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 40%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 40% $\pm 1.96$ × 1.3%'
+            estimate is 35%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 35% $\pm 1.96$ × 1.2%'
         ans2:
-          value: '[37.5 %, 45.5 %]'
+          value: '[32.6 %, 40.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 40%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 40% $\pm 1.96$ × 1.3%'
+            estimate is 35%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 35% $\pm 1.96$ × 1.2%'
         ans3:
-          value: '[35.5 %, 42.5 %]'
+          value: '[30.6 %, 37.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
-            estimate is 40%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 40% $\pm 1.96$ × 1.3%'
+            estimate is 35%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
+            = 1.2%.Then, plug the values into the formula: 35% $\pm 1.96$ × 1.2%'
         ans4:
-          value: '[37.5 %, 42.5 %]'
+          value: '[32.6 %, 37.4 %]'
           feedback: Correct!
       part2:
         ans1:
