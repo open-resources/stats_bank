@@ -50,11 +50,11 @@ myst:
       vars:
         title: Vegetarian college students
       sample_size: 86
-      sample_size2: 42
+      sample_size2: 101
       p: 10
-      p_hat: 12
-      college_students: 124
-      college_students2: 248
+      p_hat: 13
+      college_students: 123
+      college_students2: 246
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
@@ -65,16 +65,13 @@ myst:
           feedback: Correct!
       part2:
         ans1:
-          value: False. The distribution is not skewed as the success-failure condition
-            is met.
-          feedback: Incorrect.
+          value: False. The distribution is not right skewed because the success-failure
+            condition is met.
+          feedback: Correct.
         ans2:
           value: True. The distribution is right skewed because the success-failure
             condition is not met.
-          feedback: Correct! In most samples we would expect $\hat{p}$ to be close
-            to 0.08, the true population proportion. While $\hat{p}$ can be much above
-            0.08, it is bound below by 0, suggesting it would take on a right skewed
-            shape.
+          feedback: Incorrect!
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population

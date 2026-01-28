@@ -53,8 +53,8 @@ myst:
       df_factor: 2
       df_residual: 191
       meansq_factor: 0.025
-      meansq_residual: 0.0946
-      f_value: 0.2643
+      meansq_residual: 0.0821
+      f_value: 0.3045
       table: |-
         <table style="width:550px">
         <tr>
@@ -69,13 +69,13 @@ myst:
         <td>$2$</td>
         <td>$0.05$</td>
         <td>$0.025$</td>
-        <td>$0.2643$</td>
+        <td>$0.3045$</td>
         <td>$-$</td>
         </tr><tr>
         <th>Residuals</th>
         <td>$191$</td>
-        <td>$18.07$</td>
-        <td>$0.0946$</td>
+        <td>$15.69$</td>
+        <td>$0.0821$</td>
         <td>$\quad$</td>
         <td>$\quad$</td>
         </tr>

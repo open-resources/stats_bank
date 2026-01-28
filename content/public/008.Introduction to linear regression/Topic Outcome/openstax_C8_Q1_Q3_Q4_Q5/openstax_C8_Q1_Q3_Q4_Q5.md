@@ -71,15 +71,15 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 258
+      x_bar: 237
       stdev_p: 20
       stdev_s: 14
-      sample_size: 60
-      other_sample_size: 506
+      sample_size: 55
+      other_sample_size: 486
       alpha: 0.05
       confidence: 95
       z_score: 1.96
-      graph_z_score: 2.576
+      graph_z_score: 1.645
       part5:
         ans1:
           value: 'Yes'
