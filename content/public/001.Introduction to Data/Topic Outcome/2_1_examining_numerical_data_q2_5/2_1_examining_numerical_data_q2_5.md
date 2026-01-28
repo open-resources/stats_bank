@@ -38,18 +38,18 @@ myst:
         option1:
           value: 2001
         option2:
-          value: 296
+          value: 196
         option3:
           value: 10
         statement1:
           value: Claimed population mean
-          matches: '2.87'
+          matches: '3.45'
         statement2:
           value: Sample mean
-          matches: '4.36'
-      question1: The average GPA of students in 2001 at a private university was 2.87.
-        A survey on a sample of 296 students from this university yielded an average
-        GPA of 4.36 a decade later.
+          matches: '4.21'
+      question1: The average GPA of students in 2001 at a private university was 3.45.
+        A survey on a sample of 196 students from this university yielded an average
+        GPA of 4.21 a decade later.
 ---
 # {{ params.vars.title }}
 Identify which value represents the sample mean and which value represents the claimed population mean.

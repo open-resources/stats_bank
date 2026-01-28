@@ -60,7 +60,7 @@ myst:
       vars:
         title: Speed and height
       description:
-        num1: 1294
+        num1: 1308
 ---
 # {{ params.vars.title }}
 ${{ params.description.num1 }}$ UCLA students were asked to fill out a survey where they were asked about their height, fastest speed they have ever driven, and gender. The first scatterplot displays the relationship between height and fastest speed, and the second scatterplot displays the breakdown by gender in this relationship.

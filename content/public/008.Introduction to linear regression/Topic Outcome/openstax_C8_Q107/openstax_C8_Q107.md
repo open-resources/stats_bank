@@ -87,11 +87,14 @@ myst:
       vars:
         title: Tranquilizer effect time
       effect_times:
-      - 2.3
-      - 2.1
-      - 2.5
-      - 2.7
+      - 2.4
       - 2.2
+      - 2.4
+      - 2.1
+      - 2.4
+      - 2.9
+      - 2.2
+      - 2.1
       confidence_level: 98
       part5:
         option0:
@@ -104,7 +107,7 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean effective length of time of tranquilizers from a sample
-            of 5 patients.
+            of 8 patients.
       part6:
         ans1:
           value: We need to use a Student's-t distribution, because we do not know

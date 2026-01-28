@@ -37,25 +37,25 @@ myst:
           value: Paired, because data are recorded in the same cities at two different
             time points, and the air quality in a city at one point is not independent
             of the air quality in the same city at another time point.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
-          value: Non-paired, because the measurements are from different, non-corresponding
-            cities each year so, the air quality in a city at one point is independent
+          value: Paired, because data are recorded in different cities at two different
+            time points, and the air quality in a city at one point is independent
             of the air quality in another city at another time point.
           feedback: Incorrect!
         ans3:
-          value: Paired, since air quality is influenced by many varying factors each
-            year, making each year's data independent.
+          value: Non-paired, since air quality is influenced by many varying factors
+            each year, making each year's data independent.
           feedback: Incorrect!
         ans4:
-          value: Non-paired, because data are recorded in the same cities at two different
-            time points, and the air quality in a city at one point is not independent
-            of the air quality in the same city at another time point.
-          feedback: Incorrect!
-      country_capitals: 23
-      year_1: 2011
-      year_2: 2015
-      selected_scenario: in the same cities
+          value: Non-paired, because the measurements are from different, non-corresponding
+            cities each year so, the air quality in a city at one point is independent
+            of the air quality in another city at another time point.
+          feedback: Correct!
+      country_capitals: 26
+      year_1: 2009
+      year_2: 2014
+      selected_scenario: but in a different set of cities
 ---
 # {{ params.vars.title }}
 Air quality measurements were collected in a random sample of ${{ params.country_capitals }}$ country capitals in ${{ params.year_1 }}$, and then again {{ params.selected_scenario }} in ${{ params.year_2 }}$. We would like to use these data to compare average air quality between the two years.
