@@ -41,16 +41,16 @@ myst:
     params:
       vars:
         title: Find the p-value, Part I
-      n: 8
-      T: 2.48
-      alpha: 0.05
+      n: 9
+      T: 2.28
+      alpha: 0.01
       part2:
         ans1:
           value: do not reject $H_0$
-          feedback: Incorrect, try again!
+          feedback: Nice work!
         ans2:
           value: reject $H_0$
-          feedback: Nice work!
+          feedback: Incorrect, try again!
 ---
 # {{ params.vars.title }}
 An independent random sample is selected from an approximately normal population with an unknown standard deviation.

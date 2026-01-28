@@ -49,7 +49,7 @@ myst:
           feedback: Try again please!
         ans2:
           value: Yes, the claim is supported because the upper limit of the confidence
-            interval is 69%, which is close to 73%.
+            interval is 60%, which is close to 73%.
           feedback: Try again please!
         ans3:
           value: No, the claim is not supported since 73% falls outside the confidence
@@ -82,7 +82,7 @@ myst:
           feedback: Try again please!
       description:
         num1: 57
-        num2: 69
+        num2: 60
         num3: 95
       part1:
         ans1:

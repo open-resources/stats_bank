@@ -35,24 +35,24 @@ myst:
     params:
       vars:
         title: Units of regression
-        unit1: kg
-        unit2: in
-        problem_statement: weight (kg) from height (in)
+        unit1: ft
+        unit2: g
+        problem_statement: height (ft) from weight (g)
       part1:
         option1:
           value: No units
           name: Correlation
         option2:
-          value: $kg$
+          value: $ft$
           name: Intercept
         option3:
-          value: $\frac{kg}{in}$
+          value: $\frac{ft}{g}$
           name: Slope
         option4:
-          value: $in$
+          value: $g$
           name: Distractor 1
         option5:
-          value: $\frac{in}{kg}$
+          value: $\frac{g}{ft}$
           name: Distractor 2
         statement1:
           value: Correlation
