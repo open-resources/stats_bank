@@ -60,31 +60,31 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>8</td>
-        <td>25</td>
+        <td>9</td>
+        <td>32</td>
         </tr><tr>
         <th>Summer</th>
-        <td>13</td>
-        <td>41</td>
+        <td>6</td>
+        <td>21</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>6</td>
-        <td>19</td>
+        <td>9</td>
+        <td>32</td>
         </tr><tr>
         <th>Winter</th>
-        <td>5</td>
-        <td>16</td>
+        <td>4</td>
+        <td>14</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Birthdays in Each Season'.
-      - The x-axis should be labeled 'Season'.
-      - The y-axis should be labeled 'Proportion (%)'.
+      - The x-axis should be labeled 'Proportion (%)'.
+      - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
-      - The bars should be colored darkgreen.
-      - The bars should have a red border.
-      - The bars should have a density of 6.
-      - The plot should be vertical.
+      - The bars should be colored blue.
+      - The bars should have a purple border.
+      - The bars should have a density of 8.
+      - The plot should be horizontal.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
         students who have birthdays in each season, and the proportion (%) of students
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 25
-        - 41
-        - 19
-        - 16
+        - 32
+        - 21
+        - 32
+        - 14
         title: Birthdays in Each Season
-        xlab: Season
-        ylab: Proportion (%)
-        color: darkgreen
-        border: red
-        density: 6
-        horiz: 'False'
-        std_plot: std_uldphb3b_plot.png
-        ref_plot: ref_vo9vq75q_plot.png
+        xlab: Proportion (%)
+        ylab: Season
+        color: blue
+        border: purple
+        density: 8
+        horiz: 'True'
+        std_plot: std_lxu1immt_plot.png
+        ref_plot: ref_n015mhvh_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_uldphb3b_plot.png
+        filename: std_lxu1immt_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_vo9vq75q_plot.png
+        filename: ref_n015mhvh_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

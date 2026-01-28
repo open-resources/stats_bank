@@ -38,30 +38,30 @@ myst:
       vars:
         title: Chronic illness, Part I
       description:
-        num1: 2009
-        num2: 1.3
+        num1: 2016
+        num2: 1.2
         num3: 48
       part1:
         ans1:
-          value: '[43.5 %, 53.5 %]'
+          value: '[43.6 %, 53.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
             estimate is 48%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.3%'
+            = 1.2%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.2%'
         ans2:
-          value: '[45.5 %, 53.5 %]'
+          value: '[45.6 %, 53.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
             estimate is 48%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.3%'
+            = 1.2%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.2%'
         ans3:
-          value: '[43.5 %, 50.5 %]'
+          value: '[43.6 %, 50.4 %]'
           feedback: 'Try again! Recall that the general formula is $point~estimate
             \pm z^{\star}$ × SE. First, identify the three different values. The point
             estimate is 48%,$z^{\star} = 1.96$ for a 95% confidence level, and SE
-            = 1.3%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.3%'
+            = 1.2%.Then, plug the values into the formula: 48% $\pm 1.96$ × 1.2%'
         ans4:
-          value: '[45.5 %, 50.5 %]'
+          value: '[45.6 %, 50.4 %]'
           feedback: Correct!
       part2:
         ans1:
