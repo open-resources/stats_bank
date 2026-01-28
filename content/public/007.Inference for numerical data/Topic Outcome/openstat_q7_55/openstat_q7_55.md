@@ -50,10 +50,10 @@ myst:
     params:
       vars:
         title: Exclusive relationships
-      sample_mean: 3.46
+      sample_mean: 3.29
       sample_size: 193
-      sample_std: 1.87
-      confidence_level: 91
+      sample_std: 1.69
+      confidence_level: 89
       n: 193
       part3:
         ans1:
@@ -70,7 +70,7 @@ myst:
             outliers, so the normality condition is reasonable.
           feedback: Great! You got it.
         ans4:
-          value: We are $91$% confident that undergraduate students have been in (lower_interval)
+          value: We are $89$% confident that undergraduate students have been in (lower_interval)
             to (upper_interval) exclusive relationships, on average.
           feedback: Great! You got it.
         ans5:

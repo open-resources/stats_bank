@@ -48,8 +48,8 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 792
-        num2: 70
+        num1: 795
+        num2: 66
       part1:
         ans1:
           value: Independence
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.0718, 0.1). We are
-            90% confident that the true proportion of all first-time visitors who
-            would register under the new design is between 7.18% and 10.0%.
+          value: The 90% confidence interval is approximately (0.0669, 0.0941). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 6.69% and 9.41%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.0678, 0.105). We
+          value: The 90% confidence interval is approximately (0.0629, 0.0991). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.78% and 10.5%.
+            who would register under the new design is between 6.29% and 9.91%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.0678, 0.1). We are
-            90% confident that the true proportion of all first-time visitors who
-            would register under the new design is between 6.78% and 10.0%.
+          value: The 90% confidence interval is approximately (0.0629, 0.0941). We
+            are 90% confident that the true proportion of all first-time visitors
+            who would register under the new design is between 6.29% and 9.41%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.0718, 0.105). We
+          value: The 90% confidence interval is approximately (0.0669, 0.0991). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.18% and 10.5%.
+            who would register under the new design is between 6.69% and 9.91%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

@@ -92,18 +92,18 @@ myst:
       vars:
         title: Weight of Heads of Lettuce
       x_bar: 2.6
-      sigma: 0.11
-      sample_stdev: 0.23
-      sample_size: 14
-      other_sample_size: 28
-      alpha1: 0.1
-      confidence1: 90
-      z_score1: 1.645
-      alpha2: 0.02
-      confidence2: 98
-      z_score2: 2.33
-      part6_confidence: 90
-      part6_z_score: 1.645
+      sigma: 0.16
+      sample_stdev: 0.24
+      sample_size: 24
+      other_sample_size: 12.0
+      alpha1: 0.01
+      confidence1: 99
+      z_score1: 2.58
+      alpha2: 0.05
+      confidence2: 95
+      z_score2: 1.96
+      part6_confidence: 95
+      part6_z_score: 1.96
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -114,18 +114,18 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 14 heads of lettuce.
+          matches: The mean weight of a sample of 24 heads of lettuce.
       part7:
         option1:
-          value: $\text{CL} = 95\%$
+          value: $\text{CL} = 90\%$
         option2:
-          value: $\text{CL} = 99\%$
+          value: $\text{CL} = 98\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 90\%$
+          matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 98\%$
+          matches: $\text{CL} = 95\%$
       part8:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -142,14 +142,14 @@ myst:
             in smaller areas and smaller intervals.
           feedback: Please try again!
         ans3:
-          value: The interval is greater because the level of confidence increased.
+          value: The interval is smaller because the level of confidence decreased.
             If the only change made in the analysis is a change in confidence level,
             then all we are doing is changing how much area is being calculated for
             the normal distribution. Therefore, a larger confidence level results
             in larger areas and larger intervals.
           feedback: Please try again!
         ans4:
-          value: The interval is smaller because the level of confidence decreased.
+          value: The interval is greater because the level of confidence increased.
             If the only change made in the analysis is a change in confidence level,
             then all we are doing is changing how much area is being calculated for
             the normal distribution. Therefore, a larger confidence level results
@@ -173,13 +173,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 28 heads of lettuce were sampled instead of
-            14, and the error bound remained the same?
-          matches: CL-Increase
+          value: What would happen if 12.0 heads of lettuce were sampled instead of
+            24, and the error bound remained the same?
+          matches: CL-Decrease
         statement2:
-          value: What would happen if 28 heads of lettuce were sampled instead of
-            14, and the confidence level remained the same?
-          matches: EBM-Decrease
+          value: What would happen if 12.0 heads of lettuce were sampled instead of
+            24, and the confidence level remained the same?
+          matches: EBM-Increase
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.
