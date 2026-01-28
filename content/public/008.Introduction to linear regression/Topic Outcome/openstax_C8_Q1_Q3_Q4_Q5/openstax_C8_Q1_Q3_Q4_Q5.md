@@ -71,11 +71,11 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 236
-      stdev_p: 20
-      stdev_s: 13
-      sample_size: 55
-      other_sample_size: 542
+      x_bar: 256
+      stdev_p: 12
+      stdev_s: 8
+      sample_size: 40
+      other_sample_size: 540
       alpha: 0.1
       confidence: 90
       z_score: 1.645

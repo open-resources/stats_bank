@@ -50,18 +50,18 @@ myst:
         num13: 0
         num14: 0
         num15: 0.2
-        num16: 0.1
+        num16: 0.0
         num17: 0.3
-        num18: 0.2
+        num18: 0.1
         num19: -0.4
-        num20: 0.2
-        num21: 0.2
-        num22: 0.3
+        num20: 0.1
+        num21: 0.1
+        num22: 0.1
         num23: 0.1
-        num24: 0.2
+        num24: 0.6
         num25: 0
         num26: -0.4
-        num27: 1.2
+        num27: 1.0
         num28: 0
         num29: 0
       part1:
