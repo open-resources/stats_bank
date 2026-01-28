@@ -170,9 +170,9 @@ myst:
             difference between the number of days exceeding 90°F from 1948 and 2018
             might include 0.
           feedback: Incorrect!
-      sample_size: 204
-      mean_difference: 2.2
-      std_deviation: 15.6
+      sample_size: 211
+      mean_difference: 2.6
+      std_deviation: 19.1
 ---
 # {{ params.vars.title }}
 Let's consider a limited set of climate data, examining temperature differences in 1948 vs 2018. We sampled {{ params.sample_size }} locations from the National Oceanic and Atmospheric Administration’s (NOAA) historical data, where the data was available for both years of interest. We want to know: were there more days with temperatures exceeding 90°F in 2018 or in 1948? The difference in number of days exceeding 90°F (number of days in 2018 - number of days in 1948) was calculated for each of the {{ params.sample_size }} locations. The average of these differences was {{ params.mean_difference }} days with a standard deviation of {{ params.std_deviation }} days. We are interested in determining whether these data provide strong evidence that there were more days in 2018 that exceeded 90°F from NOAA’s weather stations.

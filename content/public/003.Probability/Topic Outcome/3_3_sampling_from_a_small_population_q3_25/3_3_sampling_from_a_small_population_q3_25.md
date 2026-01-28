@@ -59,9 +59,9 @@ myst:
       description:
         num1: 8
         num2: 6
-        num3: 2
-        n1: 15
-        n: 16
+        num3: 4
+        n1: 17
+        n: 18
         blue1: 5
       part4:
         ans1:

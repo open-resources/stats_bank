@@ -52,46 +52,46 @@ myst:
     params:
       vars:
         title: Line Graphs
-        description: Several children were asked how many TV shows they watch each
-          day. The results are shown in the table below.
-        graph_title: Number of TV Shows watched each day
-        x_axis: Number of TV Shows
+        description: In a survey, 48 people were asked how many times they visited
+          a store before making a major purchase.
+        graph_title: Number of times in store before making a major purchase
+        x_axis: Number of times in store
         y_axis: Frequency
-        overplotted: should not
-        style: l
-        color: orange
+        overplotted: should
+        style: o
+        color: blue
       _workspace_files:
       - name: data.csv
         contents: |
-          Number of TV Shows,Frequency
-          0,12
-          1,21
-          2,34
-          3,9
-          4,4
+          Number of times in store,Frequency
+          1,3
+          2,10
+          3,16
+          4,15
+          5,4
       df: null
       autograding:
-        std_plot: std_xq18fim4_plot.png
-        ref_plot: ref_s9oq1hpb_plot.png
+        std_plot: std_fgf5z783_plot.png
+        ref_plot: ref_6iz2hek0_plot.png
         csv: |
-          Number of TV Shows,Frequency
-          0,12
-          1,21
-          2,34
-          3,9
-          4,4
+          Number of times in store,Frequency
+          1,3
+          2,10
+          3,16
+          4,15
+          5,4
       _images:
       - label: Your Line Graph
-        filename: std_xq18fim4_plot.png
+        filename: std_fgf5z783_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_s9oq1hpb_plot.png
+        filename: ref_6iz2hek0_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEyCjEsMjEKMiwzNAozLDkKNCw0Cg==
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMAozLDE2CjQsMTUKNSw0Cg==
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEyCjEsMjEKMiwzNAozLDkKNCw0Cg==
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMAozLDE2CjQsMTUKNSw0Cg==
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below

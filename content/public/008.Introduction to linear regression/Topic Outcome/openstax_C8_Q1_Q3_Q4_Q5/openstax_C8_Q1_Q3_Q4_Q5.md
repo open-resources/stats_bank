@@ -71,22 +71,22 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 252
-      stdev_p: 19
-      stdev_s: 11
-      sample_size: 55
-      other_sample_size: 474
-      alpha: 0.05
-      confidence: 95
-      z_score: 1.96
-      graph_z_score: 1.96
+      x_bar: 238
+      stdev_p: 16
+      stdev_s: 14
+      sample_size: 40
+      other_sample_size: 501
+      alpha: 0.01
+      confidence: 99
+      z_score: 2.576
+      graph_z_score: 1.645
       part5:
         ans1:
           value: 'Yes'
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: 'No'
-          feedback: Try again please!
+          feedback: Correct!
       part7:
         ans1:
           value: As the sample size increases, there will be less variability in the

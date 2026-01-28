@@ -49,10 +49,10 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 71
-      sample_size2: 75
-      p: 10
-      p_hat: 13
+      sample_size: 104
+      sample_size2: 85
+      p: 9
+      p_hat: 15
       college_students: 141
       college_students2: 282
       part1:
@@ -78,21 +78,21 @@ myst:
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population
-            proportion is not significantly large.
-          feedback: Incorrect.
+            proportion is significantly large.
+          feedback: Correct.
         ans2:
           value: False. The difference between the sample proportion and the population
-            proportion is significantly large.
-          feedback: Correct!
+            proportion is not significantly large.
+          feedback: Incorrect!
       part4:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different
             from the population proportion.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: False. The sample is not unusual as the proportion is not significantly
             different from the population proportion.
-          feedback: Correct.
+          feedback: Incorrect.
       part5:
         ans1:
           value: 'True'
