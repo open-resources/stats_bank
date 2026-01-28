@@ -125,35 +125,35 @@ myst:
           feedback: Incorrect!
       part9:
         ans1:
-          value: Since the p-value is very large, we reject $H_0$. The data provide
-            weak evidence that the proportion of college graduates who do not have
+          value: Since the p-value is very small, we reject $H_0$. The data provide
+            strong evidence that the proportion of college graduates who do not have
             an opinion on this issue is different than that of non-college graduates.
           feedback: Try again please!
         ans2:
           value: Since the p-value is very small, we accept $H_0$. The data provide
             strong evidence that the proportion of college graduates who do not have
-            an opinion on this issue is the same as that of non-college graduates.
+            an opinion on this issue is the same as that of non-college graduates
           feedback: Try again please!
         ans3:
-          value: Since the p-value is very small, we reject $H_0$. The data provide
-            strong evidence that the proportion of college graduates who do not have
-            an opinion on this issue is different than that of non-college graduates.
-          feedback: Correct!
-        ans4:
           value: Since the p-value > 0.05, we fail to reject $H_0$. The data do not
             provide strong evidence that the proportion of college graduates who do
             not have an opinion on this issue is different from that of non-college
             graduates.
+          feedback: Correct!
+        ans4:
+          value: Since the p-value is very large, we reject $H_0$. The data provide
+            weak evidence that the proportion of college graduates who do not have
+            an opinion on this issue is different than that of non-college graduates.
           feedback: Try again please!
-      yes_support: 153
-      yes_oppose: 186
-      yes_do_not_know: 104
-      yes_total: 443
-      no_support: 139
-      no_oppose: 117
-      no_do_not_know: 131
-      no_total: 387
-      total: 830
+      yes_support: 144
+      yes_oppose: 174
+      yes_do_not_know: 105
+      yes_total: 423
+      no_support: 130
+      no_oppose: 140
+      no_do_not_know: 121
+      no_total: 391
+      total: 814
 ---
 # {{ params.vars.title }}
 A survey asked {{ params.total }} randomly sampled registered voters in California "Do you support? Or do you oppose? Drilling for oil and natural gas off the Coast of California? Or do you not know enough to say?" Below is the distribution of responses, separated based on whether or not the respondent graduated from college.
