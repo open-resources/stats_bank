@@ -45,8 +45,8 @@ myst:
     params:
       vars:
         title: Identify the critical t
-      n: 34
-      cl: 93
+      n: 11
+      cl: 96
 ---
 # {{ params.vars.title }}
 An independent random sample is selected from an approximately normal population with unknown standard deviation. Find the degrees of freedom and the critical $t$-value (t$^\star$) for the given sample size and confidence level.

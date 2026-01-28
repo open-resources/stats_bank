@@ -62,17 +62,17 @@ myst:
         title: Migraine and acupuncture, Part I
       table0:
         r2:
-          c2: 13
-          c3: 37
-          c4: 50
+          c2: 9
+          c3: 38
+          c4: 47
         r3:
           c2: 6
           c3: 43
           c4: 49
         r4:
-          c2: 19
-          c3: 80
-          c4: 99
+          c2: 15
+          c3: 81
+          c4: 96
       part1:
         num1: 24.0
       part3:
@@ -90,11 +90,11 @@ myst:
       part4:
         num1: 24.0
       description:
-        num1: 99
-        num2: 50
+        num1: 96
+        num2: 47
         num3: 49
         num4: 24.0
-      part1_ans_before_convert: 0.26
+      part1_ans_before_convert: 0.191
       part2_ans_before_convert: 0.122
 ---
 # {{ params.vars.title }}

@@ -47,11 +47,11 @@ myst:
       vars:
         title: Four games, one winner
       description1: If the proportion of heads is larger than 0.3, you win $1.
-      description2: If the proportion of heads is larger than 0.8, you win $1.
+      description2: If the proportion of heads is larger than 0.6, you win $1.
       planswer1: 10 tosses. Fewer tosses mean more variability in the sample fraction
         of heads, meaning there's a better chance of getting at least 0.3 heads.
       planswer2: 100 tosses. More flips means the observed proportion of heads would
-        often be closer to the average, 0.50, and therefore also above 0.8.
+        often be closer to the average, 0.50, and therefore also above 0.6.
       num1: 10
       num2: 100
       num3: 1
@@ -64,7 +64,7 @@ myst:
           value: '100'
           feedback: Not quite!
       part2:
-        num1: 0.8
+        num1: 0.6
         ans1:
           value: '10'
           feedback: Not quite!
