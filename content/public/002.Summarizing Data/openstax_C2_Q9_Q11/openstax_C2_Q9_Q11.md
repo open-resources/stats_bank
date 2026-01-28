@@ -55,81 +55,66 @@ myst:
       table: |-
         <table style="width:550px">
         <tr>
-        <th>High School</th>
-        <th>Science competition population (%)</th>
-        <th>Overall student population (%)</th>
+        <th>Season</th>
+        <th>Number of students</th>
+        <th>Proportion of population (%)</th>
         </tr><tr>
-        <th>Alabaster</th>
-        <td>11.0</td>
-        <td>31.8</td>
+        <th>Spring</th>
+        <td>6</td>
+        <td>14</td>
         </tr><tr>
-        <th>Concordia</th>
-        <td>16.2</td>
-        <td>2.8</td>
+        <th>Summer</th>
+        <td>11</td>
+        <td>25</td>
         </tr><tr>
-        <th>Genoa</th>
-        <td>7.9</td>
-        <td>5.4</td>
+        <th>Autumn</th>
+        <td>16</td>
+        <td>36</td>
         </tr><tr>
-        <th>Mocksville</th>
-        <td>25.6</td>
-        <td>27.1</td>
-        </tr><tr>
-        <th>Tynneson</th>
-        <td>14.9</td>
-        <td>30.7</td>
-        </tr><tr>
-        <th>West End</th>
-        <td>24.4</td>
-        <td>2.2</td>
+        <th>Winter</th>
+        <td>11</td>
+        <td>25</td>
         </tr>
         </table>
       graph_instructions:
-      - The plot should have a main title of 'Students in Science Competition from
-        Each School'.
-      - The x-axis should be labeled 'School'.
-      - The y-axis should be labeled 'Proportion (%)'.
+      - The plot should have a main title of 'Birthdays in Each Season'.
+      - The x-axis should be labeled 'Number of students'.
+      - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
-      - The bars should be colored blue.
-      - The bars should have a purple border.
-      - The bars should have a density of 2.
-      - The plot should be vertical.
-      description: David County has six high schools. Each school sent students to
-        participate in a county-wide science competition. The table below shows the
-        percentage breakdown of competitors from each school, and the percentage of
-        the entire student population of the county that goes to each school. Construct
-        a bar graph that shows the population percentage of competitors from each
-        school.
+      - The bars should be colored darkgreen.
+      - The bars should have a orange border.
+      - The bars should have a density of 7.
+      - The plot should be horizontal.
+      description: The students in Ms. Ramirez’s math class have birthdays in each
+        of the four seasons. The table below shows the four seasons, the number of
+        students who have birthdays in each season, and the proportion (%) of students
+        in each group. Construct a bar graph showing the number of students.
       autograding:
         col1:
-        - Alabaster
-        - Concordia
-        - Genoa
-        - Mocksville
-        - Tynneson
-        - West End
+        - Spring
+        - Summer
+        - Autumn
+        - Winter
         x:
-        - '11.0'
-        - '16.2'
-        - '7.9'
-        - '25.6'
-        - '14.9'
-        - '24.4'
-        title: Students in Science Competition from Each School
-        xlab: School
-        ylab: Proportion (%)
-        color: blue
-        border: purple
-        density: 2
-        horiz: 'False'
-        std_plot: std__tgtgaht_plot.png
-        ref_plot: ref_733nukwg_plot.png
+        - 6
+        - 11
+        - 16
+        - 11
+        title: Birthdays in Each Season
+        xlab: Number of students
+        ylab: Season
+        color: darkgreen
+        border: orange
+        density: 7
+        horiz: 'True'
+        std_plot: std_2hi5kdj4_plot.png
+        ref_plot: ref_nbpgp_b0_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std__tgtgaht_plot.png
+        filename: std_2hi5kdj4_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_733nukwg_plot.png
+        filename: ref_nbpgp_b0_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

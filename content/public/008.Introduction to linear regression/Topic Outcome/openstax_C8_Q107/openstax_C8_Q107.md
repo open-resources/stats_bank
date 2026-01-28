@@ -1,8 +1,8 @@
 ---
-title: Monthly Television Usage
+title: Tranquilizer effect time
 topic: Inference for numerical data
 author: Gavin Kendal-Freedman
-source: original
+source: 8.2
 template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
@@ -37,7 +37,7 @@ part2:
   type: number-input
   pl-customizations:
     comparison: decdig
-    digits: 2
+    digits: 3
     weight: 1
     allow-blank: false
     label: $s_x=$
@@ -64,13 +64,11 @@ part6:
 part7:
   type: matrix-component-input
   pl-customizations:
-    allow-fractions: true
     comparison: decdig
-    digits: 2
+    digits: 5
     weight: 1
     allow-blank: false
     label: $\text{CI}=$
-    allow-partial-credit: true
 part8:
   type: number-input
   pl-customizations:
@@ -87,67 +85,71 @@ myst:
   substitutions:
     params:
       vars:
-        title: Monthly Television Usage
-      sample_size: 102
-      mean: 155
-      stdev: 31
-      df: 101
-      lower_bound: 148.2435666931961
-      upper_bound: 161.7564333068039
-      confidence_level: 97
-      error_bound: 6.756433306803895
-      other_confidence: 98
+        title: Tranquilizer effect time
+      effect_times:
+      - 2.5
+      - 2.9
+      - 2.1
+      - 2.5
+      - 2.5
+      - 2.7
+      - 2.5
+      confidence_level: 99
       part5:
         option0:
-          value: The mean number of hours Americans spend watching television per
-            month.
+          value: The mean effective length of time of tranquilizers.
+        option1:
+          value: The variance in effective length of time of tranquilizers.
         statement1:
           value: $X$
-          matches: The number of hours an American spent watching television per month.
+          matches: The effective length of time for a tranquilizer.
         statement2:
           value: $\bar{X}$
-          matches: The mean number of hours spent watching television per month from
-            a sample of 102 Americans.
+          matches: The mean effective length of time of tranquilizers from a sample
+            of 7 patients.
       part6:
         ans1:
-          value: $t_{101}$
-          feedback: Correct!
+          value: We need to use a Student's-t distribution, because we do not know
+            the population standard deviation.
+          feedback: Good job!
         ans2:
-          value: $t_{102}$
+          value: We need to use a Student's-t distribution, because we know the population
+            standard deviation.
           feedback: Try again please!
         ans3:
-          value: $\operatorname{N}(0,1)$ (Standard Normal)
+          value: We need to use a Normal distribution, because we do not know the
+            population standard deviation.
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(155, 31)$
+          value: We need to use a Normal distribution, because we know the population
+            standard deviation.
           feedback: Try again please!
       part9:
         ans1:
-          value: The error bound would decrease because less area would be needed
-            to capture the true population mean.
-          feedback: Try again please!
+          value: If we were to sample many groups of nine patients, 99% of the samples
+            would contain the true population mean length of time.
+          feedback: Good job!
         ans2:
-          value: The error bound would increase because more area would be needed
-            to capture the true population mean.
-          feedback: Correct!
+          value: If we were to sample many groups of nine patients, 99% of the samples
+            would contain this sample's mean length of time.
+          feedback: Try again please!
         ans3:
-          value: The error bound would decrease because more area would be needed
-            to capture the true population mean.
+          value: There is a 99% likelihood that this sample contains the true population
+            mean length of time.
           feedback: Try again please!
         ans4:
-          value: The error bound would increase because less area would be needed
-            to capture the true population mean.
-          feedback: Try again please!
-        ans5:
-          value: The error bound remains the same regardless of the confidence level.
+          value: There is a 99% likelihood that this sample's mean is the true population
+            mean length of time.
           feedback: Try again please!
 ---
 # {{ params.vars.title }}
-{{ params.sample_size }} Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of {{ params.mean }} hours each month with a standard deviation of {{ params.stdev }} hours. Assume that the underlying population distribution is normal.
+A pharmaceutical company makes tranquilizers. It is assumed that the distribution for the length of time they last is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the tranquilizer for each patient (in hours) was as follows:
+
+$${{ params.effect_times }}$$
 
 ## Part 1
 
-Identify $\bar{x}$
+Identify $\bar{x}$.
 
 ### Answer Section
 
@@ -155,7 +157,7 @@ Please enter a numeric value in.
 
 ## Part 2
 
-Identify $s_x$
+Identify $s_x$.
 
 ### Answer Section
 
@@ -163,7 +165,7 @@ Please enter a numeric value in.
 
 ## Part 3
 
-Identify $n$
+Identify the sample size.
 
 ### Answer Section
 
@@ -179,13 +181,13 @@ Please enter a numeric value in.
 
 ## Part 5
 
-Match the random variables $X$ and $\bar{X}$ to the correct definitions.
+Match the random variables $X$ and $\bar{X}$ to their definitions.
 
 ### Answer Section
 
 ## Part 6
 
-Which distribution should you use for this problem?
+Which of the following correctly identifies the distribution should you use for this problem, and correctly explains why?
 
 ### Answer Section
 
@@ -196,13 +198,13 @@ Which distribution should you use for this problem?
 
 ## Part 7
 
-Construct a {{ params.confidence_level }}% confidence interval for the population mean hours spent watching television per month. What is the confidence interval?
+Calculate a {{ params.confidence_level }}% confidence interval.
 
 ### Answer Section
 
 ## Part 8
 
-What is the error bound for the {{ params.confidence_level }}% confidence interval you constructed in part 7?
+Calculate the error bound for the confidence interval calculated in part 7.
 
 ### Answer Section
 
@@ -210,7 +212,7 @@ Please enter a numeric value in.
 
 ## Part 9
 
-Why would the error bound change if the confidence level was changed to {{ params.other_confidence }}%?
+What does it mean to be "{{ params.confidence_level }}% confident" in this problem?
 
 ### Answer Section
 
@@ -218,7 +220,6 @@ Why would the error bound change if the confidence level was changed to {{ param
 - {{ params.part9.ans2.value }}
 - {{ params.part9.ans3.value }}
 - {{ params.part9.ans4.value }}
-- {{ params.part9.ans5.value }}
 
 ## Attribution
 

@@ -42,7 +42,7 @@ myst:
       vars:
         title: Find the p-value, Part I
       n: 11
-      T: 2.42
+      T: 2.4
       alpha: 0.05
       part2:
         ans1:

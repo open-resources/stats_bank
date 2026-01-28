@@ -45,7 +45,7 @@ myst:
     params:
       vars:
         title: Identify the critical t
-      n: 33
+      n: 35
       cl: 93
 ---
 # {{ params.vars.title }}

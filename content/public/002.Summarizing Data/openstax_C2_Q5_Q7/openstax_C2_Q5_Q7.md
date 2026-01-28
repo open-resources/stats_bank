@@ -52,46 +52,46 @@ myst:
     params:
       vars:
         title: Line Graphs
-        description: In a survey, 48 people were asked how many times they visited
+        description: In a survey, 35 people were asked how many times they visited
           a store before making a major purchase.
         graph_title: Number of times in store before making a major purchase
         x_axis: Number of times in store
         y_axis: Frequency
         overplotted: should
         style: o
-        color: blue
+        color: darkgreen
       _workspace_files:
       - name: data.csv
         contents: |
           Number of times in store,Frequency
-          1,3
+          1,4
           2,10
-          3,16
-          4,15
-          5,4
+          3,15
+          4,3
+          5,3
       df: null
       autograding:
-        std_plot: std_fgf5z783_plot.png
-        ref_plot: ref_6iz2hek0_plot.png
+        std_plot: std_r7n0bc28_plot.png
+        ref_plot: ref_ffsa1ywd_plot.png
         csv: |
           Number of times in store,Frequency
-          1,3
+          1,4
           2,10
-          3,16
-          4,15
-          5,4
+          3,15
+          4,3
+          5,3
       _images:
       - label: Your Line Graph
-        filename: std_fgf5z783_plot.png
+        filename: std_r7n0bc28_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_6iz2hek0_plot.png
+        filename: ref_ffsa1ywd_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMAozLDE2CjQsMTUKNSw0Cg==
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDQKMiwxMAozLDE1CjQsMwo1LDMK
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMAozLDE2CjQsMTUKNSw0Cg==
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDQKMiwxMAozLDE1CjQsMwo1LDMK
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below

@@ -44,27 +44,27 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+      selected_scenario_part1: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part1:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part2: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+          feedback: Correct!
+      selected_scenario_part2: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part2:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part3: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+          feedback: Incorrect!
+      selected_scenario_part3: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part3:
         ans1:
           value: Paired.
@@ -72,15 +72,15 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part4: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.
