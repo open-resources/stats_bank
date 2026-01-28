@@ -142,36 +142,36 @@ myst:
           value: Since the p-value is less than 0.05, we reject $H_0$. The data provide
             strong evidence that NOAA stations observed more 90°F days in 2018 than
             in 1948.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Since the p-value is greater than 0.05, we fail to reject $H_0$.
             The data do not provide strong evidence that NOAA stations observed more
             90°F days in 2018 than in 1948.
-          feedback: Correct!
+          feedback: Incorrect!
       part7:
         ans1:
           value: Type 1 Error, since we may have incorrectly rejected $H_0$. This
             error would mean that NOAA stations did not actually observe a decrease,
             but the sample we took just so happened to make it appear that this was
             the case
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Type II Error, since we may have failed to reject $H_0$ incorrectly.
             This error would mean that NOAA stations did actually observe a decrease
             in the number of 90°F days in 2018 compared to 1948, but the sample we
             took was not able to provide enough evidence to demonstrate this decrease.
-          feedback: Correct!
+          feedback: Incorrect!
       part8:
         ans1:
           value: No, since we rejected $H_0$, which had a null value of 0.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Yes, since we failed to reject $H_0$, which suggests the average
             difference between the number of days exceeding 90°F from 1948 and 2018
             might include 0.
-          feedback: Correct!
-      sample_size: 195
-      mean_difference: 2.3
+          feedback: Incorrect!
+      sample_size: 191
+      mean_difference: 3.0
       std_deviation: 18.4
 ---
 # {{ params.vars.title }}

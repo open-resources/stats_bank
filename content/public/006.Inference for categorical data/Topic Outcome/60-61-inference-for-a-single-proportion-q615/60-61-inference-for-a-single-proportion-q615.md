@@ -35,12 +35,12 @@ myst:
     params:
       vars:
         title: National Health Plan, Part II
-        p_hat: 0.6
-        p_hat_percent: 60.0
+        p_hat: 0.4
+        p_hat_percent: 40.0
         margin_of_error_percent: 1.0
-        z_score: 2.3263
-        confidence: 98
-        n: 12989
+        z_score: 1.6449
+        confidence: 90
+        n: 6494
 ---
 # {{ params.vars.title }}
 A Kaiser Family Foundation poll for US adults in 2019 reported varying levels of support for a generic "National Health Plan" among different political affiliations. For Independents, it was found that approximately {{ params.vars.p_hat_percent }}% supported the plan.

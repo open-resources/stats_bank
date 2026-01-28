@@ -56,10 +56,10 @@ myst:
     params:
       vars:
         title: Proportion who feel the president is doing an acceptable job
-      p: 0.64
-      graph_z_score: 1.96
-      sample_size: 1107
-      p_yes: 64
+      p: 0.61
+      graph_z_score: 2.58
+      sample_size: 1494
+      p_yes: 61
       c_level: 98
       part1:
         option1:
@@ -78,7 +78,7 @@ myst:
           value: P'
           matches: The proportion of people in a sample who feel that the president
             is doing an acceptable job.
-      standard_error: 0.014426714154678917
+      standard_error: 0.012618912306184105
       part3:
         ans1:
           value: 'Yes'
