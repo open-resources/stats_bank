@@ -44,9 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part1:
         ans1:
           value: Paired.
@@ -54,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Correct!
-      selected_scenario_part2: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+      selected_scenario_part2: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part2:
         ans1:
           value: Paired.
@@ -63,17 +62,17 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+      selected_scenario_part3: Examine age-related wage disparities by comparing the
+        earnings of younger and older employees in a company.
       part3:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part4: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+          feedback: Correct!
+      selected_scenario_part4: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part4:
         ans1:
           value: Paired.

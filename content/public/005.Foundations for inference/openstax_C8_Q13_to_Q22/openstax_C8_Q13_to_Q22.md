@@ -91,17 +91,17 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.0
-      sigma: 0.11
-      sample_stdev: 0.16
-      sample_size: 18
-      other_sample_size: 9.0
+      x_bar: 1.9
+      sigma: 0.21
+      sample_stdev: 0.22
+      sample_size: 14
+      other_sample_size: 7.0
       alpha1: 0.1
       confidence1: 90
       z_score1: 1.645
-      alpha2: 0.01
-      confidence2: 99
-      z_score2: 2.58
+      alpha2: 0.02
+      confidence2: 98
+      z_score2: 2.33
       part6_confidence: 90
       part6_z_score: 1.645
       part4:
@@ -114,10 +114,10 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 18 heads of lettuce.
+          matches: The mean weight of a sample of 14 heads of lettuce.
       part7:
         option1:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 99\%$
         option2:
           value: $\text{CL} = 95\%$
         statement1:
@@ -125,7 +125,7 @@ myst:
           matches: $\text{CL} = 90\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 99\%$
+          matches: $\text{CL} = 98\%$
       part8:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -173,12 +173,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 9.0 heads of lettuce were sampled instead of
-            18, and the error bound remained the same?
+          value: What would happen if 7.0 heads of lettuce were sampled instead of
+            14, and the error bound remained the same?
           matches: CL-Decrease
         statement2:
-          value: What would happen if 9.0 heads of lettuce were sampled instead of
-            18, and the confidence level remained the same?
+          value: What would happen if 7.0 heads of lettuce were sampled instead of
+            14, and the confidence level remained the same?
           matches: EBM-Increase
 ---
 # {{ params.vars.title }}

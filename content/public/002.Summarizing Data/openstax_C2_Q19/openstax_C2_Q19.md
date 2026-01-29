@@ -62,16 +62,16 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>16</td>
+        <td>22</td>
         </tr><tr>
         <td>260–289</td>
-        <td>12</td>
+        <td>19</td>
         </tr><tr>
         <td>290–319</td>
-        <td>2</td>
+        <td>5</td>
         </tr><tr>
         <td>320–349</td>
-        <td>8</td>
+        <td>2</td>
         </tr><tr>
         <td>350–379</td>
         <td>1</td>
@@ -87,28 +87,28 @@ myst:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,16
-          260–289,12
-          290–319,2
-          320–349,8
+          230–259,22
+          260–289,19
+          290–319,5
+          320–349,2
           350–379,1
           380–409,1
           410–439,0
       autograding:
-        std_plot: std_433vxh3b_plot.png
-        ref_plot: ref_7jvx_epi_plot.png
+        std_plot: std_srwkzusf_plot.png
+        ref_plot: ref_v_pkl_hi_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_433vxh3b_plot.png
+        filename: std_srwkzusf_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref_7jvx_epi_plot.png
+        filename: ref_v_pkl_hi_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTYKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSwyCjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDE5CjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwyCjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTYKMjYw4oCTMjg5LDEyCjI5MOKAkzMxOSwyCjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDE5CjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwyCjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwxCjQxMOKAkzQzOSwwCg==
 ---
 # {{ params.vars.title }}
 
