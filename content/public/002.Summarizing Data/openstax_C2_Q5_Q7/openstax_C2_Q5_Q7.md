@@ -64,34 +64,34 @@ myst:
       - name: data.csv
         contents: |
           Number of TV Shows,Frequency
-          0,9
+          0,16
           1,17
-          2,40
-          3,9
-          4,2
+          2,30
+          3,8
+          4,5
       df: null
       autograding:
-        std_plot: std_gvj827j4_plot.png
-        ref_plot: ref_gc934lgl_plot.png
+        std_plot: std_8mrbxj8s_plot.png
+        ref_plot: ref_e45_icv__plot.png
         csv: |
           Number of TV Shows,Frequency
-          0,9
+          0,16
           1,17
-          2,40
-          3,9
-          4,2
+          2,30
+          3,8
+          4,5
       _images:
       - label: Your Line Graph
-        filename: std_gvj827j4_plot.png
+        filename: std_8mrbxj8s_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_gc934lgl_plot.png
+        filename: ref_e45_icv__plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDkKMSwxNwoyLDQwCjMsOQo0LDIK
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE2CjEsMTcKMiwzMAozLDgKNCw1Cg==
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDkKMSwxNwoyLDQwCjMsOQo0LDIK
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE2CjEsMTcKMiwzMAozLDgKNCw1Cg==
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below

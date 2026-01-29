@@ -61,11 +61,11 @@ myst:
     params:
       vars:
         title: College smokers
-        n: 191
-        x: 27
-        CI_low: 9.195
-        CI_high: 19.077
-        n_new: 519.0
+        n: 167
+        x: 20
+        CI_low: 7.052
+        CI_high: 16.9
+        n_new: 450.0
         ME_description: 3
 ---
 # {{ params.vars.title }}

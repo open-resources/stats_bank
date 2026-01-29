@@ -80,34 +80,34 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.4
-      sigma: 2.2
-      sample_size: 200
-      other_sample_size: 350
-      alpha: 0.1
-      confidence: 90
-      z_score: 1.645
+      x_bar: 8.1
+      sigma: 2.7
+      sample_size: 185
+      other_sample_size: 35
+      alpha: 0.05
+      confidence: 95
+      z_score: 1.96
       graph_z_score: 1.645
-      higher_confidence: 99
-      higher_z_score: 2.58
+      higher_confidence: 98
+      higher_z_score: 2.33
       part5:
         ans1:
           value: 'Yes'
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: 'No'
-          feedback: Try again please!
+          feedback: Correct!
       part7:
         ans1:
           value: The level of confidence would decrease because decreasing $n$ makes
             the confidence interval wider, so at the same error bound, the confidence
             level decreases.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: The level of confidence would increase because increasing $n$ makes
             the confidence interval smaller, so at the same error bound, the confidence
             level increases.
-          feedback: Correct!
+          feedback: Try again please!
         ans3:
           value: The level of confidence would increase because decreasing $n$ makes
             the confidence interval smaller, so at the same error bound, the confidence
