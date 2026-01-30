@@ -50,17 +50,17 @@ part4:
     digits: 2
     weight: 1
     allow-blank: false
-    label: $EBM=$
+    label: $\text{Margin of Error}=$
 myst:
   substitutions:
     params:
       vars:
         title: Proportion who feel the president is doing an acceptable job
-      p: 0.67
-      graph_z_score: 1.645
-      sample_size: 1087
-      p_yes: 67
-      c_level: 95
+      p: 0.57
+      graph_z_score: 2.58
+      sample_size: 1257
+      p_yes: 57
+      c_level: 99
       part1:
         option1:
           value: The total number of people surveyed
@@ -78,14 +78,14 @@ myst:
           value: P'
           matches: The proportion of people in a sample who feel that the president
             is doing an acceptable job.
-      standard_error: 0.014261972649162043
+      standard_error: 0.013963812761054042
       part3:
         ans1:
           value: 'Yes'
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: 'No'
-          feedback: Correct!
+          feedback: Try again please!
 ---
 # {{ params.vars.title }}
 According to a recent survey of {{ params.sample_size }} people, {{ params.p_yes }}% feel that the president is doing an acceptable job. We are interested in the population proportion of people who feel the president is doing an acceptable job.
@@ -116,7 +116,7 @@ Is the following graph a proper representation of the {{ params.c_level }}% conf
 
 ## Part 4
 
-What should the error bound be for the confidence interval with {{ params.c_level }}% confidence level?
+What should the margin of error be for the confidence interval with {{ params.c_level }}% confidence level?
 
 ### Answer Section
 

@@ -61,7 +61,7 @@ part6:
     digits: 2
     weight: 1
     allow-blank: false
-    label: $\text{EBM} = $
+    label: $\text{Margin of Error} = $
 part7:
   type: multiple-choice
   pl-customizations:
@@ -71,15 +71,15 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 231
-      stdev_p: 12
-      stdev_s: 8
-      sample_size: 55
-      other_sample_size: 543
+      x_bar: 256
+      stdev_p: 15
+      stdev_s: 10
+      sample_size: 40
+      other_sample_size: 534
       alpha: 0.1
       confidence: 90
       z_score: 1.645
-      graph_z_score: 2.576
+      graph_z_score: 1.96
       part5:
         ans1:
           value: 'Yes'
@@ -151,7 +151,7 @@ Is the following graph a proper representation of the {{ params.confidence }}% c
 
 ## Part 6
 
-What should the error bound be for the confidence interval with {{ params.confidence }}% confidence level?
+What should the margin of error be for the confidence interval with {{ params.confidence }}% confidence level?
 
 ### Answer Section
 

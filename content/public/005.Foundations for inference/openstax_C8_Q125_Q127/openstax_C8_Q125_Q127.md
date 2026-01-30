@@ -40,17 +40,17 @@ part2:
     digits: 3
     weight: 1
     allow-blank: false
-    label: $MOE=$
+    label: $\{Margin of Error}=$
 myst:
   substitutions:
     params:
       vars:
         title: Issue of education and the schools
-      percent: 71
-      state: Arkansas
+      percent: 86
+      state: Maine
       c_level: 95
-      num_surveys: 508
-      num_yes: 361
+      num_surveys: 526
+      num_yes: 450
 ---
 # {{ params.vars.title }}
 According to a poll, {{ params.percent }}% of {{ params.state }} adults ({{ params.num_yes }} out of {{ params.num_surveys }} surveyed) feel that "education and our schools" is one of the top issues facing the state. We wish to construct a {{ params.c_level }}% confidence interval for the true proportion of {{ params.state }} adults who feel that education and the schools is one of the top issues facing {{ params.state }}.
@@ -65,7 +65,7 @@ Please enter a numeric value in.
 
 ## Part 2
 
-What is the error bound?
+What is the margin of error?
 
 ### Answer Section
 

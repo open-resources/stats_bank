@@ -92,7 +92,7 @@ part10:
     comparison: decdig
     digits: 2
     allow-blank: false
-    label: $\text{EBM} = $
+    label: $\text{Margin of Error} = $
 part11:
   type: matrix-component-input
   pl-customizations:
@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 31.8
-      sigma: 16.4
-      sample_size: 19
+      x_bar: 31.3
+      sigma: 15.5
+      sample_size: 25
       alpha: 0.1
       alpha_one_tail: 0.05
       confidence: 90
       z_score: 1.645
-      ebm: 6.189177668360014
-      fake_sample_size: 57
-      fake_confidence: 99
+      ebm: 5.0995
+      fake_sample_size: 13
+      fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 19 Foothill College Students
+          value: The mean age of a sample of 25 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 19 Foothill College Students
+          value: The most frequent age of a sample of 25 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 90%
         option7:
-          value: '6.19'
+          value: '5.10'
         statement1:
           value: a?
           matches: '0.90'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '25.61'
+          matches: '26.20'
         statement5:
           value: e?
-          matches: '31.80'
+          matches: '31.30'
         statement6:
           value: f?
-          matches: '37.99'
+          matches: '36.40'
       part13:
         ans1:
           value: We are 90% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 90% confident that the true mean age for Winter Foothill College
-            students is 31.8.
+            students is 31.3.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between
@@ -222,45 +222,45 @@ myst:
           feedback: Please try again!
       part14:
         ans1:
-          value: The error bound for the mean would decrease because as the sample
+          value: The margin of error for the mean would decrease because as the sample
             size increases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
-          feedback: Nice work!
+          feedback: Please try again!
         ans2:
-          value: The error bound for the mean would increase because as the sample
+          value: The margin of error for the mean would increase because as the sample
             size decreases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
-          feedback: Please try again!
+          feedback: Nice work!
         ans3:
-          value: The error bound for the mean would decrease because as the sample
+          value: The margin of error for the mean would decrease because as the sample
             size increases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
           feedback: Please try again!
         ans4:
-          value: The error bound for the mean would increase because as the sample
+          value: The margin of error for the mean would increase because as the sample
             size decreases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
           feedback: Please try again!
       part15:
         ans1:
-          value: The error bound for the mean would decrease because as the CL decreases,
-            you need less area under the normal curve (which translates into a smaller
-            interval) to capture the true population mean.
+          value: The margin of error for the mean would decrease because as the CL
+            decreases, you need less area under the normal curve (which translates
+            into a smaller interval) to capture the true population mean.
           feedback: Please try again!
         ans2:
-          value: The error bound for the mean would increase because as the CL increases,
-            you need more area under the normal curve (which translates into a larger
-            interval) to capture the true population mean.
+          value: The margin of error for the mean would increase because as the CL
+            increases, you need more area under the normal curve (which translates
+            into a larger interval) to capture the true population mean.
           feedback: Nice work!
         ans3:
-          value: The error bound for the mean would decrease because as the CL decreases,
-            you need more area under the normal curve (which translates into a larger
-            interval) to capture the true population mean.
+          value: The margin of error for the mean would decrease because as the CL
+            decreases, you need more area under the normal curve (which translates
+            into a larger interval) to capture the true population mean.
           feedback: Please try again!
         ans4:
-          value: The error bound for the mean would increase because as the CL increases,
-            you need less area under the normal curve (which translates into a smaller
-            interval) to capture the true population mean.
+          value: The margin of error for the mean would increase because as the CL
+            increases, you need less area under the normal curve (which translates
+            into a smaller interval) to capture the true population mean.
           feedback: Please try again!
 ---
 # {{ params.vars.title }}
@@ -342,7 +342,7 @@ Please enter a numeric value in.
 
 ## Part 10
 
-Identify the error bound of the confidence interval.
+Identify the margin of error of the confidence interval.
 
 ### Answer Section
 
@@ -378,7 +378,7 @@ Which of the following correctly explains what the interval means?
 
 ## Part 14
 
-Using the same mean, standard deviation, and level of confidence, how would the error bound change if $n$ were {{ params.fake_sample_size }} instead of 25? Why?
+Using the same mean, standard deviation, and level of confidence, how would the margin of error change if $n$ were {{ params.fake_sample_size }} instead of 25? Why?
 
 ### Answer Section
 
@@ -389,7 +389,7 @@ Using the same mean, standard deviation, and level of confidence, how would the 
 
 ## Part 15
 
-Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were {{ params.fake_confidence }}% instead of {{ params.confidence }}%? Why?
+Using the same mean, standard deviation, and sample size, how would the margin of error change if the confidence level were {{ params.fake_confidence }}% instead of {{ params.confidence }}%? Why?
 
 ### Answer Section
 

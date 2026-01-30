@@ -65,7 +65,7 @@ part6:
     digits: 2
     weight: 1
     allow-blank: false
-    label: $\text{EBM} = $
+    label: $\text{Margin of Error} = $
 part7:
   type: multiple-choice
   pl-customizations:
@@ -80,42 +80,42 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.1
-      sigma: 2.7
-      sample_size: 185
-      other_sample_size: 35
-      alpha: 0.05
-      confidence: 95
-      z_score: 1.96
+      x_bar: 8.4
+      sigma: 2.3
+      sample_size: 195
+      other_sample_size: 345
+      alpha: 0.1
+      confidence: 90
+      z_score: 1.645
       graph_z_score: 1.645
       higher_confidence: 98
       higher_z_score: 2.33
       part5:
         ans1:
           value: 'Yes'
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: 'No'
-          feedback: Correct!
+          feedback: Try again please!
       part7:
         ans1:
           value: The level of confidence would decrease because decreasing $n$ makes
-            the confidence interval wider, so at the same error bound, the confidence
+            the confidence interval wider, so at the same margin of error, the confidence
             level decreases.
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: The level of confidence would increase because increasing $n$ makes
-            the confidence interval smaller, so at the same error bound, the confidence
+            the confidence interval smaller, so at the same margin of error, the confidence
             level increases.
-          feedback: Try again please!
+          feedback: Correct!
         ans3:
           value: The level of confidence would increase because decreasing $n$ makes
-            the confidence interval smaller, so at the same error bound, the confidence
+            the confidence interval smaller, so at the same margin of error, the confidence
             level increases.
           feedback: Try again please!
         ans4:
           value: The level of confidence would decrease because increasing $n$ makes
-            the confidence interval wider, so at the same error bound, the confidence
+            the confidence interval wider, so at the same margin of error, the confidence
             level decreases.
           feedback: Try again please!
 ---
@@ -165,7 +165,7 @@ Is the following graph a proper representation of the {{ params.confidence }}% c
 
 ## Part 6
 
-What should the error bound be for the confidence interval with {{ params.confidence }}% confidence level?
+What should the margin of error be for the confidence interval with {{ params.confidence }}% confidence level?
 
 ### Answer Section
 
@@ -173,7 +173,7 @@ Please enter a numeric value in.
 
 ## Part 7
 
-If the Census did another survey, kept the error bound the same, and surveyed {{ params.other_sample_size }} people instead of 200, what would happen to the level of confidence? Why?
+If the Census did another survey, kept the margin of error the same, and surveyed {{ params.other_sample_size }} people instead of 200, what would happen to the level of confidence? Why?
 
 ### Answer Section
 
@@ -184,7 +184,7 @@ If the Census did another survey, kept the error bound the same, and surveyed {{
 
 ## Part 8
 
-Suppose the Census needed to be {{ params.higher_confidence }}% confident of the population mean length of time. Without changing the error bound from part 6, how many people would need to be surveyed?
+Suppose the Census needed to be {{ params.higher_confidence }}% confident of the population mean length of time. Without changing the margin of error from part 6, how many people would need to be surveyed?
 
 ### Answer Section
 

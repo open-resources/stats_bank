@@ -47,20 +47,15 @@ part3:
     allow-blank: false
     label: $n=$
 part4:
-  type: integer-input
-  pl-customizations:
-    allow-blank: false
-    label: $df=$
-part5:
   type: matching
   pl-customizations:
     weight: 1
     blank: true
-part6:
+part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-part7:
+part6:
   type: matrix-component-input
   pl-customizations:
     comparison: decdig
@@ -69,15 +64,15 @@ part7:
     allow-blank: false
     label: $\text{CI}=$
     allow-partial-credit: true
-part8:
+part7:
   type: number-input
   pl-customizations:
     comparison: decdig
     digits: 4
     weight: 1
     allow-blank: false
-    label: $\text{EBM}=$
-part9:
+    label: $\text{Margin of Error}=$
+part8:
   type: multiple-choice
   pl-customizations:
     weight: 1
@@ -86,11 +81,11 @@ myst:
     params:
       vars:
         title: Emergency Room Wait Times
-      confidence_level: 90
-      sample_size: 71
+      confidence_level: 99
+      sample_size: 66
       mean: 1.4
-      stdev: 0.6
-      part5:
+      stdev: 1.3
+      part4:
         option0:
           value: The true mean wait time for patients in an emergency room.
         option1:
@@ -102,13 +97,13 @@ myst:
             being called back to be examined.
         statement2:
           value: $\bar{X}$
-          matches: The mean wait time of 71 patients in the emergency room.
-      part6:
+          matches: The mean wait time of 66 patients in the emergency room.
+      part5:
         ans1:
           value: Student's t-distribution
           feedback: Good job!
         ans2:
-          value: $\operatorname{N}\left(1.4, 0.6\right)$
+          value: $\operatorname{N}\left(1.4, 1.3\right)$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}\left(0, 1\right)$ (Standard Normal)
@@ -116,9 +111,9 @@ myst:
         ans4:
           value: $\chi^2$-distribution
           feedback: Try again please!
-      part9:
+      part8:
         ans1:
-          value: We are 90% confident that the true mean wait time is between (lower_bound)
+          value: We are 99% confident that the true mean wait time is between (lower_bound)
             and (upper_bound) hours.
           feedback: Good job!
         ans2:
@@ -162,53 +157,45 @@ Please enter a numeric value in.
 
 ## Part 4
 
-Identify the degrees of freedom.
-
-### Answer Section
-
-Please enter a numeric value in.
-
-## Part 5
-
 Match the random variables $X$ and $\bar{X}$ to their definitions.
 
 ### Answer Section
 
-## Part 6
+## Part 5
 
 Which of the following distributions should you use?
 
 ### Answer Section
 
-- {{ params.part6.ans1.value }}
-- {{ params.part6.ans2.value }}
-- {{ params.part6.ans3.value }}
-- {{ params.part6.ans4.value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
-## Part 7
+## Part 6
 
 Calculate a {{ params.confidence_level }}% confidence interval.
 
 ### Answer Section
 
-## Part 8
+## Part 7
 
-Calculate the error bound for the confidence interval calculated in part 7.
+Calculate the margin of error for the confidence interval calculated in part 7.
 
 ### Answer Section
 
 Please enter a numeric value in.
 
-## Part 9
+## Part 8
 
 Explain in complete sentences what the confidence interval means.
 
 ### Answer Section
 
-- {{ params.part9.ans1.value }}
-- {{ params.part9.ans2.value }}
-- {{ params.part9.ans3.value }}
-- {{ params.part9.ans4.value }}
+- {{ params.part8.ans1.value }}
+- {{ params.part8.ans2.value }}
+- {{ params.part8.ans3.value }}
+- {{ params.part8.ans4.value }}
 
 ## Attribution
 

@@ -47,21 +47,16 @@ part3:
     allow-blank: false
     label: $n=$
 part4:
-  type: integer-input
-  pl-customizations:
-    allow-blank: false
-    label: $df=$
-part5:
   type: matching
   showCorrectAnswer: true
   pl-customizations:
     weight: 1
     blank: true
-part6:
+part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-part7:
+part6:
   type: matrix-component-input
   pl-customizations:
     allow-fractions: true
@@ -71,15 +66,15 @@ part7:
     allow-blank: false
     label: $\text{CI}=$
     allow-partial-credit: true
-part8:
+part7:
   type: number-input
   pl-customizations:
     comparison: decdig
     digits: 4
     weight: 1
     allow-blank: false
-    label: $\text{EBM}=$
-part9:
+    label: $\text{Margin of Error}=$
+part8:
   type: multiple-choice
   pl-customizations:
     weight: 1
@@ -88,16 +83,16 @@ myst:
     params:
       vars:
         title: Monthly Television Usage
-      sample_size: 98
-      mean: 150
-      stdev: 29
-      df: 97
-      lower_bound: 144.8171701044712
-      upper_bound: 155.1828298955288
-      confidence_level: 92
-      error_bound: 5.182829895528806
+      sample_size: 110
+      mean: 161
+      stdev: 34
+      df: 109
+      lower_bound: 153.87176097949583
+      upper_bound: 168.12823902050417
+      confidence_level: 97
+      error_bound: 7.128239020504159
       other_confidence: 96
-      part5:
+      part4:
         option0:
           value: The mean number of hours Americans spend watching television per
             month.
@@ -107,39 +102,40 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean number of hours spent watching television per month from
-            a sample of 98 Americans.
-      part6:
+            a sample of 110 Americans.
+      part5:
         ans1:
-          value: $t_{97}$
+          value: $t_{109}$
           feedback: Correct!
         ans2:
-          value: $t_{98}$
+          value: $t_{110}$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}(0,1)$ (Standard Normal)
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(150, 29)$
+          value: $\operatorname{N}(161, 34)$
           feedback: Try again please!
-      part9:
+      part8:
         ans1:
-          value: The error bound would decrease because less area would be needed
-            to capture the true population mean.
-          feedback: Try again please!
-        ans2:
-          value: The error bound would increase because more area would be needed
+          value: The margin of error would decrease because less area would be needed
             to capture the true population mean.
           feedback: Correct!
+        ans2:
+          value: The margin of error would increase because more area would be needed
+            to capture the true population mean.
+          feedback: Try again please!
         ans3:
-          value: The error bound would decrease because more area would be needed
+          value: The margin of error would decrease because more area would be needed
             to capture the true population mean.
           feedback: Try again please!
         ans4:
-          value: The error bound would increase because less area would be needed
+          value: The margin of error would increase because less area would be needed
             to capture the true population mean.
           feedback: Try again please!
         ans5:
-          value: The error bound remains the same regardless of the confidence level.
+          value: The margin of error remains the same regardless of the confidence
+            level.
           feedback: Try again please!
 ---
 # {{ params.vars.title }}
@@ -171,54 +167,46 @@ Please enter a numeric value in.
 
 ## Part 4
 
-Identify the degrees of freedom.
-
-### Answer Section
-
-Please enter a numeric value in.
-
-## Part 5
-
 Match the random variables $X$ and $\bar{X}$ to the correct definitions.
 
 ### Answer Section
 
-## Part 6
+## Part 5
 
 Which distribution should you use for this problem?
 
 ### Answer Section
 
-- {{ params.part6.ans1.value }}
-- {{ params.part6.ans2.value }}
-- {{ params.part6.ans3.value }}
-- {{ params.part6.ans4.value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
-## Part 7
+## Part 6
 
 Construct a {{ params.confidence_level }}% confidence interval for the population mean hours spent watching television per month. What is the confidence interval?
 
 ### Answer Section
 
-## Part 8
+## Part 7
 
-What is the error bound for the {{ params.confidence_level }}% confidence interval you constructed in part 7?
+What is the margin of error for the {{ params.confidence_level }}% confidence interval you constructed in part 7?
 
 ### Answer Section
 
 Please enter a numeric value in.
 
-## Part 9
+## Part 8
 
-Why would the error bound change if the confidence level was changed to {{ params.other_confidence }}%?
+Why would the margin of error change if the confidence level was changed to {{ params.other_confidence }}%?
 
 ### Answer Section
 
-- {{ params.part9.ans1.value }}
-- {{ params.part9.ans2.value }}
-- {{ params.part9.ans3.value }}
-- {{ params.part9.ans4.value }}
-- {{ params.part9.ans5.value }}
+- {{ params.part8.ans1.value }}
+- {{ params.part8.ans2.value }}
+- {{ params.part8.ans3.value }}
+- {{ params.part8.ans4.value }}
+- {{ params.part8.ans5.value }}
 
 ## Attribution
 

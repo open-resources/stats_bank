@@ -49,32 +49,29 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 68
-      sample_size2: 57
-      p: 9
-      p_hat: 13
-      college_students: 120
-      college_students2: 240
+      sample_size: 103
+      sample_size2: 116
+      p: 11
+      p_hat: 12
+      college_students: 140
+      college_students2: 280
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: False. The distribution is not normal since it does not satisfy the
             success-failure condition.
-          feedback: Correct!
+          feedback: Incorrect!
       part2:
         ans1:
-          value: False. The distribution is not skewed as the success-failure condition
-            is met.
-          feedback: Incorrect.
+          value: False. The distribution is not right skewed because the success-failure
+            condition is met.
+          feedback: Correct.
         ans2:
           value: True. The distribution is right skewed because the success-failure
             condition is not met.
-          feedback: Correct! In most samples we would expect $\hat{p}$ to be close
-            to 0.08, the true population proportion. While $\hat{p}$ can be much above
-            0.08, it is bound below by 0, suggesting it would take on a right skewed
-            shape.
+          feedback: Incorrect!
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population
@@ -88,11 +85,11 @@ myst:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different
             from the population proportion.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: False. The sample is not unusual as the proportion is not significantly
             different from the population proportion.
-          feedback: Incorrect.
+          feedback: Correct.
       part5:
         ans1:
           value: 'True'
