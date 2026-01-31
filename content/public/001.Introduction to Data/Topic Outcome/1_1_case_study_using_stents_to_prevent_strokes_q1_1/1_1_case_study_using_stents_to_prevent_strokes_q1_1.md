@@ -62,17 +62,17 @@ myst:
         title: Migraine and acupuncture, Part I
       table0:
         r2:
-          c2: 12
-          c3: 35
-          c4: 47
+          c2: 14
+          c3: 34
+          c4: 48
         r3:
-          c2: 6
-          c3: 44
+          c2: 3
+          c3: 47
           c4: 50
         r4:
-          c2: 18
-          c3: 79
-          c4: 97
+          c2: 17
+          c3: 81
+          c4: 98
       part1:
         num1: 24.0
       part3:
@@ -90,12 +90,12 @@ myst:
       part4:
         num1: 24.0
       description:
-        num1: 97
-        num2: 47
+        num1: 98
+        num2: 48
         num3: 50
         num4: 24.0
-      part1_ans_before_convert: 0.255
-      part2_ans_before_convert: 0.12
+      part1_ans_before_convert: 0.292
+      part2_ans_before_convert: 0.06
 ---
 # {{ params.vars.title }}
 A migraine is a particularly painful type of headache, which patients sometimes wish to treat with acupuncture. To determine whether acupuncture relieves migraine pain, researchers conducted a randomized controlled study where ${{ params.description.num1 }}$ females diagnosed with migraine headaches were randomly assigned to one of two groups: treatment or control. ${{ params.description.num2 }}$ patients in the treatment group received acupuncture that is specifically designed to treat migraines. ${{ params.description.num3 }}$ patients in the control group received placebo acupuncture (needle insertion at non-acupoint locations). ${{ params.description.num4 }}$ hours after patients received acupuncture, they were asked if they were pain free. Results are summarized in the contingency table below.

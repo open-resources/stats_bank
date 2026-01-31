@@ -91,19 +91,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.5
-      sigma: 0.13
-      sample_stdev: 0.14
-      sample_size: 14
-      other_sample_size: 28
-      alpha1: 0.1
-      confidence1: 90
-      z_score1: 1.645
+      x_bar: 1.9
+      sigma: 0.18
+      sample_stdev: 0.12
+      sample_size: 24
+      other_sample_size: 48
+      alpha1: 0.02
+      confidence1: 98
+      z_score1: 2.33
       alpha2: 0.01
       confidence2: 99
       z_score2: 2.58
-      part6_confidence: 99
-      part6_z_score: 2.58
+      part6_confidence: 98
+      part6_z_score: 2.33
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -114,15 +114,15 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 14 heads of lettuce.
+          matches: The mean weight of a sample of 24 heads of lettuce.
       part7:
         option1:
           value: $\text{CL} = 95\%$
         option2:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 90\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 90\%$
+          matches: $\text{CL} = 98\%$
         statement2:
           value: CI 2
           matches: $\text{CL} = 99\%$
@@ -173,12 +173,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 28 heads of lettuce were sampled instead of
-            14, and the margin of error remained the same?
+          value: What would happen if 48 heads of lettuce were sampled instead of
+            24, and the margin of error remained the same?
           matches: CL-Increase
         statement2:
-          value: What would happen if 28 heads of lettuce were sampled instead of
-            14, and the confidence level remained the same?
+          value: What would happen if 48 heads of lettuce were sampled instead of
+            24, and the confidence level remained the same?
           matches: MoE-Decrease
 ---
 # {{ params.vars.title }}
