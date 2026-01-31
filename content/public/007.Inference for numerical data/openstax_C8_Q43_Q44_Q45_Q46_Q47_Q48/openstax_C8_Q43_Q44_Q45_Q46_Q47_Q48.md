@@ -85,13 +85,13 @@ myst:
         title: Monthly Television Usage
       sample_size: 110
       mean: 165
-      stdev: 34
+      stdev: 29
       df: 109
-      lower_bound: 159.62204979703282
-      upper_bound: 170.37795020296718
-      confidence_level: 90
-      error_bound: 5.377950202967193
-      other_confidence: 94
+      lower_bound: 158.92003142368762
+      upper_bound: 171.07996857631238
+      confidence_level: 97
+      error_bound: 6.079968576312371
+      other_confidence: 95
       part4:
         option0:
           value: The mean number of hours Americans spend watching television per
@@ -114,17 +114,17 @@ myst:
           value: $\operatorname{N}(0,1)$ (Standard Normal)
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(165, 34)$
+          value: $\operatorname{N}(165, 29)$
           feedback: Try again please!
       part8:
         ans1:
           value: The margin of error would decrease because less area would be needed
             to capture the true population mean.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: The margin of error would increase because more area would be needed
             to capture the true population mean.
-          feedback: Correct!
+          feedback: Try again please!
         ans3:
           value: The margin of error would decrease because more area would be needed
             to capture the true population mean.

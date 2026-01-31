@@ -72,7 +72,7 @@ myst:
     params:
       vars:
         title: National Health Plan, Part I
-        sample_size: 612
+        sample_size: 635
         sample_proportion: 46
       part1:
         ans1:

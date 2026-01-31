@@ -60,35 +60,35 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>10</td>
-        <td>29</td>
+        <td>7</td>
+        <td>23</td>
         </tr><tr>
         <th>Summer</th>
-        <td>7</td>
-        <td>21</td>
+        <td>12</td>
+        <td>39</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>10</td>
-        <td>29</td>
+        <td>4</td>
+        <td>13</td>
         </tr><tr>
         <th>Winter</th>
-        <td>7</td>
-        <td>21</td>
+        <td>8</td>
+        <td>26</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Birthdays in Each Season'.
       - The x-axis should be labeled 'Season'.
-      - The y-axis should be labeled 'Number of students'.
+      - The y-axis should be labeled 'Proportion (%)'.
       - The bars should be appropriately labelled.
       - The bars should be colored purple.
-      - The bars should have a red border.
-      - The bars should have a density of 4.
+      - The bars should have a blue border.
+      - The bars should have a density of 8.
       - The plot should be vertical.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
         students who have birthdays in each season, and the proportion (%) of students
-        in each group. Construct a bar graph showing the number of students.
+        in each group. Construct a bar graph showing the percentages.
       autograding:
         col1:
         - Spring
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 10
-        - 7
-        - 10
-        - 7
+        - 23
+        - 39
+        - 13
+        - 26
         title: Birthdays in Each Season
         xlab: Season
-        ylab: Number of students
+        ylab: Proportion (%)
         color: purple
-        border: red
-        density: 4
+        border: blue
+        density: 8
         horiz: 'False'
-        std_plot: std_10gaev0z_plot.png
-        ref_plot: ref_udu555y7_plot.png
+        std_plot: std_cjc7kzzl_plot.png
+        ref_plot: ref_lfecamjo_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_10gaev0z_plot.png
+        filename: std_cjc7kzzl_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_udu555y7_plot.png
+        filename: ref_lfecamjo_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}
