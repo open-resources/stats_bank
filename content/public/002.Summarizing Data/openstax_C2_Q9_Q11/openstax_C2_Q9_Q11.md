@@ -60,20 +60,20 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>13</td>
-        <td>30</td>
+        <td>10</td>
+        <td>29</td>
         </tr><tr>
         <th>Summer</th>
-        <td>8</td>
-        <td>18</td>
+        <td>7</td>
+        <td>21</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>16</td>
-        <td>36</td>
+        <td>10</td>
+        <td>29</td>
         </tr><tr>
         <th>Winter</th>
         <td>7</td>
-        <td>16</td>
+        <td>21</td>
         </tr>
         </table>
       graph_instructions:
@@ -81,8 +81,8 @@ myst:
       - The x-axis should be labeled 'Season'.
       - The y-axis should be labeled 'Number of students'.
       - The bars should be appropriately labelled.
-      - The bars should be colored red.
-      - The bars should have a darkgreen border.
+      - The bars should be colored purple.
+      - The bars should have a red border.
       - The bars should have a density of 4.
       - The plot should be vertical.
       description: The students in Ms. Ramirez’s math class have birthdays in each
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 13
-        - 8
-        - 16
+        - 10
+        - 7
+        - 10
         - 7
         title: Birthdays in Each Season
         xlab: Season
         ylab: Number of students
-        color: red
-        border: darkgreen
+        color: purple
+        border: red
         density: 4
         horiz: 'False'
-        std_plot: std_ikxqnuw2_plot.png
-        ref_plot: ref_lbzfjqmq_plot.png
+        std_plot: std_10gaev0z_plot.png
+        ref_plot: ref_udu555y7_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_ikxqnuw2_plot.png
+        filename: std_10gaev0z_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_lbzfjqmq_plot.png
+        filename: ref_udu555y7_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

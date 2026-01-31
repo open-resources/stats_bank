@@ -35,10 +35,10 @@ myst:
       vars:
         title: Relaxing after work
       part3:
-        num1: 1.0
+        num1: 1.12
       description:
-        num1: 1365
-        num2: 1.0
+        num1: 1169
+        num2: 1.12
       part1:
         option1:
           value: Observation
@@ -59,7 +59,7 @@ myst:
           value: Number of hours spent relaxing after an average work day.
           matches: option2
         statement3:
-          value: 1.0
+          value: 1.12
           matches: option3
         statement4:
           value: Average number of hours all Americans spend relaxing after an average

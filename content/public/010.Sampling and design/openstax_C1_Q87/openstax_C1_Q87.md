@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 22
+        num_drivers: 14
         hours_deprivation: 27
-        treatment_order: The control treatment was trialed first.
+        treatment_order: The control treatment was trialed last.
         mentioned_test: reaction time
-        driver_type: mixed
+        driver_type: professional
       part1:
         option1:
           value: Amount of Sleep Deprivation
@@ -93,26 +93,26 @@ myst:
           value: 27 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 22 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 22 mixed drivers
+          value: 14 professional drivers
           feedback: Try again please!
         ans5:
-          value: 27 mixed drivers
+          value: 27 professional drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 22 mixed drivers
+          value: 14 professional drivers
           feedback: Correct!
         ans2:
           value: 27 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 22 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 27 mixed drivers
+          value: 27 professional drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -143,13 +143,13 @@ myst:
           value: 27 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 22 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 22 mixed drivers
+          value: 14 professional drivers
           feedback: Try again please!
         ans5:
-          value: 27 mixed drivers
+          value: 27 professional drivers
           feedback: Try again please!
       part7:
         ans1:

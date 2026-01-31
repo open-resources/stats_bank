@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Issue of education and the schools
-      percent: 88
-      state: South Carolina
-      c_level: 80
-      num_surveys: 521
-      num_yes: 459
+      percent: 71
+      state: New Jersey
+      c_level: 90
+      num_surveys: 456
+      num_yes: 322
 ---
 # {{ params.vars.title }}
 According to a poll, {{ params.percent }}% of {{ params.state }} adults ({{ params.num_yes }} out of {{ params.num_surveys }} surveyed) feel that "education and our schools" is one of the top issues facing the state. We wish to construct a {{ params.c_level }}% confidence interval for the true proportion of {{ params.state }} adults who feel that education and the schools is one of the top issues facing {{ params.state }}.

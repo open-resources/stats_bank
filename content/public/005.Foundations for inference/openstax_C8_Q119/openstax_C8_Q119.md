@@ -56,11 +56,11 @@ myst:
     params:
       vars:
         title: Proportion who feel the president is doing an acceptable job
-      p: 0.6
+      p: 0.56
       graph_z_score: 1.645
-      sample_size: 1488
-      p_yes: 60
-      c_level: 90
+      sample_size: 1126
+      p_yes: 56
+      c_level: 99
       part1:
         option1:
           value: The total number of people surveyed
@@ -78,14 +78,14 @@ myst:
           value: P'
           matches: The proportion of people in a sample who feel that the president
             is doing an acceptable job.
-      standard_error: 0.01270001270001905
+      standard_error: 0.014792826258135217
       part3:
         ans1:
           value: 'Yes'
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: 'No'
-          feedback: Try again please!
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 According to a recent survey of {{ params.sample_size }} people, {{ params.p_yes }}% feel that the president is doing an acceptable job. We are interested in the population proportion of people who feel the president is doing an acceptable job.
