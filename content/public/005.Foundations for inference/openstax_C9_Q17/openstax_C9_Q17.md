@@ -1,5 +1,5 @@
 ---
-title: Population Proportions from Sample Data
+title: Probability of a Type II Error
 topic: Foundations for inference
 author: Alejandro Builes
 source: original
@@ -9,10 +9,9 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 5.1.1.1
-- 5.1.1.2
+- 5.1.1.22
 difficulty:
-- easy
+- undefined
 randomization:
 - undefined
 taxonomy:
@@ -28,25 +27,22 @@ part1:
   type: number-input
   pl-customizations:
     comparison: decdig
-    digits: 4
+    digits: 3
     weight: 1
     allow-blank: false
-    label: $\hat{p}= $
+    label: $\beta= $
 myst:
   substitutions:
     params:
       vars:
-        title: Population Proportions from Sample Data
-      total_homes_surveyed: 830
-      homes_not_meeting_recommendations: 499
-      homes_meeting_recommendations: 331
+        title: Probability of a Type II Error
+      power: 0.898
 ---
 # {{ params.vars.title }}
-${{ params.total_homes_surveyed }}$ homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. ${{ params.homes_meeting_recommendations }}$ of the homes surveyed met the minimum recommendations for earthquake preparedness, and ${{ params.homes_not_meeting_recommendations }}$ did not.
 
 ## Part 1
 
-What is the point estimate for the population proportion of homes that do not meet the minimum recommendations for earthquake preparedness?
+The power of a test is $ {{ params.power }}$. What is the probability of a Type II error?
 
 ### Answer Section
 
