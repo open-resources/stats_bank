@@ -59,9 +59,9 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 13
-        hours_deprivation: 25
-        treatment_order: The treatments were assigned in random order.
+        num_drivers: 15
+        hours_deprivation: 29
+        treatment_order: The control treatment was trialed first.
         mentioned_test: driving simulation
         driver_type: professional
       part1:
@@ -90,29 +90,29 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 25 hours of sleep deprivation
+          value: 29 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 13 hours of sleep deprivation
+          value: 15 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 13 professional drivers
+          value: 15 professional drivers
           feedback: Try again please!
         ans5:
-          value: 25 professional drivers
+          value: 29 professional drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 13 professional drivers
+          value: 15 professional drivers
           feedback: Correct!
         ans2:
-          value: 25 hours of sleep deprivation
+          value: 29 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 13 hours of sleep deprivation
+          value: 15 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 professional drivers
+          value: 29 professional drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -126,14 +126,12 @@ myst:
       part5:
         ans1:
           value: There are no issues with the treatment order.
-          feedback: Correct! Since the treatments were assigned in random order, there
-            are no potential learning issues with the treatment order.
+          feedback: Try again please! The treatments were not assigned in random order.
         ans2:
           value: The second treatment might have artificially higher scores.
-          feedback: Try again please! The treatments were assigned in random order,
-            any advantage will be offset due to some drivers having the advantage
-            on the control treatment, and other drivers having the advantage on the
-            sleep deprived treatment.
+          feedback: Correct! Since all drivers get the treatments in the same order,
+            whichever treatment is second will always benefit from any potential learning
+            effect.
         ans3:
           value: The first treatment might have artificially higher scores.
           feedback: Try again please!
@@ -142,16 +140,16 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 25 hours of sleep deprivation
+          value: 29 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 13 hours of sleep deprivation
+          value: 15 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 13 professional drivers
+          value: 15 professional drivers
           feedback: Try again please!
         ans5:
-          value: 25 professional drivers
+          value: 29 professional drivers
           feedback: Try again please!
       part7:
         ans1:

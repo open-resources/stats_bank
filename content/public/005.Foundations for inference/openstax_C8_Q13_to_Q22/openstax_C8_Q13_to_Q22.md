@@ -91,19 +91,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.6
-      sigma: 0.21
-      sample_stdev: 0.06
-      sample_size: 26
-      other_sample_size: 13.0
-      alpha1: 0.01
-      confidence1: 99
-      z_score1: 2.58
+      x_bar: 2.3
+      sigma: 0.17
+      sample_stdev: 0.23
+      sample_size: 22
+      other_sample_size: 11.0
+      alpha1: 0.05
+      confidence1: 95
+      z_score1: 1.96
       alpha2: 0.1
       confidence2: 90
       z_score2: 1.645
-      part6_confidence: 99
-      part6_z_score: 2.58
+      part6_confidence: 90
+      part6_z_score: 1.645
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -114,15 +114,15 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 26 heads of lettuce.
+          matches: The mean weight of a sample of 22 heads of lettuce.
       part7:
         option1:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 99\%$
         option2:
-          value: $\text{CL} = 95\%$
+          value: $\text{CL} = 98\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 99\%$
+          matches: $\text{CL} = 95\%$
         statement2:
           value: CI 2
           matches: $\text{CL} = 90\%$
@@ -173,12 +173,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 13.0 heads of lettuce were sampled instead of
-            26, and the margin of error remained the same?
+          value: What would happen if 11.0 heads of lettuce were sampled instead of
+            22, and the margin of error remained the same?
           matches: CL-Decrease
         statement2:
-          value: What would happen if 13.0 heads of lettuce were sampled instead of
-            26, and the confidence level remained the same?
+          value: What would happen if 11.0 heads of lettuce were sampled instead of
+            22, and the confidence level remained the same?
           matches: MoE-Increase
 ---
 # {{ params.vars.title }}
