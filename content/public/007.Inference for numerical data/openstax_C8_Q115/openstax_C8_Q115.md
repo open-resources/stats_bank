@@ -38,9 +38,9 @@ myst:
     params:
       vars:
         title: Amount of soda served in restaurants
-      sample_size: 23
-      serving_size: 16
-      sample_mean: 12.9
+      sample_size: 19
+      serving_size: 17
+      sample_mean: 12.2
       sample_std: 1.65
 ---
 # {{ params.vars.title }}

@@ -52,13 +52,13 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1925
-        proportion: 49.0
-        margin_of_error: 2.23
-        lower_bound: 46.77
-        upper_bound: 51.23
-        margin_of_error_part4: 1.117
-        selected_option1: If we considered many random samples of 1925 Americans,
+        sample_size: 1284
+        proportion: 77.0
+        margin_of_error: 2.3
+        lower_bound: 74.7
+        upper_bound: 79.3
+        margin_of_error_part4: 1.151
+        selected_option1: If we considered many random samples of 1284 Americans,
           and we calculated 95% confidence intervals for each, 95% of these intervals
           would include the true population proportion of Americans who think it's
           the government's responsibility to promote equality between men and women.
