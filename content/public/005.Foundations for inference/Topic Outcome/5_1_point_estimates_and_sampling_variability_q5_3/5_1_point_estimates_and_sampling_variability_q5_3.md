@@ -66,7 +66,7 @@ myst:
         title: Quality control
       description:
         num1: 161
-        num2: 27
+        num2: 25
       part1:
         ans1:
           value: The population of all computer chips ever produced by the factory.
@@ -113,10 +113,10 @@ myst:
       part6:
         ans1:
           value: Yes, the engineer should be surprised.
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: No, the engineer should not be surprised.
-          feedback: Try again please!
+          feedback: Correct!
       part7:
         ans1:
           value: Yes, the value changes significantly.

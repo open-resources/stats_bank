@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 25
+        num_drivers: 22
         hours_deprivation: 24
         treatment_order: The control treatment was trialed last.
         mentioned_test: reaction time
-        driver_type: professional
+        driver_type: mixed
       part1:
         option1:
           value: Amount of Sleep Deprivation
@@ -93,26 +93,26 @@ myst:
           value: 24 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 professional drivers
+          value: 22 mixed drivers
           feedback: Try again please!
         ans5:
-          value: 24 professional drivers
+          value: 24 mixed drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 25 professional drivers
+          value: 22 mixed drivers
           feedback: Correct!
         ans2:
           value: 24 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 24 professional drivers
+          value: 24 mixed drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -143,13 +143,13 @@ myst:
           value: 24 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 25 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 professional drivers
+          value: 22 mixed drivers
           feedback: Try again please!
         ans5:
-          value: 24 professional drivers
+          value: 24 mixed drivers
           feedback: Try again please!
       part7:
         ans1:
