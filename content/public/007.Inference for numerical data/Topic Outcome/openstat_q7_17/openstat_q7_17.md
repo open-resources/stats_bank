@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part1: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+      selected_scenario_part3: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part4:
         ans1:
           value: Paired.

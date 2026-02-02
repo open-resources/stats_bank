@@ -32,18 +32,19 @@ myst:
     params:
       vars:
         title: San Jose Park Use
-        every: 9
+        every: 6
       part1:
-        measurement: Occupation
+        measurement: Number of times per week
         ans1:
           value: qualitative
-          feedback: Great! You got it.
+          feedback: Try again please!
         ans2:
           value: quantitative discrete
-          feedback: Try again please!
+          feedback: Great! You got it.
         ans3:
           value: quantitative continuous
-          feedback: Try again please!
+          feedback: Not quite, it is quantitative, but the a count of something is
+            not a continuous measurement. Try again!
 ---
 # {{ params.vars.title }}
 A study was done to determine the occupation, age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every {{ params.vars.every }}$^{th}$ house in the neighborhood around the park was interviewed.
