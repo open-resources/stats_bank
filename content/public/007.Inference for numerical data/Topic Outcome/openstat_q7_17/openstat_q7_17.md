@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part1: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part1:
         ans1:
           value: Paired.
@@ -53,17 +53,17 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part2: Examine age-related wage disparities by comparing the
+        earnings of younger and older employees in a company.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+          feedback: Correct!
+      selected_scenario_part3: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part4:
         ans1:
           value: Paired.

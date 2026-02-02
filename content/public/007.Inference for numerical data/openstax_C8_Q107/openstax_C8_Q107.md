@@ -82,22 +82,22 @@ myst:
       vars:
         title: Tranquilizer effect time
       effect_times:
-      - 2.5
-      - 2.1
+      - 2.8
+      - 2.2
+      - 2.4
+      - 2.7
       - 2.1
       - 2.9
-      - 2.6
-      - 2.4
       - 3.0
       - 2.9
-      - 2.5
-      - 2.5
-      - 2.5
-      - 2.4
-      - 2.9
-      - 2.0
+      - 2.2
       - 2.6
-      confidence_level: 90
+      - 2.3
+      - 2.2
+      - 3.0
+      - 2.6
+      - 2.0
+      confidence_level: 99
       part4:
         option0:
           value: The mean effective length of time of tranquilizers.
@@ -129,19 +129,19 @@ myst:
           feedback: Try again please!
       part8:
         ans1:
-          value: If we were to sample many groups of nine patients, 90% of the samples
+          value: If we were to sample many groups of nine patients, 99% of the samples
             would contain the true population mean length of time.
           feedback: Good job!
         ans2:
-          value: If we were to sample many groups of nine patients, 90% of the samples
+          value: If we were to sample many groups of nine patients, 99% of the samples
             would contain this sample's mean length of time.
           feedback: Try again please!
         ans3:
-          value: There is a 90% likelihood that this sample contains the true population
+          value: There is a 99% likelihood that this sample contains the true population
             mean length of time.
           feedback: Try again please!
         ans4:
-          value: There is a 90% likelihood that this sample's mean is the true population
+          value: There is a 99% likelihood that this sample's mean is the true population
             mean length of time.
           feedback: Try again please!
 ---

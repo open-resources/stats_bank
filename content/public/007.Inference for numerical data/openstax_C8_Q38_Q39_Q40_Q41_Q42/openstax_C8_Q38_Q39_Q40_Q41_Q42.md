@@ -82,9 +82,9 @@ myst:
       vars:
         title: Emergency Room Wait Times
       confidence_level: 99
-      sample_size: 69
+      sample_size: 73
       mean: 1.5
-      stdev: 1.1
+      stdev: 1.2
       part4:
         option0:
           value: The true mean wait time for patients in an emergency room.
@@ -97,13 +97,13 @@ myst:
             being called back to be examined.
         statement2:
           value: $\bar{X}$
-          matches: The mean wait time of 69 patients in the emergency room.
+          matches: The mean wait time of 73 patients in the emergency room.
       part5:
         ans1:
           value: Student's t-distribution
           feedback: Good job!
         ans2:
-          value: $\operatorname{N}\left(1.5, 1.1\right)$
+          value: $\operatorname{N}\left(1.5, 1.2\right)$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}\left(0, 1\right)$ (Standard Normal)

@@ -59,39 +59,39 @@ myst:
         y_axis: Frequency
         overplotted: should not
         style: l
-        color: orange
+        color: darkgreen
       _workspace_files:
       - name: data.csv
         contents: |
           Number of TV Shows,Frequency
-          0,10
-          1,18
-          2,32
-          3,5
-          4,1
+          0,14
+          1,15
+          2,39
+          3,4
+          4,3
       df: null
       autograding:
-        std_plot: std_ejeayblt_plot.png
-        ref_plot: ref_0ey7join_plot.png
+        std_plot: std_4u6jsf83_plot.png
+        ref_plot: ref_9ejql8g4_plot.png
         csv: |
           Number of TV Shows,Frequency
-          0,10
-          1,18
-          2,32
-          3,5
-          4,1
+          0,14
+          1,15
+          2,39
+          3,4
+          4,3
       _images:
       - label: Your Line Graph
-        filename: std_ejeayblt_plot.png
+        filename: std_4u6jsf83_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_0ey7join_plot.png
+        filename: ref_9ejql8g4_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEwCjEsMTgKMiwzMgozLDUKNCwxCg==
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE0CjEsMTUKMiwzOQozLDQKNCwzCg==
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEwCjEsMTgKMiwzMgozLDUKNCwxCg==
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE0CjEsMTUKMiwzOQozLDQKNCwzCg==
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below
