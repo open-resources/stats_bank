@@ -48,7 +48,7 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 689
+        num1: 756
         num2: 58
       part1:
         ans1:
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.0668, 0.0966). We
+          value: The 90% confidence interval is approximately (0.0608, 0.0876). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.68% and 9.66%.
+            who would register under the new design is between 6.08% and 8.76%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.0628, 0.1016). We
+          value: The 90% confidence interval is approximately (0.0568, 0.0926). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.28% and 10.16%.
+            who would register under the new design is between 5.68% and 9.26%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.0628, 0.0966). We
+          value: The 90% confidence interval is approximately (0.0568, 0.0876). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.28% and 9.66%.
+            who would register under the new design is between 5.68% and 8.76%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.0668, 0.1016). We
+          value: The 90% confidence interval is approximately (0.0608, 0.0926). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.68% and 10.16%.
+            who would register under the new design is between 6.08% and 9.26%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}
