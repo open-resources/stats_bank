@@ -35,8 +35,8 @@ myst:
     params:
       vars:
         title: National Health Plan, Part II
-        p_hat: 0.4
-        p_hat_percent: 40.0
+        p_hat: 0.6
+        p_hat_percent: 60.0
         margin_of_error_percent: 1.0
         z_score: 1.96
         confidence: 95

@@ -52,7 +52,7 @@ myst:
     params:
       vars:
         title: Line Graphs
-        description: In a survey, 40 people were asked how many times they visited
+        description: In a survey, 34 people were asked how many times they visited
           a store before making a major purchase.
         graph_title: Number of times in store before making a major purchase
         x_axis: Number of times in store
@@ -64,34 +64,34 @@ myst:
       - name: data.csv
         contents: |
           Number of times in store,Frequency
-          1,3
-          2,12
-          3,17
+          1,5
+          2,5
+          3,14
           4,7
-          5,1
+          5,3
       df: null
       autograding:
-        std_plot: std_fpe1_rlv_plot.png
-        ref_plot: ref_pfglq18e_plot.png
+        std_plot: std_bi21rxuj_plot.png
+        ref_plot: ref_qupfnn04_plot.png
         csv: |
           Number of times in store,Frequency
-          1,3
-          2,12
-          3,17
+          1,5
+          2,5
+          3,14
           4,7
-          5,1
+          5,3
       _images:
       - label: Your Line Graph
-        filename: std_fpe1_rlv_plot.png
+        filename: std_bi21rxuj_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_pfglq18e_plot.png
+        filename: ref_qupfnn04_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMgozLDE3CjQsNwo1LDEK
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDUKMiw1CjMsMTQKNCw3CjUsMwo=
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDMKMiwxMgozLDE3CjQsNwo1LDEK
+        contents: TnVtYmVyIG9mIHRpbWVzIGluIHN0b3JlLEZyZXF1ZW5jeQoxLDUKMiw1CjMsMTQKNCw3CjUsMwo=
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below
