@@ -53,27 +53,27 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+      selected_scenario_part2: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+          feedback: Correct!
+      selected_scenario_part3: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part3:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part4: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+          feedback: Incorrect!
+      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part4:
         ans1:
           value: Paired.

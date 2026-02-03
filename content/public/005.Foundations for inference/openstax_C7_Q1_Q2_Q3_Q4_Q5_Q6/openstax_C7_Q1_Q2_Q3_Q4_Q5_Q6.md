@@ -1,6 +1,6 @@
 ---
 title: Personnel Management
-topic: Inference for numerical data
+topic: Foundations for inference
 author: Gavin Kendal-Freedman
 source: 8.2
 template_version: 1.4
@@ -95,11 +95,11 @@ myst:
       vars:
         title: Personnel Management
       confidence_level: 95
-      sample_size: 15
-      mean: 3.5
-      stdev: 1.4
-      lower_bound: 3.15
-      upper_bound: 3.85
+      sample_size: 12
+      mean: 4.7
+      stdev: 1.3
+      lower_bound: 4.38
+      upper_bound: 5.03
       part8:
         ans1:
           value: The distributions are different accounts for the different probabilities.
@@ -114,7 +114,7 @@ myst:
         ans4:
           value: The distributions have different shapes.
           feedback: Try again please!
-      percentile: 97.0
+      percentile: 94.0
 ---
 # {{ params.vars.title }}
 Yoonie is a personnel manager in a large corporation. Each month she must review {{ params.sample_size }} of the employees. From past experience, she has found that the reviews take her approximately {{ params.mean }} hours each to do with a population standard deviation of {{ params.stdev }} hours.

@@ -90,12 +90,12 @@ myst:
     params:
       vars:
         title: Life after college
-        ci_low_part4: 0.7438550283868514
-        ci_high_part4: 0.8304889949367639
-        ci_low_part4_percent: 74
-        ci_high_part4_percent: 83
-        ci_low_part8: 0.7302411193575794
-        ci_high_part8: 0.8441029039660358
+        ci_low_part4: 0.6073296551064638
+        ci_high_part4: 0.6926703448935363
+        ci_low_part4_percent: 61
+        ci_high_part4_percent: 69
+        ci_low_part8: 0.5939189752827809
+        ci_high_part8: 0.7060810247172191
       part1:
         ans1:
           value: Proportion of graduates from this university who found a job within
@@ -113,19 +113,19 @@ myst:
             one year of graduating.
           feedback: Correct!
       description:
-        num1: 270
-        num2: 343
-        num3: 4665
+        num1: 312
+        num2: 480
+        num3: 4451
       part3:
         ans1:
           value: This is not a random sample, so the observations are not independent.
           feedback: Incorrect.
         ans2:
-          value: 'The success-failure condition is not satisfied: 270 successes, 73
+          value: 'The success-failure condition is not satisfied: 312 successes, 168
             failures, both below 10.'
           feedback: Incorrect.
         ans3:
-          value: 'The success-failure condition is satisfied: 270 successes, 73 failures,
+          value: 'The success-failure condition is satisfied: 312 successes, 168 failures,
             both well above 10.'
           feedback: Correct!
         ans4:

@@ -62,22 +62,22 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>26</td>
-        </tr><tr>
-        <td>260–289</td>
         <td>15</td>
         </tr><tr>
-        <td>290–319</td>
+        <td>260–289</td>
         <td>6</td>
+        </tr><tr>
+        <td>290–319</td>
+        <td>9</td>
         </tr><tr>
         <td>320–349</td>
-        <td>6</td>
+        <td>8</td>
         </tr><tr>
         <td>350–379</td>
-        <td>1</td>
+        <td>0</td>
         </tr><tr>
         <td>380–409</td>
-        <td>0</td>
+        <td>1</td>
         </tr><tr>
         <td>410–439</td>
         <td>1</td>
@@ -87,28 +87,28 @@ myst:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,26
-          260–289,15
-          290–319,6
-          320–349,6
-          350–379,1
-          380–409,0
+          230–259,15
+          260–289,6
+          290–319,9
+          320–349,8
+          350–379,0
+          380–409,1
           410–439,1
       autograding:
-        std_plot: std_ag_z5v4i_plot.png
-        ref_plot: ref_c8l0i2wl_plot.png
+        std_plot: std_6wik4i8u_plot.png
+        ref_plot: ref_8ooxkr45_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_ag_z5v4i_plot.png
+        filename: std_6wik4i8u_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref_c8l0i2wl_plot.png
+        filename: ref_8ooxkr45_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDE1CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwxCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTUKMjYw4oCTMjg5LDYKMjkw4oCTMzE5LDkKMzIw4oCTMzQ5LDgKMzUw4oCTMzc5LDAKMzgw4oCTNDA5LDEKNDEw4oCTNDM5LDEK
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjYKMjYw4oCTMjg5LDE1CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwxCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTUKMjYw4oCTMjg5LDYKMjkw4oCTMzE5LDkKMzIw4oCTMzQ5LDgKMzUw4oCTMzc5LDAKMzgw4oCTNDA5LDEKNDEw4oCTNDM5LDEK
 ---
 # {{ params.vars.title }}
 
