@@ -43,7 +43,7 @@ myst:
       vars:
         title: Relaxing after work
       part2:
-        num1: 1190
+        num1: 1255
         moe_comparison: larger
         ans1:
           value: The confidence level of the new interval is the same as the previous
@@ -64,7 +64,7 @@ myst:
           feedback: Try again please! Recall that the width of the confidence interval
             increases as the confidence level increases.
       part3:
-        num1: 694
+        num1: 601
         num2: 95
         ans1:
           value: The new margin of error will be larger, as a smaller sample size
@@ -86,9 +86,9 @@ myst:
           feedback: Try again please! Recall that as the sample size increases, the
             standard error decreases, which will decrease the margin of error.
       description:
-        num1: 1190
+        num1: 1255
         num2: 95
-        num3: 1.32
+        num3: 1.41
         num4: 2.0
       part1:
         ans1:
@@ -100,7 +100,7 @@ myst:
           feedback: Try again please!
         ans3:
           value: We are 95% confident that the average time spent relaxing by Americans
-            falls between 1.32 and 2.0 hours.
+            falls between 1.41 and 2.0 hours.
           feedback: Correct!
         ans4:
           value: This interval represents the minimum and maximum number of hours

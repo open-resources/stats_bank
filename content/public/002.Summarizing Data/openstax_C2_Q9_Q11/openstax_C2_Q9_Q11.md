@@ -60,37 +60,37 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>14.8</td>
-        <td>26.4</td>
+        <td>34.9</td>
+        <td>13.2</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>33.8</td>
-        <td>19.5</td>
+        <td>23.9</td>
+        <td>29.8</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>18.3</td>
-        <td>23.1</td>
+        <td>9.6</td>
+        <td>7.2</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>11.7</td>
-        <td>7.4</td>
+        <td>15.6</td>
+        <td>18.7</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>6.4</td>
-        <td>16.0</td>
+        <td>15.9</td>
+        <td>16.8</td>
         </tr><tr>
         <th>West End</th>
-        <td>15.0</td>
-        <td>7.6</td>
+        <td>0.2</td>
+        <td>14.2</td>
         </tr>
         </table>
       graph_instructions:
-      - The plot should have a main title of 'Overall Student Population from Each
-        School'.
+      - The plot should have a main title of 'Students in Science Competition from
+        Each School'.
       - The x-axis should be labeled 'Proportion (%)'.
       - The y-axis should be labeled 'School'.
       - The bars should be appropriately labelled.
-      - The bars should be colored darkgreen.
+      - The bars should be colored blue.
       - The bars should have a purple border.
       - The bars should have a density of 6.
       - The plot should be horizontal.
@@ -98,8 +98,8 @@ myst:
         participate in a county-wide science competition. The table below shows the
         percentage breakdown of competitors from each school, and the percentage of
         the entire student population of the county that goes to each school. Construct
-        a bar graph that shows the county-wide population percentage of students at
-        each school.
+        a bar graph that shows the population percentage of competitors from each
+        school.
       autograding:
         col1:
         - Alabaster
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '26.4'
-        - '19.5'
-        - '23.1'
-        - '7.4'
-        - '16.0'
-        - '7.6'
-        title: Overall Student Population from Each School
+        - '34.9'
+        - '23.9'
+        - '9.6'
+        - '15.6'
+        - '15.9'
+        - '0.2'
+        title: Students in Science Competition from Each School
         xlab: Proportion (%)
         ylab: School
-        color: darkgreen
+        color: blue
         border: purple
         density: 6
         horiz: 'True'
-        std_plot: std_u3chb3_p_plot.png
-        ref_plot: ref_63ctod45_plot.png
+        std_plot: std__v__og7i_plot.png
+        ref_plot: ref_zri4kfld_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_u3chb3_p_plot.png
+        filename: std__v__og7i_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_63ctod45_plot.png
+        filename: ref_zri4kfld_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}
