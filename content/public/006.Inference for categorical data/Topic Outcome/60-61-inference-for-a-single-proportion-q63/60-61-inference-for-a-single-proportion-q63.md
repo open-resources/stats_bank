@@ -50,9 +50,9 @@ myst:
       vars:
         title: Orange tabbies
         sample_size1: 30
-        times: 4
-        sample_size3: 66
-        sample_size4: 244
+        times: 64
+        sample_size3: 99
+        sample_size4: 126
       part1:
         ans1:
           value: 'True'
