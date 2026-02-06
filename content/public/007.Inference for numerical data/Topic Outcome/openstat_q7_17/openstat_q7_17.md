@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part1: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part2: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+      selected_scenario_part3: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part4: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part4:
         ans1:
           value: Paired.

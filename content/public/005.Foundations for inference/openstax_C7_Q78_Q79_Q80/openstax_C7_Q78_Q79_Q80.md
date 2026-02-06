@@ -79,8 +79,9 @@ myst:
         ans7:
           value: $X \sim \operatorname{Exp}(9)$
           feedback: Try Again!
-      sample_size: 14
-      confidence_level: 99%
+      sample_size: 12
+      confidence_level: 95%
+      margin_of_error: 0.5
 ---
 # {{ params.vars.title }}
 Richard’s Furniture Company delivers furniture from {{ params.start_time }} A.M. to {{ params.end_time }} P.M. continuously and uniformly. We are interested in how long (in hours) past the {{ params.start_time }} A.M. start time that individuals wait for their delivery.
@@ -117,7 +118,7 @@ Please enter answer rounded to two decimal places.
 
 ## Part 4
 
-Richard's Furniture Company wants to estimate the mean wait time for delivery. They want to be {{ params.confidence_level }} confident their estimate is within 0.5 hours. What is the minimum number of samples they need to achieve this level of confidence?
+Richard's Furniture Company wants to estimate the mean wait time for delivery. They want a {{ params.confidence_level }} confidence interval whose margin of error is at most {{ params.margin_of_error }} hours. What is the minimum sample size required?
 
 ### Answer Section
 

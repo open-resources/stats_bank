@@ -49,12 +49,12 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 81
-      sample_size2: 91
-      p: 11
-      p_hat: 14
-      college_students: 141
-      college_students2: 282
+      sample_size: 72
+      sample_size2: 86
+      p: 8
+      p_hat: 13
+      college_students: 120
+      college_students2: 240
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
@@ -65,31 +65,34 @@ myst:
           feedback: Correct!
       part2:
         ans1:
-          value: False. The distribution is not right skewed because the success-failure
-            condition is met.
-          feedback: Correct.
+          value: False. The distribution is not skewed as the success-failure condition
+            is met.
+          feedback: Incorrect.
         ans2:
           value: True. The distribution is right skewed because the success-failure
             condition is not met.
-          feedback: Incorrect!
+          feedback: Correct! In most samples we would expect $\hat{p}$ to be close
+            to 0.08, the true population proportion. While $\hat{p}$ can be much above
+            0.08, it is bound below by 0, suggesting it would take on a right skewed
+            shape.
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population
-            proportion is not significantly large.
-          feedback: Incorrect.
+            proportion is significantly large.
+          feedback: Correct.
         ans2:
           value: False. The difference between the sample proportion and the population
-            proportion is significantly large.
-          feedback: Correct!
+            proportion is not significantly large.
+          feedback: Incorrect!
       part4:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different
             from the population proportion.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: False. The sample is not unusual as the proportion is not significantly
             different from the population proportion.
-          feedback: Correct.
+          feedback: Incorrect.
       part5:
         ans1:
           value: 'True'

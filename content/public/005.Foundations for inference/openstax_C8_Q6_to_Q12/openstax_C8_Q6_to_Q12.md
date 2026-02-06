@@ -45,32 +45,27 @@ part3:
     allow-blank: false
     label: $n = $
 part4:
-  type: symbolic-input
+  type: matrix-component-input
   pl-customizations:
-    label: $X\sim$
-    custom_functions: N,B
-    variables: mu,sigma
-    allow-trig-functions: false
-    weight: 1
+    comparison: decdig
+    digits: 4
     allow-blank: false
+    allow-fractions: false
+    allow-partial-credit: true
+    label: $CI_{ {{ params.confidence }}\% } = $
 part5:
-  type: multiple-choice
-  pl-customizations:
-    weight: 1
-    order: fixed
-part6:
   type: number-input
   pl-customizations:
     comparison: decdig
-    digits: 2
+    digits: 4
     weight: 1
     allow-blank: false
     label: $\text{Margin of Error} = $
-part7:
+part6:
   type: multiple-choice
   pl-customizations:
     weight: 1
-part8:
+part7:
   type: integer-input
   pl-customizations:
     allow-blank: false
@@ -80,43 +75,30 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 7.9
-      sigma: 2.0
-      sample_size: 220
-      other_sample_size: 70
-      alpha: 0.05
-      confidence: 95
-      z_score: 1.959963984540054
-      graph_z_score: 1.96
+      x_bar: 8.4
+      sigma: 2.3
+      sample_size: 215
+      other_sample_size: 365
+      alpha: 0.1
+      confidence: 90
+      z_score: 1.6448536269514722
       higher_confidence: 99
       higher_z_score: 2.5758293035489004
-      part5:
+      part6:
         ans1:
-          value: 'Yes'
+          value: The confidence level would decrease because a smaller sample size
+            requires a smaller critical value to keep the margin of error the same.
           feedback: Try again please!
         ans2:
-          value: 'No'
+          value: The confidence level would increase because a smaller sample size
+            requires a larger critical value to keep the margin of error the same.
           feedback: Correct!
-      part7:
-        ans1:
-          value: The level of confidence would decrease because decreasing $n$ makes
-            the confidence interval wider, so at the same margin of error, the confidence
-            level decreases.
-          feedback: Correct!
-        ans2:
-          value: The level of confidence would increase because increasing $n$ makes
-            the confidence interval smaller, so at the same margin of error, the confidence
-            level increases.
-          feedback: Try again please!
         ans3:
-          value: The level of confidence would increase because decreasing $n$ makes
-            the confidence interval smaller, so at the same margin of error, the confidence
-            level increases.
+          value: The confidence level would stay the same because the margin of error
+            did not change.
           feedback: Try again please!
         ans4:
-          value: The level of confidence would decrease because increasing $n$ makes
-            the confidence interval wider, so at the same margin of error, the confidence
-            level decreases.
+          value: TThere is not enough information to determine what happens.
           feedback: Try again please!
 ---
 # {{ params.vars.title }}
@@ -148,30 +130,21 @@ Please enter a numeric value in.
 
 ## Part 4
 
-Please define the distribution that should be used. (Ex. $exp(1)$, $N(0,1)$, $B(5, 0.5)$)
+What is the {{ params.confidence }}% confidence interval?
 
 ### Answer Section
+
+Please enter numeric values in both boxes.
 
 ## Part 5
 
-Is the following graph a proper representation of the {{ params.confidence }}% confidence interval?
-
-<pl-figure file-name="figure 1.png" type="dynamic" width="500px"></pl-figure>
-
-### Answer Section
-
-- {{ params.part5.ans1.value }}
-- {{ params.part5.ans2.value }}
-
-## Part 6
-
-What should the margin of error be for the confidence interval with {{ params.confidence }}% confidence level?
+What is the margin of error for the confidence interval with {{ params.confidence }}% confidence level?
 
 ### Answer Section
 
 Please enter a numeric value in.
 
-## Part 7
+## Part 6
 
 If the Census did another survey, kept the margin of error the same, and surveyed {{ params.other_sample_size }} people instead of 200, what would happen to the level of confidence? Why?
 
@@ -182,7 +155,7 @@ If the Census did another survey, kept the margin of error the same, and surveye
 - {{ params.part7.ans3.value }}
 - {{ params.part7.ans4.value }}
 
-## Part 8
+## Part 7
 
 Suppose the Census needed to be {{ params.higher_confidence }}% confident of the population mean length of time. Without changing the margin of error from part 6, how many people would need to be surveyed?
 

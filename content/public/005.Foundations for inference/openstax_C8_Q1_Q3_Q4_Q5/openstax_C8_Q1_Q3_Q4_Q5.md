@@ -50,15 +50,19 @@ part4:
     weight: 1
     allow-blank: false
 part5:
-  type: multiple-choice
+  type: matrix-component-input
   pl-customizations:
-    weight: 1
-    order: fixed
+    comparison: decdig
+    digits: 4
+    allow-blank: false
+    allow-fractions: false
+    allow-partial-credit: true
+    label: $CI_{ {{ params.confidence }}\% } = $
 part6:
   type: number-input
   pl-customizations:
     comparison: decdig
-    digits: 2
+    digits: 4
     weight: 1
     allow-blank: false
     label: $\text{Margin of Error} = $
@@ -71,22 +75,14 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 236
-      stdev_p: 15
+      x_bar: 246
+      stdev_p: 19
       stdev_s: 10
-      sample_size: 40
-      other_sample_size: 512
-      alpha: 0.1
-      confidence: 90
-      z_score: 1.645
-      graph_z_score: 1.96
-      part5:
-        ans1:
-          value: 'Yes'
-          feedback: Try again please!
-        ans2:
-          value: 'No'
-          feedback: Correct!
+      sample_size: 55
+      other_sample_size: 510
+      alpha: 0.05
+      confidence: 95
+      z_score: 1.959963984540054
       part7:
         ans1:
           value: As the sample size increases, there will be less variability in the
@@ -140,18 +136,13 @@ Please define the distribution that should be used. (Ex. $exp(1)$, $N(0,1)$, $B(
 
 ## Part 5
 
-Is the following graph a proper representation of the {{ params.confidence }}% confidence interval?
-
-<pl-figure file-name="figure 1.png" type="dynamic" width="600px"></pl-figure>
+What is the {{ params.confidence }}% confidence interval?
 
 ### Answer Section
 
-- {{ params.part5.ans1.value }}
-- {{ params.part5.ans2.value }}
-
 ## Part 6
 
-What should the margin of error be for the confidence interval with {{ params.confidence }}% confidence level?
+What is the margin of error for the confidence interval with {{ params.confidence }}% confidence level?
 
 ### Answer Section
 

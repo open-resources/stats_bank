@@ -81,10 +81,10 @@ myst:
     params:
       vars:
         title: Emergency Room Wait Times
-      confidence_level: 98
-      sample_size: 66
-      mean: 1.4
-      stdev: 1.0
+      confidence_level: 90
+      sample_size: 70
+      mean: 1.6
+      stdev: 0.5
       part4:
         option0:
           value: The true mean wait time for patients in an emergency room.
@@ -97,23 +97,23 @@ myst:
             being called back to be examined.
         statement2:
           value: $\bar{X}$
-          matches: The mean wait time of 66 patients in the emergency room.
+          matches: The mean wait time of 70 patients in the emergency room.
       part5:
         ans1:
-          value: Student's t-distribution
+          value: Student t with n-1 degrees of freedom
           feedback: Good job!
         ans2:
-          value: $\operatorname{N}\left(1.4, 1.0\right)$
+          value: 'Student t with n degrees of freedom '
           feedback: Try again please!
         ans3:
-          value: $\operatorname{N}\left(0, 1\right)$ (Standard Normal)
+          value: $\operatorname{N}\left(0, 1\right)$
           feedback: Try again please!
         ans4:
-          value: $\chi^2$-distribution
+          value: $\operatorname{N}\left(1.6, 0.5\right)$
           feedback: Try again please!
       part8:
         ans1:
-          value: We are 98% confident that the true mean wait time is between (lower_bound)
+          value: We are 90% confident that the true mean wait time is between (lower_bound)
             and (upper_bound) hours.
           feedback: Good job!
         ans2:
@@ -163,7 +163,7 @@ Match the random variables $X$ and $\bar{X}$ to their definitions.
 
 ## Part 5
 
-Which of the following distributions should you use?
+What distribution does the appropriate test statistic follow?
 
 ### Answer Section
 

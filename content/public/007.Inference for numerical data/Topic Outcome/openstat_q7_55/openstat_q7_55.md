@@ -50,11 +50,11 @@ myst:
     params:
       vars:
         title: Exclusive relationships
-      sample_mean: 3.6
-      sample_size: 190
-      sample_std: 1.95
+      sample_mean: 3.67
+      sample_size: 196
+      sample_std: 1.87
       confidence_level: 92
-      n: 190
+      n: 196
       part3:
         ans1:
           value: 'Independence: it is a random sample, so we can assume that the students

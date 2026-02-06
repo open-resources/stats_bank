@@ -45,7 +45,7 @@ myst:
       description:
         num1: 0.3
         num2: 0.3
-        num3: 97
+        num3: 93
         num4: 0.05
 ---
 # {{ params.vars.title }}

@@ -37,11 +37,11 @@ myst:
     params:
       vars:
         title: Fireworks on July 4th
-        margin_of_error: 0.03491
-        margin_of_error_percent: 3.491
-        proportion: 67.0
-        p: 0.67
-        n: 697
+        margin_of_error: 0.03719
+        margin_of_error_percent: 3.719
+        proportion: 47.0
+        p: 0.47
+        n: 692
         z: 1.96
 ---
 # {{ params.vars.title }}
