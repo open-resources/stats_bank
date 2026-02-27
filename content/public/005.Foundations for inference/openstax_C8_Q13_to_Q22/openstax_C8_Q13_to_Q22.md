@@ -82,17 +82,17 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.0
-      sigma: 0.16
-      sample_stdev: 0.08
+      x_bar: 1.7
+      sigma: 0.12
+      sample_stdev: 0.21
       sample_size: 22
       other_sample_size: 11.0
       alpha1: 0.01
       confidence1: 99
       z_score1: 2.5758293035489004
-      alpha2: 0.1
-      confidence2: 90
-      z_score2: 1.6448536269514722
+      alpha2: 0.05
+      confidence2: 95
+      z_score2: 1.959963984540054
       part5_confidence: 99
       part5_z_score: 2.5758293035489004
       part4:
@@ -108,15 +108,15 @@ myst:
           matches: The mean weight of a sample of 22 heads of lettuce.
       part6:
         option1:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 90\%$
         option2:
-          value: $\text{CL} = 95\%$
+          value: $\text{CL} = 98\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 90\%$
+          matches: $\text{CL} = 95\%$
       part7:
         ans1:
           value: The interval is larger because the level of confidence decreased.

@@ -73,13 +73,13 @@ myst:
       vars:
         title: Sleep habits of New Yorkers
       confidence_level: 80.0
-      sleep_hours: 7
+      sleep_hours: 8
       description:
-        n: 37
-        sample_mean: 6.26
-        s: 1.6
-        min_val: 2.79
-        max_val: 10.14
+        n: 28
+        sample_mean: 8.18
+        s: 1.25
+        min_val: 5.41
+        max_val: 10.02
         alpha: 0.1
       table1: |-
         <table style="width:400px">
@@ -90,25 +90,25 @@ myst:
         <th>$min$</th>
         <th>$max$</th>
         </tr><tr>
-        <th>$37$</th>
-        <td>$6.26$</td>
-        <td>$1.6$</td>
-        <td>$2.79$</td>
-        <td>$10.14$</td>
+        <th>$28$</th>
+        <td>$8.18$</td>
+        <td>$1.25$</td>
+        <td>$5.41$</td>
+        <td>$10.02$</td>
         </tr>
         </table>
       part1:
         ans1:
-          value: '$H_0: \mu = 7$, $H_a: \mu < 7$'
+          value: '$H_0: \mu = 8$, $H_a: \mu < 8$'
           feedback: Correct!
         ans2:
-          value: '$H_0: \mu < 7$, $H_a: \mu > 7$'
+          value: '$H_0: \mu < 8$, $H_a: \mu > 8$'
           feedback: Try again please!
         ans3:
-          value: '$H_0: \mu > 7$, $H_a: \mu < 7$'
+          value: '$H_0: \mu > 8$, $H_a: \mu < 8$'
           feedback: Try again please!
         ans4:
-          value: '$H_0: \mu = 7$, $H_a: \mu = 7$'
+          value: '$H_0: \mu = 8$, $H_a: \mu = 8$'
           feedback: Try again please!
       part2:
         ans1:
@@ -131,31 +131,31 @@ myst:
           feedback: Try again please!
       part6:
         ans1:
-          value: The probability that New Yorkers sleep exactly 7 hours per night.
+          value: The probability that New Yorkers sleep exactly 8 hours per night.
           feedback: Try again please!
         ans2:
           value: The probability that the sample accurately represents the entire
             population of New Yorkers.
           feedback: Try again please!
         ans3:
-          value: The probability of observing the obtained sample mean 6.26 hours
-            if New Yorkers, on average, sleep 7 per night.
+          value: The probability of observing the obtained sample mean 8.18 hours
+            if New Yorkers, on average, sleep 8 per night.
           feedback: Correct!
         ans4:
-          value: The probability of observing the obtained sample mean of 6.26 hours
-            or more extreme, if New Yorkers, on average, sleep 6.26 hours per night.
+          value: The probability of observing the obtained sample mean of 8.18 hours
+            or more extreme, if New Yorkers, on average, sleep 8.18 hours per night.
           feedback: Try again please!
         ans5:
-          value: The probability of observing the obtained sample mean 6.26 of hours
-            or more extreme, if New Yorkers, on average, sleep 7 per night.
+          value: The probability of observing the obtained sample mean 8.18 of hours
+            or more extreme, if New Yorkers, on average, sleep 8 per night.
           feedback: Try again please!
       part7:
         ans1:
           value: Reject $H_0$
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: Fail to reject $H_0$
-          feedback: Try again please!
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 New York is known as "the city that never sleeps". A random sample of ${{ params.description.n }}$ New Yorkers were asked how much sleep they get per night. Statistical summaries of these data are shown below. The point estimate suggests New Yorkers sleep less than the recommended ${{ params.sleep_hours }}$ hours a night on average. Is the result statistically significant? Use $\alpha={{ params.description.alpha }}$.

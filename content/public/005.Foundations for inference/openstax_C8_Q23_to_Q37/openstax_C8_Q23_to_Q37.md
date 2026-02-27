@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 30.7
-      sigma: 16.1
-      sample_size: 24
-      alpha: 0.05
-      alpha_one_tail: 0.025
-      confidence: 95
-      z_score: 1.959963984540054
-      ebm: 6.441223165776708
-      fake_sample_size: 72
-      fake_confidence: 99
+      x_bar: 31.9
+      sigma: 14.7
+      sample_size: 32
+      alpha: 0.01
+      alpha_one_tail: 0.005
+      confidence: 99
+      z_score: 2.5758293035489004
+      ebm: 6.693594901365301
+      fake_sample_size: 16
+      fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 24 Foothill College Students
+          value: The mean age of a sample of 32 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 24 Foothill College Students
+          value: The most frequent age of a sample of 32 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -160,22 +160,22 @@ myst:
       part12:
         option1:
           name: alpha-correct
-          value: $\frac{\alpha}{2} = 0.025$
+          value: $\frac{\alpha}{2} = 0.005$
         option2:
-          value: $\alpha = 0.05$
+          value: $\alpha = 0.01$
         option3:
-          value: $\alpha = 0.025$
+          value: $\alpha = 0.005$
         option4:
-          value: $\frac{\alpha}2 = 0.05$
+          value: $\frac{\alpha}2 = 0.01$
         option5:
-          value: '0.97'
+          value: '0.99'
         option6:
-          value: 95%
+          value: 99%
         option7:
-          value: '6.44'
+          value: '6.69'
         statement1:
           value: a?
-          matches: '0.95'
+          matches: '0.99'
         statement2:
           value: b?
           matches: alpha-correct
@@ -184,29 +184,29 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '24.26'
+          matches: '25.21'
         statement5:
           value: e?
-          matches: '30.70'
+          matches: '31.90'
         statement6:
           value: f?
-          matches: '37.14'
+          matches: '38.59'
       part13:
         ans1:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 99% confident that the true mean age for Winter Foothill College
             students is between (lower_bound) and (upper_bound).
           feedback: Nice work!
         ans2:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 99% confident that the true mean age for Winter Foothill College
             students is no less than (lower_bound).
           feedback: Please try again!
         ans3:
-          value: We are 95% confident that the true mean age for Winter Foothill College
+          value: We are 99% confident that the true mean age for Winter Foothill College
             students is no more than (upper_bound).
           feedback: Please try again!
         ans4:
-          value: We are 95% confident that the true mean age for Winter Foothill College
-            students is 30.7.
+          value: We are 99% confident that the true mean age for Winter Foothill College
+            students is 31.9.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between
@@ -225,12 +225,12 @@ myst:
           value: The margin of error for the mean would decrease because as the sample
             size increases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
-          feedback: Nice work!
+          feedback: Please try again!
         ans2:
           value: The margin of error for the mean would increase because as the sample
             size decreases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
-          feedback: Please try again!
+          feedback: Nice work!
         ans3:
           value: The margin of error for the mean would decrease because as the sample
             size increases, you need more area under the normal curve (which translates
@@ -246,12 +246,12 @@ myst:
           value: The margin of error for the mean would decrease because as the CL
             decreases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
-          feedback: Please try again!
+          feedback: Nice work!
         ans2:
           value: The margin of error for the mean would increase because as the CL
             increases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
-          feedback: Nice work!
+          feedback: Please try again!
         ans3:
           value: The margin of error for the mean would decrease because as the CL
             decreases, you need more area under the normal curve (which translates

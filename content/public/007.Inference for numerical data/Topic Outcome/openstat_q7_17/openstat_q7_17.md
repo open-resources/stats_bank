@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+      selected_scenario_part1: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part1:
         ans1:
           value: Paired.
@@ -53,17 +53,18 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+      selected_scenario_part2: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+          feedback: Correct!
+      selected_scenario_part3: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part3:
         ans1:
           value: Paired.
