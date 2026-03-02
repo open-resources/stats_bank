@@ -75,15 +75,15 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 7.8
-      sigma: 1.9
-      sample_size: 215
-      other_sample_size: 365
+      x_bar: 8.3
+      sigma: 2.1
+      sample_size: 210
+      other_sample_size: 360
       alpha: 0.1
       confidence: 90
       z_score: 1.6448536269514722
-      higher_confidence: 98
-      higher_z_score: 2.3263478740408408
+      higher_confidence: 99
+      higher_z_score: 2.5758293035489004
       part6:
         ans1:
           value: The confidence level would decrease because a smaller sample size

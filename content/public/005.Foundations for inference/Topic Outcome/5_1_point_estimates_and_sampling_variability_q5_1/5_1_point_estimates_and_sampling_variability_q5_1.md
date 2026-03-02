@@ -32,16 +32,16 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a survey, one hundred college students are asked how many hours
-          per week they spend on the Internet.
-        answer_panel_feedback: 'Mean. Each student reports a numerical value: a number
-          of hours.'
+        question: In a survey, one hundred college students are asked whether or not
+          they cited information from Wikipedia in their papers.
+        answer_panel_feedback: Proportion. Each student reports Yes or No, so this
+          is a categorical variable and we use a proportion.
       part1:
         ans1:
-          value: Mean
+          value: Proportion
           feedback: Great! You got it.
         ans2:
-          value: Proportion
+          value: Mean
           feedback: Try again please!
 ---
 # {{ params.vars.title }}

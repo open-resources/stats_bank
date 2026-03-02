@@ -95,26 +95,26 @@ myst:
         <th>Pr(>|t|)</th>
         </tr><tr>
         <th>(intercept)</th>
-        <td>$40.7453$</td>
-        <td>$3.4861$</td>
-        <td>$8.9$</td>
+        <td>$41.6129$</td>
+        <td>$5.5146$</td>
+        <td>$8.3$</td>
         <td>$0.0$</td>
         </tr><tr>
         <th>height_husband</th>
-        <td>$0.3037$</td>
-        <td>$0.0433$</td>
-        <td>$5.49$</td>
-        <td>$0.0$</td>
+        <td>$0.2752$</td>
+        <td>$0.0768$</td>
+        <td>$3.99$</td>
+        <td>$0.0001$</td>
         </tr>
         </table>
-      sample: 178
-      slope: 0.3037
-      intercept: 40.7453
-      intercept_std_error: 3.4861
-      slope_std_error: 0.0433
-      husband_height1: 70
-      correlation: 0.097
-      husband_height2: 76
+      sample: 162
+      slope: 0.2752
+      intercept: 41.6129
+      intercept_std_error: 5.5146
+      slope_std_error: 0.0768
+      husband_height1: 64
+      correlation: 0.108
+      husband_height2: 49
       part1:
         ans1:
           value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'

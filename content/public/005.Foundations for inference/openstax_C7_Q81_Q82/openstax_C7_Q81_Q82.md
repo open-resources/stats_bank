@@ -42,21 +42,21 @@ myst:
     params:
       vars:
         title: Bus wait time
-      min_time: 5
-      length: 108
-      max_time: 113
-      sample_size: 81
-      percentile: 99
-      random_value: 25
+      min_time: 8
+      length: 93
+      max_time: 101
+      sample_size: 111
+      percentile: 86
+      random_value: 51
       part2:
         ans1:
           value: 'Yes'
           feedback: You got it! The probability of observing a sample average less
-            than 25 minutes is 0.000
+            than 51 minutes is 0.000
         ans2:
           value: 'No'
           feedback: Try Again! Consider what the Z-score and p-value tell us about
-            how likely it is to observe a sample average less than 25 minutes.
+            how likely it is to observe a sample average less than 51 minutes.
         ans3:
           value: Not enough information
           feedback: Try Again!
