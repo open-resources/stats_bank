@@ -44,17 +44,17 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+      selected_scenario_part1: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part1:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+          feedback: Incorrect!
+      selected_scenario_part2: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,9 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part3: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part3:
         ans1:
           value: Paired.
@@ -71,9 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Correct!
-      selected_scenario_part4: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part4:
         ans1:
           value: Paired.

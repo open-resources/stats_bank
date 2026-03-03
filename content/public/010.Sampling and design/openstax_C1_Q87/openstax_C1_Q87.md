@@ -59,10 +59,10 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 23
-        hours_deprivation: 31
+        num_drivers: 14
+        hours_deprivation: 22
         treatment_order: The treatments were assigned in random order.
-        mentioned_test: reaction time
+        mentioned_test: driving simulation
         driver_type: new
       part1:
         option1:
@@ -78,7 +78,7 @@ myst:
         option5:
           value: Participant Skill
         option6:
-          value: reaction time
+          value: driving simulation
         statement1:
           value: Explanatory Variable
           matches: Explanatory
@@ -90,29 +90,29 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 23 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 23 new drivers
+          value: 14 new drivers
           feedback: Try again please!
         ans5:
-          value: 31 new drivers
+          value: 22 new drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 23 new drivers
+          value: 14 new drivers
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 23 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 31 new drivers
+          value: 22 new drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -142,16 +142,16 @@ myst:
           value: Normal Sleep
           feedback: Correct!
         ans2:
-          value: 31 hours of sleep deprivation
+          value: 22 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 23 hours of sleep deprivation
+          value: 14 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 23 new drivers
+          value: 14 new drivers
           feedback: Try again please!
         ans5:
-          value: 31 new drivers
+          value: 22 new drivers
           feedback: Try again please!
       part7:
         ans1:

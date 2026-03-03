@@ -53,15 +53,15 @@ myst:
       vars:
         title: Repeated water samples
       text_part5:
-        budget: reduced
-        only: 'only '
-        can: 'can '
+        budget: increased
+        only: ''
+        can: ''
       part3:
         num1: 9
       part5:
-        num1: 244
-        num2: 923
-        num3: 802
+        num1: 1186
+        num2: 983
+        num3: 805
         ans1:
           value: It is impossible to predict the variability of the new distribution.
           feedback: The distribution will tend to be more variable when we have fewer
@@ -82,8 +82,8 @@ myst:
       description:
         num1: 5
         num2: 30
-        num3: 802
-        num4: 923
+        num3: 805
+        num4: 983
       part1:
         ans1:
           value: Normal Distribution

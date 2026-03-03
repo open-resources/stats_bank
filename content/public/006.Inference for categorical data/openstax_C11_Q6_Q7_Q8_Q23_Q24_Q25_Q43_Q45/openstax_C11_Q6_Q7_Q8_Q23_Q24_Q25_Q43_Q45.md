@@ -1,0 +1,148 @@
+---
+title: Chi Squared Choices
+topic: Foundations for inference
+author: Gavin Kendal-Freedman
+source: 11
+template_version: 1.4
+attribution: openstax-stats-2e
+partialCredit: true
+singleVariant: false
+showCorrectAnswer: false
+outcomes:
+- 6.1.1.9
+- 6.1.1.15
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
+span:
+- undefined
+length:
+- undefined
+tags:
+- GKF
+assets: null
+part1:
+  type: multiple-choice
+  pl-customizations:
+    weight: 1
+    order: fixed
+part2:
+  type: multiple-choice
+  pl-customizations:
+    weight: 1
+    order: fixed
+part3:
+  type: multiple-choice
+  pl-customizations:
+    weight: 1
+    order: fixed
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Chi Squared Choices
+      scenario1: A pharmaceutical company is interested in the relationship between
+        age and presentation of symptoms for a common viral infection. A random sample
+        is taken of 500 people with the infection across different age groups.
+      part1:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: This is incorrect. A chi-squared goodness of fit test is used
+            to compare an observed distribution to an expected distribution for a
+            single categorical variable.
+        ans2:
+          value: A chi-squared test of independence
+          feedback: Good Job!
+        ans3:
+          value: A chi-squared test of homogeneity
+          feedback: This is incorrect. A chi-squared test of homogeneity is used to
+            determine if different populations have the same distribution of a categorical
+            variable.
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+      scenario2: A personal trainer is putting together a weight-lifting program for
+        their clients. For a 90-day program, they expect each client to lift a specific
+        maximum weight each week. As the program goes along, the trainer records the
+        actual maximum weights their clients lifted. They want to know how well their
+        expectations met with what was observed.
+      part2:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: Good Job!
+        ans2:
+          value: A chi-squared test of independence
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
+        ans3:
+          value: A chi-squared test of homogeneity
+          feedback: This is incorrect. A chi-squared test of homogeneity is used to
+            determine if different populations have the same distribution of a categorical
+            variable.
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+      scenario3: A marathon runner is interested in the relationship between the brand
+        of shoes runners wear and their run times. They take a random sample of 50
+        runners and records their run times as well as the brand of shoes they were
+        wearing.
+      part3:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: This is incorrect. A chi-squared goodness of fit test is used
+            to compare an observed distribution to an expected distribution for a
+            single categorical variable.
+        ans2:
+          value: A chi-squared test of independence
+          feedback: Good Job!
+        ans3:
+          value: A chi-squared test of homogeneity
+          feedback: This is incorrect. A chi-squared test of homogeneity is used to
+            determine if different populations have the same distribution of a categorical
+            variable.
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+---
+# {{ params.vars.title }}
+For each of the following 3 scenarios, identify which type of chi-squared test would be most appropriate to use.
+
+## Part 1
+
+{{ params.scenario1 }}
+
+### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+
+## Part 2
+
+{{ params.scenario2 }}
+
+### Answer Section
+
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+
+## Part 3
+
+{{ params.scenario3 }}
+
+### Answer Section
+
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
+
+## Attribution
+
+Problem is from the [OpenStax Introductory Statistics 2e](https://openstax.org/books/introductory-statistics-2e) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)
