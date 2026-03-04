@@ -36,20 +36,22 @@ myst:
         title: Parameters and statistics
       part1:
         option1:
-          value: 2001
+          value: 2007
         option2:
-          value: 234
+          value: 2008
         option3:
-          value: 10
+          value: 1400
         statement1:
           value: Claimed population mean
-          matches: '3.02'
+          matches: '51'
         statement2:
           value: Sample mean
-          matches: '3.12'
-      question1: The average GPA of students in 2001 at a private university was 3.02.
-        A survey on a sample of 234 students from this university yielded an average
-        GPA of 3.12 a decade later.
+          matches: '57'
+      question1: American households spent an average of about $51 in 2007 on Halloween
+        merchandise such as costumes, decorations and candy. To see if this number
+        had changed, researchers conducted a new survey in 2008 before industry numbers
+        were reported. The survey included 1400 households and found that average
+        Halloween spending was $57 per household.
 ---
 # {{ params.vars.title }}
 Identify which value represents the sample mean and which value represents the claimed population mean.

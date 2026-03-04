@@ -60,20 +60,20 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>4</td>
-        <td>12</td>
+        <td>11</td>
+        <td>28</td>
         </tr><tr>
         <th>Summer</th>
         <td>6</td>
-        <td>19</td>
+        <td>15</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>10</td>
-        <td>31</td>
+        <td>15</td>
+        <td>38</td>
         </tr><tr>
         <th>Winter</th>
-        <td>12</td>
-        <td>38</td>
+        <td>8</td>
+        <td>20</td>
         </tr>
         </table>
       graph_instructions:
@@ -81,9 +81,9 @@ myst:
       - The x-axis should be labeled 'Proportion (%)'.
       - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
-      - The bars should be colored purple.
-      - The bars should have a darkgreen border.
-      - The bars should have a density of 8.
+      - The bars should be colored orange.
+      - The bars should have a purple border.
+      - The bars should have a density of 9.
       - The plot should be horizontal.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 12
-        - 19
-        - 31
+        - 28
+        - 15
         - 38
+        - 20
         title: Birthdays in Each Season
         xlab: Proportion (%)
         ylab: Season
-        color: purple
-        border: darkgreen
-        density: 8
+        color: orange
+        border: purple
+        density: 9
         horiz: 'True'
-        std_plot: std_wqu89mnc_plot.png
-        ref_plot: ref_52cvh6gb_plot.png
+        std_plot: std_wo_q2m8y_plot.png
+        ref_plot: ref_i81dz_o2_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_wqu89mnc_plot.png
+        filename: std_wo_q2m8y_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_52cvh6gb_plot.png
+        filename: ref_i81dz_o2_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

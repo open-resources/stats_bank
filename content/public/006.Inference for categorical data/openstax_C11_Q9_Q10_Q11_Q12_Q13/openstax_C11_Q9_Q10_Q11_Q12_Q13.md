@@ -60,7 +60,7 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      class_size: 22
+      class_size: 15
       table: |-
         <table style="width:550px">
         <tr>
@@ -69,20 +69,20 @@ myst:
         <th>Observed Count</th>
         </tr><tr>
         <th>A</th>
-        <td>3</td>
         <td>4</td>
+        <td>2</td>
         </tr><tr>
         <th>B</th>
-        <td>8</td>
-        <td>11</td>
+        <td>4</td>
+        <td>5</td>
         </tr><tr>
         <th>C</th>
-        <td>9</td>
-        <td>6</td>
+        <td>5</td>
+        <td>4</td>
         </tr><tr>
         <th>D</th>
         <td>2</td>
-        <td>1</td>
+        <td>4</td>
         </tr>
         </table>
       var_array: null
@@ -120,7 +120,7 @@ myst:
           value: '$H_0$: The distribution of the grades follows a uniform distribution.
             $H_A$: The distribution of the grades does not follow a uniform distribution.'
           feedback: Try again.
-      significance_level: 1%
+      significance_level: 5%
       part6:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance
