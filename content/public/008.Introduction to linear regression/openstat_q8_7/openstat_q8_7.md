@@ -41,20 +41,20 @@ myst:
       vars:
         title: Match the correlation, Part I
       correlations:
+      - 0.38
+      - -0.54
       - 0.03
-      - -0.77
-      - 0.48
       - 0.94
       part1:
         statement1:
           value: Plot 1
-          matches: $r=0.03$
+          matches: $r=0.38$
         statement2:
           value: Plot 2
-          matches: $r=-0.77$
+          matches: $r=-0.54$
         statement3:
           value: Plot 3
-          matches: $r=0.48$
+          matches: $r=0.03$
         statement4:
           value: Plot 4
           matches: $r=0.94$

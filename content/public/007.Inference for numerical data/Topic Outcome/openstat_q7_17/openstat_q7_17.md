@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+      selected_scenario_part1: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part2: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part2:
         ans1:
           value: Paired.
@@ -62,17 +62,18 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part3: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part3:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part4: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+          feedback: Correct!
+      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part4:
         ans1:
           value: Paired.
