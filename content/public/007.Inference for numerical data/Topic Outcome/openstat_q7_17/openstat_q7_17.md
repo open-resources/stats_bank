@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+      selected_scenario_part3: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part3:
         ans1:
           value: Paired.
@@ -71,15 +71,16 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part4: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part4:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.

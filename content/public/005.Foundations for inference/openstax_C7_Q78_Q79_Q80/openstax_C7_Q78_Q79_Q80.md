@@ -55,17 +55,17 @@ myst:
       vars:
         title: Furniture Delivery
       start_time: 11
-      length: 5
-      end_time: 4
+      length: 3
+      end_time: 2
       part1:
         ans1:
-          value: $X \sim U(0, 5)$
+          value: $X \sim U(0, 3)$
           feedback: You got it!
         ans2:
-          value: $X \sim U(11, 4)$
+          value: $X \sim U(11, 2)$
           feedback: Try Again!
         ans3:
-          value: $X \sim N(4,1)$
+          value: $X \sim N(2,1)$
           feedback: Try Again!
         ans4:
           value: $X \sim N(11,1)$
@@ -74,14 +74,14 @@ myst:
           value: $X \sim N(0,1)$
           feedback: Try Again!
         ans6:
-          value: $X \sim \operatorname{Exp}(4)$
+          value: $X \sim \operatorname{Exp}(2)$
           feedback: Try Again!
         ans7:
           value: $X \sim \operatorname{Exp}(11)$
           feedback: Try Again!
-      sample_size: 18
-      confidence_level: 99%
-      margin_of_error: 0.3
+      sample_size: 15
+      confidence_level: 95%
+      margin_of_error: 0.75
 ---
 # {{ params.vars.title }}
 Richard’s Furniture Company delivers furniture from {{ params.start_time }} A.M. to {{ params.end_time }} P.M. continuously and uniformly. We are interested in how long (in hours) past the {{ params.start_time }} A.M. start time that individuals wait for their delivery.

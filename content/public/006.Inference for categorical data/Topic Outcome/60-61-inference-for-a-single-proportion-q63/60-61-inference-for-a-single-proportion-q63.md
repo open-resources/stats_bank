@@ -52,7 +52,7 @@ myst:
         sample_size1: 30
         times: 16
         sample_size3: 79
-        sample_size4: 37
+        sample_size4: 226
       part1:
         ans1:
           value: 'True'

@@ -32,9 +32,10 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a survey, one hundred college students are asked what percentage
-          of their total weekly spending is on alcoholic beverages.
-        answer_panel_feedback: Mean. Each student reports a number, which is a percentage.
+        question: In a survey, one hundred college students are asked how many hours
+          per week they spend on the Internet.
+        answer_panel_feedback: 'Mean. Each student reports a numerical value: a number
+          of hours.'
       part1:
         ans1:
           value: Mean
