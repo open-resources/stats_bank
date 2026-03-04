@@ -82,11 +82,11 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.1
-      sigma: 0.2
-      sample_stdev: 0.06
+      x_bar: 2.5
+      sigma: 0.28
+      sample_stdev: 0.07
       sample_size: 26
-      other_sample_size: 52
+      other_sample_size: 13.0
       alpha1: 0.02
       confidence1: 98
       z_score1: 2.3263478740408408
@@ -164,13 +164,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 52 heads of lettuce were sampled instead of
+          value: What would happen if 13.0 heads of lettuce were sampled instead of
             26, and the margin of error remained the same?
-          matches: CL-Increase
+          matches: CL-Decrease
         statement2:
-          value: What would happen if 52 heads of lettuce were sampled instead of
+          value: What would happen if 13.0 heads of lettuce were sampled instead of
             26, and the confidence level remained the same?
-          matches: MoE-Decrease
+          matches: MoE-Increase
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.

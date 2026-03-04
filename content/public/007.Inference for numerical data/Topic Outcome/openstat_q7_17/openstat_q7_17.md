@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+      selected_scenario_part1: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part1:
         ans1:
           value: Paired.
@@ -62,25 +62,24 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part3:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+          feedback: Incorrect!
+      selected_scenario_part4: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.
