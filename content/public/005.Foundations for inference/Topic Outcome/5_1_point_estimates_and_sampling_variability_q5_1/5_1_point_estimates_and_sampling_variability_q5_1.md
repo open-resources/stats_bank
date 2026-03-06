@@ -32,10 +32,10 @@ myst:
     params:
       vars:
         title: Identify the parameter, Part I
-        question: In a survey, one hundred college students are asked how many hours
-          per week they spend on the Internet.
-        answer_panel_feedback: 'Mean. Each student reports a numerical value: a number
-          of hours.'
+        question: 'In a survey, one hundred college students are asked: "What percentage
+          of the time you spend on the Internet is part of your course work?"'
+        answer_panel_feedback: Mean. Each student reports a number, which is a percentage,
+          and we can average over these percentages.
       part1:
         ans1:
           value: Mean

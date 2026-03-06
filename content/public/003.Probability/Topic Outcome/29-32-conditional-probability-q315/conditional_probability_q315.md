@@ -83,22 +83,22 @@ myst:
       num3: 0.02
       num4: 0.33
       num5: 0.07
-      num6: 0.06
-      num7: 0.0
+      num6: 0.05
+      num7: 0.01
       num8: 0.13
-      num9: 0.25
+      num9: 0.26
       num10: 0.06
-      num11: 0.02
-      num12: 0.33
-      num13: 0.2
+      num11: 0.03
+      num12: 0.35
+      num13: 0.18
       num14: 0.01
-      num15: 0.0
-      num16: 0.21
-      num17: 0.63
-      num18: 0.33
-      num19: 0.04
+      num15: 0.01
+      num16: 0.2
+      num17: 0.62
+      num18: 0.32
+      num19: 0.07
       num20: 1.0
-      n20: 1264
+      n20: 1234
       part1:
         ans1:
           value: 'Yes'

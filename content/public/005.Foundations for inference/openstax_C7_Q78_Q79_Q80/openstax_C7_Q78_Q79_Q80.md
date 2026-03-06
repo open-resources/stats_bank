@@ -79,7 +79,7 @@ myst:
         ans7:
           value: $X \sim \operatorname{Exp}(11)$
           feedback: Try Again!
-      sample_size: 15
+      sample_size: 19
       confidence_level: 95%
       margin_of_error: 0.75
 ---
