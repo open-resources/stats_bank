@@ -43,7 +43,9 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: The average worker in Germany gets eight weeks of paid vacation.
+      scenario1: A new laundry detergent is tested on consumers. Of interest is the
+        proportion of consumers who prefer the new brand over the leading competitor.
+        A study is done to test this.
       part1:
         ans1:
           value: two means, known variances
@@ -53,17 +55,20 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
-      scenario2: In a random sample of 100 forests in the United States, 56 were coniferous
-        or contained conifers. In a random sample of 80 forests in Mexico, 40 were
-        coniferous or contained conifers. Is the proportion of conifers in the United
-        States statistically more than the proportion of conifers in Mexico?
+        ans6:
+          value: matched or paired samples
+          feedback: Try Again!
+      scenario2: A new windshield treatment claims to repel water more effectively.
+        Ten windshields are tested by simulating rain without the new treatment. The
+        same windshields are then treated, and the experiment is run again. A hypothesis
+        test is conducted.
       part2:
         ans1:
           value: two means, known variances
@@ -76,26 +81,35 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
-      scenario3: Varsity athletes practice five times a week, on average.
+        ans6:
+          value: matched or paired samples
+          feedback: Good Job!
+      scenario3: A sample of 12 in-state graduate school programs at school A has
+        a mean tuition of $64,000 with a standard deviation of $8,000. At school B,
+        a sample of 16 in-state graduate programs has a mean of $80,000 with a standard
+        deviation of $6,000. On average, are the mean tuitions different?
       part3:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
           feedback: Try Again!
         ans5:
           value: single proportion
+          feedback: Try Again!
+        ans6:
+          value: matched or paired samples
           feedback: Try Again!
 ---
 # {{ params.vars.title }}
@@ -112,6 +126,7 @@ For each of the following scenarios, identify which type of hypothesis test woul
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Part 2
 

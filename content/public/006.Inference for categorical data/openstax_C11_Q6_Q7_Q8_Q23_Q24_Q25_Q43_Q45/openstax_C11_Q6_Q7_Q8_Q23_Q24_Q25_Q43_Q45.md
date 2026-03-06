@@ -44,12 +44,11 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: An archeologist is calculating the distribution of the frequency
-        of the number of artifacts they find in a dig site. Based on previous digs,
-        the archeologist creates an expected distribution broken down by grid sections
-        in the dig site. Once the site has been fully excavated, they compare the
-        actual number of artifacts found in each grid section to see if their expectation
-        was accurate.
+      scenario1: An economist is deriving a model to predict outcomes on the stock
+        market. They create a list of expected points on the stock market index for
+        the next two weeks. At the close of each day’s trading, The economist records
+        the actual points on the index. They want to see how well the model matched
+        what actually happened.
       part1:
         ans1:
           value: A chi-squared goodness of fit test
@@ -66,8 +65,8 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario2: A math teacher wants to see if two of their classes have the same
-        distribution of test scores.
+      scenario2: A meteorologist wants to know if East and West Australia have the
+        same distribution of storms.
       part2:
         ans1:
           value: A chi-squared goodness of fit test

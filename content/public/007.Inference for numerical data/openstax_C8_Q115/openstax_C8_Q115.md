@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Amount of soda served in restaurants
-      sample_size: 11
+      sample_size: 15
       serving_size: 15
-      sample_mean: 14.3
-      sample_std: 1.65
+      sample_mean: 13.1
+      sample_std: 1.57
 ---
 # {{ params.vars.title }}
 A quality control specialist for a restaurant chain takes a random sample

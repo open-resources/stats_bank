@@ -81,18 +81,18 @@ myst:
       part5:
         ans1:
           value: 'False'
-          feedback: 'It is simply the negated and reordered values: (0.05, 0.13).'
+          feedback: 'It is simply the negated and reordered values: (0.07, 0.17).'
         ans2:
           value: 'True'
           feedback: Incorrect!
-      lower_bound_percent_abs: 13.0
-      upper_bound_percent_abs: 5.0
-      lower_bound_percent_abs_p2: 5.0
-      upper_bound_percent_abs_p2: 13.0
-      lower_bound: -0.13
-      upper_bound: -0.05
-      male_sample_size: 1576
-      female_sample_size: 3079
+      lower_bound_percent_abs: 17.0
+      upper_bound_percent_abs: 7.0
+      lower_bound_percent_abs_p2: 7.0
+      upper_bound_percent_abs_p2: 17.0
+      lower_bound: -0.17
+      upper_bound: -0.07
+      male_sample_size: 1699
+      female_sample_size: 3517
 ---
 # {{ params.vars.title }}
 A study asked {{ params.male_sample_size }} male and {{ params.female_sample_size }} female undergraduate college students their favorite color. A 95% confidence interval for the difference between the proportions of males and females whose favorite color is black $(p\_{male} - p\_{female})$ was calculated to be ({{ params.lower_bound }}, {{ params.upper_bound }}).

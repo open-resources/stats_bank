@@ -37,11 +37,11 @@ myst:
       vars:
         title: Variance of a mean
       description:
-        text: Suppose we have independent observations $X_1$ and $X_2$ from a distribution
-          with mean $\mu$ and standard deviation $\sigma$.
+        text: Suppose we have $n$ independent observations $X_1$, $X_2$, ..., $X_n$
+          from a distribution with mean $\mu$ and standard deviation $\sigma$.
       part1:
-        question: 'What is the variance of the mean of the two values: $\frac{X_1
-          + X_2}{2}$?'
+        question: 'What is the variance of the mean of these $n$ values: $\frac{X_1
+          + X_2 + \dots + X_n}{n}$?'
 ---
 # {{ params.vars.title }}
 {{ params.description.text }}
