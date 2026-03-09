@@ -1,5 +1,5 @@
 ---
-title: 2 and 4 Year College Enrollments
+title: Sedan Mileage
 topic: Inference for numerical data
 author: Gavin Kendal-Freedman
 source: 10
@@ -46,7 +46,7 @@ part5:
     digits: 4
     weight: 1
     allow-blank: false
-    label: $\text{test statistic}  = $
+    label: $\text{test statistic} = $
 part6:
   type: number-input
   pl-customizations:
@@ -63,20 +63,22 @@ myst:
   substitutions:
     params:
       vars:
-        title: 2 and 4 Year College Enrollments
-      sample_size: 30
-      two_year_mean: 5,535
-      two_year_sd: 5,533
-      four_year_mean: 6,355
-      four_year_sd: 7,388
+        title: Sedan Mileage
+      n1: 31
+      xbar1: 23
+      sx1: 6
+      sigma1: 4
+      n2: 25
+      xbar2: 25
+      sx2: 2
+      sigma2: 4
       part1:
         ans1:
           value: two means, unknown variances
-          feedback: Good job! Even though we know the sample standard deviations,
-            we don't know the population variances or if they are equal
+          feedback: Try again! We are given the population standard deviations
         ans2:
           value: two means, known variances
-          feedback: Try again! We do not know the variances
+          feedback: Good job! We know the population standard deviations
         ans3:
           value: single mean
           feedback: Try again! We have more than one sample present
@@ -110,27 +112,27 @@ myst:
           feedback: Try again!
       part3:
         ans1:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean enrollments
-            of the two-year colleges and the four-year colleges.
+          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
+            per gallon of non-hybrid sedans and hybrid sedans.
           feedback: Good job!
         ans2:
           value: $\bar{X}_1 - \bar{X}_2$ is the difference between the population
-            mean enrollments of the two-year colleges and the four-year colleges.
+            mean miles per gallon of non-hybrid sedans and hybrid sedans.
           feedback: Try again!
         ans3:
           value: $\bar{X}_1 - \bar{X}_2$ is the difference between the variance of
-            enrollments of two-year colleges and the four-year colleges.
+            miles per gallon of non-hybrid sedans and hybrid sedans.
           feedback: Try again!
         ans4:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the standard deviation
-            of enrollments of two-year colleges and the four-year colleges.
-          feedback: Try again!
+          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
+            per gallon of hybrid sedans and non-hybrid sedans.
+          feedback: Try again! This is close, but has a subtle error.
       part4:
         ans1:
-          value: Student's t-distribution
+          value: Normal distribution
           feedback: Good job!
         ans2:
-          value: Normal distribution
+          value: Student's t-distribution
           feedback: Try again!
         ans3:
           value: Chi-square distribution
@@ -138,27 +140,31 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.1
+      alpha: 0.01
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than alpha
+          value: Reject the null hypothesis because the p-value is less than 0.01
           feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than alpha
+            than 0.01
           feedback: Try again!
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than alpha
+          value: Reject the null hypothesis because the p-value is greater than 0.01
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            alpha
+            0.01
           feedback: Try again
 ---
 # {{ params.vars.title }}
-A student at a four-year college claims that mean enrollment at four–year colleges is higher than at two–year colleges in the United States. Two surveys are conducted. Of the {{ params.sample_size }} two–year colleges surveyed, the mean enrollment was {{ params.two_year_mean }} with a standard deviation of {{ params.two_year_sd }}. Of the 35 four-year colleges surveyed, the mean enrollment was {{ params.four_year_mean }} with a standard deviation of {{ params.four_year_sd }}.
+Some manufacturers claim that non-hybrid sedan cars have a lower mean miles-per-gallon (mpg) than hybrid ones. Suppose that consumers test {{ params.n2 }} hybrid sedans and get a mean of {{ params.xbar2 }} mpg with a standard deviation of {{ params.sx1 }} mpg.
+{{ params.n1 }} non-hybrid sedans get a mean of {{ params.xbar1 }} mpg with a standard deviation of {{ params.sx2 }} mpg.
+Suppose that the population standard deviations are known to be {{ params.sigma2 }} and {{ params.sigma1 }}, respectively.
 
-For the following questions, let $\mu_1$ be the mean enrollment at two-year colleges and $\mu_2$ be the mean enrollment at four-year colleges.
+Conduct a hypothesis test to evaluate the manufacturers claim.
+
+For the following questions, let $\mu_1$ be the mean mileage for non-hybrid sedans and $\mu_2$ be the mean mileage for hybrid sedans.
 
 ## Part 1
 
@@ -226,7 +232,7 @@ Please enter a number.
 
 ## Part 7
 
-What would your conclusion be at a $\alpha={{ params.alpha }}$ be?
+What would your conclusion be at a signifiance level of $\alpha={{ params.alpha }}$ be?
 
 ### Answer Section
 

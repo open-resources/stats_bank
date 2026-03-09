@@ -82,19 +82,19 @@ myst:
       vars:
         title: Tranquilizer effect time
       effect_times:
+      - 2.4
       - 2.8
-      - 2.6
-      - 2.8
+      - 2.9
       - 2.5
       - 2.3
-      - 2.3
-      - 2.1
-      - 2.3
-      - 2.2
       - 2.8
-      - 2.5
-      - 2.5
+      - 2.9
       - 2.7
+      - 3.0
+      - 2.9
+      - 2.6
+      - 2.7
+      - 2.6
       - 2.6
       confidence_level: 98
       part4:
