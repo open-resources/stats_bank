@@ -32,7 +32,7 @@ myst:
     params:
       vars:
         title: San Jose Park Use
-        every: 7
+        every: 9
       part1:
         measurement: Occupation
         ans1:

@@ -40,18 +40,18 @@ myst:
         option2:
           value: 2008
         option3:
-          value: 1200
+          value: 1700
         statement1:
           value: Claimed population mean
-          matches: '52'
+          matches: '54'
         statement2:
           value: Sample mean
-          matches: '65'
-      question1: American households spent an average of about $52 in 2007 on Halloween
+          matches: '55'
+      question1: American households spent an average of about $54 in 2007 on Halloween
         merchandise such as costumes, decorations and candy. To see if this number
         had changed, researchers conducted a new survey in 2008 before industry numbers
-        were reported. The survey included 1200 households and found that average
-        Halloween spending was $65 per household.
+        were reported. The survey included 1700 households and found that average
+        Halloween spending was $55 per household.
 ---
 # {{ params.vars.title }}
 Identify which value represents the sample mean and which value represents the claimed population mean.

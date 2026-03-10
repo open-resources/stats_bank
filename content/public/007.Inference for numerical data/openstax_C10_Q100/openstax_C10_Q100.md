@@ -1,5 +1,5 @@
 ---
-title: Sedan Mileage
+title: Physical Science Degrees
 topic: Inference for numerical data
 author: Gavin Kendal-Freedman
 source: 10
@@ -63,108 +63,101 @@ myst:
   substitutions:
     params:
       vars:
-        title: Sedan Mileage
-      n1: 28
-      xbar1: 32
-      sx1: 2
-      sigma1: 3
-      n2: 19
-      xbar2: 23
-      sx2: 10
-      sigma2: 8
+        title: Physical Science Degrees
+      white_degrees: 4785
+      white_physical: 586
+      black_degrees: 377
+      black_physical: 33
       part1:
         ans1:
           value: two means, unknown variances
-          feedback: Try again! We are given the population standard deviations
+          feedback: Try again! This is not a test for means
         ans2:
           value: two means, known variances
-          feedback: Good job! We know the population standard deviations
+          feedback: Try again! This is not a test for means
         ans3:
           value: single mean
           feedback: Try again! We have more than one sample present
         ans4:
           value: two proportions
-          feedback: Try again! There are no proportions in this scenario
+          feedback: Good job! We are testing 2 proportions
         ans5:
           value: single proportion
-          feedback: Try again! There are no proportions in this scenario
+          feedback: Try again! There are more than one proportion being tested
         ans6:
           value: matched or paired samples
           feedback: Try again!
       part2:
         ans1:
-          value: '$H_0: \mu_1 \ge \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
+          value: '$H_0: P_W = P_B$ and $H_A: P_W \ne P_B$'
           feedback: Good job!
         ans2:
-          value: '$H_0: \mu_1 \gt \mu_2$ and $H_A: \mu_1 \le \mu_2$'
+          value: '$H_0: P_W \ne P_B$ and $H_A: P_W = P_B$'
           feedback: Try again!
         ans3:
-          value: '$H_0: \mu_1 \le \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
+          value: '$H_0: P_W \gt P_B$ and $H_A: P_W \le P_B$'
           feedback: Try again!
         ans4:
-          value: '$H_0: \mu_1 \lt \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
+          value: '$H_0: P_W \le P_B$ and $H_A: P_W \gt P_B$'
           feedback: Try again!
         ans5:
-          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ne \mu_2$'
+          value: '$H_0: P_W \lt P_B$ and $H_A: P_W \ge P_B$'
           feedback: Try again!
         ans6:
-          value: '$H_0: \mu_1 \ne \mu_2$ and $H_A: \mu_1 = \mu_2$'
+          value: '$H_0: P_W \ge P_B$ and $H_A: P_W \lt P_B$'
           feedback: Try again!
       part3:
         ans1:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
-            per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the difference in the proportions of White
+            and Black people with conferred degrees in a given year, aged 21 to 24.
           feedback: Good job!
         ans2:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the population
-            mean miles per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the difference in the proportions of White
+            and Black people with conferred degrees in a given year.
           feedback: Try again!
         ans3:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the variance of
-            miles per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the difference in the number of White and
+            Black people with conferred degrees in a given year, aged 21 to 24.
           feedback: Try again!
         ans4:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
-            per gallon of hybrid sedans and non-hybrid sedans.
-          feedback: Try again! This is close, but has a subtle error.
+          value: The random variable is the difference in the number of White and
+            Black people with conferred degrees in a given year.
+          feedback: Try again!
       part4:
         ans1:
-          value: Normal distribution
+          value: Normal for two proportions
           feedback: Good job!
         ans2:
-          value: Student's t-distribution
+          value: Normal for two means
           feedback: Try again!
         ans3:
-          value: Chi-square distribution
+          value: Student's t-distribution
           feedback: Try again!
         ans4:
+          value: Chi-square distribution
+          feedback: Try again!
+        ans5:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.01
+      alpha: 0.05
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.05
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.05
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}
-Some manufacturers claim that non-hybrid sedan cars have a lower mean miles-per-gallon (mpg) than hybrid ones. Suppose that consumers test {{ params.n2 }} hybrid sedans and get a mean of {{ params.xbar2 }} mpg with a standard deviation of {{ params.sx1 }} mpg.
-{{ params.n1 }} non-hybrid sedans get a mean of {{ params.xbar1 }} mpg with a standard deviation of {{ params.sx2 }} mpg.
-Suppose that the population standard deviations are known to be {{ params.sigma2 }} and {{ params.sigma1 }}, respectively.
-
-Conduct a hypothesis test to evaluate the manufacturers claim.
-
-For the following questions, let $\mu_1$ be the mean mileage for non-hybrid sedans and $\mu_2$ be the mean mileage for hybrid sedans.
+We are interested in whether the proportions of conferred physical science degrees for people aged 21 to 24 are the same for White and Black people in the United States. The number of conferred degrees for White people in a given year is {{ params.white_degrees }}. {{ params.white_physical }} were aged 21 to 24. The estimate for Black people is {{ params.black_degrees }}. {{ params.black_physical }} were aged 21 to 24. We will let people with conferred physical science degrees be our population.
 
 ## Part 1
 
@@ -194,7 +187,7 @@ Identify the null and alternative hypotheses.
 
 ## Part 3
 
-What does the random variable $\bar{X}\_1 - \bar{X}\_2$ represent?
+What does the random variable represent?
 
 ### Answer Section
 

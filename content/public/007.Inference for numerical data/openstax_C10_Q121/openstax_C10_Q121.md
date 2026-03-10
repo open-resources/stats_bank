@@ -1,5 +1,5 @@
 ---
-title: Sedan Mileage
+title: Cancer Rates in the South
 topic: Inference for numerical data
 author: Gavin Kendal-Freedman
 source: 10
@@ -9,7 +9,9 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 7.1.1.12
+- 7.1.1.6
+- 7.1.1.7
+- 7.1.1.8
 difficulty:
 - undefined
 randomization:
@@ -63,76 +65,129 @@ myst:
   substitutions:
     params:
       vars:
-        title: Sedan Mileage
-      n1: 28
-      xbar1: 32
-      sx1: 2
-      sigma1: 3
-      n2: 19
-      xbar2: 23
-      sx2: 10
-      sigma2: 8
+        title: Cancer Rates in the South
+      table: |-
+        <table style="width:550px">
+        <tr>
+        <th>Southern States</th>
+        <th>Year 1</th>
+        <th>Year 2</th>
+        </tr><tr>
+        <th>Alabama</th>
+        <td>6190</td>
+        <td>7226</td>
+        </tr><tr>
+        <th>Arkansas</th>
+        <td>6970</td>
+        <td>7248</td>
+        </tr><tr>
+        <th>Florida</th>
+        <td>3320</td>
+        <td>3276</td>
+        </tr><tr>
+        <th>Georgia</th>
+        <td>1990</td>
+        <td>2098</td>
+        </tr><tr>
+        <th>Kentucky</th>
+        <td>4680</td>
+        <td>5428</td>
+        </tr><tr>
+        <th>Louisiana</th>
+        <td>2150</td>
+        <td>2230</td>
+        </tr><tr>
+        <th>Mississippi</th>
+        <td>7090</td>
+        <td>7479</td>
+        </tr><tr>
+        <th>North Carolina</th>
+        <td>3570</td>
+        <td>4245</td>
+        </tr><tr>
+        <th>Oklahoma</th>
+        <td>3450</td>
+        <td>3457</td>
+        </tr><tr>
+        <th>South Carolina</th>
+        <td>3160</td>
+        <td>3208</td>
+        </tr><tr>
+        <th>Tennessee</th>
+        <td>2630</td>
+        <td>2725</td>
+        </tr><tr>
+        <th>Texas</th>
+        <td>15050</td>
+        <td>13612</td>
+        </tr><tr>
+        <th>Virginia</th>
+        <td>15540</td>
+        <td>15192</td>
+        </tr>
+        </table>
+      year1: null
+      year2: null
       part1:
         ans1:
           value: two means, unknown variances
-          feedback: Try again! We are given the population standard deviations
+          feedback: Try again! This is not a test for means
         ans2:
           value: two means, known variances
-          feedback: Good job! We know the population standard deviations
+          feedback: Try again! This is not a test for means
         ans3:
           value: single mean
           feedback: Try again! We have more than one sample present
         ans4:
           value: two proportions
-          feedback: Try again! There are no proportions in this scenario
+          feedback: Try again!
         ans5:
           value: single proportion
           feedback: Try again! There are no proportions in this scenario
         ans6:
           value: matched or paired samples
-          feedback: Try again!
+          feedback: Good job!
       part2:
         ans1:
-          value: '$H_0: \mu_1 \ge \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
+          value: '$H_0:\mu_d = 0$ and $H_A: \mu_d > 0$'
           feedback: Good job!
         ans2:
-          value: '$H_0: \mu_1 \gt \mu_2$ and $H_A: \mu_1 \le \mu_2$'
+          value: '$H_0: \mu_d = 0$ and $H_A: \mu_d < 0$'
           feedback: Try again!
         ans3:
-          value: '$H_0: \mu_1 \le \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
+          value: '$H_0: \mu_d = 0$ and $H_A: \mu_d \ne 0$'
           feedback: Try again!
         ans4:
-          value: '$H_0: \mu_1 \lt \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
-          feedback: Try again!
-        ans5:
           value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ne \mu_2$'
           feedback: Try again!
+        ans5:
+          value: '$H_0: \mu_d > 0$ and $H_A: \mu_d \le 0$'
+          feedback: Try again!
         ans6:
-          value: '$H_0: \mu_1 \ne \mu_2$ and $H_A: \mu_1 = \mu_2$'
+          value: '$H_0: \mu_d \le 0$ and $H_A: \mu_d > 0$'
           feedback: Try again!
       part3:
         ans1:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
-            per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the mean difference in cancer rate across
+            years.
           feedback: Good job!
         ans2:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the population
-            mean miles per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the difference in the cancer rate across years.
           feedback: Try again!
         ans3:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the variance of
-            miles per gallon of non-hybrid sedans and hybrid sedans.
+          value: The random variable is the true difference in cancer rate across
+            years.
           feedback: Try again!
         ans4:
-          value: $\bar{X}_1 - \bar{X}_2$ is the difference between the mean miles
-            per gallon of hybrid sedans and non-hybrid sedans.
-          feedback: Try again! This is close, but has a subtle error.
+          value: The random variable is the difference in variance of cancer rate
+            across years.
+          feedback: Try again!
       part4:
         ans1:
-          value: Normal distribution
+          value: Student's t-distribution
           feedback: Good job!
         ans2:
-          value: Student's t-distribution
+          value: Normal distribution
           feedback: Try again!
         ans3:
           value: Chi-square distribution
@@ -140,31 +195,36 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.01
+      alpha: 0.05
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.05
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.05
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}
-Some manufacturers claim that non-hybrid sedan cars have a lower mean miles-per-gallon (mpg) than hybrid ones. Suppose that consumers test {{ params.n2 }} hybrid sedans and get a mean of {{ params.xbar2 }} mpg with a standard deviation of {{ params.sx1 }} mpg.
-{{ params.n1 }} non-hybrid sedans get a mean of {{ params.xbar1 }} mpg with a standard deviation of {{ params.sx2 }} mpg.
-Suppose that the population standard deviations are known to be {{ params.sigma2 }} and {{ params.sigma1 }}, respectively.
+A local cancer support group believes that the estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1. The group compared the estimates of new female breast cancer cases by southern state in Year 1 and in Year 2. The results are in the table below.
 
-Conduct a hypothesis test to evaluate the manufacturers claim.
+{{{ params.table }}}
 
-For the following questions, let $\mu_1$ be the mean mileage for non-hybrid sedans and $\mu_2$ be the mean mileage for hybrid sedans.
+<pl-hidden-hints>
+<pl-hint hint-name="Table as R code">
+<pl-variable-output digits="3" show-mathematica="false" show-matlab="false" show-python="false" show-sympy="false">
+  <pl-variable params-name="year1">year1</pl-variable>
+  <pl-variable params-name="year2">year2</pl-variable>
+</pl-variable-output>
+</pl-hint>
+</pl-hidden-hints>
 
 ## Part 1
 
@@ -194,7 +254,7 @@ Identify the null and alternative hypotheses.
 
 ## Part 3
 
-What does the random variable $\bar{X}\_1 - \bar{X}\_2$ represent?
+What does the random variable represent?
 
 ### Answer Section
 

@@ -52,18 +52,18 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1143
-        proportion: 70.0
-        margin_of_error: 2.66
-        lower_bound: 67.34
-        upper_bound: 72.66
-        margin_of_error_part4: 1.328
-        selected_option1: If we considered many random samples of 1143 Americans,
+        sample_size: 1972
+        proportion: 46.0
+        margin_of_error: 2.2
+        lower_bound: 43.8
+        upper_bound: 48.2
+        margin_of_error_part4: 1.1
+        selected_option1: If we considered many random samples of 1972 Americans,
           and we calculated 95% confidence intervals for each, 95% of these intervals
           would include the true population proportion of Americans who think it's
           the government's responsibility to promote equality between men and women.
-        selected_option2: In order to decrease the margin of error to 0.02656651719407472%,
-          we would need to quadruple (multiply by 4) the sample size.
+        selected_option2: Doubling the sample size will halve the margin of error,
+          regardless of the initial sample size and confidence level.
       part1:
         ans1:
           value: 'True'

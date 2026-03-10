@@ -53,17 +53,17 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+      selected_scenario_part2: Examine age-related wage disparities by comparing the
+        earnings of younger and older employees in a company.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+          feedback: Correct!
+      selected_scenario_part3: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part3:
         ans1:
           value: Paired.

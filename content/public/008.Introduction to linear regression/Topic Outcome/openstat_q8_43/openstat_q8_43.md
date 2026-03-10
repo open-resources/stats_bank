@@ -40,23 +40,23 @@ myst:
       vars:
         title: Match the correlation, Part III
       correlations:
-      - -0.09
-      - -0.79
       - 0.96
-      - 0.69
+      - 0.59
+      - -0.75
+      - -0.05
       part1:
         statement1:
           value: Plot 1
-          matches: $r=-0.09$
+          matches: $r=0.96$
         statement2:
           value: Plot 2
-          matches: $r=-0.79$
+          matches: $r=0.59$
         statement3:
           value: Plot 3
-          matches: $r=0.96$
+          matches: $r=-0.75$
         statement4:
           value: Plot 4
-          matches: $r=0.69$
+          matches: $r=-0.05$
 ---
 # {{ params.vars.title }}
 Match each correlation to the corresponding scatterplot.
