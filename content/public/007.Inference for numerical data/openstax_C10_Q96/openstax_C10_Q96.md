@@ -64,13 +64,13 @@ myst:
     params:
       vars:
         title: Sedan Mileage
-      n1: 28
-      xbar1: 32
-      sx1: 2
+      n1: 27
+      xbar1: 22
+      sx1: 3
       sigma1: 3
-      n2: 19
-      xbar2: 23
-      sx2: 10
+      n2: 22
+      xbar2: 40
+      sx2: 9
       sigma2: 8
       part1:
         ans1:
@@ -93,16 +93,16 @@ myst:
           feedback: Try again!
       part2:
         ans1:
-          value: '$H_0: \mu_1 \ge \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
           feedback: Good job!
         ans2:
-          value: '$H_0: \mu_1 \gt \mu_2$ and $H_A: \mu_1 \le \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \le \mu_2$'
           feedback: Try again!
         ans3:
-          value: '$H_0: \mu_1 \le \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
           feedback: Try again!
         ans4:
-          value: '$H_0: \mu_1 \lt \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
           feedback: Try again!
         ans5:
           value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ne \mu_2$'
@@ -140,21 +140,21 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.01
+      alpha: 0.05
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
-          feedback: Try again!
+          value: Reject the null hypothesis because the p-value is less than 0.05
+          feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
-          feedback: Good Job
+            than 0.05
+          feedback: Try again!
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}

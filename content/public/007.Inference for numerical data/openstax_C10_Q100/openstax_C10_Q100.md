@@ -64,10 +64,10 @@ myst:
     params:
       vars:
         title: Physical Science Degrees
-      white_degrees: 4785
-      white_physical: 586
-      black_degrees: 377
-      black_physical: 33
+      white_degrees: 4148
+      white_physical: 521
+      black_degrees: 326
+      black_physical: 43
       part1:
         ans1:
           value: two means, unknown variances
@@ -95,16 +95,16 @@ myst:
           value: '$H_0: P_W \ne P_B$ and $H_A: P_W = P_B$'
           feedback: Try again!
         ans3:
-          value: '$H_0: P_W \gt P_B$ and $H_A: P_W \le P_B$'
+          value: '$H_0: P_W = P_B$ and $H_A: P_W \le P_B$'
           feedback: Try again!
         ans4:
-          value: '$H_0: P_W \le P_B$ and $H_A: P_W \gt P_B$'
+          value: '$H_0: P_W = P_B$ and $H_A: P_W \gt P_B$'
           feedback: Try again!
         ans5:
-          value: '$H_0: P_W \lt P_B$ and $H_A: P_W \ge P_B$'
+          value: '$H_0: P_W = P_B$ and $H_A: P_W \ge P_B$'
           feedback: Try again!
         ans6:
-          value: '$H_0: P_W \ge P_B$ and $H_A: P_W \lt P_B$'
+          value: '$H_0: P_W = P_B$ and $H_A: P_W \lt P_B$'
           feedback: Try again!
       part3:
         ans1:
@@ -139,21 +139,21 @@ myst:
         ans5:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.05
+      alpha: 0.1
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.05
+          value: Reject the null hypothesis because the p-value is less than 0.1
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.05
+            than 0.1
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.05
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.05
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}

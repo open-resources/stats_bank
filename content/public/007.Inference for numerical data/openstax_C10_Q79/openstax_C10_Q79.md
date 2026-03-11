@@ -64,11 +64,11 @@ myst:
     params:
       vars:
         title: 2 and 4 Year College Enrollments
-      sample_size: 30
-      two_year_mean: 5,623
-      two_year_sd: 5,487
-      four_year_mean: 6,186
-      four_year_sd: 8,817
+      sample_size: 37
+      two_year_mean: 4,565
+      two_year_sd: 4,564
+      four_year_mean: 5,883
+      four_year_sd: 7,361
       part1:
         ans1:
           value: two means, unknown variances
@@ -91,16 +91,16 @@ myst:
           feedback: Try again!
       part2:
         ans1:
-          value: '$H_0: \mu_1 \ge \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \lt \mu_2$'
           feedback: Good job!
         ans2:
-          value: '$H_0: \mu_1 \gt \mu_2$ and $H_A: \mu_1 \le \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \le \mu_2$'
           feedback: Try again!
         ans3:
-          value: '$H_0: \mu_1 \le \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \gt \mu_2$'
           feedback: Try again!
         ans4:
-          value: '$H_0: \mu_1 \lt \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
+          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ge \mu_2$'
           feedback: Try again!
         ans5:
           value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ne \mu_2$'

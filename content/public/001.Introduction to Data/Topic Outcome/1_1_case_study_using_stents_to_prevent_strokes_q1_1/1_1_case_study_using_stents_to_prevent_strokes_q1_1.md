@@ -63,16 +63,16 @@ myst:
       table0:
         r2:
           c2: 9
-          c3: 40
-          c4: 49
+          c3: 41
+          c4: 50
         r3:
           c2: 4
           c3: 43
           c4: 47
         r4:
           c2: 13
-          c3: 83
-          c4: 96
+          c3: 84
+          c4: 97
       part1:
         num1: 24.0
       part3:
@@ -90,11 +90,11 @@ myst:
       part4:
         num1: 24.0
       description:
-        num1: 96
-        num2: 49
+        num1: 97
+        num2: 50
         num3: 47
         num4: 24.0
-      part1_ans_before_convert: 0.184
+      part1_ans_before_convert: 0.18
       part2_ans_before_convert: 0.085
 ---
 # {{ params.vars.title }}

@@ -48,8 +48,8 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 813
-        num2: 68
+        num1: 797
+        num2: 67
       part1:
         ans1:
           value: Independence
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.0677, 0.0946). We
+          value: The 90% confidence interval is approximately (0.0679, 0.0952). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.77% and 9.46%.
+            who would register under the new design is between 6.79% and 9.52%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.0637, 0.0996). We
+          value: The 90% confidence interval is approximately (0.0639, 0.1002). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.37% and 9.96%.
+            who would register under the new design is between 6.39% and 10.02%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.0637, 0.0946). We
+          value: The 90% confidence interval is approximately (0.0639, 0.0952). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.37% and 9.46%.
+            who would register under the new design is between 6.39% and 9.52%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.0677, 0.0996). We
+          value: The 90% confidence interval is approximately (0.0679, 0.1002). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.77% and 9.96%.
+            who would register under the new design is between 6.79% and 10.02%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

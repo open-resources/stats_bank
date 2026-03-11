@@ -60,20 +60,20 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>11</td>
-        <td>30</td>
+        <td>9</td>
+        <td>27</td>
         </tr><tr>
         <th>Summer</th>
-        <td>5</td>
-        <td>14</td>
+        <td>9</td>
+        <td>27</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>9</td>
-        <td>24</td>
+        <td>10</td>
+        <td>30</td>
         </tr><tr>
         <th>Winter</th>
-        <td>12</td>
-        <td>32</td>
+        <td>5</td>
+        <td>15</td>
         </tr>
         </table>
       graph_instructions:
@@ -82,8 +82,8 @@ myst:
       - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
       - The bars should be colored purple.
-      - The bars should have a orange border.
-      - The bars should have a density of 2.
+      - The bars should have a red border.
+      - The bars should have a density of 3.
       - The plot should be horizontal.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 11
-        - 5
         - 9
-        - 12
+        - 9
+        - 10
+        - 5
         title: Birthdays in Each Season
         xlab: Number of students
         ylab: Season
         color: purple
-        border: orange
-        density: 2
+        border: red
+        density: 3
         horiz: 'True'
-        std_plot: std_81myy3dl_plot.png
-        ref_plot: ref_3rtimt51_plot.png
+        std_plot: std_7dl6ngnn_plot.png
+        ref_plot: ref_6maxz_a6_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_81myy3dl_plot.png
+        filename: std_7dl6ngnn_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_3rtimt51_plot.png
+        filename: ref_6maxz_a6_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

@@ -44,11 +44,28 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: A marathon runner is interested in the relationship between the brand
-        of shoes runners wear and their run times. They take a random sample of 50
-        runners and records their run times as well as the brand of shoes they were
-        wearing.
+      scenario1: A math teacher wants to see if two of their classes have the same
+        distribution of test scores.
       part1:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: This is incorrect. A chi-squared goodness of fit test is used
+            to compare an observed distribution to an expected distribution for a
+            single categorical variable.
+        ans2:
+          value: A chi-squared test of independence
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
+        ans3:
+          value: A chi-squared test of homogeneity
+          feedback: Good Job!
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+      scenario2: A pharmaceutical company is interested in the relationship between
+        age and presentation of symptoms for a common viral infection. A random sample
+        is taken of 500 people with the infection across different age groups.
+      part2:
         ans1:
           value: A chi-squared goodness of fit test
           feedback: This is incorrect. A chi-squared goodness of fit test is used
@@ -65,26 +82,10 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario2: A meteorologist wants to know if East and West Australia have the
-        same distribution of storms.
-      part2:
-        ans1:
-          value: A chi-squared goodness of fit test
-          feedback: This is incorrect. A chi-squared goodness of fit test is used
-            to compare an observed distribution to an expected distribution for a
-            single categorical variable.
-        ans2:
-          value: A chi-squared test of independence
-          feedback: This is incorrect. A chi-squared test of independence is used
-            to determine if there is an association between two categorical variables.
-        ans3:
-          value: A chi-squared test of homogeneity
-          feedback: Good Job!
-        ans4:
-          value: None of the above
-          feedback: This is incorrect.
-      scenario3: A math teacher wants to see if two of their classes have the same
-        distribution of test scores.
+      scenario3: A marathon runner is interested in the relationship between the brand
+        of shoes runners wear and their run times. They take a random sample of 50
+        runners and records their run times as well as the brand of shoes they were
+        wearing.
       part3:
         ans1:
           value: A chi-squared goodness of fit test
@@ -93,11 +94,12 @@ myst:
             single categorical variable.
         ans2:
           value: A chi-squared test of independence
-          feedback: This is incorrect. A chi-squared test of independence is used
-            to determine if there is an association between two categorical variables.
+          feedback: Good Job!
         ans3:
           value: A chi-squared test of homogeneity
-          feedback: Good Job!
+          feedback: This is incorrect. A chi-squared test of homogeneity is used to
+            determine if different populations have the same distribution of a categorical
+            variable.
         ans4:
           value: None of the above
           feedback: This is incorrect.
