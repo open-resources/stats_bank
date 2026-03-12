@@ -52,8 +52,8 @@ myst:
             time points, and the air quality in a city at one point is not independent
             of the air quality in the same city at another time point.
           feedback: Incorrect!
-      country_capitals: 26
-      year_1: 2013
+      country_capitals: 25
+      year_1: 2012
       year_2: 2016
       selected_scenario: in the same cities
 ---

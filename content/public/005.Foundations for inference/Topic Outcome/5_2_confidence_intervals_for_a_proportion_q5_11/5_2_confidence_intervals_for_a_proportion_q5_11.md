@@ -55,11 +55,11 @@ myst:
     params:
       vars:
         title: Waiting at an ER, Part I
-      ci_lower: 140
+      ci_lower: 135
       ci_higher: 157
       part1:
         num1: 95
-        num2: 59
+        num2: 61
         ans1:
           value: 'True'
           feedback: Try again please!
@@ -83,7 +83,7 @@ myst:
           value: 'False'
           feedback: Correct!
       part4:
-        num1: 103
+        num1: 101
         num2: 95
         ans1:
           value: 'True'
@@ -92,14 +92,14 @@ myst:
           value: 'False'
           feedback: Correct!
       part5:
-        num1: 8.5
-        num2: 148.5
+        num1: 10.0
+        num2: 146.0
         ans1:
           value: 'True'
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: 'False'
-          feedback: Try again please!
+          feedback: Correct!
       part6:
         num1: 95
         ans1:
@@ -109,9 +109,9 @@ myst:
           value: 'False'
           feedback: Correct!
       description:
-        num1: 59
+        num1: 61
         num2: 95
-        num3: 140
+        num3: 135
         num4: 157
 ---
 # {{ params.vars.title }}

@@ -48,7 +48,7 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 691
+        num1: 682
         num2: 62
       part1:
         ans1:
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.0718, 0.1026). We
+          value: The 90% confidence interval is approximately (0.0728, 0.104). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.18% and 10.26%.
+            who would register under the new design is between 7.28% and 10.4%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.0678, 0.1076). We
+          value: The 90% confidence interval is approximately (0.0688, 0.109). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.78% and 10.76%.
+            who would register under the new design is between 6.88% and 10.9%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.0678, 0.1026). We
+          value: The 90% confidence interval is approximately (0.0688, 0.104). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.78% and 10.26%.
+            who would register under the new design is between 6.88% and 10.4%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.0718, 0.1076). We
+          value: The 90% confidence interval is approximately (0.0728, 0.109). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.18% and 10.76%.
+            who would register under the new design is between 7.28% and 10.9%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

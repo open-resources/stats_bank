@@ -76,39 +76,44 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>40.2</th>
-        <td>40.1</td>
-        <td>44.0</td>
-        </tr><tr>
-        <th>41.9</th>
-        <td>50.5</td>
-        <td>45.3</td>
-        </tr><tr>
-        <th>41.8</th>
-        <td>47.5</td>
-        <td>44.9</td>
-        </tr><tr>
-        <th>39.8</th>
-        <td>40.8</td>
-        <td>42.2</td>
-        </tr><tr>
-        <th>42.5</th>
-        <td>44.9</td>
+        <th>43.0</th>
+        <td>39.5</td>
         <td>46.5</td>
         </tr><tr>
-        <th>43.2</th>
-        <td>46.1</td>
-        <td>49.1</td>
+        <th>43.5</th>
+        <td>45.7</td>
+        <td>39.1</td>
         </tr><tr>
-        <th>35.2</th>
-        <td>42.4</td>
-        <td>39.5</td>
+        <th>40.2</th>
+        <td>38.5</td>
+        <td>37.9</td>
+        </tr><tr>
+        <th>42.6</th>
+        <td>45.8</td>
+        <td>41.9</td>
+        </tr><tr>
+        <th>38.8</th>
+        <td>42.9</td>
+        <td>45.9</td>
+        </tr><tr>
+        <th>43.3</th>
+        <td>45.1</td>
+        <td>42.0</td>
+        </tr><tr>
+        <th>41.1</th>
+        <td>45.4</td>
+        <td>40.2</td>
+        </tr><tr>
+        <th>39.4</th>
+        <td>40.2</td>
+        <td>35.8</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 10
+      significance_level: 5
+      sample_size: 8
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -163,22 +168,40 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.1
-          feedback: Good Job
+          value: Reject the null hypothesis because the p-value is less than 0.05
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.1
-          feedback: Try again!
+            than 0.05
+          feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.1
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.1
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}
-Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat's weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of {{ params.significance_level }}%, test the hypothesis that the three formulas produce the same mean weight gain.
+Three students, Linda, Tuan, and Javier, are given {{ params.sample_size }} laboratory rats each for a nutritional experiment. Each rat's weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of {{ params.significance_level }}%, test the hypothesis that the three formulas produce the same mean weight gain.
+
+<style>
+table:not([class]) {
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: #D6EEEE;}
+  th, td {
+      padding: 10px;
+      border-right: 2px solid #333; /* Vertical divider */
+  }
+
+  /* Remove the last column's right border */
+  th:last-child, td:last-child {
+      border-right: none;
+  }
+}
+</style>
 
 {{{ params.table }}}
 
