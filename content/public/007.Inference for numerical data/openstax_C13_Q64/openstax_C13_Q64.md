@@ -1,17 +1,16 @@
 ---
-title: Cancer Rates in the South
+title: Lab Rat Weight
 topic: Inference for numerical data
 author: Gavin Kendal-Freedman
-source: 10
+source: 13.2
 template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 7.1.1.6
-- 7.1.1.7
-- 7.1.1.8
+- 7.1.1.17
+- 7.1.1.19
 difficulty:
 - undefined
 randomization:
@@ -30,13 +29,17 @@ part1:
   pl-customizations:
     weight: 1
 part2:
-  type: multiple-choice
+  type: integer-input
   pl-customizations:
     weight: 1
+    allow-blank: false
+    label: $df_{num} = $
 part3:
-  type: multiple-choice
+  type: integer-input
   pl-customizations:
     weight: 1
+    allow-blank: false
+    label: $df_{den} = $
 part4:
   type: multiple-choice
   pl-customizations:
@@ -65,106 +68,69 @@ myst:
   substitutions:
     params:
       vars:
-        title: Cancer Rates in the South
+        title: Lab Rat Weight
       table: |-
         <table style="width:550px">
         <tr>
-        <th>Southern States</th>
-        <th>Year 1</th>
-        <th>Year 2</th>
+        <th>Linda's Rats</th>
+        <th>Tuan's Rats</th>
+        <th>Javier's Rats</th>
         </tr><tr>
-        <th>Alabama</th>
-        <td>6190</td>
-        <td>6011</td>
+        <th>40.2</th>
+        <td>40.1</td>
+        <td>44.0</td>
         </tr><tr>
-        <th>Arkansas</th>
-        <td>1990</td>
-        <td>2137</td>
+        <th>41.9</th>
+        <td>50.5</td>
+        <td>45.3</td>
         </tr><tr>
-        <th>Florida</th>
-        <td>7090</td>
-        <td>6449</td>
+        <th>41.8</th>
+        <td>47.5</td>
+        <td>44.9</td>
         </tr><tr>
-        <th>Georgia</th>
-        <td>3450</td>
-        <td>3447</td>
+        <th>39.8</th>
+        <td>40.8</td>
+        <td>42.2</td>
         </tr><tr>
-        <th>Kentucky</th>
-        <td>15050</td>
-        <td>16915</td>
+        <th>42.5</th>
+        <td>44.9</td>
+        <td>46.5</td>
         </tr><tr>
-        <th>Louisiana</th>
-        <td>15540</td>
-        <td>16660</td>
+        <th>43.2</th>
+        <td>46.1</td>
+        <td>49.1</td>
         </tr><tr>
-        <th>Mississippi</th>
-        <td>4680</td>
-        <td>4458</td>
-        </tr><tr>
-        <th>North Carolina</th>
-        <td>3160</td>
-        <td>3658</td>
-        </tr><tr>
-        <th>Oklahoma</th>
-        <td>6970</td>
-        <td>7782</td>
-        </tr><tr>
-        <th>South Carolina</th>
-        <td>3570</td>
-        <td>4020</td>
-        </tr><tr>
-        <th>Tennessee</th>
-        <td>3320</td>
-        <td>3112</td>
-        </tr><tr>
-        <th>Texas</th>
-        <td>2630</td>
-        <td>2367</td>
-        </tr><tr>
-        <th>Virginia</th>
-        <td>2150</td>
-        <td>2021</td>
+        <th>35.2</th>
+        <td>42.4</td>
+        <td>39.5</td>
         </tr>
         </table>
-      year1: null
-      year2: null
+      linda_sample: null
+      tuan_sample: null
+      javier_sample: null
+      significance_level: 10
       part1:
         ans1:
-          value: two means, unknown variances
-          feedback: Try again! This is not a test for means
-        ans2:
-          value: two means, known variances
-          feedback: Try again! This is not a test for means
-        ans3:
-          value: single mean
-          feedback: Try again! We have more than one sample present
-        ans4:
-          value: two proportions
-          feedback: Try again!
-        ans5:
-          value: single proportion
-          feedback: Try again! There are no proportions in this scenario
-        ans6:
-          value: matched or paired samples
-          feedback: Good job!
-      part2:
-        ans1:
-          value: '$H_0:\mu_d = 0$ and $H_A: \mu_d > 0$'
+          value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
+            \mu_j$'
           feedback: Good job!
         ans2:
-          value: '$H_0: \mu_d = 0$ and $H_A: \mu_d < 0$'
+          value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \forall i\ne j: \mu_i \ne
+            \mu_j$'
           feedback: Try again!
         ans3:
-          value: '$H_0: \mu_d = 0$ and $H_A: \mu_d \ne 0$'
+          value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \mu_L \ne \mu_J$'
           feedback: Try again!
         ans4:
-          value: '$H_0: \mu_1 = \mu_2$ and $H_A: \mu_1 \ne \mu_2$'
+          value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \mu_L \ne \mu_T$'
           feedback: Try again!
         ans5:
-          value: '$H_0: \mu_d > 0$ and $H_A: \mu_d \le 0$'
+          value: '$H_0: \exists i\ne j: \mu_i \ne \mu_j$ and $H_A: \mu_L = \mu_T =
+            \mu_J$'
           feedback: Try again!
         ans6:
-          value: '$H_0: \mu_d \le 0$ and $H_A: \mu_d > 0$'
+          value: '$H_0: \forall i\ne j: \mu_i \ne \mu_j$ and $H_A: \mu_L = \mu_T =
+            \mu_J$'
           feedback: Try again!
       part3:
         ans1:
@@ -184,51 +150,51 @@ myst:
           feedback: Try again!
       part4:
         ans1:
-          value: Student's t-distribution
+          value: F-distribution
           feedback: Good job!
         ans2:
+          value: Student's t-distribution
+          feedback: Try again!
+        ans3:
           value: Normal distribution
           feedback: Try again!
-        ans3:
+        ans4:
           value: Chi-square distribution
           feedback: Try again!
-        ans4:
-          value: F-distribution
-          feedback: Try again!
-      alpha: 0.05
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.05
-          feedback: Try again!
+          value: Reject the null hypothesis because the p-value is less than 0.1
+          feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.05
-          feedback: Good Job
+            than 0.1
+          feedback: Try again!
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.05
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.05
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}
-A local cancer support group believes that the estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1. The group compared the estimates of new female breast cancer cases by southern state in Year 1 and in Year 2. The results are in the table below.
+Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat's weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of {{ params.significance_level }}%, test the hypothesis that the three formulas produce the same mean weight gain.
 
 {{{ params.table }}}
 
 <pl-hidden-hints>
 <pl-hint hint-name="Table as R code">
 <pl-variable-output digits="3" show-mathematica="false" show-matlab="false" show-python="false" show-sympy="false">
-  <pl-variable params-name="year1">year1</pl-variable>
-  <pl-variable params-name="year2">year2</pl-variable>
+  <pl-variable params-name="linda_sample">linda_rats</pl-variable>
+  <pl-variable params-name="tuan_sample">tuan_rats</pl-variable>
+  <pl-variable params-name="javier_sample">javier_rats</pl-variable>
 </pl-variable-output>
 </pl-hint>
 </pl-hidden-hints>
 
 ## Part 1
 
-Identify the correct hypothesis test to perform.
+Identify the null and alternative hypotheses.
 
 ### Answer Section
 
@@ -241,27 +207,19 @@ Identify the correct hypothesis test to perform.
 
 ## Part 2
 
-Identify the null and alternative hypotheses.
+Identify the degrees of freedom for the numerator of the test statistic.
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
-- {{ params.part2.ans4.value }}
-- {{ params.part2.ans5.value }}
-- {{ params.part2.ans6.value }}
+Please enter an integer.
 
 ## Part 3
 
-What does the random variable represent?
+Identify the degrees of freedom for the denominator of the test statistic.
 
 ### Answer Section
 
-- {{ params.part3.ans1.value }}
-- {{ params.part3.ans2.value }}
-- {{ params.part3.ans3.value }}
-- {{ params.part3.ans4.value }}
+Please enter an integer.
 
 ## Part 4
 
@@ -292,7 +250,7 @@ Please enter a number.
 
 ## Part 7
 
-What would your conclusion be at a signifiance level of $\alpha={{ params.alpha }}$ be?
+What would your conclusion be?
 
 ### Answer Section
 

@@ -32,16 +32,17 @@ myst:
     params:
       vars:
         title: True or false
-        question1: Drawing a face card and drawing an ace from a full deck of playing
-          cards are mutually exclusive events.
-        question1_ans: True. A card cannot be both a face card and an ace.
+        question1: If a fair coin is tossed many times and the last eight tosses are
+          all heads, then the chance that the next toss will be heads is somewhat
+          less than 50%.
+        question1_ans: False. These are independent trials.
       part1:
         ans1:
           value: 'True'
-          feedback: Correct!
+          feedback: False. These are independent trials.
         ans2:
           value: 'False'
-          feedback: True. A card cannot be both a face card and an ace.
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 

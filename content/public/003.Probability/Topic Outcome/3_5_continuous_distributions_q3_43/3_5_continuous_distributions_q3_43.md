@@ -57,9 +57,9 @@ myst:
       vars:
         title: Cost of breakfast
       description:
-        num1: '1.44'
-        std: '0.33'
-        num2: '2.73'
+        num1: '1.41'
+        std: '0.40'
+        num2: '2.62'
         num3: '0.19'
 ---
 # {{ params.vars.title }}

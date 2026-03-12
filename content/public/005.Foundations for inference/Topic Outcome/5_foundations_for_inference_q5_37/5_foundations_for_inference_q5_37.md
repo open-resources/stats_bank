@@ -53,9 +53,9 @@ myst:
       vars:
         title: Gender pay gap in medicine
       part2:
-        num1: 20
-        num2: 23
-        num3: 23
+        num1: 19
+        num2: 21
+        num3: 21
         ans1:
           value: Independence
           feedback: Correct!
@@ -63,7 +63,7 @@ myst:
           value: Success-failure condition
           feedback: Correct!
       description:
-        num1: 23
+        num1: 21
       part1:
         ans1:
           value: 'Null hypothesis: $p > 0.5$. Alternative hypothesis: $p < 0.5$.'
@@ -88,20 +88,20 @@ myst:
           value: '0'
           feedback: Try again please!
         ans4:
-          value: '0.87'
+          value: '0.905'
           feedback: Correct!
       part4:
         ans1:
-          value: '0.87'
+          value: '0.905'
           feedback: Try again please!
         ans2:
-          value: '0.104'
+          value: '0.109'
           feedback: Try again please!
         ans3:
           value: '0.0001'
           feedback: Try again please!
         ans4:
-          value: '3.56'
+          value: '3.72'
           feedback: Correct!
       part5:
         ans1:

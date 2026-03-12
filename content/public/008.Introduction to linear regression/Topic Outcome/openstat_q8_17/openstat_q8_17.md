@@ -35,24 +35,24 @@ myst:
     params:
       vars:
         title: Units of regression
-        unit1: oz
-        unit2: in
-        problem_statement: weight (oz) from height (in)
+        unit1: g
+        unit2: m
+        problem_statement: weight (g) from height (m)
       part1:
         option1:
           value: No units
           name: Correlation
         option2:
-          value: $oz$
+          value: $g$
           name: Intercept
         option3:
-          value: $\frac{oz}{in}$
+          value: $\frac{g}{m}$
           name: Slope
         option4:
-          value: $in$
+          value: $m$
           name: Distractor 1
         option5:
-          value: $\frac{in}{oz}$
+          value: $\frac{m}{g}$
           name: Distractor 2
         statement1:
           value: Correlation

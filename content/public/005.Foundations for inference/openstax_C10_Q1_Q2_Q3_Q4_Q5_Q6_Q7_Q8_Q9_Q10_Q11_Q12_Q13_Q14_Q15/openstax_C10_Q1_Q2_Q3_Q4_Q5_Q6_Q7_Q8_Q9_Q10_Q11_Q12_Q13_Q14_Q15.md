@@ -68,35 +68,31 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: A high school principal claims that 30% of student athletes drive
-        themselves to school, while 4% of non-athletes drive themselves to school.
-        In a sample of 20 student athletes, 45% drive themselves to school. In a sample
-        of 35 non-athlete students, 6% drive themselves to school. Is the percent
-        of student athletes who drive themselves to school more than the percent of
-        nonathletes?
+      scenario2: It is believed that the average grade on an English essay in a particular
+        school system for women is higher than for men. A random sample of 31 women
+        had a mean score of 82 with a standard deviation of three, and a random sample
+        of 25 men had a mean score of 76 with a standard deviation of four.
       part2:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A new windshield treatment claims to repel water more effectively.
-        Ten windshields are tested by simulating rain without the new treatment. The
-        same windshields are then treated, and the experiment is run again. A hypothesis
-        test is conducted.
+      scenario3: According to a television commercial, 80% of dentists agree that
+        Ultrafresh toothpaste is the best on the market.
       part3:
         ans1:
           value: two means, known variances
@@ -106,7 +102,7 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Try Again!
+          feedback: Good Job!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -115,7 +111,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
+          feedback: Try Again!
 ---
 # {{ params.vars.title }}
 For each of the following scenarios, identify which type of hypothesis test would be most appropriate to use.
