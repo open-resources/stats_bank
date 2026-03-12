@@ -96,12 +96,12 @@ myst:
           value: The data suggest that there is no significant difference in the average
             number of traffic accident-related emergency room admissions between Friday
             the $6^{th}$ and Friday the $13^{th}$.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: The data provide strong evidence that the average number of traffic
             accident related emergency room admissions are different between Friday
             the $6^{th}$ and Friday the $13^{th}$.
-          feedback: Incorrect!
+          feedback: Correct!
         ans3:
           value: The results confirm with $100$% certainty that there are more accidents
             on Friday the $6^{th}$ compared to Friday the $13^{th}$.
@@ -132,13 +132,13 @@ myst:
             any reliable information about risks, so the study's conclusion is not
             true.
           feedback: Incorrect!
-      x_bar_6th: 12.5
-      x_bar_13th: 13.01
-      x_bar_D: -0.51
-      s_6th: 1.51
-      s_13th: 2.07
-      s_D: 3.5
-      n: 6
+      x_bar_6th: 7.44
+      x_bar_13th: 10.32
+      x_bar_D: -2.88
+      s_6th: 3.86
+      s_13th: 3.1
+      s_D: 3.32
+      n: 9
       table: |-
         <table style="width:550px">
         <tr>
@@ -148,19 +148,19 @@ myst:
         <th>diff</th>
         </tr><tr>
         <th>Mean</th>
-        <td>$12.5$</td>
-        <td>$13.01$</td>
-        <td>$-0.51$</td>
+        <td>$7.44$</td>
+        <td>$10.32$</td>
+        <td>$-2.88$</td>
         </tr><tr>
         <th>SD</th>
-        <td>$1.51$</td>
-        <td>$2.07$</td>
-        <td>$3.5$</td>
+        <td>$3.86$</td>
+        <td>$3.1$</td>
+        <td>$3.32$</td>
         </tr><tr>
         <th>n</th>
-        <td>$6$</td>
-        <td>$6$</td>
-        <td>$6$</td>
+        <td>$9$</td>
+        <td>$9$</td>
+        <td>$9$</td>
         </tr>
         </table>
 ---

@@ -1,5 +1,5 @@
 ---
-title: Final Grade Distribution
+title: Babies on Airplanes
 topic: Inference for categorical data
 author: Gavin Kendal-Freedman
 source: 11
@@ -9,8 +9,7 @@ partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 6.1.1.9
-- 6.1.1.15
+- 6.1.1.11
 difficulty:
 - undefined
 randomization:
@@ -59,68 +58,54 @@ myst:
   substitutions:
     params:
       vars:
-        title: Chi Squared Choices
-      class_size: 18
-      table: |-
-        <table style="width:550px">
-        <tr>
-        <th>Grade</th>
-        <th>Expected Count</th>
-        <th>Observed Count</th>
-        </tr><tr>
-        <th>A</th>
-        <td>2</td>
-        <td>2</td>
-        </tr><tr>
-        <th>B</th>
-        <td>5</td>
-        <td>9</td>
-        </tr><tr>
-        <th>C</th>
-        <td>9</td>
-        <td>4</td>
-        </tr><tr>
-        <th>D</th>
-        <td>2</td>
-        <td>3</td>
-        </tr>
-        </table>
-      var_array: null
+        title: Babies on Airplanes
+      expected_mean: 7
+      sample_mean: 8.8
+      sample_size: 18
+      expected_variance: 7
+      sample_std_dev: 2.2
       part1:
         ans1:
-          value: A chi-squared goodness of fit test
+          value: A chi-squared test of a single variance
           feedback: Good Job!
         ans2:
-          value: A chi-squared test of independence
-          feedback: This is incorrect. A chi-squared test of independence is used
-            to determine if there is an association between two categorical variables.
+          value: A chi-squared goodness of fit test
+          feedback: Try again!
         ans3:
-          value: A chi-squared test of homogeneity
-          feedback: This is incorrect. A chi-squared test of homogeneity is used to
-            determine if different populations have the same distribution of a categorical
-            variable.
+          value: A chi-squared test of independence
+          feedback: Try again!
         ans4:
-          value: None of the above
-          feedback: This is incorrect.
+          value: A chi-squared test of homogeneity
+          feedback: Try again!
       part3:
         ans1:
-          value: '$H_0$: The distribution of grades follows the predicted distribution.
-            $H_A$: The distribution of grades does not follow the predicted distribution.'
+          value: '$H_0: \sigma = 2.6$, $H_A: \sigma > 2.6$'
           feedback: Good Job!
         ans2:
-          value: '$H_0$: The distribution of grades does not follow the predicted
-            distribution. $H_A$: The distribution of grades follows the predicted
-            distribution.'
+          value: '$H_0: \sigma = 2.6$, $H_A: \sigma < 2.6$'
           feedback: Try again.
         ans3:
-          value: '$H_0$: The distribution of the grades follows a normal distribution.
-            $H_A$: The distribution of the grades does not follow a normal distribution.'
+          value: '$H_0: \sigma = 2.6$, $H_A: \sigma \neq 2.6$'
           feedback: Try again.
         ans4:
-          value: '$H_0$: The distribution of the grades follows a uniform distribution.
-            $H_A$: The distribution of the grades does not follow a uniform distribution.'
+          value: '$H_0: \sigma^2 = 2.6$, $H_A: \sigma^2 > 2.6$'
           feedback: Try again.
-      significance_level: 1%
+        ans5:
+          value: '$H_0: \sigma^2 = 2.6$, $H_A: \sigma^2 < 2.6$'
+          feedback: Try again.
+        ans6:
+          value: '$H_0: \sigma^2 = 2.6$, $H_A: \sigma^2 \neq 2.6$'
+          feedback: Try again.
+        ans7:
+          value: '$H_0: \sigma = 7$, $H_A: \sigma > 7$'
+          feedback: Try again.
+        ans8:
+          value: '$H_0: \sigma = 7$, $H_A: \sigma < 7$'
+          feedback: Try again.
+        ans9:
+          value: '$H_0: \sigma = 7$, $H_A: \sigma \neq 7$'
+          feedback: Try again.
+      significance_level: 10%
       part6:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance
@@ -140,17 +125,7 @@ myst:
           feedback: Try again.
 ---
 # {{ params.vars.title }}
-A teacher predicts what the distribution of grades on the final exam will be and what they were in for a course of size {{ params.class_size }} in a table:
-
-{{{ params.table }}}
-
-<pl-hidden-hints>
-<pl-hint hint-name="Table as R code">
-<pl-variable-output digits="3" show-mathematica="false" show-matlab="false" show-python="false" show-sympy="false">
-  <pl-variable params-name="var_array">mat</pl-variable>
-</pl-variable-output>
-</pl-hint>
-</pl-hidden-hints>
+Airline companies are interested in the consistency of the number of babies on each flight, so that they have adequate safety equipment. They are also interested in the variation of the number of babies. Suppose that an airline executive believes the average number of babies on flights is {{ params.expected_mean }} with a variance of {{ params.expected_variance }} at most. The airline conducts a survey. The results of the {{ params.sample_size }} flights surveyed give a sample average of {{ params.sample_mean }} with a sample standard deviation of {{ params.sample_std_dev }}. Conduct a hypothesis test of the airline executive’s belief.
 
 ## Part 1
 
@@ -184,6 +159,11 @@ State the null and alternative hypotheses for this test.
 - {{ params.part3.ans2.value }}
 - {{ params.part3.ans3.value }}
 - {{ params.part3.ans4.value }}
+- {{ params.part3.ans5.value }}
+- {{ params.part3.ans6.value }}
+- {{ params.part3.ans7.value }}
+- {{ params.part3.ans8.value }}
+- {{ params.part3.ans9.value }}
 
 ## Part 4
 

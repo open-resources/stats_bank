@@ -83,15 +83,15 @@ myst:
     params:
       vars:
         title: Monthly Television Usage
-      sample_size: 98
-      mean: 141
-      stdev: 35
-      df: 97
-      lower_bound: 133.63995808126666
-      upper_bound: 148.36004191873334
-      confidence_level: 96
-      error_bound: 7.360041918733341
-      other_confidence: 90
+      sample_size: 114
+      mean: 152
+      stdev: 32
+      df: 113
+      lower_bound: 145.41291156411543
+      upper_bound: 158.58708843588457
+      confidence_level: 97
+      error_bound: 6.5870884358845645
+      other_confidence: 93
       part4:
         option0:
           value: The mean number of hours Americans spend watching television per
@@ -102,19 +102,19 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean number of hours spent watching television per month from
-            a sample of 98 Americans.
+            a sample of 114 Americans.
       part5:
         ans1:
-          value: $t_{ 97 }$
+          value: $t_{ 113 }$
           feedback: Correct!
         ans2:
-          value: $t_{ 98 }$
+          value: $t_{ 114 }$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}(0,1)$ (Standard Normal)
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(141, 35)$
+          value: $\operatorname{N}(152, 32)$
           feedback: Try again please!
       part8:
         ans1:
