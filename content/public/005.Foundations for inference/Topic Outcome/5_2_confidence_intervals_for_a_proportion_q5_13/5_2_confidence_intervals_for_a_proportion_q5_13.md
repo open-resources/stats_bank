@@ -48,7 +48,7 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 816
+        num1: 732
         num2: 64
       part1:
         ans1:
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.063, 0.0889). We
+          value: The 90% confidence interval is approximately (0.0703, 0.0996). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.3% and 8.89%.
+            who would register under the new design is between 7.03% and 9.96%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.059, 0.0939). We
+          value: The 90% confidence interval is approximately (0.0663, 0.1046). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 5.9% and 9.39%.
+            who would register under the new design is between 6.63% and 10.46%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.059, 0.0889). We
+          value: The 90% confidence interval is approximately (0.0663, 0.0996). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 5.9% and 8.89%.
+            who would register under the new design is between 6.63% and 9.96%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.063, 0.0939). We
+          value: The 90% confidence interval is approximately (0.0703, 0.1046). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.3% and 9.39%.
+            who would register under the new design is between 7.03% and 10.46%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

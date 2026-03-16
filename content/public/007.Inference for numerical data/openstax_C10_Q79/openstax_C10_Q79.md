@@ -64,11 +64,11 @@ myst:
     params:
       vars:
         title: 2 and 4 Year College Enrollments
-      sample_size: 33
-      two_year_mean: 5,011
-      two_year_sd: 4,714
-      four_year_mean: 5,391
-      four_year_sd: 7,633
+      sample_size: 39
+      two_year_mean: 4,251
+      two_year_sd: 6,158
+      four_year_mean: 6,499
+      four_year_sd: 8,350
       part1:
         ans1:
           value: two means, unknown variances
@@ -138,7 +138,7 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.1
+      alpha: 0.01
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than alpha

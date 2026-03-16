@@ -41,8 +41,8 @@ myst:
     params:
       vars:
         title: Find the p-value, Part I
-      n: 14
-      T: 1.98
+      n: 10
+      T: 2.1
       alpha: 0.05
       part2:
         ans1:

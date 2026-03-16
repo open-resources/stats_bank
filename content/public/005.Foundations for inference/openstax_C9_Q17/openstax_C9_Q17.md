@@ -36,7 +36,7 @@ myst:
     params:
       vars:
         title: Probability of a Type II Error
-      power: 0.807
+      power: 0.975
 ---
 # {{ params.vars.title }}
 
