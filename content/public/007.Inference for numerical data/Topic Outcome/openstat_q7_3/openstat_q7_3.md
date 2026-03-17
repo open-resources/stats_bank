@@ -42,8 +42,8 @@ myst:
       vars:
         title: Find the p-value, Part I
       n: 12
-      T: 1.7
-      alpha: 0.05
+      T: 2.01
+      alpha: 0.01
       part2:
         ans1:
           value: do not reject $H_0$

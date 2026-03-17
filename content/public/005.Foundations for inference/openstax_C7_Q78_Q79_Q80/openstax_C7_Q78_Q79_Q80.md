@@ -79,9 +79,9 @@ myst:
         ans7:
           value: $X \sim \operatorname{Exp}(9)$
           feedback: Try Again!
-      sample_size: 10
+      sample_size: 19
       confidence_level: 98%
-      margin_of_error: 0.25
+      margin_of_error: 1
 ---
 # {{ params.vars.title }}
 Richard’s Furniture Company delivers furniture from {{ params.start_time }} A.M. to {{ params.end_time }} P.M. continuously and uniformly. We are interested in how long (in hours) past the {{ params.start_time }} A.M. start time that individuals wait for their delivery.

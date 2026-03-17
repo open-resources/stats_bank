@@ -51,10 +51,10 @@ myst:
     params:
       vars:
         title: Tax Returns
-      mean: 11.16
-      stdev: 2.75
-      sample_size: 44
-      confidence_level: 98
+      mean: 12.75
+      stdev: 1.96
+      sample_size: 29
+      confidence_level: 90
       part1:
         statement1:
           value: $X$
@@ -62,28 +62,28 @@ myst:
             in hours.
         statement2:
           value: $\bar{X}$
-          matches: The mean length of time for a sample of 44 taxpayers to complete
+          matches: The mean length of time for a sample of 29 taxpayers to complete
             IRS form 1040, in hours.
         option1:
-          value: The mean length of time for a sample of 43 taxpayers to complete
+          value: The mean length of time for a sample of 28 taxpayers to complete
             IRS form 1040, in hours.
         option2:
           value: The mean length of time for all taxpayers to complete IRS form 1040,
             in hours.
         option3:
-          value: The length of time for a sample of 44 taxpayers to complete IRS form
+          value: The length of time for a sample of 29 taxpayers to complete IRS form
             1040, in hours.
         option4:
           value: The length of time for an individual to complete IRS form 1040, in
             minutes.
         option5:
-          value: The mean length of time for a sample of 44 taxpayers to complete
+          value: The mean length of time for a sample of 29 taxpayers to complete
             IRS form 1040, in minutes.
         option6:
-          value: The mean length of time for a sample of 43 taxpayers to complete
+          value: The mean length of time for a sample of 28 taxpayers to complete
             IRS form 1040, in minutes.
-      direction: less
-      value: 2.91
+      direction: more
+      value: 16.67
       part3:
         ans1:
           value: Yes, I would be surprised because the p-value is less than 0.05.

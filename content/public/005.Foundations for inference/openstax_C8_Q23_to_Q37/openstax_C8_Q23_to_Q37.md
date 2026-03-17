@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 29.6
-      sigma: 13.8
-      sample_size: 18
+      x_bar: 29.3
+      sigma: 15.1
+      sample_size: 31
       alpha: 0.1
       alpha_one_tail: 0.05
       confidence: 90
       z_score: 1.6448536269514722
-      ebm: 5.3502009069127
-      fake_sample_size: 9
-      fake_confidence: 99
+      ebm: 4.460908930122676
+      fake_sample_size: 16
+      fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 18 Foothill College Students
+          value: The mean age of a sample of 31 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 18 Foothill College Students
+          value: The most frequent age of a sample of 31 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 90%
         option7:
-          value: '5.35'
+          value: '4.46'
         statement1:
           value: a?
           matches: '0.90'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '24.25'
+          matches: '24.84'
         statement5:
           value: e?
-          matches: '29.60'
+          matches: '29.30'
         statement6:
           value: f?
-          matches: '34.95'
+          matches: '33.76'
       part13:
         ans1:
           value: We are 90% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 90% confident that the true mean age for Winter Foothill College
-            students is 29.6.
+            students is 29.3.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between
