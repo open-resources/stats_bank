@@ -64,10 +64,10 @@ myst:
     params:
       vars:
         title: Physical Science Degrees
-      white_degrees: 4191
-      white_physical: 536
-      black_degrees: 378
-      black_physical: 49
+      white_degrees: 4381
+      white_physical: 557
+      black_degrees: 365
+      black_physical: 35
       part1:
         ans1:
           value: two means, unknown variances

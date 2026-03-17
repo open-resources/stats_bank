@@ -44,17 +44,17 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Evaluate sleep quality improvements by comparing scores
-        before and after using a new type of mattress for the same subjects.
+      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part1:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+          feedback: Correct!
+      selected_scenario_part2: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Compare artery thicknesses at the beginning of a study
-        and after 2 years of taking Vitamin E for the same group of patients.
+      selected_scenario_part3: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part4:
         ans1:
           value: Paired.

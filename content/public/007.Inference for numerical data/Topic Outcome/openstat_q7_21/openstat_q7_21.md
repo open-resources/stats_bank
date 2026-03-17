@@ -82,14 +82,14 @@ myst:
             about the estimation of the population parameter.
       part4:
         ans1:
-          value: No, since the interval is not entirely lying above 0.
+          value: Yes, since the interval lies entirely above 0.
           feedback: Correct!
         ans2:
-          value: Yes, since the interval lies entirely above 0.
+          value: No, since the interval is not entirely lying above 0.
           feedback: Try again please!
-      sample_size: 215
+      sample_size: 188
       mean_difference: 2.8
-      std_deviation: 18.7
+      std_deviation: 16.4
       part1_confidence_level: 98
 ---
 # {{ params.vars.title }}

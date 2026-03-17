@@ -32,9 +32,9 @@ myst:
     params:
       vars:
         title: True or false
-        question1: If a die is tossed many times and the last three tosses are all
-          five, then the chance that the next toss will be five is somewhat less than
-          50%.
+        question1: If a fair coin is tossed many times and the last eight tosses are
+          all heads, then the chance that the next toss will be heads is somewhat
+          less than 50%.
         question1_ans: False. These are independent trials.
       part1:
         ans1:
