@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: A math teacher wants to see if two of their classes have the same
-        distribution of test scores.
+      scenario1: A meteorologist wants to know if East and West Australia have the
+        same distribution of storms.
       part1:
         ans1:
           value: A chi-squared goodness of fit test
@@ -62,31 +62,9 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario2: A personal trainer is putting together a weight-lifting program for
-        their clients. For a 90-day program, they expect each client to lift a specific
-        maximum weight each week. As the program goes along, the trainer records the
-        actual maximum weights their clients lifted. They want to know how well their
-        expectations met with what was observed.
+      scenario2: A math teacher wants to see if two of their classes have the same
+        distribution of test scores.
       part2:
-        ans1:
-          value: A chi-squared goodness of fit test
-          feedback: Good Job!
-        ans2:
-          value: A chi-squared test of independence
-          feedback: This is incorrect. A chi-squared test of independence is used
-            to determine if there is an association between two categorical variables.
-        ans3:
-          value: A chi-squared test of homogeneity
-          feedback: This is incorrect. A chi-squared test of homogeneity is used to
-            determine if different populations have the same distribution of a categorical
-            variable.
-        ans4:
-          value: None of the above
-          feedback: This is incorrect.
-      scenario3: A pharmaceutical company is interested in the relationship between
-        age and presentation of symptoms for a common viral infection. A random sample
-        is taken of 500 people with the infection across different age groups.
-      part3:
         ans1:
           value: A chi-squared goodness of fit test
           feedback: This is incorrect. A chi-squared goodness of fit test is used
@@ -94,7 +72,28 @@ myst:
             single categorical variable.
         ans2:
           value: A chi-squared test of independence
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
+        ans3:
+          value: A chi-squared test of homogeneity
           feedback: Good Job!
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+      scenario3: An archeologist is calculating the distribution of the frequency
+        of the number of artifacts they find in a dig site. Based on previous digs,
+        the archeologist creates an expected distribution broken down by grid sections
+        in the dig site. Once the site has been fully excavated, they compare the
+        actual number of artifacts found in each grid section to see if their expectation
+        was accurate.
+      part3:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: Good Job!
+        ans2:
+          value: A chi-squared test of independence
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
         ans3:
           value: A chi-squared test of homogeneity
           feedback: This is incorrect. A chi-squared test of homogeneity is used to

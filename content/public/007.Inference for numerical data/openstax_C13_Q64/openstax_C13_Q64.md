@@ -76,27 +76,27 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>40.5</th>
-        <td>48.9</td>
-        <td>27.9</td>
+        <th>47.9</th>
+        <td>45.3</td>
+        <td>40.3</td>
         </tr><tr>
-        <th>38.1</th>
-        <td>42.1</td>
-        <td>47.6</td>
+        <th>41.5</th>
+        <td>46.8</td>
+        <td>48.2</td>
         </tr><tr>
-        <th>42.1</th>
-        <td>44.6</td>
-        <td>36.2</td>
+        <th>38.2</th>
+        <td>40.3</td>
+        <td>43.9</td>
         </tr><tr>
-        <th>43.5</th>
-        <td>48.3</td>
-        <td>45.8</td>
+        <th>39.7</th>
+        <td>45.9</td>
+        <td>53.2</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 1
+      significance_level: 5
       sample_size: 4
       part1:
         ans1:
@@ -152,18 +152,18 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.05
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.05
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}

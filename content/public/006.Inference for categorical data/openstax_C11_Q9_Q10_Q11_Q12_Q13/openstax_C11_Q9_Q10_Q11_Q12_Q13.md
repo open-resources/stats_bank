@@ -60,7 +60,7 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      class_size: 17
+      class_size: 16
       table: |-
         <table style="width:550px">
         <tr>
@@ -70,14 +70,14 @@ myst:
         </tr><tr>
         <th>A</th>
         <td>2</td>
-        <td>1</td>
+        <td>4</td>
         </tr><tr>
         <th>B</th>
-        <td>5</td>
         <td>6</td>
+        <td>2</td>
         </tr><tr>
         <th>C</th>
-        <td>8</td>
+        <td>6</td>
         <td>6</td>
         </tr><tr>
         <th>D</th>
@@ -125,11 +125,11 @@ myst:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance
             level
-          feedback: Try again.
+          feedback: Good Job!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than the significance level
-          feedback: Good Job!
+          feedback: Try again.
         ans3:
           value: Reject the null hypothesis because the p-value is greater than the
             significance level

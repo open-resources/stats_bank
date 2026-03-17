@@ -32,16 +32,16 @@ myst:
     params:
       vars:
         title: True or false
-        question1: Drawing a face card and drawing an ace from a full deck of playing
-          cards are mutually exclusive events.
-        question1_ans: True. A card cannot be both a face card and an ace.
+        question1: Drawing a face card (jack, queen, or king) and drawing a red card
+          from a full deck of playing cards are mutually exclusive events.
+        question1_ans: False. There are red face cards.
       part1:
         ans1:
           value: 'True'
-          feedback: Correct!
+          feedback: False. There are red face cards.
         ans2:
           value: 'False'
-          feedback: True. A card cannot be both a face card and an ace.
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 
