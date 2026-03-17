@@ -53,8 +53,8 @@ myst:
             of the air quality in another city at another time point.
           feedback: Correct!
       country_capitals: 26
-      year_1: 2011
-      year_2: 2015
+      year_1: 2013
+      year_2: 2016
       selected_scenario: but in a different set of cities
 ---
 # {{ params.vars.title }}

@@ -62,19 +62,19 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>21</td>
+        <td>22</td>
         </tr><tr>
         <td>260–289</td>
-        <td>19</td>
+        <td>8</td>
         </tr><tr>
         <td>290–319</td>
-        <td>6</td>
+        <td>7</td>
         </tr><tr>
         <td>320–349</td>
         <td>8</td>
         </tr><tr>
         <td>350–379</td>
-        <td>1</td>
+        <td>0</td>
         </tr><tr>
         <td>380–409</td>
         <td>0</td>
@@ -87,28 +87,28 @@ myst:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,21
-          260–289,19
-          290–319,6
+          230–259,22
+          260–289,8
+          290–319,7
           320–349,8
-          350–379,1
+          350–379,0
           380–409,0
           410–439,0
       autograding:
-        std_plot: std_jg9urrc1_plot.png
-        ref_plot: ref__ja5l7pf_plot.png
+        std_plot: std_i5lpgpej_plot.png
+        ref_plot: ref_6wdrx6ku_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_jg9urrc1_plot.png
+        filename: std_i5lpgpej_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref__ja5l7pf_plot.png
+        filename: ref_6wdrx6ku_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjEKMjYw4oCTMjg5LDE5CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDgKMjkw4oCTMzE5LDcKMzIw4oCTMzQ5LDgKMzUw4oCTMzc5LDAKMzgw4oCTNDA5LDAKNDEw4oCTNDM5LDAK
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjEKMjYw4oCTMjg5LDE5CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSw4CjM1MOKAkzM3OSwxCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDgKMjkw4oCTMzE5LDcKMzIw4oCTMzQ5LDgKMzUw4oCTMzc5LDAKMzgw4oCTNDA5LDAKNDEw4oCTNDM5LDAK
 ---
 # {{ params.vars.title }}
 

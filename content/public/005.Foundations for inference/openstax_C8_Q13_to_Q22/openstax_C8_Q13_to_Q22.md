@@ -82,19 +82,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 1.9
-      sigma: 0.3
-      sample_stdev: 0.09
+      x_bar: 2.3
+      sigma: 0.23
+      sample_stdev: 0.17
       sample_size: 16
-      other_sample_size: 32
-      alpha1: 0.02
-      confidence1: 98
-      z_score1: 2.3263478740408408
+      other_sample_size: 8.0
+      alpha1: 0.1
+      confidence1: 90
+      z_score1: 1.6448536269514722
       alpha2: 0.01
       confidence2: 99
       z_score2: 2.5758293035489004
-      part5_confidence: 99
-      part5_z_score: 2.5758293035489004
+      part5_confidence: 90
+      part5_z_score: 1.6448536269514722
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -110,10 +110,10 @@ myst:
         option1:
           value: $\text{CL} = 95\%$
         option2:
-          value: $\text{CL} = 90\%$
+          value: $\text{CL} = 98\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 98\%$
+          matches: $\text{CL} = 90\%$
         statement2:
           value: CI 2
           matches: $\text{CL} = 99\%$
@@ -164,13 +164,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 32 heads of lettuce were sampled instead of
+          value: What would happen if 8.0 heads of lettuce were sampled instead of
             16, and the margin of error remained the same?
-          matches: CL-Increase
+          matches: CL-Decrease
         statement2:
-          value: What would happen if 32 heads of lettuce were sampled instead of
+          value: What would happen if 8.0 heads of lettuce were sampled instead of
             16, and the confidence level remained the same?
-          matches: MoE-Decrease
+          matches: MoE-Increase
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.

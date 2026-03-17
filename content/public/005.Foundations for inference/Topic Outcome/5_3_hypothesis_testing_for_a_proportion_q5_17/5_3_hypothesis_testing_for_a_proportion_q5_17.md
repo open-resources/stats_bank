@@ -34,11 +34,11 @@ myst:
       vars:
         title: Online communication
       description:
-        sample_size: 160
+        sample_size: 168
         num2: 0.62
-        num3: 0.73
+        num3: 0.77
         num4: 62
-        num5: 73
+        num5: 77
       part1:
         ans1:
           value: $H_0$ should be $p = 0.62$ (Null hypothesis should state that the
@@ -49,7 +49,7 @@ myst:
             sign, and, (4) It should reference the null value, $p_0$ = 0.62, not the
             observed sample proportion.
         ans2:
-          value: ' $H_0: p < 0.73$, $H_A: p > 0.62$ (Your friend''s proposed hypotheses
+          value: ' $H_0: p < 0.77$, $H_A: p > 0.62$ (Your friend''s proposed hypotheses
             are incorrect as indicated in the solution.)'
           feedback: ' Try Again! (1) The hypotheses should be about the population
             proportion ($p$), not the sample proportion. (2) The null hypothesis should

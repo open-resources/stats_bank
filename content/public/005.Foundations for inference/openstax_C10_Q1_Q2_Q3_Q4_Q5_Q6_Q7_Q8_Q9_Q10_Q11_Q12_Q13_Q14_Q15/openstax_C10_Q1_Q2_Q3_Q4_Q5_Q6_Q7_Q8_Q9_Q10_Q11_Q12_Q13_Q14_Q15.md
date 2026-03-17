@@ -43,9 +43,9 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: A new medicine is said to help improve sleep. Eight subjects are
-        picked at random and given the medicine. The means hours slept for each person
-        were recorded before starting the medication and after.
+      scenario1: A new laundry detergent is tested on consumers. Of interest is the
+        proportion of consumers who prefer the new brand over the leading competitor.
+        A study is done to test this.
       part1:
         ans1:
           value: two means, known variances
@@ -58,16 +58,14 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
-      scenario2: A new laundry detergent is tested on consumers. Of interest is the
-        proportion of consumers who prefer the new brand over the leading competitor.
-        A study is done to test this.
+          feedback: Try Again!
+      scenario2: Varsity athletes practice five times a week, on average.
       part2:
         ans1:
           value: two means, known variances
@@ -77,24 +75,26 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Try Again!
+          feedback: Good Job!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A new windshield treatment claims to repel water more effectively.
-        Ten windshields are tested by simulating rain without the new treatment. The
-        same windshields are then treated, and the experiment is run again. A hypothesis
-        test is conducted.
+      scenario3: The league mean batting average is 0.280 with a known standard deviation
+        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
+        average for a sample of eight Rattlers is 0.210, and the mean batting average
+        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
+        and 19 players on the Vikings. Are the batting averages of the Rattlers and
+        Vikings statistically different?
       part3:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
@@ -109,7 +109,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
+          feedback: Try Again!
 ---
 # {{ params.vars.title }}
 For each of the following scenarios, identify which type of hypothesis test would be most appropriate to use.

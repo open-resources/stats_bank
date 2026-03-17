@@ -94,12 +94,12 @@ myst:
     params:
       vars:
         title: Personnel Management
-      confidence_level: 99
-      sample_size: 12
-      mean: 4.5
+      confidence_level: 90
+      sample_size: 15
+      mean: 4.4
       stdev: 1.3
-      lower_bound: 2.55
-      upper_bound: 6.45
+      lower_bound: 4.08
+      upper_bound: 4.73
       part8:
         ans1:
           value: The distributions are different accounts for the different probabilities.
@@ -114,7 +114,7 @@ myst:
         ans4:
           value: The distributions have different shapes.
           feedback: Try again please!
-      percentile: 97.0
+      percentile: 99.0
 ---
 # {{ params.vars.title }}
 Yoonie is a personnel manager in a large corporation. Each month she must review {{ params.sample_size }} of the employees. From past experience, she has found that the reviews take her approximately {{ params.mean }} hours each to do with a population standard deviation of {{ params.stdev }} hours.

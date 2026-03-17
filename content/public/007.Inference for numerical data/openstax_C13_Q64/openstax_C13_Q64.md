@@ -76,44 +76,28 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>38.4</th>
-        <td>38.8</td>
-        <td>44.8</td>
+        <th>40.5</th>
+        <td>48.9</td>
+        <td>27.9</td>
         </tr><tr>
-        <th>41.1</th>
-        <td>42.4</td>
-        <td>52.1</td>
-        </tr><tr>
-        <th>39.0</th>
+        <th>38.1</th>
+        <td>42.1</td>
         <td>47.6</td>
-        <td>48.7</td>
         </tr><tr>
-        <th>43.7</th>
-        <td>45.0</td>
-        <td>46.5</td>
+        <th>42.1</th>
+        <td>44.6</td>
+        <td>36.2</td>
         </tr><tr>
-        <th>39.6</th>
-        <td>41.9</td>
-        <td>58.7</td>
-        </tr><tr>
-        <th>41.1</th>
-        <td>43.6</td>
-        <td>40.4</td>
-        </tr><tr>
-        <th>48.9</th>
-        <td>39.3</td>
-        <td>50.9</td>
-        </tr><tr>
-        <th>41.0</th>
-        <td>42.7</td>
-        <td>51.3</td>
+        <th>43.5</th>
+        <td>48.3</td>
+        <td>45.8</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
       significance_level: 1
-      sample_size: 8
+      sample_size: 4
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -169,11 +153,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.01
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.01
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.01
           feedback: Try again

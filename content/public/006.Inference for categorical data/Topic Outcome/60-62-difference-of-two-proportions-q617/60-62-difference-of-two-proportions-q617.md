@@ -37,10 +37,10 @@ myst:
       vars:
         title: Social experiment, Part I
       inter_provoc: 10
-      non_inter_provoc: 20
-      total_provoc: 30
-      inter_cons: 16
-      non_inter_cons: 13
+      non_inter_provoc: 18
+      total_provoc: 28
+      inter_cons: 17
+      non_inter_cons: 12
       total_cons: 29
       part1:
         ans1:
