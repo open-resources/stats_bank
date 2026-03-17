@@ -38,9 +38,9 @@ myst:
       vars:
         title: Car insurance savings
       description:
-        std: 93
-        moe_max: 12
-        confidence_level: 0.98
+        std: 105
+        moe_max: 2
+        confidence_level: 0.93
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">

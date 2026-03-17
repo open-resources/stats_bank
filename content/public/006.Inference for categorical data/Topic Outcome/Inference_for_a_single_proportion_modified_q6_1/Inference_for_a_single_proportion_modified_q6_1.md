@@ -49,12 +49,12 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 115
-      sample_size2: 90
+      sample_size: 120
+      sample_size2: 79
       p: 9
-      p_hat: 15
-      college_students: 120
-      college_students2: 240
+      p_hat: 13
+      college_students: 123
+      college_students2: 246
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
@@ -78,12 +78,12 @@ myst:
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population
-            proportion is significantly large.
-          feedback: Correct.
+            proportion is not significantly large.
+          feedback: Incorrect.
         ans2:
           value: False. The difference between the sample proportion and the population
-            proportion is not significantly large.
-          feedback: Incorrect!
+            proportion is significantly large.
+          feedback: Correct!
       part4:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different

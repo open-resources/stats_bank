@@ -58,11 +58,11 @@ myst:
         title: Chips in a bag
       description:
         num1: 6
-        num2: 3
-        num3: 1
-        n1: 9
-        n: 10
-        blue1: 2
+        num2: 6
+        num3: 4
+        n1: 15
+        n: 16
+        blue1: 5
       part4:
         ans1:
           value: 'Yes'

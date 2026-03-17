@@ -43,8 +43,8 @@ myst:
       vars:
         title: Working backwards, Part I
       description:
-        num1: 0.6
-        num2: 0.6
+        num1: 0.5
+        num2: 0.5
         num3: 84
         num4: 0.05
 ---

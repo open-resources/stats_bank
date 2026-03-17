@@ -74,18 +74,18 @@ myst:
       vars:
         title: Browsing on the mobile device.
         chinese_proportion: 0.38
-        sample_size: 1591
-        sample_proportion: 15.0
-        Z: -18.90058658282522
-        p_value: 1.1279157648586924e-79
-        lower_bound: 0.1324540828667962
-        upper_bound: 0.1675459171332038
+        sample_size: 4958
+        sample_proportion: 47.0
+        Z: 13.055939459811698
+        p_value: 0.0
+        lower_bound: 0.4561072035114638
+        upper_bound: 0.48389279648853617
       part1:
         ans1:
-          value: '$H_0: p = 0.15$, $H_A: p ≠ 0.38$'
+          value: '$H_0: p = 0.47$, $H_A: p ≠ 0.38$'
           feedback: Try again please!
         ans2:
-          value: '$H_0: p = 0.15$, $H_A: p = 0.38$'
+          value: '$H_0: p = 0.47$, $H_A: p = 0.38$'
           feedback: Try again please!
         ans3:
           value: '$H_0: p = 0.38$, $H_A: p ≠ 0.38$'

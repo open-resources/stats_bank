@@ -74,56 +74,56 @@ myst:
         <th>Year 2</th>
         </tr><tr>
         <th>Alabama</th>
-        <td>3160</td>
-        <td>3490</td>
+        <td>15050</td>
+        <td>16081</td>
         </tr><tr>
         <th>Arkansas</th>
-        <td>1990</td>
-        <td>2342</td>
+        <td>7090</td>
+        <td>7518</td>
         </tr><tr>
         <th>Florida</th>
-        <td>15050</td>
-        <td>15170</td>
+        <td>2150</td>
+        <td>2244</td>
         </tr><tr>
         <th>Georgia</th>
-        <td>6190</td>
-        <td>5912</td>
+        <td>15540</td>
+        <td>18045</td>
         </tr><tr>
         <th>Kentucky</th>
-        <td>6970</td>
-        <td>7191</td>
+        <td>4680</td>
+        <td>4709</td>
         </tr><tr>
         <th>Louisiana</th>
-        <td>2630</td>
-        <td>3006</td>
+        <td>3570</td>
+        <td>4200</td>
         </tr><tr>
         <th>Mississippi</th>
-        <td>3570</td>
-        <td>3284</td>
+        <td>1990</td>
+        <td>1977</td>
         </tr><tr>
         <th>North Carolina</th>
-        <td>2150</td>
-        <td>2196</td>
+        <td>3450</td>
+        <td>3674</td>
         </tr><tr>
         <th>Oklahoma</th>
-        <td>3450</td>
-        <td>3496</td>
+        <td>6970</td>
+        <td>7440</td>
         </tr><tr>
         <th>South Carolina</th>
-        <td>15540</td>
-        <td>15503</td>
+        <td>3320</td>
+        <td>3952</td>
         </tr><tr>
         <th>Tennessee</th>
-        <td>7090</td>
-        <td>6966</td>
+        <td>6190</td>
+        <td>6891</td>
         </tr><tr>
         <th>Texas</th>
-        <td>3320</td>
-        <td>3852</td>
+        <td>3160</td>
+        <td>3711</td>
         </tr><tr>
         <th>Virginia</th>
-        <td>4680</td>
-        <td>5285</td>
+        <td>2630</td>
+        <td>2985</td>
         </tr>
         </table>
       year1: null
@@ -195,21 +195,21 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.05
+      alpha: 0.1
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.05
+          value: Reject the null hypothesis because the p-value is less than 0.1
           feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.05
+            than 0.1
           feedback: Try again!
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.05
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.05
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}

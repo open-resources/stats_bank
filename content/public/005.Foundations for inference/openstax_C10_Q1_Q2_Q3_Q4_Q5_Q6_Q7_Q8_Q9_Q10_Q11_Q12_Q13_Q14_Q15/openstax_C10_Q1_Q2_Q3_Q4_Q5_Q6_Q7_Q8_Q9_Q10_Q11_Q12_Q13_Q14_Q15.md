@@ -43,9 +43,10 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: It is believed that 70% of men pass their drivers test in the first
-        attempt, while 65% of women pass the test in the first attempt. Of interest
-        is whether the proportions are in fact equal.
+      scenario1: A new windshield treatment claims to repel water more effectively.
+        Ten windshields are tested by simulating rain without the new treatment. The
+        same windshields are then treated, and the experiment is run again. A hypothesis
+        test is conducted.
       part1:
         ans1:
           value: two means, known variances
@@ -58,47 +59,44 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
+          feedback: Try Again!
+        ans5:
+          value: single proportion
+          feedback: Try Again!
+        ans6:
+          value: matched or paired samples
           feedback: Good Job!
+      scenario2: The average worker in Germany gets eight weeks of paid vacation.
+      part2:
+        ans1:
+          value: two means, known variances
+          feedback: Try Again!
+        ans2:
+          value: two means, unknown variances
+          feedback: Try Again!
+        ans3:
+          value: single mean
+          feedback: Good Job!
+        ans4:
+          value: two proportions
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: The known standard deviation in salary for all mid-level professionals
+      scenario3: The known standard deviation in salary for all mid-level professionals
         in the financial industry is $11,000. Company A and Company B are in the financial
         industry. Suppose samples are taken of mid-level professionals from Company
         A and from Company B. The sample mean salary for mid-level professionals in
         Company A is $80,000. The sample mean salary for mid-level professionals in
         Company B is $96,000. Company A and Company B management want to know if their
         mid-level professionals are paid differently, on average.
-      part2:
-        ans1:
-          value: two means, known variances
-          feedback: Good Job!
-        ans2:
-          value: two means, unknown variances
-          feedback: Try Again!
-        ans3:
-          value: single mean
-          feedback: Try Again!
-        ans4:
-          value: two proportions
-          feedback: Try Again!
-        ans5:
-          value: single proportion
-          feedback: Try Again!
-        ans6:
-          value: matched or paired samples
-          feedback: Try Again!
-      scenario3: A new WiFi range booster is being offered to consumers. A researcher
-        tests the native range of 12 different routers under the same conditions.
-        The ranges are recorded. Then the researcher uses the new WiFi range booster
-        and records the new ranges. Does the new WiFi range booster do a better job?
       part3:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
@@ -113,7 +111,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
+          feedback: Try Again!
 ---
 # {{ params.vars.title }}
 For each of the following scenarios, identify which type of hypothesis test would be most appropriate to use.
