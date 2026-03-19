@@ -57,41 +57,41 @@ myst:
         graph_title: Number of TV Shows watched each day
         x_axis: Number of TV Shows
         y_axis: Frequency
-        overplotted: should
-        style: o
-        color: darkgreen
+        overplotted: should not
+        style: l
+        color: red
       _workspace_files:
       - name: data.csv
         contents: |
           Number of TV Shows,Frequency
-          0,16
+          0,13
           1,15
-          2,40
-          3,11
-          4,0
+          2,34
+          3,8
+          4,1
       df: null
       autograding:
-        std_plot: std_5k2a0x1m_plot.png
-        ref_plot: ref_bz6faxbj_plot.png
+        std_plot: std_8ljyqh5g_plot.png
+        ref_plot: ref_h0dnf39b_plot.png
         csv: |
           Number of TV Shows,Frequency
-          0,16
+          0,13
           1,15
-          2,40
-          3,11
-          4,0
+          2,34
+          3,8
+          4,1
       _images:
       - label: Your Line Graph
-        filename: std_5k2a0x1m_plot.png
+        filename: std_8ljyqh5g_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Line Graph
-        filename: ref_bz6faxbj_plot.png
+        filename: ref_h0dnf39b_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE2CjEsMTUKMiw0MAozLDExCjQsMAo=
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEzCjEsMTUKMiwzNAozLDgKNCwxCg==
       - path: /grade/student/data.csv
-        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDE2CjEsMTUKMiw0MAozLDExCjQsMAo=
+        contents: TnVtYmVyIG9mIFRWIFNob3dzLEZyZXF1ZW5jeQowLDEzCjEsMTUKMiwzNAozLDgKNCwxCg==
 ---
 # {{ params.vars.title }}
 {{ params.vars.description }} The results are shown in the table below

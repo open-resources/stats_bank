@@ -60,28 +60,28 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>21.0</td>
-        <td>13.2</td>
+        <td>11.3</td>
+        <td>22.9</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>17.2</td>
-        <td>6.2</td>
+        <td>26.1</td>
+        <td>9.3</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>24.4</td>
-        <td>23.4</td>
+        <td>17.0</td>
+        <td>21.7</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>7.5</td>
-        <td>13.1</td>
+        <td>7.3</td>
+        <td>14.6</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>8.4</td>
-        <td>26.6</td>
+        <td>25.9</td>
+        <td>23.6</td>
         </tr><tr>
         <th>West End</th>
-        <td>21.5</td>
-        <td>17.6</td>
+        <td>12.4</td>
+        <td>7.9</td>
         </tr>
         </table>
       graph_instructions:
@@ -90,9 +90,9 @@ myst:
       - The x-axis should be labeled 'Proportion (%)'.
       - The y-axis should be labeled 'School'.
       - The bars should be appropriately labelled.
-      - The bars should be colored blue.
-      - The bars should have a darkgreen border.
-      - The bars should have a density of 1.
+      - The bars should be colored red.
+      - The bars should have a purple border.
+      - The bars should have a density of 8.
       - The plot should be horizontal.
       description: David County has six high schools. Each school sent students to
         participate in a county-wide science competition. The table below shows the
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '13.2'
-        - '6.2'
-        - '23.4'
-        - '13.1'
-        - '26.6'
-        - '17.6'
+        - '22.9'
+        - '9.3'
+        - '21.7'
+        - '14.6'
+        - '23.6'
+        - '7.9'
         title: Overall Student Population from Each School
         xlab: Proportion (%)
         ylab: School
-        color: blue
-        border: darkgreen
-        density: 1
+        color: red
+        border: purple
+        density: 8
         horiz: 'True'
-        std_plot: std_hvtzycf5_plot.png
-        ref_plot: ref_wwc86zz5_plot.png
+        std_plot: std_to28zun__plot.png
+        ref_plot: ref_m6j5m3a3_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_hvtzycf5_plot.png
+        filename: std_to28zun__plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_wwc86zz5_plot.png
+        filename: ref_m6j5m3a3_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}
