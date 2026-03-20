@@ -60,10 +60,10 @@ myst:
       vars:
         title: Babies on Airplanes
       expected_mean: 6
-      sample_mean: 7.0
-      sample_size: 16
+      sample_mean: 7.2
+      sample_size: 18
       expected_variance: 9
-      sample_std_dev: 4.9
+      sample_std_dev: 5.2
       part1:
         ans1:
           value: A chi-squared test of a single variance
@@ -105,7 +105,7 @@ myst:
         ans9:
           value: '$H_0: \sigma = 9$, $H_A: \sigma \neq 9$'
           feedback: Try again.
-      significance_level: 1%
+      significance_level: 5%
       part6:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance

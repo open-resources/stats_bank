@@ -83,15 +83,15 @@ myst:
     params:
       vars:
         title: Monthly Television Usage
-      sample_size: 113
-      mean: 154
-      stdev: 35
-      df: 112
-      lower_bound: 147.97666187771796
-      upper_bound: 160.02333812228204
-      confidence_level: 93
-      error_bound: 6.023338122282055
-      other_confidence: 91
+      sample_size: 107
+      mean: 157
+      stdev: 33
+      df: 106
+      lower_bound: 151.3608472496438
+      upper_bound: 162.6391527503562
+      confidence_level: 92
+      error_bound: 5.639152750356213
+      other_confidence: 97
       part4:
         option0:
           value: The mean number of hours Americans spend watching television per
@@ -102,29 +102,29 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean number of hours spent watching television per month from
-            a sample of 113 Americans.
+            a sample of 107 Americans.
       part5:
         ans1:
-          value: $t_{ 112 }$
+          value: $t_{ 106 }$
           feedback: Correct!
         ans2:
-          value: $t_{ 113 }$
+          value: $t_{ 107 }$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}(0,1)$ (Standard Normal)
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(154, 35)$
+          value: $\operatorname{N}(157, 33)$
           feedback: Try again please!
       part8:
         ans1:
           value: The margin of error would decrease because less area would be needed
             to capture the true population mean.
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: The margin of error would increase because more area would be needed
             to capture the true population mean.
-          feedback: Try again please!
+          feedback: Correct!
         ans3:
           value: The margin of error would decrease because more area would be needed
             to capture the true population mean.

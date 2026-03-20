@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 31.4
-      sigma: 14.7
-      sample_size: 27
+      x_bar: 29.9
+      sigma: 14.1
+      sample_size: 25
       alpha: 0.01
       alpha_one_tail: 0.005
       confidence: 99
       z_score: 2.5758293035489004
-      ebm: 7.287063134773371
-      fake_sample_size: 81
-      fake_confidence: 90
+      ebm: 7.263838636007899
+      fake_sample_size: 75
+      fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 27 Foothill College Students
+          value: The mean age of a sample of 25 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 27 Foothill College Students
+          value: The most frequent age of a sample of 25 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 99%
         option7:
-          value: '7.29'
+          value: '7.26'
         statement1:
           value: a?
           matches: '0.99'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '24.11'
+          matches: '22.64'
         statement5:
           value: e?
-          matches: '31.40'
+          matches: '29.90'
         statement6:
           value: f?
-          matches: '38.69'
+          matches: '37.16'
       part13:
         ans1:
           value: We are 99% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 99% confident that the true mean age for Winter Foothill College
-            students is 31.4.
+            students is 29.9.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between

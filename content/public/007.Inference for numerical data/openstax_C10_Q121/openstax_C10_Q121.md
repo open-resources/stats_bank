@@ -74,56 +74,56 @@ myst:
         <th>Year 2</th>
         </tr><tr>
         <th>Alabama</th>
-        <td>7090</td>
-        <td>7413</td>
+        <td>15540</td>
+        <td>14916</td>
         </tr><tr>
         <th>Arkansas</th>
-        <td>3450</td>
-        <td>3959</td>
+        <td>2150</td>
+        <td>2453</td>
         </tr><tr>
         <th>Florida</th>
-        <td>6190</td>
-        <td>6443</td>
+        <td>3320</td>
+        <td>3641</td>
         </tr><tr>
         <th>Georgia</th>
-        <td>3570</td>
-        <td>3340</td>
+        <td>6190</td>
+        <td>6923</td>
         </tr><tr>
         <th>Kentucky</th>
-        <td>15540</td>
-        <td>18392</td>
+        <td>6970</td>
+        <td>6355</td>
         </tr><tr>
         <th>Louisiana</th>
         <td>1990</td>
-        <td>2173</td>
+        <td>1942</td>
         </tr><tr>
         <th>Mississippi</th>
-        <td>4680</td>
-        <td>5455</td>
+        <td>7090</td>
+        <td>8022</td>
         </tr><tr>
         <th>North Carolina</th>
-        <td>2150</td>
-        <td>2540</td>
+        <td>3570</td>
+        <td>4041</td>
         </tr><tr>
         <th>Oklahoma</th>
-        <td>6970</td>
-        <td>7026</td>
+        <td>3450</td>
+        <td>3768</td>
         </tr><tr>
         <th>South Carolina</th>
-        <td>3320</td>
-        <td>3965</td>
+        <td>2630</td>
+        <td>2989</td>
         </tr><tr>
         <th>Tennessee</th>
-        <td>15050</td>
-        <td>14663</td>
+        <td>3160</td>
+        <td>3186</td>
         </tr><tr>
         <th>Texas</th>
-        <td>3160</td>
-        <td>3777</td>
+        <td>15050</td>
+        <td>15460</td>
         </tr><tr>
         <th>Virginia</th>
-        <td>2630</td>
-        <td>2496</td>
+        <td>4680</td>
+        <td>5131</td>
         </tr>
         </table>
       year1: null

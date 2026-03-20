@@ -43,17 +43,20 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: The average worker in Germany gets eight weeks of paid vacation.
+      scenario1: A sample of 12 in-state graduate school programs at school A has
+        a mean tuition of $64,000 with a standard deviation of $8,000. At school B,
+        a sample of 16 in-state graduate programs has a mean of $80,000 with a standard
+        deviation of $6,000. On average, are the mean tuitions different?
       part1:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -63,16 +66,16 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: A high school principal claims that 30% of student athletes drive
-        themselves to school, while 4% of non-athletes drive themselves to school.
-        In a sample of 20 student athletes, 45% drive themselves to school. In a sample
-        of 35 non-athlete students, 6% drive themselves to school. Is the percent
-        of student athletes who drive themselves to school more than the percent of
-        nonathletes?
+      scenario2: The league mean batting average is 0.280 with a known standard deviation
+        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
+        average for a sample of eight Rattlers is 0.210, and the mean batting average
+        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
+        and 19 players on the Vikings. Are the batting averages of the Rattlers and
+        Vikings statistically different?
       part2:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
@@ -81,24 +84,24 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: It is believed that the average grade on an English essay in a particular
-        school system for women is higher than for men. A random sample of 31 women
-        had a mean score of 82 with a standard deviation of three, and a random sample
-        of 25 men had a mean score of 76 with a standard deviation of four.
+      scenario3: A new WiFi range booster is being offered to consumers. A researcher
+        tests the native range of 12 different routers under the same conditions.
+        The ranges are recorded. Then the researcher uses the new WiFi range booster
+        and records the new ranges. Does the new WiFi range booster do a better job?
       part3:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!
@@ -110,7 +113,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Try Again!
+          feedback: Good Job!
 ---
 # {{ params.vars.title }}
 For each of the following scenarios, identify which type of hypothesis test would be most appropriate to use.

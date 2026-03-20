@@ -82,19 +82,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.2
-      sigma: 0.17
-      sample_stdev: 0.09
-      sample_size: 26
-      other_sample_size: 52
-      alpha1: 0.02
-      confidence1: 98
-      z_score1: 2.3263478740408408
-      alpha2: 0.05
-      confidence2: 95
-      z_score2: 1.959963984540054
-      part5_confidence: 98
-      part5_z_score: 2.3263478740408408
+      x_bar: 2.4
+      sigma: 0.28
+      sample_stdev: 0.23
+      sample_size: 16
+      other_sample_size: 8.0
+      alpha1: 0.01
+      confidence1: 99
+      z_score1: 2.5758293035489004
+      alpha2: 0.1
+      confidence2: 90
+      z_score2: 1.6448536269514722
+      part5_confidence: 90
+      part5_z_score: 1.6448536269514722
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -105,18 +105,18 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 26 heads of lettuce.
+          matches: The mean weight of a sample of 16 heads of lettuce.
       part6:
         option1:
-          value: $\text{CL} = 90\%$
+          value: $\text{CL} = 98\%$
         option2:
-          value: $\text{CL} = 99\%$
+          value: $\text{CL} = 95\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 98\%$
+          matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 95\%$
+          matches: $\text{CL} = 90\%$
       part7:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -164,13 +164,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 52 heads of lettuce were sampled instead of
-            26, and the margin of error remained the same?
-          matches: CL-Increase
+          value: What would happen if 8.0 heads of lettuce were sampled instead of
+            16, and the margin of error remained the same?
+          matches: CL-Decrease
         statement2:
-          value: What would happen if 52 heads of lettuce were sampled instead of
-            26, and the confidence level remained the same?
-          matches: MoE-Decrease
+          value: What would happen if 8.0 heads of lettuce were sampled instead of
+            16, and the confidence level remained the same?
+          matches: MoE-Increase
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.
