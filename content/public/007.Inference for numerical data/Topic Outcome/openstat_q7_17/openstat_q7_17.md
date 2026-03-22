@@ -62,18 +62,18 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part3: Evaluate sleep quality improvements by comparing scores
+        before and after using a new type of mattress for the same subjects.
       part3:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part4: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+          feedback: Incorrect!
+      selected_scenario_part4: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part4:
         ans1:
           value: Paired.

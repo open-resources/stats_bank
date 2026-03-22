@@ -78,28 +78,28 @@ myst:
         <th>Maximum value ($)</th>
         </tr><tr>
         <td>$4$</td>
-        <td>$19$</td>
-        </tr><tr>
-        <td>$14$</td>
-        <td>$17$</td>
-        </tr><tr>
-        <td>$25$</td>
-        <td>$17$</td>
-        </tr><tr>
-        <td>$32$</td>
         <td>$15$</td>
         </tr><tr>
-        <td>$43$</td>
+        <td>$14$</td>
+        <td>$16$</td>
+        </tr><tr>
+        <td>$25$</td>
         <td>$19$</td>
         </tr><tr>
+        <td>$32$</td>
+        <td>$17$</td>
+        </tr><tr>
+        <td>$43$</td>
+        <td>$17$</td>
+        </tr><tr>
         <td>$57$</td>
-        <td>$16$</td>
+        <td>$15$</td>
         </tr><tr>
         <td>$72$</td>
         <td>$16$</td>
         </tr><tr>
         <td>$85$</td>
-        <td>$15$</td>
+        <td>$19$</td>
         </tr><tr>
         <td>$90$</td>
         <td>$15$</td>
@@ -116,14 +116,14 @@ myst:
       - 85
       - 90
       values:
+      - 15
+      - 16
       - 19
       - 17
       - 17
       - 15
+      - 16
       - 19
-      - 16
-      - 16
-      - 15
       - 15
       part1:
         ans1:
@@ -142,7 +142,7 @@ myst:
           value: We wonder if the better discounts appear later in the book so we
             select discount as X and page as Y.
           feedback: Try again please!
-      significance: 0.01
+      significance: 0.05
       part5:
         ans1:
           value: There is a significant linear correlation.

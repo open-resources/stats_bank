@@ -55,84 +55,84 @@ myst:
     params:
       vars:
         title: Federal Election Donations
-      candidates: 1610
-      stdev: 916400
-      confidence: 98
+      candidates: 1647
+      stdev: 914800
+      confidence: 99
       table: |-
         <table style="width:550px">
         <tr>
-        <td>$1,267,300.0</td>
-        <td>$1,107,300.0</td>
-        <td>$1,302,900.0</td>
-        <td>$845,100.0</td>
-        <td>$2,046,300.0</td>
+        <td>$585,200.0</td>
+        <td>$366,200.0</td>
+        <td>$1,276,300.0</td>
+        <td>$36,800.0</td>
+        <td>$305,700.0</td>
         </tr><tr>
-        <td>$363,800.0</td>
-        <td>$1,291,800.0</td>
-        <td>$213,400.0</td>
-        <td>$1,029,700.0</td>
-        <td>$641,500.0</td>
+        <td>$109,700.0</td>
+        <td>$800,600.0</td>
+        <td>$1,046,000.0</td>
+        <td>$492,200.0</td>
+        <td>$294,500.0</td>
         </tr><tr>
-        <td>$644,800.0</td>
-        <td>$149,800.0</td>
-        <td>$1,172,900.0</td>
-        <td>$1,887,800.0</td>
-        <td>$1,590,000.0</td>
+        <td>$1,358,400.0</td>
+        <td>$697,500.0</td>
+        <td>$745,000.0</td>
+        <td>$160,300.0</td>
+        <td>$793,600.0</td>
         </tr><tr>
-        <td>$568,900.0</td>
-        <td>$819,900.0</td>
-        <td>$59,800.0</td>
-        <td>$82,300.0</td>
-        <td>$439,000.0</td>
+        <td>$1,859,400.0</td>
+        <td>$2,029,700.0</td>
+        <td>$936,100.0</td>
+        <td>$796,700.0</td>
+        <td>$1,179,200.0</td>
         </tr><tr>
-        <td>$575,200.0</td>
-        <td>$1,488,900.0</td>
-        <td>$546,700.0</td>
-        <td>$1,087,500.0</td>
-        <td>$1,937,100.0</td>
+        <td>$624,900.0</td>
+        <td>$3,200.0</td>
+        <td>$564,000.0</td>
+        <td>$636,400.0</td>
+        <td>$276,200.0</td>
         </tr><tr>
-        <td>$357,200.0</td>
-        <td>$992,800.0</td>
-        <td>$360,400.0</td>
-        <td>$31,300.0</td>
-        <td>$1,434,400.0</td>
+        <td>$71,100.0</td>
+        <td>$584,400.0</td>
+        <td>$460,400.0</td>
+        <td>$768,000.0</td>
+        <td>$643,000.0</td>
         </tr><tr>
-        <td>$1,019,300.0</td>
-        <td>$290,900.0</td>
-        <td>$1,325,900.0</td>
-        <td>$429,100.0</td>
-        <td>$436,900.0</td>
+        <td>$1,018,900.0</td>
+        <td>$239,500.0</td>
+        <td>$676,400.0</td>
+        <td>$1,412,700.0</td>
+        <td>$48,200.0</td>
         </tr><tr>
-        <td>$273,600.0</td>
-        <td>$969,400.0</td>
-        <td>$1,017,000.0</td>
-        <td>$670,200.0</td>
-        <td>$773,900.0</td>
+        <td>$402,300.0</td>
+        <td>$816,600.0</td>
+        <td>$934,100.0</td>
+        <td>$792,500.0</td>
+        <td>$505,200.0</td>
         </tr>
         </table>
       part4:
         ans1:
           value: |-
             <div class="mathjax_ignore">
-            We estimate with 98% confidence that the mean amount of contributions received from all individuals by house candidates is between $(lower_bound) and $(upper_bound).
+            We estimate with 99% confidence that the mean amount of contributions received from all individuals by house candidates is between $(lower_bound) and $(upper_bound).
             </div>
           feedback: Good job!
         ans2:
           value: |-
             <div class="mathjax_ignore">
-            We estimate that 98% of all contributions received from all individuals by house candidates are between $(lower_bound) and $(upper_bound).
+            We estimate that 99% of all contributions received from all individuals by house candidates are between $(lower_bound) and $(upper_bound).
             </div>
           feedback: Try again please!
         ans3:
           value: |-
             <div class="mathjax_ignore">
-            We estimate with 98% confidence that the mean amount of contributions received from all individuals by House candidates is less than $(lower_bound).
+            We estimate with 99% confidence that the mean amount of contributions received from all individuals by House candidates is less than $(lower_bound).
             </div>
           feedback: Try again please!
         ans4:
           value: |-
             <div class="mathjax_ignore">
-            We estimate with 98% confidence that the mean amount of contributions received from all individuals by House candidates is greater than $(upper_bound).
+            We estimate with 99% confidence that the mean amount of contributions received from all individuals by House candidates is greater than $(upper_bound).
             </div>
           feedback: Try again please!
 ---
