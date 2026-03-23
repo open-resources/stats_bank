@@ -76,44 +76,32 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>39.1</th>
-        <td>42.9</td>
-        <td>36.0</td>
+        <th>43.3</th>
+        <td>42.4</td>
+        <td>45.9</td>
         </tr><tr>
-        <th>42.2</th>
-        <td>44.9</td>
-        <td>43.5</td>
-        </tr><tr>
-        <th>42.6</th>
-        <td>46.4</td>
-        <td>47.2</td>
-        </tr><tr>
-        <th>41.4</th>
-        <td>44.2</td>
-        <td>42.5</td>
-        </tr><tr>
-        <th>41.5</th>
-        <td>43.3</td>
-        <td>34.5</td>
-        </tr><tr>
-        <th>44.4</th>
-        <td>37.0</td>
-        <td>52.2</td>
+        <th>43.1</th>
+        <td>46.9</td>
+        <td>45.8</td>
         </tr><tr>
         <th>42.7</th>
-        <td>43.9</td>
-        <td>34.9</td>
+        <td>45.6</td>
+        <td>47.5</td>
         </tr><tr>
-        <th>41.2</th>
-        <td>40.9</td>
-        <td>43.7</td>
+        <th>41.6</th>
+        <td>41.0</td>
+        <td>49.5</td>
+        </tr><tr>
+        <th>44.7</th>
+        <td>41.6</td>
+        <td>42.0</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
       significance_level: 10
-      sample_size: 8
+      sample_size: 5
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
