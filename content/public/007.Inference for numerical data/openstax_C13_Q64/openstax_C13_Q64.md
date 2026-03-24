@@ -76,32 +76,36 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>43.3</th>
-        <td>42.4</td>
-        <td>45.9</td>
-        </tr><tr>
-        <th>43.1</th>
-        <td>46.9</td>
-        <td>45.8</td>
-        </tr><tr>
-        <th>42.7</th>
-        <td>45.6</td>
-        <td>47.5</td>
-        </tr><tr>
-        <th>41.6</th>
-        <td>41.0</td>
-        <td>49.5</td>
+        <th>41.5</th>
+        <td>48.1</td>
+        <td>40.7</td>
         </tr><tr>
         <th>44.7</th>
-        <td>41.6</td>
+        <td>38.7</td>
+        <td>48.4</td>
+        </tr><tr>
+        <th>40.5</th>
+        <td>42.9</td>
+        <td>45.1</td>
+        </tr><tr>
+        <th>37.7</th>
+        <td>46.0</td>
+        <td>43.3</td>
+        </tr><tr>
+        <th>42.9</th>
         <td>42.0</td>
+        <td>45.5</td>
+        </tr><tr>
+        <th>43.0</th>
+        <td>51.2</td>
+        <td>48.1</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 10
-      sample_size: 5
+      significance_level: 1
+      sample_size: 6
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -156,18 +160,18 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.1
+          value: Reject the null hypothesis because the p-value is less than 0.01
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.1
+            than 0.01
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.1
+          value: Reject the null hypothesis because the p-value is greater than 0.01
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.1
+            0.01
           feedback: Try again
 ---
 # {{ params.vars.title }}

@@ -60,20 +60,20 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>3</td>
-        <td>12</td>
+        <td>8</td>
+        <td>22</td>
         </tr><tr>
         <th>Summer</th>
-        <td>6</td>
-        <td>23</td>
+        <td>10</td>
+        <td>28</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>12</td>
-        <td>46</td>
+        <td>13</td>
+        <td>36</td>
         </tr><tr>
         <th>Winter</th>
         <td>5</td>
-        <td>19</td>
+        <td>14</td>
         </tr>
         </table>
       graph_instructions:
@@ -81,9 +81,9 @@ myst:
       - The x-axis should be labeled 'Proportion (%)'.
       - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
-      - The bars should be colored blue.
+      - The bars should be colored purple.
       - The bars should have a red border.
-      - The bars should have a density of 4.
+      - The bars should have a density of 8.
       - The plot should be horizontal.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 12
-        - 23
-        - 46
-        - 19
+        - 22
+        - 28
+        - 36
+        - 14
         title: Birthdays in Each Season
         xlab: Proportion (%)
         ylab: Season
-        color: blue
+        color: purple
         border: red
-        density: 4
+        density: 8
         horiz: 'True'
-        std_plot: std_dwggnb4y_plot.png
-        ref_plot: ref_harvncke_plot.png
+        std_plot: std_na7zd40__plot.png
+        ref_plot: ref___e69cm0_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_dwggnb4y_plot.png
+        filename: std_na7zd40__plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_harvncke_plot.png
+        filename: ref___e69cm0_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

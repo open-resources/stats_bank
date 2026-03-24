@@ -43,9 +43,10 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: A new medicine is said to help improve sleep. Eight subjects are
-        picked at random and given the medicine. The means hours slept for each person
-        were recorded before starting the medication and after.
+      scenario1: In a random sample of 100 forests in the United States, 56 were coniferous
+        or contained conifers. In a random sample of 80 forests in Mexico, 40 were
+        coniferous or contained conifers. Is the proportion of conifers in the United
+        States statistically more than the proportion of conifers in Mexico?
       part1:
         ans1:
           value: two means, known variances
@@ -58,42 +59,38 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
-      scenario2: It is thought that teenagers sleep more than adults on average. A
-        study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours
-        slept and a standard deviation of 1.2. A sample of 12 adults has a mean of
-        6.9 hours slept and a standard deviation of 0.6.
+          feedback: Try Again!
+      scenario2: A new laundry detergent is tested on consumers. Of interest is the
+        proportion of consumers who prefer the new brand over the leading competitor.
+        A study is done to test this.
       part2:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A high school principal claims that 30% of student athletes drive
-        themselves to school, while 4% of non-athletes drive themselves to school.
-        In a sample of 20 student athletes, 45% drive themselves to school. In a sample
-        of 35 non-athlete students, 6% drive themselves to school. Is the percent
-        of student athletes who drive themselves to school more than the percent of
-        nonathletes?
+      scenario3: It is believed that 70% of men pass their drivers test in the first
+        attempt, while 65% of women pass the test in the first attempt. Of interest
+        is whether the proportions are in fact equal.
       part3:
         ans1:
           value: two means, known variances

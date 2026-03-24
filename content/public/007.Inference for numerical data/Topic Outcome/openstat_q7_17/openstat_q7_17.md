@@ -44,43 +44,43 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part1: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part1:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part2: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+          feedback: Incorrect!
+      selected_scenario_part2: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part2:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part3: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+          feedback: Correct!
+      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part3:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+          feedback: Incorrect!
+      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part4:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.
