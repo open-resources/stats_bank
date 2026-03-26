@@ -67,11 +67,11 @@ myst:
       vars:
         title: Hearts win
       part3:
-        num1: 5
+        num1: 3
       part4:
-        num1: 5
+        num1: 3
       part5:
-        num1: 5
+        num1: 3
         ans1:
           value: 'No'
           feedback: Incorrect! The expected net profit is positive, so on average
@@ -81,10 +81,10 @@ myst:
           feedback: Correct! The expected net profit is positive, so on average you
             expect to earn money.
       description:
-        num1: 2
-        num2: 2
-        num3: 45
-        num4: 2
+        num1: 3
+        num2: 3
+        num3: 52
+        num4: 3
         num5: 23
 ---
 # {{ params.vars.title }}

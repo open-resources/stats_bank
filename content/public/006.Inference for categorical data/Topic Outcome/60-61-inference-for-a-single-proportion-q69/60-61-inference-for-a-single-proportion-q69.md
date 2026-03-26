@@ -69,12 +69,12 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1359
-        p: 54.0
+        n: 1801
+        p: 55.0
         confidence_level: 95.0
-        lower_bound: 0.5135
-        lower_bound_percent: 51
-        upper_bound: 0.5665
+        lower_bound: 0.527
+        lower_bound_percent: 53
+        upper_bound: 0.573
         upper_bound_percent: 57
       part1:
         ans1:

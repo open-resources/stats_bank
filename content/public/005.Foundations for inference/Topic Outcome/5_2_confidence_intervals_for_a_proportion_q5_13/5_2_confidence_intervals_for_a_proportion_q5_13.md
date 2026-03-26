@@ -49,7 +49,7 @@ myst:
         title: Website registration
       description:
         num1: 713
-        num2: 61
+        num2: 67
       part1:
         ans1:
           value: Independence
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.0683, 0.0978). We
+          value: The 90% confidence interval is approximately (0.076, 0.1069). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.83% and 9.78%.
+            who would register under the new design is between 7.6% and 10.69%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.0643, 0.1028). We
+          value: The 90% confidence interval is approximately (0.072, 0.1119). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.43% and 10.28%.
+            who would register under the new design is between 7.2% and 11.19%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.0643, 0.0978). We
+          value: The 90% confidence interval is approximately (0.072, 0.1069). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.43% and 9.78%.
+            who would register under the new design is between 7.2% and 10.69%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.0683, 0.1028). We
+          value: The 90% confidence interval is approximately (0.076, 0.1119). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 6.83% and 10.28%.
+            who would register under the new design is between 7.6% and 11.19%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

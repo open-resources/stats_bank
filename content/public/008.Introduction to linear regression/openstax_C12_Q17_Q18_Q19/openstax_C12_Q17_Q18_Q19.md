@@ -56,17 +56,17 @@ myst:
       vars:
         title: Scatterplot Linearity
       correlations:
-      - 0.07
-      - 0.56
-      - -0.94
-      - 0.39
+      - -0.91
+      - 0.4
+      - 0.51
+      - 0.05
       part1:
         ans1:
           value: Plot 1
-          feedback: Incorrect.
+          feedback: Correct!
         ans2:
           value: Plot 2
-          feedback: Correct!
+          feedback: Incorrect.
         ans3:
           value: Plot 3
           feedback: Correct!
@@ -77,17 +77,17 @@ myst:
         option1:
           value: Plot 1
           name: Plot 1
+        statement1:
+          value: has a strong relationship
+          matches: Plot 1
         option2:
           value: Plot 2
           name: Plot 2
-        statement1:
-          value: has a weak relationship
-          matches: Plot 2
         option3:
           value: Plot 3
           name: Plot 3
         statement2:
-          value: has a strong relationship
+          value: has a weak relationship
           matches: Plot 3
         option4:
           value: Plot 4
@@ -96,17 +96,17 @@ myst:
         option1:
           value: Plot 1
           name: Plot 1
+        statement1:
+          value: has a negative relationship
+          matches: Plot 1
         option2:
           value: Plot 2
           name: Plot 2
-        statement1:
-          value: has a positive relationship
-          matches: Plot 2
         option3:
           value: Plot 3
           name: Plot 3
         statement2:
-          value: has a negative relationship
+          value: has a positive relationship
           matches: Plot 3
         option4:
           value: Plot 4

@@ -72,15 +72,15 @@ myst:
     params:
       vars:
         title: Sleep habits of New Yorkers
-      confidence_level: 96.0
+      confidence_level: 80.0
       sleep_hours: 7
       description:
-        n: 29
-        sample_mean: 5.9
-        s: 1.26
-        min_val: 2.95
-        max_val: 8.36
-        alpha: 0.02
+        n: 32
+        sample_mean: 6.06
+        s: 1.13
+        min_val: 3.18
+        max_val: 7.94
+        alpha: 0.1
       table1: |-
         <table style="width:400px">
         <tr>
@@ -90,11 +90,11 @@ myst:
         <th>$min$</th>
         <th>$max$</th>
         </tr><tr>
-        <th>$29$</th>
-        <td>$5.9$</td>
-        <td>$1.26$</td>
-        <td>$2.95$</td>
-        <td>$8.36$</td>
+        <th>$32$</th>
+        <td>$6.06$</td>
+        <td>$1.13$</td>
+        <td>$3.18$</td>
+        <td>$7.94$</td>
         </tr>
         </table>
       part1:
@@ -138,15 +138,15 @@ myst:
             population of New Yorkers.
           feedback: Try again please!
         ans3:
-          value: The probability of observing the obtained sample mean 5.9 hours if
-            New Yorkers, on average, sleep 7 per night.
+          value: The probability of observing the obtained sample mean 6.06 hours
+            if New Yorkers, on average, sleep 7 per night.
           feedback: Correct!
         ans4:
-          value: The probability of observing the obtained sample mean of 5.9 hours
-            or more extreme, if New Yorkers, on average, sleep 5.9 hours per night.
+          value: The probability of observing the obtained sample mean of 6.06 hours
+            or more extreme, if New Yorkers, on average, sleep 6.06 hours per night.
           feedback: Try again please!
         ans5:
-          value: The probability of observing the obtained sample mean 5.9 of hours
+          value: The probability of observing the obtained sample mean 6.06 of hours
             or more extreme, if New Yorkers, on average, sleep 7 per night.
           feedback: Try again please!
       part7:

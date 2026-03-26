@@ -43,9 +43,7 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: A new medicine is said to help improve sleep. Eight subjects are
-        picked at random and given the medicine. The means hours slept for each person
-        were recorded before starting the medication and after.
+      scenario1: Varsity athletes practice five times a week, on average.
       part1:
         ans1:
           value: two means, known variances
@@ -55,7 +53,7 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Try Again!
+          feedback: Good Job!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -64,7 +62,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
+          feedback: Try Again!
       scenario2: The league mean batting average is 0.280 with a known standard deviation
         of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
         average for a sample of eight Rattlers is 0.210, and the mean batting average
@@ -90,10 +88,10 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A sample of 12 in-state graduate school programs at school A has
-        a mean tuition of $64,000 with a standard deviation of $8,000. At school B,
-        a sample of 16 in-state graduate programs has a mean of $80,000 with a standard
-        deviation of $6,000. On average, are the mean tuitions different?
+      scenario3: It is thought that teenagers sleep more than adults on average. A
+        study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours
+        slept and a standard deviation of 1.2. A sample of 12 adults has a mean of
+        6.9 hours slept and a standard deviation of 0.6.
       part3:
         ans1:
           value: two means, known variances
