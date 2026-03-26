@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+      selected_scenario_part1: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part1:
         ans1:
           value: Paired.
@@ -53,18 +53,17 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part2: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part2:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
-        (end of semester) scores of students.
+          feedback: Incorrect!
+      selected_scenario_part3: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part3:
         ans1:
           value: Paired.
@@ -72,15 +71,15 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
+        reading program for the same group of participants.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.

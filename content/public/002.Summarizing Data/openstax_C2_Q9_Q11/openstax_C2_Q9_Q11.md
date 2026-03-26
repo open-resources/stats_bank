@@ -55,81 +55,66 @@ myst:
       table: |-
         <table style="width:550px">
         <tr>
-        <th>High School</th>
-        <th>Science competition population (%)</th>
-        <th>Overall student population (%)</th>
+        <th>Season</th>
+        <th>Number of students</th>
+        <th>Proportion of population (%)</th>
         </tr><tr>
-        <th>Alabaster</th>
-        <td>24.1</td>
-        <td>2.9</td>
+        <th>Spring</th>
+        <td>9</td>
+        <td>21</td>
         </tr><tr>
-        <th>Concordia</th>
-        <td>26.4</td>
-        <td>24.8</td>
+        <th>Summer</th>
+        <td>12</td>
+        <td>29</td>
         </tr><tr>
-        <th>Genoa</th>
-        <td>29.8</td>
-        <td>21.4</td>
+        <th>Autumn</th>
+        <td>14</td>
+        <td>33</td>
         </tr><tr>
-        <th>Mocksville</th>
-        <td>4.1</td>
-        <td>11.2</td>
-        </tr><tr>
-        <th>Tynneson</th>
-        <td>12.2</td>
-        <td>13.1</td>
-        </tr><tr>
-        <th>West End</th>
-        <td>3.4</td>
-        <td>26.6</td>
+        <th>Winter</th>
+        <td>7</td>
+        <td>17</td>
         </tr>
         </table>
       graph_instructions:
-      - The plot should have a main title of 'Students in Science Competition from
-        Each School'.
-      - The x-axis should be labeled 'Proportion (%)'.
-      - The y-axis should be labeled 'School'.
+      - The plot should have a main title of 'Birthdays in Each Season'.
+      - The x-axis should be labeled 'Number of students'.
+      - The y-axis should be labeled 'Season'.
       - The bars should be appropriately labelled.
-      - The bars should be colored orange.
+      - The bars should be colored red.
       - The bars should have a purple border.
-      - The bars should have a density of 2.
+      - The bars should have a density of 9.
       - The plot should be horizontal.
-      description: David County has six high schools. Each school sent students to
-        participate in a county-wide science competition. The table below shows the
-        percentage breakdown of competitors from each school, and the percentage of
-        the entire student population of the county that goes to each school. Construct
-        a bar graph that shows the population percentage of competitors from each
-        school.
+      description: The students in Ms. Ramirez’s math class have birthdays in each
+        of the four seasons. The table below shows the four seasons, the number of
+        students who have birthdays in each season, and the proportion (%) of students
+        in each group. Construct a bar graph showing the number of students.
       autograding:
         col1:
-        - Alabaster
-        - Concordia
-        - Genoa
-        - Mocksville
-        - Tynneson
-        - West End
+        - Spring
+        - Summer
+        - Autumn
+        - Winter
         x:
-        - '24.1'
-        - '26.4'
-        - '29.8'
-        - '4.1'
-        - '12.2'
-        - '3.4'
-        title: Students in Science Competition from Each School
-        xlab: Proportion (%)
-        ylab: School
-        color: orange
+        - 9
+        - 12
+        - 14
+        - 7
+        title: Birthdays in Each Season
+        xlab: Number of students
+        ylab: Season
+        color: red
         border: purple
-        density: 2
+        density: 9
         horiz: 'True'
-        std_plot: std_6q79uzig_plot.png
-        ref_plot: ref__dvyvnwa_plot.png
+        std_plot: std_4r34xiba_plot.png
+        ref_plot: ref_vi6kugg__plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_6q79uzig_plot.png
+        filename: std_4r34xiba_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref__dvyvnwa_plot.png
+        filename: ref_vi6kugg__plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

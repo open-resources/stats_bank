@@ -51,10 +51,10 @@ myst:
       vars:
         title: GPA and major
       df_factor: 2
-      df_residual: 191
-      meansq_factor: 0.015
-      meansq_residual: 0.0817
-      f_value: 0.1836
+      df_residual: 192
+      meansq_factor: 0.03
+      meansq_residual: 0.1011
+      f_value: 0.2967
       table: |-
         <table style="width:550px">
         <tr>
@@ -67,15 +67,15 @@ myst:
         </tr><tr>
         <th>major</th>
         <td>$2$</td>
+        <td>$0.06$</td>
         <td>$0.03$</td>
-        <td>$0.015$</td>
-        <td>$0.1836$</td>
+        <td>$0.2967$</td>
         <td>$-$</td>
         </tr><tr>
         <th>Residuals</th>
-        <td>$191$</td>
-        <td>$15.6$</td>
-        <td>$0.0817$</td>
+        <td>$192$</td>
+        <td>$19.42$</td>
+        <td>$0.1011$</td>
         <td>$\quad$</td>
         <td>$\quad$</td>
         </tr>

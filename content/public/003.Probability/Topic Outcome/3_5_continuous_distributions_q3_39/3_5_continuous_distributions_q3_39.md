@@ -34,11 +34,11 @@ myst:
       vars:
         title: Grade distributions
       description:
-        ra_cf: 0.4
+        ra_cf: 0.5
         num1: 0.2
         num2: 0.2
         num3: 0.2
-        num4: 0.2
+        num4: 0.1
         num5: 0
         num6: 0
         num7: 1
@@ -50,17 +50,17 @@ myst:
         num13: 0
         num14: 0
         num15: 0.2
-        num16: 0.1
-        num17: 0.2
+        num16: 0.2
+        num17: 0.1
         num18: 0.1
-        num19: -0.2
-        num20: 0.1
+        num19: -0.4
+        num20: 0.2
         num21: 0.2
         num22: 0.2
         num23: 0.1
-        num24: 0.4
+        num24: 0.3
         num25: 0
-        num26: -0.2
+        num26: -0.4
         num27: 1.1
         num28: 0
         num29: 0

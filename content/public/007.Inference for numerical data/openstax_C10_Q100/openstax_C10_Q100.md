@@ -64,10 +64,10 @@ myst:
     params:
       vars:
         title: Physical Science Degrees
-      white_degrees: 4304
-      white_physical: 598
-      black_degrees: 380
-      black_physical: 45
+      white_degrees: 4789
+      white_physical: 515
+      black_degrees: 301
+      black_physical: 44
       part1:
         ans1:
           value: two means, unknown variances
@@ -139,21 +139,21 @@ myst:
         ans5:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.05
+      alpha: 0.1
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.05
-          feedback: Try again!
+          value: Reject the null hypothesis because the p-value is less than 0.1
+          feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.05
-          feedback: Good Job
+            than 0.1
+          feedback: Try again!
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.05
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.05
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}
