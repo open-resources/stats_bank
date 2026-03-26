@@ -55,35 +55,50 @@ myst:
         <th>Third Coinage</th>
         <th>Fourth Coinage</th>
         </tr><tr>
-        <td>7.6</td>
-        <td>9.4</td>
-        <td>5.0</td>
-        <td>5.5</td>
-        </tr><tr>
-        <td>6.6</td>
-        <td>7.7</td>
-        <td>5.0</td>
-        <td>5.4</td>
-        </tr><tr>
-        <td>6.6</td>
-        <td>9.8</td>
+        <td>6.4</td>
+        <td>9.3</td>
         <td>4.7</td>
-        <td>5.5</td>
+        <td>5.9</td>
         </tr><tr>
+        <td>5.8</td>
         <td>7.0</td>
-        <td>8.4</td>
+        <td>5.0</td>
+        <td>5.8</td>
+        </tr><tr>
+        <td>6.6</td>
+        <td>8.0</td>
+        <td>4.4</td>
+        <td>5.6</td>
+        </tr><tr>
+        <td>6.7</td>
+        <td>8.5</td>
+        <td>5.1</td>
+        <td>5.8</td>
+        </tr><tr>
+        <td>7.1</td>
+        <td>7.2</td>
+        <td>4.8</td>
         <td>5.9</td>
+        </tr><tr>
+        <td>7.2</td>
+        <td>7.5</td>
+        <td>4.4</td>
         <td>5.5</td>
         </tr><tr>
-        <td>6.0</td>
+        <td>7.1</td>
         <td>8.2</td>
-        <td>6.0</td>
-        <td>6.0</td>
+        <td>4.9</td>
+        <td>4.8</td>
         </tr><tr>
-        <td>5.9</td>
         <td></td>
-        <td>4.6</td>
         <td></td>
+        <td>5.0</td>
+        <td>5.7</td>
+        </tr><tr>
+        <td></td>
+        <td></td>
+        <td>4.8</td>
+        <td>5.0</td>
         </tr>
         </table>
       stats_table: |-
@@ -96,16 +111,16 @@ myst:
         <th>Fourth Coinage</th>
         </tr><tr>
         <th>Mean</th>
-        <td>$6.6167$</td>
-        <td>$8.7$</td>
-        <td>$5.2$</td>
-        <td>$5.58$</td>
+        <td>$6.7$</td>
+        <td>$7.9571$</td>
+        <td>$4.7889$</td>
+        <td>$5.5556$</td>
         </tr><tr>
         <th>Variance</th>
-        <td>$0.4017$</td>
-        <td>$0.76$</td>
-        <td>$0.364$</td>
-        <td>$0.057$</td>
+        <td>$0.2467$</td>
+        <td>$0.6429$</td>
+        <td>$0.0636$</td>
+        <td>$0.1578$</td>
         </tr>
         </table>
       first_sample: null
@@ -115,10 +130,10 @@ myst:
       means: null
       variances: null
       significance_level: 1
-      first_len: 6
-      second_len: 5
-      third_len: 6
-      fourth_len: 5
+      first_len: 7
+      second_len: 7
+      third_len: 9
+      fourth_len: 9
       part1:
         ans1:
           value: '$H_0: \forall i\ne j: \mu_i = \mu_j$ and $H_A: \exists i\ne j: \mu_i
@@ -152,20 +167,20 @@ myst:
         <th>F Statistic</th>
         </tr><tr>
         <th>Between Groups</th>
-        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="38.6314" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="44.7939" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td><pl-integer-input answers-name="part2_between_df_value" correct-answer="3" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="12.8771" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="32.6631" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="14.9313" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="58.8157" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         </tr><tr>
         <th>Within Groups</th>
-        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="7.0963" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="18" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.3942" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="7.1083" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="28" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.2539" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td></td>
         </tr><tr>
         <th>Total</th>
-        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="45.7277" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="21" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="51.9022" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="31" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
         <td></td>
         <td></td>
         </tr>

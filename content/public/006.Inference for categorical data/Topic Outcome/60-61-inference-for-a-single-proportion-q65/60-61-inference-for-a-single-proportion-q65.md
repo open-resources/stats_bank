@@ -52,20 +52,19 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1441
-        proportion: 63.0
-        margin_of_error: 2.49
-        lower_bound: 60.51
-        upper_bound: 65.49
-        margin_of_error_part4: 1.246
+        sample_size: 1355
+        proportion: 40.0
+        margin_of_error: 2.61
+        lower_bound: 37.39
+        upper_bound: 42.61
+        margin_of_error_part4: 1.304
         selected_option1: If the sample size were increased from 1559 Americans to
           5000 Americans while keeping the confidence level and margin of error unchanged,
           the width of the confidence intervals would decrease. This would lead to
           a higher percentage of intervals that include the true population proportion
           in comparison to the initial scenario with 1559 Americans.
-        selected_option2: The margin of error is independent of the variability in
-          the responses from the sample population; it only depends on the sample
-          size and confidence level.
+        selected_option2: In order to decrease the margin of error to 0.026084592969437864%,
+          we would need to quadruple (multiply by 4) the sample size.
       part1:
         ans1:
           value: 'True'

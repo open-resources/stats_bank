@@ -95,26 +95,26 @@ myst:
         <th>Pr(>|t|)</th>
         </tr><tr>
         <th>(intercept)</th>
-        <td>$44.1214$</td>
-        <td>$4.5018$</td>
-        <td>$9.7$</td>
+        <td>$46.3548$</td>
+        <td>$4.5025$</td>
+        <td>$9.8$</td>
         <td>$0.0$</td>
         </tr><tr>
         <th>height_husband</th>
-        <td>$0.2665$</td>
-        <td>$0.0523$</td>
-        <td>$3.4$</td>
-        <td>$0.0008$</td>
+        <td>$0.2779$</td>
+        <td>$0.0735$</td>
+        <td>$3.12$</td>
+        <td>$0.0022$</td>
         </tr>
         </table>
-      sample: 181
-      slope: 0.2665
-      intercept: 44.1214
-      intercept_std_error: 4.5018
-      slope_std_error: 0.0523
-      husband_height1: 66
-      correlation: 0.132
-      husband_height2: 57
+      sample: 149
+      slope: 0.2779
+      intercept: 46.3548
+      intercept_std_error: 4.5025
+      slope_std_error: 0.0735
+      husband_height1: 63
+      correlation: 0.095
+      husband_height2: 68
       part1:
         ans1:
           value: '$H_0: \beta_1 = 0; H_A: \beta_1 \ne 0$'
@@ -175,11 +175,11 @@ myst:
           feedback: Correct!
       part9:
         ans1:
-          value: 'Yes'
-          feedback: Incorrect! We should avoid extrapolating.
-        ans2:
           value: 'No'
-          feedback: Correct! We should avoid extrapolating.
+          feedback: Incorrect! The husbands' height height within our data range.
+        ans2:
+          value: 'Yes'
+          feedback: Correct! The husbands' height height within our data range.
 ---
 # {{ params.vars.title }}
 The scatter plot below summarizes husbands' and wives' heights in a random sample of ${{ params.sample}}$ married couples in Britain, where both partners' ages are below $65$ years. The summary output of the least squares fit for predicting a wife's height from the husband's height is also provided in the table.

@@ -76,36 +76,28 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>43.2</th>
-        <td>47.5</td>
-        <td>36.8</td>
+        <th>42.4</th>
+        <td>42.2</td>
+        <td>49.2</td>
         </tr><tr>
-        <th>45.7</th>
-        <td>34.7</td>
-        <td>44.6</td>
+        <th>44.6</th>
+        <td>38.1</td>
+        <td>38.9</td>
         </tr><tr>
-        <th>49.8</th>
-        <td>43.3</td>
-        <td>41.0</td>
+        <th>43.7</th>
+        <td>33.7</td>
+        <td>39.8</td>
         </tr><tr>
-        <th>37.4</th>
-        <td>39.3</td>
-        <td>43.3</td>
-        </tr><tr>
-        <th>42.9</th>
-        <td>49.0</td>
-        <td>44.0</td>
-        </tr><tr>
-        <th>46.2</th>
-        <td>37.7</td>
-        <td>46.1</td>
+        <th>42.4</th>
+        <td>45.6</td>
+        <td>43.7</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
       significance_level: 10
-      sample_size: 6
+      sample_size: 4
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne

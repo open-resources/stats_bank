@@ -44,30 +44,13 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: A market researcher wants to see if two different stores have the
-        same distribution of sales throughout the year.
+      scenario1: An archeologist is calculating the distribution of the frequency
+        of the number of artifacts they find in a dig site. Based on previous digs,
+        the archeologist creates an expected distribution broken down by grid sections
+        in the dig site. Once the site has been fully excavated, they compare the
+        actual number of artifacts found in each grid section to see if their expectation
+        was accurate.
       part1:
-        ans1:
-          value: A chi-squared goodness of fit test
-          feedback: This is incorrect. A chi-squared goodness of fit test is used
-            to compare an observed distribution to an expected distribution for a
-            single categorical variable.
-        ans2:
-          value: A chi-squared test of independence
-          feedback: This is incorrect. A chi-squared test of independence is used
-            to determine if there is an association between two categorical variables.
-        ans3:
-          value: A chi-squared test of homogeneity
-          feedback: Good Job!
-        ans4:
-          value: None of the above
-          feedback: This is incorrect.
-      scenario2: An economist is deriving a model to predict outcomes on the stock
-        market. They create a list of expected points on the stock market index for
-        the next two weeks. At the close of each day’s trading, The economist records
-        the actual points on the index. They want to see how well the model matched
-        what actually happened.
-      part2:
         ans1:
           value: A chi-squared goodness of fit test
           feedback: Good Job!
@@ -83,19 +66,36 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario3: A personal trainer is putting together a weight-lifting program for
-        their clients. For a 90-day program, they expect each client to lift a specific
-        maximum weight each week. As the program goes along, the trainer records the
-        actual maximum weights their clients lifted. They want to know how well their
-        expectations met with what was observed.
-      part3:
+      scenario2: A market researcher wants to see if two different stores have the
+        same distribution of sales throughout the year.
+      part2:
         ans1:
           value: A chi-squared goodness of fit test
-          feedback: Good Job!
+          feedback: This is incorrect. A chi-squared goodness of fit test is used
+            to compare an observed distribution to an expected distribution for a
+            single categorical variable.
         ans2:
           value: A chi-squared test of independence
           feedback: This is incorrect. A chi-squared test of independence is used
             to determine if there is an association between two categorical variables.
+        ans3:
+          value: A chi-squared test of homogeneity
+          feedback: Good Job!
+        ans4:
+          value: None of the above
+          feedback: This is incorrect.
+      scenario3: A pharmaceutical company is interested in the relationship between
+        age and presentation of symptoms for a common viral infection. A random sample
+        is taken of 500 people with the infection across different age groups.
+      part3:
+        ans1:
+          value: A chi-squared goodness of fit test
+          feedback: This is incorrect. A chi-squared goodness of fit test is used
+            to compare an observed distribution to an expected distribution for a
+            single categorical variable.
+        ans2:
+          value: A chi-squared test of independence
+          feedback: Good Job!
         ans3:
           value: A chi-squared test of homogeneity
           feedback: This is incorrect. A chi-squared test of homogeneity is used to

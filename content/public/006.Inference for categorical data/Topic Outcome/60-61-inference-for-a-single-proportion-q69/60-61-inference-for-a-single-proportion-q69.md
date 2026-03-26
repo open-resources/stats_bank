@@ -69,13 +69,13 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1180
-        p: 52.0
+        n: 1834
+        p: 64.0
         confidence_level: 98.0
-        lower_bound: 0.4862
-        lower_bound_percent: 49
-        upper_bound: 0.5538
-        upper_bound_percent: 55
+        lower_bound: 0.6139
+        lower_bound_percent: 61
+        upper_bound: 0.6661
+        upper_bound_percent: 67
       part1:
         ans1:
           value: Yes. The sample is a perfect representation of all high school seniors.
