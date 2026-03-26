@@ -64,14 +64,14 @@ myst:
     params:
       vars:
         title: Sedan Mileage
-      n1: 40
-      xbar1: 20
+      n1: 31
+      xbar1: 32
       sx1: 5
-      sigma1: 4
-      n2: 19
-      xbar2: 21
-      sx2: 10
-      sigma2: 9
+      sigma1: 2
+      n2: 16
+      xbar2: 30
+      sx2: 5
+      sigma2: 5
       part1:
         ans1:
           value: two means, unknown variances
@@ -140,21 +140,21 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.1
+      alpha: 0.01
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.1
+          value: Reject the null hypothesis because the p-value is less than 0.01
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.1
+            than 0.01
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.1
+          value: Reject the null hypothesis because the p-value is greater than 0.01
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.1
+            0.01
           feedback: Try again
 ---
 # {{ params.vars.title }}

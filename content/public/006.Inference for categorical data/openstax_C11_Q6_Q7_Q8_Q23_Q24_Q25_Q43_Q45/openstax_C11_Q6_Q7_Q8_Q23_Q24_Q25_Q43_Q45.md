@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: A meteorologist wants to know if East and West Australia have the
-        same distribution of storms.
+      scenario1: A market researcher wants to see if two different stores have the
+        same distribution of sales throughout the year.
       part1:
         ans1:
           value: A chi-squared goodness of fit test
@@ -62,11 +62,11 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario2: A personal trainer is putting together a weight-lifting program for
-        their clients. For a 90-day program, they expect each client to lift a specific
-        maximum weight each week. As the program goes along, the trainer records the
-        actual maximum weights their clients lifted. They want to know how well their
-        expectations met with what was observed.
+      scenario2: An economist is deriving a model to predict outcomes on the stock
+        market. They create a list of expected points on the stock market index for
+        the next two weeks. At the close of each day’s trading, The economist records
+        the actual points on the index. They want to see how well the model matched
+        what actually happened.
       part2:
         ans1:
           value: A chi-squared goodness of fit test
@@ -83,18 +83,19 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario3: The owner of a baseball team is interested in the relationship between
-        player salaries and team winning percentage. They take a random sample of
-        100 players from different organizations.
+      scenario3: A personal trainer is putting together a weight-lifting program for
+        their clients. For a 90-day program, they expect each client to lift a specific
+        maximum weight each week. As the program goes along, the trainer records the
+        actual maximum weights their clients lifted. They want to know how well their
+        expectations met with what was observed.
       part3:
         ans1:
           value: A chi-squared goodness of fit test
-          feedback: This is incorrect. A chi-squared goodness of fit test is used
-            to compare an observed distribution to an expected distribution for a
-            single categorical variable.
+          feedback: Good Job!
         ans2:
           value: A chi-squared test of independence
-          feedback: Good Job!
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
         ans3:
           value: A chi-squared test of homogeneity
           feedback: This is incorrect. A chi-squared test of homogeneity is used to

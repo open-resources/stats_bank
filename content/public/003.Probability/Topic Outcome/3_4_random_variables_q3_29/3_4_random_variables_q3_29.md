@@ -41,10 +41,10 @@ myst:
       vars:
         title: College smokers
       part1:
-        num1: 96
+        num1: 104
       part2:
-        start_hour: 5
-        before_start_hour: 4
+        start_hour: 10
+        before_start_hour: 9
         waiting_students: 28
         ans1:
           value: 'No'
@@ -54,7 +54,7 @@ myst:
           feedback: Incorrect. These students are not a random sample from the university's
             student population.
       description:
-        perc_smokers: 19
+        perc_smokers: 8
 ---
 # {{ params.vars.title }}
 At a university, ${{ params.description.perc_smokers }}$% of students smoke.
