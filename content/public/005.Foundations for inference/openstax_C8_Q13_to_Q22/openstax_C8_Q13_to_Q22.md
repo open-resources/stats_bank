@@ -83,10 +83,10 @@ myst:
       vars:
         title: Weight of Heads of Lettuce
       x_bar: 2.3
-      sigma: 0.2
-      sample_stdev: 0.1
-      sample_size: 24
-      other_sample_size: 48
+      sigma: 0.12
+      sample_stdev: 0.09
+      sample_size: 14
+      other_sample_size: 28
       alpha1: 0.01
       confidence1: 99
       z_score1: 2.5758293035489004
@@ -105,12 +105,12 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 24 heads of lettuce.
+          matches: The mean weight of a sample of 14 heads of lettuce.
       part6:
         option1:
-          value: $\text{CL} = 95\%$
-        option2:
           value: $\text{CL} = 98\%$
+        option2:
+          value: $\text{CL} = 95\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 99\%$
@@ -164,12 +164,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 48 heads of lettuce were sampled instead of
-            24, and the margin of error remained the same?
+          value: What would happen if 28 heads of lettuce were sampled instead of
+            14, and the margin of error remained the same?
           matches: CL-Increase
         statement2:
-          value: What would happen if 48 heads of lettuce were sampled instead of
-            24, and the confidence level remained the same?
+          value: What would happen if 28 heads of lettuce were sampled instead of
+            14, and the confidence level remained the same?
           matches: MoE-Decrease
 ---
 # {{ params.vars.title }}

@@ -61,12 +61,12 @@ myst:
     params:
       vars:
         title: College smokers
-        n: 166
-        x: 30
-        CI_low: 12.219
-        CI_high: 23.926
-        n_new: 1422.0
-        ME_description: 2
+        n: 233
+        x: 24
+        CI_low: 6.397
+        CI_high: 14.203
+        n_new: 3550.0
+        ME_description: 1
 ---
 # {{ params.vars.title }}
 We are interested in estimating the proportion of students at a university who smoke. Out of a random sample of {{ params.vars.n }} students from this university, {{ params.vars.x }} students smoke.

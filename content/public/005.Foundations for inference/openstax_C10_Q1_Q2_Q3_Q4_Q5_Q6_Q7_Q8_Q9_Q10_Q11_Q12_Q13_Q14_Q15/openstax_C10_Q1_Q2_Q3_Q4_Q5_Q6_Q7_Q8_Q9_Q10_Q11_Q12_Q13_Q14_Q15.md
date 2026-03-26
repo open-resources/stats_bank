@@ -43,35 +43,13 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: It is believed that 70% of men pass their drivers test in the first
-        attempt, while 65% of women pass the test in the first attempt. Of interest
-        is whether the proportions are in fact equal.
-      part1:
-        ans1:
-          value: two means, known variances
-          feedback: Try Again!
-        ans2:
-          value: two means, unknown variances
-          feedback: Try Again!
-        ans3:
-          value: single mean
-          feedback: Try Again!
-        ans4:
-          value: two proportions
-          feedback: Good Job!
-        ans5:
-          value: single proportion
-          feedback: Try Again!
-        ans6:
-          value: matched or paired samples
-          feedback: Try Again!
-      scenario2: The league mean batting average is 0.280 with a known standard deviation
+      scenario1: The league mean batting average is 0.280 with a known standard deviation
         of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
         average for a sample of eight Rattlers is 0.210, and the mean batting average
         for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
         and 19 players on the Vikings. Are the batting averages of the Rattlers and
         Vikings statistically different?
-      part2:
+      part1:
         ans1:
           value: two means, known variances
           feedback: Good Job!
@@ -90,22 +68,46 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A new laundry detergent is tested on consumers. Of interest is the
-        proportion of consumers who prefer the new brand over the leading competitor.
-        A study is done to test this.
+      scenario2: A new windshield treatment claims to repel water more effectively.
+        Ten windshields are tested by simulating rain without the new treatment. The
+        same windshields are then treated, and the experiment is run again. A hypothesis
+        test is conducted.
+      part2:
+        ans1:
+          value: two means, known variances
+          feedback: Try Again!
+        ans2:
+          value: two means, unknown variances
+          feedback: Try Again!
+        ans3:
+          value: single mean
+          feedback: Try Again!
+        ans4:
+          value: two proportions
+          feedback: Try Again!
+        ans5:
+          value: single proportion
+          feedback: Try Again!
+        ans6:
+          value: matched or paired samples
+          feedback: Good Job!
+      scenario3: It is believed that the average grade on an English essay in a particular
+        school system for women is higher than for men. A random sample of 31 women
+        had a mean score of 82 with a standard deviation of three, and a random sample
+        of 25 men had a mean score of 76 with a standard deviation of four.
       part3:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!

@@ -60,31 +60,31 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>9</td>
-        <td>21</td>
+        <td>3</td>
+        <td>12</td>
         </tr><tr>
         <th>Summer</th>
-        <td>12</td>
-        <td>29</td>
+        <td>6</td>
+        <td>23</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>14</td>
-        <td>33</td>
+        <td>12</td>
+        <td>46</td>
         </tr><tr>
         <th>Winter</th>
-        <td>7</td>
-        <td>17</td>
+        <td>5</td>
+        <td>19</td>
         </tr>
         </table>
       graph_instructions:
       - The plot should have a main title of 'Birthdays in Each Season'.
-      - The x-axis should be labeled 'Number of students'.
-      - The y-axis should be labeled 'Season'.
+      - The x-axis should be labeled 'Season'.
+      - The y-axis should be labeled 'Number of students'.
       - The bars should be appropriately labelled.
       - The bars should be colored red.
-      - The bars should have a purple border.
-      - The bars should have a density of 9.
-      - The plot should be horizontal.
+      - The bars should have a orange border.
+      - The bars should have a density of 7.
+      - The plot should be vertical.
       description: The students in Ms. Ramirez’s math class have birthdays in each
         of the four seasons. The table below shows the four seasons, the number of
         students who have birthdays in each season, and the proportion (%) of students
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 9
+        - 3
+        - 6
         - 12
-        - 14
-        - 7
+        - 5
         title: Birthdays in Each Season
-        xlab: Number of students
-        ylab: Season
+        xlab: Season
+        ylab: Number of students
         color: red
-        border: purple
-        density: 9
-        horiz: 'True'
-        std_plot: std_4r34xiba_plot.png
-        ref_plot: ref_vi6kugg__plot.png
+        border: orange
+        density: 7
+        horiz: 'False'
+        std_plot: std_fat319ab_plot.png
+        ref_plot: ref_deicqr54_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_4r34xiba_plot.png
+        filename: std_fat319ab_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_vi6kugg__plot.png
+        filename: ref_deicqr54_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

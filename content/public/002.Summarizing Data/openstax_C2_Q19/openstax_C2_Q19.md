@@ -53,8 +53,8 @@ myst:
     params:
       vars:
         title: Depth of Hunger
-        color: darkgreen
-        color_inst: The color of the frequency polygon should be darkgreen.
+        color: false
+        color_inst: The frequency polygon should not be filled.
       table: |-
         <table style="width:100%">
         <tr>
@@ -62,53 +62,53 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>22</td>
+        <td>17</td>
         </tr><tr>
         <td>260–289</td>
-        <td>13</td>
+        <td>23</td>
         </tr><tr>
         <td>290–319</td>
         <td>5</td>
         </tr><tr>
         <td>320–349</td>
-        <td>10</td>
+        <td>13</td>
         </tr><tr>
         <td>350–379</td>
-        <td>2</td>
+        <td>0</td>
         </tr><tr>
         <td>380–409</td>
         <td>2</td>
         </tr><tr>
         <td>410–439</td>
-        <td>1</td>
+        <td>0</td>
         </tr>
         </table>
       _workspace_files:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,22
-          260–289,13
+          230–259,17
+          260–289,23
           290–319,5
-          320–349,10
-          350–379,2
+          320–349,13
+          350–379,0
           380–409,2
-          410–439,1
+          410–439,0
       autograding:
-        std_plot: std_olmcy5tl_plot.png
-        ref_plot: ref_3j4kwjhx_plot.png
+        std_plot: std_da3t1nyb_plot.png
+        ref_plot: ref_5xtpopxe_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_olmcy5tl_plot.png
+        filename: std_da3t1nyb_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref_3j4kwjhx_plot.png
+        filename: ref_5xtpopxe_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDEzCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwxMAozNTDigJMzNzksMgozODDigJM0MDksMgo0MTDigJM0MzksMQo=
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTcKMjYw4oCTMjg5LDIzCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwxMwozNTDigJMzNzksMAozODDigJM0MDksMgo0MTDigJM0MzksMAo=
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjIKMjYw4oCTMjg5LDEzCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwxMAozNTDigJMzNzksMgozODDigJM0MDksMgo0MTDigJM0MzksMQo=
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTcKMjYw4oCTMjg5LDIzCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSwxMwozNTDigJMzNzksMAozODDigJM0MDksMgo0MTDigJM0MzksMAo=
 ---
 # {{ params.vars.title }}
 

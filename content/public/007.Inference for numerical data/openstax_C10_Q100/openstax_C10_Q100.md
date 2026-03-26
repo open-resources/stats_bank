@@ -64,10 +64,10 @@ myst:
     params:
       vars:
         title: Physical Science Degrees
-      white_degrees: 4789
-      white_physical: 515
-      black_degrees: 301
-      black_physical: 44
+      white_degrees: 4508
+      white_physical: 543
+      black_degrees: 373
+      black_physical: 37
       part1:
         ans1:
           value: two means, unknown variances
@@ -143,11 +143,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.1
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.1
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
