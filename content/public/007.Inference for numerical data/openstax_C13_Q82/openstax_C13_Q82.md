@@ -55,48 +55,48 @@ myst:
         <th>Third Coinage</th>
         <th>Fourth Coinage</th>
         </tr><tr>
-        <td>6.5</td>
-        <td>7.2</td>
-        <td>4.6</td>
         <td>6.2</td>
-        </tr><tr>
-        <td>7.3</td>
-        <td>7.6</td>
-        <td>5.0</td>
+        <td>8.8</td>
+        <td>4.8</td>
         <td>5.4</td>
         </tr><tr>
-        <td>7.7</td>
-        <td>8.6</td>
-        <td>4.8</td>
-        <td>5.8</td>
+        <td>7.0</td>
+        <td>7.5</td>
+        <td>5.9</td>
+        <td>6.0</td>
         </tr><tr>
-        <td>7.3</td>
+        <td>6.2</td>
         <td>8.0</td>
         <td>5.1</td>
-        <td>5.7</td>
+        <td>5.5</td>
         </tr><tr>
-        <td>6.8</td>
-        <td>8.9</td>
+        <td>7.1</td>
+        <td>8.1</td>
         <td>5.2</td>
-        <td>5.3</td>
+        <td>5.5</td>
         </tr><tr>
+        <td>6.4</td>
         <td></td>
-        <td>10.3</td>
-        <td>5.1</td>
-        <td>5.7</td>
-        </tr><tr>
-        <td></td>
-        <td>6.6</td>
-        <td></td>
+        <td>4.9</td>
         <td>5.0</td>
         </tr><tr>
+        <td>6.1</td>
         <td></td>
-        <td>7.3</td>
-        <td></td>
-        <td>5.2</td>
+        <td>4.0</td>
+        <td>5.1</td>
         </tr><tr>
+        <td>7.2</td>
         <td></td>
-        <td>7.6</td>
+        <td></td>
+        <td></td>
+        </tr><tr>
+        <td>7.4</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr><tr>
+        <td>6.4</td>
+        <td></td>
         <td></td>
         <td></td>
         </tr>
@@ -111,16 +111,16 @@ myst:
         <th>Fourth Coinage</th>
         </tr><tr>
         <th>Mean</th>
-        <td>$7.12$</td>
-        <td>$8.0111$</td>
-        <td>$4.9667$</td>
-        <td>$5.5375$</td>
+        <td>$6.6667$</td>
+        <td>$8.1$</td>
+        <td>$4.9833$</td>
+        <td>$5.4167$</td>
         </tr><tr>
         <th>Variance</th>
-        <td>$0.222$</td>
-        <td>$1.2336$</td>
-        <td>$0.0507$</td>
-        <td>$0.1484$</td>
+        <td>$0.2525$</td>
+        <td>$0.2867$</td>
+        <td>$0.3817$</td>
+        <td>$0.1257$</td>
         </tr>
         </table>
       first_sample: null
@@ -130,10 +130,10 @@ myst:
       means: null
       variances: null
       significance_level: 10
-      first_len: 5
-      second_len: 9
+      first_len: 9
+      second_len: 4
       third_len: 6
-      fourth_len: 8
+      fourth_len: 6
       part1:
         ans1:
           value: '$H_0: \forall i\ne j: \mu_i = \mu_j$ and $H_A: \exists i\ne j: \mu_i
@@ -167,20 +167,20 @@ myst:
         <th>F Statistic</th>
         </tr><tr>
         <th>Between Groups</th>
-        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="43.9896" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="28.9617" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td><pl-integer-input answers-name="part2_between_df_value" correct-answer="3" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="14.6632" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="29.2072" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="9.6539" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="37.4275" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         </tr><tr>
         <th>Within Groups</th>
-        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="12.0490" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="24" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.5020" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="5.4167" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="21" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.2579" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td></td>
         </tr><tr>
         <th>Total</th>
-        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="56.0386" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="27" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="34.3784" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="24" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
         <td></td>
         <td></td>
         </tr>

@@ -43,17 +43,16 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: It is thought that teenagers sleep more than adults on average. A
-        study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours
-        slept and a standard deviation of 1.2. A sample of 12 adults has a mean of
-        6.9 hours slept and a standard deviation of 0.6.
+      scenario1: A new medicine is said to help improve sleep. Eight subjects are
+        picked at random and given the medicine. The means hours slept for each person
+        were recorded before starting the medication and after.
       part1:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!
@@ -65,18 +64,20 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Try Again!
-      scenario2: It is believed that the average grade on an English essay in a particular
-        school system for women is higher than for men. A random sample of 31 women
-        had a mean score of 82 with a standard deviation of three, and a random sample
-        of 25 men had a mean score of 76 with a standard deviation of four.
+          feedback: Good Job!
+      scenario2: The league mean batting average is 0.280 with a known standard deviation
+        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
+        average for a sample of eight Rattlers is 0.210, and the mean batting average
+        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
+        and 19 players on the Vikings. Are the batting averages of the Rattlers and
+        Vikings statistically different?
       part2:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!

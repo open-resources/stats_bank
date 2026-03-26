@@ -67,30 +67,30 @@ myst:
     params:
       vars:
         title: Burger Preferences
-      num1: 9
-      num2: 12
-      num3: 21
-      num4: 169
-      num5: 184
-      num6: 353
-      num7: 9
-      num8: 12
-      num9: 21
-      num10: 25
-      num11: 25
-      num12: 50
-      num13: 4
-      num14: 3
+      num1: 8
+      num2: 11
+      num3: 19
+      num4: 166
+      num5: 191
+      num6: 357
+      num7: 11
+      num8: 17
+      num9: 28
+      num10: 27
+      num11: 27
+      num12: 54
+      num13: 6
+      num14: 1
       num15: 7
-      num16: 28
-      num17: 21
-      num18: 49
-      num19: 11
-      num20: 10
-      num21: 21
-      num22: 255
-      num23: 267
-      num24: 522
+      num16: 24
+      num17: 19
+      num18: 43
+      num19: 20
+      num20: 6
+      num21: 26
+      num22: 262
+      num23: 272
+      num24: 534
       part1:
         ans1:
           value: 'Yes'
