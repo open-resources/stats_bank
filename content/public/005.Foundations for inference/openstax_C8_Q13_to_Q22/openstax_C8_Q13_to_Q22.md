@@ -90,9 +90,9 @@ myst:
       alpha1: 0.05
       confidence1: 95
       z_score1: 1.959963984540054
-      alpha2: 0.01
-      confidence2: 99
-      z_score2: 2.5758293035489004
+      alpha2: 0.02
+      confidence2: 98
+      z_score2: 2.3263478740408408
       part5_confidence: 95
       part5_z_score: 1.959963984540054
       part4:
@@ -110,13 +110,13 @@ myst:
         option1:
           value: $\text{CL} = 90\%$
         option2:
-          value: $\text{CL} = 98\%$
+          value: $\text{CL} = 99\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 95\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 99\%$
+          matches: $\text{CL} = 98\%$
       part7:
         ans1:
           value: The interval is larger because the level of confidence decreased.

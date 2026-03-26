@@ -76,35 +76,35 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>41.5</th>
-        <td>48.1</td>
-        <td>40.7</td>
+        <th>39.4</th>
+        <td>37.3</td>
+        <td>31.4</td>
         </tr><tr>
-        <th>44.7</th>
-        <td>38.7</td>
-        <td>48.4</td>
+        <th>44.1</th>
+        <td>51.5</td>
+        <td>37.1</td>
         </tr><tr>
-        <th>40.5</th>
-        <td>42.9</td>
-        <td>45.1</td>
+        <th>46.4</th>
+        <td>43.8</td>
+        <td>31.0</td>
         </tr><tr>
-        <th>37.7</th>
-        <td>46.0</td>
-        <td>43.3</td>
+        <th>40.0</th>
+        <td>47.4</td>
+        <td>41.1</td>
         </tr><tr>
-        <th>42.9</th>
-        <td>42.0</td>
-        <td>45.5</td>
+        <th>39.9</th>
+        <td>40.5</td>
+        <td>50.1</td>
         </tr><tr>
-        <th>43.0</th>
-        <td>51.2</td>
-        <td>48.1</td>
+        <th>39.7</th>
+        <td>42.8</td>
+        <td>41.0</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 1
+      significance_level: 5
       sample_size: 6
       part1:
         ans1:
@@ -160,18 +160,18 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.05
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.05
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}

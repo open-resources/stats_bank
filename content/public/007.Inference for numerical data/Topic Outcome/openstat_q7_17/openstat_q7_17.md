@@ -63,8 +63,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Correct!
-      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part3:
         ans1:
           value: Paired.

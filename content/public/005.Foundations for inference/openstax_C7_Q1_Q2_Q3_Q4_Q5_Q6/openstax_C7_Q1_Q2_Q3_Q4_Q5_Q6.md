@@ -95,11 +95,11 @@ myst:
       vars:
         title: Personnel Management
       confidence_level: 90
-      sample_size: 20
-      mean: 3.9
-      stdev: 1.0
-      lower_bound: 3.4
-      upper_bound: 4.4
+      sample_size: 17
+      mean: 3.6
+      stdev: 1.1
+      lower_bound: 1.95
+      upper_bound: 5.25
       part8:
         ans1:
           value: The distributions are different accounts for the different probabilities.

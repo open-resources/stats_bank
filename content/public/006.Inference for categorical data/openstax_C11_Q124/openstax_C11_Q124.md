@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: Babies on Airplanes
-      expected_mean: 5
-      sample_mean: 9.1
-      sample_size: 17
-      expected_variance: 13
-      sample_std_dev: 3.1
+      expected_mean: 9
+      sample_mean: 6.2
+      sample_size: 22
+      expected_variance: 14
+      sample_std_dev: 5.1
       part1:
         ans1:
           value: A chi-squared test of a single variance
@@ -79,42 +79,42 @@ myst:
           feedback: Try again!
       part3:
         ans1:
-          value: '$H_0: \sigma = 3.6$, $H_A: \sigma > 3.6$'
+          value: '$H_0: \sigma = 3.7$, $H_A: \sigma > 3.7$'
           feedback: Good Job!
         ans2:
-          value: '$H_0: \sigma = 3.6$, $H_A: \sigma < 3.6$'
+          value: '$H_0: \sigma = 3.7$, $H_A: \sigma < 3.7$'
           feedback: Try again.
         ans3:
-          value: '$H_0: \sigma = 3.6$, $H_A: \sigma \neq 3.6$'
+          value: '$H_0: \sigma = 3.7$, $H_A: \sigma \neq 3.7$'
           feedback: Try again.
         ans4:
-          value: '$H_0: \sigma^2 = 3.6$, $H_A: \sigma^2 > 3.6$'
+          value: '$H_0: \sigma^2 = 3.7$, $H_A: \sigma^2 > 3.7$'
           feedback: Try again.
         ans5:
-          value: '$H_0: \sigma^2 = 3.6$, $H_A: \sigma^2 < 3.6$'
+          value: '$H_0: \sigma^2 = 3.7$, $H_A: \sigma^2 < 3.7$'
           feedback: Try again.
         ans6:
-          value: '$H_0: \sigma^2 = 3.6$, $H_A: \sigma^2 \neq 3.6$'
+          value: '$H_0: \sigma^2 = 3.7$, $H_A: \sigma^2 \neq 3.7$'
           feedback: Try again.
         ans7:
-          value: '$H_0: \sigma = 13$, $H_A: \sigma > 13$'
+          value: '$H_0: \sigma = 14$, $H_A: \sigma > 14$'
           feedback: Try again.
         ans8:
-          value: '$H_0: \sigma = 13$, $H_A: \sigma < 13$'
+          value: '$H_0: \sigma = 14$, $H_A: \sigma < 14$'
           feedback: Try again.
         ans9:
-          value: '$H_0: \sigma = 13$, $H_A: \sigma \neq 13$'
+          value: '$H_0: \sigma = 14$, $H_A: \sigma \neq 14$'
           feedback: Try again.
-      significance_level: 5%
+      significance_level: 1%
       part6:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance
             level
-          feedback: Try again.
+          feedback: Good Job!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than the significance level
-          feedback: Good Job!
+          feedback: Try again.
         ans3:
           value: Reject the null hypothesis because the p-value is greater than the
             significance level

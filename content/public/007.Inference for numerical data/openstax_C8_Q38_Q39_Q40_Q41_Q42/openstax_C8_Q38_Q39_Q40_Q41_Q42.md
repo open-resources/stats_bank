@@ -81,10 +81,10 @@ myst:
     params:
       vars:
         title: Emergency Room Wait Times
-      confidence_level: 95
+      confidence_level: 98
       sample_size: 70
       mean: 1.6
-      stdev: 1.2
+      stdev: 1.5
       part4:
         option0:
           value: The true mean wait time for patients in an emergency room.
@@ -109,11 +109,11 @@ myst:
           value: $\operatorname{N}\left(0, 1\right)$
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}\left(1.6, 1.2\right)$
+          value: $\operatorname{N}\left(1.6, 1.5\right)$
           feedback: Try again please!
       part8:
         ans1:
-          value: We are 95% confident that the true mean wait time is between (lower_bound)
+          value: We are 98% confident that the true mean wait time is between (lower_bound)
             and (upper_bound) hours.
           feedback: Good job!
         ans2:
