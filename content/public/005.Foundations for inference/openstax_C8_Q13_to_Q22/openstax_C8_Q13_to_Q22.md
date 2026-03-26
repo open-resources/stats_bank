@@ -83,10 +83,10 @@ myst:
       vars:
         title: Weight of Heads of Lettuce
       x_bar: 2.5
-      sigma: 0.21
-      sample_stdev: 0.15
-      sample_size: 16
-      other_sample_size: 8.0
+      sigma: 0.25
+      sample_stdev: 0.08
+      sample_size: 14
+      other_sample_size: 28
       alpha1: 0.05
       confidence1: 95
       z_score1: 1.959963984540054
@@ -105,12 +105,12 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 16 heads of lettuce.
+          matches: The mean weight of a sample of 14 heads of lettuce.
       part6:
         option1:
-          value: $\text{CL} = 99\%$
-        option2:
           value: $\text{CL} = 98\%$
+        option2:
+          value: $\text{CL} = 99\%$
         statement1:
           value: CI 1
           matches: $\text{CL} = 95\%$
@@ -164,13 +164,13 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 8.0 heads of lettuce were sampled instead of
-            16, and the margin of error remained the same?
-          matches: CL-Decrease
+          value: What would happen if 28 heads of lettuce were sampled instead of
+            14, and the margin of error remained the same?
+          matches: CL-Increase
         statement2:
-          value: What would happen if 8.0 heads of lettuce were sampled instead of
-            16, and the confidence level remained the same?
-          matches: MoE-Increase
+          value: What would happen if 28 heads of lettuce were sampled instead of
+            14, and the confidence level remained the same?
+          matches: MoE-Decrease
 ---
 # {{ params.vars.title }}
 A sample of {{ params.sample_size }} heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was {{ params.x_bar }} pounds with a standard deviation of {{ params.sample_stdev }} pounds. The population standard deviation is known to be {{ params.sigma }} pounds.

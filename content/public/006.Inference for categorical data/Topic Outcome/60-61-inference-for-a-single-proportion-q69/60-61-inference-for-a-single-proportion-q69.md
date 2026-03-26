@@ -69,12 +69,12 @@ myst:
     params:
       vars:
         title: Study abroad
-        n: 1801
-        p: 55.0
-        confidence_level: 95.0
-        lower_bound: 0.527
-        lower_bound_percent: 53
-        upper_bound: 0.573
+        n: 1293
+        p: 54.0
+        confidence_level: 98.0
+        lower_bound: 0.5078
+        lower_bound_percent: 51
+        upper_bound: 0.5722
         upper_bound_percent: 57
       part1:
         ans1:
@@ -93,19 +93,19 @@ myst:
           feedback: Correct!
       part5:
         ans1:
-          value: 95% confidence means that if we repeated this survey 100 times, 95
+          value: 98% confidence means that if we repeated this survey 100 times, 98
             of the results would fall within this interval.
           feedback: Incorrect.
         ans2:
-          value: 95% confidence means that we are 95% certain that the true proportion
+          value: 98% confidence means that we are 98% certain that the true proportion
             is within this interval.
           feedback: Incorrect.
         ans3:
-          value: 95% confidence means that 95% of the time the true proportion will
+          value: 98% confidence means that 98% of the time the true proportion will
             fall within this interval.
           feedback: Incorrect.
         ans4:
-          value: 95% of such random samples would produce a 95% confidence interval
+          value: 98% of such random samples would produce a 98% confidence interval
             that includes the true proportion.
           feedback: Correct!
       part6:

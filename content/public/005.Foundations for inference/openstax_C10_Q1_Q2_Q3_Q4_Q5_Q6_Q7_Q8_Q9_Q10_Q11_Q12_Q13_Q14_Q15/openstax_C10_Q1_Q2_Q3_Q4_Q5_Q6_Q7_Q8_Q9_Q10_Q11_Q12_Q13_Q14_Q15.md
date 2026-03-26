@@ -43,17 +43,22 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: Varsity athletes practice five times a week, on average.
+      scenario1: The league mean batting average is 0.280 with a known standard deviation
+        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
+        average for a sample of eight Rattlers is 0.210, and the mean batting average
+        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
+        and 19 players on the Vikings. Are the batting averages of the Rattlers and
+        Vikings statistically different?
       part1:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -63,22 +68,17 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: The league mean batting average is 0.280 with a known standard deviation
-        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
-        average for a sample of eight Rattlers is 0.210, and the mean batting average
-        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
-        and 19 players on the Vikings. Are the batting averages of the Rattlers and
-        Vikings statistically different?
+      scenario2: Varsity athletes practice five times a week, on average.
       part2:
         ans1:
           value: two means, known variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Try Again!
+          feedback: Good Job!
         ans4:
           value: two proportions
           feedback: Try Again!

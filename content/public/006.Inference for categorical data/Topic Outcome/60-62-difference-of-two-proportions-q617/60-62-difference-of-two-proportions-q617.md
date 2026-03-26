@@ -40,8 +40,8 @@ myst:
       non_inter_provoc: 16
       total_provoc: 27
       inter_cons: 17
-      non_inter_cons: 15
-      total_cons: 32
+      non_inter_cons: 14
+      total_cons: 31
       part1:
         ans1:
           value: This is not a randomized experiment, and it is unclear whether people

@@ -38,7 +38,7 @@ myst:
       vars:
         title: Car insurance savings
       description:
-        std: 105
+        std: 101
         moe_max: 17
         confidence_level: 0.95
 ---

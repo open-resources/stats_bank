@@ -48,7 +48,7 @@ myst:
       vars:
         title: Website registration
       description:
-        num1: 713
+        num1: 721
         num2: 67
       part1:
         ans1:
@@ -59,24 +59,24 @@ myst:
           feedback: Correct!
       part3:
         ans1:
-          value: The 90% confidence interval is approximately (0.076, 0.1069). We
+          value: The 90% confidence interval is approximately (0.0751, 0.1057). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.6% and 10.69%.
+            who would register under the new design is between 7.51% and 10.57%.
           feedback: Try again please!
         ans2:
-          value: The 90% confidence interval is approximately (0.072, 0.1119). We
+          value: The 90% confidence interval is approximately (0.0711, 0.1107). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.2% and 11.19%.
+            who would register under the new design is between 7.11% and 11.07%.
           feedback: Try again please!
         ans3:
-          value: The 90% confidence interval is approximately (0.072, 0.1069). We
+          value: The 90% confidence interval is approximately (0.0711, 0.1057). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.2% and 10.69%.
+            who would register under the new design is between 7.11% and 10.57%.
           feedback: Try again please!
         ans4:
-          value: The 90% confidence interval is approximately (0.076, 0.1119). We
+          value: The 90% confidence interval is approximately (0.0751, 0.1107). We
             are 90% confident that the true proportion of all first-time visitors
-            who would register under the new design is between 7.6% and 11.19%.
+            who would register under the new design is between 7.51% and 11.07%.
           feedback: Correct!
 ---
 # {{ params.vars.title }}

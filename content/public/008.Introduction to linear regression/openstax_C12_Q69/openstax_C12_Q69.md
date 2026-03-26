@@ -78,19 +78,19 @@ myst:
         <th>Maximum value ($)</th>
         </tr><tr>
         <td>$4$</td>
-        <td>$19$</td>
-        </tr><tr>
-        <td>$14$</td>
         <td>$15$</td>
         </tr><tr>
+        <td>$14$</td>
+        <td>$19$</td>
+        </tr><tr>
         <td>$25$</td>
-        <td>$17$</td>
+        <td>$15$</td>
         </tr><tr>
         <td>$32$</td>
-        <td>$16$</td>
+        <td>$19$</td>
         </tr><tr>
         <td>$43$</td>
-        <td>$19$</td>
+        <td>$16$</td>
         </tr><tr>
         <td>$57$</td>
         <td>$16$</td>
@@ -102,7 +102,7 @@ myst:
         <td>$15$</td>
         </tr><tr>
         <td>$90$</td>
-        <td>$15$</td>
+        <td>$17$</td>
         </tr>
         </table>
       pages:
@@ -116,15 +116,15 @@ myst:
       - 85
       - 90
       values:
+      - 15
       - 19
       - 15
-      - 17
-      - 16
       - 19
       - 16
+      - 16
       - 17
       - 15
-      - 15
+      - 17
       part1:
         ans1:
           value: We wonder if the better discounts appear earlier in the book so we
@@ -142,7 +142,7 @@ myst:
           value: We wonder if the better discounts appear later in the book so we
             select discount as X and page as Y.
           feedback: Try again please!
-      significance: 0.05
+      significance: 0.01
       part5:
         ans1:
           value: There is a significant linear correlation.

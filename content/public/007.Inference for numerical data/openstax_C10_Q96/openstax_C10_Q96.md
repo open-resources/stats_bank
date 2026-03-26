@@ -64,14 +64,14 @@ myst:
     params:
       vars:
         title: Sedan Mileage
-      n1: 32
-      xbar1: 18
-      sx1: 4
-      sigma1: 4
-      n2: 18
-      xbar2: 22
+      n1: 31
+      xbar1: 13
+      sx1: 6
+      sigma1: 3
+      n2: 17
+      xbar2: 35
       sx2: 12
-      sigma2: 5
+      sigma2: 8
       part1:
         ans1:
           value: two means, unknown variances
