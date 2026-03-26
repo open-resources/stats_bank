@@ -76,32 +76,28 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>45.4</th>
-        <td>43.6</td>
-        <td>49.4</td>
+        <th>37.9</th>
+        <td>45.4</td>
+        <td>44.2</td>
         </tr><tr>
-        <th>39.8</th>
-        <td>43.0</td>
-        <td>42.6</td>
+        <th>42.7</th>
+        <td>48.3</td>
+        <td>43.3</td>
         </tr><tr>
-        <th>41.5</th>
-        <td>42.5</td>
-        <td>53.0</td>
+        <th>37.9</th>
+        <td>45.1</td>
+        <td>48.8</td>
         </tr><tr>
-        <th>44.6</th>
-        <td>48.5</td>
-        <td>35.0</td>
-        </tr><tr>
-        <th>44.6</th>
-        <td>45.8</td>
-        <td>41.8</td>
+        <th>41.2</th>
+        <td>47.6</td>
+        <td>49.7</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
       significance_level: 10
-      sample_size: 5
+      sample_size: 4
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -157,11 +153,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.1
-          feedback: Try again!
+          feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.1
-          feedback: Good Job
+          feedback: Try again!
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again

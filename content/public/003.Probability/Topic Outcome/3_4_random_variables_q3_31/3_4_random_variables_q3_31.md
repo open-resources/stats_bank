@@ -83,9 +83,9 @@ myst:
       description:
         num1: 3
         num2: 3
-        num3: 52
+        num3: 55
         num4: 3
-        num5: 27
+        num5: 23
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">

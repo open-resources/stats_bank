@@ -72,15 +72,15 @@ myst:
     params:
       vars:
         title: Sleep habits of New Yorkers
-      confidence_level: 96.0
+      confidence_level: 98.0
       sleep_hours: 8
       description:
-        n: 31
-        sample_mean: 7.51
-        s: 1.47
-        min_val: 5.08
-        max_val: 10.98
-        alpha: 0.02
+        n: 32
+        sample_mean: 7.31
+        s: 1.52
+        min_val: 3.91
+        max_val: 10.86
+        alpha: 0.01
       table1: |-
         <table style="width:400px">
         <tr>
@@ -90,11 +90,11 @@ myst:
         <th>$min$</th>
         <th>$max$</th>
         </tr><tr>
-        <th>$31$</th>
-        <td>$7.51$</td>
-        <td>$1.47$</td>
-        <td>$5.08$</td>
-        <td>$10.98$</td>
+        <th>$32$</th>
+        <td>$7.31$</td>
+        <td>$1.52$</td>
+        <td>$3.91$</td>
+        <td>$10.86$</td>
         </tr>
         </table>
       part1:
@@ -138,15 +138,15 @@ myst:
             population of New Yorkers.
           feedback: Try again please!
         ans3:
-          value: The probability of observing the obtained sample mean 7.51 hours
+          value: The probability of observing the obtained sample mean 7.31 hours
             if New Yorkers, on average, sleep 8 per night.
           feedback: Correct!
         ans4:
-          value: The probability of observing the obtained sample mean of 7.51 hours
-            or more extreme, if New Yorkers, on average, sleep 7.51 hours per night.
+          value: The probability of observing the obtained sample mean of 7.31 hours
+            or more extreme, if New Yorkers, on average, sleep 7.31 hours per night.
           feedback: Try again please!
         ans5:
-          value: The probability of observing the obtained sample mean 7.51 of hours
+          value: The probability of observing the obtained sample mean 7.31 of hours
             or more extreme, if New Yorkers, on average, sleep 8 per night.
           feedback: Try again please!
       part7:
