@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: 'Experimental Design: Sleep Deprivation'
-        num_drivers: 24
+        num_drivers: 26
         hours_deprivation: 25
         treatment_order: The control treatment was trialed first.
         mentioned_test: driving simulation
-        driver_type: new
+        driver_type: professional
       part1:
         option1:
           value: Amount of Sleep Deprivation
@@ -93,26 +93,26 @@ myst:
           value: 25 hours of sleep deprivation
           feedback: Correct!
         ans3:
-          value: 24 hours of sleep deprivation
+          value: 26 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 24 new drivers
+          value: 26 professional drivers
           feedback: Try again please!
         ans5:
-          value: 25 new drivers
+          value: 25 professional drivers
           feedback: Try again please!
       part3:
         ans1:
-          value: 24 new drivers
+          value: 26 professional drivers
           feedback: Correct!
         ans2:
           value: 25 hours of sleep deprivation
           feedback: Try again please!
         ans3:
-          value: 24 hours of sleep deprivation
+          value: 26 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 25 new drivers
+          value: 25 professional drivers
           feedback: Try again please!
       part4:
         ans1:
@@ -143,13 +143,13 @@ myst:
           value: 25 hours of sleep deprivation
           feedback: Try again please! This is a treatment, but not the control.
         ans3:
-          value: 24 hours of sleep deprivation
+          value: 26 hours of sleep deprivation
           feedback: Try again please!
         ans4:
-          value: 24 new drivers
+          value: 26 professional drivers
           feedback: Try again please!
         ans5:
-          value: 25 new drivers
+          value: 25 professional drivers
           feedback: Try again please!
       part7:
         ans1:

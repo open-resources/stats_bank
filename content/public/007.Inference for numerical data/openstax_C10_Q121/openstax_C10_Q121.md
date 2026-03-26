@@ -74,56 +74,56 @@ myst:
         <th>Year 2</th>
         </tr><tr>
         <th>Alabama</th>
-        <td>6190</td>
-        <td>5737</td>
+        <td>3320</td>
+        <td>3890</td>
         </tr><tr>
         <th>Arkansas</th>
-        <td>3570</td>
-        <td>4016</td>
+        <td>3450</td>
+        <td>3457</td>
         </tr><tr>
         <th>Florida</th>
-        <td>15050</td>
-        <td>16541</td>
+        <td>1990</td>
+        <td>2063</td>
         </tr><tr>
         <th>Georgia</th>
-        <td>15540</td>
-        <td>17698</td>
+        <td>15050</td>
+        <td>17752</td>
         </tr><tr>
         <th>Kentucky</th>
-        <td>3320</td>
-        <td>3614</td>
+        <td>3570</td>
+        <td>3281</td>
         </tr><tr>
         <th>Louisiana</th>
-        <td>3450</td>
-        <td>3948</td>
+        <td>7090</td>
+        <td>7236</td>
         </tr><tr>
         <th>Mississippi</th>
-        <td>3160</td>
-        <td>2959</td>
+        <td>6970</td>
+        <td>6516</td>
         </tr><tr>
         <th>North Carolina</th>
-        <td>6970</td>
-        <td>8262</td>
+        <td>2630</td>
+        <td>2376</td>
         </tr><tr>
         <th>Oklahoma</th>
-        <td>2630</td>
-        <td>2970</td>
+        <td>2150</td>
+        <td>2020</td>
         </tr><tr>
         <th>South Carolina</th>
-        <td>1990</td>
-        <td>2133</td>
+        <td>3160</td>
+        <td>3693</td>
         </tr><tr>
         <th>Tennessee</th>
-        <td>2150</td>
-        <td>2461</td>
+        <td>15540</td>
+        <td>14289</td>
         </tr><tr>
         <th>Texas</th>
-        <td>4680</td>
-        <td>5257</td>
+        <td>6190</td>
+        <td>7016</td>
         </tr><tr>
         <th>Virginia</th>
-        <td>7090</td>
-        <td>6922</td>
+        <td>4680</td>
+        <td>4506</td>
         </tr>
         </table>
       year1: null
@@ -199,11 +199,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.1
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.1
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
