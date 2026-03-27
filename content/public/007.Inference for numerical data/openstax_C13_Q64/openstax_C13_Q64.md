@@ -76,44 +76,32 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>40.1</th>
-        <td>48.6</td>
-        <td>47.1</td>
+        <th>41.7</th>
+        <td>43.9</td>
+        <td>40.6</td>
         </tr><tr>
-        <th>43.7</th>
-        <td>49.2</td>
-        <td>48.1</td>
+        <th>39.4</th>
+        <td>43.9</td>
+        <td>29.9</td>
         </tr><tr>
-        <th>40.8</th>
-        <td>40.7</td>
-        <td>39.2</td>
-        </tr><tr>
-        <th>41.8</th>
-        <td>46.0</td>
-        <td>40.3</td>
-        </tr><tr>
-        <th>37.6</th>
-        <td>46.3</td>
-        <td>50.7</td>
-        </tr><tr>
-        <th>41.8</th>
-        <td>44.3</td>
-        <td>46.4</td>
-        </tr><tr>
-        <th>43.6</th>
-        <td>38.8</td>
+        <th>42.4</th>
+        <td>45.7</td>
         <td>49.4</td>
         </tr><tr>
-        <th>45.6</th>
-        <td>50.0</td>
-        <td>47.4</td>
+        <th>41.3</th>
+        <td>45.9</td>
+        <td>44.7</td>
+        </tr><tr>
+        <th>42.3</th>
+        <td>47.9</td>
+        <td>43.2</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 1
-      sample_size: 8
+      significance_level: 5
+      sample_size: 5
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -168,18 +156,18 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.05
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.05
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.05
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.05
           feedback: Try again
 ---
 # {{ params.vars.title }}

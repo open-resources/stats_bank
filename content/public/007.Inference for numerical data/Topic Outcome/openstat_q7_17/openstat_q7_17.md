@@ -44,18 +44,17 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+      selected_scenario_part1: Evaluate the effects of a meditation program on stress
+        levels by comparing measurements before and after the program duration.
       part1:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part2: Measure changes in blood pressure before and after
-        a 6-month exercise program for the same individuals.
+          feedback: Incorrect!
+      selected_scenario_part2: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part2:
         ans1:
           value: Paired.
@@ -63,8 +62,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part3: Compare pre-test (beginning of semester) and post-test
+        (end of semester) scores of students.
       part3:
         ans1:
           value: Paired.
@@ -72,8 +71,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part4: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part4:
         ans1:
           value: Paired.

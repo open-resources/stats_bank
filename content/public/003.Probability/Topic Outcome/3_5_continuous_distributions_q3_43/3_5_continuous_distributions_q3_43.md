@@ -57,10 +57,10 @@ myst:
       vars:
         title: Cost of breakfast
       description:
-        num1: '1.27'
-        std: '0.16'
-        num2: '2.64'
-        num3: '0.11'
+        num1: '1.38'
+        std: '0.40'
+        num2: '2.72'
+        num3: '0.13'
 ---
 # {{ params.vars.title }}
 <div class="mathjax_ignore">
