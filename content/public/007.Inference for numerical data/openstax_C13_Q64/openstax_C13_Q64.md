@@ -76,29 +76,29 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>36.4</th>
-        <td>42.5</td>
-        <td>49.5</td>
-        </tr><tr>
-        <th>40.9</th>
-        <td>42.3</td>
-        <td>48.7</td>
-        </tr><tr>
-        <th>39.1</th>
-        <td>46.0</td>
-        <td>48.2</td>
-        </tr><tr>
-        <th>40.8</th>
-        <td>41.3</td>
-        <td>39.8</td>
-        </tr><tr>
-        <th>45.2</th>
-        <td>40.4</td>
-        <td>51.2</td>
-        </tr><tr>
-        <th>38.2</th>
-        <td>40.9</td>
+        <th>47.9</th>
         <td>44.8</td>
+        <td>38.5</td>
+        </tr><tr>
+        <th>38.4</th>
+        <td>40.0</td>
+        <td>52.5</td>
+        </tr><tr>
+        <th>34.7</th>
+        <td>39.6</td>
+        <td>56.4</td>
+        </tr><tr>
+        <th>43.7</th>
+        <td>44.5</td>
+        <td>48.9</td>
+        </tr><tr>
+        <th>39.9</th>
+        <td>42.2</td>
+        <td>43.7</td>
+        </tr><tr>
+        <th>48.5</th>
+        <td>44.5</td>
+        <td>48.1</td>
         </tr>
         </table>
       linda_sample: null
@@ -161,11 +161,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.1
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.1
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again

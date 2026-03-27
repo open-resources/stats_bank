@@ -40,24 +40,24 @@ myst:
     params:
       vars:
         title: Population Age Demographics Boxplot
-      country: France
-      percent_senior: 13.3
+      country: U.S.
+      percent_senior: 12.7
       median: 41
       q1: 17
-      q3: 55
+      q3: 59
       whislow: 0
-      whishigh: 111
+      whishigh: 100
       part1:
         ans1:
           value: more children
           feedback: Correct! The left whisker shows that 25% of the population are
             children 17 and younger. The right whisker shows that 25% of the population
-            are adults 55 and older, so adults 65 and over represent less than 25%.
+            are adults 59 and older, so adults 65 and over represent less than 25%.
         ans2:
           value: fewer children
           feedback: 'Hint: the left whisker shows that 25% of the population are children
             17 and younger. The right whisker shows that 25% of the population are
-            adults 55 and older.'
+            adults 59 and older.'
 ---
 # {{ params.vars.title }}
 The following box plot shows the {{ params.country }} population for a certain year.

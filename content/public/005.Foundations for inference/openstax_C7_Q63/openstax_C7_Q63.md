@@ -51,10 +51,10 @@ myst:
     params:
       vars:
         title: Tax Returns
-      mean: 8.42
-      stdev: 2.34
-      sample_size: 42
-      confidence_level: 99
+      mean: 10.63
+      stdev: 1.25
+      sample_size: 43
+      confidence_level: 90
       part1:
         statement1:
           value: $X$
@@ -62,28 +62,28 @@ myst:
             in hours.
         statement2:
           value: $\bar{X}$
-          matches: The mean length of time for a sample of 42 taxpayers to complete
+          matches: The mean length of time for a sample of 43 taxpayers to complete
             IRS form 1040, in hours.
         option1:
-          value: The mean length of time for a sample of 41 taxpayers to complete
+          value: The mean length of time for a sample of 42 taxpayers to complete
             IRS form 1040, in hours.
         option2:
           value: The mean length of time for all taxpayers to complete IRS form 1040,
             in hours.
         option3:
-          value: The length of time for a sample of 42 taxpayers to complete IRS form
+          value: The length of time for a sample of 43 taxpayers to complete IRS form
             1040, in hours.
         option4:
           value: The length of time for an individual to complete IRS form 1040, in
             minutes.
         option5:
-          value: The mean length of time for a sample of 42 taxpayers to complete
+          value: The mean length of time for a sample of 43 taxpayers to complete
             IRS form 1040, in minutes.
         option6:
-          value: The mean length of time for a sample of 41 taxpayers to complete
+          value: The mean length of time for a sample of 42 taxpayers to complete
             IRS form 1040, in minutes.
       direction: less
-      value: 3.74
+      value: 9.38
       part3:
         ans1:
           value: Yes, I would be surprised because the p-value is less than 0.05.
@@ -107,13 +107,13 @@ myst:
       part4:
         ans1:
           value: Yes, I would be surprised because the probability is less than 0.05.
-          feedback: Correct! It would be surprising to get an individual value that
-            far from the population mean.
+          feedback: Incorrect. It would not be surprising to get an individual value
+            that far from the population mean.
         ans2:
           value: No, I would not be surprised because the probability is greater than
             0.05.
-          feedback: Incorrect. It would be surprising to get an individual value that
-            far from the population mean.
+          feedback: Correct! It would not be surprising to get an individual value
+            that far from the population mean.
         ans3:
           value: Yes, I would be surprised because the probability is greater than
             0.05.

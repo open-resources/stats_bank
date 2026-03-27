@@ -43,9 +43,10 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: A new laundry detergent is tested on consumers. Of interest is the
-        proportion of consumers who prefer the new brand over the leading competitor.
-        A study is done to test this.
+      scenario1: A new windshield treatment claims to repel water more effectively.
+        Ten windshields are tested by simulating rain without the new treatment. The
+        same windshields are then treated, and the experiment is run again. A hypothesis
+        test is conducted.
       part1:
         ans1:
           value: two means, known variances
@@ -58,40 +59,39 @@ myst:
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Good Job!
+          feedback: Try Again!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Try Again!
-      scenario2: It is thought that teenagers sleep more than adults on average. A
-        study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours
-        slept and a standard deviation of 1.2. A sample of 12 adults has a mean of
-        6.9 hours slept and a standard deviation of 0.6.
+          feedback: Good Job!
+      scenario2: It is believed that 70% of men pass their drivers test in the first
+        attempt, while 65% of women pass the test in the first attempt. Of interest
+        is whether the proportions are in fact equal.
       part2:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A sample of 12 in-state graduate school programs at school A has
-        a mean tuition of $64,000 with a standard deviation of $8,000. At school B,
-        a sample of 16 in-state graduate programs has a mean of $80,000 with a standard
-        deviation of $6,000. On average, are the mean tuitions different?
+      scenario3: It is believed that the average grade on an English essay in a particular
+        school system for women is higher than for men. A random sample of 31 women
+        had a mean score of 82 with a standard deviation of three, and a random sample
+        of 25 men had a mean score of 76 with a standard deviation of four.
       part3:
         ans1:
           value: two means, known variances
