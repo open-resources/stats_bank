@@ -60,20 +60,20 @@ myst:
         <th>Proportion of population (%)</th>
         </tr><tr>
         <th>Spring</th>
-        <td>7</td>
-        <td>16</td>
+        <td>5</td>
+        <td>13</td>
         </tr><tr>
         <th>Summer</th>
-        <td>14</td>
-        <td>32</td>
+        <td>11</td>
+        <td>29</td>
         </tr><tr>
         <th>Autumn</th>
-        <td>10</td>
-        <td>23</td>
+        <td>15</td>
+        <td>39</td>
         </tr><tr>
         <th>Winter</th>
-        <td>13</td>
-        <td>30</td>
+        <td>7</td>
+        <td>18</td>
         </tr>
         </table>
       graph_instructions:
@@ -81,8 +81,8 @@ myst:
       - The x-axis should be labeled 'Season'.
       - The y-axis should be labeled 'Proportion (%)'.
       - The bars should be appropriately labelled.
-      - The bars should be colored darkgreen.
-      - The bars should have a blue border.
+      - The bars should be colored purple.
+      - The bars should have a red border.
       - The bars should have a density of 10.
       - The plot should be vertical.
       description: The students in Ms. Ramirez’s math class have birthdays in each
@@ -96,25 +96,25 @@ myst:
         - Autumn
         - Winter
         x:
-        - 16
-        - 32
-        - 23
-        - 30
+        - 13
+        - 29
+        - 39
+        - 18
         title: Birthdays in Each Season
         xlab: Season
         ylab: Proportion (%)
-        color: darkgreen
-        border: blue
+        color: purple
+        border: red
         density: 10
         horiz: 'False'
-        std_plot: std_hza0p55w_plot.png
-        ref_plot: ref_1p38zcxf_plot.png
+        std_plot: std_7_dfjo4w_plot.png
+        ref_plot: ref_0k4n40v2_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_hza0p55w_plot.png
+        filename: std_7_dfjo4w_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_1p38zcxf_plot.png
+        filename: ref_0k4n40v2_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

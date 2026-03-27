@@ -44,8 +44,9 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part1: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part1:
         ans1:
           value: Paired.
@@ -62,8 +63,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part3: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part4: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part4: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part4:
         ans1:
           value: Paired.

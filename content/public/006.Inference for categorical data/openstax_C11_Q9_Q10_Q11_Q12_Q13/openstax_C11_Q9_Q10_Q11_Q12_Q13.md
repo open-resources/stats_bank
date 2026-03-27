@@ -72,19 +72,19 @@ myst:
         </tr><tr>
         <th>A</th>
         <td>4</td>
-        <td>3</td>
+        <td>7</td>
         </tr><tr>
         <th>B</th>
+        <td>5</td>
         <td>7</td>
-        <td>8</td>
         </tr><tr>
         <th>C</th>
-        <td>5</td>
+        <td>6</td>
         <td>4</td>
         </tr><tr>
         <th>D</th>
         <td>2</td>
-        <td>3</td>
+        <td>0</td>
         </tr>
         </table>
       var_array: null

@@ -49,38 +49,41 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 102
-      sample_size2: 101
-      p: 10
-      p_hat: 15
-      college_students: 142
-      college_students2: 284
+      sample_size: 89
+      sample_size2: 107
+      p: 8
+      p_hat: 13
+      college_students: 128
+      college_students2: 256
       part1:
         ans1:
           value: True. This statement satisfies the success-failure condition.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: False. The distribution is not normal since it does not satisfy the
             success-failure condition.
-          feedback: Incorrect!
+          feedback: Correct!
       part2:
         ans1:
-          value: False. The distribution is not right skewed because the success-failure
-            condition is met.
-          feedback: Correct.
+          value: False. The distribution is not skewed as the success-failure condition
+            is met.
+          feedback: Incorrect.
         ans2:
           value: True. The distribution is right skewed because the success-failure
             condition is not met.
-          feedback: Incorrect!
+          feedback: Correct! In most samples we would expect $\hat{p}$ to be close
+            to 0.08, the true population proportion. While $\hat{p}$ can be much above
+            0.08, it is bound below by 0, suggesting it would take on a right skewed
+            shape.
       part3:
         ans1:
           value: True. The difference between the sample proportion and the population
-            proportion is not significantly large.
-          feedback: Incorrect.
+            proportion is significantly large.
+          feedback: Correct.
         ans2:
           value: False. The difference between the sample proportion and the population
-            proportion is significantly large.
-          feedback: Correct!
+            proportion is not significantly large.
+          feedback: Incorrect!
       part4:
         ans1:
           value: True. The sample is unusual as the proportion is significantly different
