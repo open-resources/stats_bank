@@ -56,14 +56,14 @@ myst:
       vars:
         title: Scatterplot Linearity
       correlations:
-      - 0.05
-      - 0.6
-      - 0.45
-      - -0.91
+      - 0.92
+      - -0.54
+      - 0.06
+      - 0.49
       part1:
         ans1:
           value: Plot 1
-          feedback: Incorrect.
+          feedback: Correct!
         ans2:
           value: Plot 2
           feedback: Correct!
@@ -72,15 +72,18 @@ myst:
           feedback: Incorrect.
         ans4:
           value: Plot 4
-          feedback: Correct!
+          feedback: Incorrect.
       part2:
         option1:
           value: Plot 1
           name: Plot 1
+        statement1:
+          value: has a strong relationship
+          matches: Plot 1
         option2:
           value: Plot 2
           name: Plot 2
-        statement1:
+        statement2:
           value: has a weak relationship
           matches: Plot 2
         option3:
@@ -89,18 +92,18 @@ myst:
         option4:
           value: Plot 4
           name: Plot 4
-        statement2:
-          value: has a strong relationship
-          matches: Plot 4
       part3:
         option1:
           value: Plot 1
           name: Plot 1
+        statement1:
+          value: has a positive relationship
+          matches: Plot 1
         option2:
           value: Plot 2
           name: Plot 2
-        statement1:
-          value: has a positive relationship
+        statement2:
+          value: has a negative relationship
           matches: Plot 2
         option3:
           value: Plot 3
@@ -108,9 +111,6 @@ myst:
         option4:
           value: Plot 4
           name: Plot 4
-        statement2:
-          value: has a negative relationship
-          matches: Plot 4
 ---
 # {{ params.vars.title }}
 Answer the following questions for each scatterplot:

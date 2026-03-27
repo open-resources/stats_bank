@@ -43,7 +43,9 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: Varsity athletes practice five times a week, on average.
+      scenario1: A new laundry detergent is tested on consumers. Of interest is the
+        proportion of consumers who prefer the new brand over the leading competitor.
+        A study is done to test this.
       part1:
         ans1:
           value: two means, known variances
@@ -53,28 +55,30 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: According to a television commercial, 80% of dentists agree that
-        Ultrafresh toothpaste is the best on the market.
+      scenario2: It is thought that teenagers sleep more than adults on average. A
+        study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours
+        slept and a standard deviation of 1.2. A sample of 12 adults has a mean of
+        6.9 hours slept and a standard deviation of 0.6.
       part2:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -84,17 +88,17 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A new WiFi range booster is being offered to consumers. A researcher
-        tests the native range of 12 different routers under the same conditions.
-        The ranges are recorded. Then the researcher uses the new WiFi range booster
-        and records the new ranges. Does the new WiFi range booster do a better job?
+      scenario3: A sample of 12 in-state graduate school programs at school A has
+        a mean tuition of $64,000 with a standard deviation of $8,000. At school B,
+        a sample of 16 in-state graduate programs has a mean of $80,000 with a standard
+        deviation of $6,000. On average, are the mean tuitions different?
       part3:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
           feedback: Try Again!
@@ -106,7 +110,7 @@ myst:
           feedback: Try Again!
         ans6:
           value: matched or paired samples
-          feedback: Good Job!
+          feedback: Try Again!
 ---
 # {{ params.vars.title }}
 For each of the following scenarios, identify which type of hypothesis test would be most appropriate to use.

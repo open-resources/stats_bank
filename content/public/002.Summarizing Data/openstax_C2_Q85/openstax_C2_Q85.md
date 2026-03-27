@@ -40,13 +40,13 @@ myst:
     params:
       vars:
         title: Population Age Demographics Boxplot
-      country: Mexico
-      percent_senior: 11.9
-      median: 40
+      country: France
+      percent_senior: 13.3
+      median: 41
       q1: 17
       q3: 55
       whislow: 0
-      whishigh: 106
+      whishigh: 111
       part1:
         ans1:
           value: more children

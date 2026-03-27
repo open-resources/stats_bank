@@ -82,19 +82,19 @@ myst:
     params:
       vars:
         title: Weight of Heads of Lettuce
-      x_bar: 2.4
-      sigma: 0.21
-      sample_stdev: 0.14
-      sample_size: 14
-      other_sample_size: 7.0
-      alpha1: 0.02
-      confidence1: 98
-      z_score1: 2.3263478740408408
-      alpha2: 0.05
-      confidence2: 95
-      z_score2: 1.959963984540054
-      part5_confidence: 95
-      part5_z_score: 1.959963984540054
+      x_bar: 2.1
+      sigma: 0.23
+      sample_stdev: 0.24
+      sample_size: 22
+      other_sample_size: 11.0
+      alpha1: 0.01
+      confidence1: 99
+      z_score1: 2.5758293035489004
+      alpha2: 0.02
+      confidence2: 98
+      z_score2: 2.3263478740408408
+      part5_confidence: 98
+      part5_z_score: 2.3263478740408408
       part4:
         option1:
           value: The mean weight of a head of lettuce.
@@ -105,18 +105,18 @@ myst:
           matches: The weight of a head of lettuce.
         statement2:
           value: $\bar{X}$
-          matches: The mean weight of a sample of 14 heads of lettuce.
+          matches: The mean weight of a sample of 22 heads of lettuce.
       part6:
         option1:
-          value: $\text{CL} = 99\%$
+          value: $\text{CL} = 95\%$
         option2:
           value: $\text{CL} = 90\%$
         statement1:
           value: CI 1
-          matches: $\text{CL} = 98\%$
+          matches: $\text{CL} = 99\%$
         statement2:
           value: CI 2
-          matches: $\text{CL} = 95\%$
+          matches: $\text{CL} = 98\%$
       part7:
         ans1:
           value: The interval is larger because the level of confidence decreased.
@@ -164,12 +164,12 @@ myst:
         option6:
           value: The sample size would decrease.
         statement1:
-          value: What would happen if 7.0 heads of lettuce were sampled instead of
-            14, and the margin of error remained the same?
+          value: What would happen if 11.0 heads of lettuce were sampled instead of
+            22, and the margin of error remained the same?
           matches: CL-Decrease
         statement2:
-          value: What would happen if 7.0 heads of lettuce were sampled instead of
-            14, and the confidence level remained the same?
+          value: What would happen if 11.0 heads of lettuce were sampled instead of
+            22, and the confidence level remained the same?
           matches: MoE-Increase
 ---
 # {{ params.vars.title }}

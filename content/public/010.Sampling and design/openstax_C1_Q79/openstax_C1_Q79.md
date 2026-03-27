@@ -42,10 +42,10 @@ myst:
         title: Telephone Survey Participation
       part1:
         ans1:
-          value: Privacy managers
+          value: Decreased willingness to be interviewed
           feedback: Correct! Nice work
         ans2:
-          value: Hectic nature of personal schedules
+          value: Decreased use of landlines
           feedback: Correct! Nice work
         ans3:
           value: Increased use of caller id

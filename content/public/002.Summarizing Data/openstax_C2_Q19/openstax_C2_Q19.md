@@ -62,22 +62,22 @@ myst:
         <th>Frequency</th>
         </tr><tr>
         <td>230–259</td>
-        <td>18</td>
+        <td>24</td>
         </tr><tr>
         <td>260–289</td>
-        <td>11</td>
+        <td>17</td>
         </tr><tr>
         <td>290–319</td>
-        <td>5</td>
+        <td>6</td>
         </tr><tr>
         <td>320–349</td>
-        <td>6</td>
+        <td>12</td>
         </tr><tr>
         <td>350–379</td>
         <td>0</td>
         </tr><tr>
         <td>380–409</td>
-        <td>0</td>
+        <td>1</td>
         </tr><tr>
         <td>410–439</td>
         <td>0</td>
@@ -87,28 +87,28 @@ myst:
       - name: data.csv
         contents: |
           Depth of Hunger,Frequency
-          230–259,18
-          260–289,11
-          290–319,5
-          320–349,6
+          230–259,24
+          260–289,17
+          290–319,6
+          320–349,12
           350–379,0
-          380–409,0
+          380–409,1
           410–439,0
       autograding:
-        std_plot: std_6y8k9z4q_plot.png
-        ref_plot: ref_vdgjz53g_plot.png
+        std_plot: std_dplevbwi_plot.png
+        ref_plot: ref_lhtvdolo_plot.png
       _images:
       - label: Your Frequency Polygon
-        filename: std_6y8k9z4q_plot.png
+        filename: std_dplevbwi_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Frequency Polygon
-        filename: ref_vdgjz53g_plot.png
+        filename: ref_lhtvdolo_plot.png
         part: Check graph is similar to expected graph
       _autograder_files:
       - path: /grade/tests/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTgKMjYw4oCTMjg5LDExCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjQKMjYw4oCTMjg5LDE3CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSwxMgozNTDigJMzNzksMAozODDigJM0MDksMQo0MTDigJM0MzksMAo=
       - path: /grade/student/data.csv
-        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMTgKMjYw4oCTMjg5LDExCjI5MOKAkzMxOSw1CjMyMOKAkzM0OSw2CjM1MOKAkzM3OSwwCjM4MOKAkzQwOSwwCjQxMOKAkzQzOSwwCg==
+        contents: RGVwdGggb2YgSHVuZ2VyLEZyZXF1ZW5jeQoyMzDigJMyNTksMjQKMjYw4oCTMjg5LDE3CjI5MOKAkzMxOSw2CjMyMOKAkzM0OSwxMgozNTDigJMzNzksMAozODDigJM0MDksMQo0MTDigJM0MzksMAo=
 ---
 # {{ params.vars.title }}
 

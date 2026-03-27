@@ -64,14 +64,14 @@ myst:
     params:
       vars:
         title: Sedan Mileage
-      n1: 35
-      xbar1: 22
-      sx1: 2
-      sigma1: 3
-      n2: 17
-      xbar2: 22
+      n1: 23
+      xbar1: 25
+      sx1: 3
+      sigma1: 2
+      n2: 18
+      xbar2: 41
       sx2: 2
-      sigma2: 8
+      sigma2: 9
       part1:
         ans1:
           value: two means, unknown variances
@@ -144,11 +144,11 @@ myst:
       part7:
         ans1:
           value: Reject the null hypothesis because the p-value is less than 0.01
-          feedback: Try again!
+          feedback: Good Job
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than 0.01
-          feedback: Good Job
+          feedback: Try again!
         ans3:
           value: Reject the null hypothesis because the p-value is greater than 0.01
           feedback: Try again
