@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Issue of education and the schools
-      percent: 75
-      state: North Dakota
+      percent: 97
+      state: Delaware
       c_level: 95
-      num_surveys: 512
-      num_yes: 382
+      num_surveys: 570
+      num_yes: 552
 ---
 # {{ params.vars.title }}
 According to a poll, {{ params.percent }}% of {{ params.state }} adults ({{ params.num_yes }} out of {{ params.num_surveys }} surveyed) feel that "education and our schools" is one of the top issues facing the state. We wish to construct a {{ params.c_level }}% confidence interval for the true proportion of {{ params.state }} adults who feel that education and the schools is one of the top issues facing {{ params.state }}.

@@ -78,31 +78,31 @@ myst:
         <th>Maximum value ($)</th>
         </tr><tr>
         <td>$4$</td>
-        <td>$16$</td>
+        <td>$17$</td>
         </tr><tr>
         <td>$14$</td>
-        <td>$17$</td>
+        <td>$16$</td>
         </tr><tr>
         <td>$25$</td>
         <td>$15$</td>
         </tr><tr>
         <td>$32$</td>
-        <td>$15$</td>
+        <td>$19$</td>
         </tr><tr>
         <td>$43$</td>
-        <td>$19$</td>
-        </tr><tr>
-        <td>$57$</td>
         <td>$15$</td>
         </tr><tr>
-        <td>$72$</td>
-        <td>$17$</td>
-        </tr><tr>
-        <td>$85$</td>
+        <td>$57$</td>
         <td>$16$</td>
         </tr><tr>
-        <td>$90$</td>
+        <td>$72$</td>
+        <td>$15$</td>
+        </tr><tr>
+        <td>$85$</td>
         <td>$19$</td>
+        </tr><tr>
+        <td>$90$</td>
+        <td>$17$</td>
         </tr>
         </table>
       pages:
@@ -116,15 +116,15 @@ myst:
       - 85
       - 90
       values:
-      - 16
       - 17
-      - 15
+      - 16
       - 15
       - 19
       - 15
-      - 17
       - 16
+      - 15
       - 19
+      - 17
       part1:
         ans1:
           value: We wonder if the better discounts appear earlier in the book so we

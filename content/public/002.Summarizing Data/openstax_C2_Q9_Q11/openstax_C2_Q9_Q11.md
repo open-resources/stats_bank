@@ -60,46 +60,46 @@ myst:
         <th>Overall student population (%)</th>
         </tr><tr>
         <th>Alabaster</th>
-        <td>40.3</td>
-        <td>18.2</td>
+        <td>8.0</td>
+        <td>8.0</td>
         </tr><tr>
         <th>Concordia</th>
-        <td>2.7</td>
-        <td>33.3</td>
+        <td>22.5</td>
+        <td>52.2</td>
         </tr><tr>
         <th>Genoa</th>
-        <td>13.3</td>
-        <td>10.4</td>
+        <td>11.1</td>
+        <td>4.8</td>
         </tr><tr>
         <th>Mocksville</th>
-        <td>24.6</td>
-        <td>1.4</td>
+        <td>32.4</td>
+        <td>4.2</td>
         </tr><tr>
         <th>Tynneson</th>
-        <td>2.7</td>
-        <td>23.8</td>
+        <td>13.6</td>
+        <td>27.5</td>
         </tr><tr>
         <th>West End</th>
-        <td>16.4</td>
-        <td>13.0</td>
+        <td>12.5</td>
+        <td>3.4</td>
         </tr>
         </table>
       graph_instructions:
-      - The plot should have a main title of 'Students in Science Competition from
-        Each School'.
-      - The x-axis should be labeled 'School'.
-      - The y-axis should be labeled 'Proportion (%)'.
+      - The plot should have a main title of 'Overall Student Population from Each
+        School'.
+      - The x-axis should be labeled 'Proportion (%)'.
+      - The y-axis should be labeled 'School'.
       - The bars should be appropriately labelled.
-      - The bars should be colored orange.
-      - The bars should have a blue border.
-      - The bars should have a density of 2.
-      - The plot should be vertical.
+      - The bars should be colored blue.
+      - The bars should have a orange border.
+      - The bars should have a density of 3.
+      - The plot should be horizontal.
       description: David County has six high schools. Each school sent students to
         participate in a county-wide science competition. The table below shows the
         percentage breakdown of competitors from each school, and the percentage of
         the entire student population of the county that goes to each school. Construct
-        a bar graph that shows the population percentage of competitors from each
-        school.
+        a bar graph that shows the county-wide population percentage of students at
+        each school.
       autograding:
         col1:
         - Alabaster
@@ -109,27 +109,27 @@ myst:
         - Tynneson
         - West End
         x:
-        - '40.3'
-        - '2.7'
-        - '13.3'
-        - '24.6'
-        - '2.7'
-        - '16.4'
-        title: Students in Science Competition from Each School
-        xlab: School
-        ylab: Proportion (%)
-        color: orange
-        border: blue
-        density: 2
-        horiz: 'False'
-        std_plot: std_3yk96o38_plot.png
-        ref_plot: ref_d2hdy3ur_plot.png
+        - '8.0'
+        - '52.2'
+        - '4.8'
+        - '4.2'
+        - '27.5'
+        - '3.4'
+        title: Overall Student Population from Each School
+        xlab: Proportion (%)
+        ylab: School
+        color: blue
+        border: orange
+        density: 3
+        horiz: 'True'
+        std_plot: std_82bzrr3p_plot.png
+        ref_plot: ref_59dbkksn_plot.png
       _images:
       - label: Your Bar Plot
-        filename: std_3yk96o38_plot.png
+        filename: std_82bzrr3p_plot.png
         part: Check graph is similar to expected graph
       - label: Expected Bar Plot
-        filename: ref_d2hdy3ur_plot.png
+        filename: ref_59dbkksn_plot.png
         part: Check graph is similar to expected graph
 ---
 # {{ params.vars.title }}

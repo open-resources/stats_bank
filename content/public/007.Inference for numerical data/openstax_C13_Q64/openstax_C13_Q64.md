@@ -76,29 +76,29 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>40.9</th>
-        <td>43.3</td>
-        <td>48.7</td>
+        <th>39.5</th>
+        <td>45.6</td>
+        <td>50.2</td>
         </tr><tr>
-        <th>40.9</th>
-        <td>48.2</td>
-        <td>35.4</td>
+        <th>44.0</th>
+        <td>39.8</td>
+        <td>49.6</td>
         </tr><tr>
-        <th>47.9</th>
-        <td>46.7</td>
-        <td>43.2</td>
+        <th>48.2</th>
+        <td>39.1</td>
+        <td>41.0</td>
         </tr><tr>
-        <th>40.6</th>
-        <td>46.3</td>
-        <td>37.0</td>
+        <th>44.5</th>
+        <td>47.3</td>
+        <td>49.7</td>
         </tr><tr>
-        <th>47.1</th>
-        <td>41.5</td>
-        <td>45.0</td>
+        <th>38.3</th>
+        <td>36.3</td>
+        <td>46.1</td>
         </tr><tr>
-        <th>36.2</th>
-        <td>41.4</td>
-        <td>50.8</td>
+        <th>37.9</th>
+        <td>44.3</td>
+        <td>38.8</td>
         </tr>
         </table>
       linda_sample: null

@@ -65,23 +65,17 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: The known standard deviation in salary for all mid-level professionals
-        in the financial industry is $11,000. Company A and Company B are in the financial
-        industry. Suppose samples are taken of mid-level professionals from Company
-        A and from Company B. The sample mean salary for mid-level professionals in
-        Company A is $80,000. The sample mean salary for mid-level professionals in
-        Company B is $96,000. Company A and Company B management want to know if their
-        mid-level professionals are paid differently, on average.
+      scenario2: Varsity athletes practice five times a week, on average.
       part2:
         ans1:
           value: two means, known variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Try Again!
+          feedback: Good Job!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -91,23 +85,25 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: It is believed that the average grade on an English essay in a particular
-        school system for women is higher than for men. A random sample of 31 women
-        had a mean score of 82 with a standard deviation of three, and a random sample
-        of 25 men had a mean score of 76 with a standard deviation of four.
+      scenario3: A high school principal claims that 30% of student athletes drive
+        themselves to school, while 4% of non-athletes drive themselves to school.
+        In a sample of 20 student athletes, 45% drive themselves to school. In a sample
+        of 35 non-athlete students, 6% drive themselves to school. Is the percent
+        of student athletes who drive themselves to school more than the percent of
+        nonathletes?
       part3:
         ans1:
           value: two means, known variances
           feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans3:
           value: single mean
           feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!

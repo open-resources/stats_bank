@@ -80,18 +80,20 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario3: A pharmaceutical company is interested in the relationship between
-        age and presentation of symptoms for a common viral infection. A random sample
-        is taken of 500 people with the infection across different age groups.
+      scenario3: An archeologist is calculating the distribution of the frequency
+        of the number of artifacts they find in a dig site. Based on previous digs,
+        the archeologist creates an expected distribution broken down by grid sections
+        in the dig site. Once the site has been fully excavated, they compare the
+        actual number of artifacts found in each grid section to see if their expectation
+        was accurate.
       part3:
         ans1:
           value: A chi-squared goodness of fit test
-          feedback: This is incorrect. A chi-squared goodness of fit test is used
-            to compare an observed distribution to an expected distribution for a
-            single categorical variable.
+          feedback: Good Job!
         ans2:
           value: A chi-squared test of independence
-          feedback: Good Job!
+          feedback: This is incorrect. A chi-squared test of independence is used
+            to determine if there is an association between two categorical variables.
         ans3:
           value: A chi-squared test of homogeneity
           feedback: This is incorrect. A chi-squared test of homogeneity is used to
