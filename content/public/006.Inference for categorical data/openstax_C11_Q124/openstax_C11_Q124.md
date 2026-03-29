@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: Babies on Airplanes
-      expected_mean: 6
-      sample_mean: 9.5
-      sample_size: 26
+      expected_mean: 10
+      sample_mean: 5.8
+      sample_size: 24
       expected_variance: 8
-      sample_std_dev: 2.2
+      sample_std_dev: 3.4
       part1:
         ans1:
           value: A chi-squared test of a single variance
@@ -110,11 +110,11 @@ myst:
         ans1:
           value: Reject the null hypothesis because the p-value is less than the significance
             level
-          feedback: Try again.
+          feedback: Good Job!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
             than the significance level
-          feedback: Good Job!
+          feedback: Try again.
         ans3:
           value: Reject the null hypothesis because the p-value is greater than the
             significance level

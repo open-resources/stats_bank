@@ -31,44 +31,43 @@ myst:
     params:
       vars:
         title: Stem and Leaf Plots
-      description: The miles per gallon rating for 30 cars are shown below (lowest
+      description: The miles per gallon rating for 29 cars are shown below (lowest
         to highest).
       values:
       - '10'
-      - '10'
       - '11'
-      - '14'
       - '15'
-      - '16'
-      - '17'
-      - '17'
       - '18'
-      - '18'
-      - '20'
+      - '19'
       - '21'
-      - '21'
-      - '22'
       - '23'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '27'
+      - '27'
       - '27'
       - '27'
       - '28'
-      - '30'
-      - '32'
-      - '34'
+      - '31'
       - '35'
+      - '38'
       - '39'
-      - '41'
+      - '39'
+      - '40'
+      - '42'
       - '43'
-      - '44'
+      - '43'
+      - '43'
       - '45'
-      - '45'
-      - '46'
-      - '47'
+      - '48'
+      - '49'
       expected: |-
-        1|0014567788
-        2|01123778
-        3|02459
-        4|1345567
+        1|01589
+        2|13456777778
+        3|15899
+        4|02333589
 ---
 # {{ params.vars.title }}
 {{ params.description }}

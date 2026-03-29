@@ -82,18 +82,19 @@ myst:
       vars:
         title: Tranquilizer effect time
       effect_times:
-      - 2.4
-      - 2.4
       - 3.0
-      - 2.0
-      - 3.0
+      - 2.7
+      - 2.4
+      - 2.7
+      - 2.2
+      - 2.4
       - 2.8
+      - 2.9
       - 2.3
-      - 2.1
-      - 2.8
-      - 2.1
+      - 2.9
+      - 2.9
       - 2.5
-      confidence_level: 99
+      confidence_level: 95
       part4:
         option0:
           value: The mean effective length of time of tranquilizers.
@@ -105,7 +106,7 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean effective length of time of tranquilizers from a sample
-            of 11 patients.
+            of 12 patients.
       part5:
         ans1:
           value: We need to use a Student's-t distribution, because we do not know
@@ -125,19 +126,19 @@ myst:
           feedback: Try again please!
       part8:
         ans1:
-          value: If we were to sample many groups of nine patients, 99% of the samples
+          value: If we were to sample many groups of nine patients, 95% of the samples
             would contain the true population mean length of time.
           feedback: Good job!
         ans2:
-          value: If we were to sample many groups of nine patients, 99% of the samples
+          value: If we were to sample many groups of nine patients, 95% of the samples
             would contain this sample's mean length of time.
           feedback: Try again please!
         ans3:
-          value: There is a 99% likelihood that this sample contains the true population
+          value: There is a 95% likelihood that this sample contains the true population
             mean length of time.
           feedback: Try again please!
         ans4:
-          value: There is a 99% likelihood that this sample's mean is the true population
+          value: There is a 95% likelihood that this sample's mean is the true population
             mean length of time.
           feedback: Try again please!
 ---

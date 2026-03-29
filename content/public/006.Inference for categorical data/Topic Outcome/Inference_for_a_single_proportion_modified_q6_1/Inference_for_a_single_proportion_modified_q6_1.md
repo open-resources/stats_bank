@@ -49,10 +49,10 @@ myst:
     params:
       vars:
         title: Vegetarian college students
-      sample_size: 119
-      sample_size2: 71
+      sample_size: 106
+      sample_size2: 45
       p: 8
-      p_hat: 13
+      p_hat: 15
       college_students: 131
       college_students2: 262
       part1:
