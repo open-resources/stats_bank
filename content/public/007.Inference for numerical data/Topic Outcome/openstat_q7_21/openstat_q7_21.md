@@ -87,9 +87,9 @@ myst:
         ans2:
           value: No, since the interval is not entirely lying above 0.
           feedback: Try again please!
-      sample_size: 202
-      mean_difference: 2.8
-      std_deviation: 15.8
+      sample_size: 192
+      mean_difference: 2.7
+      std_deviation: 18.5
       part1_confidence_level: 81
 ---
 # {{ params.vars.title }}

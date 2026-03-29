@@ -31,41 +31,47 @@ myst:
     params:
       vars:
         title: Stem and Leaf Plots
-      description: The data are the prices of different laptops at an electronics
-        store. Round each value to the nearest ten.
+      description: The miles per gallon rating for 33 cars are shown below (lowest
+        to highest).
       values:
-      - '269'
-      - '335'
-      - '346'
-      - '356'
-      - '358'
-      - '369'
-      - '395'
-      - '407'
-      - '410'
-      - '416'
-      - '428'
-      - '445'
-      - '445'
-      - '454'
-      - '465'
-      - '474'
-      - '480'
-      - '495'
-      - '507'
-      - '519'
-      - '555'
-      - '563'
-      - '569'
-      - '600'
-      - '622'
-      - '623'
+      - '13'
+      - '13'
+      - '13'
+      - '14'
+      - '14'
+      - '16'
+      - '17'
+      - '19'
+      - '19'
+      - '20'
+      - '22'
+      - '24'
+      - '25'
+      - '26'
+      - '27'
+      - '27'
+      - '29'
+      - '30'
+      - '31'
+      - '34'
+      - '34'
+      - '34'
+      - '35'
+      - '36'
+      - '37'
+      - '37'
+      - '41'
+      - '42'
+      - '42'
+      - '43'
+      - '43'
+      - '45'
+      - '47'
       expected: |-
-        2|7
-        3|45667
-        4|01123445678
-        5|012667
-        6|022
+        1|333446799
+        2|02456779
+        3|014445677
+        4|1223357
 ---
 # {{ params.vars.title }}
 {{ params.description }}

@@ -40,24 +40,24 @@ myst:
     params:
       vars:
         title: Population Age Demographics Boxplot
-      country: U.S.
+      country: Australia
       percent_senior: 12.7
-      median: 41
+      median: 44
       q1: 17
-      q3: 59
+      q3: 50
       whislow: 0
-      whishigh: 100
+      whishigh: 113
       part1:
         ans1:
           value: more children
           feedback: Correct! The left whisker shows that 25% of the population are
             children 17 and younger. The right whisker shows that 25% of the population
-            are adults 59 and older, so adults 65 and over represent less than 25%.
+            are adults 50 and older, so adults 65 and over represent less than 25%.
         ans2:
           value: fewer children
           feedback: 'Hint: the left whisker shows that 25% of the population are children
             17 and younger. The right whisker shows that 25% of the population are
-            adults 59 and older.'
+            adults 50 and older.'
 ---
 # {{ params.vars.title }}
 The following box plot shows the {{ params.country }} population for a certain year.
