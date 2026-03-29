@@ -88,22 +88,22 @@ myst:
       chosen_series: '7'
       quantiles1:
       - 18
-      - 29
+      - 26
       - 36
-      - 41
-      - 64
-      quantiles2:
-      - 32
-      - 40
-      - 41
-      - 54
-      - 62
-      quantiles3:
-      - 34
       - 42
-      - 48
-      - 57
-      - 68
+      - 69
+      quantiles2:
+      - 30
+      - 38
+      - 39
+      - 53
+      - 66
+      quantiles3:
+      - 37
+      - 45
+      - 46
+      - 61
+      - 70
       part1:
         ans1:
           value: Each box plot is symmetrical, showing that the ages of the top 50%
@@ -172,10 +172,10 @@ myst:
           feedback: Try again please!
         ans3:
           value: the third quarter
-          feedback: Try again please!
+          feedback: Correct!
         ans4:
           value: the fourth quarter
-          feedback: Correct!
+          feedback: Try again please!
       part9:
         ans1:
           value: There are more data in the interval 31 to 38.
@@ -193,13 +193,13 @@ myst:
           feedback: Try again please!
       part10:
         ans1:
-          value: 42-48
+          value: 45-46
           feedback: Try again please!
         ans2:
-          value: 48-60
+          value: 46-63
           feedback: Try again please!
         ans3:
-          value: 37-41
+          value: 41-43
           feedback: Correct!
 ---
 # {{ params.vars.title }}

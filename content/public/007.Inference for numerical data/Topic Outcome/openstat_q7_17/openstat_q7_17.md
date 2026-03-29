@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Determine the impact of a hydration campaign on water
-        intake by comparing the intakes before and after the campaign.
+      selected_scenario_part1: Assess effectiveness of a diet regimen by comparing
+        the before and after weights of subjects.
       part1:
         ans1:
           value: Paired.
@@ -53,8 +53,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part2: Evaluate the improvement in programming skills by comparing
-        test scores before and after a coding bootcamp.
+      selected_scenario_part2: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part2:
         ans1:
           value: Paired.
@@ -62,8 +62,9 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Examine age-related wage disparities by comparing the
-        earnings of younger and older employees in a company.
+      selected_scenario_part3: Investigate the impact of education on earnings by
+        comparing the salaries of individuals with high school diplomas and college
+        degrees.
       part3:
         ans1:
           value: Paired.
@@ -71,8 +72,8 @@ myst:
         ans2:
           value: Not paired.
           feedback: Correct!
-      selected_scenario_part4: Compare literacy levels at the start and end of a year-long
-        reading program for the same group of participants.
+      selected_scenario_part4: Measure changes in blood pressure before and after
+        a 6-month exercise program for the same individuals.
       part4:
         ans1:
           value: Paired.

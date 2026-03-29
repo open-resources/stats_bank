@@ -52,12 +52,12 @@ myst:
     params:
       vars:
         title: Gender equality
-        sample_size: 1744
-        proportion: 67.0
-        margin_of_error: 2.21
-        lower_bound: 64.79
-        upper_bound: 69.21
-        margin_of_error_part4: 1.103
+        sample_size: 1460
+        proportion: 38.0
+        margin_of_error: 2.49
+        lower_bound: 35.51
+        upper_bound: 40.49
+        margin_of_error_part4: 1.245
         selected_option1: If the sample size were increased from 1559 Americans to
           5000 Americans while keeping the confidence level and margin of error unchanged,
           the width of the confidence intervals would decrease. This would lead to

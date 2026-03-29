@@ -46,14 +46,14 @@ myst:
       vars:
         title: Working backwards, Part I
       description:
-        confidence_level: 93
-        lower: 20.45
-        upper: 22.817
+        confidence_level: 90
+        lower: 19.456
+        upper: 20.645
         sample_size: 38
-        mean: 21.633499999999998
-        moe: 1.1835000000000004
-        t_crit: 1.8658879348805395
-        s: 3.90997971321406
+        mean: 20.0505
+        moe: 0.5945
+        t_crit: 1.6870936195962631
+        s: 2.1722233325984974
 ---
 # {{ params.vars.title }}
 A ${{ params.description.confidence_level }}$% confidence interval for a population mean, $\mu$, is given as (${{ params.description.lower }}$, ${{ params.description.upper }}$). This confidence interval is based on a simple random sample of ${{ params.description.sample_size }}$ observations. Assume that all conditions necessary for inference are satisfied. Use the $t$-distribution in any calculations.

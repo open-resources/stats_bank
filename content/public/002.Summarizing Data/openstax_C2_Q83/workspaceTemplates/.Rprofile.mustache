@@ -1,0 +1,4 @@
+setHook("rstudio.sessionInit", function(newSession) {
+  file.edit("student.R")
+  assign("x", c({{ params.autograding.x }}), envir = globalenv())
+}, action = "append")
