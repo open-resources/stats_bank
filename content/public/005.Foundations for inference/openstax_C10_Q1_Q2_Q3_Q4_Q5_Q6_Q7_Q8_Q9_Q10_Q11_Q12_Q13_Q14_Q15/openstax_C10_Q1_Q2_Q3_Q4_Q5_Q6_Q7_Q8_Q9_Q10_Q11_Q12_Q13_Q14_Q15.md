@@ -43,20 +43,17 @@ myst:
     params:
       vars:
         title: Hypothesis Testing Choices
-      scenario1: The known standard deviation in salary for all mid-level professionals
-        in the financial industry is $11,000. Company A and Company B are in the financial
-        industry. Suppose samples are taken of mid-level professionals from Company
-        A and from Company B. The sample mean salary for mid-level professionals in
-        Company A is $80,000. The sample mean salary for mid-level professionals in
-        Company B is $96,000. Company A and Company B management want to know if their
-        mid-level professionals are paid differently, on average.
+      scenario1: It is believed that the average grade on an English essay in a particular
+        school system for women is higher than for men. A random sample of 31 women
+        had a mean score of 82 with a standard deviation of three, and a random sample
+        of 25 men had a mean score of 76 with a standard deviation of four.
       part1:
         ans1:
           value: two means, known variances
-          feedback: Good Job!
+          feedback: Try Again!
         ans2:
           value: two means, unknown variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans3:
           value: single mean
           feedback: Try Again!
@@ -69,17 +66,22 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario2: The average worker in Germany gets eight weeks of paid vacation.
+      scenario2: The league mean batting average is 0.280 with a known standard deviation
+        of 0.06. The Rattlers and the Vikings belong to the league. The mean batting
+        average for a sample of eight Rattlers is 0.210, and the mean batting average
+        for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers
+        and 19 players on the Vikings. Are the batting averages of the Rattlers and
+        Vikings statistically different?
       part2:
         ans1:
           value: two means, known variances
-          feedback: Try Again!
+          feedback: Good Job!
         ans2:
           value: two means, unknown variances
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
           feedback: Try Again!
@@ -89,9 +91,10 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Try Again!
-      scenario3: A new medicine is said to help improve sleep. Eight subjects are
-        picked at random and given the medicine. The means hours slept for each person
-        were recorded before starting the medication and after.
+      scenario3: A new windshield treatment claims to repel water more effectively.
+        Ten windshields are tested by simulating rain without the new treatment. The
+        same windshields are then treated, and the experiment is run again. A hypothesis
+        test is conducted.
       part3:
         ans1:
           value: two means, known variances

@@ -64,11 +64,11 @@ myst:
     params:
       vars:
         title: 2 and 4 Year College Enrollments
-      sample_size: 37
-      two_year_mean: 5,641
-      two_year_sd: 5,443
-      four_year_mean: 5,555
-      four_year_sd: 8,677
+      sample_size: 32
+      two_year_mean: 4,710
+      two_year_sd: 6,079
+      four_year_mean: 6,253
+      four_year_sd: 8,430
       part1:
         ans1:
           value: two means, unknown variances

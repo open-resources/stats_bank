@@ -76,9 +76,9 @@ myst:
       vars:
         title: Census Form Length
       x_bar: 8.3
-      sigma: 2.3
-      sample_size: 195
-      other_sample_size: 345
+      sigma: 2.5
+      sample_size: 210
+      other_sample_size: 360
       alpha: 0.1
       confidence: 90
       z_score: 1.6448536269514722

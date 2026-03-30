@@ -55,37 +55,47 @@ myst:
         <th>Third Coinage</th>
         <th>Fourth Coinage</th>
         </tr><tr>
-        <td>7.3</td>
-        <td>8.8</td>
-        <td>5.0</td>
-        <td>5.7</td>
+        <td>6.0</td>
+        <td>8.5</td>
+        <td>4.1</td>
+        <td>5.2</td>
         </tr><tr>
+        <td>6.4</td>
+        <td>8.6</td>
+        <td>5.7</td>
+        <td>5.5</td>
+        </tr><tr>
+        <td>6.4</td>
+        <td>8.6</td>
+        <td>5.6</td>
+        <td>5.5</td>
+        </tr><tr>
+        <td>6.6</td>
+        <td>7.4</td>
+        <td>4.2</td>
         <td>6.5</td>
-        <td>9.3</td>
-        <td>4.5</td>
+        </tr><tr>
+        <td>7.5</td>
+        <td></td>
+        <td>4.3</td>
         <td>5.6</td>
         </tr><tr>
-        <td>6.3</td>
-        <td>8.2</td>
-        <td>4.6</td>
-        <td>5.8</td>
-        </tr><tr>
-        <td>7.4</td>
-        <td>10.0</td>
-        <td>4.3</td>
-        <td>5.4</td>
-        </tr><tr>
-        <td>6.3</td>
-        <td>9.1</td>
-        <td>4.8</td>
-        <td>5.4</td>
-        </tr><tr>
-        <td>6.9</td>
-        <td>8.8</td>
-        <td>4.2</td>
+        <td>6.5</td>
         <td></td>
+        <td>3.9</td>
+        <td>5.7</td>
         </tr><tr>
-        <td>6.9</td>
+        <td>7.3</td>
+        <td></td>
+        <td>5.0</td>
+        <td>6.6</td>
+        </tr><tr>
+        <td>6.0</td>
+        <td></td>
+        <td></td>
+        <td>5.3</td>
+        </tr><tr>
+        <td>6.5</td>
         <td></td>
         <td></td>
         <td></td>
@@ -101,16 +111,16 @@ myst:
         <th>Fourth Coinage</th>
         </tr><tr>
         <th>Mean</th>
-        <td>$6.8$</td>
-        <td>$9.0333$</td>
-        <td>$4.5667$</td>
-        <td>$5.58$</td>
+        <td>$6.5778$</td>
+        <td>$8.275$</td>
+        <td>$4.6857$</td>
+        <td>$5.7375$</td>
         </tr><tr>
         <th>Variance</th>
-        <td>$0.2033$</td>
-        <td>$0.3627$</td>
-        <td>$0.0907$</td>
-        <td>$0.032$</td>
+        <td>$0.2644$</td>
+        <td>$0.3425$</td>
+        <td>$0.5514$</td>
+        <td>$0.277$</td>
         </tr>
         </table>
       first_sample: null
@@ -120,10 +130,10 @@ myst:
       means: null
       variances: null
       significance_level: 1
-      first_len: 7
-      second_len: 6
-      third_len: 6
-      fourth_len: 5
+      first_len: 9
+      second_len: 4
+      third_len: 7
+      fourth_len: 8
       part1:
         ans1:
           value: '$H_0: \forall i\ne j: \mu_i = \mu_j$ and $H_A: \exists i\ne j: \mu_i
@@ -157,20 +167,20 @@ myst:
         <th>F Statistic</th>
         </tr><tr>
         <th>Between Groups</th>
-        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="65.7449" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ss_value" correct-answer="36.0282" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td><pl-integer-input answers-name="part2_between_df_value" correct-answer="3" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="21.9150" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="121.2558" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_ms_value" correct-answer="12.0094" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_between_f_value" correct-answer="34.3519" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         </tr><tr>
         <th>Within Groups</th>
-        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="3.6147" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="20" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
-        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.1807" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-number-input answers-name="part2_within_ss_value" correct-answer="8.3904" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_within_df_value" correct-answer="24" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_within_ms_value" correct-answer="0.3496" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
         <td></td>
         </tr><tr>
         <th>Total</th>
-        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="69.3596" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
-        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="23" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
+        <td><pl-number-input answers-name="part2_total_ss_value" correct-answer="44.4186" show-help-text="false" size="10" display="block" comparison="decdig" digits="4" weight="1"></pl-number-input></td>
+        <td><pl-integer-input answers-name="part2_total_df_value" correct-answer="27" show-help-text="false" size="10" display="block" weight="1"></pl-integer-input></td>
         <td></td>
         <td></td>
         </tr>
