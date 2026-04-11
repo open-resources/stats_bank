@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 6.1.1.9
 - 6.1.1.15
@@ -44,12 +44,11 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      scenario1: An archeologist is calculating the distribution of the frequency
-        of the number of artifacts they find in a dig site. Based on previous digs,
-        the archeologist creates an expected distribution broken down by grid sections
-        in the dig site. Once the site has been fully excavated, they compare the
-        actual number of artifacts found in each grid section to see if their expectation
-        was accurate.
+      scenario1: A personal trainer is putting together a weight-lifting program for
+        their clients. For a 90-day program, they expect each client to lift a specific
+        maximum weight each week. As the program goes along, the trainer records the
+        actual maximum weights their clients lifted. They want to know how well their
+        expectations met with what was observed.
       part1:
         ans1:
           value: A chi-squared goodness of fit test
@@ -66,28 +65,31 @@ myst:
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario2: A market researcher wants to see if two different stores have the
-        same distribution of sales throughout the year.
+      scenario2: An archeologist is calculating the distribution of the frequency
+        of the number of artifacts they find in a dig site. Based on previous digs,
+        the archeologist creates an expected distribution broken down by grid sections
+        in the dig site. Once the site has been fully excavated, they compare the
+        actual number of artifacts found in each grid section to see if their expectation
+        was accurate.
       part2:
         ans1:
           value: A chi-squared goodness of fit test
-          feedback: This is incorrect. A chi-squared goodness of fit test is used
-            to compare an observed distribution to an expected distribution for a
-            single categorical variable.
+          feedback: Good Job!
         ans2:
           value: A chi-squared test of independence
           feedback: This is incorrect. A chi-squared test of independence is used
             to determine if there is an association between two categorical variables.
         ans3:
           value: A chi-squared test of homogeneity
-          feedback: Good Job!
+          feedback: This is incorrect. A chi-squared test of homogeneity is used to
+            determine if different populations have the same distribution of a categorical
+            variable.
         ans4:
           value: None of the above
           feedback: This is incorrect.
-      scenario3: A marathon runner is interested in the relationship between the brand
-        of shoes runners wear and their run times. They take a random sample of 50
-        runners and records their run times as well as the brand of shoes they were
-        wearing.
+      scenario3: The owner of a baseball team is interested in the relationship between
+        player salaries and team winning percentage. They take a random sample of
+        100 players from different organizations.
       part3:
         ans1:
           value: A chi-squared goodness of fit test

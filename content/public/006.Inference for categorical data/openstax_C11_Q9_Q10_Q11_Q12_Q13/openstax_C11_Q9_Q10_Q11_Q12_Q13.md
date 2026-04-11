@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 6.1.1.9
 - 6.1.1.15
@@ -62,7 +62,7 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      class_size: 23
+      class_size: 16
       table: |-
         <table style="width:550px">
         <tr>
@@ -71,20 +71,20 @@ myst:
         <th>Observed Count</th>
         </tr><tr>
         <th>A</th>
-        <td>3</td>
-        <td>3</td>
+        <td>5</td>
+        <td>6</td>
         </tr><tr>
         <th>B</th>
-        <td>8</td>
-        <td>7</td>
+        <td>5</td>
+        <td>3</td>
         </tr><tr>
         <th>C</th>
-        <td>9</td>
-        <td>10</td>
+        <td>5</td>
+        <td>7</td>
         </tr><tr>
         <th>D</th>
         <td>2</td>
-        <td>3</td>
+        <td>0</td>
         </tr>
         </table>
       var_array: null

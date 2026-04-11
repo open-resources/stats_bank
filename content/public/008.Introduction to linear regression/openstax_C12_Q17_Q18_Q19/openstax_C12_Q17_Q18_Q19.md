@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 8.1.1.1
 - 8.1.1.3
@@ -56,10 +56,10 @@ myst:
       vars:
         title: Scatterplot Linearity
       correlations:
-      - -0.92
-      - 0.43
-      - 0.04
-      - 0.62
+      - 0.5
+      - 0.4
+      - -0.96
+      - 0.06
       part1:
         ans1:
           value: Plot 1
@@ -69,16 +69,16 @@ myst:
           feedback: Incorrect.
         ans3:
           value: Plot 3
-          feedback: Incorrect.
+          feedback: Correct!
         ans4:
           value: Plot 4
-          feedback: Correct!
+          feedback: Incorrect.
       part2:
         option1:
           value: Plot 1
           name: Plot 1
         statement1:
-          value: has a strong relationship
+          value: has a weak relationship
           matches: Plot 1
         option2:
           value: Plot 2
@@ -86,18 +86,18 @@ myst:
         option3:
           value: Plot 3
           name: Plot 3
+        statement2:
+          value: has a strong relationship
+          matches: Plot 3
         option4:
           value: Plot 4
           name: Plot 4
-        statement2:
-          value: has a weak relationship
-          matches: Plot 4
       part3:
         option1:
           value: Plot 1
           name: Plot 1
         statement1:
-          value: has a negative relationship
+          value: has a positive relationship
           matches: Plot 1
         option2:
           value: Plot 2
@@ -105,12 +105,12 @@ myst:
         option3:
           value: Plot 3
           name: Plot 3
+        statement2:
+          value: has a negative relationship
+          matches: Plot 3
         option4:
           value: Plot 4
           name: Plot 4
-        statement2:
-          value: has a positive relationship
-          matches: Plot 4
 ---
 # {{ params.vars.title }}
 Answer the following questions for each scatterplot:

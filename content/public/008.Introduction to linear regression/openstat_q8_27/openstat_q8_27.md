@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openintro-stats
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 8.1.1.16
 - 8.1.1.17

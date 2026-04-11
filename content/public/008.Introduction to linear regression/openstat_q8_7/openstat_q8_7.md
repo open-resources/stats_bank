@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openintro-stats
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 8.1.1.1
 - 8.1.1.3
@@ -41,23 +41,23 @@ myst:
       vars:
         title: Match the correlation, Part I
       correlations:
-      - 0.9
-      - 0.05
+      - 0.93
       - 0.43
-      - -0.59
+      - 0.08
+      - -0.74
       part1:
         statement1:
           value: Plot 1
-          matches: $r=0.9$
+          matches: $r=0.93$
         statement2:
           value: Plot 2
-          matches: $r=0.05$
+          matches: $r=0.43$
         statement3:
           value: Plot 3
-          matches: $r=0.43$
+          matches: $r=0.08$
         statement4:
           value: Plot 4
-          matches: $r=-0.59$
+          matches: $r=-0.74$
 ---
 # {{ params.vars.title }}
 Match each correlation to the corresponding scatterplot.

@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.4
 - 5.1.1.6
@@ -75,14 +75,14 @@ myst:
     params:
       vars:
         title: Weight of Elephants
-      x_bar: 235
-      stdev_p: 15
-      stdev_s: 12
-      sample_size: 40
-      other_sample_size: 478
-      alpha: 0.01
-      confidence: 99
-      z_score: 2.5758293035489004
+      x_bar: 232
+      stdev_p: 10
+      stdev_s: 13
+      sample_size: 50
+      other_sample_size: 526
+      alpha: 0.05
+      confidence: 95
+      z_score: 1.959963984540054
       part7:
         ans1:
           value: As the sample size increases, there will be less variability in the

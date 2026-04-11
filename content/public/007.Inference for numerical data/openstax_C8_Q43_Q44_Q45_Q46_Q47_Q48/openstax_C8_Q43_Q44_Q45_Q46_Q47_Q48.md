@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 7.1.1.0
 - 7.1.1.4
@@ -83,15 +83,15 @@ myst:
     params:
       vars:
         title: Monthly Television Usage
-      sample_size: 104
-      mean: 150
-      stdev: 30
-      df: 103
-      lower_bound: 144.96523115379267
-      upper_bound: 155.03476884620733
-      confidence_level: 91
-      error_bound: 5.034768846207339
-      other_confidence: 98
+      sample_size: 107
+      mean: 141
+      stdev: 32
+      df: 106
+      lower_bound: 134.19511600270073
+      upper_bound: 147.80488399729927
+      confidence_level: 97
+      error_bound: 6.804883997299261
+      other_confidence: 94
       part4:
         option0:
           value: The mean number of hours Americans spend watching television per
@@ -102,29 +102,29 @@ myst:
         statement2:
           value: $\bar{X}$
           matches: The mean number of hours spent watching television per month from
-            a sample of 104 Americans.
+            a sample of 107 Americans.
       part5:
         ans1:
-          value: $t_{ 103 }$
+          value: $t_{ 106 }$
           feedback: Correct!
         ans2:
-          value: $t_{ 104 }$
+          value: $t_{ 107 }$
           feedback: Try again please!
         ans3:
           value: $\operatorname{N}(0,1)$ (Standard Normal)
           feedback: Try again please!
         ans4:
-          value: $\operatorname{N}(150, 30)$
+          value: $\operatorname{N}(141, 32)$
           feedback: Try again please!
       part8:
         ans1:
           value: The margin of error would decrease because less area would be needed
             to capture the true population mean.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: The margin of error would increase because more area would be needed
             to capture the true population mean.
-          feedback: Correct!
+          feedback: Try again please!
         ans3:
           value: The margin of error would decrease because more area would be needed
             to capture the true population mean.

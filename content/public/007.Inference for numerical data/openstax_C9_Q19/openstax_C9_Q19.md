@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 7.1.1.14
 difficulty:
@@ -36,8 +36,8 @@ myst:
     params:
       vars:
         title: Statistical Power
-      alpha: 0.031
-      beta: 0.148
+      alpha: 0.048
+      beta: 0.081
 ---
 # {{ params.vars.title }}
 

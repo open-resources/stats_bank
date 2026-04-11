@@ -44,17 +44,17 @@ myst:
     params:
       vars:
         title: Paired or not? Part I
-      selected_scenario_part1: Assess gender-related salary gap by comparing salaries
-        of randomly sampled men and women.
+      selected_scenario_part1: Evaluate the improvement in programming skills by comparing
+        test scores before and after a coding bootcamp.
       part1:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
-      selected_scenario_part2: Evaluate the effects of a meditation program on stress
-        levels by comparing measurements before and after the program duration.
+          feedback: Incorrect!
+      selected_scenario_part2: Determine the impact of a hydration campaign on water
+        intake by comparing the intakes before and after the campaign.
       part2:
         ans1:
           value: Paired.
@@ -62,25 +62,24 @@ myst:
         ans2:
           value: Not paired.
           feedback: Incorrect!
-      selected_scenario_part3: Assess effectiveness of a diet regimen by comparing
-        the before and after weights of subjects.
+      selected_scenario_part3: Assess gender-related salary gap by comparing salaries
+        of randomly sampled men and women.
       part3:
         ans1:
           value: Paired.
-          feedback: Correct!
+          feedback: Incorrect!
         ans2:
           value: Not paired.
-          feedback: Incorrect!
-      selected_scenario_part4: Investigate the impact of education on earnings by
-        comparing the salaries of individuals with high school diplomas and college
-        degrees.
+          feedback: Correct!
+      selected_scenario_part4: Compare artery thicknesses at the beginning of a study
+        and after 2 years of taking Vitamin E for the same group of patients.
       part4:
         ans1:
           value: Paired.
-          feedback: Incorrect!
+          feedback: Correct!
         ans2:
           value: Not paired.
-          feedback: Correct!
+          feedback: Incorrect!
 ---
 # {{ params.vars.title }}
 In each of the following scenarios, determine if the data are paired.

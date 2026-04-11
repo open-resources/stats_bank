@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 7.1.1.17
 - 7.1.1.19
@@ -76,40 +76,28 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>39.5</th>
-        <td>39.2</td>
-        <td>43.3</td>
+        <th>37.5</th>
+        <td>43.0</td>
+        <td>37.9</td>
         </tr><tr>
-        <th>43.8</th>
-        <td>46.8</td>
-        <td>39.7</td>
-        </tr><tr>
-        <th>39.8</th>
+        <th>41.6</th>
         <td>48.2</td>
-        <td>45.8</td>
+        <td>47.1</td>
         </tr><tr>
-        <th>38.4</th>
-        <td>37.8</td>
-        <td>56.9</td>
-        </tr><tr>
-        <th>42.7</th>
-        <td>44.0</td>
-        <td>47.4</td>
-        </tr><tr>
-        <th>42.2</th>
+        <th>40.5</th>
+        <td>43.4</td>
         <td>38.4</td>
-        <td>46.3</td>
         </tr><tr>
-        <th>39.9</th>
-        <td>39.2</td>
-        <td>39.9</td>
+        <th>42.1</th>
+        <td>42.2</td>
+        <td>44.7</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
       significance_level: 1
-      sample_size: 7
+      sample_size: 4
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne

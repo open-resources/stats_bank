@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.11
 - 5.1.1.12
@@ -34,8 +34,8 @@ myst:
     params:
       vars:
         title: Height of Young Adults
-      stdev: 2.6
-      confidence: 89
+      stdev: 2.5
+      confidence: 87
 ---
 # {{ params.vars.title }}
 

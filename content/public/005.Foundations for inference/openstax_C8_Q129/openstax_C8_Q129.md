@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.1
 - 5.1.1.2
@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Population Proportions from Sample Data
-      total_homes_surveyed: 589
-      homes_not_meeting_recommendations: 307
-      homes_meeting_recommendations: 282
+      total_homes_surveyed: 872
+      homes_not_meeting_recommendations: 443
+      homes_meeting_recommendations: 429
 ---
 # {{ params.vars.title }}
 ${{ params.total_homes_surveyed }}$ homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. ${{ params.homes_meeting_recommendations }}$ of the homes surveyed met the minimum recommendations for earthquake preparedness, and ${{ params.homes_not_meeting_recommendations }}$ did not.

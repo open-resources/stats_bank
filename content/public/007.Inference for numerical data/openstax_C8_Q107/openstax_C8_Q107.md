@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 7.1.1.0
 - 7.1.1.4
@@ -83,17 +83,17 @@ myst:
         title: Tranquilizer effect time
       effect_times:
       - 2.7
-      - 3.0
       - 2.3
-      - 2.1
       - 2.3
-      - 2.5
+      - 2.3
       - 2.4
-      - 2.1
       - 2.0
-      - 2.5
-      - 2.6
-      - 2.5
+      - 2.8
+      - 2.0
+      - 2.7
+      - 2.0
+      - 3.0
+      - 2.2
       confidence_level: 99
       part4:
         option0:

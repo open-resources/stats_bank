@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.7
 - 5.1.1.8
@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Issue of education and the schools
-      percent: 71
-      state: Utah
-      c_level: 80
-      num_surveys: 487
-      num_yes: 348
+      percent: 78
+      state: Nebraska
+      c_level: 90
+      num_surveys: 481
+      num_yes: 377
 ---
 # {{ params.vars.title }}
 According to a poll, {{ params.percent }}% of {{ params.state }} adults ({{ params.num_yes }} out of {{ params.num_surveys }} surveyed) feel that "education and our schools" is one of the top issues facing the state. We wish to construct a {{ params.c_level }}% confidence interval for the true proportion of {{ params.state }} adults who feel that education and the schools is one of the top issues facing {{ params.state }}.

@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openintro-stats
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 8.1.1.12
 difficulty:
@@ -35,24 +35,24 @@ myst:
     params:
       vars:
         title: Units of regression
-        unit1: kg
-        unit2: in
-        problem_statement: weight (kg) from height (in)
+        unit1: lb
+        unit2: ft
+        problem_statement: weight (lb) from height (ft)
       part1:
         option1:
           value: No units
           name: Correlation
         option2:
-          value: $kg$
+          value: $lb$
           name: Intercept
         option3:
-          value: $\frac{kg}{in}$
+          value: $\frac{lb}{ft}$
           name: Slope
         option4:
-          value: $in$
+          value: $ft$
           name: Distractor 1
         option5:
-          value: $\frac{in}{kg}$
+          value: $\frac{ft}{lb}$
           name: Distractor 2
         statement1:
           value: Correlation

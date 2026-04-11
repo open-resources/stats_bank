@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 6.1.1.15
 - 6.1.1.17
@@ -61,7 +61,7 @@ myst:
     params:
       vars:
         title: Personality Types
-      significance: 5%
+      significance: 1%
       table: |-
         <table style="width:500px">
         <tr>
@@ -128,19 +128,19 @@ myst:
       part6:
         ans1:
           value: The conclusion would be to reject the null hypothesis because the
-            p-value is less than 0.05.
+            p-value is less than 0.01.
           feedback: Try Again!
         ans2:
           value: The conclusion would be to fail to reject the null hypothesis because
-            the p-value is greater than 0.05.
+            the p-value is greater than 0.01.
           feedback: Good Job!
         ans3:
           value: The conclusion would be to reject the null hypothesis because the
-            p-value is greater than 0.05.
+            p-value is greater than 0.01.
           feedback: Try Again!
         ans4:
           value: The conclusion would be to fail to reject the null hypothesis because
-            the p-value is less than 0.05.
+            the p-value is less than 0.01.
           feedback: Try Again!
 ---
 # {{ params.vars.title }}

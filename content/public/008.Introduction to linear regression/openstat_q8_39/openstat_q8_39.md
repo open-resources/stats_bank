@@ -98,26 +98,26 @@ myst:
         <th>Pr(>|t|)</th>
         </tr><tr>
         <th>(intercept)</th>
-        <td>$2.8888$</td>
-        <td>$0.9566$</td>
-        <td>$1.6$</td>
-        <td>$0.1116$</td>
+        <td>$2.9364$</td>
+        <td>$1.2547$</td>
+        <td>$1.7$</td>
+        <td>$0.0909$</td>
         </tr><tr>
         <th>age_husband</th>
-        <td>$0.7833$</td>
-        <td>$0.0356$</td>
-        <td>$32.66$</td>
+        <td>$0.8223$</td>
+        <td>$0.0388$</td>
+        <td>$37.56$</td>
         <td>$0.0$</td>
         </tr>
         </table>
-      sample: 162
-      slope: 0.7833
-      intercept: 2.8888
-      intercept_std_error: 0.9566
-      slope_std_error: 0.0356
-      husband_age1: 35
-      correlation: 0.966
-      husband_age2: 29
+      sample: 179
+      slope: 0.8223
+      intercept: 2.9364
+      intercept_std_error: 1.2547
+      slope_std_error: 0.0388
+      husband_age1: 55
+      correlation: 0.942
+      husband_age2: 37
       part2:
         ans1:
           value: Since p-value < 0.05, the data provide strong evidence that the average

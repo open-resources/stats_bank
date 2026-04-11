@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.6
 - 5.1.1.7
@@ -55,17 +55,17 @@ myst:
       vars:
         title: Furniture Delivery
       start_time: 9
-      length: 7
-      end_time: 4
+      length: 6
+      end_time: 3
       part1:
         ans1:
-          value: $X \sim U(0, 7)$
+          value: $X \sim U(0, 6)$
           feedback: You got it!
         ans2:
-          value: $X \sim U(9, 4)$
+          value: $X \sim U(9, 3)$
           feedback: Try Again!
         ans3:
-          value: $X \sim N(4,1)$
+          value: $X \sim N(3,1)$
           feedback: Try Again!
         ans4:
           value: $X \sim N(9,1)$
@@ -74,14 +74,14 @@ myst:
           value: $X \sim N(0,1)$
           feedback: Try Again!
         ans6:
-          value: $X \sim \operatorname{Exp}(4)$
+          value: $X \sim \operatorname{Exp}(3)$
           feedback: Try Again!
         ans7:
           value: $X \sim \operatorname{Exp}(9)$
           feedback: Try Again!
-      sample_size: 12
-      confidence_level: 90%
-      margin_of_error: 0.2
+      sample_size: 13
+      confidence_level: 99%
+      margin_of_error: 0.5
 ---
 # {{ params.vars.title }}
 Richard’s Furniture Company delivers furniture from {{ params.start_time }} A.M. to {{ params.end_time }} P.M. continuously and uniformly. We are interested in how long (in hours) past the {{ params.start_time }} A.M. start time that individuals wait for their delivery.

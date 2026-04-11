@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 7.1.1.12
 difficulty:
@@ -64,14 +64,14 @@ myst:
     params:
       vars:
         title: Sedan Mileage
-      n1: 30
-      xbar1: 22
-      sx1: 4
+      n1: 26
+      xbar1: 26
+      sx1: 5
       sigma1: 2
       n2: 20
-      xbar2: 40
+      xbar2: 26
       sx2: 10
-      sigma2: 8
+      sigma2: 7
       part1:
         ans1:
           value: two means, unknown variances
@@ -140,21 +140,21 @@ myst:
         ans4:
           value: F-distribution
           feedback: Try again!
-      alpha: 0.01
+      alpha: 0.1
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
-          feedback: Good Job
+          value: Reject the null hypothesis because the p-value is less than 0.1
+          feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
-          feedback: Try again!
+            than 0.1
+          feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}

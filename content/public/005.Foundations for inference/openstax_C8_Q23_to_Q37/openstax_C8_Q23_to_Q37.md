@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.4
 - 5.1.1.6
@@ -126,22 +126,22 @@ myst:
     params:
       vars:
         title: Foothill College Student Age
-      x_bar: 29.8
-      sigma: 15.3
-      sample_size: 30
+      x_bar: 31.4
+      sigma: 15.7
+      sample_size: 34
       alpha: 0.01
       alpha_one_tail: 0.005
       confidence: 99
       z_score: 2.5758293035489004
-      ebm: 7.195283050566428
-      fake_sample_size: 90
-      fake_confidence: 95
+      ebm: 6.93549197369783
+      fake_sample_size: 102
+      fake_confidence: 90
       part4:
         ans1:
-          value: The mean age of a sample of 30 Foothill College Students
+          value: The mean age of a sample of 34 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 30 Foothill College Students
+          value: The most frequent age of a sample of 34 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 99%
         option7:
-          value: '7.20'
+          value: '6.94'
         statement1:
           value: a?
           matches: '0.99'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '22.60'
+          matches: '24.46'
         statement5:
           value: e?
-          matches: '29.80'
+          matches: '31.40'
         statement6:
           value: f?
-          matches: '37.00'
+          matches: '38.34'
       part13:
         ans1:
           value: We are 99% confident that the true mean age for Winter Foothill College
@@ -206,7 +206,7 @@ myst:
           feedback: Please try again!
         ans4:
           value: We are 99% confident that the true mean age for Winter Foothill College
-            students is 29.8.
+            students is 31.4.
           feedback: Please try again!
         ans5:
           value: The true mean age for Winter Foothill College students is between

@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.4
 - 5.1.1.6
@@ -75,10 +75,10 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.3
-      sigma: 2.5
-      sample_size: 210
-      other_sample_size: 360
+      x_bar: 8.6
+      sigma: 2.6
+      sample_size: 220
+      other_sample_size: 70
       alpha: 0.1
       confidence: 90
       z_score: 1.6448536269514722
@@ -88,11 +88,11 @@ myst:
         ans1:
           value: The confidence level would decrease because a smaller sample size
             requires a smaller critical value to keep the margin of error the same.
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: The confidence level would increase because a smaller sample size
             requires a larger critical value to keep the margin of error the same.
-          feedback: Correct!
+          feedback: Try again please!
         ans3:
           value: The confidence level would stay the same because the margin of error
             did not change.

@@ -7,7 +7,7 @@ template_version: 1.4
 attribution: openstax-stats-2e
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
+showCorrectAnswer: true
 outcomes:
 - 5.1.1.22
 difficulty:
@@ -36,7 +36,7 @@ myst:
     params:
       vars:
         title: Probability of a Type II Error
-      power: 0.856
+      power: 0.817
 ---
 # {{ params.vars.title }}
 

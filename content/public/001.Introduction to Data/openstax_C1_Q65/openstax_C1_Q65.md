@@ -40,10 +40,10 @@ myst:
     params:
       vars:
         title: Babies on Airplanes
-        flights: seven
+        flights: six
       part1:
         ans1:
-          value: The survey was conducted using seven similar flights.
+          value: The survey was conducted using six similar flights.
           feedback: Correct!
         ans2:
           value: The survey would not be a true representation of the entire population
