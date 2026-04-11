@@ -42,13 +42,13 @@ myst:
         title: Telephone Survey Participation
       part1:
         ans1:
-          value: Increased use of private numbers
+          value: Increased use of caller id
           feedback: Correct! Nice work
         ans2:
-          value: Decreased willingness to be interviewed
+          value: Voice mail
           feedback: Correct! Nice work
         ans3:
-          value: Hectic nature of personal schedules
+          value: Privacy managers
           feedback: Correct! Nice work
         ans4:
           value: Decreased use of mobile phones

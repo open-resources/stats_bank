@@ -59,11 +59,11 @@ myst:
     params:
       vars:
         title: Babies on Airplanes
-      expected_mean: 8
-      sample_mean: 9.7
-      sample_size: 25
-      expected_variance: 8
-      sample_std_dev: 2.1
+      expected_mean: 6
+      sample_mean: 5.2
+      sample_size: 22
+      expected_variance: 10
+      sample_std_dev: 3.8
       part1:
         ans1:
           value: A chi-squared test of a single variance
@@ -79,31 +79,31 @@ myst:
           feedback: Try again!
       part3:
         ans1:
-          value: '$H_0: \sigma = 2.8$, $H_A: \sigma > 2.8$'
+          value: '$H_0: \sigma = 3.2$, $H_A: \sigma > 3.2$'
           feedback: Good Job!
         ans2:
-          value: '$H_0: \sigma = 2.8$, $H_A: \sigma < 2.8$'
+          value: '$H_0: \sigma = 3.2$, $H_A: \sigma < 3.2$'
           feedback: Try again.
         ans3:
-          value: '$H_0: \sigma = 2.8$, $H_A: \sigma \neq 2.8$'
+          value: '$H_0: \sigma = 3.2$, $H_A: \sigma \neq 3.2$'
           feedback: Try again.
         ans4:
-          value: '$H_0: \sigma^2 = 2.8$, $H_A: \sigma^2 > 2.8$'
+          value: '$H_0: \sigma^2 = 3.2$, $H_A: \sigma^2 > 3.2$'
           feedback: Try again.
         ans5:
-          value: '$H_0: \sigma^2 = 2.8$, $H_A: \sigma^2 < 2.8$'
+          value: '$H_0: \sigma^2 = 3.2$, $H_A: \sigma^2 < 3.2$'
           feedback: Try again.
         ans6:
-          value: '$H_0: \sigma^2 = 2.8$, $H_A: \sigma^2 \neq 2.8$'
+          value: '$H_0: \sigma^2 = 3.2$, $H_A: \sigma^2 \neq 3.2$'
           feedback: Try again.
         ans7:
-          value: '$H_0: \sigma = 8$, $H_A: \sigma > 8$'
+          value: '$H_0: \sigma = 10$, $H_A: \sigma > 10$'
           feedback: Try again.
         ans8:
-          value: '$H_0: \sigma = 8$, $H_A: \sigma < 8$'
+          value: '$H_0: \sigma = 10$, $H_A: \sigma < 10$'
           feedback: Try again.
         ans9:
-          value: '$H_0: \sigma = 8$, $H_A: \sigma \neq 8$'
+          value: '$H_0: \sigma = 10$, $H_A: \sigma \neq 10$'
           feedback: Try again.
       significance_level: 5%
       part6:

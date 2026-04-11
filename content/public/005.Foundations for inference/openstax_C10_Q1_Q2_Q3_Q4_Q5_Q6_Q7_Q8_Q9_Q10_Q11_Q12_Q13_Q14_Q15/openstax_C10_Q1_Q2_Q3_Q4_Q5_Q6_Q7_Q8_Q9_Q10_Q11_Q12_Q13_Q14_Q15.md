@@ -65,8 +65,10 @@ myst:
         ans6:
           value: matched or paired samples
           feedback: Good Job!
-      scenario2: According to a television commercial, 80% of dentists agree that
-        Ultrafresh toothpaste is the best on the market.
+      scenario2: In a random sample of 100 forests in the United States, 56 were coniferous
+        or contained conifers. In a random sample of 80 forests in Mexico, 40 were
+        coniferous or contained conifers. Is the proportion of conifers in the United
+        States statistically more than the proportion of conifers in Mexico?
       part2:
         ans1:
           value: two means, known variances
@@ -76,10 +78,10 @@ myst:
           feedback: Try Again!
         ans3:
           value: single mean
-          feedback: Good Job!
+          feedback: Try Again!
         ans4:
           value: two proportions
-          feedback: Try Again!
+          feedback: Good Job!
         ans5:
           value: single proportion
           feedback: Try Again!

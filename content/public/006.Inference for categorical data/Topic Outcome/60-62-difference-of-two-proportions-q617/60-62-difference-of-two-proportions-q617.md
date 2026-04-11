@@ -37,8 +37,8 @@ myst:
       vars:
         title: Social experiment, Part I
       inter_provoc: 9
-      non_inter_provoc: 18
-      total_provoc: 27
+      non_inter_provoc: 19
+      total_provoc: 28
       inter_cons: 20
       non_inter_cons: 15
       total_cons: 35

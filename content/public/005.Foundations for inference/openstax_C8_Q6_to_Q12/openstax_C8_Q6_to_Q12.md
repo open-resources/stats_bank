@@ -75,24 +75,24 @@ myst:
     params:
       vars:
         title: Census Form Length
-      x_bar: 8.6
-      sigma: 2.6
-      sample_size: 220
-      other_sample_size: 70
+      x_bar: 8.2
+      sigma: 2.3
+      sample_size: 175
+      other_sample_size: 325
       alpha: 0.1
       confidence: 90
       z_score: 1.6448536269514722
-      higher_confidence: 99
-      higher_z_score: 2.5758293035489004
+      higher_confidence: 98
+      higher_z_score: 2.3263478740408408
       part6:
         ans1:
           value: The confidence level would decrease because a smaller sample size
             requires a smaller critical value to keep the margin of error the same.
-          feedback: Correct!
+          feedback: Try again please!
         ans2:
           value: The confidence level would increase because a smaller sample size
             requires a larger critical value to keep the margin of error the same.
-          feedback: Try again please!
+          feedback: Correct!
         ans3:
           value: The confidence level would stay the same because the margin of error
             did not change.

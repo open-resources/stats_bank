@@ -127,21 +127,21 @@ myst:
       vars:
         title: Foothill College Student Age
       x_bar: 31.4
-      sigma: 15.7
-      sample_size: 34
+      sigma: 14.5
+      sample_size: 21
       alpha: 0.01
       alpha_one_tail: 0.005
       confidence: 99
       z_score: 2.5758293035489004
-      ebm: 6.93549197369783
-      fake_sample_size: 102
-      fake_confidence: 90
+      ebm: 8.150334525313056
+      fake_sample_size: 11
+      fake_confidence: 95
       part4:
         ans1:
-          value: The mean age of a sample of 34 Foothill College Students
+          value: The mean age of a sample of 21 Foothill College Students
           feedback: Nice work!
         ans2:
-          value: The most frequent age of a sample of 34 Foothill College Students
+          value: The most frequent age of a sample of 21 Foothill College Students
           feedback: Please try again
         ans3:
           value: The mean age of all Foothill College Students
@@ -172,7 +172,7 @@ myst:
         option6:
           value: 99%
         option7:
-          value: '6.94'
+          value: '8.15'
         statement1:
           value: a?
           matches: '0.99'
@@ -184,13 +184,13 @@ myst:
           matches: alpha-correct
         statement4:
           value: d?
-          matches: '24.46'
+          matches: '23.25'
         statement5:
           value: e?
           matches: '31.40'
         statement6:
           value: f?
-          matches: '38.34'
+          matches: '39.55'
       part13:
         ans1:
           value: We are 99% confident that the true mean age for Winter Foothill College
@@ -225,12 +225,12 @@ myst:
           value: The margin of error for the mean would decrease because as the sample
             size increases, you need less area under the normal curve (which translates
             into a smaller interval) to capture the true population mean.
-          feedback: Nice work!
+          feedback: Please try again!
         ans2:
           value: The margin of error for the mean would increase because as the sample
             size decreases, you need more area under the normal curve (which translates
             into a larger interval) to capture the true population mean.
-          feedback: Please try again!
+          feedback: Nice work!
         ans3:
           value: The margin of error for the mean would decrease because as the sample
             size increases, you need more area under the normal curve (which translates

@@ -62,7 +62,7 @@ myst:
     params:
       vars:
         title: Chi Squared Choices
-      class_size: 16
+      class_size: 21
       table: |-
         <table style="width:550px">
         <tr>
@@ -71,20 +71,20 @@ myst:
         <th>Observed Count</th>
         </tr><tr>
         <th>A</th>
-        <td>5</td>
-        <td>6</td>
+        <td>2</td>
+        <td>1</td>
         </tr><tr>
         <th>B</th>
-        <td>5</td>
-        <td>3</td>
+        <td>6</td>
+        <td>6</td>
         </tr><tr>
         <th>C</th>
-        <td>5</td>
-        <td>7</td>
+        <td>10</td>
+        <td>11</td>
         </tr><tr>
         <th>D</th>
         <td>2</td>
-        <td>0</td>
+        <td>3</td>
         </tr>
         </table>
       var_array: null

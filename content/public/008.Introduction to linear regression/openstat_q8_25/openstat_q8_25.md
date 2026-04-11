@@ -71,111 +71,111 @@ myst:
         <th>Pr(>|t|)</th>
         </tr><tr>
         <th>(Intercept)</th>
-        <td>$12.325$</td>
-        <td>$1.156$</td>
-        <td>$10.659$</td>
+        <td>$14.921$</td>
+        <td>$0.842$</td>
+        <td>$17.725$</td>
         <td>$0.000$</td>
         </tr><tr>
         <th>poverty%</th>
-        <td>$0.441$</td>
-        <td>$0.059$</td>
-        <td>$7.473$</td>
+        <td>$0.386$</td>
+        <td>$0.050$</td>
+        <td>$7.790$</td>
         <td>$0.000$</td>
         </tr>
         </table>
       graph:
         x:
-        - 18.58813268277673
-        - 16.02547856316889
-        - 17.471744705246554
-        - 20.172903315821976
-        - 26.04394097331304
-        - 22.657543975372818
-        - 16.712391706743276
-        - 8.4391296283559
-        - 9.611628146644948
-        - 17.117267920935852
-        - 11.931741735906737
-        - 20.042393661129072
-        - 23.915474096068184
-        - 21.027650876972988
-        - 19.449662805568224
-        - 15.404452030310882
-        - 30.18815348714523
-        - 18.891953614473664
-        - 23.34749321974786
-        - 20.897138522501553
+        - 22.420573343556683
+        - 15.356536804386227
+        - 11.051272209702272
+        - 23.272684052812785
+        - 23.16164928859918
+        - 11.215030656162464
+        - 17.053925988500108
+        - 9.948350230071426
+        - 15.319244557438104
+        - 16.74290000320448
+        - 12.510083808198791
+        - 11.86964746172276
+        - 9.846712263299839
+        - 29.44216204940582
+        - 16.878603023037105
+        - 20.579459238483977
+        - 19.76770475277627
+        - 11.632601342945243
+        - 5.827539008018569
+        - 16.598811009210486
         y:
-        - 20.110074624921175
-        - 17.790287724218448
-        - 21.87800557364057
-        - 21.293190118196847
-        - 21.918390643898327
-        - 24.020292317055134
-        - 19.994935023129237
-        - 14.864683886746601
-        - 16.5120939255729
-        - 19.16811241553475
-        - 16.77954979201426
-        - 22.305913179700774
-        - 21.865200983932567
-        - 24.057177031304875
-        - 22.131833949922814
-        - 20.448669497643184
-        - 25.262092569476
-        - 19.834452983923736
-        - 20.563399328612654
-        - 22.50680386878881
+        - 23.1427548543744
+        - 18.529191257652794
+        - 20.543033786260484
+        - 23.811004495866086
+        - 25.34425595805479
+        - 18.85263931518072
+        - 20.17671539801697
+        - 18.032902307633638
+        - 20.679681775514283
+        - 21.427400152386923
+        - 22.64392130335396
+        - 19.25561679257629
+        - 17.81151653688504
+        - 25.745042779632463
+        - 21.310028431898
+        - 22.045789379185123
+        - 22.97804139120336
+        - 19.392892764683804
+        - 16.728869468264108
+        - 23.673930393445605
       part5:
-        num1: 19
-        num2: 21
-        num3: 28
-        num4: 2
-        num5: 43
-        num6: 3
+        num1: 21
+        num2: 26
+        num3: 24
+        num4: 8
+        num5: 41
+        num6: 8
         num7: 19
-        num8: 2
-        num9: 7
-        num10: 17
-        num11: 26
-        num12: 6
+        num8: 8
+        num9: 26
+        num10: 16
+        num11: 23
+        num12: 15
         num13: 19
         num14: 22
-        num15: 21
-        num16: 26
-        num17: 21
-        num18: 36
-        num19: 2
+        num15: 26
+        num16: 23
+        num17: 22
+        num18: 37
+        num19: 8
         num20: 22
-        num21: 26
+        num21: 23
       description:
-        num1: 19
-        num2: 12.325
-        num3: 1.156
-        num4: 10.659
+        num1: 21
+        num2: 14.921
+        num3: 0.842
+        num4: 17.725
         num5: 0.0
-        num6: 0.441
-        num7: 0.059
-        num8: 7.473
+        num6: 0.386
+        num7: 0.05
+        num8: 7.79
         num9: 0.0
-        num10: 1.352
-        num11: 75.63
-        num12: 74.27
+        num10: 1.252
+        num11: 77.13
+        num12: 75.85
       part2:
         ans1:
           value: The value is meaningless
           feedback: Correct! Nice work
         ans2:
           value: The expected murder rate in metropolitan areas with no poverty is
-            12.325.
+            14.921.
           feedback: Correct! Nice work
         ans3:
           value: The expected murder rate in metropolitan areas with no poverty is
-            0.441.
+            0.386.
           feedback: Not quite - think about what the value represents.
         ans4:
           value: The expected murder rate in metropolitan areas with no poverty is
-            -12.325.
+            -14.921.
           feedback: Not quite - check what value is being used.
       part3:
         ans1:
@@ -186,15 +186,15 @@ myst:
           feedback: Incorrect - this interpretation of the slope is correct.
       part4:
         ans1:
-          value: Poverty level explains $75.63\%$ of the variability in murder rates
+          value: Poverty level explains $77.13\%$ of the variability in murder rates
             in metropolitan areas.
           feedback: Correct! Nice work
         ans2:
-          value: Poverty level explains $86.96\%$ of the variability in murder rates
+          value: Poverty level explains $87.82\%$ of the variability in murder rates
             in metropolitan areas.
           feedback: Not Quite. Please Try Again!
         ans3:
-          value: Poverty level explains $74.27\%$ of the variability in murder rates
+          value: Poverty level explains $75.85\%$ of the variability in murder rates
             in metropolitan areas.
           feedback: Not Quite. Please Try Again!
 ---

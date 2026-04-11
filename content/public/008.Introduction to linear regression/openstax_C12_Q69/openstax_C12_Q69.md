@@ -78,16 +78,16 @@ myst:
         <th>Maximum value ($)</th>
         </tr><tr>
         <td>$4$</td>
-        <td>$15$</td>
+        <td>$19$</td>
         </tr><tr>
         <td>$14$</td>
-        <td>$16$</td>
+        <td>$15$</td>
         </tr><tr>
         <td>$25$</td>
-        <td>$16$</td>
+        <td>$19$</td>
         </tr><tr>
         <td>$32$</td>
-        <td>$15$</td>
+        <td>$16$</td>
         </tr><tr>
         <td>$43$</td>
         <td>$17$</td>
@@ -96,13 +96,13 @@ myst:
         <td>$15$</td>
         </tr><tr>
         <td>$72$</td>
-        <td>$19$</td>
+        <td>$16$</td>
         </tr><tr>
         <td>$85$</td>
         <td>$17$</td>
         </tr><tr>
         <td>$90$</td>
-        <td>$19$</td>
+        <td>$15$</td>
         </tr>
         </table>
       pages:
@@ -116,15 +116,15 @@ myst:
       - 85
       - 90
       values:
-      - 15
-      - 16
-      - 16
-      - 15
-      - 17
+      - 19
       - 15
       - 19
+      - 16
       - 17
-      - 19
+      - 15
+      - 16
+      - 17
+      - 15
       part1:
         ans1:
           value: We wonder if the better discounts appear earlier in the book so we
@@ -146,10 +146,10 @@ myst:
       part5:
         ans1:
           value: There is a significant linear correlation.
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: There is not a significant linear correlation.
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: There is a significant quadratic correlation.
           feedback: Try again
@@ -165,10 +165,10 @@ myst:
       part6:
         ans1:
           value: Yes, because there is a significant correlation.
-          feedback: Good Job
+          feedback: Try again!
         ans2:
           value: No, because there is not a significant correlation.
-          feedback: Try again!
+          feedback: Good Job
         ans3:
           value: Yes, because 50 is in the range of data used to calculate the least
             squares line.
@@ -246,7 +246,7 @@ Please enter a number.
 
 ## Part 5
 
-Interpert the regressdion line at a signficance level of $\alpha = {{ params.signficance }}$.
+Interpert the regressdion line at a signficance level of $\alpha = {{ params.significance }}$.
 
 ### Answer Section
 

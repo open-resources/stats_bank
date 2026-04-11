@@ -76,28 +76,36 @@ myst:
         <th>Tuan's Rats</th>
         <th>Javier's Rats</th>
         </tr><tr>
-        <th>37.5</th>
-        <td>43.0</td>
-        <td>37.9</td>
+        <th>39.5</th>
+        <td>44.6</td>
+        <td>40.7</td>
         </tr><tr>
-        <th>41.6</th>
-        <td>48.2</td>
-        <td>47.1</td>
+        <th>39.3</th>
+        <td>45.5</td>
+        <td>51.4</td>
         </tr><tr>
-        <th>40.5</th>
+        <th>42.9</th>
+        <td>43.1</td>
+        <td>34.7</td>
+        </tr><tr>
+        <th>36.4</th>
         <td>43.4</td>
-        <td>38.4</td>
+        <td>53.6</td>
         </tr><tr>
-        <th>42.1</th>
+        <th>42.5</th>
+        <td>42.6</td>
+        <td>49.3</td>
+        </tr><tr>
+        <th>42.0</th>
         <td>42.2</td>
-        <td>44.7</td>
+        <td>43.6</td>
         </tr>
         </table>
       linda_sample: null
       tuan_sample: null
       javier_sample: null
-      significance_level: 1
-      sample_size: 4
+      significance_level: 10
+      sample_size: 6
       part1:
         ans1:
           value: '$H_0: \mu_L = \mu_T = \mu_J$ and $H_A: \exists i\ne j: \mu_i \ne
@@ -152,18 +160,18 @@ myst:
           feedback: Try again!
       part7:
         ans1:
-          value: Reject the null hypothesis because the p-value is less than 0.01
+          value: Reject the null hypothesis because the p-value is less than 0.1
           feedback: Try again!
         ans2:
           value: Fail to reject the null hypothesis because the p-value is greater
-            than 0.01
+            than 0.1
           feedback: Good Job
         ans3:
-          value: Reject the null hypothesis because the p-value is greater than 0.01
+          value: Reject the null hypothesis because the p-value is greater than 0.1
           feedback: Try again
         ans4:
           value: Fail to reject the null hypothesis because the p-value is less than
-            0.01
+            0.1
           feedback: Try again
 ---
 # {{ params.vars.title }}

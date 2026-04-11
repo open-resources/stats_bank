@@ -87,23 +87,23 @@ myst:
         title: Age of purchasing BMW boxplot
       chosen_series: '3'
       quantiles1:
-      - 22
-      - 30
-      - 32
-      - 44
-      - 68
-      quantiles2:
+      - 19
+      - 25
       - 34
-      - 40
       - 42
-      - 55
+      - 66
+      quantiles2:
+      - 35
+      - 40
+      - 44
+      - 57
       - 62
       quantiles3:
       - 39
-      - 44
+      - 42
       - 45
-      - 57
-      - 71
+      - 56
+      - 67
       part1:
         ans1:
           value: Each box plot is symmetrical, showing that the ages of the top 50%
@@ -153,10 +153,10 @@ myst:
       part4:
         ans1:
           value: the first quarter
-          feedback: Try again please!
+          feedback: Correct!
         ans2:
           value: the second quarter
-          feedback: Correct!
+          feedback: Try again please!
         ans3:
           value: the third quarter
           feedback: Try again please!
@@ -193,13 +193,13 @@ myst:
           feedback: Try again please!
       part10:
         ans1:
-          value: 30-32
+          value: 25-34
           feedback: Try again please!
         ans2:
-          value: 32-46
+          value: 34-45
           feedback: Try again please!
         ans3:
-          value: 25-27
+          value: 22-23
           feedback: Correct!
 ---
 # {{ params.vars.title }}
